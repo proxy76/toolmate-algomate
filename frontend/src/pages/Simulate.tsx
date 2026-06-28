@@ -1,9 +1,9 @@
-import { Loader2, Play } from "lucide-react";
+import { CheckCircle, Lightbulb, ListOrdered, Loader2, Play } from "lucide-react";
 import { useState } from "react";
 
 import { api, apiErrorMessage } from "../api";
-import { ExerciseCard } from "../components/ExerciseCard";
-import type { Profile, SimulateResponse } from "../types";
+import { TeX } from "../components/TeX";
+import type { Profile, SimItem, SimProblem, SimSubItem, SimulateResponse } from "../types";
 
 const PROFILES: { code: Profile; label: string }[] = [
   { code: "M1", label: "M1 — Mate-Info" },
@@ -11,15 +11,16 @@ const PROFILES: { code: Profile; label: string }[] = [
   { code: "M3", label: "M3 — Pedagogic / Tehnologic" },
 ];
 
-const DIFFICULTIES = [
-  { value: 1, label: "Ușor" },
-  { value: 2, label: "Mediu" },
-  { value: 3, label: "Dificil" },
-];
+const TOPIC_LABELS: Record<string, string> = {
+  matrices: "Matrice",
+  algebraic_structures: "Lege de compoziție",
+  polynomials: "Polinoame",
+  derivatives: "Studiu de funcție",
+  integrals: "Integrale",
+};
 
 export function Simulate() {
   const [profile, setProfile] = useState<Profile>("M1");
-  const [difficulty, setDifficulty] = useState(2);
   const [data, setData] = useState<SimulateResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -29,7 +30,7 @@ export function Simulate() {
     setError(null);
     setLoading(true);
     try {
-      setData(await api.simulate({ profile, difficulty }));
+      setData(await api.simulate({ profile }));
     } catch (err) {
       setError(apiErrorMessage(err));
     } finally {
@@ -38,14 +39,14 @@ export function Simulate() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10 md:py-14">
+    <div className="max-w-3xl mx-auto px-6 py-10 md:py-14">
       <header className="mb-8 max-w-2xl">
         <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-ink-strong text-balance">
           Simulare BAC
         </h1>
         <p className="mt-3 text-ink-muted leading-relaxed text-pretty">
-          Generează un subiect complet cu structura oficială: SUBIECTUL I (6 itemi), SUBIECTUL II
-          (2 probleme), SUBIECTUL III (2 probleme).
+          Un subiect complet, cu structura oficială: Subiectul I (6 itemi), II și III (câte 2
+          probleme cu punctele a, b, c). Fiecare cerință are 5 puncte; 10 puncte din oficiu.
         </p>
       </header>
 
@@ -53,54 +54,26 @@ export function Simulate() {
         onSubmit={onRun}
         className="bg-paper border border-edge rounded-2xl p-6 md:p-8 shadow-sm mb-10"
       >
-        <div className="grid md:grid-cols-2 gap-x-8 gap-y-7">
-          <div>
-            <div className="text-sm font-semibold text-ink mb-2">Profil</div>
-            <div className="flex flex-wrap gap-2">
-              {PROFILES.map((p) => {
-                const active = profile === p.code;
-                return (
-                  <button
-                    type="button"
-                    key={p.code}
-                    onClick={() => setProfile(p.code)}
-                    aria-pressed={active}
-                    className={`px-3 py-2 rounded-lg text-sm font-semibold border transition-colors ${
-                      active
-                        ? "bg-oxblood text-paper border-oxblood"
-                        : "bg-paper text-ink border-edge hover:border-oxblood/40 hover:bg-sunken"
-                    }`}
-                  >
-                    {p.label}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          <div>
-            <div className="text-sm font-semibold text-ink mb-2">Dificultate</div>
-            <div className="flex gap-2">
-              {DIFFICULTIES.map((d) => {
-                const active = difficulty === d.value;
-                return (
-                  <button
-                    type="button"
-                    key={d.value}
-                    onClick={() => setDifficulty(d.value)}
-                    aria-pressed={active}
-                    className={`flex-1 px-3 py-2 rounded-lg text-sm font-semibold border transition-colors ${
-                      active
-                        ? "bg-ochre text-ink-strong border-ochre"
-                        : "bg-paper text-ink border-edge hover:border-ochre/50 hover:bg-sunken"
-                    }`}
-                  >
-                    {d.label}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
+        <div className="text-sm font-semibold text-ink mb-2">Profil</div>
+        <div className="flex flex-wrap gap-2">
+          {PROFILES.map((p) => {
+            const active = profile === p.code;
+            return (
+              <button
+                type="button"
+                key={p.code}
+                onClick={() => setProfile(p.code)}
+                aria-pressed={active}
+                className={`px-3 py-2 rounded-lg text-sm font-semibold border transition-colors ${
+                  active
+                    ? "bg-oxblood text-paper border-oxblood"
+                    : "bg-paper text-ink border-edge hover:border-oxblood/40 hover:bg-sunken"
+                }`}
+              >
+                {p.label}
+              </button>
+            );
+          })}
         </div>
 
         {error && (
@@ -125,38 +98,201 @@ export function Simulate() {
       </form>
 
       {data && (
-        <div className="space-y-12">
-          <Section index="I" title="Subiectul I" items={data.subiectul_I} />
-          <Section index="II" title="Subiectul II" items={data.subiectul_II} />
-          <Section index="III" title="Subiectul III" items={data.subiectul_III} />
+        <div className="space-y-10">
+          <div className="flex flex-wrap items-center justify-between gap-3 pb-2">
+            <h2 className="text-xl font-bold text-ink-strong">
+              Variantă · profil {data.profile}
+            </h2>
+            <span className="text-xs text-ink-muted">
+              {data.officiu_points} puncte din oficiu · total {data.total_points} puncte
+            </span>
+          </div>
+
+          <Subiect title="Subiectul I" points={data.subiect_I.points}>
+            <ol className="space-y-5">
+              {data.subiect_I.items.map((it) => (
+                <ItemRow key={it.number} item={it} />
+              ))}
+            </ol>
+          </Subiect>
+
+          <Subiect title="Subiectul II" points={data.subiect_II.points}>
+            <div className="space-y-8">
+              {data.subiect_II.problems.map((p) => (
+                <ProblemBlock key={p.number} problem={p} />
+              ))}
+            </div>
+          </Subiect>
+
+          <Subiect title="Subiectul III" points={data.subiect_III.points}>
+            <div className="space-y-8">
+              {data.subiect_III.problems.map((p) => (
+                <ProblemBlock key={p.number} problem={p} />
+              ))}
+            </div>
+          </Subiect>
         </div>
       )}
     </div>
   );
 }
 
-function Section({
-  index,
+function Subiect({
   title,
-  items,
+  points,
+  children,
 }: {
-  index: string;
   title: string;
-  items: SimulateResponse["subiectul_I"];
+  points: number;
+  children: React.ReactNode;
 }) {
   return (
-    <section>
-      <div className="flex items-center gap-3 mb-5">
-        <span className="grid place-items-center min-w-9 h-9 px-2 rounded-lg bg-oxblood/10 text-oxblood-deep text-sm font-bold">
-          {index}
+    <section className="bg-paper border border-edge rounded-2xl shadow-sm p-6 md:p-8">
+      <div className="flex items-baseline justify-between gap-3 mb-5 pb-4 border-b border-edge">
+        <h3 className="text-lg font-bold text-ink-strong uppercase tracking-wide">{title}</h3>
+        <span className="text-xs font-semibold text-oxblood-deep bg-oxblood/10 px-2.5 py-1 rounded-full">
+          {points} puncte
         </span>
-        <h2 className="text-xl font-bold text-ink-strong">{title}</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-        {items.map((ex) => (
-          <ExerciseCard key={ex.id} exercise={ex} />
-        ))}
-      </div>
+      {children}
     </section>
+  );
+}
+
+function ItemRow({ item }: { item: SimItem }) {
+  return (
+    <li className="flex gap-3">
+      <span className="shrink-0 grid place-items-center w-7 h-7 rounded-lg bg-sunken text-ink-muted text-sm font-bold">
+        {item.number}
+      </span>
+      <div className="min-w-0 flex-1">
+        <div className="text-mathink font-medium">
+          <TeX source={item.question_latex} />
+        </div>
+        <Reveals item={item} />
+      </div>
+    </li>
+  );
+}
+
+function ProblemBlock({ problem }: { problem: SimProblem }) {
+  const label = TOPIC_LABELS[problem.topic_primary];
+  return (
+    <div>
+      <div className="flex items-center gap-2 mb-2">
+        <h4 className="font-bold text-ink-strong">Problema {problem.number}</h4>
+        {label && (
+          <span className="text-xs text-ink-muted bg-sunken border border-edge px-2 py-0.5 rounded-full">
+            {label}
+          </span>
+        )}
+      </div>
+      {problem.statement_latex && (
+        <div className="text-mathink font-medium mb-4">
+          <TeX source={problem.statement_latex} />
+        </div>
+      )}
+      <ol className="space-y-4">
+        {problem.sub_items.map((sub) => (
+          <li key={sub.label} className="flex gap-3">
+            <span className="shrink-0 font-bold text-oxblood-deep">{sub.label})</span>
+            <div className="min-w-0 flex-1">
+              <div className="text-mathink">
+                <TeX source={sub.question_latex} />
+              </div>
+              <Reveals item={sub} />
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+/** Inline hint / answer / steps toggles, shared by items and sub-items. */
+function Reveals({ item }: { item: SimItem | SimSubItem }) {
+  const [open, setOpen] = useState<"hint" | "answer" | "steps" | null>(null);
+  const hasHint = !!item.hint_latex;
+  const hasSteps = !!item.steps_latex?.length;
+  const toggle = (v: "hint" | "answer" | "steps") => setOpen((cur) => (cur === v ? null : v));
+
+  return (
+    <div className="mt-2.5">
+      <div className="flex flex-wrap gap-2">
+        {hasHint && (
+          <RevealButton
+            active={open === "hint"}
+            activeClass="bg-ochre/15 text-ochre-ink border-ochre/40"
+            icon={<Lightbulb size={14} />}
+            label="Indiciu"
+            onClick={() => toggle("hint")}
+          />
+        )}
+        <RevealButton
+          active={open === "answer"}
+          activeClass="bg-verified-tint text-verified-ink border-verified-edge"
+          icon={<CheckCircle size={14} />}
+          label="Răspuns"
+          onClick={() => toggle("answer")}
+        />
+        {hasSteps && (
+          <RevealButton
+            active={open === "steps"}
+            activeClass="bg-sunken text-ink border-ink/20"
+            icon={<ListOrdered size={14} />}
+            label="Pași"
+            onClick={() => toggle("steps")}
+          />
+        )}
+      </div>
+
+      {open === "hint" && hasHint && (
+        <div className="mt-2 p-3 bg-ochre/10 border border-ochre/30 rounded-xl text-ink text-sm animate-fadeIn">
+          <TeX source={item.hint_latex!} />
+        </div>
+      )}
+      {open === "answer" && (
+        <div className="mt-2 p-3 bg-verified-tint border border-verified-edge rounded-xl text-verified-ink font-medium animate-fadeIn">
+          <TeX source={item.answer_latex} />
+        </div>
+      )}
+      {open === "steps" && hasSteps && (
+        <ol className="mt-2 p-3 bg-sunken border border-edge rounded-xl text-ink text-sm space-y-1.5 animate-fadeIn list-decimal list-inside marker:text-ink-faint marker:font-semibold">
+          {item.steps_latex!.map((s, i) => (
+            <li key={i} className="pl-1">
+              <TeX source={s} />
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
+function RevealButton({
+  active,
+  activeClass,
+  icon,
+  label,
+  onClick,
+}: {
+  active: boolean;
+  activeClass: string;
+  icon: React.ReactNode;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold border transition-colors ${
+        active ? activeClass : "bg-paper text-ink-muted border-edge hover:bg-sunken hover:text-ink"
+      }`}
+    >
+      {icon}
+      {label}
+    </button>
   );
 }
