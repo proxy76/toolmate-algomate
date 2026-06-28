@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply font-sans bg-sunken text-ink antialiased;
+}
+
+/* Equations are the figure on the page: the darkest, heaviest mark. */
+.katex {
+  color: theme("colors.mathink");
+}
+
+/* Keep long equations from overflowing their card on small screens. */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25rem;
+}
+
+/* A single, consistent keyboard-focus treatment across the app (WCAG 2.1 AA). */
+@layer base {
+  :focus-visible {
+    outline: 2px solid theme("colors.oxblood.DEFAULT");
+    outline-offset: 2px;
+  }
+  /* Mouse/touch users keep clean surfaces; only keyboard nav shows the ring. */
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+/* Reduced motion is not optional. Collapse transitions and swap the reveal
+   for a positionless crossfade. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-fadeIn {
+    animation: fadeInSoft 0.01ms forwards;
+  }
+}
