@@ -158,8 +158,10 @@ Canonical data (from spec §8.2, §10.2, §3–5):
 
 ### Phase 2 — Port Subiectul-I + M1 topics (spec §14.1 Faza 2)
 - [ ] P2.1 logarithms (incl. M3)  · [ ] P2.2 complex (M1 full / M2 algebraic)
-- [ ] P2.3 polynomials  · [ ] P2.4 geometry (NEW)  · [ ] P2.5 trigonometry
-- [ ] P2.6 combinatorics  · [ ] P2.7 integrals (problem-capable)
+- [ ] P2.3 polynomials  · [x] P2.4 geometry (NEW, all profiles) — `topics/geometry.py`, removes Subiectul I fallback
+- [ ] P2.5 trigonometry  · [ ] P2.6 combinatorics
+- [x] P2.7 integrals (problem-capable) — `IntegralsProblem` (primitive / ∫ / area, all sympy-verified)
+- [x] P2.8 derivatives Subiectul-III problem-form — `DerivativesStudyProblem` (cubic: f'/monotonie/1-root; rational: f'/oblique/vertical asymptote). **Retires the `_adapter_problem` for M1/M2 Subiectul III.**
 
 ### Phase 3 — Complete M2/M3 + extras (spec §14.1 Faza 3)
 - [ ] P3.1 progressions  · [ ] P3.2 sequences (NEW)  · [ ] P3.3 limits
@@ -178,14 +180,14 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 
 | Topic | M1 | M2 | M3 | Notes |
 |-------|----|----|----|-------|
-| derivatives | 🟡 | 🟡 | 🟡 | single-item class done; Subiect-III problem-form still adapter (Phase 2) |
+| derivatives | ✅ | ✅ | 🟡 | single-item class (all) + `DerivativesStudyProblem` (M1/M2 Subiect III) |
 | matrices | ✅ | ✅ | ✅ | `MatricesProblem` (a/b/c + M3 6-item), homomorphism family, sympy-verified |
 | algebraic_structures | ✅ | ✅ | ✅ | `AlgebraicStructuresProblem` (a/b/c + M3 6-item), comm/assoc/neutral verified |
-| integrals | ⬜ | ⬜ | — | M3 excluded |
+| integrals | ✅ | ✅ | — | `IntegralsProblem` (primitive/∫/area verified); M3 excluded |
 | logarithms | ⬜ | ⬜ | ❌ | add M3 |
 | complex | ⬜ | ⬜(alg) | — | M3 excluded |
 | polynomials | ⬜ | ⬜ | — | |
-| geometry | ❌ | ❌ | ❌ | NEW, all profiles |
+| geometry | ✅ | ✅ | ✅ | `GeometryGenerator` single-item (point/midpoint/distance/vector/Pitagora), all sympy-verified |
 | trigonometry | ⬜ | ⬜ | ⬜ | |
 | combinatorics | ⬜ | ⬜ | ⬜ | |
 | progressions | — | ⬜ | ⬜ | M1 excluded per spec §8.2 |
@@ -249,3 +251,26 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   fallback) and P2.1 `logarithms` incl. M3; then problem-forms for
   `derivatives`/`integrals` (Subiectul III) to replace the `_adapter_problem`
   bridge with truly linked sub-items.
+
+### Session 3 — 2026-06-29  (branch `feature/phase2`, off `feature/phase1`)
+- **P2.4 `geometry`** (NEW, single-item, all profiles) — `topics/geometry.py`:
+  point-on-line, midpoint, distance (Pythagorean triples → integer), vector
+  equality, right-triangle/Pitagora (BC/perimeter/area), + d2 collinearity &
+  parallelogram. All values sympy-computed. Now in `CLASS_REGISTRY` → appears in
+  the `/generate` menu and **removes the Subiectul I geometry fallback**.
+- **P2.8 `DerivativesStudyProblem`** (M1/M2 Subiect III) — added to
+  `topics/derivatives.py`: cubic mode (f' / strict monotonie / exactly one real
+  root, guaranteed by a>0) and rational mode (f' / oblique + vertical asymptote),
+  all sympy-verified. In `PROBLEM_REGISTRY`.
+- **P2.7 `IntegralsProblem`** (M1/M2 Subiect III) — `topics/integrals.py`:
+  primitive check (F'=f), definite integral (Leibniz–Newton), area (exact, split
+  at sign changes). In `PROBLEM_REGISTRY`.
+- **Effect:** M1/M2 **Subiectul III is now real linked problems** (derivatives +
+  integrals), not the adapter; geometry is live in Subiectul I. No frontend change
+  needed (statements now populate where the adapter left them blank).
+- Verified `smoke_p2.py`: 360 geometry items; 60 derivatives + 60 integrals
+  problems sympy-verified; simulate M1/M2 III statements present & topics correct;
+  geometry present in Subiectul I. P1 regression + `manage.py check` clean.
+- **Next:** P2.1 logarithms (incl. M3 — removes another Subiectul I fallback),
+  P2.3 polynomials problem-form (M1/M2 Subiect II prob 2), P2.2 complex, then
+  Phase 3 (`progressions`/`sequences`/`statistics`/`systems`).
