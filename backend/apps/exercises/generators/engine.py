@@ -161,12 +161,31 @@ def _adapter_problem(topic, profile, rng, *, six: bool, number: int) -> dict:
 
 
 def _pick_topic(choices, profile, rng) -> str:
-    """Choose a slot topic, falling back to an available one if unbuilt."""
+    """Choose a single-item slot topic (Subiectul I), with fallback."""
     pool = [c for c in choices if _has_generator(c, profile)]
     if pool:
         return pool[rng.randrange(len(pool))]
     avail = _available_topics(profile)
     return avail[rng.randrange(len(avail))] if avail else choices[0]
+
+
+def _has_problem(topic: str, profile: str) -> bool:
+    cls = PROBLEM_REGISTRY.get(topic)
+    return bool(cls and profile in cls.SUPPORTED_PROFILES)
+
+
+def _pick_problem_topic(choices, profile, rng) -> str:
+    """Choose a Subiect II/III problem topic, preferring a real ProblemGenerator
+    over a single-item topic (which would only yield an adapter)."""
+    real = [c for c in choices if _has_problem(c, profile)]
+    if real:
+        return real[rng.randrange(len(real))]
+    adaptable = [c for c in choices if _has_generator(c, profile)]
+    if adaptable:
+        return adaptable[rng.randrange(len(adaptable))]
+    pool = [t for t in PROFILE_TOPICS[profile] if _has_problem(t, profile)] \
+        or _available_topics(profile)
+    return pool[rng.randrange(len(pool))] if pool else choices[0]
 
 
 def _build_subiect_problems(spec, profile, seed, tag) -> dict:
@@ -178,7 +197,7 @@ def _build_subiect_problems(spec, profile, seed, tag) -> dict:
     problems = []
     for pnum, choices in enumerate(spec["problems"], start=1):
         rng = _rng(seed, tag, pnum)
-        topic = _pick_topic(choices, profile, rng)
+        topic = _pick_problem_topic(choices, profile, rng)
         problems.append(_make_problem(topic, profile, rng, six=False, number=pnum))
     return {"points": len(problems) * 3 * 5, "problems": problems}
 

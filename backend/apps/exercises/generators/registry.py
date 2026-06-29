@@ -124,6 +124,9 @@ def _register():
         "derivatives": ("topics.derivatives", "DerivativesGenerator"),
         "geometry": ("topics.geometry", "GeometryGenerator"),
         "logarithms": ("topics.logarithms", "LogarithmsGenerator"),
+        "sequences": ("topics.sequences", "SequencesGenerator"),
+        "statistics": ("topics.statistics", "StatisticsGenerator"),
+        "systems": ("topics.systems", "SystemsGenerator"),
     }
     problem = {
         "matrices": ("topics.matrices", "MatricesProblem"),

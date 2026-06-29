@@ -166,8 +166,13 @@ Canonical data (from spec §8.2, §10.2, §3–5):
 - [x] P2.8 derivatives Subiectul-III problem-form — `DerivativesStudyProblem` (cubic: f'/monotonie/1-root; rational: f'/oblique/vertical asymptote). **Retires the `_adapter_problem` for M1/M2 Subiectul III.**
 
 ### Phase 3 — Complete M2/M3 + extras (spec §14.1 Faza 3)
-- [ ] P3.1 progressions  · [ ] P3.2 sequences (NEW)  · [ ] P3.3 limits
-- [ ] P3.4 powers  · [ ] P3.5 statistics (NEW)  · [ ] P3.6 systems (NEW)
+- [ ] P3.1 progressions (legacy func works)  · [x] P3.2 sequences (NEW) — `topics/sequences.py` (limits/series/recurrence/Cesàro)
+- [ ] P3.3 limits (legacy func works)  · [ ] P3.4 powers (legacy func works)
+- [x] P3.5 statistics (NEW) — `topics/statistics.py` (mean/median/find-value, M3)
+- [x] P3.6 systems (NEW) — `topics/systems.py` (2×2 / 3×3 / parametric, M1/M2)
+- [x] P3.7 engine fix — `_pick_problem_topic` prefers problem-capable topics for
+  Subiect II/III, so the `_adapter_problem` is no longer reached in normal
+  simulate (every II/III problem is a real linked `ProblemGenerator`).
 
 ### Phase 4 — Hardening & conventions
 - [ ] P4.1 `latexconv.py` + apply §12 grammar/sets everywhere.
@@ -193,11 +198,11 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 | trigonometry | ⬜ | ⬜ | ⬜ | |
 | combinatorics | ⬜ | ⬜ | ⬜ | |
 | progressions | — | ⬜ | ⬜ | M1 excluded per spec §8.2 |
-| sequences | ❌ | ❌ | — | NEW M1/M2 |
+| sequences | ✅ | ✅ | — | `SequencesGenerator` (limits/series/recurrence/Cesàro), sympy-verified |
 | limits | ⬜ | ⬜ | — | |
 | powers | ⬜ | ⬜ | ⬜ | |
-| statistics | — | — | ❌ | NEW M3 |
-| systems | ❌ | ❌ | — | NEW M1/M2 |
+| statistics | — | — | ✅ | `StatisticsGenerator` (mean/median/find-value), exact rationals |
+| systems | ✅ | ✅ | — | `SystemsGenerator` (2×2 / 3×3 / parametric), `linsolve`/`det` verified |
 
 ## 8. Open questions / risks
 
@@ -293,3 +298,26 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   logarithms. P1+P2 regression + `manage.py check` clean.
 - **Next:** P2.2 complex (M1 full / M2 algebraic), P2.5 trigonometry, P2.6
   combinatorics (port to classes); then Phase 3 + Phase 4 hardening.
+
+### Session 3 (cont. 2) — 2026-06-29  (branch `feature/phase2`)
+- **NEW generators** (filled the last `PROFILE_TOPICS` gaps):
+  - `topics/sequences.py` `SequencesGenerator` (M1/M2): rational limit, recurrence
+    term, infinite geometric series, Cesàro–Stolz (M1). sympy `limit`/`summation`.
+  - `topics/statistics.py` `StatisticsGenerator` (M3): mean, median, find-value
+    for a target mean. Exact `Rational`s (no floats).
+  - `topics/systems.py` `SystemsGenerator` (M1/M2): 2×2, 3×3 (M1), parametric
+    (det ≠ 0). Built from a chosen integer solution, verified with `linsolve`.
+  - All three registered in `CLASS_REGISTRY` → now in the `/generate` menus.
+- **Engine fix (P3.7):** `_pick_problem_topic` prefers a real `ProblemGenerator`
+  for Subiect II/III; `algebraic_structures` (problem-only) was previously
+  discarded by the single-item availability check and fell through to the
+  adapter. Now **every II/III problem across M1/M2/M3 × seeds is a real linked
+  problem** — the adapter is a dead safety net.
+- Verified `smoke_p3.py` (600 items) + P1/P2/P2b regression + "no empty
+  statements across M1/M2/M3 × 5 seeds" + `manage.py check` + live menus/generate.
+- Coverage: M1 13/14, M2 14/15, M3 8/10 (the absent ones are `algebraic_structures`
+  / M3 `matrices`, intentionally problem-only).
+- **Next:** port `complex` (M2 algebraic restriction), `trigonometry`,
+  `combinatorics`, `progressions`, `limits`, `powers` to classes (cleanup; they
+  work as legacy now), then Phase 4 hardening (`latexconv.py`, central validation,
+  committed test suite, remove legacy modules).
