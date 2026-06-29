@@ -127,6 +127,12 @@ def _register():
         "sequences": ("topics.sequences", "SequencesGenerator"),
         "statistics": ("topics.statistics", "StatisticsGenerator"),
         "systems": ("topics.systems", "SystemsGenerator"),
+        "powers": ("topics.powers", "PowersGenerator"),
+        "complex": ("topics.complex", "ComplexNumbersGenerator"),
+        "trigonometry": ("topics.trigonometry", "TrigonometryGenerator"),
+        "combinatorics": ("topics.combinatorics", "CombinatoricsGenerator"),
+        "progressions": ("topics.progressions", "ProgressionsGenerator"),
+        "limits": ("topics.limits", "LimitsGenerator"),
     }
     problem = {
         "matrices": ("topics.matrices", "MatricesProblem"),

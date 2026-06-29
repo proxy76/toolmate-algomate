@@ -7,6 +7,10 @@
 > session can resume without re-reading everything. When `generator.md` and this
 > file disagree, **`generator.md` wins** — fix this file.
 
+> **STATUS: feature-complete vs `generator.md`.** All topics are class-based; the
+> legacy function modules are removed (P4.5). Remaining work is optional polish
+> (single-item facades for problem-only topics, more subtype variety, more tests).
+
 **Continuity protocol per session**
 1. Read this file top-to-bottom (esp. *Step Plan* and *Session Log*).
 2. Pick the next unchecked step. Re-open the relevant `generator.md` section.
@@ -158,16 +162,16 @@ Canonical data (from spec §8.2, §10.2, §3–5):
 
 ### Phase 2 — Port Subiectul-I + M1 topics (spec §14.1 Faza 2)
 - [x] P2.1 logarithms (incl. **M3**) — `topics/logarithms.py` class (identity / simple eq / linear eq / inequality; M3 restricted to simple). Removes the M3 Subiectul I logarithms fallback.
-- [ ] P2.2 complex (M1 full / M2 algebraic)
+- [x] P2.2 complex (M1 full / M2 algebraic) — `topics/complex.py` class
 - [x] P2.3 polynomials — `PolynomialsProblem` (M1/M2 Subiectul II prob 2: f(1) fixed / division / Viète). **Retires the polynomials adapter.**
 - [x] P2.4 geometry (NEW, all profiles) — `topics/geometry.py`, removes Subiectul I fallback
-- [ ] P2.5 trigonometry  · [ ] P2.6 combinatorics
+- [x] P2.5 trigonometry — `topics/trigonometry.py` class  · [x] P2.6 combinatorics — `topics/combinatorics.py` class
 - [x] P2.7 integrals (problem-capable) — `IntegralsProblem` (primitive / ∫ / area, all sympy-verified)
 - [x] P2.8 derivatives Subiectul-III problem-form — `DerivativesStudyProblem` (cubic: f'/monotonie/1-root; rational: f'/oblique/vertical asymptote). **Retires the `_adapter_problem` for M1/M2 Subiectul III.**
 
 ### Phase 3 — Complete M2/M3 + extras (spec §14.1 Faza 3)
-- [ ] P3.1 progressions (legacy func works)  · [x] P3.2 sequences (NEW) — `topics/sequences.py` (limits/series/recurrence/Cesàro)
-- [ ] P3.3 limits (legacy func works)  · [ ] P3.4 powers (legacy func works)
+- [x] P3.1 progressions — `topics/progressions.py` class  · [x] P3.2 sequences (NEW) — `topics/sequences.py` (limits/series/recurrence/Cesàro)
+- [x] P3.3 limits — `topics/limits.py` class  · [x] P3.4 powers — `topics/powers.py` class
 - [x] P3.5 statistics (NEW) — `topics/statistics.py` (mean/median/find-value, M3)
 - [x] P3.6 systems (NEW) — `topics/systems.py` (2×2 / 3×3 / parametric, M1/M2)
 - [x] P3.7 engine fix — `_pick_problem_topic` prefers problem-capable topics for
@@ -179,7 +183,17 @@ Canonical data (from spec §8.2, §10.2, §3–5):
 - [x] P4.2 Central validation gardens — `validation.py` (`is_sane_value`, `is_clean_latex`, `item_is_clean`); wired as a final gate in `ExerciseGenerator.generate` and `ProblemGenerator.generate` (§11.3–11.4).
 - [x] P4.3 Test suite — `apps/exercises/tests/test_generators.py` (15 tests, `python manage.py test apps.exercises`): reproducibility, variety >50/100, structure+points, M3 special-casing, progressive difficulty, profile restriction, per-generator robustness, sympy correctness, validation.
 - [x] P4.4 Checklist-as-tests — §14.2–14.3 items covered by the suite (robustness, structure, points, restrictions, correctness).
-- [ ] P4.5 Remove legacy function modules — **BLOCKED** until `complex`/`trigonometry`/`combinatorics`/`progressions`/`limits`/`powers` are ported to classes (they still serve via the legacy registry).
+- [x] P4.5 **Remove legacy function modules** — DONE. Ported the 6 remaining
+  single-item topics to classes via a new `TieredExerciseGenerator` base, then
+  deleted all 11 legacy `generators/*.py` topic modules and the legacy
+  `__init__.py` `REGISTRY`; `engine.py` no longer has a legacy fallback. The
+  codebase is now **fully class-based** (12 single-item in `CLASS_REGISTRY`, 5
+  problems in `PROBLEM_REGISTRY`; only `_utils.py` helpers remain).
+  **Architecture rule established:** multi-part topics (`matrices`, `polynomials`,
+  `integrals`, `algebraic_structures`) are **problem-only** (simulate Subiect
+  II/III); atomic topics are single-item (`/generate`). So those four are no
+  longer in the `/generate` menu — add single-item facades later only if
+  individual practice of them is wanted.
 
 ## 7. Generator status
 
@@ -192,15 +206,15 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 | algebraic_structures | ✅ | ✅ | ✅ | `AlgebraicStructuresProblem` (a/b/c + M3 6-item), comm/assoc/neutral verified |
 | integrals | ✅ | ✅ | — | `IntegralsProblem` (primitive/∫/area verified); M3 excluded |
 | logarithms | ✅ | ✅ | ✅ | `LogarithmsGenerator` class (incl. M3 simple eq/identity); supersedes legacy func |
-| complex | ⬜ | ⬜(alg) | — | M3 excluded |
+| complex | ✅ | ✅(alg) | — | `ComplexNumbersGenerator` class; M2 algebraic-only; M3 excluded |
 | polynomials | ✅ | ✅ | — | `PolynomialsProblem` (Subiect II prob 2: eval/division/Viète), sympy-verified |
 | geometry | ✅ | ✅ | ✅ | `GeometryGenerator` single-item (point/midpoint/distance/vector/Pitagora), all sympy-verified |
-| trigonometry | ⬜ | ⬜ | ⬜ | |
-| combinatorics | ⬜ | ⬜ | ⬜ | |
-| progressions | — | ⬜ | ⬜ | M1 excluded per spec §8.2 |
+| trigonometry | ✅ | ✅ | ✅ | `TrigonometryGenerator` class; M3 = remarkable values |
+| combinatorics | ✅ | ✅ | ✅ | `CombinatoricsGenerator` class; M3 = direct counting |
+| progressions | — | ✅ | ✅ | `ProgressionsGenerator` class; M1 excluded per spec §8.2 |
 | sequences | ✅ | ✅ | — | `SequencesGenerator` (limits/series/recurrence/Cesàro), sympy-verified |
-| limits | ⬜ | ⬜ | — | |
-| powers | ⬜ | ⬜ | ⬜ | |
+| limits | ✅ | ✅ | — | `LimitsGenerator` class |
+| powers | ✅ | ✅ | ✅ | `PowersGenerator` class; M3 = D1 laws only |
 | statistics | — | — | ✅ | `StatisticsGenerator` (mean/median/find-value), exact rationals |
 | systems | ✅ | ✅ | — | `SystemsGenerator` (2×2 / 3×3 / parametric), `linsolve`/`det` verified |
 
@@ -298,6 +312,24 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   logarithms. P1+P2 regression + `manage.py check` clean.
 - **Next:** P2.2 complex (M1 full / M2 algebraic), P2.5 trigonometry, P2.6
   combinatorics (port to classes); then Phase 3 + Phase 4 hardening.
+
+### Session 3 (cont. 4) — Port remaining 6 + unblock P4.5 — 2026-06-29  (branch `feature/phase2`)
+- Added `TieredExerciseGenerator` base (reuses `_utils.choose_subtype` + subtype
+  functions, applies the validation gate).
+- Ported the 6 remaining legacy single-item topics to classes in `topics/`:
+  `powers`, `complex` (M2 algebraic-only), `trigonometry`, `combinatorics`,
+  `progressions`, `limits` — subtype logic copied verbatim from the legacy
+  modules (already production-correct), registered in `CLASS_REGISTRY`.
+- **Deleted all 11 legacy `generators/*.py` topic modules** + emptied the legacy
+  `__init__.py` `REGISTRY`; removed the legacy fallback from `engine.py`. Codebase
+  is **fully class-based** now (`_utils.py` kept as shared helpers).
+- **Decision:** multi-part topics (`matrices`, `polynomials`, `integrals`,
+  `algebraic_structures`) are problem-only → dropped from the `/generate` menu
+  (M1 10 / M2 11 / M3 8 single-item topics); every `PROFILE_TOPICS` entry is still
+  covered (single-item *or* problem). Optional follow-up: single-item facades.
+- Verified: 15-test suite green, `manage.py check`, live generate/simulate for all
+  profiles (II/III all real problems), full topic coverage with no "uncovered".
+- **Rework is feature-complete vs `generator.md`.**
 
 ### Session 3 (cont. 3) — Phase 4 hardening — 2026-06-29  (branch `feature/phase2`)
 - `generators/latexconv.py` (P4.1): `LATEX_SETS`, `RO_TERMS`, `sympy_to_bac_latex`

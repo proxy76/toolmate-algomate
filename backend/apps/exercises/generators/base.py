@@ -111,6 +111,54 @@ class ExerciseGenerator(ABC):
             return f"${sp.latex(answer)}$"
 
 
+class TieredExerciseGenerator(ExerciseGenerator):
+    """Single-item generator driven by a ``{difficulty: [subtype_fn]}`` map.
+
+    Each ``subtype_fn(rng)`` returns a complete item dict (topic / question /
+    answer / hint? / steps?) — typically built with ``_utils.make`` and verified
+    inside the function. The tier is chosen by the requested difficulty with
+    graceful fallback (``_utils.choose_subtype``). Subclasses set ``TOPIC_CODE`` /
+    ``SUPPORTED_PROFILES`` and implement :meth:`_tiers` (may depend on profile,
+    e.g. M3 = a reduced tier map).
+    """
+
+    def _tiers(self) -> dict:
+        raise NotImplementedError
+
+    # The ABC hooks below are unused — ``generate`` is overridden — but must exist.
+    def _generate_params(self) -> dict:
+        return {}
+
+    def _compute_answer(self, params):
+        return None
+
+    def _validate(self, params, answer) -> bool:
+        return True
+
+    def _build_question(self, params) -> str:
+        return ""
+
+    def generate(self) -> dict:
+        from ._utils import choose_subtype
+        from .validation import item_is_clean
+
+        for _ in range(self.MAX_RETRIES):
+            try:
+                item = choose_subtype(self.difficulty, self.rng, self._tiers())
+                item.setdefault("topic", self.TOPIC_CODE)
+                item.setdefault("difficulty", self.difficulty)
+                if not item_is_clean(item):
+                    continue
+                return item
+            except Exception:
+                continue
+        raise RuntimeError(
+            f"Generatorul {self.TOPIC_CODE} nu a putut produce un exercițiu valid "
+            f"în {self.MAX_RETRIES} tentative "
+            f"(profile={self.profile}, difficulty={self.difficulty})"
+        )
+
+
 class ProblemGenerator(ABC):
     """Base class for a multi-part *problem* (Subiectul II/III).
 

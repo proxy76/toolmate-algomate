@@ -20,7 +20,6 @@ import hashlib
 import random
 import secrets
 
-from . import REGISTRY as LEGACY_REGISTRY  # (topic, profile) -> callable
 from .difficulty import compute_item_difficulty
 from .registry import (
     CLASS_REGISTRY,
@@ -57,22 +56,14 @@ def _rng(seed: str, *parts) -> random.Random:
 # --- generator availability + single-item production -------------------------
 def _has_generator(topic: str, profile: str) -> bool:
     cls = CLASS_REGISTRY.get(topic)
-    if cls and profile in cls.SUPPORTED_PROFILES:
-        return True
-    return (topic, profile) in LEGACY_REGISTRY
+    return bool(cls and profile in cls.SUPPORTED_PROFILES)
 
 
 def _make_single(topic: str, profile: str, difficulty: int, rng: random.Random) -> dict:
     cls = CLASS_REGISTRY.get(topic)
-    if cls and profile in cls.SUPPORTED_PROFILES:
-        return cls(profile, difficulty, rng).generate()
-    fn = LEGACY_REGISTRY.get((topic, profile))
-    if fn is None:
+    if not (cls and profile in cls.SUPPORTED_PROFILES):
         raise GenerationError(f"Niciun generator pentru {topic}/{profile}.")
-    item = fn(difficulty, rng)
-    item.setdefault("difficulty", difficulty)
-    item.setdefault("topic", topic)
-    return item
+    return cls(profile, difficulty, rng).generate()
 
 
 def _available_topics(profile: str) -> list[str]:
