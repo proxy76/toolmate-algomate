@@ -2,7 +2,7 @@ from rest_framework import generics, permissions, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from . import engine
+from .generators import engine
 from .models import ExerciseSession
 from .serializers import (
     ExerciseSessionSerializer,
@@ -34,8 +34,10 @@ class GenerateView(APIView):
     def post(self, request):
         ser = GenerateRequestSerializer(data=request.data)
         ser.is_valid(raise_exception=True)
+        data = dict(ser.validated_data)
+        data["seed"] = data.get("seed") or None
         try:
-            result = engine.generate_set(**ser.validated_data)
+            result = engine.generate_exercises(**data)
         except engine.GenerationError as exc:
             return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
         return Response(result)
@@ -48,8 +50,11 @@ class SimulateView(APIView):
     def post(self, request):
         ser = SimulateRequestSerializer(data=request.data)
         ser.is_valid(raise_exception=True)
+        data = ser.validated_data
         try:
-            result = engine.simulate_bac(**ser.validated_data)
+            result = engine.generate_full_simulation(
+                profile=data["profile"], seed=data.get("seed") or None
+            )
         except engine.GenerationError as exc:
             return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
         return Response(result)
