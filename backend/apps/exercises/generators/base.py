@@ -89,6 +89,9 @@ class ExerciseGenerator(ABC):
                 steps = self._build_steps(params)
                 if steps:
                     item["steps_latex"] = steps
+                from .validation import is_sane_value, item_is_clean
+                if not is_sane_value(answer) or not item_is_clean(item):
+                    continue
                 return item
             except Exception:
                 continue
@@ -173,6 +176,7 @@ class ProblemGenerator(ABC):
                 ctx = self._generate_context()
                 if not self._validate_context(ctx):
                     continue
+                from .validation import is_clean_latex, item_is_clean
                 sub_items = []
                 for label, tier in zip(self.SUB_LABELS, self._sub_tiers()):
                     sub = self._build_sub_item(ctx, label, tier)
@@ -180,10 +184,13 @@ class ProblemGenerator(ABC):
                     sub.setdefault("steps_latex", [])
                     sub.update(label=label, points=self.POINTS_PER_SUB, difficulty=tier)
                     sub_items.append(sub)
+                statement = self._build_statement(ctx)
+                if not is_clean_latex(statement) or not all(item_is_clean(s) for s in sub_items):
+                    continue
                 return {
                     "number": number,
                     "topic_primary": self.TOPIC_CODE,
-                    "statement_latex": self._build_statement(ctx),
+                    "statement_latex": statement,
                     "sub_items": sub_items,
                 }
             except Exception:

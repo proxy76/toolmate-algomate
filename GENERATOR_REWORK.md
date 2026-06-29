@@ -175,11 +175,11 @@ Canonical data (from spec §8.2, §10.2, §3–5):
   simulate (every II/III problem is a real linked `ProblemGenerator`).
 
 ### Phase 4 — Hardening & conventions
-- [ ] P4.1 `latexconv.py` + apply §12 grammar/sets everywhere.
-- [ ] P4.2 Central validation gardens (§11.3–11.4).
-- [ ] P4.3 Test suite: reproducibility, variety (>50/100), points, profile-restriction (§14.4).
-- [ ] P4.4 Final checklist pass (§14.2–14.3) per generator + SimulateView.
-- [ ] P4.5 Remove legacy function modules once all topics ported.
+- [x] P4.1 `latexconv.py` — `LATEX_SETS`, `RO_TERMS`, `sympy_to_bac_latex` (used by base default). Note: deliberately does **not** apply the spec's buggy `\log→\ln` replacement. Generators already follow §12 grammar/sets in their strings.
+- [x] P4.2 Central validation gardens — `validation.py` (`is_sane_value`, `is_clean_latex`, `item_is_clean`); wired as a final gate in `ExerciseGenerator.generate` and `ProblemGenerator.generate` (§11.3–11.4).
+- [x] P4.3 Test suite — `apps/exercises/tests/test_generators.py` (15 tests, `python manage.py test apps.exercises`): reproducibility, variety >50/100, structure+points, M3 special-casing, progressive difficulty, profile restriction, per-generator robustness, sympy correctness, validation.
+- [x] P4.4 Checklist-as-tests — §14.2–14.3 items covered by the suite (robustness, structure, points, restrictions, correctness).
+- [ ] P4.5 Remove legacy function modules — **BLOCKED** until `complex`/`trigonometry`/`combinatorics`/`progressions`/`limits`/`powers` are ported to classes (they still serve via the legacy registry).
 
 ## 7. Generator status
 
@@ -298,6 +298,23 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   logarithms. P1+P2 regression + `manage.py check` clean.
 - **Next:** P2.2 complex (M1 full / M2 algebraic), P2.5 trigonometry, P2.6
   combinatorics (port to classes); then Phase 3 + Phase 4 hardening.
+
+### Session 3 (cont. 3) — Phase 4 hardening — 2026-06-29  (branch `feature/phase2`)
+- `generators/latexconv.py` (P4.1): `LATEX_SETS`, `RO_TERMS`, `sympy_to_bac_latex`
+  (base default answer formatter). Skips the spec's incorrect `\log→\ln`.
+- `generators/validation.py` (P4.2): `is_sane_value` / `is_clean_latex` /
+  `item_is_clean`; wired as a final gate in both base `generate()` methods so
+  undefined/oversized/empty payloads are rejected uniformly (retry) on top of
+  each topic's `_validate`.
+- `apps/exercises/tests/test_generators.py` (P4.3/P4.4): **15 tests**, all green
+  via `python manage.py test apps.exercises` — reproducibility, variety >50/100,
+  structure+points 90+10, M3 special-casing, progressive a≤b≤c difficulty,
+  profile restrictions, every-available-topic robustness, sympy correctness
+  (derivative/matrix-homomorphism/integral-primitive/law-neutral), validation.
+- P4.5 (remove legacy) is BLOCKED until the remaining 6 legacy topics are ported.
+- **Next:** port `complex` (M2 algebraic-only), `trigonometry`, `combinatorics`,
+  `progressions`, `limits`, `powers` to classes → then P4.5 deletes the legacy
+  modules and the rework is feature-complete vs `generator.md`.
 
 ### Session 3 (cont. 2) — 2026-06-29  (branch `feature/phase2`)
 - **NEW generators** (filled the last `PROFILE_TOPICS` gaps):
