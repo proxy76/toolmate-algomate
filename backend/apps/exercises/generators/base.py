@@ -89,6 +89,9 @@ class ExerciseGenerator(ABC):
                 steps = self._build_steps(params)
                 if steps:
                     item["steps_latex"] = steps
+                from .validation import is_sane_value, item_is_clean
+                if not is_sane_value(answer) or not item_is_clean(item):
+                    continue
                 return item
             except Exception:
                 continue
@@ -106,6 +109,54 @@ class ExerciseGenerator(ABC):
             return sympy_to_bac_latex(answer)
         except Exception:
             return f"${sp.latex(answer)}$"
+
+
+class TieredExerciseGenerator(ExerciseGenerator):
+    """Single-item generator driven by a ``{difficulty: [subtype_fn]}`` map.
+
+    Each ``subtype_fn(rng)`` returns a complete item dict (topic / question /
+    answer / hint? / steps?) — typically built with ``_utils.make`` and verified
+    inside the function. The tier is chosen by the requested difficulty with
+    graceful fallback (``_utils.choose_subtype``). Subclasses set ``TOPIC_CODE`` /
+    ``SUPPORTED_PROFILES`` and implement :meth:`_tiers` (may depend on profile,
+    e.g. M3 = a reduced tier map).
+    """
+
+    def _tiers(self) -> dict:
+        raise NotImplementedError
+
+    # The ABC hooks below are unused — ``generate`` is overridden — but must exist.
+    def _generate_params(self) -> dict:
+        return {}
+
+    def _compute_answer(self, params):
+        return None
+
+    def _validate(self, params, answer) -> bool:
+        return True
+
+    def _build_question(self, params) -> str:
+        return ""
+
+    def generate(self) -> dict:
+        from ._utils import choose_subtype
+        from .validation import item_is_clean
+
+        for _ in range(self.MAX_RETRIES):
+            try:
+                item = choose_subtype(self.difficulty, self.rng, self._tiers())
+                item.setdefault("topic", self.TOPIC_CODE)
+                item.setdefault("difficulty", self.difficulty)
+                if not item_is_clean(item):
+                    continue
+                return item
+            except Exception:
+                continue
+        raise RuntimeError(
+            f"Generatorul {self.TOPIC_CODE} nu a putut produce un exercițiu valid "
+            f"în {self.MAX_RETRIES} tentative "
+            f"(profile={self.profile}, difficulty={self.difficulty})"
+        )
 
 
 class ProblemGenerator(ABC):
@@ -173,6 +224,7 @@ class ProblemGenerator(ABC):
                 ctx = self._generate_context()
                 if not self._validate_context(ctx):
                     continue
+                from .validation import is_clean_latex, item_is_clean
                 sub_items = []
                 for label, tier in zip(self.SUB_LABELS, self._sub_tiers()):
                     sub = self._build_sub_item(ctx, label, tier)
@@ -180,10 +232,13 @@ class ProblemGenerator(ABC):
                     sub.setdefault("steps_latex", [])
                     sub.update(label=label, points=self.POINTS_PER_SUB, difficulty=tier)
                     sub_items.append(sub)
+                statement = self._build_statement(ctx)
+                if not is_clean_latex(statement) or not all(item_is_clean(s) for s in sub_items):
+                    continue
                 return {
                     "number": number,
                     "topic_primary": self.TOPIC_CODE,
-                    "statement_latex": self._build_statement(ctx),
+                    "statement_latex": statement,
                     "sub_items": sub_items,
                 }
             except Exception:

@@ -122,10 +122,24 @@ def _register():
 
     single = {
         "derivatives": ("topics.derivatives", "DerivativesGenerator"),
+        "geometry": ("topics.geometry", "GeometryGenerator"),
+        "logarithms": ("topics.logarithms", "LogarithmsGenerator"),
+        "sequences": ("topics.sequences", "SequencesGenerator"),
+        "statistics": ("topics.statistics", "StatisticsGenerator"),
+        "systems": ("topics.systems", "SystemsGenerator"),
+        "powers": ("topics.powers", "PowersGenerator"),
+        "complex": ("topics.complex", "ComplexNumbersGenerator"),
+        "trigonometry": ("topics.trigonometry", "TrigonometryGenerator"),
+        "combinatorics": ("topics.combinatorics", "CombinatoricsGenerator"),
+        "progressions": ("topics.progressions", "ProgressionsGenerator"),
+        "limits": ("topics.limits", "LimitsGenerator"),
     }
     problem = {
         "matrices": ("topics.matrices", "MatricesProblem"),
         "algebraic_structures": ("topics.algebraic_structures", "AlgebraicStructuresProblem"),
+        "derivatives": ("topics.derivatives", "DerivativesStudyProblem"),
+        "integrals": ("topics.integrals", "IntegralsProblem"),
+        "polynomials": ("topics.polynomials", "PolynomialsProblem"),
     }
     for code, (mod, cls) in single.items():
         try:

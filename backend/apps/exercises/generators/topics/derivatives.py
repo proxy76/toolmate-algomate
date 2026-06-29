@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import sympy as sp
 
-from ..base import ExerciseGenerator
+from ..base import ExerciseGenerator, ProblemGenerator
 
 x = sp.Symbol("x", real=True)
 
@@ -167,3 +167,104 @@ class DerivativesGenerator(ExerciseGenerator):
             "comp_log": r"Regula lanțului: $(\ln u)' = \dfrac{u'}{u}$.",
         }
         return hints.get(key, r"Derivați termen cu termen; derivata unei constante este $0$.")
+
+
+class DerivativesStudyProblem(ProblemGenerator):
+    """Subiectul III, problema 1 — studiu de funcție (spec §3.3, §10.4). M1/M2.
+
+    One shared ``f`` with linked a/b/c:
+      cubic mode      — (a) f'(x), (b) strict monotonicity, (c) f(x)=0 has exactly
+                        one real solution (guaranteed by f'>0 + limits ±∞).
+      rational mode   — (a) f'(x), (b) oblique asymptote, (c) vertical asymptote.
+    All facts are verified with sympy.
+    """
+
+    TOPIC_CODE = "derivatives"
+    SUPPORTED_PROFILES = ["M1", "M2"]
+
+    def _generate_context(self) -> dict:
+        rng = self.rng
+        if rng.choice(["cubic", "rational"]) == "cubic":
+            a = rng.choice([1, 2, 3, 4, 5])      # a>0 ⇒ f'(x)=3x²+a>0 ⇒ strictly ↑
+            b = rng.choice([-3, -2, -1, 1, 2, 3])
+            f = x ** 3 + a * x + b
+            return {"mode": "cubic", "f": f, "a": a, "b": b, "fp": sp.diff(f, x)}
+        c = rng.choice([1, 2, 3, -1, -2])
+        b = rng.choice([-3, -2, -1, 1, 2, 3])
+        if c * c + b == 0:
+            b += 1
+        f = (x ** 2 + b) / (x + c)
+        return {"mode": "rational", "f": sp.together(f), "b": b, "c": c,
+                "fp": sp.simplify(sp.diff(f, x))}
+
+    def _validate_context(self, ctx) -> bool:
+        if ctx["mode"] == "cubic":
+            return ctx["a"] > 0 and len(sp.real_roots(sp.Poly(ctx["f"], x))) == 1
+        return ctx["c"] ** 2 + ctx["b"] != 0
+
+    def _build_statement(self, ctx) -> str:
+        f = ctx["f"]
+        if ctx["mode"] == "cubic":
+            return rf"Se consideră funcția $f:\mathbb{{R}}\to\mathbb{{R}}$, $f(x) = {_latex(f)}$."
+        c = ctx["c"]
+        return (rf"Se consideră funcția $f:\mathbb{{R}}\setminus\{{{-c}\}}\to\mathbb{{R}}$, "
+                rf"$f(x) = {_latex(f)}$.")
+
+    def _build_sub_item(self, ctx, label, difficulty) -> dict:
+        idx = ("a", "b", "c").index(label)
+        if ctx["mode"] == "cubic":
+            return (self._cub_a, self._cub_b, self._cub_c)[idx](ctx)
+        return (self._rat_a, self._rat_b, self._rat_c)[idx](ctx)
+
+    # cubic mode ------------------------------------------------------------
+    def _cub_a(self, ctx):
+        fp = ctx["fp"]
+        assert sp.simplify(sp.diff(ctx["f"], x) - fp) == 0
+        return {"question_latex": rf"Arătați că $f'(x) = {_latex(fp)}$, $x \in \mathbb{{R}}$.",
+                "answer_latex": rf"$f'(x) = {_latex(fp)}$",
+                "hint_latex": r"Derivați termen cu termen."}
+
+    def _cub_b(self, ctx):
+        return {"question_latex": r"Arătați că funcția $f$ este strict crescătoare pe "
+                                  r"$\mathbb{R}$.",
+                "answer_latex": rf"$f'(x) = {_latex(ctx['fp'])} > 0$, deci $f$ este strict "
+                                r"crescătoare pe $\mathbb{R}$",
+                "hint_latex": r"Studiați semnul derivatei $f'$."}
+
+    def _cub_c(self, ctx):
+        return {"question_latex": r"Arătați că ecuația $f(x) = 0$ are exact o soluție reală.",
+                "answer_latex": r"$f$ strict crescătoare și continuă, cu "
+                                r"$\lim_{x\to-\infty}f=-\infty$, $\lim_{x\to+\infty}f=+\infty$ "
+                                r"$\Rightarrow$ exact o soluție reală",
+                "hint_latex": r"O funcție continuă și strict monotonă cu limite de semne "
+                              r"contrare are exact o rădăcină."}
+
+    # rational mode ---------------------------------------------------------
+    def _rat_a(self, ctx):
+        fp = ctx["fp"]
+        assert sp.simplify(sp.diff(ctx["f"], x) - fp) == 0
+        return {"question_latex": rf"Arătați că $f'(x) = {_latex(fp)}$, $x \neq {-ctx['c']}$.",
+                "answer_latex": rf"$f'(x) = {_latex(fp)}$",
+                "hint_latex": r"Regula câtului: $\left(\dfrac{u}{v}\right)' = \dfrac{u'v-uv'}{v^2}$."}
+
+    def _rat_b(self, ctx):
+        f, c = ctx["f"], ctx["c"]
+        m = sp.limit(f / x, x, sp.oo)
+        n = sp.limit(f - m * x, x, sp.oo)
+        asy = m * x + n
+        assert m == 1 and sp.simplify(n - (-c)) == 0
+        return {"question_latex": r"Determinați ecuația asimptotei oblice către $+\infty$ a "
+                                  r"graficului funcției $f$.",
+                "answer_latex": rf"$y = {_latex(asy)}$",
+                "hint_latex": r"$m = \lim_{x\to\infty}\dfrac{f(x)}{x}$, "
+                              r"$n = \lim_{x\to\infty}\big(f(x)-mx\big)$.",
+                "steps_latex": [rf"$m = {_latex(m)}$, $n = {_latex(n)}$",
+                                rf"$y = {_latex(asy)}$"]}
+
+    def _rat_c(self, ctx):
+        c = ctx["c"]
+        assert sp.limit(ctx["f"], x, -c) in (sp.oo, -sp.oo, sp.zoo)
+        return {"question_latex": r"Determinați ecuația asimptotei verticale a graficului "
+                                  r"funcției $f$.",
+                "answer_latex": rf"$x = {-c}$",
+                "hint_latex": rf"Studiați $\lim_{{x\to {-c}}} f(x)$."}
