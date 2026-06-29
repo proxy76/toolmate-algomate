@@ -157,8 +157,10 @@ Canonical data (from spec §8.2, §10.2, §3–5):
 >   Phase 2/3 to honor §10.2 exactly.
 
 ### Phase 2 — Port Subiectul-I + M1 topics (spec §14.1 Faza 2)
-- [ ] P2.1 logarithms (incl. M3)  · [ ] P2.2 complex (M1 full / M2 algebraic)
-- [ ] P2.3 polynomials  · [x] P2.4 geometry (NEW, all profiles) — `topics/geometry.py`, removes Subiectul I fallback
+- [x] P2.1 logarithms (incl. **M3**) — `topics/logarithms.py` class (identity / simple eq / linear eq / inequality; M3 restricted to simple). Removes the M3 Subiectul I logarithms fallback.
+- [ ] P2.2 complex (M1 full / M2 algebraic)
+- [x] P2.3 polynomials — `PolynomialsProblem` (M1/M2 Subiectul II prob 2: f(1) fixed / division / Viète). **Retires the polynomials adapter.**
+- [x] P2.4 geometry (NEW, all profiles) — `topics/geometry.py`, removes Subiectul I fallback
 - [ ] P2.5 trigonometry  · [ ] P2.6 combinatorics
 - [x] P2.7 integrals (problem-capable) — `IntegralsProblem` (primitive / ∫ / area, all sympy-verified)
 - [x] P2.8 derivatives Subiectul-III problem-form — `DerivativesStudyProblem` (cubic: f'/monotonie/1-root; rational: f'/oblique/vertical asymptote). **Retires the `_adapter_problem` for M1/M2 Subiectul III.**
@@ -184,9 +186,9 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 | matrices | ✅ | ✅ | ✅ | `MatricesProblem` (a/b/c + M3 6-item), homomorphism family, sympy-verified |
 | algebraic_structures | ✅ | ✅ | ✅ | `AlgebraicStructuresProblem` (a/b/c + M3 6-item), comm/assoc/neutral verified |
 | integrals | ✅ | ✅ | — | `IntegralsProblem` (primitive/∫/area verified); M3 excluded |
-| logarithms | ⬜ | ⬜ | ❌ | add M3 |
+| logarithms | ✅ | ✅ | ✅ | `LogarithmsGenerator` class (incl. M3 simple eq/identity); supersedes legacy func |
 | complex | ⬜ | ⬜(alg) | — | M3 excluded |
-| polynomials | ⬜ | ⬜ | — | |
+| polynomials | ✅ | ✅ | — | `PolynomialsProblem` (Subiect II prob 2: eval/division/Viète), sympy-verified |
 | geometry | ✅ | ✅ | ✅ | `GeometryGenerator` single-item (point/midpoint/distance/vector/Pitagora), all sympy-verified |
 | trigonometry | ⬜ | ⬜ | ⬜ | |
 | combinatorics | ⬜ | ⬜ | ⬜ | |
@@ -274,3 +276,20 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 - **Next:** P2.1 logarithms (incl. M3 — removes another Subiectul I fallback),
   P2.3 polynomials problem-form (M1/M2 Subiect II prob 2), P2.2 complex, then
   Phase 3 (`progressions`/`sequences`/`statistics`/`systems`).
+
+### Session 3 (cont.) — 2026-06-29  (branch `feature/phase2`)
+- **P2.1 `logarithms`** ported to a class `topics/logarithms.py` (M1/M2/M3):
+  identity (∑log = int), simple eq `log_b(x²+px)=log_b(C)`, linear eq
+  `log_b x − log_b(x−a)=1`, inequality `log_b(x²+1) ≤ log_b(C)`. M3 restricted to
+  the simple eq/identity (base 2,3,10, §5.2). Now in `CLASS_REGISTRY` →
+  supersedes the legacy logarithms function and **removes the M3 Subiectul I
+  logarithms fallback**.
+- **P2.3 `PolynomialsProblem`** (`topics/polynomials.py`, M1/M2 Subiect II prob 2):
+  shared cubic `X³+aX²−aX+c₀`; (a) `f(1)` fixed ∀a, (b) quotient/remainder ÷(X+1),
+  (c) determine `a` from `∑xᵢ² = K` via Viète. All sympy-verified. **Retires the
+  polynomials adapter** — M1/M2 Subiectul II is now real linked problems.
+- Verified `smoke_p2b.py`: 360 log items (incl. M3-simple), 60 polynomial
+  problems; simulate M1/M2 II statements present; M3 Subiectul I now has
+  logarithms. P1+P2 regression + `manage.py check` clean.
+- **Next:** P2.2 complex (M1 full / M2 algebraic), P2.5 trigonometry, P2.6
+  combinatorics (port to classes); then Phase 3 + Phase 4 hardening.
