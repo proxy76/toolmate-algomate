@@ -23,6 +23,21 @@ class SimulateRequestSerializer(serializers.Serializer):
     seed = serializers.CharField(max_length=64, required=False, allow_blank=True)
 
 
+class ExamPDFSerializer(serializers.Serializer):
+    """Accepts a /simulate response (plus optional cover metadata) for PDF export."""
+
+    profile = serializers.ChoiceField(choices=PROFILE_CHOICES)
+    session = serializers.CharField(max_length=60, required=False, default="Simulare")
+    year = serializers.IntegerField(min_value=2000, max_value=2100, required=False, default=2025)
+    filiera = serializers.CharField(max_length=400, required=False)
+    m3_variant = serializers.ChoiceField(
+        choices=("pedagogic", "tehnologic"), required=False
+    )
+    subiect_I = serializers.DictField(required=True)
+    subiect_II = serializers.DictField(required=True)
+    subiect_III = serializers.DictField(required=True)
+
+
 class ExerciseSessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = ExerciseSession

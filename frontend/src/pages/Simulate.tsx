@@ -1,14 +1,16 @@
-import { CheckCircle, Lightbulb, ListOrdered, Loader2, Play } from "lucide-react";
+import { CheckCircle, Download, Lightbulb, ListOrdered, Loader2, Play } from "lucide-react";
 import { useState } from "react";
 
 import { api, apiErrorMessage } from "../api";
 import { TeX } from "../components/TeX";
 import type { Profile, SimItem, SimProblem, SimSubItem, SimulateResponse } from "../types";
 
+// Bare profile codes for now. Correct mapping (labels TBD): M1 = mate-info,
+// M2 = tehnologic, M3 = pedagogic.
 const PROFILES: { code: Profile; label: string }[] = [
-  { code: "M1", label: "M1 — Mate-Info" },
-  { code: "M2", label: "M2 — Științele Naturii" },
-  { code: "M3", label: "M3 — Pedagogic / Tehnologic" },
+  { code: "M1", label: "M1" },
+  { code: "M2", label: "M2" },
+  { code: "M3", label: "M3" },
 ];
 
 const TOPIC_LABELS: Record<string, string> = {
@@ -23,6 +25,7 @@ export function Simulate() {
   const [profile, setProfile] = useState<Profile>("M1");
   const [data, setData] = useState<SimulateResponse | null>(null);
   const [loading, setLoading] = useState(false);
+  const [pdfLoading, setPdfLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   async function onRun(e: React.FormEvent) {
@@ -35,6 +38,27 @@ export function Simulate() {
       setError(apiErrorMessage(err));
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function onExportPdf() {
+    if (!data) return;
+    setError(null);
+    setPdfLoading(true);
+    try {
+      const blob = await api.exportSimulatePdf(data);
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `algomate_${data.profile}_Simulare.pdf`;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      setError(apiErrorMessage(err));
+    } finally {
+      setPdfLoading(false);
     }
   }
 
@@ -85,7 +109,7 @@ export function Simulate() {
           </div>
         )}
 
-        <div className="mt-7">
+        <div className="mt-7 flex flex-wrap items-center gap-3">
           <button
             type="submit"
             disabled={loading}
@@ -94,6 +118,21 @@ export function Simulate() {
             {loading ? <Loader2 size={18} className="animate-spin" /> : <Play size={18} />}
             {loading ? "Se generează…" : "Generează subiect"}
           </button>
+          {data && (
+            <button
+              type="button"
+              onClick={onExportPdf}
+              disabled={pdfLoading}
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-edge bg-paper text-ink font-semibold hover:bg-sunken hover:border-oxblood/40 transition active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {pdfLoading ? (
+                <Loader2 size={18} className="animate-spin" />
+              ) : (
+                <Download size={18} />
+              )}
+              {pdfLoading ? "Se generează PDF…" : "Descarcă PDF"}
+            </button>
+          )}
         </div>
       </form>
 

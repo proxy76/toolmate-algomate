@@ -1,0 +1,78 @@
+Ministerul Educaţiei
+Centrul Naţional de Politici și Evaluare în Educație
+Examenul naţional de bacalaureat 2021
+Proba E. c)
+Matematică M_mate-info
+Testul 12
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+• Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+• Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+4
+5p 1. Calculați partea întreagă a numărului a= .
+2
+5p 2. Se consideră funcția f :ℝ→ℝ, f (x)=x2 +mx+1, unde m este număr real. Determinați
+numerele reale m, știind că axa Ox este tangentă la graficul funcției f .
+5p 3. Rezolvați în mulţimea numerelor reale ecuația (x−1)(x+2)=(x+2) x−1.
+5p 4. Determinați numărul natural n, n≥2, știind că mulțimea {3,4,5,…,n+2} are exact 55 de
+submulțimi cu 2 elemente.
+5p 5. În reperul cartezian xOy se consideră dreptele d și d , de ecuații 2x−y+1=0, respectiv
+1 2
+x+ y+2=0. Determinați ecuația dreptei d care este perpendiculară pe dreapta d și trece prin
+2
+punctul de intersecție a dreptelor d și d .
+1 2
+5π π 6
+5p 6. Arătați că sin +sin = .
+12 12 2
+SUBIECTUL al II-lea (30 de puncte)
+2 −x 1
+ 
+1. Se consideră matricea A(m,x)= 1 m 3 , unde m și x sunt numere reale.
+ 
+ 
+3 −2 x
+5p a) Arătați că det(A(4,2))=0.
+5p b) Determinați rangul matricei A(2,1).
+5p c) Determinați perechile de numere naturale nenule și distincte (n,p) pentru care
+det(A(3,n))=det(A(3,p)).
+2. Pe mulțimea numerelor reale se definește legea de compoziție asociativă și cu element neutru
+xy
+x∗y= −x−y+6.
+3
+5p a) Arătați că (−1)∗3=3.
+5p b) Arătați că x∗(y+z−3)=(x∗y)+(x∗z)−3, pentru orice numere reale x, y și z.
+5p c) Determinați numerele reale x, x≠3 pentru care (x∗(x+x'−3))+(x'∗(2x−3))=42, unde x'
+este simetricul lui x în raport cu legea de compoziție „∗”.
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția f :ℝ→ℝ, f (x)= x2 +2−ax, unde a este număr real.
+x
+5p a) Pentru a=0, arătați că f '(x)= , x∈ℝ.
+x2 +2
+5p b) Determinați numărul real a pentru care tangenta la graficul funcției f în punctul de abscisă
+x= 2, situat pe graficul funcției f , este paralelă cu axa Ox.
+5p c) Demonstrați că, pentru orice număr real a, graficul funcției f admite asimptotă spre +∞.
+Probă scrisă la matematică M_mate-info Testul 12
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educaţiei
+Centrul Naţional de Politici și Evaluare în Educație
+2. Se consideră funcția f :ℝ→ℝ, f (x)=x2arctgx.
+3x f (x)
+5p a) Arătați că ∫ dx=20.
+arctgx
+1
+3 f (x) 5π 3−1
+5p b) Arătați că ∫ dx= − .
+x 12 2
+1
+1
+5p c) Demonstrați că lim ∫ fn(x)dx=0.
+n→+∞
+0
+Probă scrisă la matematică M_mate-info Testul 12
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

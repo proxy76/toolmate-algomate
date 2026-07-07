@@ -110,6 +110,15 @@ export const api = {
   simulate: (data: { profile: Profile; difficulty?: number; seed?: string }) =>
     client.post<SimulateResponse>("/exercises/simulate/", data).then((r) => r.data),
 
+  exportSimulatePdf: (exam: SimulateResponse, session = "Simulare") =>
+    client
+      .post(
+        "/exercises/export-pdf/",
+        { ...exam, session },
+        { responseType: "blob" },
+      )
+      .then((r) => r.data as Blob),
+
   saveSession: (data: {
     profile: Profile;
     topics: string[];

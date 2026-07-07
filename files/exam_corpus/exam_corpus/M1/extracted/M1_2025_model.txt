@@ -1,0 +1,83 @@
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2025
+Proba E. c)
+Matematică M_mate-info
+Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+ Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Se consideră numerele complexe z 4i și z 24i. Arătați că iz z 1.
+1 2 1 2
+5p 2. Se consideră funcția f :ℝℝ, f xx2 3x5. Determinați numerele reale a pentru care
+punctul Aa,5 aparține graficului funcției f .
+1
+5p 3. Rezolvați în mulțimea numerelor reale ecuația log 7x5log x1 .
+6 6
+log 6
+x
+5p 4. Calculați probabilitatea ca, alegând un număr din mulțimea numerelor naturale de două cifre, acesta
+să fie multiplu impar al lui 9.
+5p 5. În reperul cartezian xOy se consideră punctele A2,0, B2,4 și C5,a, unde a este număr
+real. Determinați numărul real a, știind că dreptele OB și AC sunt paralele.
+4
+5p 6. Se consideră triunghiul ABC, cu AB6, BC10 și cosB . Arătați că aria triunghiului ABC
+5
+este egală cu 18.
+SUBIECTUL al II-lea (30 de puncte)
+1 0 0  0 0 1  1 x 0
+     
+1. Se consideră matricele I  0 1 0 , A 1 0 0 și Bx 0 1 x , unde x este
+3      
+     
+0 0 1  0 1 0 x 0 1
+număr real.
+5p a) Arătați că detA1.
+5p b) Arătați că ABxAxI , pentru orice număr real x.
+3
+5p c) Pentru fiecare număr real x se consideră matricea Cx astfel încât ACxBx. Arătați că
+CxCyyxA, pentru orice numere reale x și y.
+2. Pe mulțimea numerelor reale se definește legea de compoziție xyx2yxy2x y.
+5p a) Arătați că 1316.
+2
+5p b) Determinați numerele reale nenule x pentru care x 9x.
+x
+5p c) Determinați perechile m,n de numere întregi, cu mn, pentru care mn1.
+SUBIECTUL al III-lea (30 de puncte)
+lnx
+1. Se consideră funcția f :0,ℝ, f x .
+x3
+13lnx
+5p a) Arătați că f 'x , x0,.
+x4
+5p b) Determinați ecuația asimptotei orizontale spre  la graficul funcției f .
+5p c) Determinați mulțimea numerelor reale m pentru care ecuația f xm are cel puțin o soluție.
+Probă scrisă la matematică M_mate-info Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+2. Se consideră funcția f :ℝℝ, f xex x21.
+4
+5p a) Arătați că 
+
+f
+xex
+dx18.
+1
+2 ex
+5p b) Arătați că  dxlne1.
+f xx2
+1
+1
+x 2
+5p c) Demonstrați că  dx1 .
+f x1 e
+0
+Probă scrisă la matematică M_mate-info Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

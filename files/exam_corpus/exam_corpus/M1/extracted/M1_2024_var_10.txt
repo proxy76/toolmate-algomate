@@ -1,0 +1,90 @@
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2024
+Proba E. c)
+Matematică M_mate-info
+Varianta 10
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+• Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+• Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Arătați că 2lg100+lg2+lg5=5.
+5p 2. Se consideră funcția f :ℝfi ℝ, f ( x )=x- 6. Determinați numărul real a pentru care
+f
+(
+a
+)+
+f
+(
+3a
+)=0.
+5p 3. Rezolvați în mulțimea numerelor reale ecuația 53x(cid:215) 52= 5x.
+5p 4. Determinați câte submulțimi cu două elemente, ambele numere pare, are mulțimea
+A={
+1,2,4,6,8,9
+}
+.
+( ) ( )
+5p 5. În reperul cartezian xOy se consideră punctele A 3,1 și B 3,0 . Determinați coordonatele
+(cid:2)(cid:2)(cid:2)(cid:3) (cid:2)(cid:2)(cid:2)(cid:3)
+punctului C pentru care AC=OB.
+p
+5p 6. Se consideră triunghiul ABC, dreptunghic în A, cu aria egală cu 18 și B= . Arătați că AB=6.
+4
+SUBIECTUL al II-lea (30 de puncte)
+x 0 0 
+1. Se consideră matricea M ( x )=  0 x+2 x  , unde x este număr real.
+ 
+ 0 2x x+2 
+5p a) Arătați că det ( M ( 1 )) =7.
+5p b) Determinați numărul real x pentru care M ( x )(cid:215) M ( 2 )= M ( x- 1 ) .
+5p c) Determinați numerele naturale n pentru care 2det ( M ( n )) £ det ( M ( 2n )) .
+2. Se consideră polinomul f =X3- 2X2- a+X 2a, unde a este număr real.
+5p a) Arătați că f
+(
+2
+)=0,
+pentru orice număr real a.
+5p b) Pentru a=1, arătați că polinomul f este divizibil cu polinomul g = X +1.
+5p c) Determinați a˛ ( 0+,¥ ) pentru care x + x + x =8, unde x , x și x sunt rădăcinile
+1 2 3 1 2 3
+polinomului f .
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția f :ℝfi ℝ, f ( x )=ex( 2x- 4+) x2- 2+x 4.
+( )
+5p a) Arătați că f ' ( x )=2 ( x- 1 ) ex+ 1 , x˛ ℝ.
+( )
+f x
+5p b) Arătați că lim =4.
+xfi 01- ex
+5p c) Arătați că ecuația f
+(
+x
+)=0
+are exact două soluții.
+2. Se consideră funcția f :ℝfi ℝ, f ( x )= 4x .
+3x2 +1
+4 ( )
+5p a) Arătați că  f ( x ) 3x2 +1 dx=14.
+3
+Probă scrisă la matematică M_mate-info Varianta 10
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+1
+5p b) Arătați că  f ( x ) dx= 4 ln2.
+3
+0
+5p c) Arătați că aria suprafeței plane delimitate de graficul funcției g: ( 0,+¥ fi) ℝ, g ( x )= 4lnx , axa
+( )
+f x
+3e2+5
+Ox și dreptele de ecuații x=1 și x=e este egală cu .
+4
+Probă scrisă la matematică M_mate-info Varianta 10
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

@@ -199,12 +199,16 @@ def generate_full_simulation(*, profile: str, seed: str | None = None) -> dict:
     seed = seed or secrets.token_hex(8)
     rules = SIMULATION_RULES[profile]
 
-    # Subiectul I — 6 independent items, exam-easy (tier 1).
+    # Subiectul I — 6 independent items. M1 (mate-info) runs one tier harder than
+    # M2/M3: the real mate-info paper's Subiectul I is noticeably more demanding
+    # (expand-and-simplify complex numbers, exp/log/irrational equations,
+    # combinatorial equations & probability — not bare evaluations).
+    si_diff = 2 if profile == "M1" else 1
     si_items = []
     for idx, choices in enumerate(rules["subiect_I"]):
         rng = _rng(seed, "I", idx)
         topic = _pick_topic(choices, profile, rng)
-        item = _make_single(topic, profile, 1, rng)
+        item = _make_single(topic, profile, si_diff, rng)
         item.update(number=idx + 1, points=5)
         item["id"] = f"sim_{topic[:3]}_{idx + 1}_{seed[:6]}"
         si_items.append(item)

@@ -8,8 +8,25 @@
 > file disagree, **`generator.md` wins** — fix this file.
 
 > **STATUS: feature-complete vs `generator.md`.** All topics are class-based; the
-> legacy function modules are removed (P4.5). Remaining work is optional polish
-> (single-item facades for problem-only topics, more subtype variety, more tests).
+> legacy function modules are removed (P4.5). Problem-only topics now also have
+> single-item facades for antrenament (S5 cont.). Remaining work is optional polish
+> (more subtype variety, more tests).
+>
+> **M1 faithfulness pass vs the `files/` 24-paper corpus (Session 7, 2026-07-07).**
+> Audited every M1 topic against `files/exam_corpus/` and closed the biggest "tells":
+> pos-2 now quadratic-dominated; pos-4 dropped urns for the real digit-condition
+> family; pos-1 rotates complex/progressions/powers/logarithms with authentic "Arătați
+> că" phrasings (M1 progressions enabled, OQ1 reversed); Subiect II prob-1 now rotates
+> the homomorphism family with a new **matrix A(a)+system** family; M1 integrals no
+> longer always the sequence mode. All sympy-verified; 18/18 tests green.
+>
+> **Subiectul I aligned to `info-on-sub1.md` (Session 4, 2026-06-30).** Subiectul I
+> now follows the fixed position→topic roles of the real papers (1 algebra-on-numbers
+> · 2 **functions** · 3 **equation in ℝ** · 4 probability/percentage · 5 analytic
+> geometry · 6 trig/triangle). Two new single-item topics — `functions` and
+> `equations` — were added for positions 2 & 3 (previously `derivatives` /
+> `logarithms` stood in). Position 4 (`combinatorics`) gained the authentic
+> two-digit-probability / subsets / percentage phrasings.
 
 **Continuity protocol per session**
 1. Read this file top-to-bottom (esp. *Step Plan* and *Session Log*).
@@ -201,17 +218,19 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 
 | Topic | M1 | M2 | M3 | Notes |
 |-------|----|----|----|-------|
-| derivatives | ✅ | ✅ | 🟡 | single-item class (all) + `DerivativesStudyProblem` (M1/M2 Subiect III) |
-| matrices | ✅ | ✅ | ✅ | `MatricesProblem` (a/b/c + M3 6-item), homomorphism family, sympy-verified |
-| algebraic_structures | ✅ | ✅ | ✅ | `AlgebraicStructuresProblem` (a/b/c + M3 6-item), comm/assoc/neutral verified |
-| integrals | ✅ | ✅ | — | `IntegralsProblem` (primitive/∫/area verified); M3 excluded |
-| logarithms | ✅ | ✅ | ✅ | `LogarithmsGenerator` class (incl. M3 simple eq/identity); supersedes legacy func |
-| complex | ✅ | ✅(alg) | — | `ComplexNumbersGenerator` class; M2 algebraic-only; M3 excluded |
+| functions | 🟡 | 🟡 | 🟡 | `FunctionsGenerator` (Subiectul I pos 2). **S7: authentic quadratic/parabola family** (vertex ordinate sign / on-Ox / tangent / f>0 ∀x / two roots / ∩ line / point-on-parabola) at tier 2/3 → M1 pos-2 quadratic-dominated; M3 linear-only — `info-on-sub1.md` §2 |
+| equations | 🟡 | 🟡 | 🟡 | `EquationsGenerator` (Subiectul I pos 3; exp/log/irr/abs under the invariant wrapper; M3 single-step base∈{2,3,10}) — `info-on-sub1.md` §3 |
+| derivatives | ✅ | ✅ | 🟡 | single-item class (all) + `DerivativesStudyProblem` (M1/M2 Subiect III); M2 cubic/rational, **M1 adds exp-bijectivity + ln-extremum** (S6) |
+| matrices | ✅ | ✅ | ✅ | `MatricesProblem` (a/b/c + M3 6-item), homomorphism family, sympy-verified; **randomized cerinte** (det/trace/sum/product/commut./inverse/find-x/solve-X/power/system, distinct-theme guard) + 10×2 & 6×3 families (S5). **S7: `MatrixSystemProblem`** — the "matrice A(a)+sistem" family (det value / unique-solution / solve-with-property), M1/M2 prob-1 rotates homomorphism↔system ~50/50 |
+| algebraic_structures | ✅ | ✅ | ✅ | `AlgebraicStructuresProblem` (a/b/c + M3 6-item), comm/assoc/neutral verified; **M1 adds associativity + morphism cerinte** (S6) |
+| integrals | ✅ | ✅ | — | `IntegralsProblem`; M2 primitive/∫/area; M1 sequence Iₙ + recurrence + limit (S6) — **S7: now ~30% sequence / ~70% direct-∫/area** (was 100% sequence) to match corpus frequency; M3 excluded |
+| logarithms | ✅ | ✅ | ✅ | `LogarithmsGenerator` class. **S7: now the numeric-identity/inequality flavour** (base-10 `lg` multi-term + subtraction identities) — log *equations* belong to the `equations` topic, so the pos-1 exam slot is a genuine identity |
+| complex | ✅ | ✅(alg) | — | `ComplexNumbersGenerator` class; M2 algebraic-only; M3 excluded. **S7: authentic pos-1 "Arătați că <expr>=<val>" / modulus-of-expression / find-(a,b)** items (weighted ×2 at M1 pos-1 tier), replacing the "Calculează" tells |
 | polynomials | ✅ | ✅ | — | `PolynomialsProblem` (Subiect II prob 2: eval/division/Viète), sympy-verified |
 | geometry | ✅ | ✅ | ✅ | `GeometryGenerator` single-item (point/midpoint/distance/vector/Pitagora), all sympy-verified |
-| trigonometry | ✅ | ✅ | ✅ | `TrigonometryGenerator` class; M3 = remarkable values |
-| combinatorics | ✅ | ✅ | ✅ | `CombinatoricsGenerator` class; M3 = direct counting |
-| progressions | — | ✅ | ✅ | `ProgressionsGenerator` class; M1 excluded per spec §8.2 |
+| trigonometry | ✅ | ✅ | ✅ | `TrigonometryGenerator` class; **rich pos-6 tier-1 pool** (values/expr, right-triangle ratio/perimeter/side/two-angle, area+parametrized identity, Pyth. ratio) + **enriched d2/d3** (tg-from-ratio, parametrized double-angle, quadratic-in-sin/cos, provable identities) (S5); M3 = remarkable values only |
+| combinatorics | ✅ | ✅ | ✅ | `CombinatoricsGenerator` class; M3 = direct counting. **S7: dropped urns** (not in corpus); added the real pos-4 digit-condition family (2-/3-digit divisibility/parity/prime/product-of-digits/distinct/bounds + subsets + counts) |
+| progressions | ✅ | ✅ | ✅ | `ProgressionsGenerator` class. **S7: enabled for M1** (OQ1 reversed) + corpus phrasings (term-from-two-terms, consecutive-terms proof); serves M1/M2/M3 Subiectul I pos-1 |
 | sequences | ✅ | ✅ | — | `SequencesGenerator` (limits/series/recurrence/Cesàro), sympy-verified |
 | limits | ✅ | ✅ | — | `LimitsGenerator` class |
 | powers | ✅ | ✅ | ✅ | `PowersGenerator` class; M3 = D1 laws only |
@@ -220,9 +239,10 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
 
 ## 8. Open questions / risks
 
-- **OQ1** M1 `progressions`: spec §8.2 PROFILE_TOPICS omits it for M1, but §2.2 table
-  lists progresii at M1 slot 1. Decision: follow PROFILE_TOPICS (no M1 progressions);
-  M1 slot 1 uses logarithms/complex. Revisit if exam evidence says otherwise.
+- **OQ1** M1 `progressions`: **RESOLVED (Session 7, 2026-07-07)** — the `files/`
+  corpus shows arithmetic/geometric term-finding is ~40% of real M1 pos-1 items, so
+  progressions is now **enabled for M1** (PROFILE_TOPICS + pos-1 rotation). The earlier
+  "follow PROFILE_TOPICS (no M1 progressions)" decision is reversed by exam evidence.
 - **OQ2** `compute_item_difficulty` vs user-requested single difficulty for `/generate`:
   apply the spread so a set has natural variation; the item's stamped `difficulty`
   reflects the tier that produced it (never lies). Confirm UI shows per-item tier.
@@ -233,6 +253,203 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   `A(x)·A(y)=A(x+y)` symbolically — validate, don't assume.
 
 ## 9. Session Log
+
+### Session 7 — 2026-07-07 — M1 faithfulness pass against the `files/` exam corpus
+- **Context:** a new 24-paper M1 corpus was added under `files/exam_corpus/`
+  (raw PDFs + extractions + per-position/­per-problem ANALYSIS + a generation guide).
+  Mandate: make generated M1 output fall *inside* the real distribution. Audited every
+  M1 topic against the corpus and fixed the biggest "tells". **App green: 18/18 tests,
+  `manage.py check` clean.** Corpus is M1-only — M2/M3 largely untouched (they inherit
+  the richer pools harmlessly; behaviour targeted at M1's tiers/slots).
+- **Subiectul I:**
+  - **Pos 2 (`functions.py`):** added the authentic quadratic/parabola family
+    (`_p_vertex_ordinate_pos`, `_p_vertex_on_ox`, `_p_positive_all`, `_p_two_roots`,
+    `_p_tangent_linear`, `_p_intersect_line`, `_p_point_on_parabola`) at tier 2/3 so
+    M1 pos-2 is **quadratic-dominated** as in the real papers (was affine-dominated;
+    the lone parabola subtype sat at d3, rarely drawn). 34 distinct forms, all
+    sympy-verified, clean integer/interval/±integer answers.
+  - **Pos 4 (`combinatorics.py`):** **removed urn/ball probability** from the M1 draw
+    (not in the corpus — a clear machine tell). Added the real digit-condition family
+    (`_p4_3digit_not_mult`, `_p4_3digit_prime_digits`, `_p4_3digit_prod_digits`,
+    `_p4_2digit_sum_div3`, `_p4_2digit_div9`, `_p4_2digit_digits_bound`,
+    `_p4_2digit_distinct_odd`, `_p4_count_from_set`, `_p4_subsets_at_most`) filling
+    tiers 1–3; combinatorial equations (Aₙ²/Cₙ²/Cₙ³) kept only as a light d2 presence.
+    0 urns / 45 distinct forms at M1 d2; exact reduced fractions (prime-distinct → 2/75).
+  - **Pos 1 (`progressions.py`, `complex.py`, `powers.py`, `logarithms.py`,
+    `registry.py`):** rebalanced from complex-dominated `("complex"×3,"powers","log")`
+    to `("complex"×2,"progressions"×2,"powers","logarithms")` — matching the corpus
+    (complex + progressions dominate; radicals/lg secondary). Enabled **M1 progressions**
+    (OQ1 reversed) and added the corpus phrasings (term-from-two-terms,
+    consecutive-terms proof). Added authentic complex "Arătați că <expr>=<val>",
+    modulus-of-expression (Pythagorean → integer), and find-(a,b) items (weighted ×2 at
+    the tier M1 pos-1 uses) replacing the "Calculează"/"Adu la forma algebrică" tells.
+    Added radical-simplification items to powers (`√A−√B=k√m`, conjugate product).
+    Made `logarithms` the **numeric-identity/inequality** flavour at all tiers
+    (base-10 `lg` multi-term identities + subtraction) — log *equations* stay the
+    `equations` topic, so the pos-1 exam slot is a genuine identity (was leaking
+    equations at d2). Distribution over 300 sims: complex 104 / progressions 96 /
+    powers 56 / logarithms 44.
+- **Subiectul II — `MatrixSystemProblem` (`matrices.py`, NEW):** the "3×3 matrix A(a)
+  + linear system" family — the *other* dominant real prob-1 form (~10/24 papers),
+  previously entirely missing. (a) det(A(a0))=int, (b) values of a for a unique
+  solution (A(a) invertible), (c) solve at a fixed a with a property (integer triple,
+  sometimes consecutive AP terms). Templates are filtered so det(A(a)) has clean
+  integer roots; det/roots/linsolve all sympy-verified. Registered as
+  `matrices_system` (TOPIC_CODE stays `matrices`); M1/M2 Subiect II prob-1 now
+  **rotates** homomorphism ↔ system (~50/50). New correctness test
+  `test_matrix_system_is_consistent`.
+- **Subiectul III — `integrals.py`:** M1 no longer *always* the sequence-Iₙ mode
+  (it was 100%, but only ~1/4 of real M1 integral problems are sequences) — now ~30%
+  sequence / ~70% direct-integral/area, matching the corpus.
+- **Files touched:** `topics/{functions,combinatorics,progressions,complex,powers,
+  logarithms,matrices,integrals}.py`, `registry.py`, `tests/test_generators.py`.
+- **Next (optional, corpus-driven):** enrich `algebraic_structures` law variety
+  (corpus has many more law shapes than the 2 families); vary the polynomials cubic
+  family (corpus has degree-4 + several degree-3); richer `DerivativesStudyProblem`
+  functions (products poly×eˣ) to lift toward the corpus ceiling; consider matching the
+  BAC `mul_symbol` convention (drop `\cdot` for `xy`/`2e^{2x}`) — app-wide, defer.
+
+### Session 6 (cont.) — 2026-07-04 — M1 Subiectul I made harder (all 6 positions)
+- **Problem reported (M1):** Subiectul I too easy — pos1 only trivial complex
+  arithmetic, pos3 single-step equations, pos4 only `A_n^k`/`C_n^k` evaluation.
+- **Root cause:** `generate_full_simulation` built Subiectul I at **difficulty 1 for
+  every profile**, so M1 got the trivial d1 subtypes.
+- **Fix (M1 only):** `engine.py` now generates M1 Subiectul I at **difficulty 2**
+  (`si_diff = 2 if profile=="M1" else 1`); M2/M3 unchanged. Then enriched the thin
+  d2 pools of the flagged topics:
+  - `complex.py`: `_d2_show_natural` ((a−bi)(a+bi)∈ℕ) + `_d2_show_real`
+    (mate-info style `m(a+bi)+i(c+di)∈ℝ`), sympy-verified.
+  - `combinatorics.py`: `_d2_arrangement_eq` (`A_n^2=val`), `_d2_comb_eq3`
+    (`C_n^3=val`), and moved the combinations-probability into d2 (no more bare
+    evaluations at pos4). Fixed `\ge`→`\geq` for mathtext/PDF.
+  - `equations.py`: `_log_sum` (`log_b(x+p)+log_b(x+q)=log_b C`, distinct args,
+    domain-checked).
+  - `trigonometry.py`: `_t_sin_double` (sin 2x from a given ratio) + `_t_trig_quadratic`
+    into d2.
+- **Verified:** 17/17 green (incl. PDF); M1 Subiectul I all d2; per-position full-question
+  variety over 200 sims — pos1 162, pos2 183, pos3 130, pos4 61, pos5 179, pos6 27;
+  M2 Subiectul I unchanged (d1). Note: Subiectul I is otherwise a shared common-core
+  section — M1 differs from M2 by *tier* (d2 vs d1) and by pos-1 topic (complex).
+
+### Session 6 — 2026-07-04 — M1 (mate-info) made distinctly harder than M2
+- **Problem reported:** in `/simulate`, M1 problems looked ~identical to M2 and
+  weren't harder. Root cause: M1 and M2 shared the *same* `DerivativesStudyProblem`,
+  `IntegralsProblem`, `AlgebraicStructuresProblem` code paths.
+- **Researched the official 2024 models** (edupedu CDN): `M_mate-info` vs `M_st-nat`
+  barems. Key M1 signatures — Subiect III: **bijectivity** proof (inj.+surj.) and a
+  **sequence of integrals** with a proven **recurrence** + limit; Subiect II:
+  **morphism/associativity** on the law of composition; Subiect I: **complex
+  numbers** at position 1.
+- **Implemented (M1-only branches; every M2 path left byte-identical):**
+  - `topics/derivatives.py` `DerivativesStudyProblem`: M1 adds `exp_bijective`
+    (f=x+e^{kx}: f'/monotonie/**bijectivă**) and `ln_extrem` (f=x−a·ln x:
+    f'/monotonie/**minim**) modes; M2 stays cubic/rational.
+  - `topics/integrals.py` `IntegralsProblem`: M1 uses a **sequence** mode
+    (`I_n=∫₀¹ xⁿ/(x+1)` or `/(x²+1)`): compute `I_1`, prove `I_n+I_{n-1}=1/n` (resp.
+    `I_n+I_{n-2}=1/(n-1)`, verified for concrete n), `lim I_n=0`; M2 stays
+    primitive/∫/area. Added `_lln` (ln display).
+  - `topics/algebraic_structures.py`: M1 plan adds `_c_associativity` and
+    `_c_morphism` (`g(x)=x−c` morphism onto (ℝ*,·)/(ℝ,+), sympy-verified);
+    `_law_family` now also returns `(c, kind)`. M2 plan unchanged.
+  - `registry.py` `SIMULATION_RULES["M1"]["subiect_I"]` pos-1 weighted toward
+    **complex** (~0.6) via repetition, so M1 papers lead with complex numbers while
+    M2 never does. (Subiectul I is otherwise a shared common-core section — only
+    pos-1 differs between profiles in the real papers.)
+  - Fixed matplotlib-mathtext PDF rendering: use `\geq`/`\leq` (not `\ge`/`\le`).
+- **Verified:** 17/17 tests green (incl. PDF); M1 deriv c) ∈ {bijectivă, minim, 1
+  root, asymptotă}, M1 integrals all sequences (recurrence sympy-verified), M1
+  structures surface morphism/assoc; M2 deriv/integrals variants unchanged; M1 pos-1
+  ≈62% complex vs M2 0%.
+
+### Session 5 (cont.) — 2026-07-04 — antrenament parity (trig d2/d3 + problem facades)
+- **Question raised:** do the Session-5 randomizations reach *antrenament* (`/generate`)?
+  Findings — trig richness lived only in tier 1, so training was rich at d1
+  (129/240) but thin at d2 (55) and **d3 = 1 static** item; and matrices/other
+  problem-only topics weren't in the `/generate` menu at all.
+- **Trig d2/d3 enriched** (`topics/trigonometry.py`): parametrized the double-angle
+  equation (4 factorable variants, every root sympy-checked), added
+  `_t_trig_from_ratio` (d2), `_t_trig_quadratic` (quadratic in sin/cos, 4 variants),
+  `_t_prove_identity` (4 provable identities, symbolic check). → d2 71/240, d3 30/240.
+- **Single-item facades** (`topics/facades.py`): `_ProblemFacade(ExerciseGenerator)`
+  generates a full problem and surfaces one sub-item (matched to the requested
+  difficulty), prefixing the shared statement — reusing each problem's randomized
+  cerință pool + sympy verification. Concrete facades for `matrices`,
+  `polynomials`, `integrals`, `algebraic_structures`, registered in
+  `CLASS_REGISTRY` (problem forms stay in `PROBLEM_REGISTRY`). They now appear in
+  `/generate` (M1/M2 all four; M3 matrices + algebraic_structures). Verified
+  self-contained (no "punctul a)" cross-refs) and varied (matrices 116,
+  algebraic_structures 67 distinct/135).
+- **Also randomized `algebraic_structures` 3-item plan** (like matrices in S5):
+  tiered cerințe with a distinct-theme guard, plan chosen once in
+  `_generate_context` — benefits both its Simulare problem and its facade.
+- **Architecture change:** the P4.5 rule "problem-only topics are dropped from
+  `/generate`" is now **relaxed** — those four are practiceable as single items via
+  facades, while still driving Subiectele II/III as linked problems.
+- **Verified:** 17/17 tests green, `manage.py check` clean.
+
+### Session 5 — 2026-07-04 — M2 variety: Subiectul I pos 6 (trig) + Subiectul II (matrices)
+- **Problem reported (M2):** Simulare pos-6 was near-identical every time (only
+  `sin/cos` of a remarkable angle), and the Subiectul II matrix problem felt like
+  "~3 kinds" (cerinte were fixed by position: a=det, b=product-general,
+  c=system/power).
+- **Root causes:** Simulare Subiectul I always calls generators at **difficulty 1**,
+  and trig's tier-1 pool was a single subtype; the matrix `_plan()` was a fixed
+  position→cerinta list, so only the family + numbers varied.
+- **`topics/trigonometry.py` — rich tier-1 pool** (info-on-sub1 §6, all four content
+  families the user chose): remarkable values (+tg) & value expressions & `E(π/k)`;
+  right-triangle ratio / perimeter / side-from-`tg B` / 30-60 two-angle; area with
+  radical answers + `tg B = 1/tg C` identity; Pythagorean ratio; simple equation on
+  `[0,2π)`. All sympy-verified, radicals kept short. **M3 unchanged in spirit**
+  (remarkable values only, §5.2, now 2 subtypes). Result: pos-6 ≈ 10/12 distinct
+  across seeds, 105 distinct forms / 200 rolls.
+- **`topics/matrices.py` — randomized cerinte + new types.** Added `_c_trace`,
+  `_c_sum`, `_c_commutative`, `_c_find_x` (find x from `A(x)=M`), `_c_solve_matrix`
+  (`A(x0)·X=A(y0)`), `_c_inverse_explicit` (all sympy-verified). New `_pick_plan`
+  draws a/b/c from difficulty tiers with a **distinct-theme guard** (no two of
+  det/trace/sum/product/inverse/solve/power repeat); the plan is computed **once**
+  in `_generate_context` and stored on `ctx` (label consistency + reproducibility).
+  Added 4 more 2×2 and 2 more 3×3 homomorphism families. M3 six-item format kept as
+  the fixed comprehensive tour. Result: 189 distinct cerinta-triples / 300 rolls
+  (was ~fixed).
+- **Verified:** 17/17 tests green, `manage.py check` clean; rendered M2 matrix
+  problems correct (inverse `A(a)⁻¹=A(-a)`, trace=n, product expansion); trig items
+  clean. Only M2 targeted per request; M1 inherits the same richer pools (harmless),
+  M3 unchanged.
+- **Follow-up done (same session):** the complementary-angle identity is now
+  parametrized — random right-angle vertex × acute-pair order × identity form
+  (`tg u = 1/tg v`, `tg u·tg v = 1`, `sin u = cos v`, `cos u = sin v`,
+  `sin²u + sin²v = 1`), each numerically sympy-checked → 30 distinct variants.
+- **Next (optional):** apply the same cerinta-randomization idea to
+  `algebraic_structures`; consider pos-1 M1 complex "show that" phrasings (§1).
+
+### Session 4 — 2026-06-30 — Subiectul I aligned to `info-on-sub1.md`
+- **Goal:** make Subiectul I (training *and* mock exams) reproduce the real-paper
+  *position→topic* structure + authentic phrasings from `info-on-sub1.md`.
+- **New `topics/functions.py` `FunctionsGenerator`** (M1/M2/M3) — Subiectul I
+  position 2 (§2): `f(x0)=val`, point-on-graph (find b), `(f∘g)(x0)`, `f(x0)=g(x0)`,
+  `(f∘f)(x0)=val`, linearity identity `f(kx)-k·f(x)`, and parabola-vertex-on-Ox
+  (M1/M2 only). M3 = linear/affine subtypes only. All answers integer, built by
+  design and re-verified with sympy.
+- **New `topics/equations.py` `EquationsGenerator`** (M1/M2/M3) — Subiectul I
+  position 3 (§3): invariant wrapper "Rezolvați în mulțimea numerelor reale
+  ecuația $…$" over exponential / logarithmic / irrational / modulus bodies. Roots
+  constructed clean, domain enforced, extraneous discarded, sympy-verified. M3 =
+  single-step only, base ∈ {2,3,10}.
+- **`topics/combinatorics.py`** — added the position-4 (§4) authentic items:
+  two-digit-number probability (divisibility / units parity / divisor), `k`-subset
+  counting, and practical percentage (scumpire/ieftinire). Placed at tier 1 so the
+  Subiectul I slot (and M3) draws them.
+- **`registry.py`** — registered both classes; added `functions`/`equations` to
+  `TOPIC_LABELS` and `PROFILE_TOPICS` (all profiles); **rewrote `SIMULATION_RULES`
+  `subiect_I`** for M1/M2/M3 to the fixed roles (pos2=functions, pos3=equations,
+  pos1=complex/powers/log resp. progressions/powers, pos6=trig/triangle).
+- **Verified:** `python manage.py test apps.exercises` → 17/17 green;
+  smoke run — functions/equations generate over all profiles×difficulties without
+  raising; simulated Subiectul I shows the exact position→topic map for M1/M2/M3;
+  `/generate` menus expose the two new topics for training.
+- **Next (optional):** weight pos-1 toward `complex` for M1 (§7 note ~0.7); enrich
+  pos-1 "show that" complex phrasings (§1 T1.M1.a–f); consider a dedicated
+  parabola/quadratic-function subtype set.
 
 ### Session 1 — 2026-06-28
 - Read `generator.md` in full (1867 lines) + surveyed current `exercises` app.

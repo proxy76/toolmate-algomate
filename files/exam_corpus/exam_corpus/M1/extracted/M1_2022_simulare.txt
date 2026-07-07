@@ -1,0 +1,86 @@
+Ministerul Educaţiei
+Centrul Naţional de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2022
+Proba E. c)
+Matematică M_mate-info
+Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+• Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+• Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Se consideră numerele complexe z =1−2i și z =2+i. Arătați că (z +i)(z −1)=2.
+1 2 1 2
+5p 2. Se consideră funcția f :ℝ→ℝ, f (x)=x2+4x+m, unde m este număr real. Determinați
+valorile reale ale lui m pentru care f (x)>0, pentru orice număr real x.
+5p 3. Rezolvați în mulțimea numerelor reale ecuația 1+2log x−2 =log x.
+2 2
+5p 4. Se consideră mulțimea A, a numerelor naturale de două cifre. Calculați probabilitatea ca, alegând
+un număr din mulțimea A, acesta să aibă exact doi multipli în mulțimea A.
+5p 5. În reperul cartezian xOy se consideră punctele A(−2,−2), B(3,1) și M(2,4). Determinați
+coordonatele punctului N , știind că patrulaterul ABMN este paralelogram.
+5p 6. Se consideră triunghiul ABC, în care sin(A+B)+cosC=1. Arătați că triunghiul ABC este
+dreptunghic.
+SUBIECTUL al II-lea (30 de puncte)
+1 3 a  x+3y+az=2
+  
+1. Se consideră matricea A(a)=
+
+2 1 −1
+
+și sistemul de ecuații 2x+ y−z=−1, unde a este
+  
+a 3 1  ax+3y+z=1
+număr real.
+5p a) Arătați că
+det(A(1))=0.
+5p b) Arătați că B(a)⋅B(a)⋅B(a)=a3B(1), pentru orice număr real a, unde B(a)= A(a)−A(0).
+5p c) Demonstrați că, dacă sistemul de ecuații are o infinitate de soluții, atunci x y + y z +z x ≤0,
+0 0 0 0 0 0
+pentru orice soluție (x ,y ,z ) a sistemului de ecuații, cu x , y și z numere reale.
+0 0 0 0 0 0
+z +z
+2. Pe mulțimea numerelor complexe se definește legea de compoziție z ∗z = 1 2 .
+1 2
+4⋅ z z +1
+1 2
+1
+5p a) Arătați că (−1)∗2= .
+9
+5p b) Arătați că e=0 este elementul neutru al legii de compoziție „∗”.
+5p c) Demonstrați că există cel puțin trei numere complexe distincte și nenule care verifică egalitatea
+z∗z = z .
+SUBIECTUL al III-lea (30 de puncte)
+x4+16
+1. Se consideră funcția f :(0,+∞)→ℝ, f (x)= .
+x
+( x2 −4 )( x2+4 )
+5p a) Arătați că f '(x)= , x∈(0,+∞).
+x2 x4+16
+5p b) Determinați ecuația asimptotei oblice spre +∞ la graficul funcției f .
+Probă scrisă la matematică M_mate-info Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educaţiei
+Centrul Naţional de Politici și Evaluare în Educație
+4
+5p c) Determinați valorile reale ale lui m pentru care ecuația f (x)+ f  =m are exact două soluții.
+x
+x2+1
+2. Se consideră funcția f :ℝ→ℝ, f (x)= .
+ex
+3
+5p a) Arătați că ∫exf (x)dx=12.
+0
+1
+5p b) Arătați că orice primitivă G a funcției g:ℝ→ℝ, g(x)= este convexă.
+f (x)
+1 x3 a− 2
+5p c) Determinați numărul real a pentru care ∫ dx= .
+exf (x) 3
+0
+Probă scrisă la matematică M_mate-info Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

@@ -65,9 +65,37 @@ def _d2_combined(rng):
                              rf"{{{base}^{{{c}}}}} = {base}^{{{a}+{b}-{c}}} = {base}^{{2}}$"])
 
 
+def _d2_radical_simplify(rng):
+    # Arătați că √A − √B = (p−q)√m, with A=p²m, B=q²m (authentic pos-1 radical).
+    m = rng.choice([2, 3, 5])
+    p, q = sorted(rng.sample([2, 3, 4, 5], 2), reverse=True)
+    A, B = p * p * m, q * q * m
+    k = p - q
+    kc = "" if k == 1 else str(k)
+    return make("powers",
+                rf"Arătați că $\sqrt{{{A}}} - \sqrt{{{B}}} = {kc}\sqrt{{{m}}}$.",
+                rf"${kc}\sqrt{{{m}}}$",
+                hint_latex=rf"Scoateți factorii de sub radical: $\sqrt{{{A}}} = {p}\sqrt{{{m}}}$ și "
+                           rf"$\sqrt{{{B}}} = {q}\sqrt{{{m}}}$.",
+                steps_latex=[rf"$\sqrt{{{A}}} - \sqrt{{{B}}} = {p}\sqrt{{{m}}} - {q}\sqrt{{{m}}} "
+                             rf"= {kc}\sqrt{{{m}}}$"])
+
+
+def _d2_radical_conjugate(rng):
+    # Arătați că (√a + √b)(√a − √b) = a − b (an integer).
+    a, b = rng.sample([2, 3, 5, 6, 7, 10], 2)
+    val = a - b
+    return make("powers",
+                rf"Arătați că $\left(\sqrt{{{a}}} + \sqrt{{{b}}}\right)"
+                rf"\left(\sqrt{{{a}}} - \sqrt{{{b}}}\right) = {val}$.",
+                rf"${val}$",
+                hint_latex=r"$(\sqrt{a} + \sqrt{b})(\sqrt{a} - \sqrt{b}) = a - b$.")
+
+
 _TIERS = {
     1: [_d1_product, _d1_quotient, _d1_power_of_power],
-    2: [_d2_radical, _d2_negative, _d2_combined],
+    2: [_d2_radical, _d2_negative, _d2_combined,
+        _d2_radical_simplify, _d2_radical_conjugate],
 }
 
 

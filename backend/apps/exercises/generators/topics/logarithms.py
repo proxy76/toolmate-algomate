@@ -27,14 +27,16 @@ class LogarithmsGenerator(ExerciseGenerator):
 
     def _generate_params(self) -> dict:
         rng = self.rng
+        # ``logarithms`` is the numeric-identity / inequality flavour (Subiectul I
+        # position 1 — "algebra on numbers"). Log *equations* are the ``equations``
+        # topic (position 3), so they are intentionally not produced here — keeping
+        # the pos-1 exam slot a genuine identity, as in the real papers.
         if self.profile == "M3":
-            pool = [self._st_identity, self._st_eq_simple]
+            pool = [self._st_identity, self._st_identity_sub]
         elif self.difficulty == 1:
-            pool = [self._st_identity, self._st_eq_simple]
-        elif self.difficulty == 2:
-            pool = [self._st_eq_linear, self._st_inequality, self._st_eq_simple]
+            pool = [self._st_identity, self._st_identity_sub]
         else:
-            pool = [self._st_inequality, self._st_eq_linear]
+            pool = [self._st_identity, self._st_identity_sub, self._st_inequality]
         return rng.choice(pool)()
 
     def _compute_answer(self, params):
@@ -56,21 +58,55 @@ class LogarithmsGenerator(ExerciseGenerator):
         return params.get("steps", [])
 
     # --- subtypes ------------------------------------------------------------
+    @staticmethod
+    def _lg(b: int, arg) -> str:
+        """Base-10 logs print as ``lg`` (BAC convention); others as ``\\log_b``."""
+        return rf"\lg {arg}" if b == 10 else rf"\log_{{{b}}} {arg}"
+
     def _st_identity(self):
+        # Authentic pos-1 form: c·log_b(b^p) + log_b(m) + log_b(n) = c·p + q,
+        # with m·n = b^q and m, n not necessarily powers of b
+        # (e.g. "2\lg 100 + \lg 2 + \lg 5 = 5").
         rng = self.rng
         b = rng.choice([2, 3, 10])
-        k = rng.randint(2, 4)
-        e1 = rng.randint(1, k - 1)
-        m, n = b ** e1, b ** (k - e1)
-        val = sp.simplify(sp.log(m, b) + sp.log(n, b))
-        assert val == k
+        c, p = rng.randint(1, 3), rng.randint(1, 2)
+        q = rng.choice([1, 2]) if b == 10 else 2   # ensure b^q has a proper factor pair
+        bq = b ** q
+        divs = [d for d in range(2, bq) if bq % d == 0]
+        m = rng.choice(divs)                        # m, n ≥ 2 (no degenerate log 1)
+        n = bq // m
+        val = sp.simplify(c * sp.log(b ** p, b) + sp.log(m, b) + sp.log(n, b))
+        assert val == c * p + q
+        cc = "" if c == 1 else str(c)
+        term1 = self._lg(b, b ** p)
         return {
-            "question": rf"Arătați că $\log_{{{b}}} {m} + \log_{{{b}}} {n} = {k}$.",
-            "answer_latex": rf"${k}$",
-            "answer": sp.Integer(k),
-            "hint": r"Folosiți $\log_b m + \log_b n = \log_b(mn)$.",
-            "steps": [rf"$\log_{{{b}}} {m} + \log_{{{b}}} {n} = "
-                      rf"\log_{{{b}}} {m * n} = {k}$"],
+            "question": rf"Arătați că ${cc}{term1} + {self._lg(b, m)} + {self._lg(b, n)} "
+                        rf"= {c * p + q}$.",
+            "answer_latex": rf"${c * p + q}$",
+            "answer": sp.Integer(c * p + q),
+            "hint": r"Folosiți $\log_b(b^p) = p$ și $\log_b m + \log_b n = \log_b(mn)$.",
+            "steps": [rf"${cc}{term1} = {c * p}$, $\ {self._lg(b, m)} + {self._lg(b, n)} "
+                      rf"= {self._lg(b, m * n)} = {q}$"],
+            "ok": True,
+        }
+
+    def _st_identity_sub(self):
+        # Subtraction form: log_b(M) − log_b(N) = q, with M/N = b^q
+        # (e.g. "\lg 40 − \lg 4 = 1", "\log_2 40 − \log_2 5 = 3").
+        rng = self.rng
+        b = rng.choice([2, 3, 10])
+        q = rng.randint(1, 2) if b == 10 else rng.randint(1, 3)
+        n = rng.choice([2, 4, 5]) if b == 10 else rng.randint(2, 5)
+        m = n * b ** q
+        val = sp.simplify(sp.log(m, b) - sp.log(n, b))
+        assert val == q
+        return {
+            "question": rf"Arătați că ${self._lg(b, m)} - {self._lg(b, n)} = {q}$.",
+            "answer_latex": rf"${q}$",
+            "answer": sp.Integer(q),
+            "hint": r"Folosiți $\log_b m - \log_b n = \log_b\dfrac{m}{n}$.",
+            "steps": [rf"${self._lg(b, m)} - {self._lg(b, n)} = "
+                      rf"{self._lg(b, sp.Rational(m, n))} = {q}$"],
             "ok": True,
         }
 

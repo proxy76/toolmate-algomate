@@ -121,7 +121,9 @@ class GeneratorRobustnessTests(SimpleTestCase):
                 kwargs = {"six_items": True} if six else {}
                 prob = cls(profile, random.Random(f"{topic}{profile}"), **kwargs).generate(1)
                 self.assertEqual(len(prob["sub_items"]), 6 if six else 3)
-                self.assertEqual(prob["topic_primary"], topic)
+                # topic_primary is the human topic (``cls.TOPIC_CODE``); some
+                # registry keys are variants of a topic (e.g. matrices_system).
+                self.assertEqual(prob["topic_primary"], cls.TOPIC_CODE)
 
 
 class CorrectnessTests(SimpleTestCase):
@@ -142,6 +144,22 @@ class CorrectnessTests(SimpleTestCase):
             A, size = ctx["A"], ctx["size"]
             self.assertEqual(sp.simplify(sp.det(A(x)) - 1), 0)
             self.assertEqual(sp.simplify(A(x) * A(y) - A(x + y)), sp.zeros(size))
+
+    def test_matrix_system_is_consistent(self):
+        from apps.exercises.generators.topics.matrices import (
+            MatrixSystemProblem, _a, _xs, _ys, _zs,
+        )
+        for s in range(20):
+            ctx = MatrixSystemProblem("M1", random.Random(f"ms{s}"))._generate_context()
+            A, a0, det0 = ctx["A"], ctx["a0"], ctx["det0"]
+            # (a) determinant value; (b) roots make A singular; (c) solution at a1.
+            self.assertEqual(int(A.subs(_a, a0).det()), det0)
+            for r in ctx["roots"]:
+                self.assertEqual(sp.simplify(A.subs(_a, r).det()), 0)
+            A1 = A.subs(_a, ctx["a1"])
+            self.assertNotEqual(A1.det(), 0)
+            sol = sp.linsolve((A1, ctx["b"]), (_xs, _ys, _zs))
+            self.assertEqual(sol, sp.FiniteSet(tuple(ctx["s"])))
 
     def test_integral_primitive_correct(self):
         from apps.exercises.generators.topics.integrals import IntegralsProblem, x

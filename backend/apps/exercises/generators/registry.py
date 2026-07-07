@@ -11,6 +11,8 @@ from __future__ import annotations
 TOPIC_LABELS: dict[str, str] = {
     "powers": "Puteri și radicali",
     "logarithms": "Logaritmi",
+    "functions": "Funcții",
+    "equations": "Ecuații în ℝ",
     "complex": "Numere complexe",
     "polynomials": "Polinoame",
     "matrices": "Matrice și determinanți",
@@ -30,19 +32,19 @@ TOPIC_LABELS: dict[str, str] = {
 # Allowed topics per profile (spec §8.2 PROFILE_TOPICS, verbatim).
 PROFILE_TOPICS: dict[str, list[str]] = {
     "M1": [
-        "powers", "logarithms", "complex", "polynomials",
+        "powers", "logarithms", "functions", "equations", "complex", "polynomials",
         "matrices", "systems", "algebraic_structures",
         "sequences", "limits", "derivatives", "integrals",
-        "geometry", "trigonometry", "combinatorics",
+        "geometry", "trigonometry", "combinatorics", "progressions",
     ],
     "M2": [
-        "powers", "logarithms", "complex",            # complex: algebraic only
+        "powers", "logarithms", "functions", "equations", "complex",  # complex: algebraic only
         "polynomials", "matrices", "systems", "algebraic_structures",
         "sequences", "limits", "derivatives", "integrals",
         "geometry", "trigonometry", "combinatorics", "progressions",
     ],
     "M3": [
-        "powers", "logarithms",
+        "powers", "logarithms", "functions", "equations",
         "matrices",                 # 2×2 only
         "algebraic_structures",     # basic
         "geometry", "trigonometry", "combinatorics",
@@ -62,42 +64,51 @@ PROFILE_CAPS: dict[str, dict] = {
 # given as tuples; the engine picks one per-seed. M3's II/III are single-topic
 # 6-item formats (spec §5.4).
 SIMULATION_RULES: dict[str, dict] = {
+    # Subiectul I slots follow the fixed position→topic roles of the real papers
+    # (info-on-sub1.md §0/§10): 1 algebra-on-numbers · 2 functions · 3 equation in ℝ
+    # · 4 probability/percentage · 5 analytic geometry · 6 trigonometry/triangle.
     "M1": {
         "subiect_I": [
-            ("logarithms", "complex"),
-            ("derivatives",),
-            ("logarithms", "powers", "complex"),
-            ("combinatorics",),
-            ("geometry",),
-            ("trigonometry",),
+            # 1: the real M1 papers open with complex numbers or a progression
+            # term-finding item about equally often, with radicals (powers) and
+            # base-10 logarithm identities as the secondary flavours. Repetition
+            # weights the uniform picker toward that observed distribution.
+            ("complex", "complex", "progressions", "progressions", "powers", "logarithms"),
+            ("functions",),                          # 2: functions (quadratic-dominated)
+            ("equations",),                          # 3: equation in ℝ
+            ("combinatorics",),                      # 4: probability / subsets
+            ("geometry",),                           # 5: analytic geometry
+            ("trigonometry",),                       # 6: trig / triangle
         ],
         "subiect_II": {"format": "two_problems",
-                       "problems": [("matrices",), ("polynomials", "algebraic_structures")]},
+                       "problems": [("matrices", "matrices_system"),
+                                    ("polynomials", "algebraic_structures")]},
         "subiect_III": {"format": "two_problems",
                         "problems": [("derivatives",), ("integrals",)]},
     },
     "M2": {
         "subiect_I": [
-            ("progressions", "logarithms"),
-            ("derivatives",),
-            ("logarithms", "powers"),
-            ("combinatorics",),
-            ("geometry",),
-            ("trigonometry",),
+            ("progressions", "powers"),              # 1: progressions / powers
+            ("functions",),                          # 2: functions
+            ("equations",),                          # 3: equation in ℝ
+            ("combinatorics",),                      # 4: probability
+            ("geometry",),                           # 5: analytic geometry
+            ("trigonometry",),                       # 6: trig / triangle
         ],
         "subiect_II": {"format": "two_problems",
-                       "problems": [("matrices",), ("algebraic_structures",)]},
+                       "problems": [("matrices", "matrices_system"),
+                                    ("algebraic_structures",)]},
         "subiect_III": {"format": "two_problems",
                         "problems": [("derivatives",), ("integrals",)]},
     },
     "M3": {
         "subiect_I": [
-            ("progressions",),
-            ("derivatives",),
-            ("logarithms",),
-            ("combinatorics", "statistics"),
-            ("geometry",),
-            ("geometry",),
+            ("progressions", "powers"),              # 1: progressions / powers
+            ("functions",),                          # 2: functions (linear only)
+            ("equations",),                          # 3: equation (simple)
+            ("combinatorics", "statistics"),         # 4: probability / percentage
+            ("geometry",),                           # 5: geometry (simple)
+            ("trigonometry", "geometry"),            # 6: triangle / Pythagoras
         ],
         "subiect_II": {"format": "single_topic_6_items", "topic": "algebraic_structures"},
         "subiect_III": {"format": "single_topic_6_items", "topic": "matrices"},
@@ -122,6 +133,8 @@ def _register():
 
     single = {
         "derivatives": ("topics.derivatives", "DerivativesGenerator"),
+        "functions": ("topics.functions", "FunctionsGenerator"),
+        "equations": ("topics.equations", "EquationsGenerator"),
         "geometry": ("topics.geometry", "GeometryGenerator"),
         "logarithms": ("topics.logarithms", "LogarithmsGenerator"),
         "sequences": ("topics.sequences", "SequencesGenerator"),
@@ -133,9 +146,16 @@ def _register():
         "combinatorics": ("topics.combinatorics", "CombinatoricsGenerator"),
         "progressions": ("topics.progressions", "ProgressionsGenerator"),
         "limits": ("topics.limits", "LimitsGenerator"),
+        # Single-item facades over the problem-only topics (antrenament practice
+        # of one cerință at a time; the problem forms stay in PROBLEM_REGISTRY).
+        "matrices": ("topics.facades", "MatricesFacade"),
+        "polynomials": ("topics.facades", "PolynomialsFacade"),
+        "integrals": ("topics.facades", "IntegralsFacade"),
+        "algebraic_structures": ("topics.facades", "AlgebraicStructuresFacade"),
     }
     problem = {
         "matrices": ("topics.matrices", "MatricesProblem"),
+        "matrices_system": ("topics.matrices", "MatrixSystemProblem"),
         "algebraic_structures": ("topics.algebraic_structures", "AlgebraicStructuresProblem"),
         "derivatives": ("topics.derivatives", "DerivativesStudyProblem"),
         "integrals": ("topics.integrals", "IntegralsProblem"),

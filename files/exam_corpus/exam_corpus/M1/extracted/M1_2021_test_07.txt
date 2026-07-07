@@ -1,0 +1,73 @@
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2021
+Proba E. c)
+Matematică M_mate-info
+Testul 7
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+• Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+• Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Determinați numărul elementelor mulțimii M ={n∈ℕ 2n+1<10}.
+5p 2. Se consideră funcția f :ℝ→ℝ, f (x)=x2−10x+m, unde m este număr real. Determinați
+numărul real m pentru care vârful parabolei asociate funcției f este situat pe axa Ox.
+5p 3. Rezolvați în mulțimea numerelor reale ecuația x+ x−5=7.
+5p 4. Calculați probabilitatea ca, alegând un număr din mulțimea numerelor naturale de trei cifre, acesta
+să nu fie multiplu de 5.
+5p 5. În reperul cartezian xOy se consideră punctele A(3,4) și B(−1,3). Determinați coordonatele
+(cid:3)(cid:3)(cid:3)(cid:4) (cid:3)(cid:3)(cid:3)(cid:4) (cid:4)
+punctului C astfel încât AB+2BC=0.
+5p 6. Se consideră triunghiul ascuţitunghic ABC cu AB=4, AC=5 și aria egală cu 6. Calculați
+cosinusul unghiului A.
+SUBIECTUL al II-lea (30 de puncte)
+1 a+1 a 
+x+(a+1)y+az=6a+3
+  
+1. Se consideră matricea A(a)=
+
+1 1 a+1
+
+și sistemul de ecuații x+ y+(a+1)z=4a+7 ,
+  
+2 a 1   2x+ay+z=2a+6
+unde a este număr real.
+5p a) Arătați că det (A(a))=2 ( a2+1 ) , pentru orice număr real a.
+5p b) Determinați numărul real a pentru care A(a)⋅A(0)= A(0)⋅A(a).
+5p c) Demonstrați că, dacă (x ,y ,z ) este soluția sistemului de ecuații, atunci x , y și z sunt
+0 0 0 0 0 0
+termeni consecutivi ai unei progresii geometrice.
+2(x+ y)
+2. Pe mulțimea M =[0,+∞) se definește legea de compoziție x∗y= .
+xy+2
+5p a) Arătați că x∗0=x, pentru orice x∈M .
+5p b) Arătați că x∗y<2, pentru orice x, y∈[1,+∞).
+5p c) Determinați perechile (m,n) de numere naturale nenule pentru care m∗n este număr natural.
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția f :ℝ→ℝ, f (x)=ex( x2−4x+5 ) .
+5p a) Arătați că f '(x)=ex(x−1)2 , x∈ℝ.
+5p b) Calculați lim f (−x).
+x→+∞
+5p c) Demonstrați că graficul funcției f intersectează orice dreaptă paralelă cu axa Ox în cel mult un
+punct.
+2. Se consideră funcția f :ℝ→ℝ, f (x)=4x3+1.
+1
+5p a) Arătați că ∫ f (x)dx=2.
+0
+Probă scrisă la matematică M_mate-info Testul 7
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+1
+5p b) Calculați ∫x2(f (x))3 dx.
+0
+x
+5p c) Demonstrați că lim ∫ln (f (t))dt=+∞.
+x→+∞
+1
+Probă scrisă la matematică M_mate-info Testul 7
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

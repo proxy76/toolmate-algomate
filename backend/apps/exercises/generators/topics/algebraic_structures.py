@@ -35,17 +35,21 @@ class AlgebraicStructuresProblem(ProblemGenerator):
 
     # --- law construction ----------------------------------------------------
     def _law_family(self):
-        """Return (f(x,y), neutral e). Both laws are commutative & associative;
-        the neutral is the *true* one (verified in ``_validate_context``).
+        """Return (f(x,y), neutral e, c, kind). Both laws are commutative &
+        associative; the neutral is the *true* one (verified in
+        ``_validate_context``).
 
-        - mult-shift  f = (x−c)(y−c)+c   →  neutral e = c+1
-        - additive    f = x+y−c          →  neutral e = c
+        - mult-shift  f = (x−c)(y−c)+c   →  neutral e = c+1  (kind "mult")
+        - additive    f = x+y−c          →  neutral e = c    (kind "add")
+
+        ``g(x) = x − c`` is a morphism onto (ℝ*, ·) [mult] resp. (ℝ, +) [add] —
+        the isomorphism cerință M1 leans on.
         """
         rng = self.rng
         c = rng.choice([1, 2, 3, -1])
         fams = [
-            (lambda u, v, c=c: (u - c) * (v - c) + c, c + 1),
-            (lambda u, v, c=c: u + v - c, c),
+            (lambda u, v, c=c: (u - c) * (v - c) + c, c + 1, c, "mult"),
+            (lambda u, v, c=c: u + v - c, c, c, "add"),
         ]
         if self.profile == "M3":
             # M3: keep the additive law (simplest to verify by hand, §5.4).
@@ -53,17 +57,21 @@ class AlgebraicStructuresProblem(ProblemGenerator):
         return rng.choice(fams)
 
     def _generate_context(self) -> dict:
-        f, e = self._law_family()
+        f, e, c, kind = self._law_family()
         rng = self.rng
         # y0 distinct from the neutral to avoid a degenerate equation in cerinte.
         y_choices = [v for v in [0, 1, 2, 3] if v != e] or [e + 1]
-        return {
+        ctx = {
             "f": f,
             "e": e,
+            "c": c,
+            "kind": kind,
             "x0": rng.choice([0, 1, 2, 3]),
             "y0": rng.choice(y_choices),
             "target": rng.choice([e + 1, e + 2, e - 2]),
         }
+        ctx["plan"] = self._pick_plan()   # decide a/b/c once (label consistency)
+        return ctx
 
     def _validate_context(self, ctx) -> bool:
         f, e = ctx["f"], ctx["e"]
@@ -164,12 +172,62 @@ class AlgebraicStructuresProblem(ProblemGenerator):
                             rf"$\Rightarrow x \in \{{{sol_l}\}}$"],
         }
 
-    def _plan(self):
-        if self.six:  # M3 Subiectul II — six items
+    def _c_associativity(self, ctx, label, tier):
+        f = ctx["f"]
+        z = sp.symbols("z", real=True)
+        assert sp.simplify(f(f(x, y), z) - f(x, f(y, z))) == 0
+        return {
+            "question_latex": r"Arătați că legea $\ast$ este asociativă.",
+            "answer_latex": r"$(x \ast y) \ast z = x \ast (y \ast z)$, pentru orice "
+                            r"$x, y, z \in \mathbb{R}$",
+            "hint_latex": r"Calculați $(x \ast y) \ast z$ și $x \ast (y \ast z)$ și comparați.",
+            "steps_latex": [rf"$(x \ast y) \ast z = {_l(sp.expand(f(f(x, y), z)))}$",
+                            rf"$x \ast (y \ast z) = {_l(sp.expand(f(x, f(y, z))))}$"],
+        }
+
+    def _c_morphism(self, ctx, label, tier):
+        f, c, kind = ctx["f"], ctx["c"], ctx["kind"]
+        cs = f"{c}" if c >= 0 else f"({c})"
+        if kind == "mult":
+            assert sp.simplify((f(x, y) - c) - (x - c) * (y - c)) == 0
+            op, cod = r"\cdot", r"\mathbb{R}^{*}"
+        else:
+            assert sp.simplify((f(x, y) - c) - ((x - c) + (y - c))) == 0
+            op, cod = "+", r"\mathbb{R}"
+        return {
+            "question_latex": rf"Arătați că funcția $g:\mathbb{{R}}\to{cod}$, "
+                              rf"$g(x) = x - {cs}$, verifică $g(x \ast y) = g(x) {op} g(y)$, "
+                              rf"pentru orice $x, y \in \mathbb{{R}}$.",
+            "answer_latex": rf"$g(x \ast y) = g(x) {op} g(y)$",
+            "hint_latex": rf"Calculați $g(x \ast y) = (x \ast y) - {cs}$ și comparați cu "
+                          rf"$g(x) {op} g(y)$.",
+            "steps_latex": [rf"$g(x \ast y) = {_l(sp.expand(f(x, y) - c))} = g(x) {op} g(y)$"],
+        }
+
+    def _pick_plan(self):
+        """Randomize a/b/c cerinte by difficulty tier, keeping the themes distinct
+        (so a paper never repeats a theme). Called once per context."""
+        if self.six:  # M3 Subiectul II — fixed comprehensive six-item tour.
             return [self._c_value, self._c_equation, self._c_commutativity,
                     self._c_neutral, self._c_eq_with_value, self._c_symmetric]
+        rng = self.rng
+        if self.profile == "M1":
+            # M1 (mate-info) reaches the harder proofs: associativity + morphism.
+            t1 = [(self._c_value, "value"), (self._c_commutativity, "prove")]
+            t2 = [(self._c_neutral, "neutral"), (self._c_associativity, "assoc"),
+                  (self._c_eq_with_value, "equation")]
+            t3 = [(self._c_morphism, "morphism"), (self._c_symmetric, "symmetric"),
+                  (self._c_equation, "equation")]
+        else:  # M2 — unchanged.
+            t1 = [(self._c_value, "value"), (self._c_commutativity, "prove")]
+            t2 = [(self._c_neutral, "neutral"), (self._c_eq_with_value, "equation")]
+            t3 = [(self._c_symmetric, "symmetric"), (self._c_equation, "equation")]
+        for _ in range(30):
+            a, b, c = rng.choice(t1), rng.choice(t2), rng.choice(t3)
+            if len({a[1], b[1], c[1]}) == 3:
+                return [a[0], b[0], c[0]]
         return [self._c_value, self._c_neutral, self._c_symmetric]
 
     def _build_sub_item(self, ctx, label, difficulty) -> dict:
         idx = self.SUB_LABELS.index(label)
-        return self._plan()[idx](ctx, label, difficulty)
+        return ctx["plan"][idx](ctx, label, difficulty)

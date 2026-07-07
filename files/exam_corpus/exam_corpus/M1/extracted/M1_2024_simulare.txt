@@ -1,0 +1,89 @@
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2024
+Proba E. c)
+Matematică M_mate-info
+Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+ Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+ 1 
+5p 1. Arătați că 3lg lg 101.
+ 10
+5p 2. Se consideră funcția f :ℝℝ, f xx2ax1, unde a este număr real. Determinați numerele
+reale a pentru care f (cid:2) f11.
+5p 3. Rezolvați în mulțimea numerelor reale ecuația 2x18x 32.
+5p 4. Determinați probabilitatea ca, alegând un număr n din mulțimea numerelor naturale de două cifre,
+numărul n100 să fie natural.
+5p 5. În reperul cartezian xOy se consideră punctele A1,4, B4,6 și C4,2. Determinați
+(cid:3)(cid:3)(cid:3)(cid:4) (cid:3)(cid:3)(cid:3)(cid:4) (cid:3)(cid:3)(cid:3)(cid:4)
+1 
+coordonatele punctului D, știind că OD ABAC .
+2
+x   
+5p 6. Se consideră expresia Extgx4cos cosx, unde x0, . Arătați că E 0.
+2  2 3
+SUBIECTUL al II-lea (30 de puncte)
+1 0 0  1 1 x 
+   
+1. Se consideră matricele I  0 1 0 și Ax 1 0 0 , unde x este număr real.
+3    
+   
+0 0 1  x 0 1
+5p a) Arătați că detA01.
+5p b) Arătați că detAxAxI 0, pentru orice număr real x.
+3
+1 0 1
+5p c) Se consideră matricea BM
+2,3
+ℝ, B . Determinați matricea XM
+2,3
+ℝ pentru
+0 1 0
+care X A01 BA0, unde A01 este inversa matricei A0.
+x2 y2x y
+2. Pe mulțimea M 0, se definește legea de compoziție xy .
+x y1
+5p a) Arătați că 122.
+5p b) Arătați că e0 este elementul neutru al legii de compoziție „”.
+5p c) Determinați perechile m,n de numere naturale pentru care mn5.
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția f :ℝℝ, f xx6 x2 4.
+2  x23x2 
+5p a) Arătați că f 'x , xℝ.
+x24
+5p b) Determinați intervalele de monotonie a funcției f .
+5p c) Demonstrați că ecuația f xm are soluție unică, pentru orice număr întreg m.
+Probă scrisă la matematică M_mate-info Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+x1
+2. Se consideră funcția f :ℝℝ, f x .
+ex
+4
+5p a) Arătați că exf xdx12.
+0
+1
+2e3
+5p b) Arătați că  f xdx .
+e
+0
+1 xn1
+5p c) Pentru fiecare număr natural n, n2, se consideră numărul I  dx. Demonstrați că
+n
+f
+ xn
+0
+ln2 e1
+I  , pentru orice număr natural n, n2.
+n
+n n
+Probă scrisă la matematică M_mate-info Simulare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2

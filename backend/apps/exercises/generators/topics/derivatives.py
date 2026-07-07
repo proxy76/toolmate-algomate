@@ -14,7 +14,8 @@ x = sp.Symbol("x", real=True)
 
 
 def _latex(expr) -> str:
-    return sp.latex(expr, mul_symbol="dot")
+    # Romanian BAC writes the natural log as ``ln`` (sympy emits ``\log``).
+    return sp.latex(expr, mul_symbol="dot").replace(r"\log", r"\ln")
 
 
 class DerivativesGenerator(ExerciseGenerator):
@@ -184,37 +185,65 @@ class DerivativesStudyProblem(ProblemGenerator):
 
     def _generate_context(self) -> dict:
         rng = self.rng
-        if rng.choice(["cubic", "rational"]) == "cubic":
+        # M1 (mate-info) uses the harder function-study modes of the real papers:
+        # exp/rational with a *bijectivity* proof, and ln with extremum analysis.
+        # M2 keeps the cubic/rational study unchanged.
+        if self.profile == "M1":
+            mode = rng.choice(["exp_bijective", "ln_extrem", "rational", "cubic"])
+        else:
+            mode = rng.choice(["cubic", "rational"])
+
+        if mode == "cubic":
             a = rng.choice([1, 2, 3, 4, 5])      # a>0 ⇒ f'(x)=3x²+a>0 ⇒ strictly ↑
             b = rng.choice([-3, -2, -1, 1, 2, 3])
             f = x ** 3 + a * x + b
             return {"mode": "cubic", "f": f, "a": a, "b": b, "fp": sp.diff(f, x)}
-        c = rng.choice([1, 2, 3, -1, -2])
-        b = rng.choice([-3, -2, -1, 1, 2, 3])
-        if c * c + b == 0:
-            b += 1
-        f = (x ** 2 + b) / (x + c)
-        return {"mode": "rational", "f": sp.together(f), "b": b, "c": c,
-                "fp": sp.simplify(sp.diff(f, x))}
+        if mode == "rational":
+            c = rng.choice([1, 2, 3, -1, -2])
+            b = rng.choice([-3, -2, -1, 1, 2, 3])
+            if c * c + b == 0:
+                b += 1
+            f = (x ** 2 + b) / (x + c)
+            return {"mode": "rational", "f": sp.together(f), "b": b, "c": c,
+                    "fp": sp.simplify(sp.diff(f, x))}
+        if mode == "exp_bijective":
+            k = rng.choice([1, 2])                # f'(x)=1+k·e^{kx}>0 ⇒ bijective ℝ→ℝ
+            f = x + sp.exp(k * x)
+            return {"mode": "exp_bijective", "f": f, "k": k, "fp": sp.simplify(sp.diff(f, x))}
+        a = rng.choice([1, 2, 3])                 # f(x)=x−a·ln x on (0,∞); min at x=a
+        f = x - a * sp.ln(x)
+        return {"mode": "ln_extrem", "f": f, "a": a, "fp": sp.simplify(sp.diff(f, x))}
 
     def _validate_context(self, ctx) -> bool:
-        if ctx["mode"] == "cubic":
+        mode = ctx["mode"]
+        if mode == "cubic":
             return ctx["a"] > 0 and len(sp.real_roots(sp.Poly(ctx["f"], x))) == 1
-        return ctx["c"] ** 2 + ctx["b"] != 0
+        if mode == "rational":
+            return ctx["c"] ** 2 + ctx["b"] != 0
+        if mode == "exp_bijective":
+            return ctx["k"] > 0
+        return ctx["a"] > 0                        # ln_extrem
 
     def _build_statement(self, ctx) -> str:
-        f = ctx["f"]
-        if ctx["mode"] == "cubic":
+        f, mode = ctx["f"], ctx["mode"]
+        if mode in ("cubic", "exp_bijective"):
             return rf"Se consideră funcția $f:\mathbb{{R}}\to\mathbb{{R}}$, $f(x) = {_latex(f)}$."
+        if mode == "ln_extrem":
+            return (rf"Se consideră funcția $f:(0,\infty)\to\mathbb{{R}}$, "
+                    rf"$f(x) = {_latex(f)}$.")
         c = ctx["c"]
         return (rf"Se consideră funcția $f:\mathbb{{R}}\setminus\{{{-c}\}}\to\mathbb{{R}}$, "
                 rf"$f(x) = {_latex(f)}$.")
 
     def _build_sub_item(self, ctx, label, difficulty) -> dict:
         idx = ("a", "b", "c").index(label)
-        if ctx["mode"] == "cubic":
-            return (self._cub_a, self._cub_b, self._cub_c)[idx](ctx)
-        return (self._rat_a, self._rat_b, self._rat_c)[idx](ctx)
+        builders = {
+            "cubic": (self._cub_a, self._cub_b, self._cub_c),
+            "rational": (self._rat_a, self._rat_b, self._rat_c),
+            "exp_bijective": (self._exp_a, self._exp_b, self._exp_c),
+            "ln_extrem": (self._ln_a, self._ln_b, self._ln_c),
+        }[ctx["mode"]]
+        return builders[idx](ctx)
 
     # cubic mode ------------------------------------------------------------
     def _cub_a(self, ctx):
@@ -268,3 +297,54 @@ class DerivativesStudyProblem(ProblemGenerator):
                                   r"funcției $f$.",
                 "answer_latex": rf"$x = {-c}$",
                 "hint_latex": rf"Studiați $\lim_{{x\to {-c}}} f(x)$."}
+
+    # exp-bijective mode (M1) ----------------------------------------------
+    def _exp_a(self, ctx):
+        fp = ctx["fp"]
+        assert sp.simplify(sp.diff(ctx["f"], x) - fp) == 0
+        return {"question_latex": rf"Arătați că $f'(x) = {_latex(fp)}$, $x \in \mathbb{{R}}$.",
+                "answer_latex": rf"$f'(x) = {_latex(fp)}$",
+                "hint_latex": r"$(e^{u})' = e^{u}\cdot u'$; derivați termen cu termen."}
+
+    def _exp_b(self, ctx):
+        return {"question_latex": r"Arătați că funcția $f$ este strict crescătoare pe "
+                                  r"$\mathbb{R}$.",
+                "answer_latex": rf"$f'(x) = {_latex(ctx['fp'])} > 0$ pentru orice "
+                                r"$x \in \mathbb{R}$, deci $f$ este strict crescătoare",
+                "hint_latex": r"$e^{kx} > 0$, deci $f'(x) > 0$ pe tot $\mathbb{R}$."}
+
+    def _exp_c(self, ctx):
+        f = ctx["f"]
+        assert sp.limit(f, x, -sp.oo) == -sp.oo and sp.limit(f, x, sp.oo) == sp.oo
+        return {"question_latex": r"Arătați că funcția $f$ este bijectivă.",
+                "answer_latex": r"$f$ strict crescătoare și continuă $\Rightarrow$ injectivă; "
+                                r"$\lim_{x\to-\infty}f=-\infty$, $\lim_{x\to+\infty}f=+\infty$ "
+                                r"$\Rightarrow$ surjectivă, deci $f$ este bijectivă",
+                "hint_latex": r"O funcție continuă, strict monotonă, cu limite $\pm\infty$ "
+                              r"la capete este bijectivă."}
+
+    # ln-extremum mode (M1) ------------------------------------------------
+    def _ln_a(self, ctx):
+        fp = sp.together(ctx["fp"])
+        assert sp.simplify(sp.diff(ctx["f"], x) - fp) == 0
+        return {"question_latex": rf"Arătați că $f'(x) = {_latex(fp)}$, $x \in (0, \infty)$.",
+                "answer_latex": rf"$f'(x) = {_latex(fp)}$",
+                "hint_latex": r"$(\ln x)' = \dfrac{1}{x}$; derivați termen cu termen."}
+
+    def _ln_b(self, ctx):
+        a = ctx["a"]
+        return {"question_latex": r"Determinați intervalele de monotonie ale funcției $f$.",
+                "answer_latex": rf"$f$ este strict descrescătoare pe $(0, {a})$ și strict "
+                                rf"crescătoare pe $({a}, \infty)$",
+                "hint_latex": rf"$f'(x) = \dfrac{{x - {a}}}{{x}}$; studiați semnul pe $(0,\infty)$.",
+                "steps_latex": [rf"$f'(x) < 0$ pe $(0, {a})$, $f'(x) > 0$ pe $({a}, \infty)$"]}
+
+    def _ln_c(self, ctx):
+        a = ctx["a"]
+        assert sp.simplify(ctx["fp"].subs(x, a)) == 0
+        return {"question_latex": r"Determinați punctul de minim al funcției $f$.",
+                "answer_latex": rf"$x = {a}$",
+                "hint_latex": rf"Punctul de minim este soluția ecuației $f'(x) = 0$ din "
+                              rf"$(0,\infty)$.",
+                "steps_latex": [rf"$f'(x) = 0 \Rightarrow x = {a}$ (minim, căci $f'$ schimbă "
+                                rf"semnul din $-$ în $+$)"]}

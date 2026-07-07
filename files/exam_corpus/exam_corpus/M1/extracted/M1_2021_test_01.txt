@@ -1,0 +1,68 @@
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Examenul național de bacalaureat 2021
+Proba E. c)
+Matematică M_mate-info
+Testul 1
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+ Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Determinați numărul elementelor mulțimii M   nℕ n2 7 7  .
+5p 2. Se consideră funcția f :ℝℝ, f xx2 6xm, unde m este număr real. Determinați valorile
+reale ale lui m pentru care vârful parabolei asociate funcției f are ordonata strict mai mare decât 0.
+5p 3. Rezolvați în mulțimea numerelor reale ecuația x3x3.
+5p 4. Determinați numărul submulțimilor cu cel mult 2 elemente ale unei mulțimi cu 12 elemente.
+5p 5. În reperul cartezian xOy se consideră punctele A4,1 și B1,2. Determinați coordonatele
+punctului de intersecție a paralelei prin A la OB cu paralela prin B la OA.
+1 1  
+5p 6. Arătați că  1, pentru orice x0, .
+1tgx 1ctgx  2
+SUBIECTUL al II-lea (30 de puncte)
+1a 2a 0 
+ 
+1. Se consideră matricea Aa a 12a 0 , unde a este număr real.
+ 
+ 
+ 0 0 1a
+5p a) Arătați că det
+ A1
+4.
+5p b) Demonstrați că AaAb Aabab, pentru orice numere reale a și b.
+5p c) Demonstrați că, dacă a, b și c sunt numere reale pentru care AaAbAc A0, atunci
+1a1b1c1.
+2. Pe mulțimea M 0, se definește legea de compoziție xy x2  y2 .
+5p a) Arătați că 345.
+5p b) Determinați xM pentru care x 5x1.
+5p c) Demonstrați că există o infinitate de perechi m,n de numere naturale nenule, pentru care
+numerele m, n și mn sunt termeni consecutivi ai unei progresii aritmetice.
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția f :ℝℝ, f xx x2 4x5 .
+x2 4x5x2
+5p a) Arătați că fx , xℝ.
+x2 4x5
+5p b) Demonstrați că funcția f este strict crescătoare pe ℝ.
+5p c) Determinați ecuația asimptotei orizontale spre  la graficul funcției f .
+2. Se consideră funcția f :ℝℝ, f xx2 1.
+1
+4
+5p a) Arătați că  f xdx .
+3
+0
+Probă scrisă la matematică M_mate-info Testul 1
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+1
+5p b) Calculați exf xdx.
+0
+1
+5p c) Arătați că  xln  f x dx2ln21.
+1
+Probă scrisă la matematică M_mate-info Testul 1
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocaţională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2
