@@ -9,6 +9,7 @@ from __future__ import annotations
 
 # topic_code -> human label (Romanian). Spec §12 terminology.
 TOPIC_LABELS: dict[str, str] = {
+    "arithmetic": "Calcul numeric",
     "powers": "Puteri și radicali",
     "logarithms": "Logaritmi",
     "functions": "Funcții",
@@ -38,13 +39,13 @@ PROFILE_TOPICS: dict[str, list[str]] = {
         "geometry", "trigonometry", "combinatorics", "progressions",
     ],
     "M2": [
-        "powers", "logarithms", "functions", "equations", "complex",  # complex: algebraic only
+        "arithmetic", "powers", "logarithms", "functions", "equations", "complex",  # complex: algebraic only
         "polynomials", "matrices", "systems", "algebraic_structures",
         "sequences", "limits", "derivatives", "integrals",
         "geometry", "trigonometry", "combinatorics", "progressions",
     ],
     "M3": [
-        "powers", "logarithms", "functions", "equations",
+        "arithmetic", "powers", "logarithms", "functions", "equations",
         "matrices",                 # 2×2 only
         "algebraic_structures",     # basic
         "geometry", "trigonometry", "combinatorics",
@@ -87,17 +88,21 @@ SIMULATION_RULES: dict[str, dict] = {
                         "problems": [("derivatives",), ("integrals",)]},
     },
     "M2": {
+        # M_tehnologic Subiectul I (info from files/exam_corpus/M2/ANALYSIS_M2.md):
+        # 1 numeric computation (fractions/radicals) · 2 linear function · 3 equation
+        # · 4 probability over a small explicit set / percentage · 5 geometry · 6 trig.
         "subiect_I": [
-            ("progressions", "powers"),              # 1: progressions / powers
-            ("functions",),                          # 2: functions
+            ("arithmetic", "arithmetic", "progressions"),  # 1: numeric calc (+ occasional progression)
+            ("functions",),                          # 2: linear function
             ("equations",),                          # 3: equation in ℝ
-            ("combinatorics",),                      # 4: probability
+            ("combinatorics",),                      # 4: probability over explicit set / %
             ("geometry",),                           # 5: analytic geometry
             ("trigonometry",),                       # 6: trig / triangle
         ],
+        # Subiectul II: 2×2 matrices (concrete / affine param) + law / polynomials.
         "subiect_II": {"format": "two_problems",
-                       "problems": [("matrices", "matrices_system"),
-                                    ("algebraic_structures",)]},
+                       "problems": [("matrices_2x2",),
+                                    ("algebraic_structures", "polynomials")]},
         "subiect_III": {"format": "two_problems",
                         "problems": [("derivatives",), ("integrals",)]},
     },
@@ -132,6 +137,7 @@ def _register():
     from importlib import import_module
 
     single = {
+        "arithmetic": ("topics.arithmetic", "ArithmeticGenerator"),
         "derivatives": ("topics.derivatives", "DerivativesGenerator"),
         "functions": ("topics.functions", "FunctionsGenerator"),
         "equations": ("topics.equations", "EquationsGenerator"),
@@ -156,6 +162,7 @@ def _register():
     problem = {
         "matrices": ("topics.matrices", "MatricesProblem"),
         "matrices_system": ("topics.matrices", "MatrixSystemProblem"),
+        "matrices_2x2": ("topics.matrices", "Matrix2x2Problem"),
         "algebraic_structures": ("topics.algebraic_structures", "AlgebraicStructuresProblem"),
         "derivatives": ("topics.derivatives", "DerivativesStudyProblem"),
         "integrals": ("topics.integrals", "IntegralsProblem"),

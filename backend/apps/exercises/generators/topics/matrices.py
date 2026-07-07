@@ -451,3 +451,169 @@ class MatrixSystemProblem(ProblemGenerator):
                           rf"rezolvați-l (Cramer sau reducere).",
             "steps_latex": [rf"$(x_0, y_0, z_0) = ({x0}, {y0}, {z0})$"],
         }
+
+
+# =============================================================================
+# 2×2 matrices — the Subiectul II problem-1 form of M_tehnologic (M2). Never 3×3,
+# never a linear system. Two flavours, both entirely sympy-verified:
+#   concrete: A, B, C integer 2×2 → det A / linear-combination identity / solve X·A=…
+#   param:    A(x)=xM+N (affine, det linear in x) → det(A(x₀)) / affine identity /
+#             find x from det(A(x))=k.
+# =============================================================================
+_px = x                                  # reuse the module parameter symbol (prints as "x")
+
+
+class Matrix2x2Problem(ProblemGenerator):
+    TOPIC_CODE = "matrices"
+    SUPPORTED_PROFILES = ["M2"]
+
+    def _rand_mat(self, lo=-3, hi=3):
+        r = lambda: self.rng.randint(lo, hi)
+        return sp.Matrix([[r(), r()], [r(), r()]])
+
+    def _generate_context(self) -> dict:
+        return self._ctx_param() if self.rng.random() < 0.45 else self._ctx_concrete()
+
+    # --- concrete A, B, C ----------------------------------------------------
+    def _ctx_concrete(self) -> dict:
+        rng = self.rng
+        for _ in range(120):
+            A = self._rand_mat()
+            dA = int(A.det())
+            if dA == 0 or abs(dA) > 6:
+                continue
+            B = self._rand_mat()
+            cA, cB, cC = rng.choice([(1, 2, 3), (2, -1, 3), (1, 1, 2), (-1, 2, 1), (2, 1, 3)])
+            combo = cA * A + cB * B
+            if any(v % cC != 0 for v in combo):
+                continue
+            C = combo / cC                       # integer ⇒ identity cA·A+cB·B=cC·C
+            # part (c): solve X·A = pB + qC with integer X
+            for p, q in [(2, 1), (1, 2), (1, 1), (2, -1), (1, -1)]:
+                R = p * B + q * C
+                X = R * A.inv()
+                if all(v.is_integer for v in X):
+                    return {"mode": "concrete", "A": A, "B": B, "C": C, "dA": dA,
+                            "cA": cA, "cB": cB, "cC": cC, "p": p, "q": q,
+                            "X": sp.Matrix(X), "R": R}
+        raise ValueError("no concrete 2x2 context")
+
+    # --- parametrized A(x) = x·M + N (affine; det linear in x) ----------------
+    def _ctx_param(self) -> dict:
+        rng = self.rng
+        rank1 = [sp.Matrix([[1, 0], [1, 0]]), sp.Matrix([[1, 1], [0, 0]]),
+                 sp.Matrix([[1, 0], [0, 0]]), sp.Matrix([[0, 1], [0, 1]]),
+                 sp.Matrix([[1, -1], [0, 0]]), sp.Matrix([[0, 0], [1, 1]])]
+        for _ in range(120):
+            M = rng.choice(rank1)
+            N = self._rand_mat(-2, 3)
+            A = M * _px + N
+            det = sp.Poly(sp.expand((A).det()), _px)
+            if det.degree() != 1:
+                continue
+            x0 = rng.choice([1, 2, 3, 4])
+            dval = int(det.eval(x0))
+            # affine identity A(p)+A(q)=2A(m), p+q=2m
+            m = rng.choice([1, 2, 3])
+            d = rng.choice([1, 2, 3])
+            p, q = m - d, m + d
+            lhs = A.subs(_px, p) + A.subs(_px, q)
+            if sp.simplify(lhs - 2 * A.subs(_px, m)) != sp.zeros(2, 2):
+                continue
+            # part (c): find x for det(A(x)) = k (clean integer solution)
+            x1 = rng.choice([-1, 0, 1, 2, 3, 4])
+            k = int(det.eval(x1))
+            sols = sp.solve(sp.Eq(det.as_expr(), k), _px)
+            if sols != [x1]:
+                continue
+            return {"mode": "param", "A": A, "x0": x0, "dval": dval,
+                    "p": p, "q": q, "m": m, "x1": x1, "k": k}
+        raise ValueError("no param 2x2 context")
+
+    def _validate_context(self, ctx) -> bool:
+        if ctx["mode"] == "concrete":
+            A, B, C = ctx["A"], ctx["B"], ctx["C"]
+            ident = sp.simplify(ctx["cA"] * A + ctx["cB"] * B - ctx["cC"] * C) == sp.zeros(2, 2)
+            solve = sp.simplify(ctx["X"] * A - ctx["R"]) == sp.zeros(2, 2)
+            return bool(ident and solve)
+        A = ctx["A"]
+        return sp.simplify(A.subs(_px, ctx["x1"]).det() - ctx["k"]) == 0
+
+    def _build_statement(self, ctx) -> str:
+        if ctx["mode"] == "concrete":
+            return (rf"Se consideră matricele $A = {_ml(ctx['A'])}$, $B = {_ml(ctx['B'])}$ și "
+                    rf"$C = {_ml(ctx['C'])}$.")
+        return (rf"Se consideră matricea $A(x) = {_ml(ctx['A'])}$, unde $x$ este număr real, "
+                rf"și $I_2$ matricea unitate de ordin $2$.")
+
+    def _sub_tiers(self):
+        return (1, 2, 3)
+
+    def _build_sub_item(self, ctx, label, difficulty) -> dict:
+        if ctx["mode"] == "concrete":
+            return {"a": self._c_det, "b": self._c_ident, "c": self._c_solve}[label](ctx)
+        return {"a": self._p_det, "b": self._p_ident, "c": self._p_findx}[label](ctx)
+
+    # concrete cerinte --------------------------------------------------------
+    @staticmethod
+    def _co(c):
+        return "" if c == 1 else ("-" if c == -1 else str(c))
+
+    def _c_det(self, ctx):
+        return {"question_latex": rf"Arătați că $\det A = {ctx['dA']}$.",
+                "answer_latex": rf"$\det A = {ctx['dA']}$",
+                "hint_latex": r"$\det\begin{pmatrix}a&b\\c&d\end{pmatrix} = ad - bc$."}
+
+    def _c_ident(self, ctx):
+        cA, cB, cC = ctx["cA"], ctx["cB"], ctx["cC"]
+        def term(coef, name, first=False):
+            if coef == 0:
+                return ""
+            s = "+" if coef > 0 else "-"
+            mag = "" if abs(coef) == 1 else str(abs(coef))
+            head = ("" if coef > 0 else "-") if first else f" {s} "
+            return f"{head}{mag}{name}"
+        lhs = term(cA, "A", True) + term(cB, "B")
+        rhs = f"{'' if cC == 1 else cC}C"
+        return {"question_latex": rf"Arătați că ${lhs} = {rhs}$.",
+                "answer_latex": rf"${lhs} = {rhs}$",
+                "hint_latex": r"Efectuați operațiile cu matrice element cu element."}
+
+    def _c_solve(self, ctx):
+        p, q = ctx["p"], ctx["q"]
+        def rt(coef, name, first=False):
+            s = "+" if coef > 0 else "-"
+            mag = "" if abs(coef) == 1 else str(abs(coef))
+            head = ("" if coef > 0 else "-") if first else f" {s} "
+            return f"{head}{mag}{name}"
+        rhs = rt(p, "B", True) + rt(q, "C")
+        return {"question_latex": rf"Determinați matricea $X \in \mathcal{{M}}_2(\mathbb{{R}})$ "
+                                  rf"pentru care $X \cdot A = {rhs}$.",
+                "answer_latex": rf"$X = {_ml(ctx['X'])}$",
+                "hint_latex": rf"Înmulțiți la dreapta cu $A^{{-1}}$: $X = ({rhs})\cdot A^{{-1}}$.",
+                "steps_latex": [rf"$X = ({rhs})\cdot A^{{-1}} = {_ml(ctx['X'])}$"]}
+
+    # param cerinte -----------------------------------------------------------
+    def _p_det(self, ctx):
+        x0, dval = ctx["x0"], ctx["dval"]
+        return {"question_latex": rf"Arătați că $\det\big(A({x0})\big) = {dval}$.",
+                "answer_latex": rf"$\det\big(A({x0})\big) = {dval}$",
+                "hint_latex": r"Înlocuiți $x$ cu valoarea dată și calculați determinantul."}
+
+    def _p_ident(self, ctx):
+        p, q, m = ctx["p"], ctx["q"], ctx["m"]
+        return {"question_latex": rf"Arătați că $A({p}) + A({q}) = 2A({m})$.",
+                "answer_latex": rf"$A({p}) + A({q}) = 2A({m})$",
+                "hint_latex": r"Elementele lui $A(x)$ sunt de gradul întâi în $x$; "
+                              r"adunați matricele.",
+                "steps_latex": [rf"$A({p}) + A({q}) = {_ml(ctx['A'].subs(_px, p) + ctx['A'].subs(_px, q))}"
+                                rf" = 2A({m})$"]}
+
+    def _p_findx(self, ctx):
+        x1, k = ctx["x1"], ctx["k"]
+        return {"question_latex": rf"Determinați numărul real $x$ pentru care "
+                                  rf"$\det\big(A(x)\big) = {k}$.",
+                "answer_latex": rf"$x = {x1}$",
+                "hint_latex": r"Calculați $\det\big(A(x)\big)$ (expresie de gradul întâi în $x$) "
+                              r"și rezolvați ecuația.",
+                "steps_latex": [rf"$\det\big(A(x)\big) = {k} \Rightarrow x = {x1}$"]}

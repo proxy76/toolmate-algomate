@@ -311,6 +311,50 @@ _POS4 = [
     _p4_subset_contains, _p4_subsets_at_most, _p4_count_from_set, _p4_percentage,
 ]
 
+
+# --- M2 (tehnologic) pos-4: probability over a small EXPLICIT set + percentage --
+def _p4_set_multiples(rng):
+    """A = {k, 2k, …, 9k}; probability that an element is divisible by d."""
+    k = rng.choice([10, 5, 3, 4])
+    elems = [k * i for i in range(1, 10)]
+    d = rng.choice([2, 3, 20, 15, k * 2])
+    fav = [e for e in elems if e % d == 0]
+    if not fav or len(fav) == len(elems):
+        raise ValueError("degenerate")
+    setstr = ",".join(str(e) for e in elems)
+    return _prob_item(
+        rf"Determinați probabilitatea ca, alegând un număr din mulțimea "
+        rf"$A = \{{{setstr}\}}$, acesta să fie divizibil cu ${d}$.",
+        len(fav), len(elems),
+        rf"Numărați elementele lui $A$ divizibile cu ${d}$ (${len(fav)}$), din cele "
+        rf"${len(elems)}$ posibile.")
+
+
+def _p4_set_range_ineq(rng):
+    """A = {a, a+1, …, b}; probability that n satisfies a linear inequality."""
+    a, b = rng.choice([(1, 23), (0, 9), (1, 20), (10, 30), (0, 9)])
+    total = b - a + 1
+    c = rng.choice([1, 2, 3])
+    v = rng.randint(a * c, b * c)
+    op = rng.choice([">", "\\geq", "<", "\\leq"])
+    def ok(n):
+        cn = c * n
+        return {">": cn > v, "\\geq": cn >= v, "<": cn < v, "\\leq": cn <= v}[op]
+    fav = [n for n in range(a, b + 1) if ok(n)]
+    if not fav or len(fav) == total:
+        raise ValueError("degenerate")
+    setrepr = (rf"\{{{a}, {a+1}, {a+2}, \ldots, {b}\}}" if b - a > 4
+               else r"\{" + ",".join(str(i) for i in range(a, b + 1)) + r"\}")
+    cc = "" if c == 1 else f"{c}"
+    return _prob_item(
+        rf"Determinați probabilitatea ca, alegând un număr $n$ din mulțimea "
+        rf"$A = {setrepr}$, acesta să verifice inegalitatea ${cc}n {op} {v}$.",
+        len(fav), total,
+        rf"Rezolvați inegalitatea în mulțimea $A$ (${len(fav)}$ soluții din ${total}$).")
+
+
+_POS4_M2 = [_p4_set_multiples, _p4_set_range_ineq, _p4_percentage]
+
 _TIERS = {
     1: [_d1_arrangements, _d1_combinations, _d1_factorial] + _POS4,
     2: _POS4 + [_d2_equation, _d2_arrangement_eq, _d2_comb_eq3],
@@ -323,4 +367,9 @@ class CombinatoricsGenerator(TieredExerciseGenerator):
     SUPPORTED_PROFILES = ["M1", "M2", "M3"]
 
     def _tiers(self):
-        return {1: _TIERS[1]} if self.profile == "M3" else _TIERS
+        if self.profile == "M3":
+            return {1: _TIERS[1]}
+        if self.profile == "M2":
+            # M_tehnologic pos-4: probability over a small explicit set + percentage.
+            return {1: _POS4_M2, 2: _POS4_M2}
+        return _TIERS

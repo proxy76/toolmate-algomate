@@ -161,6 +161,23 @@ class CorrectnessTests(SimpleTestCase):
             sol = sp.linsolve((A1, ctx["b"]), (_xs, _ys, _zs))
             self.assertEqual(sol, sp.FiniteSet(tuple(ctx["s"])))
 
+    def test_matrix_2x2_is_consistent(self):
+        from apps.exercises.generators.topics.matrices import Matrix2x2Problem, _px
+        for s in range(30):
+            ctx = Matrix2x2Problem("M2", random.Random(f"m2x2_{s}"))._generate_context()
+            if ctx["mode"] == "concrete":
+                A, B, C = ctx["A"], ctx["B"], ctx["C"]
+                self.assertEqual(sp.simplify(ctx["cA"] * A + ctx["cB"] * B - ctx["cC"] * C),
+                                 sp.zeros(2, 2))
+                self.assertEqual(sp.simplify(ctx["X"] * A - ctx["R"]), sp.zeros(2, 2))
+                self.assertTrue(all(v.is_integer for v in ctx["X"]))
+            else:
+                A = ctx["A"]
+                self.assertEqual(int(A.subs(_px, ctx["x0"]).det()), ctx["dval"])
+                self.assertEqual(sp.simplify(A.subs(_px, ctx["p"]) + A.subs(_px, ctx["q"])
+                                             - 2 * A.subs(_px, ctx["m"])), sp.zeros(2, 2))
+                self.assertEqual(int(A.subs(_px, ctx["x1"]).det()), ctx["k"])
+
     def test_integral_primitive_correct(self):
         from apps.exercises.generators.topics.integrals import IntegralsProblem, x
         for s in range(20):

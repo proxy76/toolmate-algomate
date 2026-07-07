@@ -12,6 +12,14 @@
 > single-item facades for antrenament (S5 cont.). Remaining work is optional polish
 > (more subtype variety, more tests).
 >
+> **M2 (M_tehnologic) faithfulness pass (Session 8, 2026-07-07, branch
+> `feature/m2-corpus-rework`).** Downloaded the 135-paper M2 corpus into
+> `files/exam_corpus/M2/` (see `ANALYSIS_M2.md`); M2 differs from M1 by: pos-1 =
+> numeric fraction/radical calc (new `arithmetic` topic, no complex); pos-4 =
+> probability over a small explicit set / percentage; Subiect II prob-1 = **2×2
+> matrices** (new `Matrix2x2Problem`; `matrices_system` removed from M2); Subiect III
+> prob-1 = polynomial study with a **tangent-at-a-point** cerință. 19/19 tests green.
+>
 > **M1 faithfulness pass vs the `files/` 24-paper corpus (Session 7, 2026-07-07).**
 > Audited every M1 topic against `files/exam_corpus/` and closed the biggest "tells":
 > pos-2 now quadratic-dominated; pos-4 dropped urns for the real digit-condition
@@ -253,6 +261,44 @@ Legend: ✅ class+problem done · 🟡 class single-item · ⬜ legacy func only
   `A(x)·A(y)=A(x+y)` symbolically — validate, don't assume.
 
 ## 9. Session Log
+
+### Session 8 — 2026-07-07 — M2 (M_tehnologic) faithfulness pass against the M2 corpus
+- **Context:** downloaded the 135-paper M_tehnologic corpus (2020–2026) into
+  `files/exam_corpus/M2/` (via the user's `BAC_M2_Tehnologic_download_kit`), read 8 real
+  papers directly (PDFs), and wrote `files/exam_corpus/M2/ANALYSIS_M2.md`. M2 is
+  structurally like M1 but **easier and with a different topic mix** — the current engine
+  (which mostly mirrored M1 for M2) was off-distribution in four places. Branch
+  `feature/m2-corpus-rework` (off `main`, which now has the Session-7 M1 work). **19/19
+  tests green; `manage.py check` clean.**
+- **Subiectul I:**
+  - **Pos 1 — new `arithmetic` topic** (`topics/arithmetic.py`, M2/M3): the real M2 opener
+    is a numeric identity `Arătați că <expr>=<int>` — fraction arithmetic, radical
+    simplification, or Viète-on-a-quadratic (**no complex numbers**). All sympy-verified to
+    a small integer. M2 pos-1 rotation = `arithmetic`×2 + `progressions` (term-finding also
+    appears in the corpus).
+  - **Pos 4 — `combinatorics.py` M2 branch:** real M2 pos-4 is **probability over a small
+    explicit set** (`A={10,…,90}` divisibility; `A={1,…,23}` inequality) or a **practical
+    percentage** — not 2-/3-digit counting or urns. Added `_p4_set_multiples`,
+    `_p4_set_range_ineq`; M2 tier = those + `_p4_percentage`.
+- **Subiectul II — new `Matrix2x2Problem`** (`matrices.py`, M2): the real M2 prob-1 is
+  **2×2 matrices** (never 3×3, never a system). Two modes, both sympy-verified: *concrete*
+  (A,B,C integer → det / linear-combination identity / solve `X·A=pB+qC` with integer X)
+  and *param* (`A(x)=xM+N` affine, det linear in x → `det(A(x₀))` / affine identity
+  `A(p)+A(q)=2A(m)` / find x from `det(A(x))=k`). Registered `matrices_2x2` (TOPIC_CODE
+  `matrices`); **M2 Subiect II prob-1 = `matrices_2x2`** (removed the wrongly-applied
+  `matrices_system`, which is an M1-only 3×3 form). New test `test_matrix_2x2_is_consistent`.
+- **Subiectul III — `derivatives.py` poly mode:** added a polynomial-study mode for M2 with
+  a **tangent-at-a-point** cerință (very common in the real papers, previously missing):
+  cubic f with factorable f' → (a) f' factored, (b) tangent at x₀, (c) monotonicity. M2
+  derivative modes now poly-dominant (poly/cubic/rational).
+- **Registry:** `arithmetic` added to labels + M2/M3 PROFILE_TOPICS + CLASS_REGISTRY;
+  `matrices_2x2` in PROBLEM_REGISTRY; M2 `SIMULATION_RULES` rewritten (pos-1 arithmetic,
+  pos-4 explicit-set/%, Subiect II prob-1 2×2, prob-2 law/polynomials). M2 Subiectul I stays
+  at difficulty 1 (the real M2 is genuinely easy). Frontend unaffected (topic_primary stays
+  `matrices`; `arithmetic` is a Subiectul I item, not in the problem-label map).
+- **Next (optional):** M2 integrals could use the corpus's "helper-factor" ∫ forms and a
+  volume-of-revolution cerință; add a concrete-matrix *solve-X* det-condition variant; M3
+  (pedagogic) has no corpus yet — leave as-is.
 
 ### Session 7 — 2026-07-07 — M1 faithfulness pass against the `files/` exam corpus
 - **Context:** a new 24-paper M1 corpus was added under `files/exam_corpus/`
