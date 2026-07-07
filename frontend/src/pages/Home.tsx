@@ -1,7 +1,9 @@
 import { Activity, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const PROFILES = ["M1 · Mate-Info", "M2 · Științele Naturii", "M3 · Pedagogic / Tehnologic"];
+// Bare profile codes for now. Correct mapping (labels TBD): M1 = mate-info,
+// M2 = tehnologic, M3 = pedagogic.
+const PROFILES = ["M1", "M2", "M3"];
 
 export function Home() {
   return (
@@ -18,6 +20,23 @@ export function Home() {
                 {p}
               </span>
             ))}
+          </div>
+
+          <div className="mb-6 flex justify-center">
+            <p className="inline-flex flex-wrap items-center justify-center gap-1.5 text-xs md:text-sm font-medium text-ink-muted bg-sunken border border-edge rounded-full px-4 py-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-oxblood animate-pulse" aria-hidden />
+              <span>
+                Această platformă este în{" "}
+                <span className="font-semibold text-oxblood-deep">Early Access</span>, așteptăm
+                feedback pe{" "}
+                <Link
+                  to="/contact"
+                  className="font-semibold text-oxblood-deep underline underline-offset-2 hover:text-oxblood"
+                >
+                  pagina de Contact
+                </Link>
+              </span>
+            </p>
           </div>
 
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-ink-strong text-balance leading-[1.08]">
