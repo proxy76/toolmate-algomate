@@ -77,6 +77,30 @@ export interface User {
   username: string;
   profile: Profile;
   date_joined: string;
+  is_staff: boolean;
+}
+
+export interface AdminUser {
+  id: number;
+  email: string;
+  username: string;
+  profile: Profile;
+  date_joined: string;
+  last_login: string | null;
+  is_active: boolean;
+  is_staff: boolean;
+}
+
+export interface AdminBlogPost {
+  id: number;
+  title: string;
+  slug: string;
+  excerpt: string;
+  body_md: string;
+  is_published: boolean;
+  author: string | null;
+  created_at: string;
+  published_at: string | null;
 }
 
 export interface BlogPostSummary {
