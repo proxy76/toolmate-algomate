@@ -48,13 +48,13 @@ export function Login() {
         className="bg-paper border border-edge rounded-2xl p-6 md:p-8 shadow-sm space-y-5"
       >
         <div>
-          <div className="text-sm font-semibold text-ink mb-1.5">Email</div>
+          <div className="text-sm font-semibold text-ink mb-1.5">Email sau nume utilizator</div>
           <input
-            type="email"
+            type="text"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            autoComplete="email"
+            autoComplete="username"
             className="w-full px-3 py-2 rounded-lg bg-paper text-ink border border-edge placeholder:text-ink-faint focus:border-oxblood transition-colors"
           />
         </div>

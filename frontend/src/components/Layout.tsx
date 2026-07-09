@@ -1,4 +1,4 @@
-import { Calculator, CircleUser, LogOut, Menu, X } from "lucide-react";
+import { Calculator, CircleUser, LogOut, Menu, ShieldCheck, X } from "lucide-react";
 import { ReactNode, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
@@ -63,6 +63,20 @@ export function Layout({ children }: { children: ReactNode }) {
           <div className="hidden md:flex items-center gap-2">
             {user ? (
               <>
+                {user.is_staff && (
+                  <NavLink
+                    to="/admin"
+                    title="Panou de administrare"
+                    aria-label="Panou de administrare"
+                    className={({ isActive }) =>
+                      `inline-flex items-center justify-center w-10 h-10 rounded-lg transition-colors ${
+                        isActive ? "text-oxblood bg-oxblood/10" : "text-ink-muted hover:text-ink hover:bg-sunken"
+                      }`
+                    }
+                  >
+                    <ShieldCheck size={22} strokeWidth={2} />
+                  </NavLink>
+                )}
                 <NavLink
                   to="/dashboard"
                   title={`Seturile mele · ${user.email}`}
@@ -146,16 +160,27 @@ export function Layout({ children }: { children: ReactNode }) {
             ))}
             <div className="my-1 h-px bg-edge" />
             {user ? (
-              <button
-                onClick={() => {
-                  logout();
-                  setOpen(false);
-                  navigate("/");
-                }}
-                className="text-left px-3 py-2 rounded-lg text-sm font-medium text-ink hover:bg-sunken transition-colors"
-              >
-                Ieșire
-              </button>
+              <>
+                {user.is_staff && (
+                  <NavLink
+                    to="/admin"
+                    onClick={() => setOpen(false)}
+                    className={({ isActive }) => navLinkClass(isActive)}
+                  >
+                    Administrare
+                  </NavLink>
+                )}
+                <button
+                  onClick={() => {
+                    logout();
+                    setOpen(false);
+                    navigate("/");
+                  }}
+                  className="text-left px-3 py-2 rounded-lg text-sm font-medium text-ink hover:bg-sunken transition-colors"
+                >
+                  Ieșire
+                </button>
+              </>
             ) : (
               <>
                 <NavLink

@@ -1,6 +1,8 @@
 import axios, { AxiosError, AxiosRequestConfig } from "axios";
 
 import type {
+  AdminBlogPost,
+  AdminUser,
   BlogPost,
   BlogPostSummary,
   GenerateResponse,
@@ -91,6 +93,7 @@ export const api = {
   register: (data: { email: string; username: string; password: string; profile: Profile }) =>
     client.post<User>("/auth/register/", data).then((r) => r.data),
 
+  // `email` accepts the email OR the username (the backend resolves either).
   login: (data: { email: string; password: string }) =>
     client.post<{ access: string; refresh: string }>("/auth/login/", data).then((r) => r.data),
 
@@ -132,6 +135,16 @@ export const api = {
   // blog
   blogList: () => client.get<BlogPostSummary[]>("/blog/posts/").then((r) => r.data),
   blogPost: (slug: string) => client.get<BlogPost>(`/blog/posts/${slug}/`).then((r) => r.data),
+
+  // admin (staff only)
+  adminListUsers: () => client.get<AdminUser[]>("/auth/admin/users/").then((r) => r.data),
+  adminListPosts: () => client.get<AdminBlogPost[]>("/blog/admin/posts/").then((r) => r.data),
+  adminCreatePost: (data: {
+    title: string;
+    excerpt: string;
+    body_md: string;
+    is_published: boolean;
+  }) => client.post<AdminBlogPost>("/blog/admin/posts/", data).then((r) => r.data),
 
   // contact
   contact: (data: { name: string; email: string; subject: string; body: string }) =>

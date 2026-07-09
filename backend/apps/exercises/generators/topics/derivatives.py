@@ -191,8 +191,12 @@ class DerivativesStudyProblem(ProblemGenerator):
         if self.profile == "M1":
             mode = rng.choice(["exp_bijective", "ln_extrem", "rational", "cubic"])
         else:
-            mode = rng.choice(["cubic", "rational"])
+            # M_tehnologic Subiect III prob-1 is dominated by polynomial function
+            # study with a tangent-at-a-point cerință.
+            mode = rng.choice(["poly", "poly", "cubic", "rational"])
 
+        if mode == "poly":
+            return self._context_poly()
         if mode == "cubic":
             a = rng.choice([1, 2, 3, 4, 5])      # a>0 ⇒ f'(x)=3x²+a>0 ⇒ strictly ↑
             b = rng.choice([-3, -2, -1, 1, 2, 3])
@@ -214,8 +218,29 @@ class DerivativesStudyProblem(ProblemGenerator):
         f = x - a * sp.ln(x)
         return {"mode": "ln_extrem", "f": f, "a": a, "fp": sp.simplify(sp.diff(f, x))}
 
+    def _context_poly(self) -> dict:
+        """Cubic polynomial with a factorable derivative (M_tehnologic)."""
+        rng = self.rng
+        for _ in range(200):
+            B = rng.choice([-6, -3, 3, 6, -4, 4])       # even keeps f' roots integer-friendly
+            C = rng.choice([-15, -12, -9, -5, -3, 3, 9, 12])
+            D = rng.choice([-3, -1, 1, 3, 9])
+            f = x ** 3 + B * x ** 2 + C * x + D
+            fp = sp.diff(f, x)
+            rts = sp.roots(sp.Poly(fp, x))
+            if sum(rts.values()) != 2 or not all(r.is_integer for r in rts):
+                continue
+            if len(set(rts)) != 2:
+                continue
+            x0 = rng.choice([0, 1, -1])
+            return {"mode": "poly", "f": f, "fp": sp.factor(fp),
+                    "roots": sorted(int(r) for r in rts), "x0": x0}
+        raise ValueError("no poly context")
+
     def _validate_context(self, ctx) -> bool:
         mode = ctx["mode"]
+        if mode == "poly":
+            return sp.simplify(sp.diff(ctx["f"], x) - sp.expand(ctx["fp"])) == 0
         if mode == "cubic":
             return ctx["a"] > 0 and len(sp.real_roots(sp.Poly(ctx["f"], x))) == 1
         if mode == "rational":
@@ -226,7 +251,7 @@ class DerivativesStudyProblem(ProblemGenerator):
 
     def _build_statement(self, ctx) -> str:
         f, mode = ctx["f"], ctx["mode"]
-        if mode in ("cubic", "exp_bijective"):
+        if mode in ("cubic", "exp_bijective", "poly"):
             return rf"Se consideră funcția $f:\mathbb{{R}}\to\mathbb{{R}}$, $f(x) = {_latex(f)}$."
         if mode == "ln_extrem":
             return (rf"Se consideră funcția $f:(0,\infty)\to\mathbb{{R}}$, "
@@ -238,12 +263,42 @@ class DerivativesStudyProblem(ProblemGenerator):
     def _build_sub_item(self, ctx, label, difficulty) -> dict:
         idx = ("a", "b", "c").index(label)
         builders = {
+            "poly": (self._poly_a, self._poly_b, self._poly_c),
             "cubic": (self._cub_a, self._cub_b, self._cub_c),
             "rational": (self._rat_a, self._rat_b, self._rat_c),
             "exp_bijective": (self._exp_a, self._exp_b, self._exp_c),
             "ln_extrem": (self._ln_a, self._ln_b, self._ln_c),
         }[ctx["mode"]]
         return builders[idx](ctx)
+
+    # poly mode (M_tehnologic) ----------------------------------------------
+    def _poly_a(self, ctx):
+        fp = ctx["fp"]
+        assert sp.simplify(sp.diff(ctx["f"], x) - sp.expand(fp)) == 0
+        return {"question_latex": rf"Arătați că $f'(x) = {_latex(fp)}$, $x \in \mathbb{{R}}$.",
+                "answer_latex": rf"$f'(x) = {_latex(fp)}$",
+                "hint_latex": r"Derivați termen cu termen, apoi dați factor comun."}
+
+    def _poly_b(self, ctx):
+        f, x0 = ctx["f"], ctx["x0"]
+        y0 = f.subs(x, x0)
+        slope = sp.diff(f, x).subs(x, x0)
+        tang = sp.expand(slope * (x - x0) + y0)
+        return {"question_latex": rf"Determinați ecuația tangentei la graficul funcției $f$ în "
+                                  rf"punctul de abscisă $x = {x0}$, situat pe graficul funcției $f$.",
+                "answer_latex": rf"$y = {_latex(tang)}$",
+                "hint_latex": rf"Tangenta în $x_0$: $y = f'({x0})(x - {x0}) + f({x0})$.",
+                "steps_latex": [rf"$f({x0}) = {_latex(y0)}$, $f'({x0}) = {_latex(slope)}$",
+                                rf"$y = {_latex(tang)}$"]}
+
+    def _poly_c(self, ctx):
+        r1, r2 = ctx["roots"]
+        return {"question_latex": r"Determinați intervalele de monotonie ale funcției $f$.",
+                "answer_latex": rf"$f$ este strict crescătoare pe $(-\infty, {r1}]$ și pe "
+                                rf"$[{r2}, \infty)$, strict descrescătoare pe $[{r1}, {r2}]$",
+                "hint_latex": r"Studiați semnul lui $f'$ folosind rădăcinile derivatei.",
+                "steps_latex": [rf"$f'(x) = 0 \Rightarrow x \in \{{{r1}, {r2}\}}$",
+                                rf"$f' > 0$ în afara $[{r1}, {r2}]$, $f' < 0$ pe $({r1}, {r2})$"]}
 
     # cubic mode ------------------------------------------------------------
     def _cub_a(self, ctx):

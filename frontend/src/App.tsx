@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 import { AuthProvider, useAuth } from "./auth";
 import { Layout } from "./components/Layout";
+import { AdminDashboard } from "./pages/AdminDashboard";
 import { BlogIndex } from "./pages/Blog";
 import { BlogPostPage } from "./pages/BlogPost";
 import { Contact } from "./pages/Contact";
@@ -16,6 +17,14 @@ function PrivateRoute({ children }: { children: JSX.Element }) {
   const { user, loading } = useAuth();
   if (loading) return <div className="p-10 text-center text-ink-muted">Se încarcă…</div>;
   if (!user) return <Navigate to="/login" replace />;
+  return children;
+}
+
+function AdminRoute({ children }: { children: JSX.Element }) {
+  const { user, loading } = useAuth();
+  if (loading) return <div className="p-10 text-center text-ink-muted">Se încarcă…</div>;
+  if (!user) return <Navigate to="/login" replace />;
+  if (!user.is_staff) return <Navigate to="/" replace />;
   return children;
 }
 
@@ -38,6 +47,14 @@ export default function App() {
               <PrivateRoute>
                 <Dashboard />
               </PrivateRoute>
+            }
+          />
+          <Route
+            path="/admin"
+            element={
+              <AdminRoute>
+                <AdminDashboard />
+              </AdminRoute>
             }
           />
           <Route path="*" element={<Navigate to="/" replace />} />

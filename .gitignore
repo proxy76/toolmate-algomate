@@ -8,9 +8,21 @@ __pycache__/
 venv/
 env/
 .env
+*.egg
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+pip-log.txt
+
+# Python — coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
 
 # Django
 *.log
@@ -20,20 +32,34 @@ db.sqlite3-journal
 media/
 staticfiles/
 
-# Node
+# Node / Vite
 node_modules/
 dist/
+dist-ssr/
 build/
+coverage/
 .parcel-cache/
 .eslintcache
+.vite/
+vite.config.*.timestamp-*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 *.local
 
 # IDE / OS
 .idea/
 .vscode/
+.cursor/
 *.swp
+*.swo
+*~
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
 
 # Env — never commit real secrets; only the .example templates are tracked
 .env.*
@@ -44,3 +70,11 @@ Thumbs.db
 *.stackdump
 *.tsbuildinfo
 example.txt
+
+# BAC download kits — regenerated PDFs/zip (the curated corpus lives under
+# files/exam_corpus/, which stays tracked)
+BAC_Matematica_M2_Tehnologic/
+BAC_M2_Tehnologic_download_kit/BAC_Matematica_M2_Tehnologic/
+*.zip
+BAC_M2_Tehnologic_download_kit/_download.log
+bac-matematica/
