@@ -175,15 +175,24 @@ already-tracked `_legacy` ones).
       unbraced `\sqrt2`) via a normalization in `mathimg._preprocess` → 80/80 PDFs
       across 4 profiles × 20 seeds render. Tests: PROFILES-parametrized + 2 st-nat +
       hardened PDF (4×3 seeds) = **21 green**.
-- [~] C2 **Rework existing** exams (task #7): additive diversity from the fuller
-      corpus. **Done so far:** measured per-position form/value diversity over 120
-      sims/level → targeted the thinnest spots. Integrals Subiect III p2 (all levels)
-      5→18 families (form ~10→28); mate-info trig pos-6 d2 made the full authentic
-      pool (26/11→85/47); pedagogic pos-1 → arithmetic-dominant numeric identity per
-      corpus (8→20 form). **Remaining thin spots** (for next pass): enrich the
-      `arithmetic` generator (log-identity/conjugate/decimal forms → lifts tehnologic
-      & st-nat pos-1 too), mate-info pos-3 equations (12 form), pos-5 geometry (14),
-      matrices problem cerință variety (~10 form).
+- [x] C2 **Reworked existing exams** (task #7): measured per-position form/value
+      diversity over 120 sims/level, then enriched every thin Subiect I position + the
+      Subiect III problems, corpus-driven & additive (nothing removed, all sympy-verified):
+      - **integrals** III-p2 (all levels): 5→18 families → form 10→28, raw 16→42
+      - **trig** pos-6 (mate-info d2): thin 5-pool → full authentic pool → 11→47 form
+      - **arithmetic** pos-1 (tehnologic/st-nat/pedagogic): +log identities, radical
+        sums (√18+√8=5√2), conjugate squares, power laws → 12→24 form
+      - **geometry** pos-5 (all): +symmetric point, show-right, show-isosceles → 11→14/17
+      - **equations** pos-3: +`base^{lin}=base^{lin}`, `log(quad)=log(lin)`; mate-info
+        d2 draws full pool → mate-info 12→37, tehnologic 17→25
+      - **combinatorics** pos-4 (tehnologic/st-nat): +2-digit-probability family → 11→16
+      - **algebraic_structures** law: widened c & value pools → more distinct statements
+      - pedagogic pos-1 → arithmetic-dominant (corpus-faithful) 8→28
+      **Result:** every Subiect I position is 16–52 distinct forms across all 4 levels
+      (was several ≤14). **Remaining polish** (optional): Subiect II multi-part *cerință
+      phrasings* (matrices/law) are ~6–16 form — inherently bounded by the fixed a/b/c
+      structure; value diversity there is already high. Also fixed 4 latent PDF-mathtext
+      bugs found en route (`\ge`,`\le`,`\sqrt2`,`\tfrac`).
 
 ### Phase D — SINGLE-PROBLEM generators  *(priority tier 2)*
 - [ ] D1 Diversify `/generate` single-item + facade generators for all 4 levels
@@ -197,10 +206,10 @@ Legend: ✅ faithful+diverse · 🟡 works, needs diversity · 🔲 exists pre-r
 
 | Level | Rename | Exam (simulare) | Single-problem | Corpus analysis |
 |-------|--------|-----------------|----------------|-----------------|
-| mate-info | ✅ | 🟡 (S7 faithful; diversify) | 🟡 | ✅ (M1 ANALYSIS) |
+| mate-info | ✅ | ✅ (faithful + diversified) | 🟡 | ✅ (M1 ANALYSIS) |
 | stiintele-naturii | ✅ | ✅ (built, faithful) | 🟡 (via shared paths) | ✅ (ANALYSIS written) |
-| tehnologic | ✅ | 🟡 (S8 faithful; diversify) | 🟡 | ✅ (M2 ANALYSIS) |
-| pedagogic | ✅ | 🟡 (special-cased; diversify) | 🟡 | ⬜ to write |
+| tehnologic | ✅ | ✅ (faithful + diversified) | 🟡 | ✅ (M2 ANALYSIS) |
+| pedagogic | ✅ | ✅ (faithful + diversified) | 🟡 | ⬜ to write |
 
 ---
 
