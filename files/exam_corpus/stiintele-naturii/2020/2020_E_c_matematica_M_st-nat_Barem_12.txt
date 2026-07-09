@@ -1,0 +1,169 @@
+                                              Ministerul Educaiei i Cercetrii
+                                    Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul de bacalaureat naional 2020
+                                                            Proba E. c)
+
+                                                    Matematic M_t-nat
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                          Test 12
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                   (30 de puncte)
+
+1. a1  a3  2a2 , deci a1  2a2  a3  4a2                                                                                 3p
+
+      a2  1                                                                                                            2p
+
+2.    f 3  32  3  6  18 ,              f    1     1     1        6    58                                               2p
+                                            3     9     3             9
+
+      f  3   f    1      18   58    116 ,     care  este   numr        natural                                         3p
+                  3           9
+
+3. log5 4  x24  x  3  4  x24  x  125  x2  28x  29  0                                                                   3p
+
+      x  1 , care convine, sau x  29 , care nu convine                                                                 2p
+
+4.    Mulimea are      Cn2    n n 1           submulimi cu dou elemente, unde           n  este numrul de elemente
+
+                                                                                                                       2p
+                                  2
+
+      ale mulimii, n  , n  2 , deci nn 1  45 , de unde obinem n2  n  90  0
+                                                        2
+
+      Cum n este numr natural, n  2 , obinem n  10                                                                     2p
+
+5. u  v  a 1i  4 j , 3v  3i  3 j                                                                                       2p
+
+      Vectorii u  v i 3v sunt coliniari, deci a 1   4 , de unde obinem a  3                                            3p
+                                                                    33
+
+6. Triunghiul are ipotenuza egal cu 10 i aria S  6 8  24                                                               2p
+                                                                             2
+
+      r  S  24  2                                                                                                      3p
+           p 12
+
+SUBIECTUL al II-lea                                                                                           (30 de puncte)
+
+1.a)  A0          5    10         det     A0         5        10
+                  2    4                             2            
+                                                                                                                       2p
+                                                              4
+
+       5  4 10  2  0                                                                                                   3p
+
+b)                     5  10a  a2            10  20a 
+                          2  4a             4  8a  a2  , pentru orice numr real a
+      Aa     Aa                                                                                                        3p
+
+      5 10a  a2           10  20a                 5     10          a     0                                            2p
+       2  4a             4  8a  a2                2     4
+                                                
+
+c)              6      10                                                                                     3    5
+                2      3                                                                                        2  3 
+      A1                          det     A1         2     0  ,  deci  A  1     este inversabil i    A11       1       3p
+
+Prob scris la matematic M_t-nat                                                                                        Test 12
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                             Ministerul Educaiei i Cercetrii
+                                   Centrul Naional de Politici i Evaluare în Educaie
+
+              A11  A0 , de unde obinem                                 5           5    
+                                                                                        
+      X                                                        X         2                                                  2p
+                                                                         1         2 
+
+2.a) 58  3 5  2 8  1                                                                                                        3p
+
+       15 16  1  0                                                                                                          2p
+
+b) 3 2020x  2  2020x  1  2  2020x  1                                                                                        2p
+
+      x0                                                                                                                    3p
+
+c) De exemplu, pentru m  2k 1 i n  3k  1, unde k  , obinem m  n  2k 1  3k 1  3p
+
+       32k 1  23k 1 1  6k  3  6k  2 1  0 , deci exist o infinitate de perechi m,n 2p
+
+      de numere întregi pentru care m  n  0
+
+SUBIECTUL al III-lea                                                                                       (30 de puncte)
+
+1.a)                    1                     x       
+                        x2         1                  
+      f 'x                                    2                                                                             3p
+
+                x             1            x       1
+
+               1         x2 1  x  1 , x                                                                                     2p
+
+         x  x2 1 x2 1                            x2 1
+
+b) Tangenta la graficul funciei f în punctul Aa, f a are panta f 'a  1                                                      2p
+
+                                                                                                  a2 1
+
+      Tangenta la graficul funciei f în punctul B a, f a are panta f 'a  1 i,
+
+                                                                                                           a2 1
+
+      cum, pentru orice numr real nenul a , f 'a   f 'a  , obinem c tangentele la graficul 3p
+
+      funciei f în punctele Aa, f a i B a, f a sunt paralele
+
+    c)
+      f x  f x  ln x               x2 1  lnx                   x2 1  ln                       x2 1 x  2ln  x2 1 x  2 f x ,  3p
+                                                                                              x2 1 x
+
+      pentru orice numr real x
+
+       lim    f x  f x            lim      2f x           2   lim    f 'x               2   lim     x 2                     2p
+                                                                                                   x2 1
+      x            ln x             x         ln x           x         ln  x    '          x
+
+2.a) 1                                                    1
+
+        x  2ln 2x 1  2ln 2x 1 dx   x dx                                                                                     2p
+
+      0                                                   0
+
+       x2 1  1                                                                                                              3p
+            20 2
+
+b)    1              1                                    x2  11
+                                                          2
+         f  x  dx      x  2ln2x 1 dx                             2x 1' ln 2x 1dx                                            3p
+
+      0              0                                        00
+
+         1    2x    1   ln  2x    1   1    1  2  dx     1      3ln  3    2         3ln     3    3                           2p
+         2                            0                 2                                       2
+                                           
+
+                                           0
+
+c) F ' x  f  x  0 , pentru orice x 0,  , deci funcia F este cresctoare pe 0,                                                3p
+
+      Cum         3, 2   16   ,  obinem    F              F    16                                                           2p
+                           5                                   5   
+
+Prob scris la matematic M_t-nat                                                                                             Test 12
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

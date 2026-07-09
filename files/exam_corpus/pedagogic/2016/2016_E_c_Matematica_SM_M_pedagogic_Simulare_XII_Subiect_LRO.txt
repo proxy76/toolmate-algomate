@@ -1,0 +1,75 @@
+                              Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                    Centrul Naional de Evaluare i Examinare
+
+                                 Examenul de bacalaureat naional 2016
+
+                                                     Proba E. c)
+                                            Matematic M_pedagogic
+
+                                             Clasa a XII-a
+
+                                                                                                                               Simulare
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                           (30 de puncte)
+
+5p 1. Determinai numerele naturale a , b i c , tiind c 2016 = 2a  3b  7c .
+
+5p 2. Se consider funcia f :    , f ( x) = 4x2 - 3 . Determinai abscisele punctelor care au ordonata
+
+egal cu 1 i aparin graficului funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x +10 - 2x = 4 - x .
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+      acesta s aib suma cifrelor mai mic sau egal cu 10.
+
+5p 5. În reperul cartezian xOy se consider punctele A(-1,2) i B (3,5) . Determinai coordonatele
+
+      simetricului punctului A fa de punctul B .
+5p 6. Perimetrul triunghiului dreptunghic ABC este egal cu 72. Determinai lungimea ipotenuzei BC ,
+
+      tiind c sin C = 0,8 .
+
+SUBIECTUL al II-lea                                                                                                        (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie x y = xy + x + y .
+
+( ) 5p 1. Calculai - 2 2 .
+
+5p 2. Artai c x y = ( x +1)( y +1) -1, pentru orice numere reale x i y .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 x = -1.
+5p 4. Verificai dac legea de compoziie ,, " este asociativ.
+5p 5. Demonstrai c numrul n n este multiplu de 8, pentru orice numr natural par n .
+5p 6. Dai un exemplu de dou numere iraionale a i b , pentru care a b   .
+
+SUBIECTUL al III-lea                                                                                                       (30 de puncte)
+
+Se consider matricea  A(      x  )  =    x  x -1
+                                                  , unde x este numr real.
+                                       1 2 
+
+5p 1. Calculai det ( A(2)) .
+
+5p 2. Artai c A(1) + A(3) = 2A(2) .
+
+5p 3. Determinai numrul natural n , pentru care det ( A(n)) = 1- 2n .
+
+( ) 5p                                                                                                                1    0
+4. Determinai valorile reale ale lui x , pentru care det                                xA( x) - 2I2    0,  unde  I2  =     .
+                                                                                                                        0
+                                                                                                                           1
+
+( ) 5p 5. Demonstrai c matricea A x2 este inversabil, pentru orice numr real x .
+
+5p 6. Determinai matricea X  M2 () , pentru care 2X + 3A(1) = 4A(2) .
+
+Prob scris la matematic M_pedagogic                                                                               Simulare pentru clasa a XII-a
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

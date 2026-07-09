@@ -1,0 +1,71 @@
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                Examenul naional de bacalaureat 2022
+                                                  Proba E. c)
+
+                                                 Matematic M_pedagogic                                                                       Model
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                               (30 de puncte)
+
+( ) 5p 1. Artai c 3 2 - 3 + 3 = 12 .
+
+5p 2. Se consider funciile f :  , f ( x) = x +1 i g :  , g ( x) = 2x -1 . Determinai
+    numerele naturale a pentru care f (a)  g (a) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x+2  2x+1 + 2  6x = 120 .
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale nenule mai
+
+      mici decât 114 , acesta s fie divizibil cu 4 .
+5p 5. Determinai numrul real a , tiind c punctul M (a,15) aparine dreptei d de ecuaie y = 3x + 2a .
+
+5p 6. Se consider triunghiul ABC dreptunghic în A , cu AB = 3 , AC = 4 i înlimea AD , unde
+      punctul D aparine laturii BC . Artai c sin BAD = 3 .
+                                                                          5
+
+SUBIECTUL al II-lea                                                                                                                       (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = 2xy - x - y +1 .
+
+5p 1. Artai c (-1) (-1) = 5 .
+
+5p  2. Demonstrai c x  y    =  2   x  -  1      y  -  1    +  1  ,  pentru              orice   numere       reale    x    i   y.
+                                         2            2       2
+
+5p 3. Artai c e = 1 este elementul neutru al legii de compoziie ,, " .
+
+5p 4. Artai c x 1 = 1 x = 1 , pentru orice numr real x .
+                          22 2
+
+5p 5. Calculai 1 2 3 ... 2020 .
+                     3 4 5 2022
+
+5p  6.  Determinai  numrul  real   strict   pozitiv      x,  pentru   care                log2    x  +  1         log3   x  +  1    =  1  .
+                                                                                                        2                      2       2
+
+SUBIECTUL al III-lea                                                                                                                      (30 de puncte)
+
+    Se consider matricele       =  1 0 0 2                            i                      =  a 2                         este numr real.
+                            I2                  ,  A  =                  M              (a)                  ,  unde    a
+                                      0  1                 2  0                                   2     a  
+
+5p 1. Artai c A  A = 4I2 .
+
+5p 2. Artai c aI2 + A = M (a) , pentru orice numr real a .
+5p 3. Artai c M (2)  M (4) = 6M (2) .
+
+5p 4. Determinai perechile (a,b) de numere naturale pentru care M (a)  M (b) = 7  I2 + 4  A .
+
+5p 5. Determinai numrul natural k pentru care det(M (k + 2))  0 .
+
+5p 6. Determinai numrul real a , a  -2 , tiind c inversa matricei M (a) este matricea M (a) - 2  A .
+
+Prob scris la matematic M_pedagogic                                                                                                          Model
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

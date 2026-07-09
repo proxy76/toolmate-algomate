@@ -1,0 +1,111 @@
+                                          Ministerul Educaiei i Cercetrii
+                                    Centrul Naional de Evaluare i Examinare
+
+                               Examenul de bacalaureat naional 2020
+                                                 Proba E. c)
+
+                                        Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic                                                               Test 6
+Filiera vocaional, profilul militar, specializarea matematic-informatic                                              (30 de puncte)
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+                                                             2                                            2
+5p 1. Determinai partea real a numrului complex z  1 i 3  1 i 3 .
+
+5p 2. Se consider funcia f :  , f  x  5  2x . Artai c f 0 f 1 f 2 f 3 f 4 f 5  0 .
+
+5p  3.  Rezolvai  în  mulimea  numerelor  reale  ecuaia  log2  x                             1   x    2.
+                                                                                           log2
+
+5p 4. Se consider mulimea A  1,2,3,4,5,6,7,8,9,10 . Determinai numrul de submulimi cu 3
+
+    elemente ale lui A , care conin exact 2 numere impare.
+
+5p 5. Se consider triunghiul ABC i punctele M , N i P astfel încât AM  2AB , BN  2BC i
+
+    CP  2CA . tiind c O este un punct oarecare din plan, artai c OM  ON  OP  OA  OB  OC .
+
+5p 6. tiind c x  ,2  i cos2x  1 , calculai sin x .
+
+                                                 3
+
+SUBIECTUL al II-lea                                                                                                  (30 de puncte)
+
+                                       2 a 2                                                          2x  ay  2z  4
+                                                                                                      3x  ay  2z  1 , unde
+    1. Se consider matricea    Aa         3  a   2    i sistemul de ecuaii                                                  a  i  b
+                                                    
+                                        2 a 5                                                         2x  ay  5z  b
+
+    sunt numere reale.
+
+5p a) Artai c det  A1  3.
+
+5p b) Pentru a  1 i b  2 , rezolvai sistemul de ecuaii.
+5p c) Determinai numerele reale a i b pentru care sistemul de ecuaii este compatibil nedeterminat.
+
+    2. Pe mulimea G  1, se definete legea de compoziie asociativ x  y  x2 y2  x2  y2  2 .
+
+   5p a) Artai c x  y  x2 1 y2 1 1 , pentru orice x, y G .
+
+5p b) Determinai elementul neutru al legii de compoziie ,,  ".
+
+5p c) tiind c G, este grup, demonstrai c funcia f : M  G , f  x  x 1 este un izomorfism
+    de la grupul M , la grupul G, , unde M  0, i ,,  " reprezint operaia de înmulire a
+
+      numerelor reale.
+
+SUBIECTUL al III-lea                                                                                                 (30 de puncte)
+
+    1. Se consider funcia f :  , f  x   x 1ex .
+
+5p a) Artai c f  x  xex , x  .
+
+5p  b)  Calculai   lim   f nn          .
+
+                   n en  f  n 1n
+
+5p c) Determinai mulimea valorilor reale ale lui m pentru care ecuaia f  x  m are dou soluii reale
+
+    distincte.
+
+Prob scris la matematic M_mate-info                                                                                            Test 6
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 1 din 2
+                                                  Ministerul Educaiei i Cercetrii
+                                             Centrul Naional de Evaluare i Examinare
+
+    2. Se consider funcia f : 1,  , f  x  x  2 .
+
+                                                                      x 1
+
+                              1
+
+5p a) Artai c  f  x  xdx  2ln 2 .
+
+                  0
+
+5p  b)  Calculai  e   f   x   x  2  1    ln  x  dx  .
+                                       
+                  1 
+
+5p  c) Determinai a 0,                 pentru care     1    x F  xdx  1  ln 4  ln2 a ,   unde  F  este primitiva
+
+                                                       2f                   4
+
+                                                       0
+
+    funciei f pentru care F 0  0 .
+
+Prob scris la matematic M_mate-info                                                               Test 6
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 2 din 2
+

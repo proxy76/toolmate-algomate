@@ -1,0 +1,110 @@
+                                                     Ministerul Educaiei i Cercetrii                                                Test 19
+                                          Centrul Naional de Politici i Evaluare în Educaie                               (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Se consider progresia geometric bn n1 cu b1  2 i raia q  5 . Calculai partea întreag a lui
+
+      b4 .
+
+5p 2. Se consider funcia bijectiv f :  , f  x  2x  3 . Determinai abscisa punctului de
+
+    intersecie a graficelor funciilor f i f 1 .
+
+    5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 2x2  x 1  log2 x2  x  2 1 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre, suma
+      cifrelor sale s fie divizibil cu 11.
+
+5p 5. Se consider vectorii u  i  j i v  ai  2 j , unde a este numr real. Determinai numrul real
+      a pentru care u  v 2  u 2  v 2 .
+
+5p  6. Artai  c, dac  x     0,       astfel încât  sin x  cos x                         2 cos x , atunci x   .
+                                2                                                                              8
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+                                        m 1 1                                                                mx  y  z  1
+
+    1. Se consider matricea     A  m      2  m 1   1    i                               sistemul de ecuaii    2x  m 1 y  z  2                   ,
+                                                                                                            
+
+                                         1 1 m 1                                                              x    y      m    1  z    m    1
+                                                                                                            
+
+    unde m este numr real.
+
+5p a) Artai c det  A0  0 .
+
+5p b) Demonstrai c, pentru m  3 , sistemul de ecuaii nu are soluii.
+
+5p c) Demonstrai c, pentru orice numr real m , sistemul de ecuaii are cel mult o soluie.
+
+    2. Pe mulimea numerelor complexe se definete legea de compoziie                          z1             z2     z1     z2    1  z1    1  z2  ,
+                                                                                                                                2        2
+
+    unde z este conjugatul lui z .
+
+5p a) Artai c 1  i 1  i  1.
+
+5p b) Se consider H  2  bi b   . Artai c H este parte stabil a lui în raport cu legea de
+
+      compoziie ,, ".
+5p c) Se consider numrul complex z0 . Artai c exist o infinitate de numere complexe z cu
+
+      proprietatea c numrul z0 z este real.
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+      1. Se consider funcia f : 1,   , f  x  3 x3  3x  2 .
+ 5p a) Artai c f  x   x 1 x  1 , x 1, .
+
+                    3 x3  3x  2 2
+
+Prob scris la matematic M_mate-info                                                                                                    Test 19
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                   Ministerul Educaiei i Cercetrii
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+5p b) Calculai lim f  x .
+
+                     x1 x  1
+
+5p c) Artai c, pentru orice a  0,  , ecuaia f  x  a are soluie unic.
+
+     2. Se consider funcia f :  , f  x  x2  2 ex .
+
+                              4
+
+5p a) Artai c  ex f  x dx  27 .
+
+                              1
+
+                             e
+
+5p b) Calculai  f ln xdx .
+
+                             1
+
+ 5p c) Artai c lim 1 x f t dt  2 .
+                      x0 x 0
+
+Prob scris la matematic M_mate-info                                                        Test 19
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

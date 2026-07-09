@@ -1,0 +1,159 @@
+                                              Ministerul Educaiei Naionale
+                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2014            Varianta 9
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+                                              Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+1. 6 +12i + 2 -12i =                                                                                   3p
+
+      =6+2=8                                                                                           2p
+
+2.  = 4 - 4 =                                                                                          3p
+
+      = 0 , deci parabola asociat funciei f este tangent la axa Ox                                     2p
+
+3. x2 + 4 = 4x  x2 - 4x + 4 = 0                                                                        3p
+
+      x=2                                                                                              2p
+
+4. Cifra unitilor se poate alege în 4 moduri                                                           3p
+
+      Pentru fiecare alegere a cifrei unitilor, cifra zecilor se poate alege în 3 moduri, deci se pot  2p
+      forma 4  3 = 12 numere
+
+5.    Panta dreptei    BC   este  mBC  =  1    md  = -2                                                2p
+                                          2
+
+      d : y = -2x - 2                                                                                  3p
+
+6. sin  = 2                                                                                            2p
+          42
+
+      cos 3 = - 2  sin  + cos 3 = 0                                                                    3p
+          42                   4          4
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1.a)                 100
+
+      det ( A(0)) = 0 1 0 =                                                                            2p
+
+                     001
+
+      =1+0+0-0-0-0 =1                                                                                  3p
+
+b)             1    0  0                       1      0     0
+                    2                               2n+1     
+      A(1)  =    0  1  0    ,                      2n+1 -1                                             3p
+                 0     1       A(n)  A(1) =  0              0
+                                                             
+                                               
+                                               0            1
+
+               1 0 0
+                               
+      A(3) =  0 23 0 i A(n)  A(1) = A(3)  n = 2
+                                                                                                       2p
+               0               1
+                    23 -1
+
+c) A( p)  A(q) = A( p + q) pentru orice numere naturale p i q                                          2p
+
+      A( p + q) = A( pq)  p + q = pq  ( p -1)(q -1) =1 p = q = 0 sau p = q = 2                         3p
+
+2.a) f (0) = 03 + 02 - 3 0 + 2 =                                                                       3p
+
+      =2                                                                                               2p
+
+b) Câtul este X +1                                                                                     3p
+
+      Restul este X + 6                                                                                2p
+
+Prob scris la matematic M_mate-info                                                     Varianta 9
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                   Ministerul Educaiei Naionale
+                                            Centrul Naional de Evaluare i Examinare
+
+c) x1 + x2 + x3 = -1 , x1x2 + x2 x3 + x1x3 = -3                                                               2p
+
+    ( x1 - x2 )2 + ( x 2 - x3 )2 + ( x 3 - x1 )2 = 2( x1 + x2 + x3 )2 - 6( x1x2 + x2x3 + x3x1 ) = 20          3p
+
+SUBIECTUL al III-lea                                                                                          (30 de puncte)
+
+( ) 1.a)                          '
+    f '( x) = (3x)' +      ex                                                                                 2p
+                                   =
+
+    = 3+ ex , x                                                                                               3p
+
+b) lim f ( x) = lim 3x + ex = 3                                                                               2p
+    x- x x- x
+
+    lim ( f ( x) - 3x) = lim ex = 0 , deci dreapta de ecuaie y = 3x este asimptot oblic spre
+    x-                            x-                                                                          3p
+
+    - la graficul funciei f
+
+c) g '(0) = 0 , g '( x) < 0 pentru orice x (-,0) i g '( x) > 0 pentru orice x (0, +) , unde                   3p
+
+    g :   , g(x) = f (x) - 4x -1= ex - x -1
+
+    g ( x)  g (0)  g ( x)  0  f (x)  4x +1 pentru orice numr real x                                           2p
+
+( ) 2.a) 1                            1
+     x2 + x +1 f ( x) dx =  x3 dx =
+                                                                                                              2p
+
+    0                                 0
+
+    =  x4   1     1                                                                                           3p
+              =
+       40 4
+
+b)  ( )    1                      1                      1          1                      2 arctg 2x +1 1 =
+                                  0                      0         1 2
+    0                                                              2 
+       f  ( x) -    x +1   dx  =     x2   1 dx        =                       dx        =  3  30              3p
+                                         + x+1               x
+                                                                +       +  3
+                                                                           4
+
+    =  2      arctg    3 - arctg      1     =    2       -       =                                            2p
+       3                              3          3    3     6       33
+
+ c)         1    t                        f (t)
+            t4
+    lim             f  ( x) dx   =   lim  4t3    =                                                            3p
+
+    t0           0                   t0
+
+                       t3         =1
+    ( ) = lim                                                                                                 2p
+       t0 4t3 t 2 + t + 1 4
+
+Prob scris la matematic M_mate-info                                                                           Varianta 9
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

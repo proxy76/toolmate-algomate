@@ -1,0 +1,112 @@
+                                    Ministerul Educaiei i Cercetrii
+                            Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026                                      Model
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+5p 1. Determinai numrul real x pentru care numerele x , 8 i 2x  1 sunt, în aceast ordine, termeni
+
+      consecutivi ai unei progresii aritmetice.
+
+5p 2. Se consider funciile f :    , f  x  2x 1 i g :    , g  x  x  4 . Determinai numrul
+     real a pentru care  f g a  a .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2log5 x  log5 4x  5 .
+5p 4. Se consider mulimea A  1,3,5,7,8 . Determinai câte numere naturale de dou cifre distincte,
+
+      cu cifra zecilor impar, se pot forma cu cifre din mulimea A .
+
+5p 5. În reperul cartezian xOy se consider punctele A0,5 i B3,4 . Determinai coordonatele
+
+punctului C pentru care 3OC  OA  OB .
+
+5p 6. Se consider triunghiul ABC , cu A   , C   i AE  2 , unde E este punctul în care
+                                           2           3
+
+bisectoarea unghiului C intersecteaz latura AB . Artai c distana de la punctul B la dreapta CE
+
+este egal cu 2 3 .
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+                                    a 0 2                                                           ax  2z  4
+                                                                                                    x  y  1 a z
+1. Se consider matricea  A   a       1  1  1 a      i  sistemul                         de  ecuaii                 3 , unde  a
+                                     2  1   2                                                       2x  y  2z  5
+
+      este numr real.
+
+5p a) Artai c det  A0  2 .
+
+5p b) Determinai mulimea numerelor reale a pentru care matricea Aa este inversabil.
+5p c) Pentru a  2 , artai c x0 z0  y0  0 , pentru orice soluie  x0, y0, z0  a sistemului de ecuaii, cu
+
+x0 , y0 i z0 numere reale.
+
+2.  Pe  mulimea      M   1,  se  definete  legea  de  compoziie                         x   y        xy 1  .
+
+                                                                                                  x 1 y 1
+
+5p a) Artai c 35  7 .
+                               4
+
+5p b) Determinai x  M pentru care x  x  3 .
+
+5p c) Demonstrai c  x  2  x  2 , pentru orice x  M .
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+     1. Se consider funcia f : 0,    , f  x  x  ln2 x  x ln x .
+5p a) Artai c f ' x  2  xln x , x  0,  .
+
+                                       x
+5p b) Determinai abscisele punctelor situate pe graficul funciei f în care tangenta la graficul funciei
+
+       f este paralel cu axa Ox .
+
+5p c) Demonstrai c ecuaia f  x  0 are soluie unic.
+
+Prob scris la matematic M_mate-info                                                                               Model
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                       Ministerul Educaiei i Cercetrii
+                               Centrul Naional pentru Curriculum i Evaluare
+
+    2. Se consider funcia f :    , f  x  x2  2  x2  4 .
+
+           3
+
+5p a) Artai c  f  x  x2  4 dx  3 .
+
+                              0
+
+5p  b) Artai c  5  f       x       dx  1.
+                                 2
+                      x  x2
+
+                0
+
+ 5p                        1   x        0,        F :                                   este primitiva funciei
+    c) Demonstrai c   lim  x2               unde                                                                f  pentru care
+                                F t dt
+                      x0
+                               0
+    F 0  0 .
+
+Prob scris la matematic M_mate-info                                                                                Model
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

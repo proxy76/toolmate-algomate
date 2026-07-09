@@ -1,0 +1,171 @@
+                                                          Ministerul Educaiei Naionale
+                                                   Centrul Naional de Evaluare i Examinare
+
+                                              Examenul de bacalaureat naional 2019
+                                                                Proba E. c)
+
+                                                           Matematic M_mate-info
+
+                                                           Clasa a XII-a
+
+                                     BAREM DE EVALUARE I DE NOTARE
+                                                                                                                       Simulare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                 (30 de puncte)
+
+1. z = 6 - 3i + 4i - 2i2 - 4 - 4i = 4 - 3i                                                  3p
+
+      z = 42 + (-3)2 = 5                                                                    2p
+
+2.  = (2m +1)2 - 4m(m -1) = 8m +1                                                           2p
+
+           0   ,  deci                    1                                                 3p
+                           m  -, -        8 
+
+3.    2  log2     x  -    1      =  1     (  2 log 2  x    + 1) ( log 2  x  -1)  =  0       3p
+                        log2
+                              x
+
+      x = 1 sau x = 2 , care convin                                                         2p
+              2
+
+4. Numrul de submulimi cu cel mult dou elemente ale mulimii A este Cn0 + Cn1 + Cn2 , unde 3p
+     n este numrul de elemente ale mulimii A
+
+      1+ n + n(n -1) = 16 i, cum n este numr natural, obinem n = 5                          2p
+                        2
+
+5. M mijlocul laturii BC  BN + CN = 2MN                                                     2p
+
+      N mijlocul segmentului AM , deci MN = NA , deci 2 AN + BN + CN = 2 AN + 2NA = 0       3p
+
+6. 1+ 3cos x = 2cos2 x -1  2cos2 x - 3cos x - 2 = 0  (cos x - 2)(2cos x +1) = 0             3p
+
+      cos x = - 1          i, cum      x         ,      ,  obinem        x=  2              2p
+                 2                            2                              3
+
+SUBIECTUL al II-lea                                                                         (30 de puncte)
+
+1.a)                       111
+
+      det ( A(a)) = 1 2 a = 8 + a + 2a - 4 - a2 - 4 =                                       3p
+
+                           2a4
+
+      = -a2 + 3a = a (3 - a) , pentru orice numr real a                                     2p
+
+b) det ( A(0)) = 0 i un minor principal este 1 1  0                                         2p
+                                                                         12
+
+                                              111
+
+      Minor caracteristic este 1 2 2 = 3  0 , deci sistemul de ecuaii este incompatibil     3p
+
+                                              203
+
+Prob scris la matematic M_mate-info                                                         Simulare pentru clasa a XII-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                                               Ministerul Educaiei Naionale
+                                                        Centrul Naional de Evaluare i Examinare
+
+c)  Sistemul           are  soluie         unic    (x0, y0, z0)  a \{0,3}                        i  soluia         sistemului       este     -  2,1,1    3p
+                                                                                                                                          1     aaa    
+
+    x0 ,  y0        i   z0  sunt numere întregi, deci                       1  este numr întreg i, cum i                         a  este numr întreg,    2p
+                                                                            a
+
+    obinem a = -1 sau a = 1 , care convin
+
+2.a) x y = x2 y2 + x2 + y2 + 1 -1 =                                                                                                                      2p
+
+    ( ) ( ) ( )( ) = x2 y2 +1 + y2 +1 -1 = x2 +1 y2 +1 -1 , pentru orice numere reale x i y                                                              3p
+
+( )( ) ( )( ) b)
+          a2 +1 b2 +1 -1 =1  a2 +1 b2 +1 = 2                                                                                                             2p
+
+    Cum a i b sunt numere naturale, obinem a = 1 , b = 0 sau a = 0 , b = 1                                                                               3p
+
+c) 1 1 ... 1 = 2n -1 , pentru orice numr natural n , n  2                                                                                                2p
+
+       1 de n ori
+
+    Dac 2n -1   , exist k   astfel încât 2n -1 = k 2  k impar, deci exist m   astfel
+
+    încât 2n -1 = (2m +1)2 , de unde obinem 2n-1 = 2m2 + 2m +1 , ceea ce este imposibil, 3p
+
+    pentru orice numr natural n , n  2
+
+SUBIECTUL al III-lea                                                                                                                            (30 de puncte)
+
+1.a) f '( x) = 2x + 2 -1 =                                                                                                                               3p
+
+                  2 x2 + 2x + 2
+
+    =            x +1             -1= x +1- x2 + 2x + 2 , x                                                                                              2p
+
+          x2 + 2x + 2                              x2 + 2x + 2
+
+b)                                               1+     2  +     2    -     +  1  
+                                           x-           x        x2               
+                 f ( x) = lim                                            1     x  = -2                                                                   2p
+                                            
+       lim
+    x- x x-                                                   x
+
+       ( ) lim ( f (x) + 2x) = lim x2 + 2x + 2 + x +1 = lim                                                           1             = 0 , deci dreapta
+
+    x -                                 x -                                               x- x2 + 2x + 2 - x -1                                          3p
+
+    de ecuaie y = -2x este asimptot oblic spre - la graficul funciei f
+
+c) x2 + 2x + 2 > x +1  f ( x) < 0 , pentru orice numr real x , deci funcia f este strict 2p
+
+    descresctoare pe 
+
+    f continu pe  , lim f ( x) = + , lim f ( x) = 2 , deci Im f = (2, +)                                                                                 3p
+                                        x-                            x+
+
+( ) ( ) 2.a)2(3x -  2) f (  x  )           2  3x2                                      2
+         ln (       x +1)         dx    =            - 2x     dx =       x3 - x2                                                                         3p
+                                                                                         =
+                                                                                       1
+    1                                      1
+
+    =8- 4-1+1= 4                                                                                                                                         2p
+
+b)  1                             1     x22-1  '                         x2 -1ln                 1     1  1
+                                               ln                          2                     0     2
+       x  ln  (  x  +1)  dx  =                       (  x  +  1)  dx  =             (  x  +  1)     -        (  x  -  1)  dx  =                          3p
+
+    0                             0                                                                       0
+
+    =  -  1         x2  -         1  =  1                                                                                                                2p
+          2         2       x     0     4
+
+ c)              t                            f (t)
+         1       0  f   ( x)dx    =     lim          =                                                                                                   3p
+    lim                                       3t 2
+    t0 t3                               t 0
+
+    = lim ln (t +1) = 1                                                                                                                                  2p
+       t0 3t                         3
+
+Prob scris la matematic M_mate-info                                                                                                 Simulare pentru clasa a XII-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

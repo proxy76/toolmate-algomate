@@ -74,16 +74,37 @@ def _d3_e(rng):
                 hint_latex=r"Limita lui $e$: $\lim_{x\to\infty}\left(1+\frac{a}{x}\right)^x = e^{a}$.")
 
 
+def _d1_rational_defined(rng):
+    a, b, c = nonzero(rng, 1, 3), small_coef(rng), nonzero(rng, 1, 4)
+    x0 = rng.randint(1, 3)
+    if x0 + c == 0:
+        raise ValueError("pole")
+    expr = (a * x + b) / (x + c)
+    val = sp.limit(expr, x, x0)
+    return make("limits", rf"Calculează $\displaystyle\lim_{{x \to {x0}}} {latex(expr)}$.",
+                rf"${latex(val)}$",
+                hint_latex=r"Funcția e continuă în punct: înlocuiește direct $x$ cu ${x0}$.")
+
+
+def _d3_ln(rng):
+    c = rng.randint(2, 5)
+    val = sp.limit(sp.log(1 + c * x) / x, x, 0)
+    return make("limits",
+                rf"Calculează $\displaystyle\lim_{{x \to 0}} \dfrac{{\ln(1 + {c}x)}}{{x}}$.",
+                rf"${latex(val)}$",
+                hint_latex=r"Limita fundamentală $\lim_{u \to 0} \dfrac{\ln(1+u)}{u} = 1$.")
+
+
 _TIERS = {
-    1: [_d1_substitution],
-    2: [_d2_factor, _d2_infinity],
-    3: [_d3_sin, _d3_exp, _d3_e],
+    1: [_d1_substitution, _d1_rational_defined],
+    2: [_d2_factor, _d2_infinity, _d1_rational_defined],
+    3: [_d3_sin, _d3_exp, _d3_e, _d3_ln],
 }
 
 
 class LimitsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "limits"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _tiers(self):
         return _TIERS

@@ -26,7 +26,7 @@ def _ml(M) -> str:
 
 class MatricesProblem(ProblemGenerator):
     TOPIC_CODE = "matrices"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def __init__(self, profile, rng, *, six_items: bool = False, size: int | None = None):
         super().__init__(profile, rng)
@@ -36,9 +36,9 @@ class MatricesProblem(ProblemGenerator):
             self.SUB_DIFFICULTIES = (1, 1, 2, 2, 3, 3)
         if size is not None:
             self.size = size
-        elif profile == "M3":
-            self.size = 2
-        elif profile == "M1":
+        elif profile in ("pedagogic", "stiintele-naturii"):
+            self.size = 2       # M_șt-nat Subiect II is always 2×2
+        elif profile == "mate-info":
             self.size = 3
         else:
             self.size = rng.choice([2, 3])
@@ -342,7 +342,7 @@ def _row_latex(coeffs, rhs) -> str:
 
 class MatrixSystemProblem(ProblemGenerator):
     TOPIC_CODE = "matrices"                     # same label/topic as MatricesProblem
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _random_template(self):
         """A 3×3 matrix with ``a`` on a few (mostly diagonal) positions and small
@@ -465,7 +465,7 @@ _px = x                                  # reuse the module parameter symbol (pr
 
 class Matrix2x2Problem(ProblemGenerator):
     TOPIC_CODE = "matrices"
-    SUPPORTED_PROFILES = ["M2"]
+    SUPPORTED_PROFILES = ["tehnologic", "stiintele-naturii"]
 
     def _rand_mat(self, lo=-3, hi=3):
         r = lambda: self.rng.randint(lo, hi)

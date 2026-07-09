@@ -1,0 +1,85 @@
+                                                         Ministerul Educaiei Naionale
+                                                  Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020                                                            Model
+                                                          Proba E. c)                                                        (30 de puncte)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+ 5p 1. Artai c (0,310 -1)(0,310 +1) = 8 .
+
+5p 2. Se consider x1 i x2 soluiile ecuaiei x2 - 6x + m = 0 , unde m este numr real. Determinai
+
+    numrul real m pentru care x1x2 ( x1 + x2 ) = 12 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2 5 - x = x +10 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+    acesta s aib cifra zecilor cu 3 mai mare decât cifra unitilor.
+
+5p 5. Determinai numrul real a pentru care vectorii u = ai + (a -1) j i v = 3i + 4 j sunt coliniari.
+
+5p 6. Artai c, dac x este numr real pentru care sin x = cos x , atunci cos 2x = 0 .
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+    1.  Se  consider  matricea          A  (  a,  b)  =    a   2b 
+                                                           -b  a  , unde a i b sunt numere reale.
+
+5p a) Artai c det ( A(1,1)) = 3 .
+
+( ) 5p b) Demonstrai c A(a,b)  A(b, a) = A -ab,a2 + b2 , pentru orice numere reale a i b .
+
+5p c) Determinai perechile de numere întregi m i n pentru care det ( A(m, n)) = 1 .
+
+      2. Se consider polinomul f = X 3 -15X 2 + mX - 80 , unde m este numr real.
+
+5p a) Pentru m = 95 , artai c f (1) = 1 .
+5p b) Determinai numrul real m pentru care x1 ( x1 - x2 ) + x2 ( x2 - x3 ) + x3 ( x3 - x1 ) = 0 , unde x1 , x2
+
+      i x3 sunt rdcinile polinomului f .
+5p c) Determinai rdcinile polinomului f , tiind c acestea sunt numere reale în progresie aritmetic.
+
+SUBIECTUL al III-lea                                                                                                         (30 de puncte)
+
+     1. Se consider funcia f :    , f ( x) = ex - x -10 .
+ 5p a) Artai c f '(0) = 0 .
+
+ 5p b) Demonstrai c oricare dou tangente la graficul funciei f sunt concurente.
+
+( ) 5p c) Demonstrai c ex3  ( x +1) x2 - x +1 , pentru orice numr real x .
+
+    2. Se consider funcia f : (0, +)  (0, +) , f ( x) = x + 9 .
+
+                                                                          x
+
+5p  a) Artai  c  3    f  (  x  )  -  9    dx  =   4   .
+                                     x  
+                 
+
+                 1
+
+5p  b) Demonstrai c suprafaa plan delimitat de graficul funciei                                       g : (0, +)   ,  g(x) =  f  2    ,  axa
+
+                                                                                                                                 (x)
+
+    Ox i dreptele de ecuaii x = 1 i x = 9 are aria egal cu 2ln 3 .
+
+5p  c) Determinai numrul real a , tiind c                       3    f  (x)  -  9               x dx  =  5   -  3  +  3-a .
+                                                                                x        arctg           12           2
+                                                               
+
+                                                               1
+
+Prob scris la matematic M_t-nat                                                                                                       Model
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

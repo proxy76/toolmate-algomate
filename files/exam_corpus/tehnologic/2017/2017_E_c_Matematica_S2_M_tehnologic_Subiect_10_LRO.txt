@@ -1,0 +1,100 @@
+                                                            Ministerul Educaiei Naionale
+                                                     Centrul Naional de Evaluare i Examinare
+
+                                               Examenul de bacalaureat naional 2017
+                                                                 Proba E. c)
+
+                                                           Matematic M_tehnologic
+
+                                                                                                                           Varianta 10
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                (30 de puncte)
+
+5p  1.  Artai  c      -         1      8    =  2  .
+                   4            4      15
+
+5p 2. Determinai numrul real m , tiind c punctul A(1,5) aparine graficului funciei f :    ,
+
+    f (x) = x2 + m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 + x +1 = 1.
+
+5p 4. Calculai probabilitatea ca, alegând un numr n din mulimea A = {1, 2, 3, 4, 5, 6, 7, 8, 9} , acesta
+
+    s verifice egalitatea (n - 2)(n - 4) = 0 .
+
+5p 5. În reperul cartezian xOy se consider punctele M (0,3) , N (4,3) i P (4,0) . Calculai perimetrul
+
+    triunghiului MNP .
+
+5p 6. Artai c sin2 120° - cos2 30° = 0 .
+
+SUBIECTUL al II-lea                                                                                                        (30 de puncte)
+
+                                                     1 3                        2 2
+    1. Se consider matricele A =                                       i  B  =      .
+                                        3                     -4                2  2
+
+5p a) Artai c det A = -13 .
+
+    b) Artai   c                -           =   0 10                .
+5p                A    B           B     A                        
+                                                  -10         0   
+
+5p  c)  Determinai   numerele              reale     x  pentru care          det ( B  B -  xI2 ) = 0 ,  unde  I2    1  0
+                                                                                                                  =     .
+
+                                                                                                                    0  1
+
+      2. Se consider polinomul f = X 3 + 3X 2 - X - 3 .
+
+5p a) Artai c f (1) = 0 .
+
+5p b) Determinai câtul i restul împririi polinomului f la polinomul X - 2 .
+
+5p c) Demonstrai c x12 + x22 + x32 = 11 , unde x1 , x2 i x3 sunt rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                                       (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = 2x3 - 6x + 4 .
+
+5p a) Artai c f '( x) = 6( x -1)( x + 1) , x   .
+5p b) Artai c lim f ( x) = 0 .
+
+                      x 1 x -1
+
+5p c) Demonstrai c 0  f ( x)  8 , pentru orice x [-1,1] .
+
+    2. Se consider funcia f :    , f ( x) = x2 + 5x .
+
+5p  a)  Artai  c  1    f        ( x) - 5x)dx         =  1  .
+
+                  (                                     3
+
+                  0
+
+5p b) Artai c funcia F :    , F ( x) = 1 x3 + 5 x2 + 2017 este o primitiv a funciei f .
+
+                                                        32
+
+5p c) Demonstrai c volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+    g :[1, 2]   , g ( x) = f ( x) este egal cu 127 .
+                                           x                                 3
+
+Prob scris la matematic M_tehnologic                                                                                       Varianta 10
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                          Pagina 1 din 1
+

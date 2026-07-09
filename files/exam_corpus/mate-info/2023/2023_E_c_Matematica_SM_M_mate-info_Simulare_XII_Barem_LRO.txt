@@ -1,0 +1,167 @@
+                                            Ministerul Educaiei
+                          Centrul Naional de Politici i Evaluare în Educaie
+
+                            Examenul naional de bacalaureat 2023
+                                              Proba E. c)
+
+                                     Matematic M_mate-info
+
+                          BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                Simulare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+1. z12  4z2  1 2i2  41 i 1 4i  4i2  4  4i                                                       3p
+
+       5  4  1  5  4  1                                                                         2p
+
+2. f  x  g  x  x2  2x  m 1  0                                                                   2p
+
+        0 i, cum   8  4m , obinem 8  4m  0 , deci m  2                                          3p
+    3. lg x2  9  lg 10x2  x2  9  10x2 , de unde obinem x2 1  0
+                                                                                                3p
+
+      x  1, care nu convine; x 1 , care convine                                                 2p
+
+4. Mulimea A are 100 de elemente, deci sunt 100 de cazuri posibile                              2p
+
+      Numerele din mulimea A , divizibile cu 9 , sunt 9 0 , 9 1, 9 2 , ... 9 11 , deci sunt 12
+
+      cazuri favorabile, de unde obinem p  12  3                                                3p
+
+                               100 25
+
+5. MD  MA  AD i ME  MC  CB  BE                                                                  2p
+
+      MD  ME  MA  MC  AD  BE  CB  0  0  CB  CB                                                  3p
+
+6. 2sin x cos x  2 cos2 x  2 cos x sin x  cos x  0                                              2p
+
+      Cum x 0,  , obinem x   sau x                                                              3p
+                          2    4
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1.a)         01 2
+
+      det  A0  1 0 1  0  0 1 1 1  2 1 2  2  2  0  2 111  1  2  0                                3p
+
+             22 1
+
+       0 2 4010 1                                                                               2p
+
+b) det  Aa  a 12 , pentru orice numr real a                                                     3p
+
+      det  Aa  0  a 1, deci sistemul are soluie unic pentru a   \ 1                             2p
+
+c) Pentru a 1, soluiile sistemului de ecuaii sunt , 2  , 2 , unde                               2p
+
+      Cum  este numr întreg i   2   2 , obinem   2 sau   3 , deci soluiile sunt                 3p
+      2,0,  2 i 3, 1,  2
+
+Prob scris la matematic M_mate-info                                                             Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                           Ministerul Educaiei
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+2.a)                      1 1                  
+       1 1                   2
+
+         2                            1  2                                                                                     3p
+                   1  12      1       2     
+             1                   
+
+          1
+
+     2 1                                                                                                                       2p
+
+       1 0 2
+
+b)  x x  x2                          x2                       x M
+                                    2  x2
+               1 1 x2                       ,  pentru  orice                                                                   3p
+
+      
+    x  x           x2       x2 1 x2          0 , deci x x  x2 , pentru orice x  M                                              2p
+                              2  x2
+
+   c) a  b  1 1 a2 1 b2  ab 1, deci ab 1                                                                                       3p
+
+    Cum a, b  M , obinem ab 1, deci perechile sunt 1, 1 i 1,1 , care convin                                                    2p
+
+SUBIECTUL al III-lea                                                                                             (30 de puncte)
+
+  1.a)   x             1
+    f        1     ex     x2     ex  2x                                                                                        3p
+
+       x2  2x      xx  2         ,  x                                                                                          2p
+       ex  x2
+                   ex  x2
+
+b) Tangenta la graficul funciei f în punctul de coordonate a, f a este paralel cu axa                                          3p
+
+    Ox  f 'a  0
+
+    aa  2      0a0                  sau  a  2                                                                                  2p
+
+    ea  a2
+
+c) Pentru orice x ,0 , f ' x  0 , deci f este cresctoare pe ,0 ; pentru orice
+
+    x 0, 2 , f ' x  0 , deci f este descresctoare pe 0, 2 ; pentru orice x 2,  , 2p
+
+    f ' x  0 , deci f este cresctoare pe 2, 
+
+    Cum f este continu, lim f  x   , f 0  1 i lim f  x  1 , imaginea funciei
+                                    x                                                   x                                      3p
+    f este ,1
+
+  2.a)                                                     3
+    3                 3          x2 1    dx        x3   x  0                                                                   3p
+                                                   3
+     f x       x  3dx 
+
+    0                         0
+
+     9  3 12                                                                                                                   2p
+
+b)  1  f x           1      x  3'                       1
+                                                 x3 
+       x2 1    dx            x3     dx      2                                                                                  3p
+                                                       2
+    2                2
+
+    422                                                                                                                        2p
+
+c)     1        x3  2                                  x 0,1 , de unde obinem              1     1            1    1         
+               x2 1 x2 1                                                                                         x2 
+    f  x                            , pentru orice                                            f  x    dx    2         1  dx    3p
+
+                                                                                           0                  0
+
+     2arctgx 1                                                                                                                 2p
+                02
+
+Prob scris la matematic M_mate-info                                                                                            Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

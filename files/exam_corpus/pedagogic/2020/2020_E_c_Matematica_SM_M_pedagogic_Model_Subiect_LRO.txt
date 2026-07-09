@@ -1,0 +1,75 @@
+                                       Ministerul Educaiei Naionale
+                                Centrul Naional de Evaluare i Examinare
+
+                           Examenul de bacalaureat naional 2020
+                                             Proba E. c)
+
+                                    Matematic M_pedagogic
+
+                                                                                                                      Model
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                   (30 de puncte)
+
+5p 1. Calculai suma primilor trei termeni ai progresiei aritmetice (an )n1 , tiind c a1 = 2 i a3 = 8 .
+5p 2. Se consider funcia f :    , f ( x) = x + 5 . Determinai numrul real m pentru care
+
+     f (m) = f (1) + f (-1) .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 x2 + 4 = 3 .
+
+5p 4. Un obiect cost 2 000 de lei. Determinai preul obiectului dup ce acesta se scumpete de dou ori,
+
+      succesiv, cu câte 10% .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,1) , B (-1,1) , C (-1, -1) i D (1, -1) . Calculai
+
+      perimetrul patrulaterului ABCD .
+
+5p 6. Calculai aria triunghiului ABC dreptunghic în A , tiind c m(B) = 45° i BC = 4 2 .
+
+SUBIECTUL al II-lea                                                                              (30 de puncte)
+
+Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = 2xy - 8( x + y) + 36 .
+
+5p 1. Artai c 0  4 = 4 .
+
+5p 2. Demonstrai c x  y = 2( x - 4)( y - 4) + 4 , pentru orice numere reale x i y .
+
+5p 3. Verificai dac e = 9 este elementul neutru al legii de compoziie ,,  ".
+                                2
+
+5p 4. Determinai numerele reale x pentru care ( x -1)  ( x +1) = 10 .
+
+5p 5. Determinai numerele reale x pentru care 3x2  3x2  3x2 = 0 .
+5p 6. Dai exemplu de numere raionale p i q , care nu sunt întregi, pentru care numrul p  q este
+
+întreg.
+
+SUBIECTUL al III-lea                                                                                          (30 de puncte)
+
+Se consider matricele  A(  a)    =    a  2  i  B  (b)  =    2  b                        a  i  b  sunt numere  reale.
+                                                                 , unde
+                                    2 2                   2 2
+
+5p 1. Artai c det ( A(3)) = 2 .
+
+5p 2. Artai c A(2)  B(2) = 2( A(2) + B(2)) .
+
+5p 3. Determinai inversa matricei A(1) .
+
+5p 4. Demonstrai c det ( A(a) + B (b)) = det ( A(a)) + det ( B (b)) dac i numai dac a = b .
+
+5p 5. Determinai valorile reale ale lui a pentru care matricea C (a) = B (a)  A(a) este inversabil.
+
+5p 6. Determinai numerele naturale nenule n pentru care det ( A(n)) > n2 - 7 .
+
+Prob scris la matematic M_pedagogic                                                                                   Model
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -19,12 +19,16 @@ def _l(expr) -> str:
 
 class StatisticsGenerator(ExerciseGenerator):
     TOPIC_CODE = "statistics"
-    SUPPORTED_PROFILES = ["M3"]
+    SUPPORTED_PROFILES = ["pedagogic"]
 
     def _generate_params(self) -> dict:
         rng = self.rng
-        pool = [self._st_mean, self._st_median] if self.difficulty == 1 else \
-               [self._st_find_for_mean, self._st_mean]
+        if self.difficulty == 1:
+            pool = [self._st_mean, self._st_median, self._st_mode, self._st_range]
+        elif self.difficulty == 2:
+            pool = [self._st_find_for_mean, self._st_mean, self._st_freq_mean, self._st_mode]
+        else:
+            pool = [self._st_find_for_mean, self._st_freq_mean, self._st_range, self._st_median]
         return rng.choice(pool)()
 
     def _compute_answer(self, params):
@@ -76,6 +80,58 @@ class StatisticsGenerator(ExerciseGenerator):
             "hint": r"Mediana unui set ordonat cu un număr impar de valori este valoarea "
                     r"din mijloc.",
             "steps": [rf"$M_e = {med}$"],
+            "ok": True,
+        }
+
+    def _st_mode(self):
+        rng = self.rng
+        m = rng.randint(2, 9)
+        others = rng.sample([v for v in range(1, 13) if v != m], rng.choice([3, 4]))
+        data = [m, m, m] + others                     # m appears 3× ⇒ unique mode
+        rng.shuffle(data)
+        data_l = ",\\ ".join(str(d) for d in data)
+        return {
+            "question": rf"Se consideră valorile ${data_l}$. Determinați modulul (valoarea "
+                        rf"cu cea mai mare frecvență) al acestui set de date.",
+            "answer_latex": rf"$M_o = {m}$",
+            "answer": sp.Integer(m),
+            "hint": r"Modulul este valoarea care apare de cele mai multe ori.",
+            "steps": [rf"$M_o = {m}$"],
+            "ok": True,
+        }
+
+    def _st_range(self):
+        rng = self.rng
+        data = [rng.randint(1, 20) for _ in range(rng.choice([5, 6]))]
+        if len(set(data)) < 2:
+            raise ValueError("degenerate")
+        amp = max(data) - min(data)
+        data_l = ",\\ ".join(str(d) for d in data)
+        return {
+            "question": rf"Se consideră valorile ${data_l}$. Determinați amplitudinea "
+                        rf"acestui set de date.",
+            "answer_latex": rf"$A = {amp}$",
+            "answer": sp.Integer(amp),
+            "hint": r"Amplitudinea este diferența dintre valoarea maximă și cea minimă.",
+            "steps": [rf"$A = {max(data)} - {min(data)} = {amp}$"],
+            "ok": True,
+        }
+
+    def _st_freq_mean(self):
+        rng = self.rng
+        vals = sorted(rng.sample(range(1, 10), 3))
+        freqs = [rng.randint(1, 4) for _ in vals]
+        total = sum(freqs)
+        s = sum(v * f for v, f in zip(vals, freqs))
+        mean = sp.Rational(s, total)
+        tbl = ",\\ ".join(rf"{v}\ (\text{{de }} {f}\ \text{{ori}})" for v, f in zip(vals, freqs))
+        return {
+            "question": rf"Într-un set de date valorile apar astfel: ${tbl}$. Calculați media "
+                        rf"aritmetică a datelor.",
+            "answer_latex": rf"$\overline{{x}} = {_l(mean)}$",
+            "answer": mean,
+            "hint": r"Media ponderată: $\overline{x} = \dfrac{\sum v_i n_i}{\sum n_i}$.",
+            "steps": [rf"$\overline{{x}} = \dfrac{{{s}}}{{{total}}} = {_l(mean)}$"],
             "ok": True,
         }
 

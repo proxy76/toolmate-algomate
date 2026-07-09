@@ -1,0 +1,172 @@
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+1.    z  +  13    =  3  +     2i  +   13     =  3  +  2i  +  13(3 - 2i)  =  3+  2i  +   13(3 -  2i )  =                                 3p
+             z                       3 + 2i                                                                                             2p
+                                                               9 - 4i2                      13                                          3p
+
+      = 3 + 2i + 3 - 2i = 6
+
+2. f ( g (a)) = f ( g (-a))  3g (a) - 5 = 3g (-a) - 5  g (a) = g (-a)
+
+      a2 + a = a2 - a  a = 0                                                                                                             2p
+
+3. 33x+5 = 32  3x+1  33x+5 = 3x+3                                                                                                        3p
+
+      3x + 5 = x + 3  x = -1                                                                                                             2p
+
+4. Numrul submulimilor lui A este egal cu 24 , deci sunt 16 cazuri posibile                                                              2p
+
+      Numrul submulimilor lui A cu un numr impar de elemente este egal cu C14 + C43 = 8 , deci 2p
+      sunt 8 cazuri favorabile
+
+      p = nr. cazuri favorabile = 8 = 1                                                                                                  1p
+            nr. cazuri posibile 16 2
+
+5. M (2, 4) este mijlocul segmentului AB , deci mCM = -1                                                                                 2p
+
+      d CM  md = -1 , deci ecuaia dreptei d este y - yA = md ( x - xA ) , adic y = -x + 4                                                3p
+
+6. AC2 = AB2 + BC2 - 2 AB  BC  cos B  12 = 4 + BC2 - 2  2  BC  1                                                                         3p
+                                                                                                         2
+
+      BC2 - 2BC - 8 = 0  BC = 4                                                                                                          2p
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+                                                                                                                                        3p
+1.a)                          1+ 2x 0 -4x                                                                                               2p
+
+      det ( A( x)) = 0 a 0 = a (1+ 2x)(1- 2x) + 4ax2 =
+
+                        x 0 1- 2x
+
+      ( ) = a 1- 4x2 + 4ax2 = a , pentru orice numr real x
+
+b)                                1+ 2(x + y)         0       -4( x + y)                         1    +  2  (x  +  y)  0  -4( x +  y)  
+                                                      a2                                                               a               
+      A  (  x)    A(    y  )  =      0                0                         A(x +   y  )  =             0          0  0 ,
+                                   x + y                           0 ,                                                                   3p
+                                                                                                  x + y                   1- 2( x + y)
+                                                             1- 2( x + y)
+
+      pentru orice numere reale x i y
+
+      A( x)  A( y) = A( x + y)  a2 = a i, cum a un numr real nenul, obinem a = 1                                                         2p
+
+c) A(-2)  A(2) = A(0) = I3 , deci A(-2) este inversa matricei A(2)                                                                       2p
+
+                                                                    3 0 -4
+                                                                            -01
+      X  =  A(-2)             A(3)   X       =     A(1)      X  =    0   1                                                               3p
+                                                                     1   0
+
+( ) ( ) 2.a) 0  2021 = log2 20 + 22021 -1 = log2 1+ 22021 -1 =                                                                           3p
+
+         = log2 22021 = 2021                                                                                                                2p
+
+Prob scris la matematic M_t-nat                                                                                                          Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                             Ministerul Educaiei
+
+                                                    Centrul Naional de Politici i Evaluare în Educaie
+
+( ) b) x e = x  log2 2x + 2e -1 = x  2x + 2e -1= 2x , pentru orice x[0,+) , de unde obinem 3p
+
+      2e =1, deci e = 0M
+
+      ( ) Cum 0 x = log2 1+ 2x -1 = x , pentru orice x [0, +) , obinem c e = 0 este elementul 2p
+
+      neutru al legii de compoziie ,,"
+
+( ) c) x  ( x +1)  ( x + 2) = log2 2x + 2x+1 + 2x+2 - 2 , x  M                                                                                       3p
+
+      ( ) log2 2x + 2x+1 + 2x+2 - 2 = log2 54  7  2x - 2 = 54  2x = 8 , deci x = 3 , care convine                                                    2p
+
+SUBIECTUL al III-lea                                                                                                                        (30 de puncte)
+
+1.a)  f '(x) = 1              x2    +  1            x  2+  x  +  1     '
+                            x2 +    x  +               x2  +  1     
+               2                                                          =                                                                          2p
+
+                                          1
+
+      ( ) ( ) = 1
+                  x2 +1           (2x +1) x2 +1 - x2 + x +1  2x                             =                   1- x2                  , x
+
+         ( ) ( ) ( )( ) 2 x2 + x +1                                                                                                                  3p
+                                                          x2 +1 2                               2 x2 +1             x2 + x +1 x2 +1
+
+b)                                                                                  1+  1   +   1
+                                                                                        x       x2
+         lim f ( x) = lim                   x2 +       x  +1    =   lim                               =1                                             3p
+      x -                       x -           x2       +  1                                 1
+                                                                   x -                  1+  x2
+
+      Dreapta de ecuaie y = 1 este asimptot orizontal spre - la graficul funciei f                                                                   2p
+
+c) f ( x)  0 , pentru orice x (-, -1]  f descresctoare pe (-,-1] , f ( x)  0 , pentru
+
+      orice x [-1,1]  f cresctoare pe [-1,1] i f ( x)  0 , pentru orice x [1, +)  f 2p
+
+      descresctoare pe [1, +)
+
+      f (-1) = 2 , f (1) = 6 i lim f ( x) = 1 2  f ( x)  6 , pentru orice numr real x ,
+                         2                       2         x +                                  2                   2
+
+                  2  f (x)+ f (-x)                         6              2         x2 + x +1 +              x2 - x +1                               3p
+                                                                                      x2 +1                    x2 +1
+      deci                                                                                                                    6 , pentru orice numr
+
+      real x
+
+( ) 2.a)3(     (  x)            x)         3  (                                         x)         3  (         3)                  3
+            f         +  2  ln      dx  =        2x    +  3  -  2  ln  x     +   2  ln      dx  =        2x  +      dx  =  x2 + 3x    =              3p
+                                                                                                   
+                                                                                                                                    1
+      1                                    1                                                       1
+
+      = 9 + 9 -1- 3 = 14                                                                                                                             2p
+
+b)    e  (                   ( x))dx           e                                     e - 2e x  1 dx
+
+            2x    +3-    f              =    2 ln      x dx     =  2x ln         x  1 1x                 =                                           3p
+
+      1                                        1
+
+      = 2e - 2(e -1) = 2                                                                                                                             2p
+
+( ) c)1           x3     +1     dx =   1 2    f  (t )dt      =  1    2    (  2t  + 3) dt         2                                                   3p
+                                                                3                                             =
+       x2 f                            31                                                   - 2 ln tdt
+
+      0                                                              1                           1
+
+      ( ) = 1 t2 + 3t - 2t ln t + 2t 2 = 1 (4 + 6 - 4ln 2 + 4 -1- 3 - 2) = 4(2 - ln 2)                                                               2p
+         3                                          13                                                                     3
+
+Prob scris la matematic M_t-nat                                                                                                                      Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

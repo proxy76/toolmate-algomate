@@ -1,0 +1,93 @@
+                                 Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                       Centrul Naional de Evaluare i Examinare
+
+                                 Examenul de bacalaureat naional 2016
+
+                                                  Proba E. c)
+
+                                             Matematic M_mate-info
+
+                                                                                                                                   Varianta 01
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+5p 1. Determinai al patrulea termen al progresiei aritmetice (an )n1 , tiind c a1 = 1 i a2 = 4 .
+
+5p 2. Determinai numrul real a , tiind c punctul A(1, a) aparine graficului funciei f :    ,
+
+    f (x) = x2 + 4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 9x-2 = 32-x .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+      acesta s fie mai mic sau egal cu 30.
+
+5p 5. În reperul cartezian xOy se consider punctul A(0,3) . Determinai ecuaia dreptei care trece prin
+
+    punctul A i are panta egal cu 1.
+
+5p  6. Se consider triunghiul    ABC , cu    AB = 10 ,    AC   = 10                     i   BC  = 12 . Artai c  sin B =      4  .
+                                                                                                                             5
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+                                            -m     1      1                                                 -xm-x  +y  +  z  =  -1
+                                                  -m                                                               my  +  z  =  -1
+    1. Se consider matricea      A(m)   =    1     1      1    i  sistemul                      de  ecuaii   x + y - mz = m         ,  unde  m
+                                             1           -m
+
+      este numr real.
+
+5p a) Artai c det ( A(0)) = 2 .
+
+5p b) Demonstrai c matricea A(m) este inversabil, pentru orice numr real m , m  -1 i m  2 .
+5p c) Pentru m = 2 , determinai soluia (x0, y0 , z0 ) a sistemului pentru care x0 + 2 y0 + 3z0 = 9 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie asociativ
+      x  y = -2xy +10x +10 y - 45 .
+
+5p a) Artai c x  y = -2( x - 5)( y - 5) + 5 , pentru orice numere reale x i y .
+
+ 5p b) Artai c 1 2  3 4  5  6  7  8  9 10 = 5 .                                                                           (30 de puncte)
+ 5p c) Determinai numerele naturale m i n , pentru care m  n = 27 .
+SUBIECTUL al III-lea
+
+     1. Se consider funcia f : (0, +)   , f ( x) = x2 - 8ln x .
+
+5p a) Artai c f '( x) = 2( x - 2)( x + 2) , x (0, +) .
+
+                                         x
+5p b) Determinai intervalele de monotonie a funciei f .
+
+5p c) Demonstrai c ecuaia f ( x) = 0 are dou soluii reale distincte.
+
+    2. Se consider funcia      f : (4,+)   ,      f  (x)  =  x(   1                     4)  .
+                                                                 x-
+
+                             10
+
+5p a) Artai c  ( x - 4) f ( x)dx = ln 2 .
+
+                              5
+
+5p b) Determinai volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+     g :[5,6]   , g ( x) = x f ( x) .
+
+                                n+1             
+ 5p                              n2     f ( x) dx  = 1.
+    c)  Demonstrai    c   lim
+
+                         n+          n
+
+Prob scris la matematic M_mate-info                                                                                                    Varianta 01
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

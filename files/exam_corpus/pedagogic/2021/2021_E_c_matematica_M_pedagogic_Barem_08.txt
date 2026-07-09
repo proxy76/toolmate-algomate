@@ -1,0 +1,140 @@
+                                              Ministerul Educaiei
+                            Centrul Naional de Politici i Evaluare în Educaie
+
+                            Examenul naional de bacalaureat 2021
+                                              Proba E. c)
+
+                                     Matematic M_pedagogic
+
+                            BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                          Testul 8
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                               (30 de puncte)
+
+1. (2,5 - 0,7): 2 + - 1 = 1,8: 2 + 1 = 0,9 + 1 =                                                               3p
+                     10         10              10
+
+= 0,9 + 0,1= 1                                                                                                 2p
+
+2. f (2a - 4) = 4a -12 , f (a=) 2a - 4 , pentru orice numr real a                                              2p
+
+4a -12 = 2a - 4 + 4 , de unde obinem a = 6                                                                     3p
+
+3. 9-x 2(3-x)                                                                                                  3p
+     3 =3  9- x =6-2x
+
+x = -3                                                                                                         2p
+
+4. x - 45  x =77 , unde x este preul produsului înainte de ieftinire                                           3p
+          100
+
+x =140 de lei                                                                                                  2p
+
+5. BC =12                                                                                                      2p
+
+BC    Ox       d  ( A, BC)  = 8  ABC  = 8 12 = 48                                                              3p
+                                          2
+
+6.           AB2 + A= C2 - BC2  6= 2 + 62 - 42                                                                 3p
+= cos A        2 AC  BC         266
+
+= 3= 6 + 36 -16 7                                                                                              2p
+                   266 9
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+1. (-2)  3= 4(-2 + 3) - 2  (-2)  3=                                                                            3p
+
+=4 +12 =16                                                                                                     2p
+
+2. y  x = 4( y + x) - 2 yx = 4( x + y) - 2xy =                                                                 3p
+
+= x  y , pentru orice numere reale x i y , deci legea de compoziie ,,  " este comutativ                        2p
+
+3. (1- x)  x =4 - 2x + 2x2 , pentru orice numr real x                                                          2p
+
+4 - 2x + 2x2 = 8  x2 - x - 2 = 0 , de unde obinem x = -1 sau x = 2                                             3p
+
+4. 1=n 2n + 4 , pentru orice numr natural n                                                                    2p
+
+2n + 4  2021  n  2017 , de unde obinem c 1009 este cel mai mic numr natural n pentru                           3p
+                            2
+
+care 1 n  2021
+
+5. A = a  2 = 4a + 4 2 - 2a 2 = 4a + (4 - 2a) 2 , pentru orice numr întreg a                                   2p
+
+A este numr întreg i, cum a este numr întreg, rezult 4 - 2a = 0 , de unde obinem a = 2 3p
+
+6. =y x + z  x +=z 2 y                                                                                         2p
+         2
+
+(x m) + (z m) =           4(x + 2m + z) - 2m(x + z)        4(2y + 2m) - 2m2y           4( y + m) - 2my =  ym,  3p
+
+        2                                               =                           =
+                                        2                             2
+
+deci numerele x  m , y  m i z  m sunt termeni consecutivi ai unei progresii aritmetice
+
+Prob scris la matematic M_pedagogic                                                                            Testul 8
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                Pagina 1 din 2
+                                                              Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+SUBIECTUL al III-lea                                                                           (30 de puncte)
+
+1. det A = 1 2 =18 - 2  3 =                                                                    3p
+               38
+
+    =8- 6 = 2                                                                                  2p
+
+2.  A= + B        0    4           (  A  +  B)  (    A  += B)   24      0                      3p
+                       0                                                2= 4 
+                    6                                             0
+                                                               
+
+            1 0
+= 2= 4 0 1 24I2                                                                                2p
+
+3. 2( X - A) = 3( X - B)  X = 3B - 2A                                                          2p
+
+=X           -3         6       -     2     4     ,  deci  X   =    -5    2                    3p
+                       -24            6                             3          
+               9                            16                          -40    
+
+4.  det  (  A  +  xI2  )  =  1  +  x          2 = x2 + 9x + 2 , pentru orice numr real x       3p
+                                3           8+ x
+
+    x2 + 9x + 2 = 2  x2 + 9x = 0 , de unde obinem x = -9 sau x = 0                             2p
+
+( ) 5. N= det ((1+ n) A + (1- n) B=) 2n 4= 32n2 - 2=4 8 4n2 - 3 , pentru orice numr natural    3p
+                                           6 16n
+
+    nenul n
+
+    Cum, pentru orice numr natural nenul n , numrul 4n2 - 3 este numr natural, obinem c 2p
+    numrul N este natural, multiplu de 8
+
+6. A  ( A - xI2 ) =B  ( B + xI2 )  A  A - B  B =x( A + B)                                      2p
+
+    0         36    =  x     0     4     ,  de  unde    obinem       x=9                       3p
+              0              6        
+      54                           0  
+
+Prob scris la matematic M_pedagogic                                                            Testul 8
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

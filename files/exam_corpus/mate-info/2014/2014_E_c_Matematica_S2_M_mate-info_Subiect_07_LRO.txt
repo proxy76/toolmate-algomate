@@ -1,0 +1,90 @@
+                                                   Ministerul Educaiei Naionale
+                                            Centrul Naional de Evaluare i Examinare
+
+                                     Examenul de bacalaureat naional 2014
+
+                                                    Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                                                                                                    Varianta 7
+
+    Filiera teoretic, profilul real, specializarea matematic-informatic
+
+    Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                         (30 de puncte)
+
+5p 1. Determinai partea real a numrului complex z = 1+ 2i + 3i2 .
+
+5p 2. Determinai coordonatele punctului de intersecie a graficelor funciilor f :    , f ( x) = x -1
+
+    i g :    , g ( x) = 3x - 5 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x2 -x = 32x .
+5p 4. Determinai câte numere naturale pare, de dou cifre, se pot forma cu cifrele 0, 1, 2 i 3.
+
+5p 5. În reperul cartezian xOy se consider vectorii AB = 3i + 2 j i AC = (m +1)i + 4 j , unde m este
+
+    numr real. Determinai numrul real m tiind c AC = 2AB .
+
+5p 6. Se consider triunghiul ABC cu AB = AC = 3 i BC = 3 2 . Determinai cosC .
+
+SUBIECTUL al II-lea                                                                                                 (30 de puncte)
+
+                                                 1     0    0  
+                                                 x             
+    1. Se consider matricea       A(  x  )  =          1 0  , unde x este numr real.
+
+                                                2x2 - 2x 4x 1 
+
+5p a) Artai c det ( A(0)) = 1 .
+
+5p b) Artai c A( x + y) = A( x)  A( y) pentru orice numere reale x i y .
+
+( ) 5p c) Determinai numerele reale x tiind c A x2 + 2 = A( x)  A( x)  A( x) .
+
+      2. Se consider polinomul f = X 3 - 3X 2 + aX - 2 , unde a este numr real.
+
+5p a) Artai c f (2) = 2(a - 3) .
+
+5p b) Determinai numrul real a tiind c polinomul f este divizibil prin X 2 - X +1.
+
+( ) 5p c) Pentru a = 3 , rezolvai în mulimea numerelor reale ecuaia f 2x = 0 .
+
+SUBIECTUL al III-lea                                                                                                (30 de puncte)
+
+    1. Se consider funcia      f : (-2,+)   ,       f  (x)  =  xex                      .
+                                                               x+2
+
+                 ( ) x2 + 2x + 2 ex
+
+5p a) Artai c f '( x) = ( x + 2)2 , x (-2,+) .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 0 , situat pe graficul
+     funciei f .
+
+5p c) Artai c ecuaia f ( x) = 1 are cel puin o soluie în intervalul (1, 2) .
+
+     2.                                          n                                         In  =  1     xn    dx .
+        Pentru  fiecare  numr  natural nenul        se consider  numrul                           0     + xn
+
+                                                                                                     1
+
+5p a) Artai c I1 = 1- ln 2 .
+
+5p b) Artai c In+1  In pentru orice numr natural nenul n .
+
+5p  c)  Demonstrai  c     lim  I  n  =  0   .
+
+                         n+
+
+Prob scris la matematic M_mate-info                                                                                 Varianta 7
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

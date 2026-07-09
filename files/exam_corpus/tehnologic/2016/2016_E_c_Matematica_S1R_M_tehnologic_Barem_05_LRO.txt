@@ -1,0 +1,162 @@
+                                                  Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                        Centrul Naional de Evaluare i Examinare
+
+                                                  Examenul de bacalaureat naional 2016
+                                                                    Proba E. c)
+
+                                                          Matematic M_tehnologic
+
+                                                BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                                   Varianta 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                    (30 de puncte)
+
+1.    1  -    1  =    1                                                                                                            3p
+      3       4       12
+
+      1    :  1     =  1                                                                                                           2p
+      12      12
+
+2. x1 + x2 = 5 , x1x2 = 6                                                                                                          2p
+
+      4( x1 + x2 ) - 3x1x2 = 4  5 - 3 6 = 2                                                                                        3p
+
+3. x -1 = 4                                                                                                                        3p
+
+      x = 5 , care verific ecuaia                                                                                                  2p
+
+4. p -10%  p = 90 , unde p este preul obiectului înainte de ieftinire                                                              3p
+
+      p = 100 de lei                                                                                                               2p
+
+5. AB = (3 - 5)2 + (1-1)2 =                                                                                                        3p
+
+      =2                                                                                                                           2p
+
+6.    sin 2                 cos2                  4  2     9
+                                                  5        25
+              x  =1-                x  =1-              =                                                                          3p
+
+      Cum        x        0,        ,  obinem        sin x =   3                                                                   2p
+                              2                                5
+
+SUBIECTUL al II-lea                                                                                                            (30 de puncte)
+
+1.a)  det A =       23         = 22-33=
+
+                    32                                                                                                             3p
+
+      = 4 - 9 = -5                                                                                                                 2p
+
+b)            =      2x + 3 2 + 3x
+      A    B                                    
+                      3x    +  2    3  +  2  x                                                                                     2p
+
+              =     2x + 3          3x + 2        =  AB,   pentru     orice  numr        real    x
+      B    A                                                                                                                       3p
+                      2  +  3x      3  +  2  x  
+
+c)                  13 12                            2+ x 4 
+      A A =                       , A+B=                                 
+                    12 13                            4         2  +   x                                                            2p
+
+      A       -     3(      +  B)   =             13  - 3(2 +     x)         12 -12           =    1  0   de  unde  obinem     =2
+           A            A              I2                                                          0   ,                    x      3p
+                                                      12 -12             13  - 3(2 +  x  )            1
+
+2.a) 1 (-3) = 1 1 (-3) +1+ (-3) =                                                                                                  3p
+                         3
+
+      = -1+1+ (-3) = -3                                                                                                            2p
+
+Prob scris la matematic M_tehnologic                                                                                               Varianta 5
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                         Pagina 1 din 2
+                                           Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                 Centrul Naional de Evaluare i Examinare
+
+b) x  y = 1 xy + x + y + 3 - 3 = 1 ( xy + 3x + 3y + 9) - 3 =                                                   3p
+                3                                3
+
+    = 1 ( x( y + 3) + 3( y + 3)) - 3 = 1 ( x + 3)( y + 3) - 3 , pentru orice numere reale             x  i  y  2p
+       3                                               3
+
+c)  1  (  x  +  3)    1  +  3    -  3  =  -3     (  x  +  3)    1  +  3    =  0                                3p
+    3                 x                                         x        
+
+    x = -3 sau x = - 1                                                                                         2p
+                                 3
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+1.a) f '( x) = 3x2 - 3 =                                                                                       3p
+
+    ( ) = 3 x2 -1 = 3( x -1)( x +1) , x                                                                        2p
+
+b) lim f ( x) + 3x = lim x3 =                                                                                  2p
+                   x             x0 x
+    x0
+
+    = lim x2 = 0                                                                                               3p
+       x0
+
+c) f '( x) = 0  x = -1 sau x = 1                                                                               2p
+
+    x [-1,1]  f '( x)  0 , deci f este descresctoare pe [-1,1]                                                 1p
+
+    x [1,+)  f '( x)  0 , deci f este cresctoare pe [1, +)                                                     1p
+
+    Cum f (1) = -2 , obinem f ( x)  -2 , pentru orice x [-1, +)                                                1p
+
+( ) 2.a) 1                             1                                     1
+    ( f ( x) - x -1) dx =  x4 + x +1- x -1 dx =  x4dx =
+                                                                                                               2p
+
+    0                                  0                                     0
+
+    = x5 1 = 1 - 0 = 1                                                                                         3p
+          50 5 5
+
+( ) b)e      (x)     x4                       e                 x2           e     e  x2    1
+
+          f       -      -1      ln  x dx  =     x ln  x dx  =        ln  x     -              dx  =           3p
+                                                                2 1 12 x
+    1                                         1
+
+     = e2 - 1 e x dx = e2 - e2 + 1 = e2 +1                                                                     2p
+          2 21                   2 44 4
+
+( ) c)       1                  1                            x5    1 + x2       11
+    A           f (x)                  x4 + x +1       dx =                       +x =                         3p
+          =              dx = 
+                                                               50 20 0
+             0                   0
+
+    = 1 + 1 +1 = 17                                                                                            2p
+       5 2 10
+
+Prob scris la matematic M_tehnologic                                                                           Varianta 5
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                      Pagina 2 din 2
+

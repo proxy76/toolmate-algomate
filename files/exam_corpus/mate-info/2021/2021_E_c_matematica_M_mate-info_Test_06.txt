@@ -1,0 +1,101 @@
+                                                                    Ministerul Educaiei                                            Testul 6
+                                                 Centrul Naional de Politici i Evaluare în Educaie                        (30 de puncte)
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p 1. Artai c numerele 3 4 , log3 9 i 3 16 sunt termeni consecutivi ai unei progresii geometrice.
+
+5p 2. Se consider o funcie impar f :    . Demonstrai c funcia g :    , g ( x) = ( f ( x))2 este
+
+    par.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 22x - 2  2 x = 2x+1 - 2 2 .
+
+5p  4.  Determinai  termenul           care îl     conine pe  x8     din   dezvoltarea            x  +  1   10   unde     x (0, +) .
+                                                                                               x        x2   ,
+
+5p 5. În planul triunghiului ABC se consider punctul M , astfel încât 2 AM = AB + AC . Determinai
+
+      numrul real k , tiind c BC = k  CM .
+
+5p 6. Determinai x (0, ) , tiind c sin 2x + 6cos x - sin x - 3 = 0 .
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+                                                 2 0 -1                                  -1 -1 1 
+                                                             -01                                            
+    1. Se consider matricele              A  =     1  -1          i     M  (m)    =        -1     m   1       ,  unde  m  este  numr  real.
+                                                   4  -1                                  m -1    m  -m
+
+5p a) Artai c det A = -1 .
+
+5p b) Demonstrai c, pentru orice numr real m , rangul matricei M (m) este cel puin egal cu 2 .
+
+5p c) Determinai numrul real m , m  -1 , tiind c inversa matricei M (m) este matricea A .
+
+      2. Pe mulimea numerelor complexe se definete legea de compoziie z1 z2 = z1 + z2 + z1z2 .
+
+5p a) Artai c (2 + i) (2 - i) = 9 .
+
+5p b) Demonstrai c, pentru orice numr real nenul a , numrul A = (-1+ (a +1)i) (-1+ (a -1)i) este
+
+      real strict mai mic decât 0 .
+5p c) Determinai numerele complexe z pentru care z z = -5 .
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+    1. Se consider funcia              f : (-1, +)   ,        f   (  x  )  =  ln  x  +  1  .
+                                                                                  x  +  3
+
+5p  a) Artai c  f   '(  x  )  =  (  x  +    2   x  +  3)  ,  x (-1, +) .
+
+                                          1)(
+
+5p b) Determinai ecuaia asimptotei verticale la graficul funciei f .
+
+5p  c) Calculai lim ( x f ( x)) .
+                        x+
+    ( ) 2. Se consider funcia f :    , f ( x) = x2 +1 e-x .
+
+( ) 5p          1                            dx = - 2 .
+    a) Artai c      ex f      (x)- 2                 3
+                
+
+                0
+
+Prob scris la matematic M_mate-info                                                                                                   Testul 6
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                             e
+
+5p b) Calculai  f (ln x) dx .
+
+    1
+
+                                                                                               1       ( x) dx .
+ 5p
+c)  Pentru fiecare  numr natural  nenul  n,  se  consider numrul                        In  =   xn  f             Calculai   lim  I  n  .
+
+                                                                                               0                            n+
+
+Prob scris la matematic M_mate-info                                                                                         Testul 6
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

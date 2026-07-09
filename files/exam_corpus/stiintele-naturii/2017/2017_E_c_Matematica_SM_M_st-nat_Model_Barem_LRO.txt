@@ -1,0 +1,151 @@
+                                                Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2017
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE OTARE
+
+                                                                                                                            Model
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· u se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. ota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+1. z2 + 2i = (1 - i)2 + 2i = 1 - 2i + i2 + 2i =                                                                             2p
+
+      =1-1= 0                                                                                                               3p
+
+2. f (0) = 2017                                                                                                             2p
+
+      ( g f )(0) = g ( f (0)) = g (2017) = 0                                                                                3p
+
+3. x2 - 3x = x - 4  x2 - 4x + 4 = 0                                                                                         3p
+
+      x=2                                                                                                                   2p
+
+4. Mulimea M are 100 de elemente, deci sunt 100 de cazuri posibile                                                          1p
+
+      În mulimea M sunt 10 ptrate perfecte, deci sunt 10 cazuri favorabile                                                  2p
+
+      p = nr. cazuri favorabile = 10 = 1                                                                                    2p
+            nr. cazuri posibile 100 10
+
+5. Panta unei perpendiculare pe dreapta d este egal cu -1                                                                   2p
+
+      Ecuaia dreptei care trece prin punctul A i este perpendicular pe dreapta d este y = -x +1 3p
+
+6.                     6  4  sin  6  4  1
+
+      AABC =                      6=           2=                                                                           3p
+
+                             2              2
+
+      =6                                                                                                                    2p
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+1.a)  A(  0)    =    -1   -1          det ( A(0))  =     -1  -1    =
+                     2    -2                             2   -2
+                                                                                                                            2p
+
+      = 2 - (-2) = 4                                                                                                        3p
+
+b)    A  (1  +   m  )  +  A(1  -  m)  =  1  +  m  -1         -1       +  1  -  m        -1        -1       =    0  -2    =
+                                               2             m-  2             2                  m-            4  -2  
+                                                      1  +                                  1  -      2                     3p
+
+      =  2    0     -1    =  2 A (1)  ,  pentru   orice  numr      real  m                                                  2p
+              2     -1
+
+c)    det ( A(m)) = m -1               -1      =  m2  -  3m  +  4
+                                      m- 2
+                         2                                                                                                  2p
+
+      Pentru orice numr real m , m2 - 3m + 4  0 , deci matricea A(m) este inversabil                                        3p
+
+2.a) x  y = -3xy + 9x + 9 y - 27 + 3 =                                                                                      2p
+
+      = -3x( y - 3) + 9( y - 3) + 3 = -3( x - 3)( y - 3) + 3 , pentru orice numere reale x i y                              3p
+
+b) ( x  y)  z = (-3( x - 3)( y - 3) + 3)  z = 9( x - 3)( y - 3)( z - 3) + 3                                                 2p
+
+      x  ( y  z) = x  (-3( y - 3)( z - 3) + 3) = 9( x - 3)( y - 3)( z - 3) + 3 = ( x  y)  z , pentru orice                  3p
+
+      numere reale x , y i z , deci legea de compoziie ,,  " este asociativ
+
+Prob scris la matematic M_t-nat                                                                                             Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                           Ministerul Educaiei Naionale i Cercetrii tiinifice                2p
+                                                  Centrul Naional de Evaluare i Examinare                    3p
+                                                                                               (30 de puncte)
+c) ( x  x)  x = 9( x - 3)3 + 3                                                                               3p
+    9( x - 3)3 + 3 = 12  ( x - 3)3 = 1  x = 4
+                                                                                                             2p
+SUBIECTUL al III-lea
+                                                                                                             2p
+1.a) f ( x) = 3x2 - 3 = 3x3 - 3 =                                                                            3p
+                          xx                                                                                 1p
+     ( ) ( ) 3                                                                                               1p
+                                                                                                             1p
+    =                                                                                                        2p
+           x3 -1        3( x -1)           x2 + x +1         x (0, +)                                        3p
+                                                                                                             2p
+              x        =                   x              ,                                                  3p
+                                                                                                             2p
+( ) b) lim f ( x) = lim x3 - 3ln x = +                                                                       3p
+    x0                    x0
+    x>0                   x>0                                                                                2p
+
+    Dreapta de ecuaie x = 0 este asimptot vertical la graficul funciei f
+
+c) f ( x) = 0  x =1
+
+    x (0,1]  f ( x)  0 , deci f este descresctoare pe (0,1]
+
+    x [1,+)  f '( x)  0 , deci f este cresctoare pe [1, +)
+
+    Cum f (1) = 1 , obinem f ( x)  1 , pentru orice x (0, +)
+
+( ) ( ) 2.a)2
+        x2 + 3x + 3                       2                      x2 + 3x      2
+                                                                                =
+                          f ( x) dx =  (2x + 3) dx =
+                                                                              1
+    1                                         1
+
+    = 10 - 4 = 6
+
+( ) b)
+           3  f  (  x  )  dx   =  3    2x + 3      3  dx  =  ln  x2 + 3x + 3     3
+                                     x2 + 3x +                                     =
+    A =                           
+                                                                                 0
+           0                      0
+
+    = ln 21 - ln 3 = ln 7
+
+c)  0      ( x)     (x)              1     2  (x)  0
+                                     2                =
+        f        f        dx      =     f
+                                                   -1
+    -1
+
+    ( ) = 1 f 2 (0) - f 2 (-1) = 1 (1-1) = 02 2
+
+Prob scris la matematic M_t-nat                                                                Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

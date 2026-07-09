@@ -1,0 +1,92 @@
+                                                      Ministerul Educaiei i Cercetrii
+                                                 Centrul Naional de Evaluare i Examinare
+
+                                            Examenul de bacalaureat naional 2020
+                                                              Proba E. c)
+
+                                                 Matematic M_tehnologic
+                                                                                                                            Test 6
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                             (30 de puncte)
+
+5p 1. Calculai primul termen al unei progresii geometrice bn n1 în care b3 12 i raia q  2 .
+5p 2. Se consider funcia f :  , f  x  2x 1 . Determinai mulimea valorilor reale ale lui x
+
+    pentru care f  x  f 1 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log5  x 1  log5 11 x .
+
+5p 4. Calculai C191  C121 .
+
+5p 5. În reperul cartezian xOy se consider punctele A3,4 , B1,0 i C 5,4 . Artai c triunghiul
+
+    ABC este dreptunghic isoscel.
+
+5p 6. Artai c sin135  1 .
+                      cos 45
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+    1. Se consider matricea              A       3  2       .
+                                                 4  3
+                                               
+
+5p a) Artai c det A  1 .
+5p b) Demonstrai c A A A  A .
+
+5p c) Determinai matricea X  2   , astfel încât A X  I2  3A .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  2x  2y  6 .
+5p a) Artai c 2 2020  2 .
+
+5p b) Demonstrai c x  y   x  2 y  2  2 , pentru orice numere reale x i y .
+
+5p c) Determinai numerele naturale m i n pentru care m  n 13.
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+    1. Se consider funcia f :  , f  x  2 x 1ex .
+
+5p a) Artai c f  x  2xex , x  .
+
+5p  b) Calculai lim  f 'x             .
+
+             x0 x
+
+5p c) Demonstrai c xex  ex 1, pentru orice numr real x .
+
+    2. Se consider funcia f : 4,  , f  x  x  2 .
+
+                                                                   x4
+
+                              2
+
+5p a) Artai c  x  4 f  x dx  6 .
+
+                              0
+
+                             0
+
+5p b) Calculai  f  x dx .
+
+                             2
+
+5p  c)  Demonstrai  c           a  f  'x    f  " x dx    2          1            pentru  orice  a 3, .
+                                                                         1 ,
+                                                                 a   44
+                                                                            
+                                3
+
+Prob scris la matematic M_tehnologic                                                                    Test 6
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                 Pagina 1 din 1
+

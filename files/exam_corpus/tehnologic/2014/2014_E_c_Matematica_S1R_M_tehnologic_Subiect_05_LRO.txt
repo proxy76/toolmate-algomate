@@ -1,0 +1,92 @@
+                                                       Ministerul Educaiei Naionale
+                                                Centrul Naional de Evaluare i Examinare
+
+                                          Examenul de bacalaureat naional 2014
+                                                   Proba E. c) ­ 2 iulie 2014
+                                                  Matematic M_tehnologic
+
+                                                                                                Varianta 5
+
+    Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile
+    profesionale; profilul tehnic, toate calificrile profesionale
+
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                     (30 de puncte)
+
+5p  1.  Artai  c     -  1       2  +  3   =1.
+                  1     2             4
+
+5p 2. Determinai coordonatele punctului de intersecie a graficul funciei f :    , f ( x) = x + 4 cu
+
+    axa Oy .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 33x-1 = 9 .
+5p 4. Calculai probabilitatea ca alegând un numr din mulimea numerelor naturale de o cifr, acesta s
+
+      fie mai mic sau egal cu 3.
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,1) , B (4,1) i C (4, 4) . Artai c AB = BC .
+
+5p 6. Determinai aria triunghiului ABC dreptunghic în A tiind c AB = 6 i BC = 10 .
+
+SUBIECTUL al II-lea                                                                             (30 de puncte)
+
+    1. Se consider matricele                 =  1 2      i      =  1 0       .
+                                          A          4      I2             
+                                                  2                  0  1  
+
+5p a) Artai c det A = 0 .
+
+5p b) Artai c A A = 5A .
+
+                                                                                x y 
+5p  c) Determinai numerele reale x i y pentru care A +                                =  I2  .
+                                                                      y         -3  
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = x + y + xy .
+
+5p a) Artai c (-1) 1 = -1 .
+
+5p b) Artai c x y = ( x +1)( y +1) -1 pentru orice numere reale x i y .
+
+5p c) Rezolvai în mulimea numerelor reale ecuaia ( x +1) ( x - 3) = 4 .
+
+SUBIECTUL al III-lea                                                                            (30 de puncte)
+
+    1. Se consider funcia             f : (2, +)   ,        f (x) = x -1 .
+                                                                    x-2
+
+5p a) Artai c lim f ( x) = 2 .
+                              x3
+
+5p  b) Artai c    f  '(x)       =  -  (x  1       ,  x (2,+) .
+
+                                          - 2)2
+
+5p c) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 3 , situat pe graficul
+      funciei f .
+
+    2. Se consider funcia f :    , f (x) = x2 + 2x +1.
+
+                              1
+
+5p a) Artai c  (2x +1) dx = 2 .
+
+                              -1
+
+5p b) Determinai volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+     g :[0,1]   , g ( x) = f ( x) - 2x -1 .
+
+5p c) Demonstrai c orice primitiv a funciei f este o funcie cresctoare pe  .
+
+Prob scris la matematic M_tehnologic                                                                            Varianta 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                            Pagina 1 din 1
+

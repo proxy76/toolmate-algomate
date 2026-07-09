@@ -1,0 +1,119 @@
+                                                Ministerul Educaiei Naionale
+                                         Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2019                                                                    Simulare
+                                                           Proba E. c)
+
+                                                  Matematic M_mate-info
+                                                          Clasa a XI-a
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I ­ Scriei, pe foaia de examen, litera corespunztoare rspunsului corect. (30 de puncte)
+
+5p 1. Suma primilor trei termeni ai unei progresii aritmetice (an )n1 este egal cu 333 . Al doilea termen
+
+      al acestei progresii este egal cu:
+
+        A. 30                         B. 111                                     C. 222                                    D. 333
+
+5p  2. Se consider funcia f :    , f ( x) = 3x - 5 . Numrul ( f                                        f  )   10     este  egal     cu:
+                                                                                                              9   
+
+        A. -10                        B. - 5                                     C. 0                                      D. 10
+                                              3                                                                                9
+
+5p 3. Mulimea soluiilor ecuaiei 2log2 ( x +1) - log2 ( x + 2) = log1 3 este:
+
+                                                                                                  3
+
+        A.      3                     B.         3                               C. {0}                                    D.       3   
+            -   2  , 0                     -     2                                                                             0,   2   
+
+5p 4. Probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre, acesta s aib
+
+    cel puin o cifr par este egal cu:
+
+        A. 5                          B. 4                                       C. 5                                      D. 13
+            18                             9                                                9                                  18
+
+5p 5. În reperul cartezian xOy se consider triunghiul ale crui laturi se afl pe dreptele de ecuaii
+
+    d1 : y = -2x , d2 : y = 2x i d3 : x = 2 . Perimetrul acestui triunghi este egal cu:
+
+        ( A. 4 2 + 5)                 B. 24                                      C. 6 5                                    ( D. 4 3 + 5 )
+
+5p  6. Se consider      expresia  E(  x)   =  sin   x  -  cos  x  +    sin    x  +             -          x  +  3       ,  unde     x   este numr       real.
+                                                                                        2         cos           2    
+
+    Pentru orice numr real x , expresia E ( x) este egal cu:
+
+        A. 0                          B. 2cos x                                  C. 2sin x                                 D. 1
+
+SUBIECTUL al II-lea ­ Scriei, pe foaia de examen, rezolvrile complete.                                                                    (30 de puncte)
+
+                                                          a 2b 1
+
+    1. Se consider determinantul D (a,b) = a a b , unde a i b sunt numere reale.
+
+                                                          231
+
+5p a) Calculai D (0,1) .
+
+5p b) Artai c D (a,1)  0 , pentru orice numr real a .
+
+5p c) Demonstrai c, dac numerele m i n sunt întregi impare, atunci D (m, n)  0 .
+
+                                         1 0 0                                 x 1 -x
+                                                                                                       
+    2.  Se  consider  matricele   I3  =    0  1        0    i  A    (  x)  =    1           0     1     , unde       x     este numr real.
+                                           0  0        1                        -x          1     x
+
+5p a) Artai c A(-x) + A( x) = 2A(0) , pentru orice numr real x .
+
+5p b) Artai c det ( A( x) A( y) - A(2xy)) = 0 , pentru orice numere reale x i y .
+
+5p  c)  Determinai numrul  real       m,   tiind      c     A  (1)  A    1    +         A(  2)      1     +  ...  +  A  (  2019  )        1     =  mI3  .
+                                                                         2                      A   4                               A   4038  
+
+Prob scris la matematic M_mate-info                                                                                            Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                     Ministerul Educaiei Naionale
+                              Centrul Naional de Evaluare i Examinare
+
+SUBIECTUL al III-lea ­ Scriei, pe foaia de examen, rezolvrile complete.                              (30 de puncte)
+
+    1. Se consider funcia  f : (-2,+)   ,         f  (  x)  =  x +1                     .
+                                                               x+2
+
+5p  a) Calculai lim f ( x) .
+                        x+
+
+5p b) Se consider irul (an )n1 cu an = f (n) . Demonstrai c irul (an )n1 este mrginit.
+
+( ) 5p c) Calculai lim n f (n) -1 .
+                            n+
+
+                                                     a  +   sin  x  ,                   x (-,0)
+                                                              x
+    2. Se consider funcia  f :,      f  (  x)  =                                                     , unde a este numr real.
+                                                  
+                                                        x2 + 2x,                           x [0, +)
+
+5p a) Determinai numrul real a pentru care funcia f este continu pe  .
+5p b) Pentru a = 1 , determinai ecuaia asimptotei orizontale spre - la graficul funciei f .
+
+5p c) Demonstrai c, pentru orice numr real a , ecuaia f ( x) = a are cel puin o soluie.
+
+Prob scris la matematic M_mate-info                                                                  Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

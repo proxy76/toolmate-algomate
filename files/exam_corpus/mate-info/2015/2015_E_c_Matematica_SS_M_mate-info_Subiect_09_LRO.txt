@@ -1,0 +1,96 @@
+                                         Ministerul Educaiei i Cercetrii tiinifice
+                                         Centrul Naional de Evaluare i Examinare
+
+                                 Examenul de bacalaureat naional 2015
+
+                                                            Proba E. c)
+
+                                               Matematic M_mate-info
+
+                                                                                                                                      Varianta 9
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                        (30 de puncte)
+
+5p 1. Se consider numerele complexe z1 = 2 + 3i i z2 = 1 - 3i . Artai c numrul z1 + z2 este real.
+
+5p 2. Calculai ( f g )(1) , unde f :    , f ( x) = x -1 i g :    , g ( x) = 3x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x - 64 = 0 .
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+      acesta s fie divizibil cu 7.
+
+5p 5. În reperul cartezian xOy se consider dreapta d de ecuaie y = 4x +1 i punctul A(2,0) .
+
+      Determinai ecuaia paralelei duse prin punctul A la dreapta d .
+
+5p 6. Artai c sin ( - x)sin x - cos( - x)cos x = 1, pentru orice numr real x .
+
+SUBIECTUL al II-lea                                                                                                                (30 de puncte)
+
+                                         1 0 1                              0 x 0
+                                                     10                                           
+    1. Se consider matricele     A    =    0   1            i  B(x)      =    x            0  x     ,  unde  x  este    numr   real.
+                                           1   0                              0            x  0
+
+5p a) Artai c det A = 0 .
+
+5p b) Artai c A  B ( x) + B( x)  A = 3B ( x) , pentru orice numr real x .
+
+( ) 5p c) Determinai numerele reale x pentru care B ( x)  B ( x)  B ( x) = B x2 + x - 2 .
+
+    2. Se consider polinomul f = X 3 - 2X 2 + 2X + m , unde m este numr real.
+
+5p a) Artai c f (0) = m .
+
+5p  b) Pentru  m = -1, demonstrai          c   ( x1 + x2    +  x3  )    1   +  1           +  1     =  4  ,  unde  x1,  x2  i  x3  sunt rdcinile
+                                                                        x1     x2             x3  
+
+    polinomului f .
+
+5p c) Artai c polinomul f nu are toate rdcinile reale.
+
+SUBIECTUL al III-lea                                                                                                               (30 de puncte)
+
+    1. Se consider funcia        f :,             f  (  x)  =  x2  -  x  +1    .
+                                                               x2  +  x  +1
+
+    a) Artai c  f  '(  x)  =  2( x -1)( x +1)     ,  x .
+
+                                x2 + x +1 2
+( ) 5p
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+      funciei f .
+
+5p c) Calculai lim ( f ( x))x .
+                            x+
+    2. Se consider funcia f :    , f ( x) = e x -2x .
+
+                              1
+
+5p a) Artai c  ( f ( x) + 2x ) dx = e -1
+
+                              0
+
+5p b) Determinai primitiva F a funciei f pentru care F (1) = e - 3 .
+
+5p c) Artai c volumul corpului obinut prin rotirea în jurul axei Ox a graficului funciei
+
+    ( ) g :[0,1]   ,                                        
+                   g(x)    =  f  (x)  ,  este  egal     cu  6  3e2 -19                  .
+
+Prob scris la matematic M_mate-info                                                                                                   Varianta 9
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

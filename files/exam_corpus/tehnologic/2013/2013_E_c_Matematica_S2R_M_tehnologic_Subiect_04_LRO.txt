@@ -1,0 +1,88 @@
+                                                       Ministerul Educaiei Naionale
+                                                Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2013
+                                                          Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                                                                                                      Varianta 4
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+( ) 5p 1. Artai c 2 2 + 3 - 2 3 = 4 .
+
+5p 2. Calculai f (4) + f (-4) pentru funcia f :    , f (x) = x + 4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 72x = 49 .
+5p 4. Preul unui obiect este 1000 de lei. Determinai preul obiectului dup o scumpire cu 10%.
+
+5p 5. În reperul cartezian xOy se consider punctele A(4,3) i B (4,1) . Calculai distana de la punctul
+
+      A la punctul B .
+5p 6. Calculai sin 45° - sin135° .
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+                                         -1                 2       0      0           1  m
+    1. Se consider matricele A =                             ,  O2  =       i B =                  ,  unde  m  este numr real.
+                                                            1         0    0           m  m  +  1
+                                        2
+
+5p a) Calculai det A .
+
+5p b) Pentru m = -2 , artai c A + B = O2 .
+
+                                                                           9 7 
+5p c) Determinai numrul real m pentru care A  B =                             .
+                                                                            7 16
+
+    2. Se consider polinomul f = X 3 + 2 X 2 + X .
+
+5p a) Artai c f (-1) = 0 .
+
+5p b) Determinai câtul i restul împririi polinomului f la polinomul g = X 2 + X .
+
+5p c) Calculai x12 + x22 + x32 , tiind c x1, x2 , x3 sunt rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = x +10 - 11 .
+
+                                                                          x
+
+5p  a) Verificai dac            f  '( x)  =  x  2+   11  ,  pentru  orice  x (0, +) .
+                                                 x2
+
+5p b) Artai c funcia f este cresctoare pe intervalul (0, +) .
+
+5p c) Artai c funcia f este concav pe intervalul (0, +) .
+
+    2. Se consider funcia f :    , f ( x) = x2 + 9 .
+
+                             2
+
+5p a) Calculai  f '( x) dx .
+
+                  1
+
+5p  b)  Artai  c  2  f  ( x) dx =         3  + 9ln 2 .
+
+                   1x                     2
+
+5p c) Artai c volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+    g :[0,1]   , g ( x) = f ( x) - x2 este egal cu 81 .
+
+Prob scris la matematic M_tehnologic                                                                           Varianta 4
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+

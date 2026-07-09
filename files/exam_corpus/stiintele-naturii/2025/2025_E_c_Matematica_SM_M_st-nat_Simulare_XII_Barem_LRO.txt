@@ -1,0 +1,171 @@
+                                                    Ministerul Educaiei i Cercetrii
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2025
+
+                                                              Proba E. c)
+
+                                                         Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                     (30 de puncte)
+
+1. 2i 6  i  31 4i  12i  2i2  3 12i                                                              3p
+
+       21  3  5                                                                                 2p
+
+2. f a  a  5 ,  f f a  a 10 , pentru orice numr real a                                          3p
+
+      a 10  2a , de unde obinem a 10                                                            2p
+
+3. x2  4x  4  2x2 , de unde obinem x2  4x  4  0                                                 3p
+
+      x  2 , care convine                                                                       2p
+
+4. În mulimea numerelor naturale de o cifr sunt 10 elemente, deci sunt 10 cazuri posibile       2p
+
+      2n este divizibil cu 16 dac i numai dac n  4 , deci sunt 6 cazuri favorabile, de unde
+
+      obinem p  6  3                                                                            3p
+
+                         10 5
+
+5.    mOA       1                                                                               2p
+                3
+
+      mAB  3 , deci mOA  mAB  1, de unde obinem c triunghiul OAB este dreptunghic în A 3p
+
+6.            1,      cos        1,                   2                                         3p
+      sin                               sin
+           2                                42
+
+      E            1     2      1    2      2  2    1      2    2    2    0                     2p
+           2                                2                        4
+
+SUBIECTUL al II-lea                                                                             (30 de puncte)
+
+1.a)  A1           2        1      det  A1            2       1  2  3  1  2 
+                   2        3                         2
+                                                              3                                 3p
+
+      624                                                                                       2p
+
+b)    A    1          0     1      A  1       A  x          2x       2x 1               
+                      2     1 ,                            4x  2     4x 1
+                                                                                                3p
+
+           2x 1 1               2    2    x 1            A2x 1 , pentru orice numr real      x  2p
+           22x 1                    2 x   1      1
+         
+
+c) A1   Am  An  A2m 1  A2n 1  2Am  n 1 , pentru orice numere
+
+                                                                                                                          3p
+      reale m i n
+
+      2 Am  n 1  2A4 , de unde obinem m  n  3 i, cum m i n sunt numere naturale,                2p
+
+      cu m  n , perechile sunt 0,3 i 1, 2
+
+2.a) 1 2  1 32  2  31                                                                           3p
+
+      19  23 15                                                                                 2p
+
+Prob scris la matematic M_t-nat                                                                 Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                       Ministerul Educaiei i Cercetrii
+                                             Centrul Naional de Politici i Evaluare în Educaie
+
+b) x 0  x  30  0  3x  x 1  x , pentru orice numr real x                                                                        2p
+
+      0 x  0  3x  x  30  x 1  x , pentru orice numr real x , deci e  0 este elementul neutru al 3p
+      legii de compoziie ,, "
+  c) x 3x  x  3x 32x  3 , 2x 2x  4x  32x , pentru orice numr real x
+                                                                                                                               2p
+
+           x  3x 32x  3  4x  32x , deci x  3x 3x  3 3x 1  0 i, cum x este numr real nenul,
+                                                                                                                           3p
+      obinem x  1
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+          f ' x  ex
+1.a)                        x2  3x  3  ex 2x  3
+
+                                                                                                                               3p
+                                 x2  3x  3 2
+
+           ex
+          
+                 x2  3x  3  2x  3                  ex x2  x                                                                    2p
+                   x2  3x  3 2                     x2  3x  3 2 , x
+
+b)      lim
+        x
+                 f  x          lim    x2   ex    3     lim          ex '      '            lim    ex  3                        3p
+                                           3x                   x2  3x  3                       2x 
+                              x                       x                                   x
+
+                         ex '          lim ex                                                                                  2p
+                                      x 2
+          lim         2  x    3  '
+
+         x
+
+c) f ' x  0  x  1 sau x  0 ; pentru orice x,1 , f ' x  0, deci f este cresctoare
+   pe ,1 , pentru orice x 1,0, f ' x  0 , deci f este descresctoare pe 1,0 i, 2p
+   pentru orice x0, , f ' x  0, deci f este cresctoare pe 0,
+
+      x,0 , deci f  x  f 1 i y 0, , deci f  y  f 0 i, cum f 1  1 i
+                                                                                                                            e
+
+      f 0  1 , obinem f  x  f  y  1  1 , deci f  x  f  y  3  e , pentru orice numere 3p
+                    3                                     e3                                          3e
+
+      reale x i y , cu x  0  y
+
+  2.a)2                                   2                          2
+            f    x     3x ln    x  dx          1 dx       2x2  x                                                               3p
+                                           4x
+                                                                     1
+      1                                   1
+
+       8  2  2 1  7                                                                                                            2p
+
+b)    e  f     x  4x 1                 e             e                                  e       e
+                                                                                           3x   1
+                             dx         3 ln  xdx     3x'ln xdx       3x ln   x                                                3p
+                   x                                                                    1
+      1                                1             1
+
+       3e  3e  3  3                                                                                                            2p
+
+c)    4  f x1                   4   4x  3x ln x        4   4     ln  x  ' dx      4       1 dx     4ln ln x  4          4
+                                       x2 ln x            ln x                            x                     3ln       
+         x2 ln x dx                              dx                            3                                     x         3p
+                                                                                                             2          2
+      2                         2                      2                          2
+
+       7ln 2, deci aln2  7ln2, de unde obinem a  7                                                                             2p
+
+Prob scris la matematic M_t-nat                                                                                                Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

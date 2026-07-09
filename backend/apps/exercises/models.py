@@ -10,7 +10,7 @@ class ExerciseSession(models.Model):
         on_delete=models.CASCADE,
         related_name="exercise_sessions",
     )
-    profile = models.CharField(max_length=4)
+    profile = models.CharField(max_length=32)
     topics = models.JSONField(default=list)
     difficulty = models.PositiveSmallIntegerField()
     seed = models.CharField(max_length=64)

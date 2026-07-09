@@ -1,0 +1,158 @@
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul naional de bacalaureat 2024
+                                                       Proba E. c)
+
+                                                Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                     (30 de puncte)
+
+1. z1  iz2  3  i  i 1  i  3  i  i  i2                                                                                                         3p
+
+       3  1  2                                                                                                                                2p
+
+2. f a  5  a , g a 1  a  3                                                                                                                    2p
+
+      5  a  a  3 , de unde obinem a  1                                                                                                        3p
+
+3. 4x  x2  3 , de unde obinem x2  4x  3  0                                                                                                    3p
+
+      x  1 sau x  3 , care convin                                                                                                             2p
+
+4. Cifra unitilor se poate alege în 4 moduri                                                                                                  2p
+
+      Pentru fiecare alegere a cifrei unitilor, cifra zecilor se poate alege în câte 3 moduri, deci se                                        3p
+      pot forma 4  3  12 numere
+
+5. C 4,0                                                                                                                                      2p
+
+      AC  42  32  5                                                                                                                           3p
+
+6. AC  4                                                                                                                                      2p
+
+      AB  4      3 , deci AABC  4         34 8      3                                                                                         3p
+                                          2
+
+SUBIECTUL al II-lea                                                                                                             (30 de puncte)
+
+1.a)  A0         0     3       det   A0     0     3      0  2         3                       1 
+                 1     2                    1     2
+                                                                                                                                              3p
+
+      033                                                                                                                                     2p
+
+b)    A  2       2     3     A5        5  12      A  2     A    0    A5                           3  12         5   12       8  0      8I
+                 1     4 ,             4  13 ,                                                    4  5          4   13       0  8  
+                                                                                                                                           2  3p
+
+      8I2  mI2 , de unde obinem m  8                                                                                                          2p
+
+c)    A 1   x       1     x   3x          A  x      A  0     A1      x                        4x     6x         de  unde        obinem
+                       x     1 3x  ,                                                          2x      0  ,
+                                                                                                                                              3p
+
+      det  A x  A0  A1 x 12x2 , pentru orice numr real x
+
+      12x2  3 , de unde obinem x   1 sau x  1                                                                                                 2p
+                                             2               2
+
+2.a) 1 8  1 8 1  18 1                                                                                                                         3p
+
+       10  3  7                                                                                                                               2p
+
+b) x 3  x  3 1, pentru orice x  M                                                                                                             3p
+         x          x
+
+      x  3 1  x , de unde obinem x  3 , care convine                                                                                          2p
+         x
+
+Prob scris la matematic M_t-nat                                                                                                            Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                  Ministerul Educaiei
+
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+c) n n  2  n  2 , n n  2 n  4  n  4 , pentru orice numr natural nenul n                                                                         3p
+
+      n  4  n2 i, cum n este numr natural nenul, obinem n  1 sau n  2 sau n  3                                                                  2p
+                 2
+
+SUBIECTUL al III-lea                                                                                                                  (30 de puncte)
+
+    1.a) f ' x  3x2  4x ex  x3  2x2 ex                                                                                                          3p
+
+           x3  5x2  4x ex  x x2  5x  4 ex , x                                                                                                   2p
+
+b) f 0  0 , f '0  0                                                                                                                             2p
+
+      Ecuaia tangentei este y  f 0  f '0 x  0 , adic y  0                                                                                       3p
+
+c) f ' x  0  x  4 sau x  1 sau x  0 ; pentru x 4, 1  f ' x  0 , deci f este
+
+      cresctoare pe 4, 1 i pentru x 1,0  f ' x  0 , deci f este descresctoare pe 2p
+
+       1, 0
+
+      f  4             32    ,      f 1  1              i      f 0  0 ,          deci         32         f    x    1,    de     unde    obinem
+                       e4                                                                      e4                  e
+                                              e                                                                                                 3p
+
+          32     x2 x  2                 e  1     ,  pentru  orice    x 4,0
+         ex4
+                                            x1
+
+2.a)  2       x           2              2              x3   2
+                                                             1
+      1    f           x     1    dx      3x2dx                                                                                                 3p
+
+                                         1
+
+      81 7                                                                                                                                      2p
+
+  b)  5                x              5     2             5    x   1  '                       1  5
+           3x2      f           dx                dx           x         dx     2  ln    x       1                                              3p
+                                         x     1        2         1
+
+      1                               1                   1
+
+       2 ln 6  2 ln 2  2 ln 3                                                                                                                   2p
+
+c)    4             x           ' x dx      4        '  x  dx     4        x     '  x                    x    4    bg2  x  4
+                                                                                                              1            1
+           a    bg         g                    ag                 bg         g          dx    ag                     2       
+
+      1                                     1                     1                                                                             3p
+
+         a g 4  g 1  b g2 4  g2 1 , pentru orice numere reale a i b2
+
+      g 1  f 0  2 ,                   g 4  f 1  2 , deci                   4    a    bg     x    g  '    x    dx   4a ,  pentru  orice  numere  2p
+
+                                                                           
+
+                                                                           1
+
+      reale a i b
+
+Prob scris la matematic M_t-nat                                                                                                         Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

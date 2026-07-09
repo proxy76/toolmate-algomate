@@ -1,0 +1,81 @@
+                                      Ministerul Educaiei Naionale
+                               Centrul Naional de Evaluare i Examinare
+
+                               Examenul de bacalaureat naional 2019
+                                                 Proba E. c)
+
+                               Matematic M_pedagogic
+
+                                                                                                         Varianta 6
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                          (30 de puncte)
+
+5p 1. Calculai suma primilor trei termeni ai progresiei geometrice cu termeni pozitivi (bn )n1, tiind c
+
+      b1 = 2 i b3 = 8 .
+
+5p 2. Determinai numrul real m , tiind c punctul A(m, 2m) aparine graficului funciei f :    ,
+
+    f (x) = 5x - 6 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 -10x + 25 = 5 .
+5p 4. Dup o ieftinire cu 10% , urmat de o scumpire cu 10 lei, preul unui obiect este 190 de lei.
+
+      Determinai preul iniial al obiectului.
+
+5p 5. În reperul cartezian xOy se consider punctele A(4, 4) i B (6,0) . Determinai, în triunghiul
+
+      AOB , ecuaia medianei din vârful A .
+5p 6. Artai c 2sin 30° - sin 90° = 0 .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie x y = 2( xy + x + y) +1.
+
+5p 1. Artai c (-1) 1 = -1 .
+
+5p 2. Artai c legea de compoziie ,, " este comutativ.
+
+5p 3. Demonstrai c x y = 2( x +1)( y +1) -1, pentru orice numere reale x i y .
+
+5p 4. Demonstrai c e = - 1 este elementul neutru al legii de compoziie ,, ".
+                                   2
+
+5p 5. Determinai numerele reale x pentru care ( x -1) ( x + 2) = -5 .
+
+5p 6. Determinai numerele naturale nenule n pentru care n (n -1)  11.
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+                               1 1           3 1
+    Se consider matricele A =   i B =   .
+                               2 0           2 2
+
+5p 1. Artai c det A = -2 .
+
+5p 2. Calculai det ( A + B) .
+
+5p 3. Artai c A  A = B .
+
+                                                                               5 3
+5p 4. Determinai numerele reale a i b pentru care aA + bB =   .
+
+                                                                               6 2
+
+5p 5. Artai c, dac X  M2 () astfel încât X + A = B , atunci matricea X este inversabil.
+
+5p  6. Determinai valorile reale ale lui  a  pentru care  det ( A + B - aI2 )  0 , unde  I2  =    1  0
+                                                                                                      .
+                                                                                                0
+                                                                                                     1
+
+Prob scris la matematic M_pedagogic                                                                      Varianta 6
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

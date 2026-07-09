@@ -24,7 +24,7 @@ def _l(expr) -> str:
 
 class AlgebraicStructuresProblem(ProblemGenerator):
     TOPIC_CODE = "algebraic_structures"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def __init__(self, profile, rng, *, six_items: bool = False):
         super().__init__(profile, rng)
@@ -46,12 +46,12 @@ class AlgebraicStructuresProblem(ProblemGenerator):
         the isomorphism cerință M1 leans on.
         """
         rng = self.rng
-        c = rng.choice([1, 2, 3, -1])
+        c = rng.choice([1, 2, 3, 4, 5, -1, -2])
         fams = [
             (lambda u, v, c=c: (u - c) * (v - c) + c, c + 1, c, "mult"),
             (lambda u, v, c=c: u + v - c, c, c, "add"),
         ]
-        if self.profile == "M3":
+        if self.profile == "pedagogic":
             # M3: keep the additive law (simplest to verify by hand, §5.4).
             return fams[1]
         return rng.choice(fams)
@@ -60,15 +60,15 @@ class AlgebraicStructuresProblem(ProblemGenerator):
         f, e, c, kind = self._law_family()
         rng = self.rng
         # y0 distinct from the neutral to avoid a degenerate equation in cerinte.
-        y_choices = [v for v in [0, 1, 2, 3] if v != e] or [e + 1]
+        y_choices = [v for v in [-1, 0, 1, 2, 3, 4] if v != e] or [e + 1]
         ctx = {
             "f": f,
             "e": e,
             "c": c,
             "kind": kind,
-            "x0": rng.choice([0, 1, 2, 3]),
+            "x0": rng.choice([0, 1, 2, 3, 4]),
             "y0": rng.choice(y_choices),
-            "target": rng.choice([e + 1, e + 2, e - 2]),
+            "target": rng.choice([e + 1, e + 2, e - 2, e + 3, e - 1]),
         }
         ctx["plan"] = self._pick_plan()   # decide a/b/c once (label consistency)
         return ctx
@@ -211,7 +211,7 @@ class AlgebraicStructuresProblem(ProblemGenerator):
             return [self._c_value, self._c_equation, self._c_commutativity,
                     self._c_neutral, self._c_eq_with_value, self._c_symmetric]
         rng = self.rng
-        if self.profile == "M1":
+        if self.profile == "mate-info":
             # M1 (mate-info) reaches the harder proofs: associativity + morphism.
             t1 = [(self._c_value, "value"), (self._c_commutativity, "prove")]
             t2 = [(self._c_neutral, "neutral"), (self._c_associativity, "assoc"),

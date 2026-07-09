@@ -1,0 +1,163 @@
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                                Examenul naional de bacalaureat 2022
+                                                                  Proba E. c)
+
+                                                        Matematic M_tehnologic
+
+                                             BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                           Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                (30 de puncte)
+
+1. r = a4 - a3 = 3 , unde r este raia progresiei aritmetice (an )n1                                                      2p
+                                                                                                                         3p
+      a3 = a1 + 2r  a1 = 6 - 2  3 = 0                                                                                    3p
+                                                                                                                         2p
+2. f (a) = g (a)  a2 + 2a - 3 = a - 3  a2 + a = 0                                                                        3p
+                                                                                                                         2p
+     a = -1 sau a = 0
+                                                                                                                         3p
+3. x + 3 = 32  x + 3 = 9
+     x = 6 , care convine                                                                                                2p
+                                                                                                                         2p
+4. 30  x = 60 , unde x este preul înainte de scumpire, deci x = 200 de lei                                               3p
+     100                                                                                                                 3p
+     Dup scumpire, preul produsului este 200 + 60 = 260 de lei
+                                                                                                                         2p
+5. M (-1, 2) , unde M este mijlocul segmentului AB
+    2 = 2  (-1) + a , de unde obinem a = 4
+
+6. Triunghiul ABC este dreptunghic isoscel, de unde obinem AB = AC = 6 2
+
+      AABC     =     AB  AC     =      6     2 6     2 = 36
+                        2                     2
+
+SUBIECTUL al II-lea                                                                                        (30 de puncte)
+
+1.a)  A(0)  =     0    0        det       (  A(0))   =  0  0=
+                  1    1                                1  1
+                                                                                                                             3p
+
+      = 0 1- 0 1 = 0                                                                                                         2p
+
+b)    2  A(4)  +  A(   -2)  =        4       4    +    -2  -2    =     6  6      =
+                                2    1       9         1   -3          3  15  
+                                                                                                                             3p
+
+      =     2     2    =  3A(   2)  ,  de    unde    obinem      a  =  3                                                     2p
+         3  1     5  
+
+c)                                                                        3         -  1  
+                                                                                       2  
+      A(1)  =  1       1        det    (  A(1))   =  2  i  ( A(1))-1      =   2                                              2p
+               1       3
+                                                                              -  1  1     
+                                                                                 2  2
+
+      A(  m)   =    m       m             i, cum        X  = A(m)  ( A(1))-1 , obinem       X  =      m    0                 3p
+                    1     2m +1                                                                     -m +1  m  , unde m este
+
+      numr întreg, deci matricea X are toate elementele numere întregi
+
+2.a) 2 1 = (2 +1)(2 -1)(1 -1) + 1 =                                                                                          3p
+
+      = 310 +1 =1                                                                                                            2p
+
+Prob scris la matematic M_tehnologic                                                                                         Simulare
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                    Pagina 1 din 2
+                                                                    Ministerul Educaiei
+                                                  Centrul Naional de Politici i Evaluare în Educaie
+
+b) x  y = ( x + y)( x -1)( y -1) + 1 =                                                                                                          2p
+
+      = ( y + x)( y -1)( x -1) + 1 = y  x , pentru orice numere reale x i y , deci legea de                                                     3p
+
+      compoziie ,, " este comutativ
+
+c) n  (1- n) = -n2 + n +1 , pentru orice numr natural n                                                                                         2p
+
+      -n2 + n +1  n2  2n2 - n -1  0 i, cum n este numr natural, obinem n = 0 sau n = 1                                                          3p
+
+SUBIECTUL al III-lea                                                                                                                 (30 de puncte)
+
+1.a)     (x)    =     x2  -  (x +    3)    2x  +    1  =
+                                                    x
+      f                        x4                                                                                                               3p
+
+      =  -x - 6 + 1          =   x2  -x    -  6  ,  x (0, +)                                                                                    2p
+           x3 x                      x3
+
+b) f (1) = 4 , f (1) = -6                                                                                                                       2p
+
+      Ecuaia tangentei este y - f (1) = f '(1)( x -1) , adic y = -6x + 10                                                                       3p
+
+c) f '( x) = 0  x = 3 ; f '( x)  0 , pentru orice x (0,3]  f este descresctoare pe (0,3],
+
+      f '( x)  0 , pentru orice x [3, +)  f este cresctoare pe [3, +) , deci f ( x)  f (3) , 3p
+      pentru orice x (0, +)
+
+      x+   3    +  ln  x     2   + ln 3  ln x             2-   x+   3     ln  x     2   -1    -  3   , pentru orice     x (0, +)                2p
+       x2                    3                3           3     x2            3     3     x      x2
+
+2.a)  2      ( x) -    ex            =  2     +1) dx      =    x2  +      2  =
+                       2      dx                               2      x   0
+      0   f                             (x                                                                                                      3p
+
+                                        0
+
+      = 22 + 2 = 4                                                                                                                              2p
+          2
+
+( ) b)1      (     (  x)     1)         1                    dx = 2x3     1 + ( x -1)ex 1 =
+         2x     f         -      dx  =     2x2 + xex                3                                                                           3p
+                                        
+                                                                          0                   0
+      0                                 0
+
+      = 2 +1= 5                                                                                                                                 2p
+         33
+
+c)              f '(x) =1+ ex           =  f (x) - x ,         x   , obinem         0   (     (x)- x)     ( x) dx =  0      '(x)     ( x) dx =
+
+      Cum                     2                                                            f           f                 f        f
+
+                                                                                    -1                               -1                         3p
+
+      = f 2 ( x) 0 = 9e2 -1
+              2 -1 8e2
+
+      9e2 -1 =         (3e +1)(3e + a)           ,  de   unde  obinem         a  =  -1                                                          2p
+       8e2
+                             8e2
+
+Prob scris la matematic M_tehnologic                                                                                                            Simulare
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                       Pagina 2 din 2
+

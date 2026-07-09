@@ -1,0 +1,69 @@
+                                              Ministerul Educaiei i Cercetrii tiinifice
+                                               Centrul Naional de Evaluare i Examinare
+
+                                          Examenul de bacalaureat naional 2015
+                                                            Proba E. c)
+
+                                                   Matematic M_pedagogic
+                                                           Clasa a XI-a
+
+                                                                                          Simulare
+
+    Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                               (30 de puncte)
+
+5p  1.  Calculai  2-2    3  -    1  0  .
+                                 4  
+
+5p 2. Calculai f (-2) + f (-1) + f (0) + f (1) + f (2) , unde f :    , f ( x) = -4x +1 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 x2 - 5x + 3 = -1 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea {1, 2,..., 25} , acesta s fie numr par.
+5p 5. Determinai numrul real a , tiind c dreptele d1 : 3x + (a + 5) y - 4 = 0 i d2 : 3x + 2 y - 5 = 0 sunt
+
+      paralele.
+5p 6. Calculai aria unui ptrat, tiind c lungimea uneia dintre diagonale este egal cu 6dm .
+
+SUBIECTUL al II-lea                                                                       (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = xy - 3x - 3y +12 .
+
+5p 1. Calculai 0  2 .
+
+5p 2. Artai c x  y = ( x - 3)( y - 3) + 3 , pentru orice numere reale x i y .
+
+5p 3. Verificai dac e = 4 este element neutru al legii de compoziie ,," .
+
+5p 4. Rezolvai în mulimea numerelor reale ecuaia (2x)  x = 3 .
+5p 5. Artai c x  (-x)  12 , pentru orice numr real x .
+
+5p 6. Artai c dac x i y sunt numere întregi, multipli de 3, atunci numrul x  y este întreg,
+
+      multiplu de 3.
+
+SUBIECTUL al III-lea                                                                      (30 de puncte)
+
+    { } Se consider 8 = 0, 1, 2, 3, 4, 5, 6, 7 , mulimea claselor de resturi modulo 8.
+
+5p 1. Calculai 1  2 3 4  5 în 8 .
+
+( ) 5p 2. Artai c 4  3 + 5 = 4  3 + 4  5 în 8 .
+
+5p 3. Rezolvai în 8 ecuaia 2x + 2^ = 0^ .
+
+5p 4. Determinai simetricul elementului 3 în raport cu operaia de înmulire din 8 .
+
+{ } 5p 5. Determinai mulimea A = x  8 x3 = x .
+
+5p  6. Rezolvai în  8       sistemul      2x + y = 5 .
+                                          3x + 7 y = 1
+
+Prob scris la matematic M_pedagogic                                                      Simulare pentru clasa a XI-a
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

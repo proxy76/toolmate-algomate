@@ -1,0 +1,171 @@
+                                                             Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                         Examenul naional de bacalaureat 2021
+                                                           Proba E. c)
+
+                                                  Matematic M_tehnologic
+
+                                       BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                     Testul 8
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                  (30 de puncte)
+
+1. 2  0,3 + 3, 2 : 4 = 2  3 + 32  1 =                                                                                       3p
+    3                              3 10 10 4
+
+    = 1 + 4 =1                                                                                                              2p
+       55
+
+2. f (a) = 2a  6 - 4a = 2a                                                                                                  3p
+
+    a =1                                                                                                                    2p
+
+3. x2 - 2x +16 =16  x2 - 2x = 0                                                                                             2p
+
+    x = 0 sau x = 2 , care convin                                                                                           3p
+
+4. Mulimea A are 9 elemente, deci sunt 9 cazuri posibile                                                                    2p
+
+    Numerele n din mulimea A pentru care (n - 2)(n - 6)  0 sunt 1, 2 , 6 , 7 , 8 i 9 , deci sunt 2p
+
+    6 cazuri favorabile
+
+    p= nr. cazuri favorabile= 6= 2                                                                                          1p
+          nr. cazuri posibile 9 3
+
+5. M (-3, 4)                                                                                                                2p
+
+    OA = 5 , OM = 5 , deci triunghiul OAM este isoscel                                                                      3p
+
+6. Triunghiul ABC este dreptunghic în B , deci AB  BC = 2 , i, cum AB = BC , obinem AB = 2 3p
+                                                                  2
+
+    PAB= CD 4= AB 8                                                                                                         2p
+
+SUBIECTUL al II-lea                                                                                          (30 de puncte)
+
+1.a) det A = -3 2 =-3 4 - 2  (-6) =                                                                                         3p
+
+                  -6 4
+
+    =-12 +12 =0                                                                                                             2p
+
+b) det ( B ( x)) = x2 - 4x +14 , pentru orice numr real x                                                                   2p
+
+    Cum det ( B (7) - A) =10 0 = -10 , obinem x2 - 4x + 4 =0 , deci x = 2                                                   3p
+
+                                -1 -1
+
+c)  xA  =    -3x    24= xx  , A  B ( x)       -3x -14         2x  -   14    = xA - A  B ( x)   14   14    ,  pentru  orice
+             -6x                                              4x  -   28                            28  
+                                               -6  x  -  28                                     28                          3p
+                                                                                              
+
+    numr real x
+
+     14    14    =  14C         ,  de  unde  obinem   C  =    1  1                                                          2p
+                                                              2     
+      28   28                                                    2  
+
+2.a) 13 = 613- 61- 63+ 7 =                                                                                                  3p
+
+    = 18- 6 -18+ 7 = 1                                                                                                      2p
+
+Prob scris la matematic M_tehnologic                                                                                        Testul 8
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                             Pagina 1 din 2
+                                                                          Ministerul Educaiei
+                                                        Centrul Naional de Politici i Evaluare în Educaie
+
+b) x  7 = 6x  7 - 6x - 6  7 + 7 = 7x - 6x - 7 + 7 = x , pentru orice numr real x                                                                        2p
+               6              6                      6
+
+         7  x = 6  7  x - 6  7 - 6x + 7 = 7x - 7 - 6x + 7 = x , pentru orice numr real x , deci e = 7 este                                              3p
+         6                 6                 6                                                                                                 6
+
+      elementul neutru al legii de compoziie ,,"
+
+c)       m         -  m    =-m2            -m+7,        pentru      orice  numr      întreg  m                                                          2p
+         2            3  
+
+         -m2 - m + 7  1  m2 + m - 6  0 , de unde obinem m [-3, 2] , deci suma numerelor întregi                                                         3p
+
+      care verific inegalitatea este egal cu -3 + (-2) + (-1) + 0 +1+ 2 =-3
+
+SUBIECTUL al III-lea                                                                                                                         (30 de puncte)
+
+1.a)     f '( x)=       3x2   -     3     +   0=                                                                                                        3p
+                                    x2
+
+( ) ( )( ) =
+            3 x4 -1              3 x2 -1                x2 +1 , x (0, +)                                                                                2p
+            =
+                   x2                           x2
+
+b) f '( x) = 0  x =1                                                                                                                                    2p
+
+         f '( x)  0 , pentru orice x (0,1]  f este descresctoare pe (0,1] , f '( x)  0 , pentru orice                                                   3p
+
+         x [1, +)  f este cresctoare pe x [1, +)
+
+c)       f ''( x=)      6x +     6     ,   x (0,+)                                                                                                      2p
+                                 x3
+
+         f ''( x)  0 , pentru orice x (0, +) , deci funcia f este convex                                                                                3p
+
+2.a) 2                                     2                 2
+
+          ( x +1) f ( x) dx =  2xdx = x2 =                                                                                                              3p
+                                                             0
+         0                                 0
+
+         =4-0=4                                                                                                                                         2p
+
+b)       3 2 dx=             3      (  x +1)                         3
+
+         1 x +1            2           x +1       dx=   2ln ( x +1) =                                                                                   3p
+
+                             1                                       1
+
+         = 2ln 4 - 2ln 2 = 2ln 2                                                                                                                        2p
+
+c) 1                                            1                   1                        1                                                 1
+
+                                               2     4x2               2  x2 -1+
+                                              -1     x2 -1                 x2 -1
+             2                                               dx  =  4             1  dx  =     2  1+    1    dx  =  4    x  +  1  ln  1-  x     2    =  3p
+                                                                                                      x2 -1                    2      1+  x    -1
+            f (x) f (-x) dx =                                         -1                    4
+
+         -1                                                                                   -1
+            2                                     2                 2                        2                                                    2
+
+      =     4     1  +  1  ln    1  +   1  -    1  ln   3 =  4(1- ln 3)                                                                                 2p
+                  2     2        3      2       2
+
+Prob scris la matematic M_tehnologic                                                                                                                    Testul 8
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                           Pagina 2 din 2
+

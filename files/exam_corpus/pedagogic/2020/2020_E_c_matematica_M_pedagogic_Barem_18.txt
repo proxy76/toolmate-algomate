@@ -1,0 +1,139 @@
+                                          Ministerul Educaiei i Cercetrii
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                   Examenul de bacalaureat naional 2020
+                                                     Proba E. c)
+
+                                           Matematic M_pedagogic
+
+                                BAREM DE EVALUARE I DE NOTARE
+
+                                                                                        Test 18
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+    1.       2                  2
+22        2       22         2
+                                    22  2  22  2  24  20                                3p
+
+     4                    5             4  5 45
+
+ 64  2                                                                                  2p
+
+2. f 3x 1  f  x  23x 1  3  2x  3  4x  2  0                                              2p
+
+x      1  ,  deci  x      ,        1                                                    3p
+       2                           2  
+
+3. x2  3x  2  x2  3x  2  0                                                              3p
+
+x  1 sau x  2 , care convin                                                             2p
+
+4. p  20  p  28 , unde p este preul obiectului înainte de ieftinire                     3p
+     100
+
+p  35 de lei                                                                            2p
+
+5. Panta dreptei paralele cu dreapta d este egal cu 2                                   2p
+
+Ecuaia paralelei duse prin punctul A la dreapta d este y  2x  2                         3p
+
+6. Înlimea triunghiului este egal cu 4                                                  3p
+
+   ABC       48     16                                                                  2p
+              2
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1. 2020  2020  62020  62020  620202020                                                  3p
+
+ 60  1                                                                                  2p
+
+2. x  y  6x  6y  6y  6x                                                                 3p
+
+ y  x , pentru orice numere reale x i y , deci legea de compoziie ,,  " este comutativ  2p
+
+3. x x  6x  6x  6xx                                                                     3p
+
+ 60  1 , pentru orice numr real x                                                       2p
+
+4. 6x  6x  36  6xx  62  2x  2                                                           3p
+
+x 1                                                                                     2p
+
+5. 6 x66 x  6x  60  6x                                                                  3p
+
+x0                                                                                      2p
+
+6. p  q  6 p  6q  6 pq                                                                  2p
+
+De exemplu, pentru p  2   i q   2   , avem p  q  6 2  2  60  1                          3p
+
+Prob scris la matematic M_pedagogic                                                     Test 18
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                  Ministerul Educaiei i Cercetrii
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+1.           2         1  2  2 1 1 
+    det A 
+              12                                                                                                                 3p
+
+     415                                                                                                                         2p
+
+2.             3 4                       8 4                      5 0
+    A    A                ,      4A                     ,  5I2  
+                4      3                    4     8                 0    5                                                       3p
+                                                                            
+
+                                  3  8  5 4  4  0  0 0
+    A    A    4A       5I2                                                            O2                                         2p
+                                   4    4      0     385                 0    0  
+
+3.  M    1       3     1      ,  M      1           1      1
+                 1                                  1      1
+                       3                                                                                                         2p
+                            
+
+    M    1    M     1            2      4                                                                                        3p
+                                 4          
+                                        2   
+
+4. M a 1  M a  1  a 1 A  I2  a  1 A  I2                                                                                          2p
+
+     2aA  2I2  2aA  I2   2M a  , pentru orice numr real a                                                                        3p
+
+5.                                                             a2 A2                        3a2  4a 1    4a2  2a 
+                                                                                                                       , pentru
+    M    a    M    a         aA         I2  aA        I2                 2aA        I2      4a2  2a                              2p
+                                                                                                        3a2  4a 1
+
+    orice numr real a
+
+    M    0      I2  ,  deci       3a2  4a 1                4a2  2a   1                0    ,  de  unde  obinem     
+                                  4a2  2a                              1              1                         a    0           3p
+                                                        3a2                      0       
+                                                                 4a  
+
+6. det M a  2a 1 a  2a 12  a2 , pentru orice numr real a                                                                         2p
+                              a 2a 1
+
+    Cum 2a 12  a2  0 , obinem det M a  0 , pentru orice numr real a                                                              3p
+
+Prob scris la matematic M_pedagogic                                                                                              Test 18
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

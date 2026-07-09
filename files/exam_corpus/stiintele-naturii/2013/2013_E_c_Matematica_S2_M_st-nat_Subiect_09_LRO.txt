@@ -1,0 +1,78 @@
+                                                            Ministerul Educaiei Naionale              Varianta 9
+                                                     Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2013
+                                                         Proba E. c)
+
+                                                   Matematic M_t-nat
+
+    Filiera teoretic, profilul real, specializarea tiine ale naturii
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                           (30 de puncte)
+
+5p 1. Artai c numrul a = 3(2 + 5i) - 5(1+ 3i) este real.
+
+5p 2. Determinai coordonatele punctului de intersecie cu axa Ox a graficului funciei f :    ,
+
+     f ( x) = x2 +10x + 25 .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log5 x2 + x + 1 = log5 (x + 2) .
+
+5p 4. Dup o ieftinire cu 10% preul unui produs este 90 de lei. Calculai preul produsului înainte de
+      ieftinire.
+
+5p 5. În reperul cartezian xOy se consider dreapta h de ecuaie y = x -1 i punctul A(2, 2) .
+
+      Determinai ecuaia dreptei d care trece prin A i este paralel cu h .
+5p 6. Calculai cosinusul unghiului A al triunghiului ABC în care AB = 5 , AC = 6 i BC = 7 .
+
+SUBIECTUL al II-lea                                                                                   (30 de puncte)
+
+                                                                                     1 1 0
+                                                                                                 
+    1. Pentru fiecare numr real                  x  se consider matricea  A(  x)  =    x  1   1    .
+                                                                                       1  -1  1
+
+5p a) Artai c A(2) + A(6) = 2A(4) .
+
+5p b) Determinai numrul real x pentru care det ( A( x)) = 0 .
+
+5p c) Determinai inversa matricei A(2) .
+
+      2. Se consider x1, x2 i x3 rdcinile complexe ale polinomului f = X 3 + X 2 + mX + m , unde m
+      este un numr real.
+5p a) Artai c f este divizibil cu X +1 , pentru orice numr real m .
+
+5p b) Determinai numrul real m pentru care x12 + x22 + x32 = 11.
+5p c) Determinai valorile reale ale lui m tiind c x1 = x2 = x3 .
+
+SUBIECTUL al III-lea                                                                                  (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f (x) = x - ln x .
+
+5p a) Calculai f '( x) , x (0, +) .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 1 , situat pe graficul
+      funciei f .
+
+5p c) Demonstrai c x  ln x +1, pentru orice x (0, +) .
+
+    2. Se consider funcia f :    , f ( x) = x(x +1)(x -1) .
+
+5p                        3     f ( x) dx = 7 .
+                           2 x(x -1) 2
+    a) Artai c 
+
+5p b) Determinai primitiva F :    a funciei f tiind c F (1) = -1 .
+
+5p  c)  Artai  c  e          f  ( x)ln x  dx  =  e2  - 2ln 2 +1.
+                                                 4
+                                x2 -1
+
+                  2
+
+Prob scris la matematic M_t-nat                                                                       Varianta 9
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+

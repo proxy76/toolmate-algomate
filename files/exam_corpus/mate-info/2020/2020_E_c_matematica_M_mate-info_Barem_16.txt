@@ -1,0 +1,201 @@
+                                                  Ministerul Educaiei i Cercetrii
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul de bacalaureat naional 2020
+                                                            Proba E. c)
+
+                                                   Matematic M_mate-info
+                                        BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                         Test 16
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                     (30 de puncte)
+
+1. 3   5  2 i 2  7  3 , deci A  2, 1,0,1, 2                                                                                                 3p
+
+      Mulimea A are 5 elemente                                                                                                              2p
+
+2. Parabolele asociate celor dou funcii au acelai vârf, deci 2  2b i 4a  4  4b2  4                                                          3p
+                                                                                          2 2                   4            4
+
+      b  1, deci a  3                                                                                                                       2p
+
+  3. 1 x 1 x  3 3 1 x  3 1 x 3 1 x  3 1 x  8 i, cum 3 1 x  3 1 x  2 , obinem
+                                                                                                                         3p
+     2631 x 31 x 8
+
+      3 1 x1 x  1 , deci x  0 , care convine                                                                                                2p
+
+4. Numrul de submulimi cu 2 elemente ale unei mulimi cu n elemente, n  2 , este egal cu
+
+      Cn2     nn 1                                                                                                                          2p
+
+                 2
+
+      nn 1  12  n2  n  24  0 , care nu are nicio soluie numr natural                                                                        3p
+           2
+
+5.    mAH     3     i  mBC           1    mAH          mBC    1, deci       AH     BC                                                       2p
+                                     3
+
+      mBH        1  i     mAC  2  mBH  mAC  1 ,                         deci    BH  AC             i,   cum     AH  BH  H ,                 3p
+                 2
+
+      obinem c H este ortocentrul triunghiului ABC
+
+     6. 2 cos2 x  sin2 x cos2 x  sin2 x  1, deci 2 2cos2 x 1  1                                                                             3p
+
+      cos2 x  1        i, cum     x       0,       ,  obinem    cos x  1                                                                    2p
+                4                             2                          2
+
+SUBIECTUL al II-lea                                                                                                             (30 de puncte)
+
+1.a)             321
+
+      det A  6 4 2  36  36  36  36  36  36                                                                                                  3p
+
+                 963
+
+       108 108  0                                                                                                                           2p
+
+b)               30 20 10
+
+      A A  60          40     20     10   A        I3    1   A    B    I3    A    1    A    1   A    A    I3    10  A    10  A    I3        3p
+             90        60     30                         11                       11        11                  11       11
+
+      B      I3    1   A      I3   1 A        A 1 A A             I3    10   A    10   A    I3  ,  deci   matricea     I3    1    A   este  2p
+                   11               11            11                    11        11                                         11
+
+      inversa matricei B
+
+Prob scris la matematic M_mate-info                                                                                                         Test 16
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 3
+                                            Ministerul Educaiei i Cercetrii
+                                  Centrul Naional de Politici i Evaluare în Educaie
+
+c)                        4 2 1                          0 0 0                          0 0 0
+
+    Considerm       U        0    0    0     ,  V           6     5     2     i    T      0  0     0    ,  pentru     care  rang U     1,  3p
+                                                                                                      
+                           0 0 0                          0 0 0                          9 6 4 
+
+    rang V  1 i rang T  1
+
+                          4 2 1                             4 2 1
+                                                                              
+    Cum   U    V    T        6    5     2       i     B        6     5     2    ,  obinem       c  matricele        U,V, T          3      2p
+
+                           9 6 4                             9 6 4 
+
+    au rangul 1 i U  V  T  B
+
+2.a) 1 1  1 1 3 1  31 a  a 1                                                                                                               3p
+
+    a 1 0  a 1                                                                                                                             2p
+
+b) Exist e  astfel încât x e  e  x  x , pentru orice numr real x  xe  3x  3e  a  x ,                                                       2p
+     pentru orice numr real x
+
+    x e  4  3e  a  0 , pentru orice numr real x  e  4 i a  12                                                                              3p
+
+c) x  y  xy  3x  3y  9  a  9   x  3 y  3  a  9 , pentru orice numere reale x i y                                                           2p
+
+    Pentru orice x, y 3,  , x  3  0 i y  3  0 i, cum a 12,  , obinem x  y  3 ,                                                             3p
+
+    deci mulimea 3,  este parte stabil a lui în raport cu legea de compoziie ,,  "
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+    1.a) f ' x  x 1 ' x '                                                                                                                  2p
+
+          1          1       1       1             1        ,  x 0,                                                                        3p
+      2   x 1       2x               x 1            x    
+                             2                           
+                                
+
+b)  f '1  f '2               f  'n      1       1 1                     1 1                        1          1       1     1     1    ,
+                                                11 1                    21 2                       n 1         n      2     n 1      
+                                        2                                                                                                  2p
+                                           
+
+    pentru orice numr natural nenul n
+
+            3                                f 'n           n     nlim       3         1        1  n                1       1       n
+            2                                                                2         n        2                           n 1
+     lim         f  '1    f  '2                                                    2      1                 lim          2             
+
+    n                                                                                                      n
+
+                                                   n                                                                                       3p
+
+        lim    1       1 2           n1  2      n1 1                    e
+                                         
+       n            2  n     1                       e2 
+                                         
+
+c) Pentru orice x  0,  , x 1  x  0 , deci 1  1  0  f  x  0  f este
+                                                                                       x 1 x                                               2p
+
+    strict descresctoare pe 0,  , deci f este injectiv
+
+    lim f  x  1, lim f  x  0 , f monoton i continu pe 0,  , deci Im f  0,1  f
+    x0                 x                                                                                                                   3p
+
+    este surjectiv, de unde obinem c f este bijectiv
+
+    2.a)
+    1          f  x dx  1 x2 dx  x3                1
+                                                     
+       x4 1                                  30                                                                                            3p
+
+    0                        0
+
+     1 0 1                                                                                                                                 2p
+       33
+
+b)            x0,1 x2  x , deci   1                      1   x2              1    x          1  1    x2    '          1             1
+                                  0                      0  x4               0  x4           2  0  x2 2               2               
+                                     f  xdx                        dx                  dx                      dx        arctg  x2         3p
+                                                                  1                   1                       1                     0
+
+     1 arctg1 1 arctg 0 1                                                                                                                  2p
+       2            2             24 8
+
+Prob scris la matematic M_mate-info                                                                                                        Test 16
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 3
+                                                Ministerul Educaiei i Cercetrii
+                                      Centrul Naional de Politici i Evaluare în Educaie
+
+c)  1                1                              1    1                               1   x3
+                                                    0                                       x4 
+       F    x  dx       x  'F     x  dx    xF    x          x  f    x  dx    F  1                   dx    3p
+
+    0                0                                   0                               0       1
+
+           1 1x4   1       '          1                1   1 ln 2
+        40  x4     1                  4                04
+                              dx         ln  x4 1                                                         2p
+
+Prob scris la matematic M_mate-info                                                                       Test 16
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 3 din 3
+

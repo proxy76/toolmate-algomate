@@ -1,0 +1,190 @@
+                                                     Ministerul Educaiei i Cercetrii
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                          Test 18
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                     (30 de puncte)
+
+    1.
+                                   2                                                                                        3p
+
+      5 2 3  1 3 5 2 3  4 2 3 
+
+       5  2 3  4  2 3  1, care este numr întreg                                                                             2p
+
+2. 2m 1 2m2  2m  m2  1                                                                                                      3p
+                                  2
+
+      m   1 sau m  1                                                                                                        2p
+              2            2
+
+3. x2  5x 1  2x  5  x2  3x  4  0                                                                                            3p
+
+      x  4 , care nu convine, sau x  1 , care convine                                                                       2p
+
+4. Mulimea A are 5 elemente, deci sunt 5 cazuri posibile                                                                    2p
+
+      Numerele a din mulimea A care verific inegalitatea a  1  2 sunt 1 , 2 i 3 , deci sunt 3 2p
+      cazuri favorabile
+
+      p  nr. cazuri favorabile  3                                                                                           1p
+            nr. cazuri posibile 5
+
+5. MA  MD  0 , BN  CN  0                                                                                                    2p
+
+      MN  MA  AB  BN , MN  MD  DC  CN , deci 2MN  AB  DC                                                                    3p
+
+6. BC  AC  2R i, cum R 1 , obinem BC  2sin A i AC  2sin B                                                                   3p
+      sin A sin B
+
+      4sin Asin B  2sin B  2sin A  AC  BC                                                                                   2p
+
+SUBIECTUL al II-lea                                                                                             (30 de puncte)
+
+1.a)  A  2,3       3  1    det   A2,3    3  1
+                   3  1                  3    
+                                                                                                                            2p
+                                            1
+
+      33 0                                                                                                                  3p
+
+b) detAa,b  a 1 a 1  a 1b  2  ba 1  2b  a 1 , pentru orice numere reale a                                                   3p
+
+                         b b2
+
+      i b
+
+      a  i b  \  b  a 1 \  det  Aa,b  0 , deci Aa,b este inversabil                                                         2p
+
+c)                                                                                                       1 2 2 
+
+         0                       2                                                                1        2       
+                                                                                                                2
+      A 1, 2   2           2  2 , det A 1, 2
+                                                        2 2,                              A 1, 2           1                3p
+                                                                                                             2  0 
+
+                                                                                                     1 2        1       2
+                                                                                                                     2    
+         X               1                  A  0, 0                             1  1                        2             
+           A 1,       2           i, cum                                        0  2   ,  obinem  X        1                2p
+                            A0,0                                                                                1
+                                                                                                             2
+                                                                                                                2 
+
+Prob scris la matematic M_t-nat                                                                                             Test 18
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 1 din 2
+                                                      Ministerul Educaiei i Cercetrii
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) 1 4  5 1 4  1  4                                                                                                   2p
+
+       20  5  25                                                                                                        3p
+
+b) x 0  5x  0  x  0  x , pentru orice numr întreg x                                                                     2p
+
+      0 x  5  0  x  0  x  x , pentru orice numr întreg x , deci e  0 este elementul neutru al                           3p
+      legii de compoziie ,, "
+
+c) x  element simetrizabil în raport cu legea de compoziie ,, "  exist x ' astfel încât
+
+      x x '  x ' x  0  5xx ' x  x '  0 , deci x '  x i, cum x, x ' , obinem 5x 1  1 3p
+                                                              5x 1
+
+      sau 5x  1  1
+
+      x   2 , care nu convine, sau x  0 , care convine                                                                  2p
+              5
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+1.a)                  3x2 x2 1  x3  2x
+
+      f 'x                     x2 1 2                                                                                   3p
+
+            
+         x4  3x2             x2 x2  3          , x                                                                      2p
+         x2 1 2                x2 1 2
+
+b)            f   x                     x3
+                                      x3 
+       lim        x           lim                 1,    deci  panta    dreptei        d  este 1                         2p
+
+      x                      x                 x
+
+                                                        a2 a2  3                                                        3p
+        Tangenta la graficul lui f în Aa, f a are panta 1 , dac f 'a  1  a2 1 2  1 , de
+
+      unde obinem a2  1 , deci a  1 sau a  1
+
+c)                     2x 3  x2
+
+        f '' x  x2 1 3 , x                                                                                              2p
+
+      Cum f " x  0 , pentru orice x  0, 3 , obinem c funcia f este convex pe 0, 3                                       3p
+
+   2.a)                         x                
+      0  f x              0  e     cos  x
+                                   ex      dx   cos xdx                                                                 2p
+          ex dx
+                                                  0
+
+                 
+
+       sin x sin  sin 0  0                                                                                              3p
+
+                  0
+
+b)                                                                                                                  
+
+      2                                           2                                2                                2
+       ex cos xdx  ex cos x 2   ex cos x'dx  1  ex sin x dx  1 ex sin x 2   ex cos xdx  3p
+
+      0                                    00                                      0                                00
+
+                                                                              
+
+                                                       2 ex cos xdx  e 2
+
+       1  e 2
+                        2                                                       1                                       2p
+
+                      ex cos xdx , deci                                         2
+
+                          0                            0
+
+c)                                     x                  
+                     2             3                      2
+                                      e2
+         f    x                    0           cos   x                                                         
+                                                                           3                                   3
+      3                   dx                                    dx     e2       sin x dx  e 2        ln cos x  0        3p
+      0                                                                    0    cos x
+             f x                            ex cos x
+
+              ln    cos                 ln   cos 0            ln  1        ln1              ln  2                       2p
+                          3                                       2
+         e2                        e2                     e2           e2             e 2
+
+Prob scris la matematic M_t-nat                                                                                         Test 18
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 2 din 2
+

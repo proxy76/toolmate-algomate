@@ -1,0 +1,67 @@
+                                           Ministerul Educaiei Naionale
+                                    Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2019                                  Varianta 7
+                                                          Proba E. c)                                     (30 de puncte)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Artai c 4 5 - 75 + 108 - 3 + 25 - 80 = 5 .
+
+5p 2. Se consider funcia f :    , f ( x) = x + a , unde a este numr real. Determinai numrul real
+     a , pentru care f (1) = 8 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x -1 = x .
+5p 4. Determinai câte numere naturale de dou cifre distincte se pot forma cu cifrele 1, 2 , 3 , 4 , 5 , 6 , 7 , 8
+
+      i 9 .
+5p 5. În reperul cartezian xOy se consider dreapta d de ecuaie y = x - 2 . Determinai coordonatele
+
+      punctului de intersecie a dreptei d cu axa Ox .
+5p 6. Se consider triunghiul ABC cu AB = 6 , AC = 8 i BC = 10 . Calculai aria triunghiului ABC .
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = xy + x + y .
+
+5p 1. Artai c (-1)  3 = -1 .
+5p 2. Demonstrai c x  y = ( x +1)( y + 1) -1, pentru orice numere reale x i y .
+
+5p 3. Verificai dac e = 0 este elementul neutru al legii de compoziie ,,  ".
+5p 4. Verificai dac - 1 este simetricul lui 1 în raport cu legea de compoziie ,,  ".
+
+                              2
+5p 5. Determinai numerele reale x , tiind c x  x  x = x .
+5p 6. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr,
+
+      acesta s verifice relaia n  n = 3 .
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+Se consider matricea     (  a)   =  1- 2a     2a       ,  unde  a                       este numr  real.
+                      A                              
+                                      -3a  1  +  3a  
+
+5p 1. Artai c det ( A(0)) = 1 .
+
+5p 2. Artai c A(1) + A(5) = 2A(3) .
+
+5p 3. Artai c A(1)  A(2) = A(5) .
+
+5p 4. Determinai valorile reale ale lui a pentru care matricea A(a) este inversabil.
+
+5p 5. Demonstrai c A(a)  A(-1) = A(-1)  A(a) = A(-1) , pentru orice numr real a .
+
+( ( )) 5p 6. Determinai numerele naturale nenule n pentru care det A n4 < 32 .
+
+Prob scris la matematic M_pedagogic                                                                       Varianta 7
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,80 @@
+                                             Ministerul Educaiei Naionale
+                                      Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2013                Varianta 2
+                                                         Proba E. c)
+
+                                                Matematic M_mate-info
+
+    Filiera teoretic, profilul real, specializarea matematic-informatic
+    Filiera vocaional, profilul militar, specializarea matematic-informatic
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                (30 de puncte)
+
+5p 1. Artai c numrul a = 3(3 - 2i) + 2(5 + 3i) este real.
+
+5p 2. Se consider funcia f :    , f ( x) = 4x -1. Calculai f (1) + f (2) + ... + f (10) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 (2x) = log2 (1+ x) .
+
+5p 4. Dup o scumpire cu 10% preul unui produs este 2200 de lei. Calculai preul produsului înainte de
+      scumpire.
+
+5p 5. Determinai numrul real a pentru care vectorii u = i + 4 j i v = 2i + (a +1) j sunt coliniari.
+
+5p  6. Determinai  x      0,       ,  tiind  c  3sin x + cos x  =4.
+                              2                      sin x
+
+SUBIECTUL al II-lea                                                                    (30 de puncte)
+
+                                                1 11
+
+    1. Se consider determinantul D (a,b) = a a2 1 , unde a i b sunt numere reale.
+
+                                                b b2 1
+
+5p a) Artai c D (2,3) = 2 .
+
+5p b) Verificai dac D (a,b) = (a -1)(b -1)(b - a) , pentru orice numere reale a i b .
+
+( ) 5p c) În reperul cartezian xOy se consider punctele Pn n, n2 , unde n este un numr natural nenul.
+
+      Determinai numrul natural n , n  3 , pentru care aria triunghiului P1P2Pn este egal cu 1.
+
+      2. Se consider x1, x2 , x3 rdcinile complexe ale polinomului f = X 3 - 4X 2 + 3X - m , unde m este
+      numr real.
+
+5p a) Pentru m = 4 , artai c f (4) = 8 .
+
+5p b) Determinai numrul real m pentru care rdcinile polinomului f verific relaia x1 + x2 = x3 .
+5p c) Dac x13 + x23 + x33 = 7(x1 + x2 + x3) , artai c f se divide cu X - 3 .
+
+SUBIECTUL al III-lea                                                                   (30 de puncte)
+
+      1. Se consider funcia f :    , f (x) = cos x + x2 .
+                                                                    2
+
+5p a) Calculai f ( x) , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 0 , situat pe graficul
+      funciei f .
+
+5p c) Demonstrai c f (x)  1 , pentru orice x   .
+
+                                                                                                                     1
+
+     2. Pentru fiecare numr natural nenul n se consider numrul In = xnexdx .
+
+                                                                                                                     0
+
+5p a) Calculai I1 .
+
+5p b) Artai c In+1 + (n +1) In = e , pentru orice numr natural nenul n .
+5p c) Artai c 1  (n +1) In  e , pentru orice numr natural nenul n .
+
+Prob scris la matematic M_mate-info                                                        Varianta 2
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+

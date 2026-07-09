@@ -1,0 +1,108 @@
+                                                        Ministerul Educaiei i Cercetrii
+                                                Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026
+
+                                                          Proba E. c)
+                                                 Matematic M_tehnologic
+
+                                                                                                                        Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                        (30 de puncte)
+
+5p  1.  Artai  c   3            3    :  4  1     1.
+                                5            10
+
+5p 2. Se consider funcia f :    , f  x  3x  6 . Determinai numrul real a pentru care
+
+    f 1  f a  2 f 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x  x2  3x .
+
+5p 4. Se consider mulimea A  0,1, 2,..., 26 . Determinai probabilitatea ca, alegând un numr din
+
+      mulimea A , acesta s fie ptratul unui numr natural.
+
+5p 5. În reperul cartezian xOy se consider punctele A0, 4 , B 3,0 i C 4,7 . Artai c triunghiul
+
+       ABC este dreptunghic isoscel.
+5p 6. Artai c 2sin 60  3 sin 30  3cos 30  0 .
+
+SUBIECTUL al II-lea                                                                                (30 de puncte)
+
+    1.  Se  consider  matricele            I2         1   0   i    M  a     2a          a
+                                                      0   1                 a         a  2  , unde a este numr real.
+
+5p a) Artai c det M 4  0 .
+
+  5p b) Artai c M 1  M 1  M 1  3I2 .
+
+5p c) Demonstrai c numrul N  det M n  3M 11 este natural impar, pentru orice numr
+
+    natural nenul n , unde M 11 este inversa matricei M 1 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  3x  3y 12 .
+5p a) Artai c 2  5  1.
+5p b) Artai c e  4 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Determinai numrul real a pentru care a  x  a  x  a  x  a  x , pentru orice numr
+
+      real x .
+
+SUBIECTUL al III-lea                                                                               (30 de puncte)
+
+    1. Se consider funcia                  f : 0,    ,             f  x    x2      3  .
+                                                                             x3
+
+5p  a) Artai c    f   ' x               9   x2   ,  x 0,  .
+                                           x4
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x  1 , situat pe graficul
+
+      funciei f .
+
+5p c) Demonstrai c 9 f 2x  f  x  4 , pentru orice x 1, 2.
+
+    2. Se consider funcia f : 3,    , f  x  x  2                                          2  3  .
+                                                                                         x
+
+5p  a) Artai   c  4   f          x          2    3    dx    16  .
+                                           x        
+                  0 
+
+Prob scris la matematic M_tehnologic                                                                                  Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                   Pagina 1 din 2
+                                              Ministerul Educaiei i Cercetrii
+                                      Centrul Naional pentru Curriculum i Evaluare
+
+5p  b) Artai  c  6    f          x  x  2 dx  4.
+
+                 
+
+                 1
+
+  5p                                                   1     '  x            1                2ea
+    c) Determinai numrul real a       pentru     care     f          1    f         dx    ln       .
+                                                                             x
+
+                                                       2
+
+Prob scris la matematic M_tehnologic                                                                  Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                 Pagina 2 din 2
+

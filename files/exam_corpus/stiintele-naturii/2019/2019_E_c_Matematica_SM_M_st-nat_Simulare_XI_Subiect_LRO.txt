@@ -1,0 +1,118 @@
+                                           Ministerul Educaiei Naionale
+                                    Centrul Naional de Evaluare i Examinare
+
+                                 Examenul de bacalaureat naional 2019
+                                                  Proba E. c)
+
+                                              Matematic M_t-nat
+
+                                                          Clasa a XI-a
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I ­ Scriei, pe foaia de examen, litera corespunztoare rspunsului corect. (30 de puncte)
+
+5p 1. Se consider progresia aritmetic (an )n1 cu a3 = 11 i a4 = 13 . Primul termen al acestei progresii
+
+      este egal cu:
+
+    A. -1                         B. 3                                                  C. 7                      D. 11
+
+5p 2. Se consider funcia f :    , f ( x) = 2x2 - 8x + m , unde m este numr real. Dac vârful
+
+    parabolei asociate funciei f are coordonatele egale, atunci numrul real m este egal cu:
+
+    A. 6                          B. 8                                                  C. 10                     D. 12
+
+5p 3. Mulimea soluiilor ecuaiei x + 12 = x este:
+
+    A. {-3,4}                     B. {4}                                                C. {-3}                   D. {-4,3}
+
+{ } 5p 4. Probabilitatea ca, alegând un numr din mulimea A = n   n  120 , acesta s fie multiplu de
+
+    25 este egal cu:
+
+    A. 1                          B. 4                                                  C. 1                      D. 29
+        30                           121                                                    24                        30
+
+5p 5. În reperul cartezian xOy se consider punctele M (3,5) i N (4,4) . Punctul P , situat pe axa Ox ,
+
+    pentru care punctele M , N i P sunt coliniare este:
+
+    A. P (-8,0)                   B. P (0,8)                                            C. P (0,0)                D. P (8,0)
+
+5p  6. Se  consider expresia  E(  x)  =  sin  x  +  sin    x  +   2      +              sin    x  -  2    , unde  x  este  numr real.  Pentru
+                                                                  3                                  3  
+
+    orice numr real x , expresia E ( x) este egal cu:
+
+    A. 0                          B. 3 cos x                                            C. sin x                  D. 1
+
+SUBIECTUL al II-lea ­ Scriei, pe foaia de examen, rezolvrile complete.                                                     (30 de puncte)
+
+                                                 1- x 2 3
+
+    1. Se consider determinantul D ( x) = 1 2 - x 3 , unde x este numr real.
+
+                                                    1 2 3-x
+
+5p a) Artai c D (1) = 5 .
+
+5p b) Demonstrai c, pentru orice numr întreg p , p  6 , numrul D ( p) este divizibil cu 6 - p .
+
+5p c) Determinai valoarea maxim pe care o poate lua D (n) , atunci când n este numr natural.
+
+    2. Se consider matricele  A  =    -1      1     i  B   (  x)  =     0                    x +1
+                                      -1                               x -1                        , unde x este numr real.
+                                                                     
+                                              0                                               1
+
+5p a) Artai c B (1) + B (3) = 2B (2) .
+
+5p b) Determinai numrul real x pentru care A B ( x) = B ( x)  A .
+
+5p c) Determinai numerele reale x pentru care B ( x)  B ( x) = B ( x) .
+
+SUBIECTUL al III-lea ­ Scriei, pe foaia de examen, rezolvrile complete.                                                    (30 de puncte)
+
+     1. Se consider funcia f : (0, +)   , f ( x) = ( x - 4)2 .
+
+                                                                        x
+
+ 5p a) Calculai lim f ( x) .
+
+                       x+ x
+
+Prob scris la matematic M_t-nat                                                                                      Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                 Ministerul Educaiei Naionale
+                                          Centrul Naional de Evaluare i Examinare
+
+5p  b)  Calculai  lim x3  -  8  x2 +  16  x  .
+                             f
+                  x 4           (x)
+
+5p c) Demonstrai c pentru orice numr real a , a > 0 , lim 1 ( f ( x + a) - f ( x)) nu depinde de a .
+
+                                                                       x+ a
+
+    2. Se consider funcia       f :,            f  (  x)  =     x2  ,  x (-,1)          , unde m este numr real.
+                                                               x-2
+                                                             
+                                                             ln x + m, x [1,+)
+
+5p a) Determinai numrul real m , pentru care funcia f este continu pe  .
+5p b) Determinai ecuaia asimptotei oblice spre - la graficul funciei f .
+
+5p c) Pentru m  0 , demonstrai c funcia f este surjectiv.
+
+Prob scris la matematic M_t-nat                                                         Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

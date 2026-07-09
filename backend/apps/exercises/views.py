@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .generators import engine
+from .generators.registry import PROFILES
 from .models import ExerciseSession
 from .serializers import (
     ExamPDFSerializer,
@@ -23,7 +24,7 @@ class TopicsView(APIView):
             {
                 "labels": engine.all_topic_labels(),
                 "by_profile": {
-                    p: engine.supported_topics(p) for p in ("M1", "M2", "M3")
+                    p: engine.supported_topics(p) for p in PROFILES
                 },
             }
         )

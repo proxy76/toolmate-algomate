@@ -1,0 +1,96 @@
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                 Examenul naional de bacalaureat 2021
+                                                   Proba E. c)
+
+                                                 Matematic M_mate-info                                                           Simulare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                   (30 de puncte)
+
+5p 1. Se consider progresia geometric (bn )n1 cu b2 = 2 i b4 = 4 . Determinai b6 .
+5p 2. Se consider funcia f :    , f ( x) = x2 - 2x + m , unde m este numr real. Determinai
+
+      numrul real m pentru care vârful parabolei asociate funciei f este situat pe dreapta y = 3x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x - 2x+1 - 3 = 0 .
+5p 4. Determinai numrul de numere naturale de trei cifre care au exact dou cifre egale.
+
+5p 5. Segmentele AB i A' B ' au acelai mijloc. Demonstrai c AB ' + BA' = 0 .
+
+5p 6. Demonstrai c, în orice triunghi ABC , are loc relaia AB + AC + BC = 2R (sin A + sin B + sin C ) ,
+
+      unde R este raza cercului circumscris triunghiului.
+
+SUBIECTUL al II-lea                                                                                                           (30 de puncte)
+
+                                       ax + (a +1) y + (a + 2) z = a                                                        a a +1 a + 2
+                                       bx + (b +1) y + (b + 2) z = b                                                                         2
+    1. Se consider sistemul de ecuaii                                                              i matricea  X  (a,b)  =    b  b +1  b  +     ,
+                                        y + z = 1                                                                             0   1       1
+
+     unde a i b sunt numere reale.
+
+5p a) Artai c det ( X (0,1)) =1 .
+
+5p b) Demonstrai c, pentru orice numere reale distincte a i b , sistemul de ecuaii are soluie unic.
+
+5p c) Demonstrai c, dac ( x0 , y0, z0 ) este soluie a sistemului de ecuaii, atunci y02 - z02 - 2ax0 = 3 ,
+
+      pentru orice numr real a .
+
+    2. Pe mulimea M = (2, +) se definete legea de compoziie asociativ x  y = ( x - )1 log3( y-1) +1.
+
+5p a) Artai c 5 10 = 17 .
+5p b) Determinai elementul neutru al legii de compoziie ,,  ".
+5p c) Determinai x  M pentru care x  x  x = x  x .
+
+SUBIECTUL al III-lea                                                                                                          (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = e2x + x4 + 2 .
+
+5p a) Artai c f '( x) = e2x + 2x3 , x   .
+
+                                  e2x + x4 + 2
+5p b) Demonstrai c tangenta la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+      funciei f , este paralel cu dreapta de ecuaie x - 3y = 0 .
+
+5p c) Demonstrai c funcia f are un unic punct de extrem.
+
+    2. Se consider funcia  f :,              f  (  x)  =  1      1    -                   1   3    .
+                                                          2    x2 +1                    x2 +     
+
+5p  a)  Artai  c  1       (x) +    1         =     .
+                                 x2 + 3  dx     4
+                  0  2 f
+
+5p b) Demonstrai c orice primitiv F a funciei f este strict cresctoare.
+
+Prob scris la matematic M_mate-info                                                                                                    Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                  Ministerul Educaiei
+                                               Centrul Naional de Politici i Evaluare în Educaie
+
+                                                                                                       b
+
+5p c) Artai c, pentru orice numere reale a i b , cu a < b ,  f ( x) F 2 ( x) dx > 0 , pentru orice primitiv
+
+                                                                                                       a
+
+      F a funciei f .
+
+Prob scris la matematic M_mate-info                                                     Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

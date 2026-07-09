@@ -1,0 +1,204 @@
+                                                           Ministerul Educaiei
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+                                         Examenul naional de bacalaureat 2023
+                                                           Proba E. c)
+
+                                                  Matematic M_mate-info
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                       Model
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                 (30 de puncte)
+
+1. a - b + (a + b)i = 4 , de unde obinem a - b = 4 i a + b = 0                                                         3p
+
+      a = 2 i b = -2                                                                                                   2p
+
+( ) 2. m(m - x)2 - 2(m - x) + m = m(m + x)2 - 2(m + x) + m  x m2 -1 = 0 i, cum egalitatea
+                                                                                                                         3p
+     are loc pentru orice numr real x , obinem m2 -1 = 0
+
+      m = -1 sau m = 1, care convin                                                                                    2p
+
+( ) ( ) 3. log2 2x2 = log2 x2 + x + 2 , de unde obinem x2 - x - 2 = 0                                                  3p
+
+      x = -1 , care nu convine; x = 2 , care convine                                                                   2p
+
+4. Mulimea F are 44 = 256 de elemente, deci sunt 256 de cazuri posibile                                                2p
+
+      Pentru fiecare n  A , f (n) se poate alege în n moduri, deci sunt 1 2  3  4 = 24 de cazuri
+
+      favorabile, de unde obinem p = 24 = 3                                                                            3p
+
+                                                   256 32
+
+( ) 5.
+      CM = 1 CA + CB , unde M este mijlocul segmentului AB , de unde obinem CM = OC ,                                  3p
+              2
+
+      deci punctul C este mijlocul segmentului OM
+
+      Cum xM = 2 i yM = 4 , obinem xC = 1 i yC = 2                                                                     2p
+
+6.     AB    =  2R     R  =    AB     =   8  =  8  ,  unde  R  este raza cercului       circumscris triunghiului  ABC
+      sin C                  2 sin C     21
+                                                                                                                       2p
+
+                                         2
+
+      Triunghiul OAB este echilateral cu latura egal cu 8 , deci distana de la punctul O la                            3p
+
+      latura AB este OM = 4 3 , unde M este mijlocul segmentului AB
+
+SUBIECTUL al II-lea                                                                         (30 de puncte)
+
+1.a)             3 0 -2                                  3 0 -2
+                             -11 
+      A(0)   =    1  1                det (  A(0))    =  1  1   -1 =                                                   2p
+                  2  -2                                  2  -2  1
+
+      = 3+ 4+ 0+ 4-6-0 = 5                                                                                             3p
+
+b)                        3 a -2
+
+      det ( A(a)) = 2a +1 1- a -1 = 5(1+ a)(1- a) , pentru orice numr real a                                           2p
+
+                       a + 2 -2 1
+
+      det ( A(a)) = 0  a = -1 sau a = 1 , deci matricea A(a) este inversabil dac i numai dac                           3p
+
+      a  \ {-1,1}
+
+Prob scris la matematic M_mate-info                                                                                    Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 3
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+c) Pentru a  \ {-1,1} , sistemul de ecuaii este compatibil, oricare ar fi numerele reale b i c ;
+
+pentru a{-1,1} ,           a     -2  0 , deci sistemul este compatibil dac i numai dac
+                         1- a    -1
+                                                                                                                                   3p
+-1 -2 b                  1 -2 b
+
+2 -1 c = 0 i 0 -1 c = 0
+
+-2 1 -1                  -2 1 -1
+
+b = 2 i c = 1                                                                                                                      2p
+
+2.a) f (-1) = (-1)4 + a  (-1)3 + a  (-1)2 + 8  (-1) - 8 =                                                                          3p
+
+= 1 - a + a - 8 - 8 = -15 , pentru orice numr real a                                                                               2p
+
+b) Restul împririi polinomului f la polinomul g este egal cu (a + 8) X + a - 7 , pentru orice 3p
+
+     numr real a
+
+(a + 8) X + a - 7 =15X , de unde obinem a = 7                                                                                      2p
+
+c) Presupunând c rdcinile x1, x2 , x3, x4 ale polinomului f sunt numere întregi, cum                                               2p
+     x1 + x2 + x3 + x4 = -a , obinem c a  
+
+x1x2 x3x4 = -8  x1  x2  x3  x4 = 8 , de unde obinem c cel puin o rdcin a
+
+polinomului f are modulul egal cu 1 i, cum f (-1)  0 pentru orice numr real a ,
+
+obinem f (1) = 0 , deci a = - 1 , ceea ce este fals, deci polinomul f nu are toate rdcinile 3p
+
+                                    2
+
+numere întregi
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+( ) 1.a)                         x4               1
+f ( x) = -1- 4x3arctg x -            -1         x2 +1    =                                                                         3p
+
+= -1- 4x3arctgx - x2 +1 = -x2 (4xarctgx +1) , x                                                                                    2p
+
+b) Tangenta la graficul funciei f în punctul A(x0, f (x0 )) este paralel cu axa Ox  f '(x0 ) =0 2p
+
+-x02 (4x0 arctg x0 +1) = 0 i, cum x0arctg x0  0 pentru orice x0   , obinem x0 = 0 , deci
+
+ecuaia tangentei la graficul funciei f care este paralel cu axa Ox este 3p
+
+y - f (0) = f '(0)( x - 0) , adic y = 1
+
+c) f '( x)  0 , pentru orice x   , deci funcia f este descresctoare pe  i, cum f (0) =1 i                                          2p
+
+f (1) = 0 , obinem 0  f ( x) 1, pentru orice x [0,1]
+
+Pentru  g :[0,1]   ,     g ( x) = tgx - x ,          g '(x) =        1                  -1 0 ,  pentru  orice  x [0,1] ,  deci  g
+                                                                  cos2 x
+este cresctoare, de unde obinem tg x  x , pentru orice x [0,1] , deci 3p
+
+tg( f ( x))  f ( x)  f (tg x) , pentru orice x[0,1]
+
+( ) ( )   2.a)                                                  
+3                             3  x2 + ex  dx    =    x3  +  ex    3  =                                                             3p
+                                                     3            0
+  1+ e-x      f ( x) dx =
+
+0                             0
+
+= 27 + e3 - 0 -1 = 8 + e3                                                                                                          2p
+    3
+
+( )    b)
+m    f  (x)   dx  =  m      1            m      ex +1 '                                                                            3p
+-m  x2               -m  1+ e-x                 ex + 1 dx =
+        + ex                     dx =
+
+                                        -m
+
+              m                                 1  + em  
+                  = ln 1 + em                      em    
+
+              -m
+( ) ( ) = ln 1+ ex                   -    ln               =  ln em  =  m,              pentru  orice   m (0, +)                   2p
+
+Prob scris la matematic M_mate-info                                                                                                Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 3
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+c)  ( )                                     x               '
+                                            0             
+                  x                            f  (t )dt
+                  0             
+         1                                                                                  2p
+      eax -1
+     lim             f  (t )dt    =  lim       eax -1 '        =
+
+    x0                               x0
+
+    = lim  f (x)  =  1 , de unde obinem           1         =1, deci  a = 1 , care convine  3p
+                     2a                           2a                      2
+       x0  aeax
+
+Prob scris la matematic M_mate-info                                                         Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 3 din 3
+

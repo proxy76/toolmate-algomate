@@ -1,0 +1,171 @@
+                                                     Ministerul Educaiei Naionale
+                                              Centrul Naional de Evaluare i Examinare
+
+                                         Examenul de bacalaureat naional 2017
+                                                           Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                                             Clasa a XI-a
+
+                                       BAREM DE EVALUARE I DE NOTARE
+
+                                                                                       Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                            (30 de puncte)
+
+1. a1 = (a1 + 2r ) - 6                                                                 2p
+
+      r =3                                                                             3p
+
+2. f (1) = 3  2 + m = 3                                                                3p
+
+      m =1                                                                             2p
+
+( ) 3. 3x 1+ 32 = 10  3x = 1                                                           3p
+
+      x=0                                                                              2p
+
+4. p - 15  p = 17 , unde p este preul stiloului înainte de ieftinire                   2p
+         100
+
+      p = 20 de lei                                                                    3p
+
+5. md = -1, md ' = a                                                                   2p
+
+      (-1)  a = -1  a = 1                                                              3p
+
+6. AC = 3  AB = 20                                                                     2p
+      AB 4
+
+      AABC      =  20 15        = 150                                                  3p
+                     2
+
+SUBIECTUL al II-lea                                                                    (30 de puncte)
+
+1.a)              312
+
+      D(0) = 1 0 2 =                                                                   2p
+
+                132
+
+      = 0 + 6 + 2 - 0 -18 - 2 = -12                                                    3p
+
+b) D (a) = 6a + 6(a +1) + 2 - 2a -18 - 2(a +1) = 8a -12                                2p
+
+      a2 - 8a +12 = 0  a = 2 sau a = 6                                                 3p
+
+c) 3 1 1                     1                       1    1
+                             2                       2    2
+      n +1     n      1   =     D(n)     A ABC    =          D(n)  =  2n   -3          3p
+
+         1 31
+
+      2n - 3 = 1, de unde obinem n = 1 sau n = 2                                       2p
+
+2.a)  A(0)  +      (  2)  =     -1  0    +    -1  2     =    -2    2    =
+                A                   -3        2   -1         4        
+                             2                                   -4                    3p
+
+      =     -1     1       =  2  A(1)                                                  2p
+         2         -2    
+         2               
+
+Prob scris la matematic M_tehnologic                                                   Simulare pentru clasa a XI-a
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                             Pagina 1 din 2
+                                                               Ministerul Educaiei Naionale
+                                                        Centrul Naional de Evaluare i Examinare
+
+b)    A(1)     A(     )        -1         1   -1               x  3                 -3
+                   x     =                                           =                 
+                            2          -2          2        x  -  3        -6                                                                    3p
+                                                                                    6
+
+      A(1)     A(     )  +  3A(1)            3        -3       +    -3     3  0            0
+                   x                   =     -6                                  =               =  O2  ,  pentru      orice      numr  real  x  2p
+                                                      6 6                  -6          0   0  
+
+c)       =  1  -  a            a       ,  deci     det      =     1- a       a
+      B                                                  B         2a              = 1- 3a
+             2a          1  -  2a                                                                                                                3p
+                                                                           1- 2a
+
+      1- 3a    =0           a  =  1,   deci      matricea         B  este     inversabil      pentru orice         a           \  1              2p
+                                  3                                                                                               3  
+
+SUBIECTUL al III-lea                                                                                                                          (30 de puncte)
+
+1.a)  lim   f  (  x)  =  lim              x+5         =        -1+ 5                 =
+                                          +x+
+      x-1                x-1         x2            2     (-1)2 + (-1)          +  2                                                              3p
+
+      = 4 =2                                                                                                                                     2p
+         2
+
+b)                                                                                           x2     2  -   1       +   5  
+                                                                                                           x    1         
+       lim  ((2x      -  1)    f  (  x))  =   lim     (  2x -1)(        x + 5)   =   lim                               x    =                    3p
+                                                                                                                       
+      x+                                     x +          x2 + x        +2          x +       x2           1    +  2   
+                                                                                                    1 +    x       x2
+
+      =2                                                                                                                                         2p
+
+c)                                                                            1+    5
+                                                                                    x
+       lim     f  (x)    =   lim       x2  x+5           =      lim              1  +  2      =  0                                               3p
+                                           +x+                             1     x     x2  
+      x +                   x+                        2        x +      x     +
+
+      Dreapta de ecuaie y = 0 este asimptot orizontal spre + la graficul funciei f                                                               2p
+
+2.a) f (-2) = -7                                                                                                                                 2p
+
+      f (5) = 4  f (-2)  f (5) = -28                                                                                                             3p
+
+( ) b) lim f ( x) = lim x3 +1 = 1                                                                                                                1p
+      x0                 x0
+      x<0                x<0
+
+      ( ) lim f ( x) = lim 3x +1 = 1                                                                                                             1p
+      x0                 x0
+      x>0                x>0
+
+      Cum f (0) = 1 , obinem lim f ( x) = f (0) , deci funcia f este continu în punctul x = 0                                                    3p
+                                              x0
+
+c) f ( x) = 0  x = -1 i, cum funcia f este continu pe  , obinem c funcia f are semn
+
+      constant pe fiecare din intervalele (-, -1) i (-1, +) , i cum f (-2) < 0 i f (5) > 0 , 3p
+
+      obinem f ( x) < 0 pentru x (-,-1) i f ( x) > 0 pentru x (-1, +)
+
+      ( p +1)(q +1) < 0  p (-, -1) i q (-1, +) sau p (-1, +) i q (-, -1) , de unde                                                               2p
+
+      obinem c f ( p) i f (q) au semne diferite, deci f ( p)  f (q) < 0
+
+Prob scris la matematic M_tehnologic                                                                                                   Simulare pentru clasa a XI-a
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                           Pagina 2 din 2
+

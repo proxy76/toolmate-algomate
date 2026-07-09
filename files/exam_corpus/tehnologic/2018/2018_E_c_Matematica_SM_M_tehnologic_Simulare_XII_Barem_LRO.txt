@@ -1,0 +1,149 @@
+                                                         Ministerul Educaiei Naionale
+                                                  Centrul Naional de Evaluare i Examinare
+
+                                             Examenul de bacalaureat naional 2018
+                                                               Proba E. c)
+
+                                                     Matematic M_tehnologic
+
+                                                                  Clasa a XII-a
+
+                                           BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                                      Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+1. b1q3 = 24  q3 = 8                                                                                                                     3p
+
+      q=2                                                                                                                                2p
+
+2. f (a) = 2  a2 - 2a +1 = 0                                                                                                             3p
+
+      a =1                                                                                                                               2p
+
+3. log3 (( x +1)( x -1)) = log3 8  x2 -1 = 8                                                                                             3p
+
+      x = -3 , care nu verific ecuaia i x = 3 , care verific ecuaia                                                                      2p
+
+4. Cifrele pot fi 1 sau 7                                                                                                                2p
+
+      Numerele sunt 117 , 171 i 711                                                                                                      3p
+
+5. AB = 5                                                                                                                                2p
+
+      AC = 10  AC = 2AB                                                                                                                  3p
+
+6. MP = 4                                                                                                                                2p
+
+                      44 1                                                                                                               3p
+                            2 =4
+      AMNP =             2
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+1.a)                   3 7  5                     -7       15        35  15                -21
+      5A - 3B = 5                     -  3              =                   -                    =
+                    2            5           -2   3  10              25          -6        9                                             3p
+
+          0 56  0 7 
+      = 16 16  = 8 2 2                                                                                                                   2p
+
+b)                 3  5  +  7    ( -2 )    3 (-7)   +   7    3         1    0
+                   2  5  +  5    ( -2 )    2  (-7)  +   5              0    1  = I2
+      A    B  =                                              3    =                                                                      2p
+
+      B    A  =    53+      ( -7 )    2    57 +   ( -7 )     5    =    1    0    =  I2  ,  deci  matricea   B  este inversa matricei  A
+                                      2                                0                                                                 3p
+                   (-2)     3+3            (-2)   7+3                       1  
+                                                             5
+
+c)                               =                                              3x 7x   8 0   5 y -7 y 
+      xA   A     B  -  8A   B         yI2    B    xA  -  8I2      =  yB                    -             =                
+                                                                                 2x     5x 0        8          -2  y  3y                 3p
+
+      x = 1 , y = -1                                                                                                                     2p
+
+2.a) x  y = xy - 2x - 2 y + 4 + 2 =                                                                                                      2p
+
+      = x( y - 2) - 2( y - 2) + 2 = ( x - 2)( y - 2) + 2 , pentru orice numere reale x i y                                               3p
+
+b) ( x - 2)(3 - 2) + 2 = 2018                                                                                                            2p
+
+      x = 2018                                                                                                                           3p
+
+Prob scris la matematic M_tehnologic                                                                                  Simulare pentru clasa a XII-a
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                     Pagina 1 din 2
+                                                          Ministerul Educaiei Naionale
+                                                   Centrul Naional de Evaluare i Examinare
+
+c) x  2 = 2 i 2  y = 2 , pentru x i y numere reale                                            2p
+
+      log2 2log2 3log2 4...log2 2018 = ((log2 2log2 3) 2)(log2 5...log2 2018) =               3p
+
+      = 2  (log2 5 ... log2 2018) = 2
+
+SUBIECTUL al III-lea                                                                        (30 de puncte)
+
+1.a) f '( x) = 6x5 - 6 , x                                                                    2p
+
+      lim    f  (x) -5     =  lim   f  (x) - f     (1)  =  f  '(1) =  0                       3p
+
+      x1        x -1          x1         x -1
+
+b) f '( x) = 0  x = 1                                                                         2p
+
+       f '( x)  0 , pentru orice x (-,1] , deci f este descresctoare pe (-,1] i f '( x)  0 ,  3p
+
+      pentru orice x [1,+) , deci f este cresctoare pe [1, +)
+
+c) f ( x)  f (1) , deci f ( x)  5 , pentru orice numr real x                                  2p
+
+       f (0,9)  5 i f (1,1)  5 , deci f (0,9) + f (1,1)  10                                   3p
+
+2.a)  2   f  (x)        2        = ex     2
+
+                 dx  =   exdx                =                                                3p
+       1x
+                        1                 1
+
+      = e2 - e = e(e -1)                                                                      2p
+
+b) F ( x) =  xexdx =( x -1)ex + c , unde c                                                    3p
+
+      (1-1)e + c = 0  c = 0 , deci F ( x) = ( x -1)ex                                         2p
+
+c)    1                          1              1     1 e2
+
+          f  (x)  f  '( x)dx  =        f  2 (x)    =                                          3p
+                                 2              02
+       0
+
+       1 e2 = 1 ea  a = 2                                                                     2p
+       22
+
+Prob scris la matematic M_tehnologic                                                        Simulare pentru clasa a XII-a
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                              Pagina 2 din 2
+

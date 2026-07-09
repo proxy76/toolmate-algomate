@@ -347,7 +347,7 @@ _TIERS_M3 = {1: [_d1_solve_value, _d1_point_find_b, _d1_compose_value, _d1_f_eq_
 
 class FunctionsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "functions"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        return _TIERS_M3 if self.profile == "M3" else _TIERS
+        return _TIERS_M3 if self.profile == "pedagogic" else _TIERS

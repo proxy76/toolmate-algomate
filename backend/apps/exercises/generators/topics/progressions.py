@@ -60,7 +60,7 @@ def _term_from_two_arith(rng):
     (i1, i2), va = sorted(show), None
     v1, v2, vk = term(i1), term(i2), term(ask)
     return make("progressions",
-                rf"Determinați termenul $a_{{{ask}}}$ al progresiei aritmetice $(a_n)_{{n\ge 1}}$, "
+                rf"Determinați termenul $a_{{{ask}}}$ al progresiei aritmetice $(a_n)_{{n\geq 1}}$, "
                 rf"cu ${_sub('a', i1)} = {v1}$ și ${_sub('a', i2)} = {v2}$.",
                 rf"$a_{{{ask}}} = {vk}$",
                 hint_latex=rf"Din ${_sub('a', i1)}$ și ${_sub('a', i2)}$ aflați rația "
@@ -78,7 +78,7 @@ def _term_from_two_geom(rng):
     term = lambda t: b1 * q ** (t - 1)
     vi, vj, vk = term(i), term(j), term(ask)
     return make("progressions",
-                rf"Determinați termenul $b_{{{ask}}}$ al progresiei geometrice $(b_n)_{{n\ge 1}}$, "
+                rf"Determinați termenul $b_{{{ask}}}$ al progresiei geometrice $(b_n)_{{n\geq 1}}$, "
                 rf"cu ${_sub('b', i)} = {vi}$ și ${_sub('b', j)} = {vj}$.",
                 rf"$b_{{{ask}}} = {vk}$",
                 hint_latex=rf"Din ${_sub('b', i)}$ și ${_sub('b', j)}$ aflați rația "
@@ -129,17 +129,70 @@ def _d2_consecutive(rng):
                 hint_latex=r"Trei numere sunt în progresie geometrică dacă $b^2 = a\cdot c$.")
 
 
+def _d1_geom_sum(rng):
+    b1, q, n = rng.choice([1, 2, 3]), rng.randint(2, 3), rng.randint(3, 5)
+    S = b1 * (q ** n - 1) // (q - 1)
+    return make("progressions",
+                rf"Calculați suma primilor ${n}$ termeni ai progresiei geometrice cu "
+                rf"$b_1 = {b1}$ și rația $q = {q}$.", rf"$S_{{{n}}} = {S}$",
+                hint_latex=r"$S_n = b_1\dfrac{q^{\,n} - 1}{q - 1}$.")
+
+
+def _d2_arith_find_n(rng):
+    a1, r = rng.randint(1, 6), rng.randint(2, 5)
+    n = rng.randint(6, 15)
+    an = a1 + (n - 1) * r
+    return make("progressions",
+                rf"În progresia aritmetică cu $a_1 = {a1}$ și rația $r = {r}$, determinați "
+                rf"rangul $n$ pentru care $a_n = {an}$.", rf"$n = {n}$",
+                hint_latex=r"$a_n = a_1 + (n-1)r \Rightarrow n$.")
+
+
+def _d2_three_consec_ap(rng):
+    x, d = rng.randint(2, 9), rng.randint(1, 4)
+    total = 3 * x
+    return make("progressions",
+                rf"Numerele $a - {d}$, $a$, $a + {d}$ sunt termeni consecutivi ai unei "
+                rf"progresii aritmetice și au suma egală cu ${total}$. Determinați $a$.",
+                rf"$a = {x}$",
+                hint_latex=r"Suma a trei termeni consecutivi ai unei progresii "
+                           r"aritmetice este $3a$.")
+
+
+def _d3_arith_a1_from_sum(rng):
+    r, n, a1 = rng.randint(2, 5), rng.randint(5, 10), rng.randint(1, 8)
+    an = a1 + (n - 1) * r
+    S = n * (a1 + an) // 2
+    return make("progressions",
+                rf"Suma primilor ${n}$ termeni ai unei progresii aritmetice cu rația "
+                rf"$r = {r}$ este $S_{{{n}}} = {S}$. Determinați primul termen $a_1$.",
+                rf"$a_1 = {a1}$",
+                hint_latex=r"$S_n = \dfrac{n\,(2a_1 + (n-1)r)}{2}$.")
+
+
+def _d3_geom_ratio_from_two(rng):
+    b1, q = rng.choice([1, 2, 3]), rng.randint(2, 3)
+    i, j = sorted(rng.sample([1, 2, 3, 4, 5], 2))
+    bi, bj = b1 * q ** (i - 1), b1 * q ** (j - 1)
+    return make("progressions",
+                rf"Într-o progresie geometrică cu termeni pozitivi, $b_{{{i}}} = {bi}$ și "
+                rf"$b_{{{j}}} = {bj}$. Determinați rația $q$.", rf"$q = {q}$",
+                hint_latex=rf"$\dfrac{{b_{{{j}}}}}{{b_{{{i}}}}} = q^{{{j - i}}}$.")
+
+
 _TIERS = {
-    1: [_d1_arith_term, _d1_arith_sum, _d1_geom_term,
+    1: [_d1_arith_term, _d1_arith_sum, _d1_geom_term, _d1_geom_sum,
         _term_from_two_arith, _term_from_two_geom],
     2: [_term_from_two_arith, _term_from_two_geom, _d2_find_ratio,
-        _d2_geom_sum, _d2_consecutive],
+        _d2_geom_sum, _d2_consecutive, _d2_arith_find_n, _d2_three_consec_ap],
+    3: [_d2_find_ratio, _d2_consecutive, _d2_arith_find_n, _d2_three_consec_ap,
+        _d3_arith_a1_from_sum, _d3_geom_ratio_from_two],
 }
 
 
 class ProgressionsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "progressions"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
         return _TIERS

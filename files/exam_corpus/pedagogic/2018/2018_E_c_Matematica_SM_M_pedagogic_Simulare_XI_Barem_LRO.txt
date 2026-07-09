@@ -1,0 +1,122 @@
+                                                 Ministerul Educaiei Naionale
+                                          Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2018
+
+                                                     Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+                                                     Clasa a XI-a
+
+                                  BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                 Simulare
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                   (30 de puncte)
+
+1.  ( 2a1  + 9r  )  10  =  150    2a1  +  18  =  30                                              3p
+            2
+
+    a1 = 6                                                                                       2p
+
+2. A(2a,a)G f  f (2a) = a                                                                        2p
+
+    2a -1 = a  a = 1, deci A(2,1)                                                                3p
+
+3. x2 +1 = 2x                                                                                    2p
+
+    ( x -1)2 = 0  x = 1, care verific ecuaia                                                     3p
+
+4. Mulimea H are 5 elemente, deci sunt 5 cazuri posibile                                         1p
+
+    În mulimea H sunt 2 numere care verific egalitatea dat, deci sunt 2 cazuri favorabile        2p
+
+    p = nr. cazuri favorabile = 2                                                                2p
+          nr. cazuri posibile 5
+
+5. MN = 3 , NP = 3 , MP = 3 2                                                                    3p
+
+    Cum triunghiul MNP este dreptunghic în N , lungimea înlimii din N este egal cu 3 2           2p
+                                                                                              2
+
+6. AC = 2DE = 2                                                                                  2p
+
+    Triunghiul ABC este dreptunghic i sin B = AC = 1 , deci m(B) = 30°                           3p
+                                                     BC 2
+
+SUBIECTUL al II-lea                                                                           (30 de puncte)
+                                                                                                            3p
+  1. 1 3 = 6 - 6 -18 + 21 =                                                                                 2p
+       =3                                                                                                   3p
+
+  2. x  y = 2xy - 6x - 6y +18 + 3 =                                                                         2p
+
+      = 2x( y - 3) - 6( y - 3) + 3 = 2( x - 3)( y - 3) + 3 , pentru orice numere reale x i y
+
+3. ( x  y)  z = (2( x - 3)( y - 3) + 3)  z = 4( x - 3)( y - 3)( z - 3) + 3                       2p
+
+    x  ( y  z) = x  (2( y - 3)( z - 3) + 3) = 4( x - 3)( y - 3)( z - 3) + 3 = ( x  y)  z , pentru orice x , y 3p
+
+    i z numere reale, deci legea ,," este asociativ
+
+4. 2( x - 3)( x - 3) + 3 = 21  2( x - 3)2 = 18                                                   3p
+
+    x = 0 sau x = 6                                                                              2p
+
+5. x  3 = 3 i 3 y = 3 , pentru x i y numere reale                                                2p
+
+    (( ) ) ( ) 1  2  3 ... 2018 = 1  2 ... 8  3  10  11 ... 2018 =                               3p
+
+    ( ) = 3 10  11 ... 2018 = 3
+
+6. 2(a - 3)(b - 3) + 3 = 5  (a - 3)(b - 3) = 1                                                   3p
+
+    De exemplu, a = 11 i b = 9                                                                   2p
+                           3           2
+
+Prob scris la matematic M_pedagogic                                                     Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                              Ministerul Educaiei Naionale      (30 de puncte)
+                                                       Centrul Naional de Evaluare i Examinare                3p
+
+SUBIECTUL al III-lea                                                                                          2p
+                                                                                                              3p
+ ( ) ( ) 1. 1 + 3 + 5 + 7 +9 = 1 +9 + 3 + 7 + 5 = 0 + 0 + 5 =                                                 2p
+                                                                                                              2p
+        = 5                                                                                                   3p
+  2. 2 8 = 16                                                                                                 2p
+                                                                                                              3p
+        2^  8^ = 6^                                                                                           3p
+  3. 3^  x = 5^  x = 3^-1  5^                                                                                 2p
+                                                                                                              3p
+        x = 7  5^  x = 5^
+  4. 4 + 6 = 0^                                                                                               2p
+
+        6 + 4 = 0^  6 este simetricul elementului 4 în raport cu adunarea în 10
+
+ 5. a este element simetrizabil în raport cu înmulirea în 10  (a,10) = 1
+
+       Elementele simetrizabile sunt 1^ , 3 , 7 i 9
+
+ { } 6. x2  0,1, 4,5,6,9 pentru orice x  10
+    { } x2 + 3 = 0  x2 = 7 i, cum 7  0,1, 4,5,6,9 , obinem M = 
+
+Prob scris la matematic M_pedagogic                                                             Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

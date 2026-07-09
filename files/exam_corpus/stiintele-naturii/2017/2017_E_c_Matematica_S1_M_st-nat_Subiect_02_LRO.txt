@@ -1,0 +1,104 @@
+                                                        Ministerul Educaiei Naionale
+                                                 Centrul Naional de Evaluare i Examinare
+
+                                          Examenul de bacalaureat naional 2017
+
+                                                                 Proba E. c)
+
+                                                         Matematic M_t-nat
+
+                                                                                                                                           Varianta 2
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                            (30 de puncte)
+
+5p 1. Determinai al treilea termen al progresiei aritmetice (an )n1 , tiind c a1 = 4 i a2 = 7 .
+
+5p 2. Se consider x1 i x2 soluiile ecuaiei x2 - 4x +1 = 0 . Artai c 4x1x2 - ( x1 + x2 ) = 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 22x+1 = 1 .
+                                                                            8
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+      acesta s fie multiplu de 15 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0,1) , B (1,1) i C (3, a) , unde a este numr
+
+    real. Determinai numrul real a , tiind c punctele A , B i C sunt coliniare.
+
+5p 6. Se consider triunghiul ABC cu AB = 4 3 , AC = 4 i sin C = 3 . Calculai sin B .
+                                                                                        2
+
+SUBIECTUL al II-lea                                                                                                                    (30 de puncte)
+
+    1. Se consider matricea          A    (  x)  =    0     x
+                                                              , unde x este numr real.
+                                                    x 0
+
+5p a) Artai c det ( A(1)) = -1.
+
+    b) Demonstrai c          A( x) A( y) = xyI2 , pentru orice numere reale                           x   i  y , unde         =  1     0
+5p                                                                                                                        I2            .
+                                                                                                                                   0
+                                                                                                                                       1
+
+( ) ( ) ( ) 5p c) Determinai numrul real a , tiind c A 3a A 3a+1 A 3a+2 = A(27) .
+
+    2. Se consider polinomul f = X 3 + mX 2 + 2 X - 4 , unde m este numr real.
+
+5p a) Pentru m = 1, artai c f (1) = 0 .
+
+5p b) Artai c, dac polinomul f se divide cu X + 2 , atunci restul împririi lui f la X + 3 este egal
+
+    cu -1.
+
+5p  c) Determinai numrul real                m , tiind c            1   +  1     +      1   +  x1  +  x2  +  x3  =  1  ,  unde   x1 ,  x2  i  x3  sunt
+                                                                    x1     x2           x3                          2
+
+    rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                                                   (30 de puncte)
+
+    1. Se consider funcia         f :,                   f  (x)  =  x  + 2017    .
+                                                                        ex
+
+5p  a) Artai c    f  '(  x)  =  -(  x  + 2016)        ,  x .
+
+                                       ex
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c funcia f este convex pe [-2015, +) .
+
+    2. Se consider funcia         f :,                   f  (x)  =    1       .
+                                                                    x2 +
+                                                                           1
+
+5p  a)  Artai  c  1  f   1    dx  =    4  .
+                                       3
+                         (x)
+
+                  0
+
+5p b) Determinai primitiva F a funciei f , tiind c F (1) =  +1.
+
+                                                                              4
+
+5p  c)  Determinai   numrul       natural        n,   tiind  c      n   f  ( x) dx =        1 ln 5 .
+                                                                                            2
+                                                                    x
+
+                                                                    0
+
+Prob scris la matematic M_t-nat                                                                                                               Varianta 2
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

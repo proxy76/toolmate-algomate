@@ -1,0 +1,77 @@
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                Examenul de bacalaureat naional 2023
+                                                  Proba E. c)
+
+                                         Matematic M_pedagogic
+
+                                                                                                                   Simulare
+
+Filiera vocaional: profilul pedagogic, specializarea învtor-educatoare                                             (30 de puncte)
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+ ( ) 5p 1. Artai c 2 2 2 - 6 + 2 3 = 4 .
+
+5p 2. Se consider funcia f :  , f ( x) = 2x +1 . Determinai numrul real pozitiv a pentru care
+     f (a) este media geometric a numerelor f (0) i f (4) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2  3x+1 = 18 .
+5p 4. Preul unui produs este 300 de lei. Dup o scumpire cu p% preul produsului devine 360 de lei.
+
+      Calculai p.
+
+5p 5. În reperul cartezian xOy se consider punctele A(-1, 2) , B (1,1) i C (3, m) . Determinai numrul
+
+      real m pentru care punctul C aparine dreptei AB .
+5p 6. Se consider triunghiul ABC dreptunghic în A , AB = 6 i msura unghiului C este egal cu 60o.
+
+      Artai c BC = 4 3 .
+
+SUBIECTUL al II-lea                                                                                                (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = 1 xy - x - y + 6 .
+                                                                                                          3
+
+5p 1. Artai c 1 (-3) = 7 .
+
+5p 2. Artai c e = 6 este elementul neutru al legii de compoziie ,, ".
+
+5p 3. Rezolvai în mulimea numerelor reale pozitive ecuaia x 6 = 1.
+
+5p 4. Determinai numerele naturale n pentru care 2 n  (2n) 1 +1.
+
+5p 5. Demonstrai c x y = 1  ( x - 3)( y - 3) + 3 , pentru orice numere reale x i y .
+
+                                      3
+
+5p 6. Calculai 1 2 ... 2023 .
+
+SUBIECTUL al III-lea                                                                                               (30 de puncte)
+
+    Se  consider  matricele  A  =    -1  2    ,  B(a)  =  a  +     2       1     ,  I2  =  1      0    ,  unde  a  este un numr  real.
+                                     2                       1                                    1  
+                                         1                                 a                 0       
+                                                                                           
+
+5p 1. Artai c A A = 5I2 .
+
+5p 2. Determinai numerele reale a pentru care det (B(a) + A) = 0 .
+
+5p 3. Demonstrai c B (q -1) este inversabil pentru orice numr raional q .
+
+5p  4. Determinai numerele reale     a   pentru care   B  (  a  )    B  (  a  )  =  B     5    .
+                                                                                          4  
+
+5p 5. Determinai numerele reale pozitive x pentru care B(log2 x) - B (log4 x) = I2 .
+
+5p 6. Determinai matricea X  M 2 ( R) pentru care X  B (0) = A .
+
+Prob scris la matematic M_pedagogic                                                                                Simulare
+Filiera vocaional: profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,92 @@
+                                                       Ministerul Educaiei Naionale
+                                                Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2014                                             (30 de puncte)
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+                                          Simulare pentru elevii clasei a XII-a
+
+     Filiera teoretic, profilul real, specializarea tiine ale naturii
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+ 5p 1. Determinai conjugatul numrului complex z = 1 + i + i2 + i3 + i4 + i5 + i6 .
+
+ 5p 2. Determinai valoarea maxim a funciei f :    , f ( x) = -x2 + 4x - 5 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 - x2 + 3 = x .
+5p 4. Calculai probabilitatea ca alegând un numr din mulimea numerelor naturale de dou cifre, acesta
+
+      s aib cifrele distincte.
+
+5p 5. În reperul cartezian xOy se consider punctele A(2,3) , B (4,0) i C (2,0) . Determinai aria
+
+    triunghiului ABC .
+
+5p 6. Artai c (sin x + cos x)2 + (sin x - cos x)2 = 2 pentru orice numr real x .
+
+SUBIECTUL al II-lea                                                                                                      (30 de puncte)
+
+                                                     11 1
+
+    1. Se consider determinantul D (a,b) = 1 a b , unde a i b sunt numere reale.
+
+                                                     1 a2 b2
+
+5p a) Calculai D (1,0) .
+
+5p b) Artai c D (a,b) = (a -1)(b -1)(b - a) pentru orice numere reale a i b .
+
+5p c) Demonstrai c numrul D (m, n) este par pentru orice numere întregi m i n .
+
+    { } 2. Se consider inelul (6, +,) , unde 6 = 0, 1, 2, 3, 4, 5 .
+
+5p a) Rezolvai în 6 ecuaia 3x + 2 = 5 .
+
+5p b) Determinai mulimea valorilor funciei f : 6  6 , f ( x) = x3 - x .
+
+{ } 5p c) Determinai numrul elementelor mulimii H = x10 | x  6 .
+
+SUBIECTUL al III-lea                                                                                                     (30 de puncte)
+
+    1. Se consider funcia             f : (0, + )   ,             f  (x)  =  1  +  ln      x  .
+                                                                             x
+
+5p  a) Calculai lim         f (x) - f (2)       .
+
+                        x2      x-2
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 1 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c f ( x)  1 pentru orice x (0, + ) .
+
+    2. Se consider funcia             f  : (-1,+)              ,  f  (x)  =   x2        .
+                                                                             x +1
+
+                             1
+
+5p a) Calculai  ( x +1) f ( x) dx .
+
+                             0
+
+                             e
+
+5p b) Calculai  ( x +1) f ( x)ln x dx .
+
+                 1
+
+5p  c) Artai c      F       (e  - 1)  =  e2  -  4e  +  7  ,  unde    F : (-1, +)                 este primitiva funciei  f  pentru care
+                                                2
+
+    F (0) =1.
+
+Prob scris la matematic M_t-nat                                                                  Simulare pentru elevii clasei a XII-a
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

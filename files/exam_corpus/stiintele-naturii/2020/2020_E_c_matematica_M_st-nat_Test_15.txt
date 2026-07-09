@@ -1,0 +1,90 @@
+                                                  Ministerul Educaiei i Cercetrii
+                                             Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat                                                     Test 15
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+5p 1. Artai c 2  3i2  i 5i 12 , unde i2  1.
+
+5p 2. Se consider funcia f :  , f  x  x  a . Determinai numrul real a , astfel încât
+
+     f f  x  f  x  1 , pentru orice numr real x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 5 2x1  3x  12  5x .
+
+5p 4. Determinai numrul funciilor f : 1,2,3  1,2,3,4, care au proprietatea f 1  3 .
+
+5p 5. În reperul cartezian xOy , se consider rombul ABCD cu A1,3 i C 2,4 . Determinai panta
+
+    dreptei BD .
+
+5p  6. Determinai    x      0,       ,  astfel    încât  cos  2x  cos     x                 sin  2x  sin          x    .
+                                2                                              6                            6        
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+    1. Se consider matricea          A    x         2x   0
+                                                    0    3x  , unde x este numr real.
+
+5p a) Artai c det  A x  6x , pentru orice numr real x .
+
+5p  b) Determinai numrul real             x , tiind c    A    x         1    1              1  1     A  x    .
+                                                                        0    1              0  1
+                                                                                          
+
+5p c) Demonstrai c, orice matrice X  2   cu proprietatea c X  X  A1 are dou elemente
+
+    numere iraionale.
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y  x2  xy  y2 .
+
+5p a) Artai c x x  0 , pentru orice numr real x .
+5p b) Se consider numerele reale a i b cu a  b . Determinai numrul real x pentru care x a  x b .
+
+5p c) Determinai numrul real x cu proprietatea c x  x 1  x3 .
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+    1. Se consider funcia f : 1,   , f  x  2x   x  1ln  x  1 .
+
+5p a) Artai c f ' x  1 ln  x 1 , x  1,  .
+
+5p b) Determinai intervalele de monotonie ale funciei f .
+
+5p c) Demonstrai c funcia f este concav.
+
+    2. Se consider funcia f :  , f  x  x  ex .
+
+5p  a)  Artai  c  1  f   xdx       3    e      .
+                                   2
+                  
+
+                  0
+
+                             1
+
+5p b) Calculai  xf  xdx .
+
+                  0
+
+                                                                                                                         1
+
+5p c) Pentru fiecare numr natural nenul n , se consider numrul In   xn  x  f  xdx . Demonstrai
+
+                                                                                                            0
+
+    c In  nIn1  e , pentru orice numr natural n , n  2 .
+
+Prob scris la matematic M_t-nat                                                                                           Test 15
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

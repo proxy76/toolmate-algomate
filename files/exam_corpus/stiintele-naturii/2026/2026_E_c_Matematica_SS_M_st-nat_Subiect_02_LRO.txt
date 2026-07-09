@@ -1,0 +1,99 @@
+                                                    Ministerul Educaiei i Cercetrii
+                                            Centrul Naional pentru Curriculum i Evaluare
+
+                                         Examenul naional de bacalaureat 2026
+                                                           Proba E. c)
+
+                                                    Matematic M_t-nat                                                                     Varianta 2
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                         (30 de puncte)
+
+( ) ( ) 5p 1. Artai c 2 2 3 + 2 + 3 1- 2 2 = 7 .
+
+5p 2. Se consider funcia f :    , f ( x) = 3x -10 . Determinai numrul real a pentru care
+
+    f (2a) = f (a) - 3.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x2 - 6x + 5 = x 3 .
+
+5p 4. Determinai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+      acesta s aib suma cifrelor cel mult egal cu 3 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0,3) , B (1,5) i C (6,0) . Artai c triunghiul
+
+    ABC este dreptunghic în A .
+
+5p  6.  Se  consider  expresia          E ( x) = cos x  sin 3x - sin 2x ,                unde        x  este  numr     real. Artai  c  E         =0.
+                                                                                                                                            6  
+
+SUBIECTUL al II-lea                                                                                                                 (30 de puncte)
+
+    1.  Se consider matricele                  =  1           0     i     A(x)   =       2x +  1     0     ,  unde     este  numr  real.
+                                         I2                                               4x         +  1           x
+                                                     0        1                                   x
+
+5p a) Artai c det ( A(1)) = 6 .
+
+5p b) Determinai numrul real x pentru care A(-2)  A(1) - 4I2 = A( x) .
+
+5p  c) Demonstrai c          det     A(  x  )  +           1     -  2  I  2      8  ,  pentru  orice    numr  real     nenul  x.
+                                                  A        x                 
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = x2 - xy - x + 2 y + 1.
+
+5p a) Artai c 1 1 = 2 .
+
+5p b) Determinai numerele reale x pentru care x (2x) = 1.
+
+5p c) Determinai perechile (m,n) de numere naturale pentru care m n = m .
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+    1. Se consider funcia f : (0,+)   , f ( x) = ( x -1) x + 2 .
+
+                                                                                 x
+
+5p  a) Artai c    f   '(  x)  =  3x2 -      x-    2     ,  x (0, +) .
+                                    2x       x
+
+5p  b) Artai c lim            x   f '(x)      =   1  .
+                              5x                  2
+                         x1       -5
+
+5p c) Determinai imaginea funciei f .
+
+    ( ) 2. Se consider funcia f :    , f ( x) = x2 + x ex .
+
+5p  a) Artai  c  1    f  (x   )  dx  =  5  .
+                                        6
+                         ex
+
+                 0
+
+5p  b) Artai  c  2    f   (x)        = e(2e -1) .
+
+                              dx
+                  1x
+
+Prob scris la matematic M_t-nat                                                                                                             Varianta 2
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+            Ministerul Educaiei i Cercetrii
+    Centrul Naional pentru Curriculum i Evaluare
+
+5p  c) Determinai numrul real  a  pentru care  4  xf (x)                                dx  =  ae ( 5  +  ln  3)  .
+                                                  f ( x -1)
+                                               
+
+                                               2
+
+Prob scris la matematic M_t-nat                                                                                      Varianta 2
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

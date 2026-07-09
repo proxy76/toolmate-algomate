@@ -1,0 +1,150 @@
+                                          Ministerul Educaiei Naionale
+                                   Centrul Naional de Evaluare i Examinare
+
+                                   Examenul de bacalaureat naional 2014
+                                                     Proba E. c)
+
+                                              Matematic M_t-nat
+                                     Simulare pentru elevii clasei a XII-a
+
+                                   Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+1. z = 1+ i -1 - i +1 + i -1 =                                                                3p
+
+      = i  z = -i                                                                             2p
+
+2.  = -4                                                                                      2p
+
+      Valoarea maxim a funciei f este -  = -1                                                 3p
+                                          4a
+
+3. 3 - x = x2 + 3  9 - 6x + x2 = x2 + 3                                                       3p
+
+      x = 1 , care verific ecuaia                                                             2p
+
+4. Sunt 81 de numere naturale de dou cifre care au cifrele distincte, deci sunt 81 de cazuri  2p
+     favorabile
+
+      Sunt 90 de numere naturale de dou cifre, deci sunt 90 de cazuri posibile                1p
+
+      p = nr. cazuri favorabile = 81 = 9                                                      2p
+            nr. cazuri posibile 90 10
+
+5. AC = 3, BC = 2 i m(C ) = 90°                                                               3p
+
+      AABC   =  AC  BC  =3                                                                    2p
+                    2
+
+6. (sin x + cos x)2 = 1 + 2sin x cos x                                                        2p
+
+      (sin x - cos x)2 = 1- 2sin x cos x  (sin x + cos x)2 + (sin x - cos x)2 = 2             3p
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+                                                                                                      2p
+1.a)            11 1
+
+      D (1,0) = 1 1 0 =
+
+                11 0
+
+      =0                                                                                      3p
+
+b)              10              0
+
+      D(a,b) = 1 a -1 b -1 =                                                                  2p
+
+                1 a2 -1 b2 -1
+
+                   10 0
+
+      = (a -1)(b -1) 1 1 1 = (a -1)(b -1)(b - a) , pentru orice numere reale a i b            3p
+
+                   1 a +1 b+1
+
+c) D(m,n) = (m -1)(n -1)(n - m)                                                               1p
+
+      m i n au aceeai paritate  n - m este numr par, deci D (m, n) este par                   2p
+
+      m i n au pariti diferite  m -1 i n -1 au pariti diferite  (m -1)(n -1) este numr par,
+
+      deci D (a,b) este par                                                                   2p
+
+2.a) 3x = 3                                                                                   2p
+
+      x1 = 1 , x2 = 3 , x3 = 5                                                                3p
+
+Prob scris la matematic M_t-nat                                                         Simulare pentru elevii clasei a XII-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                              Ministerul Educaiei Naionale
+                                                       Centrul Naional de Evaluare i Examinare
+
+b) 0 3 = 0, 13 = 1, 2 3 = 2, 33 = 3, 4 3 = 4, 53 = 5                                                                         3p
+
+      { } Deci Im f = 0                                                                                                      2p
+
+c) x3 = x  x10 = x2 , pentru orice x  6                                                                                      2p
+
+      { } { } H = x2 | x  6 = 0, 1, 3, 4 , deci mulimea H are 4 elemente                                                     3p
+
+SUBIECTUL al III-lea                                                                                     (30 de puncte)
+                                                                                                                       2p
+1.a)  f  (x) = -     1    +  1     ,  x (0, +)
+                     x2      x                                                                                         3p
+                                                                                                                       2p
+      lim f (x) - f (2) = f (2) = 1                                                                                    3p
+      x2 x - 2                                      4                                                                  2p
+                                                                                                                       2p
+b) f (1) =1 , f (1) = 0                                                                                                1p
+                                                                                                                       2p
+      Ecuaia tangentei este y - f (1) = f (1)( x -1)  y = 1
+                                                                                                                       3p
+c) x (0,1]  f '( x)  0 , deci f este descresctoare pe (0,1]
+
+      x [1, +)  f '( x)  0 , deci f este cresctoare pe [1, +)
+
+      f (x)  f (1)  f (x)  1 pentru orice x  (0, +)
+
+2.a) 1                             1
+       (x +1) f (x)dx =  x2dx =
+
+      0                            0
+
+      = x3 1 = 1
+         30 3
+
+b) e                                        e
+       ( x +1) f ( x)ln x dx =  x2 ln x dx =
+                                                                                                                             2p
+
+      1                                     1
+
+       =   x3    ln  x    e  -  e  x2    dx    =  2e3 +  1                                                                   3p
+           3              1     1  3                 9
+
+c)        x2 dx                             1              x2  - x + ln ( x +1) + C       F(x) =  x2     x + ln ( x +1) + c
+         x +1                               +              2                                      2
+                     =       x  -1    +  x     1    dx  =                                             -                      3p
+
+      F (0) =1 c =1                                                                                                          1p
+
+      F (e -1) = e2 - 4e + 7                                                                                                 1p
+                                2
+
+Prob scris la matematic M_t-nat                                                                          Simulare pentru elevii clasei a XII-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

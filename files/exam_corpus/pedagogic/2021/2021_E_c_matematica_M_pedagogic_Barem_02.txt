@@ -1,0 +1,135 @@
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2021
+                                                            Proba E. c)
+
+                                                         Matematic
+                                     BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                Testul 2
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                  (30 de puncte)
+
+1.  log3  6  +  log3  2  -  log3  4  =  log3    62    =                                                         3p
+                                                 4
+
+    = log3 3 = 1                                                                                                2p
+
+2. f (m) = 3m - 4                                                                                               2p
+
+    f (m) = m  3m - 4 = m  m = 2                                                                                3p
+
+3. 22x = 2x2-3  2x = x2 - 3  x2 - 2x - 3 = 0                                                                    3p
+
+    x = -1 sau x = 3                                                                                            2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                           2p
+     posibile
+
+    În mulimea numerelor naturale de dou cifre, numerele care au suma cifrelor egal cu 9                        2p
+    sunt: 18 , 27 , 36 , 45 , 54 , 63 , 72 , 81 i 90 , deci sunt 9 cazuri favorabile
+
+    p = nr. cazuri favorabile = 9 = 1                                                                           1p
+          nr. cazuri posibile 90 10
+
+5. B este mijlocul segmentului AM , deci 1 = -3 + xM i 3 = 5 + yM                                               3p
+                                                                    2         2
+
+    xM = 5 , yM = 1                                                                                             2p
+
+6.  (cos120°    -  sin 30°)2      =    -  1  -  1  2  =
+                                          2     2  
+                                                         1                                                      2p
+
+    cos2  30°   +  cos2  60°  =        3  2   +    1  2  =1,  deci  (cos120° - sin 30°)2 = cos2 30° + cos2 60°  3p
+                                       2           2  
+
+SUBIECTUL al II-lea                                                                          (30 de puncte)
+
+1. 4  2021 = 4  2021- 4(4 + 2021) + 20 =                                                                        3p
+
+    = -16 + 20 = 4                                                                                              2p
+
+2. x  y = xy - 4( x + y) + 20 = yx - 4( y + x) + 20 =                                                           3p
+
+    = y  x , pentru orice numere reale x i y , deci legea de compoziie ,, " este comutativ                      2p
+
+3. x  y = xy - 4x - 4 y + 16 + 4 =                                                                              3p
+
+    = x( y - 4) - 4( y - 4) + 4 = ( x - 4)( y - 4) + 4 , pentru orice numere reale x i y                        2p
+
+4. ( x - 4)( x - 8) + 4 = x  ( x - 4)( x - 9) = 0                                                               3p
+
+    x = 4 sau x = 9                                                                                             2p
+
+5. Cum x  6 i y  6 , obinem x - 4  2 i y - 4  2 , deci ( x - 4)( y - 4)  4                                      3p
+
+    ( x - 4)( y - 4) + 4  8  x  y  8 , pentru orice numere reale x i y , cu x  6 i y  6                         2p
+
+6. x  4 = 4 , 4  y = 4 , pentru orice numere reale x i y                                                        2p
+
+    ( ) ( ) ( ) 12  22  32 ... 20212 = 12  4  32  42 ... 20212 = 4  32  42 ... 20212 = 4                        3p
+
+Prob scris la matematic M_pedagogic                                                                             Testul 2
+Barem de evaluare i de notare
+
+                                                              Pagina 1 din 2
+                                                                       Ministerul Educaiei
+                                                     Centrul Naional de Politici i Evaluare în Educaie
+
+SUBIECTUL al III-lea                                                                                                   (30 de puncte)
+                                                                                                                                    3p
+1. det A = -2 1 = -2  0 -1 3 =                                                                                                      2p
+                30                                                                                                                  3p
+                                                                                                                                    2p
+    = 0 - 3 = -3                                                                                                                    3p
+                                                                                                                                    2p
+2.  M  (6)      =    6       3       , deci      A   +  M     (  6)  =     -2 + 6     1  +    3    =                                2p
+                     1       4                                              3+1       0  +    4                                     3p
+                                                                                                                                    2p
+    =    4      4    =     1         1
+         4      4         4 1        1                                                                                              3p
+
+3.  det (M ( x)) = x                      3      =   x(x      -  2)   -3=                                                           2p
+                                          -2                                                                                        3p
+                     1                 x
+
+    = x2 - 2x - 3 = ( x +1)( x - 3) , pentru orice numr real x
+
+4.  A  +  M     (  2)  =        -2      1     +    2     3       =    0      4        det  (  A  +  M   (2))  =  -16
+                                3       0          1     0            4      0  
+
+    9 - a2 = -16  a2 = 25 , de unde obinem a = -5 sau a = 5
+
+5.     (     )         (     )       x2    +  3          6x - 6                                         4  0
+                                     2x    -  2          - 4x +                                         0  4 
+    M     x       M       x     =                    x2                      ,  x ,        4I2     =
+
+                                                                        7
+
+      x2  +     3          6x - 6               =    4     0                                  x = 1 , care convine
+      2x  -     2         2 - 4x +                   0     4  , de unde obinem
+                     x                    7
+
+6.  M  (  n)    +  M      (  n  +  1)  +   M    (n   +  2  )  =     3n +     3      9
+                                                                      3           3n - 3
+
+     3n + 3            9             =     3    2022             9              deci  n  =    2021,     care  convine
+     3               3n -                       3             3  2020  ,
+                                3
+
+Prob scris la matematic M_pedagogic                                                                                    Testul 2
+Barem de evaluare i de notare
+
+                                                                                  Pagina 2 din 2
+

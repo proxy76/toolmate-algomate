@@ -54,29 +54,23 @@ INSTITUTION = ["Ministerul Educației și Cercetării",
                "Centrul Național de Politici și Evaluare în Educație"]
 
 PROFILE_LABELS = {
-    "M1": ("Matematică M_mate-info", "Probă scrisă la matematică M_mate-info",
+    "mate-info": ("Matematică M_mate-info", "Probă scrisă la matematică M_mate-info",
            "Filiera teoretică, profilul real, specializarea matematică-informatică; "
            "Filiera vocațională, profilul militar, specializarea matematică-informatică"),
-    "M2": ("Matematică M_șt-nat", "Probă scrisă la matematică M_șt-nat",
+    "stiintele-naturii": ("Matematică M_șt-nat", "Probă scrisă la matematică M_șt-nat",
            "Filiera teoretică, profilul real, specializarea științe ale naturii"),
-    "M3_pedagogic": ("Matematică M_pedagogic", "Probă scrisă la matematică M_pedagogic",
-                     "Filiera vocațională, profilul pedagogic, specializarea învățător-educatoare"),
-    "M3_tehnologic": ("Matematică M_tehnologic", "Probă scrisă la matematică M_tehnologic",
+    "tehnologic": ("Matematică M_tehnologic", "Probă scrisă la matematică M_tehnologic",
                       "Filiera tehnologică: profilul servicii, toate calificările profesionale; "
                       "profilul resurse, toate calificările profesionale; profilul tehnic, "
                       "toate calificările profesionale"),
+    "pedagogic": ("Matematică M_pedagogic", "Probă scrisă la matematică M_pedagogic",
+                     "Filiera vocațională, profilul pedagogic, specializarea învățător-educatoare"),
 }
 
 
 def _profile_key(data: dict) -> str:
-    # Product mapping of the three app profiles to official exam variants:
-    # M1 → mate-info, M2 → tehnologic, M3 → pedagogic (M3 sub-variant overridable).
-    p = data.get("profile", "M1")
-    if p == "M1":
-        return "M1"
-    if p == "M2":
-        return "M3_tehnologic"
-    return "M3_" + data.get("m3_variant", "pedagogic")
+    # Profiles are the official exam-variant slugs directly.
+    return data.get("profile", "mate-info")
 
 
 def _truncate(text: str, n: int) -> str:

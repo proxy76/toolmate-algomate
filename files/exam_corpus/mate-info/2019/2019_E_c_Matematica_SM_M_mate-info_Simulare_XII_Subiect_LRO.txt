@@ -1,0 +1,102 @@
+                                                  Ministerul Educaiei Naionale
+                                           Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2019                                                      Simulare
+                                                          Proba E. c)                                                      (30 de puncte)
+
+                                                 Matematic M_mate-info
+                                                         Clasa a XII-a
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Calculai modulul numrului complex z = (2 - i)(3 + 2i) - 4(1+ i) .
+
+5p 2. Determinai valorile reale ale lui m pentru care x2 - (2m +1) x + m(m -1)  0 , pentru orice numr
+
+      real x .
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2 log2 x - logx 2 = 1 .
+5p 4. Determinai numrul de elemente ale unei mulimi A , tiind c mulimea A are exact 16
+
+    submulimi cu cel mult dou elemente.
+
+5p 5. Se consider triunghiul ABC , punctul M mijlocul laturii BC i punctul N mijlocul segmentului
+
+    AM . Demonstrai c 2 AN + BN + CN = 0 .
+
+5p  6.  Determinai   x        ,      tiind       c    1 + 3cos x  = cos 2x              .
+                           2      ,
+
+SUBIECTUL al II-lea                                                                                      (30 de puncte)
+
+                                                 1    1  1                                               x+ y + z =1
+                                                      2                                                  x + 2 y + az = 2
+    1. Se  consider  matricea    A   (  a  )  =    1  a  a    i   sistemul                 de  ecuaii                      ,  unde  a  este
+                                                   2     4                                             2x + ay + 4z = 3
+
+      numr real.
+
+5p a) Artai c det ( A(a)) = a(3 - a) , pentru orice numr real a .
+
+5p b) Pentru a = 0 , demonstrai c sistemul de ecuaii este incompatibil.
+
+5p c) Determinai numerele întregi a pentru care sistemul de ecuaii are soluie unic ( x0 , y0, z0 ) i x0 ,
+
+    y0 i z0 sunt numere întregi.
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = x2 y2 + x2 + y2 .
+
+( )( ) 5p a) Demonstrai c x y = x2 +1 y2 +1 -1 , pentru orice numere reale x i y .
+
+5p b) Determinai perechile de numere naturale a i b , tiind c a b = 1.
+5p c) Demonstrai c pentru orice numr natural n , n  2 , numrul 1 1 ... 1 nu este natural.
+
+                                                                                                                    1 de n ori
+
+SUBIECTUL al III-lea                                                                                     (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = x2 + 2x + 2 - x +1 .
+
+5p a) Artai c f '( x) = x +1 - x2 + 2x + 2 , x   .
+
+                                       x2 + 2x + 2
+5p b) Determinai ecuaia asimptotei oblice spre - la graficul funciei f .
+5p c) Determinai imaginea funciei f .
+
+Prob scris la matematic M_mate-info                                                                      Simulare pentru clasa a XII-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                       Ministerul Educaiei Naionale
+                                                Centrul Naional de Evaluare i Examinare
+
+    2. Se consider funcia f : (-1,+)   , f ( x) = x ln ( x +1) .
+
+5p  a)  Calculai  2  (3x -     2) f (  x  )  dx  .
+                       ln (    x +1)
+                  
+
+                  1
+
+5p  b)  Artai  c  1  f  ( x)dx    =    1  .
+
+                                       4
+
+                  0
+
+ 5p c)                  1   t     ( x) dx
+        Calculai  lim   t3  0  f             .
+
+                  t0
+
+Prob scris la matematic M_mate-info                                                      Simulare pentru clasa a XII-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,90 @@
+                                                                Ministerul Educaiei
+                                              Centrul Naional de Politici i Evaluare în Educaie
+
+                                              Examenul naional de bacalaureat 2022
+                                                               Proba E. c)
+
+                                                      Matematic M_tehnologic
+
+                                                                                                      Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                           (30 de puncte)
+
+( ) ( ) 5p 1. Artai c 8 +1  2 2 -1 - 36 =1.
+
+5p 2. Se consider funciile f :    , f ( x) = 5x -1 i g :    , g ( x) = 5 + 2x . Determinai
+
+    coordonatele punctului de intersecie a graficelor funciilor f i g .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 + 6x = x .
+
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea A = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} ,
+
+      numrul 4  n s fie element al mulimii A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(2,1) , B (3, 4) i C , astfel încât punctul A este
+
+      mijlocul segmentului BC . Artai c triunghiul AOC este dreptunghic isoscel.
+5p 6. Se consider triunghiul ascuitunghic ABC în care sin 30°  sin A = cos 60°  cos A . Calculai tg A .
+
+SUBIECTUL al II-lea                                                                                   (30 de puncte)
+
+    1. Se consider matricele               A  =    3  -6    I2  =     1      0   i  B  (a  )  =    0  a - 2
+                                                   2  -3 ,            0      1                     1   3a  , unde a este numr real.
+
+5p a) Artai c det A = 3 .
+
+5p b) Determinai numrul real x pentru care A  A + A = 2B ( x) .
+
+5p c) Determinai numrul real a pentru care det ( B(a)  A + B(3a)) = 4 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y = ( xy +1)( x + y) .
+
+5p a) Artai c 1 2 = 9 .
+5p b) Artai c e = 0 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Determinai numerele naturale nenule n pentru care numrul N = n  1 este întreg.
+                                                                                             n
+
+SUBIECTUL al III-lea                                                                                  (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = ( x -1)ex - x2 .
+
+                                                                         2
+
+( ) 5p a) Artai c f '( x) = x ex -1 , x   .
+
+5p  b) Artai  c  lim            f  ( x) -  f  (0)  =0.
+
+                 x0                   x2
+
+( ) 5p c) Artai c f ( x)  f x2 , pentru orice x (-,0] .
+
+    2. Se consider funcia          f       : (- 4, +)   ,       f  (  x)  =   4x    .
+                                                                             x+4
+
+                              2
+
+5p a) Artai c  ( x + 4) f ( x) dx = 6 .
+
+                 1
+
+( )  5p b) Artai c 4 1  f x2 dx = 4ln 2 .
+                      1x
+
+5p c) Demonstrai c orice primitiv a funciei f este convex.
+
+Prob scris la matematic M_tehnologic                                                                  Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                            Pagina 1 din 1
+

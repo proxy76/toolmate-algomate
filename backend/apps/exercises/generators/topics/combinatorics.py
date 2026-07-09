@@ -353,7 +353,11 @@ def _p4_set_range_ineq(rng):
         rf"Rezolvați inegalitatea în mulțimea $A$ (${len(fav)}$ soluții din ${total}$).")
 
 
-_POS4_M2 = [_p4_set_multiples, _p4_set_range_ineq, _p4_percentage]
+# M_tehnologic / M_șt-nat pos-4: probability over a small explicit set, a practical
+# percentage, and the 2-digit-number probability family (all difficulty-1 clean).
+_POS4_M2 = [_p4_set_multiples, _p4_set_range_ineq, _p4_percentage,
+            _p4_two_digit_div, _p4_two_digit_units, _p4_two_digit_divisor,
+            _p4_2digit_sum_div3, _p4_2digit_div9]
 
 _TIERS = {
     1: [_d1_arrangements, _d1_combinations, _d1_factorial] + _POS4,
@@ -364,12 +368,16 @@ _TIERS = {
 
 class CombinatoricsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "combinatorics"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        if self.profile == "M3":
+        if self.profile == "pedagogic":
             return {1: _TIERS[1]}
-        if self.profile == "M2":
+        if self.profile == "tehnologic":
             # M_tehnologic pos-4: probability over a small explicit set + percentage.
             return {1: _POS4_M2, 2: _POS4_M2}
+        if self.profile == "stiintele-naturii":
+            # M_șt-nat pos-4 blends the digit-condition probability/counting family
+            # with the explicit-small-set / percentage forms.
+            return {1: _POS4_M2 + _TIERS[1], 2: _TIERS[2], 3: _TIERS[3]}
         return _TIERS

@@ -1,0 +1,174 @@
+                                                              Ministerul Educaiei Naionale
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2019
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                                          Clasa a XI-a
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I
+· Pentru fiecare rspuns se acord fie 5 puncte, fie 0 puncte.
+· Nu se acord punctaje intermediare.
+SUBIECTUL al II-lea i SUBIECTUL al III-lea
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+
+SUBIECTUL I                                                                                                                  (30 de puncte)
+
+1. B                                                                                                                                 5p
+
+2. A                                                                                                                                 5p
+
+3. C                                                                                                                                 5p
+
+4. D                                                                                                                                 5p
+
+5. A                                                                                                                                 5p
+
+6. A                                                                                                                                 5p
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+1.a)                   0 21
+
+      D (0,1) = 0 0 1 =                                                                                                              2p
+
+                       2 31
+
+      =0+0+4-0-0-0= 4                                                                                                                3p
+
+b)                     a 21
+
+      D (a,1) = a a 1 = a2 - 4a + 4 =                                                                                                3p
+
+                       2 31
+
+      = (a - 2)2  0 , pentru orice numr real a                                                                                       2p
+
+c) D (m, n) = m2 + m + 4n2 - 5mn , unde m i n sunt numere întregi impare                                                             2p
+
+      Cum m i n sunt numere întregi impare, m2 este impar, 4n2 este par i 5mn este impar,                                            3p
+
+      deci numrul întreg D (m, n) este impar, de unde obinem c D (m, n)  0
+
+2.a)                              -x 1 x   x 1 -x 0 2 0
+                                                                                                
+      A(-x)      +  A(x)       =    1        0     1    +    1    0  1    =       2    0     2    =                                  3p
+
+                                   x 1 -x   -x 1 x   0 2 0 
+
+            0 1 0
+                             
+      =  2    1     0     1    = 2A(0) ,        pentru  orice   numr  real        x                                                  2p
+              0     1     0
+
+b)                            2xy +1 0 -2xy +1                                        2xy 1 -2xy 
+
+      A(     )  A(     )  =        0            2        0        ,  A ( 2 xy  )  =      1      0     1       pentru  orice  numere
+          x         y          -2xy             0     2xy +                            -2xy     1    2xy   ,
+
+                                       +  1                  1                                                                       2p
+
+      reale x i y
+
+Prob scris la matematic M_mate-info                                                                                   Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                      Ministerul Educaiei Naionale
+                                                               Centrul Naional de Evaluare i Examinare
+
+                                                    1 -1 1                                                             1 -1 1
+                                                                     -11
+      A(  x  )  A(     y  )  -     A(  2xy   )  =    -1     2                  det ( A( x)  A( y)  -  A ( 2 xy ) )  =  -1  2   -1 = 0 , pentru
+                                                     1      -1                                                         1   -1  1
+                                                                                                                                                3p
+
+      orice numere reale x i y
+
+c)                                     2 0 0
+                   A                                  
+      A(  x  )            1        =     0    2    0     =  2I3   ,  pentru    orice   numr     real nenul    x                                 3p
+                          2x             0    0    2
+
+      2I3 + 2I3 + ... + 2I3 = 4038I3 , deci m = 4038                                                                                            2p
+
+             de 2019 ori 2I3
+
+SUBIECTUL al III-lea                                                                                                               (30 de puncte)
+
+1.a)                                                                 x      +  1  
+                                                                        1      x  
+       lim         f   (  x)    =   lim       x +1      =    lim               2    =                                                           3p
+                                              x+2                              x  
+      x +                          x+                       x +      x  1   +
+
+                       1+ 1
+                              x
+      =    lim                2    =1                                                                                                           2p
+          x + 1 +
+                                x
+
+b)    an  =     n +1         ,  deci      an    >0,   pentru         orice  numr       natural   n,  n  1                                       2p
+                n+2
+
+      Cum          an  =1-         n   1  2  <1,     pentru     orice      numr     natural  n,    n 1,    irul     (an )n1  este  mrginit      3p
+                                       +
+
+( ) c)                                                         n( f (n) -1) =                    n +1   -   
+     c) lim n                                                                                n   n+2       1
+            n+                                                                                                                                  2p
+                                   f (n) -1        =    lim                            lim                    =
+                                                      n+ f (n) +1 n+ f (n) +1
+
+                                       -n                   =-1
+      ( ) = lim
+         n+ (n + 2) f (n) +1 2                                                                                                                  3p
+
+2.a) Pentru orice numr real a , funcia f este continu pe (-,0) i pe (0,+)                                                                       2p
+
+      lim       f  (  x)  =     lim       a  +   sin  x     =  a  +  1  ,  lim f    ( x) = lim     x2 + 2x = 0 i       f (0) = 0 , deci funcia
+                                                   x                                         x0
+      x0                        x0                                         x0                                                                   3p
+      x< 0                      x< 0                                       x>0         x>0
+
+      f este continu pe   a = -1
+
+b) a = 1 f ( x) = 1+ sin x , x (-,0)                                                                                                            1p
+                                                x
+
+      sin x  1 i lim 1 = 0                                                                                                                      2p
+          x | x | x- | x |
+
+      Obinem lim f ( x) = 1 , deci dreapta de ecuaie y = 1 este asimptot orizontal spre - la
+                          x-                                                                                                                    2p
+
+      graficul funciei f
+
+c) f (0) = 0 , lim f ( x) = + i f este continu pe [0,+) , deci mulimea valorilor funciei
+                              x +
+                                                                                                                                                3p
+      f conine intervalul [0,+)
+
+      Cum pentru orice numr real a , a [0,+) , ecuaia f ( x) = a are cel puin o soluie                                                          2p
+
+Prob scris la matematic M_mate-info                                                                                            Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

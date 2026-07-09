@@ -1,0 +1,104 @@
+                                                 Ministerul Educaiei
+                               Centrul Naional de Politici i Evaluare în Educaie
+
+                               Examenul naional de bacalaureat 2022
+
+                                                      Proba E. c)
+
+                                                Matematic M_t-nat
+
+                                                                                                                Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                     (30 de puncte)
+
+5p 1. Calculai termenul b4 al progresiei geometrice (bn )n1, tiind c b1 = 2 i b2 = 4 .
+5p 2. Se consider funcia f :    , f ( x) = mx2 - 2x +1, unde m este numr real nenul. Determinai
+
+      numrul real nenul m pentru care axa Ox este tangent graficului funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x+2 - 3x - 6  3x-1 = 6 .
+5p 4. Se consider mulimea A , a numerelor naturale de dou cifre. Determinai probabilitatea ca,
+
+     alegând un numr n din mulimea A , numrul 2n - 60 s aparin mulimii A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(-1, 4) , B (5, 2) i C , mijlocul segmentului AB .
+
+     Determinai ecuaia dreptei d care trece prin punctul C i este perpendicular pe dreapta AB .
+5p 6. Se consider triunghiul isoscel ABC , cu msura unghiului A egal cu 120° i AB = 6 . Artai c
+
+      aria triunghiului ABC este egal cu 9 3 .
+
+SUBIECTUL al II-lea                                                                                             (30 de puncte)
+
+    1.  Se consider matricele  I2  =     1   0     A  =             0   1   i      B ( x) = xI2 + iA , unde  x  este numr real i
+                                         0   1  ,                   -1  0 
+
+      i2 = -1.
+5p a) Artai c det A = 1.
+
+5p b) Determinai numrul real x pentru care B (3)  B (5) = 8B ( x) .
+
+5p c) Determinai perechile (m, n) de numere întregi pentru care matricea B(m) + iB(n) nu este
+
+    inversabil.
+
+    2. Pe mulimea M = [1,+) se definete legea de compoziie x  y = xy - ( x -1)( y -1) .
+
+5p a) Artai c 2  5 = 8 .
+5p b) Artai c e = 1 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Demonstrai c (nx)  y  x (n  y) , pentru orice x, y  M i orice numr natural n , n  2 .
+
+SUBIECTUL al III-lea                                                                                            (30 de puncte)
+
+    1. Se consider funcia  f : (0, +)   ,          f  (x)           =   4    x  .
+                                                                        x2  +3
+(( )) 5p
+    a) Artai c f '( x) =   6   1- x2     2   ,  x (0, +) .
+                           x   x2 + 3
+
+5p b) Determinai a (0, +) , tiind c tangenta la graficul funciei f în punctul A(a, f (a)) este
+
+    paralel cu axa Ox .
+
+5p  c) Demonstrai c       x>          x+1                                   x (1,+) .
+                      x2 + 3              x , pentru orice
+                                         1
+                               x2     +  x2  +5
+
+Prob scris la matematic M_t-nat                                                                                 Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                      Pagina 1 din 2
+                                             Ministerul Educaiei
+                           Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia  f :,    f  (  x)  =  ex  + 2x  .
+                                                    ex
+
+                              1
+
+5p a) Artai c  ex f ( x) dx = e .
+
+    0
+
+                              0
+
+5p b) Artai c  f ( x) dx = -1 .
+    -1
+
+5p  c) Determinai numrul real a    pentru care       1  F    (                          x)  f  ''(  x)  dx  =  a  (e +  1)  ,  unde  F :    este
+
+                                                                                                                   e2
+
+    primitiva funciei f cu proprietatea F (0) = 0 .  0
+
+Prob scris la matematic M_t-nat                                                                                                      Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,79 @@
+                                                  Ministerul Educaiei i Cercetrii
+                                          Centrul Naional pentru Curriculum i Evaluare
+
+                                       Examenul naional de bacalaureat 2026
+                                                         Proba E. c)
+
+                                                Matematic M_pedagogic
+
+                                                                                                                                  Varianta 7
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                   (30 de puncte)
+
+( ) 5p 1. Artai c 6 2 + 3 6 - 36 - 24 = 12 .
+
+5p 2. Se consider funcia f :    , f ( x) = 4x +16 . Determinai abscisa punctului de intersecie a
+
+      graficului funciei f cu axa Ox .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 + 3x -15 = x .
+
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea A = {0,1, 2,..., 9} , n3 s fie numr
+
+      natural de dou cifre.
+
+5p 5. În reperul cartezian xOy se consider punctele A(2, 4) i B (5, 2) . Determinai distana dintre
+
+      punctele B i M , unde M este mijlocul segmentului OA .
+
+5p 6. Artai c 3 sin 30° + 2 cos 60° - sin 60° = 1 .
+
+SUBIECTUL al II-lea                                                                                                           (30 de puncte)
+
+    Pe mulimea numerelor reale se                 definete legea de compoziie                         xy =  xy   +8- x -  y.
+                                                                                                            4
+
+5p 1. Artai c 1 4 = 4 .
+
+5p 2. Determinai numrul real x pentru care x  5 = 6 .
+
+5p  3. Artai c          xy =  1  (  x  -  4)(  y  -  4)  +  4  ,  pentru        orice    numere    reale    x i  y.
+                              4
+
+5p 4. Artai c, dac x i y sunt numere reale pentru care x  ( y +1) = ( x -1)  y , atunci x + y = 8 .
+
+5p 5. Artai c, dac x [4, +) i y [4,+) , atunci x  y [4,+) .
+
+( ) 5p 6. Determinai perechile (m, n) de numere naturale pentru care 4m  (n + 1) = 22m -1  n .
+
+SUBIECTUL al III-lea                                                                                                          (30 de puncte)
+
+    Se consider matricele           A  =  9       6      i  B     (  x  )  =    x  +  2     3      ,  unde     este  numr  real.
+                                                  -1                               2        -  2            x
+                                            4                                            x
+
+5p 1. Artai c det ( B(4)) = 6 .
+
+5p 2. Artai c 2B(3) + B(6) = 3B(4) .
+
+5p 3. Determinai numrul real a pentru care B(-2)  B(5) = aB(0) .
+
+5p 4. Determinai numrul întreg m pentru care det (2B (m) - A) < 0 .
+
+5p 5. Determinai perechile (n, p) de numere naturale pentru care B(n)  B(-n) = 2 pI2 , unde
+
+    I2  =  1    0    .
+                1  
+             0     
+
+5p 6. Determinai matricea X M2 () pentru care B(4)  X = 2A .
+
+Prob scris la matematic M_pedagogic                                                                                               Varianta 7
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                         Pagina 1 din 1
+

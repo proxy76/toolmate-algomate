@@ -1,0 +1,181 @@
+                                                                Ministerul Educaiei
+                                              Centrul Naional de Politici i Evaluare în Educaie
+
+                                              Examenul naional de bacalaureat 2024
+                                                                Proba E. c)
+
+                                                         Matematic M_mate-info
+
+                                           BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                               Model
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                              (30 de puncte)
+
+1. 21 2i  i 4  i  2  4i  4i  i2                                                                                                3p
+
+       2  1  1                                                                                                                 2p
+
+2. f 3  3  9  3a  a  3                                                                                                         3p
+
+      a  6                                                                                                                     2p
+
+3. x2  8  8  2x , de unde obinem x2  2x  0                                                                                     3p
+
+      x  2 sau x  0 , care convin                                                                                              2p
+
+4. Cifra zecilor se poate alege în 2 moduri                                                                                    2p
+
+      Pentru fiecare alegere a cifrei zecilor, cifra unitilor se poate alege în câte 4 moduri, deci                            3p
+
+      se pot forma 2  4  8 numere
+
+5. OA  3 j , OB  4i                                                                                                            2p
+
+      OC  4i  3 j , deci punctul C are coordonatele 4,3                                                                        3p
+
+6. DC  4                                                                                                                       2p
+
+      BD  3 , deci BC  BD  DC  3  4  7                                                                                         3p
+
+SUBIECTUL al II-lea                                                                                                      (30 de puncte)
+
+1.a)             0 0 1                                     001
+                                  
+      A1            1     1    1         det  A1           1  1    1                                                           2p
+                    1     0    0                           1  0    0
+
+       0  0  0  1  0  0  1                                                                                                     3p
+
+b)                           1 0 0
+                                                       
+      A    a    Ab            b      a     1  a     b                                                                          3p
+                                 0         0     1
+
+          0 0 0  1 0 0
+                                                       
+           a     b     0    a     b        0  1     0      A  a    Ab        I3  ,      pentru  orice  numere  reale  a  i  b  2p
+              0        0       0           0  0     1
+
+c)  A11  A1 ,  A01  A0                                                                                                         2p
+
+                                                                        1 0 0
+             A11   A01, de unde obinem                                                     
+      X                                                            X      1  1          1                                      3p
+                                                                          0  0          1
+
+2.a) 3 5  m3  35  3  3                                                                                                         3p
+
+       m  0  2  3  3 , pentru orice m  0,                                                                                      2p
+
+Prob scris la matematic M_mate-info                                                                                            Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                       Ministerul Educaiei
+                                                     Centrul Naional de Politici i Evaluare în Educaie
+
+b)    x     7       2    x       3    7      3  3         x   33              x,    pentru  orice  x M                                               2p
+            2                         2
+
+      7     x       2    7       3       x    3      3     x     3      3     x  ,   pentru   orice   xM      ,  deci  e 7        este    elementul  3p
+      2                  2                                                                                                 2
+
+      neutru al legii de compoziie ,, "
+
+c) f  x y  3   x  3 y  3  3  3  3   x  3 y  3                                                                                                        2p
+
+          3  3  x  3  3 3  y  3  3   f  x  3 f  y  3  3  f  x f  y , pentru orice
+                                                                                                                         3p
+      x, y  M
+
+SUBIECTUL al III-lea                                                                                                                      (30 de puncte)
+
+1.a)     'x      1          ex  x 1  ex                    
+                                 x 12
+      f                                                                                                                                              3p
+
+         1       xe x                x 12  xex                ,  x 1,                                                                                2p
+                                        x 12
+                 x 12
+
+b)               f  x                                ex            1
+                                            1                    
+       lim          x             lim            x   x     1                                                                                         3p
+
+      x                          x
+
+      lim  f             x       x           lim        ex              0  ,  deci   dreapta  de   ecuaie     y x      este    asimptota  oblic      2p
+                                                        x 1      
+      x                                     x
+
+      spre  la graficul funciei f
+
+c) f ' x  0 , pentru orice x 1,   f este strict cresctoare pe 1, , deci f este 2p
+      injectiv
+      lim f  x   , lim f  x   i f este continu, deci f este surjectiv, de unde
+      x                                     x1                                                                                                       3p
+
+      obinem c f este bijectiv
+
+    2.a)
+      3             x2 1 2 dx  3 xdx                      x2     3                                                                                   3p
+                                                                   
+       f x                                                 21
+
+      1                                       1
+
+       9 1 4                                                                                                                                         2p
+         22
+           1
+b)                            1          x              1  1     x2   1       '          1      1     1
+                                         1              2  0     x2   1                  2    x2      0
+         f  x dx                                 dx                           2  dx                                                                  3p
+          0                                   2                                                    1
+                                 x2
+                              0
+
+      1 1  1                                                                                                                                         2p
+            424
+
+  c)                                              xn1
+             1              xf                1   x2 1       dx    ,  pentru     orice numr      natural   nenul   n                                 2p
+
+      In  xn                      x dx 
+
+             0                                0
+                              1 xn1 1 x4
+                                                             1                              xn2    1     xn4  1
+                                                                                            n2     0     n4   0
+                                                     dx  xn1 1  x2
+
+                                                             0
+          In  In4                                                                    dx                                1          1     
+                                                                                                                                  
+                        0
+                                    x2 1                                                                           n      2    n     4               3p
+
+                2                     ,  pentru   orice      numr          natural     nenul  n
+
+         n  2n  4
+
+Prob scris la matematic M_mate-info                                                                                                                  Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

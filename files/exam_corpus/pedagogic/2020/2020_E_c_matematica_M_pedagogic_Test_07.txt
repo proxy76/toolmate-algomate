@@ -1,0 +1,79 @@
+                                                             Ministerul Educaiei i Cercetrii                                                  Test 7
+                                                       Centrul Naional de Evaluare i Examinare                                      (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Determinai a 2020-a zecimal a numrului 5 .
+                                                               6
+
+5p 2. Se consider funciile f :  , f  x  3x  3 i g :  , g  x  x2 1. Determinai
+    numerele naturale x pentru care f  x  g  x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 5  x  x  1 .
+5p 4. Dac elevii unei clase se aaz câte trei în banc, rmân patru bnci libere, iar dac se aaz câte
+
+      doi în banc, un elev rmâne singur în banc i nu rmân bnci libere. Determinai numrul de bnci
+      din aceast sal de clas.
+
+5p 5. În reperul cartezian xOy se consider punctele A7,0 , B 4,4 i C 2,0 . Calculai distana de
+
+      la punctul C la dreapta AB .
+5p 6. Artai c 3 sin 60  4 sin 60cos 60  cos 60 1 .
+
+                                       3
+
+SUBIECTUL al II-lea                                                                                                                 (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie asociativ x y  2xy  6 x  y  21.
+5p 1. Artai c 1 3  3 .
+5p 2. Demonstrai c x y  2 x  3 y  3  3 , pentru orice numere reale x i y .
+
+5p 3. Verificai dac e  7 este elementul neutru al legii de compoziie ,, ".
+                                2
+
+5p 4. Determinai mulimea numerelor întregi a pentru care a  3 a  3  3 .
+
+5p 5. Determinai numrul real x pentru care x x x  7 .
+
+5p 6. Determinai perechile m, n de numere naturale pentru care m n  5 .
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+    Se  consider  matricele  A    1 2          ,  I2    1 0       ,  O2                 0 0       i    B     1 2         .
+                                             
+                                    0     1               0  1                            0  0                0     1  
+                                                                                                                       
+
+5p 1. Calculai det A .
+
+5p 2. Artai c A2  2A  I2  O2 , unde A2  A  A .
+
+5p 3. Determinai numerele reale m pentru care det m 1 A  m 1.
+
+5p 4. Artai c A  B  B  A  I2 .
+
+5p 5. Demonstrai c, dac X                 2           astfel încât   A X  X  A , atunci                          X       a  b    ,  unde  a  i  b
+                                                                                                                         0
+                                                                                                                            a  
+                                                                                                                               
+
+    sunt numere reale.
+
+5p  6. Determinai numerele reale       x  i    y , tiind c      xA     yB                    5  2      .
+                                                                                             0       
+                                                                                                  5  
+
+Prob scris la matematic M_pedagogic                                                                                                          Test 7
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,178 @@
+                                                        Ministerul Educaiei i Cercetrii
+                                              Centrul Naional de Politici i Evaluare în Educaie
+
+                                              Examenul naional de bacalaureat 2021
+                                                                Proba E. c)
+
+                                                      Matematic M_tehnologic
+
+                                           BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                               Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                            (30 de puncte)
+
+1.      0,  25  10      1       0,  25  10      1        2,5     0,  5  2,5     0,  5                                          2p
+                        2                       2  
+
+       23  6                                                                                                                   3p
+
+2. f 2 1 4  2a 1 1                                                                                                             3p
+
+      a2                                                                                                                       2p
+
+  3. 3x 32 1  30  3x  3                                                                                                        3p
+
+      x 1                                                                                                                      2p
+
+4. 20  500  100 de lei                                                                                                         3p
+      100
+
+      Preul dup scumpire este 500 100  600 de lei                                                                              2p
+
+5. Mijlocul segmentului AB este punctul M 4,3                                                                                  2p
+
+      OM  4  02  3  02  5                                                                                                      3p
+
+6.                    AB  AC                                                                                                   2p
+                         2
+         ABC
+
+       5 10  25                                                                                                                3p
+            2
+
+SUBIECTUL al II-lea                                                                                                    (30 de puncte)
+
+1.a)             13
+      det A   1 2 1 3 
+                 12                                                                                                            3p
+
+       2  3  1                                                                                                                 2p
+
+b)    A     A      4    9
+                   3
+                        7                                                                                                      3p
+                           
+
+                        4 9 3 9 1 0                                
+      A     A    3A                             6                     I2                                                       2p
+                           3    7         3              0    1  
+
+c)    A     X    1      3y      x     3    ,  X    A       1 x       3 2x    ,  unde      x  i  y  sunt numere reale
+                 1      2y      x     2                    y 1       3y  2
+                                                                                                                               2p
+
+      1 3y x  3 1 x 3  2x 2 1 3y  x x  2 1                                                                       unde  obinem
+      1 2y              2                          2               2                        3y          2 ,  de
+                   x              y  1     3y               1                y         x             1                         3p
+
+      x  1 i y  1
+
+2.a) 3 2  43 2  3  2                                                                                                           3p
+
+       24  5  29                                                                                                               2p
+
+Prob scris la matematic M_tehnologic                                                                                   Model
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                     Pagina 1 din 2
+                                                           Ministerul Educaiei i Cercetrii
+                                                 Centrul Naional de Politici i Evaluare în Educaie
+
+b) x y  16xy  4x  4y  16xy  4x  4y 11                                                                                             3p
+                               4                               4
+
+         4x4y 1  4y 1 1 4x 14y 1 1                                                , pentru orice    numere reale         i        2p
+                                                                                                                     x         y
+                            4                                     4
+
+c)                  4x 12 1
+
+      x x                              , pentru orice numr real x                                                                 2p
+
+                            4
+
+      4x 12            1  2  4x 12                       9  3  4x 1  3 ,                de  unde obinem      x    1,     1        3p
+                                                                                                                         2  
+            4
+
+SUBIECTUL al III-lea                                                                                                              (30 de puncte)
+
+1.a)                          1 x2 1  x  2x
+
+        f ' x  ex                                                                                                                 3p
+                                     x2 1 2
+
+                    x2 1 2x2                        1 x2
+                      x2 1 2                        x2 1 2
+           ex                         ex                       ,  x                                                               2p
+
+b)                                                                                      
+
+       lim       f  x        lim       e  x        x           lim       ex       1         0                                     3p
+                                                 x2 1                                   
+      x                     x                                  x                     1  
+                                                                               x
+                                                                                     x
+
+      Dreapta de ecuaie y  0 este asimptota orizontal spre  la graficul funciei f                                                 2p
+
+c) x1,1 1 x2  0  f ' x  0  f este cresctoare pe 1,1  f 1  f  x  f 1 ,
+
+                                                                                                                           3p
+
+   pentru orice x 1,1
+
+      Cum f 1  2  e i f 1  2e 1 , obinem 2  e  f  x  2e 1 , pentru orice x 1,1 2p
+                               2e                         2                       2e                   2
+
+2.a)  2  f  x               2                       x2         2
+                                                    2     x      
+             x      dx       x 1 dx                                                                                               3p
+                                                               1
+      1                     1
+
+            2    2         1      1       5                                                                                       2p
+                           2              2
+
+     b)        1                          1                         1                                  x4    2x3     x2     1
+      V   g2  x dx   x x 12 dx                                                                         4      3      2      0
+                                                                       x3  2x2  x           dx                                    3p
+
+               0                          0                         0
+
+               1      2     1        17                                                                                           2p
+               4      3     2         12
+
+c) e f  x x ln x e                                        e  x2 '                 x2 e e x2 1                     e2 1 e
+                               dx         x  ln  x  dx             ln x dx              ln x            dx            2  x dx     3p
+               x 1                                             2                  2          11     2   x         2        1
+      1                                1                  1
+
+         e2         1   x2  e      e2        e2     1     e2   1 ,   deci    a 1                                                  2p
+                              
+         2 2 21 2 4 4 4
+
+Prob scris la matematic M_tehnologic                                                                                              Model
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                       Pagina 2 din 2
+

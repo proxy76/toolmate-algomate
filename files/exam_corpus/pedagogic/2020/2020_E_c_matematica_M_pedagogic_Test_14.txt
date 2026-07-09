@@ -1,0 +1,67 @@
+                                                             Ministerul Educaiei i Cercetrii                             Test 14
+                                                       Centrul Naional de Evaluare i Examinare                  (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Artai c 48  27  75  108  0 .
+
+5p 2. Determinai coordonatele punctului de intersecie a graficelor funciilor f :  , f  x  3x  2
+
+i g :  , g  x  3  2x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 583x  25 .
+5p 4. Determinai câte numere naturale pare de dou cifre se pot forma cu cifrele 1 , 2 , 3 , 4 i 5 .
+
+5p 5. În reperul cartezian xOy se consider punctele A1, 4 , B 5, 4 i C 5,8 . Artai c triunghiul
+
+      ABC este isoscel.
+5p 6. Calculai E  sin 45  cos 45  cos60  sin2 45  cos2 45 .
+
+SUBIECTUL al II-lea                                                                                             (30 de puncte)
+
+Pe mulimea numerelor reale se definete legea de compoziie x y  xy   x  y   1 .
+
+5p 1. Artai c 1 2020  0 .
+5p 2. Artai c legea de compoziie ,, " este comutativ.
+
+5p 3. Demonstrai c x y   x 1 y 1 , pentru orice numere reale x i y .
+
+5p 4. Determinai numerele reale x pentru care  x 1 x  0 .
+
+5p 5. Artai c x2 x2   x 12  x 12 , pentru orice numr real x .
+
+5p 6. Determinai perechile a,b de numere naturale, tiind c a b  3 .
+
+SUBIECTUL al III-lea                                                                                            (30 de puncte)
+
+Se  consider  matricele   A      2  1   ,  I2      1  0    i                            M x   xI2  A , unde  x  este numr real.
+                                 4  2              0
+                                                      1  
+                                                         
+
+5p 1. Artai c det A  0 .
+
+5p 2. Determinai numerele reale x pentru care det M  x  16 .
+
+5p 3. Artai c M 1  M 0  M 1  3A .
+
+5p 4. Demonstrai c M  x  M  y   xyI2   x  y  A , pentru orice numere reale x i y .
+
+5p 5. Determinai mulimea valorilor reale ale lui x pentru care det M  x  xA  3x  2 .
+
+5p 6. Determinai numrul natural n pentru care M 1  M 2   M n  9M 5 .
+
+Prob scris la matematic M_pedagogic                                                                                              Test 14
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

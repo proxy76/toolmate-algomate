@@ -1,0 +1,98 @@
+                                                        Ministerul Educaiei Naionale
+                                                 Centrul Naional de Evaluare i Examinare
+
+                                           Examenul de bacalaureat naional 2015
+                                                             Proba E. c)
+
+                                                   Matematic M_tehnologic
+
+                                                                                                                                           Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul
+
+tehnic, toate calificrile profesionale
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                         (30 de puncte)
+
+( ) 5p 1. Calculai media aritmetic a numerelor a = 2 5 - 5 i b = 2 5 .
+
+5p 2. Determinai abscisele punctelor de intersecie a graficului funciei f :    , f ( x) = x2 - 4x + 3
+
+      cu axa Ox .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log5 (2x -1) - log5 3 = 0 .
+
+5p 4. Calculai probabilitatea ca alegând un numr din mulimea numerelor naturale de o cifr, acesta s
+      fie multiplu de 3.
+
+5p 5. În reperul cartezian xOy se consider punctele A(2, 4) i B (6, 4) . Determinai coordonatele
+
+    mijlocului segmentului AB .
+
+5p  6.  Artai  c  sin (a + b) =         63    ,  tiind  c        a,  b     0,          ,  sin a  =  3     i  sin b  = 12  .
+                                        65                                     2                    5                 13
+
+SUBIECTUL al II-lea                                                                                                                 (30 de puncte)
+
+    1. Se consider matricea             A  =     2  -2 
+                                                 1  -1 .
+
+5p a) Calculai det A .
+5p b) Determinai numerele reale p pentru care A  A = pA .
+
+5p  c)  Determinai   matricele          B  =     0  b      ,  tiind     c  det (     A+   B)     =  0  ,  unde  b   este  un  numr  real.
+                                                 b  0 
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie dat de x y = -xy + x + y .
+
+5p a) Calculai 1 2015 .
+
+5p b) Artai c x y = -( x -1)( y -1) +1 , pentru orice numere reale x i y .
+
+5p c) Rezolvai în mulimea numerelor reale ecuaia 3x 5x = 1.
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+    1. Se consider funcia             f :,              f     (x)    =     3x  1  .
+                                                                           2+
+                                                                        x
+
+5p  a) Calculai lim f ( x) .
+                        x1
+
+    b) Artai c    f  '(  x)     =  -  3(  x -1)( x +1)        ,  x .
+
+                                           x2 +1 2
+( ) 5p
+
+5p c) Determinai intervalele de monotonie ale funciei f .
+
+    2. Se consider funcia f : R   , f ( x) = x5 + x .
+
+                             1
+
+5p a) Calculai  x5dx .
+                            -1
+
+            ( ) 1
+
+5p b) Artai c  f ( x) - x5 exdx =1.
+
+                  0
+
+5p c) Determinai volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+                                                              (x)- x
+    g :[1, 2]   , definit prin             g(x) =       f
+                                                               x3 .
+
+Prob scris la matematic M_tehnologic                                                                                                       Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                     Pagina 1 din 1
+

@@ -1,0 +1,107 @@
+                                                     Ministerul Educaiei i Cercetrii                                              Test 19
+                                          Centrul Naional de Politici i Evaluare în Educaie                             (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Determinai numerele raionale a i b , tiind c 1  1  a  b 2 .
+                                                                       2 1 3 8
+
+5p  2. Se consider funcia f :               ,    f  x        x2   2  .  Artai           c  f  2020       f      1       3  .
+                                                             x2   1                                           2020  
+
+                                                                                                  2x3
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x  4 2  7 .
+
+5p 4. Determinai numrul de funcii f : 1,2,3  0,1,2 cu proprietatea c f 1  f 2  f 3  0 .
+
+5p 5. În reperul cartezian xOy se consider paralelogramul ABCD cu A1,3 , B 3,5 i C 4,  2 .
+
+    Determinai ecuaia dreptei AD .
+
+5p  6. Determinai  x        ,    ,  tiind   c       tg     2x  1 .
+                         2     
+
+SUBIECTUL al II-lea                                                                                                     (30 de puncte)
+
+                                             1 2 1                                                      x2y  z  2
+                                                                                                       
+    1.  Se consider  matricea    A  a         0     1        3    i  sistemul de           ecuaii        y  3z  4       ,     unde  a  este
+                                              2     1        a  
+                                                                                                       2x  y  az  2
+
+    numr real.
+
+5p a) Artai c det  A1  18 .
+
+5p b) Determinai mulimea valorilor reale ale lui a pentru care sistemul de ecuaii are soluie unic.
+5p c) Pentru a  1 , rezolvai sistemul de ecuaii.
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  2xy  x  y  1.
+
+5p a) Artai c 2  1  1 .
+                          22
+
+5p b) Determinai numrul real a , astfel încât a x  a , pentru orice numr real x .
+
+5p c) Se consider funcia f :  , f  x  2x 1. Demonstrai c f  x  y   f  x  f  y  , pentru
+
+      orice numere reale x i y .
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+      1. Se consider funcia f :  , f  x  x  ln 2x 1 .
+
+5p  a) Artai c  f  'x  1       2x ln 2   ,  x           .
+                               2x 1
+
+5p b) Demonstrai c funcia f este cresctoare.
+
+5p c) Determinai ecuaia asimptotei oblice spre  la graficul funciei f .
+
+    2. Se consider funcia f :  , f x  x  2sin x .
+
+                
+
+5p  a) Artai c  2 f x    dx  1 .
+                
+                     x2
+                0
+
+Prob scris la matematic M_t-nat                                                                                                        Test 19
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                          Ministerul Educaiei i Cercetrii
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+    
+
+                             2
+
+5p b) Calculai  f  x dx .
+
+    0
+
+5p  c) Determinai numrul natural  n,  n  2 , pentru care                                1  sin2 x  dx    1  .
+                                                                                                         9
+                                                                                           f 2 x
+
+                                                                                        1
+
+                                                                                        n
+
+Prob scris la matematic M_t-nat                                                                                Test 19
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

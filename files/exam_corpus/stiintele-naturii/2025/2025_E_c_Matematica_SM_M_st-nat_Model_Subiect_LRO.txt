@@ -1,0 +1,92 @@
+                                                    Ministerul Educaiei
+                                  Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2025                                                    Model
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+5p 1. Determinai termenul a1 al progresiei aritmetice an n1, tiind c a3  19 i a4  25 .
+5p 2. Se consider funcia f :    , f  x  2x  a , unde a este numr real. Determinai numrul real
+
+    a , tiind c f 2  8 .
+
+5p  3.  Rezolvai  în  mulimea     numerelor     reale  ecuaia                    52 x       1  25x        0.
+                                                                                           625
+5p 4. Determinai câte submulimi cu dou elemente are mulimea A  1, 2, 3, 4, 5, 6 .
+
+5p 5. În reperul cartezian xOy se consider punctele A2, 2 , B 2,0 i C 8, 2 . Determinai lungimea
+
+      segmentului DE , unde punctele D i E sunt mijloacele segmentelor OA , respectiv BC .
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AB  6 i B   . Artai c raza cercului
+
+                                                                                                6
+
+      circumscris triunghiului ABC este egal cu 2 3 .
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+    1.  Se consider matricele     I2      1  0     A                          0  1      i  M    a      2  a      1
+                                          0  1  ,                             2  4                         2a  2  a  , unde a este numr
+
+      real.
+5p a) Artai c det A  2 .
+
+5p b) Determinai numrul real x pentru care M 2  A  xM 1 .
+
+5p c) Determinai numerele reale a pentru care M a  2I 2   M a  a  2 I2 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y   x  6 y  6  6 .
+
+5p a) Artai c 9 8  12 .
+5p b) Artai c e  7 este elementul neutru al legii de compoziie ,, ".
+
+5p c) Determinai numerele reale nenule x pentru care x 6  6x .
+                                                                         x
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+     1. Se consider funcia f : 0,    , f  x  x2  5 x .
+
+5p a) Artai c f ' x  5 x 1 x 1 , x 0,  .
+
+                                      2x
+
+5p b) Artai c lim f ' x  5 .
+
+                      x x x 2
+
+5p c) Artai c f  x  2  f  x  26 , pentru orice x 0, 2 .
+
+    2. Se consider funcia f : 0,    , f  x  x2  4ln x .
+
+5p  a)  Artai c   2     f   x  4ln x dx      7  .
+                                             3
+                  
+
+                  1
+
+5p  b)  Artai  c  e     f  x  x2  dx  2.
+
+                              x
+
+                  1
+
+  5p
+                                                                           2  f  x f '' x   f ' x2            dx  m f 2  f 1 .
+
+    c) Determinai numrul real m pentru care 
+
+                                                         1
+
+Prob scris la matematic M_t-nat                                                                                                 Model
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

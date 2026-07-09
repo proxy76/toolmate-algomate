@@ -1,0 +1,93 @@
+                                                     Ministerul Educaiei Naionale
+                                              Centrul Naional de Evaluare i Examinare
+
+                                         Examenul de bacalaureat naional 2014
+                                                           Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                            Simulare pentru elevii clasei a XI-a
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.                                             (30 de puncte)
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Determinai numrul real m din egalitatea m + 23 = 16 - 2 .
+
+5p 2. Se consider funcia f :    , f ( x) = x2 - 3x + 2 . Determinai numerele reale x pentru care
+
+    f (x) = 2.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 8x = 2x-2 .
+5p 4. O firm folosete pentru publicitate 3000 de lei, ceea ce reprezint 5% din profitul anual.
+
+      Determinai profitul anual al firmei.
+5p 5. În reperul cartezian xOy se consider dreapta d de ecuaie x - 2 y +1 = 0 . Determinai numrul
+
+    real a , tiind c punctul A(a, 2) aparine dreptei d .
+
+5p 6. În triunghiul ABC dreptunghic în A , AB = 3 i AC = 4 . Determinai sin B .
+
+SUBIECTUL al II-lea                                                                                                  (30 de puncte)
+
+                                                     111                                  4-a          a -1
+                                                                                          a +1               , unde a este numr real.
+    1. Se consider determinanii d = 2                      4       1  i    D(a) =
+                                                                                                       4-a
+                                                     3 81
+
+5p a) Artai c d = 1 .
+
+5p b) Determinai numrul real a pentru care D (a) = 1.
+
+5p c) În reperul cartezian xOy se consider punctele A(1,1) , B (2, 4) i C (3, m) . Determinai numerele
+
+    reale  m  tiind c           AABC  =  1.
+                                         2
+
+    2. Se consider matricea           A  (  x)  =    1     x    ,  unde       x  este numr           real.
+                                                     2     1  
+
+5p a) Calculai A(2) + A(-2) .
+
+5p  b) Determinai numerele reale                p  i    q     pentru care           A  (  2)      p    =     4    .
+                                                                                                  q          5  
+
+5p c) Artai c matricea A( x) este inversabil pentru orice numr întreg x .
+
+SUBIECTUL al III-lea                                                                                                 (30 de puncte)
+
+    1. Se consider funcia        f :,                   f  (x)     =    x        .
+                                                                      x2 +
+                                                                              1
+
+5p a) Calculai lim f ( x) .
+                             x1
+
+5p b) Calculai lim xf ( x)
+                             x+
+
+5p c) Determinai ecuaia asimptotei spre + la graficul funciei f .
+
+                                                           (  x)              x  - 2, x < 2
+    2. Se consider funcia        f    :  ,              f          =          -  4x + 4, x              .
+                                                                        x  2                         2
+
+5p a) Calculai f (1)  f (3) .
+
+5p b) Artai c funcia f este continu în punctul x = 2 .
+
+5p c) Demonstrai c f (a)  f (b) < 0 , pentru orice a < 2 i b > 2 .
+
+Prob scris la matematic M_tehnologic                                                                                 Simulare pentru elevii clasei a XI-a
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                   Pagina 1 din 1
+

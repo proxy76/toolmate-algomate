@@ -1,0 +1,72 @@
+                                            Ministerul Educaiei i Cercetrii
+                                      Centrul Naional de Evaluare i Examinare
+
+                                 Examenul de bacalaureat naional 2020
+                                                   Proba E. c)
+
+                                                 Matematic M_pedagogic                                     Test 13
+                                                                                                  (30 de puncte)
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p  1.  Artai  c  4 1   1   1    1    1    1    1.
+                        2        3         4 
+
+5p 2. Determinai mulimea valorilor reale ale lui x , pentru care f  x  g  x , unde f :  ,
+
+    f  x  4x  1 i g :  , g  x  x  4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 114x23x  11.
+5p 4. O firm folosete 5000 de lei pentru publicitate, sum care reprezint 5% din profitul anual al
+
+      firmei. Calculai profitul anual al firmei.
+
+5p 5. În reperul cartezian xOy se consider punctele A4,0 , B 7,4 i C 1,4 . Calculai perimetrul
+
+    triunghiului ABC .
+
+5p 6. Artai c sin2 30  cos2 60  cos60  0 .
+
+SUBIECTUL al II-lea                                                                               (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie x y  x  y  50 .
+
+5p 1. Artai c 1 1  50 .
+
+5p 2. Artai c legea de compoziie ,, " este asociativ.
+5p 3. Verificai dac e  50 este elementul neutru al legii de compoziie ,, ".
+
+5p 4. Determinai numerele reale x pentru care x2 x  92 .
+
+    5p 5. Demonstrai c x2  y  50 x  y2   x  y x  y 1 , pentru orice numere reale x i y .
+
+    5p 6. Determinai numerele naturale m i n , tiind c m2  n  50 m  n2 m  n  57 .
+
+SUBIECTUL al III-lea                                                                              (30 de puncte)
+
+    Se  consider  matricele  O2       0    0    i  A  a        1   a2 
+                                      0                        a2  1  , unde a este numr real pozitiv.
+                                           0  
+                                              
+
+5p 1. Artai c det  A0  1 .
+
+5p 2. Determinai numrul real pozitiv a pentru care det  Aa  0 .
+
+5p 3. Artai c A1  A1  2A1  O2 .
+
+  5p 4. Determinai numrul real pozitiv a pentru care A 2  Aa  3A1 .
+
+5p 5. Demonstrai c det  Aa  A0  0 , pentru orice numr real pozitiv a .
+
+    5p                                                                                                       1  
+    6. Determinai perechile a,b de numere reale pozitive, tiind c A                     a A  b    A2    A    2    .
+
+Prob scris la matematic M_pedagogic                                                                             Test 13
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

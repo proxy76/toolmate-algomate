@@ -27,7 +27,7 @@ def _nz(rng, lo=-4, hi=4):
 
 class SystemsGenerator(ExerciseGenerator):
     TOPIC_CODE = "systems"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _generate_params(self) -> dict:
         rng = self.rng
@@ -35,7 +35,7 @@ class SystemsGenerator(ExerciseGenerator):
         if d == 1:
             pool = [self._st_2x2]
         elif d == 2:
-            pool = [self._st_3x3, self._st_parametric] if self.profile == "M1" \
+            pool = [self._st_3x3, self._st_parametric] if self.profile == "mate-info" \
                 else [self._st_parametric, self._st_2x2]
         else:
             pool = [self._st_parametric]

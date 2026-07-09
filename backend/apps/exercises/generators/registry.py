@@ -32,19 +32,25 @@ TOPIC_LABELS: dict[str, str] = {
 
 # Allowed topics per profile (spec §8.2 PROFILE_TOPICS, verbatim).
 PROFILE_TOPICS: dict[str, list[str]] = {
-    "M1": [
+    "mate-info": [
         "powers", "logarithms", "functions", "equations", "complex", "polynomials",
         "matrices", "systems", "algebraic_structures",
         "sequences", "limits", "derivatives", "integrals",
         "geometry", "trigonometry", "combinatorics", "progressions",
     ],
-    "M2": [
+    "stiintele-naturii": [
         "arithmetic", "powers", "logarithms", "functions", "equations", "complex",  # complex: algebraic only
         "polynomials", "matrices", "systems", "algebraic_structures",
         "sequences", "limits", "derivatives", "integrals",
         "geometry", "trigonometry", "combinatorics", "progressions",
     ],
-    "M3": [
+    "tehnologic": [
+        "arithmetic", "powers", "logarithms", "functions", "equations", "complex",  # complex: algebraic only
+        "polynomials", "matrices", "systems", "algebraic_structures",
+        "sequences", "limits", "derivatives", "integrals",
+        "geometry", "trigonometry", "combinatorics", "progressions",
+    ],
+    "pedagogic": [
         "arithmetic", "powers", "logarithms", "functions", "equations",
         "matrices",                 # 2×2 only
         "algebraic_structures",     # basic
@@ -54,11 +60,25 @@ PROFILE_TOPICS: dict[str, list[str]] = {
     ],
 }
 
+# Canonical ordered list of profile slugs (hardest → easiest). Single source of
+# truth — serializers, views, and the frontend derive their choices from this, so
+# adding a level (e.g. ``stiintele-naturii``) means editing only the data above.
+PROFILES: tuple[str, ...] = tuple(PROFILE_TOPICS)
+
+# Human display names (Romanian) for each profile slug.
+PROFILE_DISPLAY: dict[str, str] = {
+    "mate-info": "Matematică–Informatică",
+    "stiintele-naturii": "Științele Naturii",
+    "tehnologic": "Tehnologic",
+    "pedagogic": "Pedagogic",
+}
+
 # Per-profile capability flags the generators must honor (spec §3–5, §13.1).
 PROFILE_CAPS: dict[str, dict] = {
-    "M1": {"matrix_size": (2, 3), "complex": "full", "derivatives": "full"},
-    "M2": {"matrix_size": (2, 3), "complex": "algebraic_only", "derivatives": "full"},
-    "M3": {"matrix_size": (2,), "complex": None, "derivatives": "poly_only"},
+    "mate-info": {"matrix_size": (2, 3), "complex": "full", "derivatives": "full"},
+    "stiintele-naturii": {"matrix_size": (2,), "complex": "algebraic_only", "derivatives": "full"},
+    "tehnologic": {"matrix_size": (2, 3), "complex": "algebraic_only", "derivatives": "full"},
+    "pedagogic": {"matrix_size": (2,), "complex": None, "derivatives": "poly_only"},
 }
 
 # Exam composition per profile (spec §10.2). Slot topics that offer a choice are
@@ -68,7 +88,7 @@ SIMULATION_RULES: dict[str, dict] = {
     # Subiectul I slots follow the fixed position→topic roles of the real papers
     # (info-on-sub1.md §0/§10): 1 algebra-on-numbers · 2 functions · 3 equation in ℝ
     # · 4 probability/percentage · 5 analytic geometry · 6 trigonometry/triangle.
-    "M1": {
+    "mate-info": {
         "subiect_I": [
             # 1: the real M1 papers open with complex numbers or a progression
             # term-finding item about equally often, with radicals (powers) and
@@ -87,7 +107,28 @@ SIMULATION_RULES: dict[str, dict] = {
         "subiect_III": {"format": "two_problems",
                         "problems": [("derivatives",), ("integrals",)]},
     },
-    "M2": {
+    "stiintele-naturii": {
+        # M_șt-nat (files/exam_corpus/stiintele-naturii/ANALYSIS/): Subiectul I & II
+        # play like tehnologic (easy; 2×2 matrices), but Subiectul III is real
+        # analysis — a rational/ln derivative study + genuine definite integrals
+        # (the derivatives/integrals generators branch on the profile for this).
+        "subiect_I": [
+            ("progressions", "progressions", "arithmetic"),  # 1: progression term (+ occasional numeric)
+            ("functions",),                          # 2: linear/affine function
+            ("equations",),                          # 3: equation in ℝ (log/exp)
+            ("combinatorics",),                      # 4: probability / counting
+            ("geometry",),                           # 5: analytic geometry
+            ("trigonometry",),                       # 6: trig / triangle
+        ],
+        # Subiectul II: 2×2 matrices (affine param / solve-X) + law / polynomials.
+        "subiect_II": {"format": "two_problems",
+                       "problems": [("matrices_2x2",),
+                                    ("algebraic_structures", "polynomials")]},
+        # Subiectul III: rational/ln derivative study + genuine definite integrals.
+        "subiect_III": {"format": "two_problems",
+                        "problems": [("derivatives",), ("integrals",)]},
+    },
+    "tehnologic": {
         # M_tehnologic Subiectul I (info from files/exam_corpus/M2/ANALYSIS_M2.md):
         # 1 numeric computation (fractions/radicals) · 2 linear function · 3 equation
         # · 4 probability over a small explicit set / percentage · 5 geometry · 6 trig.
@@ -106,9 +147,12 @@ SIMULATION_RULES: dict[str, dict] = {
         "subiect_III": {"format": "two_problems",
                         "problems": [("derivatives",), ("integrals",)]},
     },
-    "M3": {
+    "pedagogic": {
         "subiect_I": [
-            ("progressions", "powers"),              # 1: progressions / powers
+            # 1: the real M_pedagogic opener is a numeric identity "Arătați că
+            # <expr>=<val>" (radical/log/decimal/conjugate), with a progression
+            # term-finding item as the secondary flavour.
+            ("arithmetic", "arithmetic", "progressions", "powers"),
             ("functions",),                          # 2: functions (linear only)
             ("equations",),                          # 3: equation (simple)
             ("combinatorics", "statistics"),         # 4: probability / percentage

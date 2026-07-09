@@ -1,0 +1,105 @@
+                                 Ministerul Educaiei i Cercetrii
+                         Centrul Naional pentru Curriculum i Evaluare
+
+                         Examenul naional de bacalaureat 2025
+
+                                                          Proba E. c)                                                        Varianta 9
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+5p 1. Artai c 3(4 - 5i) + 5i(3 + 2i) = 2 , unde i2 = -1.
+5p 2. Se consider funciile f :    , f ( x) = x + 4 i g :    , g ( x) = 2x + a , unde a este numr
+
+     real. Determinai numrul real a pentru care ( g f )(1) =1.
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 6x - x2 = log2 (4 + x) .
+
+5p 4. Se consider mulimea A = {3,4,5,7,9} . Determinai câte numere naturale impare, de dou cifre
+
+      distincte, se pot forma cu cifre din mulimea A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0,2) i B(6,4) . Determinai coordonatele
+
+      punctului C pentru care 2 AC = OB .
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AB = 4 i raza cercului circumscris egal cu
+
+       4 . Artai c aria triunghiului ABC este egal cu 8 3 .
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+                                       a    1  2a                                                   ax  +  y  +  2a z  =  a  +1
+                                            1                                                       ax  +  y  =  0              ,
+1. Se consider matricea  A(a     )  =    a  1  0       i  sistemul                      de  ecuaii  x + y - a z = -1               unde  a
+                                         1     -a
+
+      este numr real.
+
+5p a) Artai c det ( A(2)) = 4 .
+
+5p b) Pentru a = 1 , artai c sistemul de ecuaii are o infinitate de soluii.
+
+5p c) Determinai numrul real a pentru care sistemul de ecuaii are soluia unic ( x0, y0, z0 ) i x0 = a .
+
+2. Se consider polinomul f = X 4 - 3X 3 + X 2 - 2 X + m , unde m este numr real.
+
+5p a) Pentru m = 3 , artai c f (1) = 0 .
+
+5p b) Determinai numerele reale m pentru care ( x1x2x3x4 )2 - x1 - x2 - x3 - x4 = 1, unde x1 , x2 , x3 i
+
+       x4 sunt rdcinile polinomului f .
+5p c) Pentru m = 0 , determinai numerele reale a pentru care restul împririi polinomului f la
+
+polinomul X - a este egal cu a .
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+1. Se consider funcia  f :,                 f (x) =  x2 + 6 .
+                                                      x2 +1
+
+                       ( ) x x2 - 4
+a) Artai c f '( x) = x2 +1              , x.
+( ) 5p                           x2 +1
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+      funciei f .
+
+5p c) Artai c f (7x) - f ( x)  2 2 , pentru orice x [0,1] .
+
+Prob scris la matematic M_mate-info                                                                                                Varianta 9
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 1 din 2
+                                       Ministerul Educaiei i Cercetrii
+                               Centrul Naional pentru Curriculum i Evaluare
+
+2. Se consider funcia f :    , f ( x) = 3x2 -1+ e2x .
+
+                              3
+
+( ) 5p a) Artai c  f ( x) - e2x dx = 24 .
+                              0
+                              1
+
+( ) 5p b) Artai c  4x f ( x) - 3x2 +1 dx = e2 +1 .
+    0
+
+ 5p                     1   x  f (t)
+c)  Demonstrai  c  lim  x2  0            =1.
+                               t + 1 dt
+                   x0
+
+Prob scris la matematic M_mate-info                                                     Varianta 9
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 2 din 2
+

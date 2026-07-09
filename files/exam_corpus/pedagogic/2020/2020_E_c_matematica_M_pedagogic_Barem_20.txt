@@ -1,0 +1,147 @@
+                                        Ministerul Educaiei i Cercetrii
+                              Centrul Naional de Politici i Evaluare în Educaie
+
+                                Examenul de bacalaureat naional 2020
+                                                  Proba E. c)
+
+                                      Matematic M_pedagogic
+
+                              BAREM DE EVALUARE I DE NOTARE
+
+                                                                                            Test 20
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+  1.                             2
+  1              1            1       2 1 2 1   1 
+  2 1            2            2                  2
+                                        2                                                   3p
+
+                     1                2     12
+
+   2 1 2 1  1  2  1  1                                                                      2p
+                              22
+
+  2. f  x 1  f  x   x 12  2 x 1  x2  2x  x2  2x 1 2x  2  x2  2x  2x  3                      2p
+
+2x  3  7  x  2 , deci x  ,2                                                                 3p
+
+  3. log2 x3  8  log2 19  x3  8  19  x3  27                                                 3p
+
+x  3 , care convine                                                                         2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri       2p
+     posibile
+
+În mulimea numerelor naturale de dou cifre, numerele 12 , 24 , 36 , 48 , 60 , 72 , 84 i     2p
+96 sunt multipli de 12 , deci sunt 8 cazuri favorabile
+
+p  nr. cazuri favorabile  8  4                                                              1p
+      nr. cazuri posibile 90 45
+
+5. AC  BC , deci punctul C se afl pe mediatoarea segmentului AB                             3p
+
+Mediatoarea segmentului AB este axa Oy , deci C Oy                                          2p
+
+6. cos B  AB  cos30  AB                                                                     3p
+             BC                  8
+
+  3  AB  AB  4 3                                                                            2p
+  28
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1. 20 1  20 1  20                                                                           3p
+
+ 011                                                                                        2p
+
+2.  x  y  z   x  y  20  z  x  y  z  40 , pentru orice numere reale x , y i z                2p
+
+x   y  z  x   y  z  20  x  y  z  40   x  y   z , pentru orice numere reale x , y i z 3p
+
+3. x  20  x  20  20  x , pentru orice numr real x                                           2p
+
+20  x  20  x  20  x , pentru orice numr real x , deci e  20 este elementul neutru al legii  3p
+de compoziie ,, "
+
+4. 2x 1  x  20  21  3x  42                                                                  3p
+
+x  14                                                                                       2p
+
+   5. 9x  3x  20  8  3x  4 3x  3  0                                                         3p
+
+Cum 3x  0 , obinem 3x  3  x  1                                                              2p
+
+Prob scris la matematic M_pedagogic                                                     Test 20
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                   Ministerul Educaiei i Cercetrii
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+6. x2  2x  21  x2  2x  21 20  x2  2x 1                                                                                                                 2p
+
+      x 12  0 , pentru orice numr real x                                                                                                               3p
+
+SUBIECTUL al III-lea                                                                                                                          (30 de puncte)
+
+1.  A0          1     0       det     A0                1     0
+                0                                       0       
+                      0                                                                                                                                2p
+                                                              0
+
+    10  00  0                                                                                                                                          3p
+
+2.  A  a      A    a     1         1  a                 1       a     1        2           2a 1          ,  2 A  1          2       2 
+                                   a  0                            0         2a 
+                                                     a     1                          1        0                              2     0                  3p
+                                                                                                                                       
+
+    Obinem 2a 1  2 , deci a   3                                                                                                                        2p
+                                                           2
+
+3.  A1        A2         A3                     A2020           1     1 1             2 1              3  1                         2020 
+                                      ...                       1                                               ...                      
+                                                                      0         2     0          3     0                 2020       0                  2p
+                                                                                                                       
+
+                                                                                     2020                   2020  2021 
+                                                                                
+                2020                       1    2    3   ...       2020           2020  2021                    2                2020    A    2021     3p
+      1         3  ...                                  0                              2                        0                               2   
+           2                2020                                                                                            
+                                                                                
+
+4.  Aa       Ab       1      ab       b         ,    A  a       Ab              2        a     b    ,  pentru        orice  numere     reale  a  i  b
+                             a        ab                                                    0     
+                                                                             a     b                                                                   2p
+
+    det  Aa  Ab  det  Aa  Ab  a2b2  a  b2  0 , pentru orice numere reale a i b 3p
+
+5.  A  x     A                        A                 0       y x                                                           i
+                 y       A    y            x                              , pentru orice numere reale                    x       y
+                                                     x     y       0                                                                                   3p
+
+    det  A x  A y  A y  A x  0 y  x   x  y y  x   x  y2  0 , pentru orice
+                                                              xy 0                                                                                     2p
+
+    numere reale x i y
+
+  6. det  Aa  a2 , det A2 a  a4 , pentru orice numr real a                                                                                             2p
+
+      a2  a4  0  a2 a2 1  0  a  1 , a  0 sau a  1                                                                                                      3p
+
+Prob scris la matematic M_pedagogic                                                                                                                 Test 20
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,70 @@
+                                                                    Ministerul Educaiei                                                Testul 3
+                                                  Centrul Naional de Politici i Evaluare în Educaie                            (30 de puncte)
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+( ) 5p                                                   1     
+    1. Artai c  202 + 2  20  21 + 212        :    20  +  2        =82   .
+
+5p 2. Determinai coordonatele punctului de intersecie a graficelor funciilor f :    , f ( x=) 3x -1
+
+    i g :    , g ( x)= x + 5 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia lg (1- 9x) = 2 .
+
+5p 4. Determinai câte numere naturale impare de dou cifre au produsul cifrelor numr par.
+
+5p 5. În reperul cartezian xOy se consider punctele A(-2,1) , B (3,1) i C (3, -3) . Calculai aria
+
+      triunghiului ABC .
+
+5p 6. Artai c cos 60°  (5sin 30° - sin150°) =1.
+
+SUBIECTUL al II-lea                                                                                                            (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie x  y = x + y + 2xy -1.
+5p 1. Artai c 1 3 =11.
+5p 2. Demonstrai c legea de compoziie ,, " este comutativ.
+
+5p 3. Determinai numrul real a pentru care a 1 = (-1)  (-a) .
+
+5p 4. Artai c x  1  3 , pentru orice numr real x , x > 0 .
+                          x
+
+5p 5. Determinai numerele reale x pentru care x  (3x)= (4x -1) 1.
+
+5p 6. Artai c, pentru orice numr natural nenul n , numrul N =n  (n +1) este natural par.
+
+SUBIECTUL al III-lea                                                                                                           (30 de puncte)
+
+    Se  consider matricele  I2  =  1    0    i       A(  a  )  =    1      2a                       a  este numr real.
+                                                                    3a                   , unde
+                                     0  1                                  2            
+
+5p 1. Artai c det ( A(2)) = -22 .
+
+5p 2. Artai c A(1)  A(1) - 3A(1) = 4I2 .
+
+5p 3. Determinai numerele reale x pentru care det ( A( x)) = -52 .
+
+5p 4. Artai c aA(1) - A(a) =(a -1) A(0) , pentru orice numr real a .
+
+5p 5. Determinai numerele reale m pentru care det ( A(m) + A(1)) = 2 .
+
+5p  6. Determinai numrul natural nenul            n  pentru care           A  (         n)    A  1     =  A  1      A(  n)  .
+                                                                                                 n           n  
+
+Prob scris la matematic M_pedagogic                                                                                            Testul 3
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

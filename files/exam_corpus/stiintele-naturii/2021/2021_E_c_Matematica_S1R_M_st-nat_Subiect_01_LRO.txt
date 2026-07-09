@@ -1,0 +1,84 @@
+                                                         Ministerul Educaiei
+                                       Centrul Naional de Politici i Evaluare în Educaie
+
+                                    Examenul naional de bacalaureat 2021
+                                                      Proba E. c)
+
+                                                    Matematic M_t-nat                                              Varianta 1
+                                                                                                                 (30 de puncte)
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p 1. Determinai termenul b4 al progresiei geometrice (bn )n1, tiind c b5 = 6 i b6 = 18 .
+5p 2. Se consider funcia f :   , f (x) = x2 + x - 4 . Determinai numerele reale m , tiind c f (m) = m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 100 102x = 103x .
+
+5p 4. Determinai câte numere naturale pare, de dou cifre, se pot forma cu cifre din mulimea {0,1, 2,3, 4} .
+
+5p 5. În reperul cartezian xOy se consider punctele A(- 4,0) , B (4,0) i C (0, 4) . Determinai
+
+    coordonatele centrului cercului circumscris triunghiului ABC .
+
+5p  6.  Artai  c  sin 2x  =1,    tiind    c      tg x  =1    i     x          0,     
+                                                                                  2   .
+
+SUBIECTUL al II-lea                                                                                              (30 de puncte)
+
+    1. Se consider matricea            (  x)  =     x+2            3       ,  unde       x  este numr real.
+                                    A                -1                  
+                                                             x     -  2  
+
+5p a) Artai c det ( A(0)) = -1 .
+
+5p b) Determinai mulimea valorilor reale ale lui x pentru care matricea A( x) este inversabil.
+5p c) Se consider numerele reale a , b i c , astfel încât A(a) A(b) = A(c) . Demonstrai c a2 +b2 + 2c =3 .
+
+    2. Pe mulimea M = [-1,1] se definete legea de compoziie x y = x 1- y2 + y 1 - x2 .
+
+5p a) Artai c 0 1 = 1 .
+5p b) Determinai x  M pentru care x x = 0 .
+
+5p c) Demonstrai c x 1 - x2 = 1 , pentru orice x [0,1] .
+
+SUBIECTUL al III-lea                                                                                             (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = ex + x ln x -1.
+
+5p a) Artai c f '( x) = ex + ln x +1, x (0, +) .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 1 , situat pe graficul
+      funciei f .
+
+5p  c) Demonstrai c ex + x ln x                  e  +  1 ln  1  ,  pentru         orice     x      1  ,  +    .
+                                                       2     2                                     2        
+
+    2. Se consider funcia f :    , f ( x) = x2 + 2 + x .
+
+                                                                        x2 + 2
+
+5p                       1  x2 + 2 dx = 17 .
+                                                    6
+    a) Artai c  f ( x)
+
+                  0
+
+5p b) Demonstrai c orice primitiv a funciei f este cresctoare pe  .
+
+5p c) Se consider funcia g :    , g ( x) = f ( x) -                                          x . Determinai a (0, +) pentru care
+
+    1             3 + ln a +        3.                                                      x2 + 2
+                  2              2
+     g ( x)dx =                                                                                                                                  Varianta 1
+
+    0
+
+Prob scris la matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 1 din 1
+

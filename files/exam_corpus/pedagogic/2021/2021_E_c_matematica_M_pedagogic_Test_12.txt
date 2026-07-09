@@ -1,0 +1,72 @@
+                                             Ministerul Educaiei
+                           Centrul Naional de Politici i Evaluare în Educaie
+
+                              Examenul naional de bacalaureat 2021
+                                                Proba E. c)
+
+                                       Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare                                     Testul 12
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.                                (30 de puncte)
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+( ) ( ) 5p 1. Artai c 2 6 + 2 + 2 1- 3 = 4 .
+
+5p 2. Se consider funcia f :    , f ( x=) 4x -1. Determinai numrul real a pentru care
+     f (a) f (0) + f (3) = 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 16  22x = 8x .
+5p 4. Determinai câte numere naturale de trei cifre distincte se pot forma cu cifre din mulimea
+
+    {6,7,8,9} .
+
+5p 5. În reperul cartezian xOy se consider punctele A(3, 4) , B (-1, 4) i C (-1, -2) . Determinai aria
+
+      triunghiului ABD , tiind c punctul D este mijlocul segmentului AC .
+
+5p 6. Artai c (tg30° + tg60°)sin 60° =2 .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y= 9xy + x + y .
+
+5p 1. Artai c 1 2 =21.
+5p 2. Artai c legea de compoziie ,,  " este comutativ.
+5p 3. Artai c e = 0 este elementul neutru al legii de compoziie ,,  ".
+
+5p 4. Determinai numrul real x pentru care (-1)  x =15 .
+
+5p 5. Determinai simetricul elementului x =1 în raport cu legea de compoziie ,,  ".
+5p 6. Determinai numerele naturale n pentru care N = 1  n  2 este numr natural de dou cifre.
+
+                                                                      33
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+    Se consider matricele  A  =    4   1    i   X    (  a  )  =     2   a
+                                   -1                               a2  1  , unde a este numr real.
+                                       2  
+
+5p 1. Artai c det A = 9 .
+
+5p 2. Artai c A + X (2) = 3X (1) .
+
+5p  3. Artai c A  A =  6A - 9I2 ,  unde     I2  =  1 0           .
+                                                              
+                                                     0     1  
+
+5p 4. Artai c matricea M (a=) X (a) + X (-a) este inversabil, pentru orice numr real a .
+
+5p 5. Determinai numerele naturale n pentru care matricea B = X (-1)  X (n) are toate elementele
+
+      numere naturale.
+
+5p 6. Determinai numrul real a pentru care det ( X (2a) - X (a)) = 3 .
+
+Prob scris la matematic M_pedagogic                                                                  Testul 12
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,88 @@
+                                                                         Ministerul Educaiei                                            Varianta 1
+                                                      Centrul Naional de Politici i Evaluare în Educaie
+
+                                            Examenul naional de bacalaureat 2023
+                                                              Proba E. c)
+
+                                                        Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                             (30 de puncte)
+
+( ) 5p 1. Artai c 4 - 6 3 + 3 2 3 -1 = 1.
+
+5p 2. Se consider funciile f :    , f ( x) = 5x - 3 i g :    , g ( x) = 2x + 3 . Determinai numrul real
+     a pentru care f (a) = g (a) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 22x+1  23 = 1 .
+5p 4. Determinai câte numere naturale, de dou cifre distincte, se pot forma cu cifre din mulimea
+
+     A = {3, 4,5,6} .
+
+5p 5. În reperul cartezian xOy se consider punctele A(4,0) , B (0, 2) , C (3,3) i M , mijlocul segmentului
+
+    AB . Artai c segmentele MO i MC au lungimile egale.
+
+5p  6. Se consider  E ( x) = 2sin xsin 2x - cos x , unde                        x  este     numr real.      Artai c  E         =  0  .
+                                                                                                                          6  
+
+SUBIECTUL al II-lea                                                                                                                     (30 de puncte)
+
+        Se consider matricele                =    1       0   i   A(a  )  =  3+       a     2  -  2a     ,  unde     este numr real.
+    1.                                I2                  1                   1 -     a     1  +  3a              a
+                                                     0                                                
+
+5p a) Artai c det ( A(0)) =1 .
+
+5p b) Artai c A(0)  ( A(a) - A(0)) = aI2 , pentru orice numr real a .
+
+( ( ) ) 5p c) Demonstrai c det A a2 - aA(a)  0 , pentru orice numr real a .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x y = x2 - 4xy + 3y2 .
+5p a) Artai c 0 2 = 12 .
+
+5p b) Determinai numerele reale x pentru care (2x) x = -1 .
+
+5p c) Determinai perechile (m,n) de numere întregi, cu m < n , pentru care m n = 3 .
+
+SUBIECTUL al III-lea                                                                                                                    (30 de puncte)
+
+    1. Se consider funcia             f : (0, +)   ,              f  (x)  =  5  +  4x -     4  .
+                                                                                     x2
+
+5p  a) Artai c  f   '(  x)  =   4(2 -     x)      ,  x (0, +) .
+
+                                   x3
+
+5p b) Determinai ecuaia asimptotei orizontale spre + la graficul funciei f .
+
+5p c) Demonstrai c f ( x) - f ( y)  1, pentru orice x , y [1, +) .
+
+    2. Se consider funcia f : (0, +)   , f ( x) = 3x2 + 4ln x .
+
+                              2
+
+5p a) Artai c  ( f ( x) - 4ln x) dx = 7 .
+
+                              1
+
+            ( ) e
+
+5p b) Artai c  x f ( x) - 3x2 dx = e2 + 1.
+
+                              1
+
+5p  c) Demonstrai c          e  f  (  x)  F  ''(  x)  dx  =  (3e  -1) (3e  +  5)   ,  pentru      orice  primitiv    F :(0, +)          a funciei   f  .
+
+                                                                     2
+
+                            1
+
+Prob scris la matematic M_t-nat                                                                                                         Varianta 1
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                            Pagina 1 din 1
+

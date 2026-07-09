@@ -1,0 +1,73 @@
+                                                   Ministerul Educaiei
+                                  Centrul Naional de Politici i Evaluare în Educaie
+
+                                  Examenul naional de bacalaureat 2024
+                                                    Proba E. c)
+
+                                           Matematic M_pedagogic
+
+                                                                                                                               Varianta 3
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+( ) 5p 1. Artai c 2 2 + 3 - 3 2 + 2 = 4 .
+
+5p 2. Se consider funciile f :    , f ( x) = 3x + 2 i g :    , g ( x) = 2x + 3 . Determinai
+    numrul real m pentru care f (m) = g (m) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 24x-3 = 22-x .
+
+5p 4. Calculai probabilitatea ca, alegând un numr n din mulimea A = {1, 2,3, 4,5,6,7,8,9} , numrul
+
+      2n +1 s aparin mulimii A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(3,0) i B (0, 4) . Calculai aria triunghiului AOB .
+
+5p 6. Artai c (sin 60° + sin 30°)(sin 60° - sin 30°) = sin 45°  cos 45° .
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = 3xy - 2( x + y -1) .
+
+5p 1. Artai c 1 2 = 2 .
+5p 2. Artai c e =1 este elementul neutru al legii de compoziie ,, ".
+
+5p 3. Determinai numrul real x pentru care ( x 2) + ( x 3) = 5 .
+
+5p 4. Determinai numerele naturale n pentru care (3n +1) 1 < 7 .
+
+5p  5. Demonstrai c x       y  =  3  x     -  2       y  -  2    +  2  ,  pentru        orice   numere     reale  x  i  y.
+                                              3             3       3
+
+5p  6.  Artai c  1    2  3     4  =  2  .
+                 2    3  4     5     3
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+    Se consider matricele      I2    =  1        0    i     A(a  )  =     a  +  1        -1     ,  unde       este numr real.
+                                                                             1          a -1               a
+                                           0     1                     
+
+5p 1. Artai c det ( A(1)) =1 .
+
+5p 2. Demonstrai c I2 + A(a -1) = A(a) , pentru orice numr real a .
+
+5p 3. Determinai numerele reale a pentru care det ( A(a)) = a .
+
+5p  4. Determinai   numrul real            pentru care           A(  a)      A(a   )    =    8     -4   .
+                                        a                                                    4        
+                                                                                                   0  
+
+5p 5. Determinai matricea X M2 () pentru care X  A(1) = A(2) .
+
+5p 6. Demonstrai c det ( A(a) + I2 )  0 , pentru orice numr real a .
+
+Prob scris la matematic M_pedagogic                                                                                            Varianta 3
+
+Filiera vocaional: profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 1 din 1
+

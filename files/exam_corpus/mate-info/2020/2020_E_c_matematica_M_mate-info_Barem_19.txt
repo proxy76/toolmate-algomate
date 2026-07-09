@@ -1,0 +1,185 @@
+                                           Ministerul Educaiei i Cercetrii
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul de bacalaureat naional 2020
+                                                       Proba E. c)
+
+                                                 Matematic M_mate-info
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                          Test 19
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                         (30 de puncte)
+
+1.    b4  b1q3  2          3                 500                                                                             2p
+
+                         5  10 5 
+
+      484  500  529  22  500  23 , deci partea întreag a lui b4 este egal cu 22                                              3p
+
+2. f  x  f 1  x  f  f  x  x  2 f  x  3  x  22x  3  3  x                                                                      3p
+
+      x3                                                                                                                     2p
+
+3.          2x2  x 1             2x2  x 1                 2x2                           2x2
+            x2  x  2             x2  x  2
+      log2               1                          2              x  1                        2x    4                       3p
+
+      x  1 , care convine                                                                                                    2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                                        2p
+     posibile
+
+      Numerele naturale de dou cifre care au suma cifrelor un numr divizibil cu 11 sunt 29 ,                                 2p
+      38 , 47 , 56 , 65 , 74 , 83 i 92 , deci sunt 8 cazuri favorabile
+
+      p  nr. cazuri favorabile  8  4                                                                                         1p
+            nr. cazuri posibile 90 45
+
+5. u  v  1 ai  j  u  v 2  1 a2 1                                                                                             2p
+
+      Cum u 2  2 i v 2  a2  4 , obinem a2  2a  2  2  a2  4 , deci a  2                                                       3p
+
+6. sin x  cos x2  2cos2 x  sin2 x  2sin x cos x  cos2 x  2cos2 x  sin 2x  cos 2x                                             2p
+
+      tg 2x  1  i, cum    x      0,       ,  obinem       2x       , deci  x                                                 3p
+                                     2                          4              8
+
+SUBIECTUL al II-lea                                                                                                 (30 de puncte)
+
+1.a)           0 1 1                              0 11
+
+      A0        2  1  1  det  A0  2                    1  1                                                                  2p
+              
+               1 1 1
+                                                  1 11
+
+       0 2110 2  0                                                                                                           3p
+
+b)                                                                                                       3x0  y0  z0  1
+                                                                                                        2x0  2 y0  z0  2
+      Dac   m  3      i   x0, y0, z0      este soluie a sistemului de ecuaii, atunci                                         2p
+
+                                                                                                        x0  y0  2z0  2
+
+      Prin adunarea celor trei relaii, obinem 0  1, ceea ce este imposibil, deci, pentru m  3 ,                              3p
+      sistemul de ecuaii nu are soluii
+
+c) det  Am  m3  2m2  3m  mm 1m  3 , pentru orice numr real m                                                                 1p
+
+                              y  z 1                                                                     x y  z 1
+      Dac m  0 , atunci 2x  y  z  2 , care nu are soluii, dac m  1 , atunci 2x  2 y  z  2 ,
+                                                                                                                             2p
+                              x  y  z  1                                                                  x    y    2z    2
+                                                                                                        
+
+      care nu are soluii
+
+Prob scris la matematic M_mate-info                                                                                          Test 19
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                   Ministerul Educaiei i Cercetrii
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+      m  \ 3,0,1  det  Am  0 , deci sistemul de ecuaii are soluie unic i, cum pentru 2p
+
+      m  3 , sistemul nu are soluii, obinem c sistemul de ecuaii are cel mult o soluie
+
+2.a) 1 i 1 i 1 i 1 i  1 1 i  1 1 i                                                                                                                   3p
+                                                    2             2
+
+       2 1  1i 1  1i 1                                                                                                                               2p
+               22 22
+
+b)                                                                             z1       z2      2    bi       2    ci    1 2    bi      1 2    ci    3p
+     z1, z2  H  z1  2  bi i z2  2  ci , b, c
+                                                                                                                         2              2
+
+       4  bi  ci 1 1bi 1 1 ci  2  3b  ci H , deci H este parte stabil a lui                                                             în raport    2p
+                                2              2              2
+
+      cu legea de compoziie ,, "
+
+c) Dac z0  a  ib , cu a, b , pentru z  x  ib , unde x este numr real oarecare, obinem
+
+      z0       z  a  ib  x  ib  1 a  ib  1  x  ib                                                                                                    3p
+
+                                            2                  2
+
+       1 a  1 x  , deci exist o infinitate de numere complexe z cu proprietatea c numrul                                                             2p
+          22
+
+      z0 z este real
+
+SUBIECTUL al III-lea                                                                                                                    (30 de puncte)
+
+1.a)                                     1     '    1                   2
+                                         3                                3
+      f x  
+                       x3  3x  2                          x3   3x  2          3x2  3                                                                 3p
+                                             3
+
+         1 3 x2 1   x 1 x 1 , x 1,                                                                                                                   2p
+           3 3 x3  3x  2 2 3 x3  3x  2 2
+
+b) lim f  x  lim 3 x3  3x  2  lim 3  x 12  x  2                                                                                                      3p
+      x1 x 1 x1                       x 1                               x 13
+                                                          x1
+                         x1                               x1
+
+       lim 3 x  2                                                                                                                                    2p
+        x1 x 1
+         x1
+
+c) f  x  0 , pentru orice x 1,   f este strict cresctoare, deci injectiv                                                                             2p
+
+      lim f  x  0 , lim f  x   i f este continu, deci pentru orice a  0,  , ecuaia
+      x1                    x
+                                                                                                                                                     3p
+      f  x  a are soluie unic
+
+    2.a)4                 4                            x3            4
+                                                       3       2x    1
+         ex f  xdx              x2  2       dx                                                                                                       3p
+
+      1                   1
+
+       43  8  1  2  21 6  27                                                                                                                         2p
+
+            3       3
+
+     b)e                  e  ln2 x       2             e  1                          1                        e
+      1  f   ln  x  dx    1    eln          dx         1  x   ln2 x  2    dx         3  ln3  x    2  ln  x    1                                      3p
+                                      x
+
+       1 ln3 e  2ln e  1 ln31 2ln1  1  2  7                                                                                                          2p
+          3                        3                         33
+
+c)                                                                           1  x                        F  x       F  0
+                                                                             x                                   x
+      Dac      F  este o primitiv a lui                   f  , atunci   lim        f  t  dt       lim                           lim  f  x            2p
+
+                                                                        x0      0                 x0                            x0
+
+         lim     x2    2     2                                                                                                                       3p
+                   ex
+         x0
+
+Prob scris la matematic M_mate-info                                                                                                                  Test 19
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

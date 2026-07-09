@@ -1,0 +1,104 @@
+                                           Ministerul Educaiei i Cercetrii
+                                   Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026            Simulare
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+5p 1. Determinai termenul a4 al progresiei aritmetice an n1 , în care a1  2 i a3 14 .
+5p 2. Se consider funcia f :    , f  x  ax  3 , unde a este numr real. Determinai numrul real
+
+    a pentru care f 0   f f 0  0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 5x  4  5x2  105 .
+
+5p 4. Determinai câte numere naturale impare, de trei cifre distincte, se pot forma cu cifre din mulimea
+
+     A  1, 2, 3, 9 .
+5p 5. În reperul cartezian xOy se consider punctele A1,0 i B5, 4 i dreapta d de ecuaie
+
+       2x  ay  0 , unde a este numr real. Determinai numrul real a pentru care mijlocul segmentului
+
+       AB aparine dreptei d .
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu BC  12 i C   . Punctul M aparine
+
+                                                                                                    6
+
+      segmentului AC astfel încât 3AM  AC . Artai c BM  4 3 .
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+    1. Se consider matricea     A    a        1       a
+                                              a     1 a  , unde a este numr real.
+
+5p a) Artai c det  A1  1 .
+
+5p b) Artai c Aa  b  Aa  Ab  abA1 , pentru orice numere reale a i b .
+
+5p c) Determinai numerele reale a pentru care 2A2a  Aa Aa  A1 A2a 1  2A1 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie asociativ
+
+     x y  1  x  5 y  5  5 , cu elementul neutru e  11.
+
+               6
+5p a) Artai c 7 8  6 .
+
+5p b) Determinai numerele reale x pentru care x 6x 1  10 .
+
+5p c) Determinai numerele naturale n , n  5 , ale cror simetrice în raport cu legea de compoziie ,, "
+
+      sunt numere naturale pare.
+
+SUBIECTUL al III-lea                                                                    (30 de puncte)
+
+    1. Se consider funcia f : 0,   , f  x  1 1  4ln  x  3 .
+                                                               x
+                          x  14x              3
+5p  a) Artai c  f  'x        x2 x  3             ,  x 0, .
+
+5p b) Artai c lim 4ln  x  3  f  x  1.
+                x1           ln x
+
+5p  c) Demonstrai c   1      1     4 ln   x3        ,  pentru  orice  x 0,1 .
+                      x2     x            x2  3
+
+      2. Se consider funcia f :    , f  x  x2  4x ex .
+
+                              3
+
+5p a) Artai c  f  xexdx  27 .
+
+                              0
+
+Prob scris la matematic M_t-nat                                                         Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                     Ministerul Educaiei i Cercetrii
+                             Centrul Naional pentru Curriculum i Evaluare
+
+5p  b) Artai  c  0  f x       1.
+
+                    x  4 dx
+
+                 1
+  5p
+                             g : 0,   ,  gx                                             f   x2
+                                                                                           x2
+    c) Se consider funcia                                                                       .  Demonstrai  c  orice  primitiv
+
+    G : 0,    a funciei g este concav.
+
+Prob scris la matematic M_t-nat                                                                                          Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

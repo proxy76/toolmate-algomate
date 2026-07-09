@@ -1,0 +1,149 @@
+                                                             Ministerul Educaiei Naionale
+                                                      Centrul Naional de Evaluare i Examinare
+
+                                                 Examenul de bacalaureat naional 2018
+                                                                   Proba E. c)
+
+                                                          Matematic M_mate-info
+
+                                     BAREM DE EVALUARE I DE NOTARE
+                                                                                                                     Varianta 9
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                    (30 de puncte)
+
+1. 1- 2 = 2 -1, 2 - 2 = 2 - 2                                                                       2p
+
+      n = 2 -1+ 2 - 2 =1                                                                            3p
+
+2. 11 - x  1 -11x  10x  -10                                                                         3p
+
+      x [-1, +)                                                                                     2p
+
+3. (3 2)x  2 = 72  6x = 36                                                                          3p
+
+      x=2                                                                                           2p
+
+4. Cifra sutelor se poate alege în 5 moduri i, pentru fiecare alegere a cifrei sutelor, cifra       2p
+     zecilor se poate alege în 4 moduri
+
+      Pentru fiecare alegere a primelor dou cifre, cifra unitilor se poate alege în 3 moduri, deci  3p
+      se pot forma 5  4  3 = 60 de numere
+
+5. AB = 4 , BC = 2                                                                                  2p
+
+      ABC        este dreptunghic în                  B , deci  AABC          = 24 =4               3p
+                                                                                  2
+
+6.    A  =    -          +         =                                                                2p
+                   3        6         2
+
+      R = BC = 2                                                                                    3p
+              2
+
+SUBIECTUL al II-lea                                                                            (30 de puncte)
+
+1.a)               1     0       0                              1      0      0
+                   0     1       0                              0      1      0=
+      A(2)    =                              det   (  A(2))  =                                       3p
+
+                         0       e0                             001                                  2p
+                 0                   
+                                                                                                     3p
+      =1+0+0-0-0-0 =1
+                                                                                                     2p
+b)                            1      y -2+ x-2                    0           
+                                                                                                     3p
+      A(x) A( y) = 0                         1                    0 =                                2p
+                                                                                                     2p
+                                             0        e      x-2    e  y  -2                         3p
+                            0                                                 
+                                                                                               Varianta 9
+           1     x+ y-4                0         
+                                                 
+      =0 1                             0  = A( x + y - 2) , pentru orice numere reale x i y
+                                                 
+         0            0            e  x+  y  -4  
+
+( ) c) A(1+ 2 +... +10 - 2  9) = A m2 + m +17  m2 + m - 20 = 0
+
+        m = -5 sau m = 4
+
+2.a) f (1) = a + 2
+      f (-1) = a -10  f (1) - f (-1) = a + 2 - a +10 =12
+
+Prob scris la matematic M_mate-info
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                                    Ministerul Educaiei Naionale
+                                             Centrul Naional de Evaluare i Examinare
+
+b) Polinomul f este divizibil cu polinomul X - 2  f (2) = 0                                 2p
+
+f (2) = a + 2 , deci a = -2                                                                 3p
+
+c) x1 + x2 + x3 = 4 , x1x2 + x1x3 + x2 x3 = 5                                               2p
+
+x1, x2, x3  i x12 + x22 + x32 = 6 , deci ptratele rdcinilor sunt 1, 1 i 4; cum x1 + x2 + x3 = 4 , 3p
+obinem rdcinile 1, 1 i 2, deci a = -2 , care convine
+
+SUBIECTUL al III-lea                                                                        (30 de puncte)
+
+1.a) f '( x) = - 1  1  ln x + 1  1 =                                                        3p
+               2xx                      xx
+
+= - ln x + 1 = 2 - ln x , x (0, +)                                                          2p
+      2x x x x 2x x
+
+b) Tangenta la graficul funciei f în punctul (a, f (a)) este perpendicular pe axa           3p
+
+Oy  f '(a) = 0
+
+2 - ln a = 0  a = e2                                                                        2p
+
+( ) ( ) c) f '( x) > 0 , pentru orice x  0,e2 , deci f este strict cresctoare pe 0,e2       2p
+
+0 < 2 < 3 < e2  f (2) < f (3)  1 ln 2 < 1 ln 3  3 ln 2 < 2 ln 3 , deci 2 3 < 3 2            3p
+                                                 2             3
+
+3( )  2.a)                2x2       x3    3
+0  4x - x2     dx    =           -  3     0  =                                              3p
+
+= 18 - 9 = 9                                                                                2p
+
+( ) b)22-x        2   2   -  x          1                 2
+   f       dx  =     4x   -  x2  dx  =  2    ln  4x - x2    =                               3p
+      (x)         
+                                                          1
+1                 1
+
+= 1 ln 4 - 1 ln 3 = 1 ln 4                                                                  2p
+   2 2 23
+
+( ) c)            4                       4               4                            4
+In+1 - 4In =  f n+1 (x) dx - 4 f n (x) dx =  f n (x) 4x - x2 - 4 dx = - f n (x)(x - 2)2 dx
+                                                                                            3p
+
+                  0                       0               0                            0
+
+f ( x)  0 , pentru orice x [0, 4]  f n ( x)( x - 2)2  0 , deci In+1 - 4In  0  In+1  4In , 2p
+
+pentru orice numr natural nenul n
+
+Prob scris la matematic M_mate-info                                                         Varianta 9
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

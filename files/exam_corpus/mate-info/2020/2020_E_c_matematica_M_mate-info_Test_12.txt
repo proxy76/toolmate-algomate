@@ -1,0 +1,103 @@
+                                                              Ministerul Educaiei i Cercetrii                       Test 12
+                                                        Centrul Naional de Evaluare i Examinare           (30 de puncte)
+
+                                         Examenul de bacalaureat naional 2020
+                                                            Proba E. c)
+
+                                                   Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+                             2                  2
+5p 1. Artai c numrul N  5  13  5  13 este ptratul unui numr natural.
+
+5p 2. Se consider funcia f :  , f  x  x  a , unde a este numr real. Determinai numrul real
+     a , tiind c  f f 1  f 1  1 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x  41x  4 .
+5p 4. Determinai numrul numerelor naturale de trei cifre distincte care se pot forma cu elementele
+
+    mulimii A  0,5,7 .
+
+5p 5. Se consider punctul G , centrul de greutate al triunghiului ABC i punctul M , mijlocul
+      segmentului AG . Demonstrai c 6AM  AB  AC .
+
+5p 6. Calculai msura unghiului A al triunghiului ascuitunghic ABC , tiind c 4 ABC  AB  AC .
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+                                  3 2 1
+                                            
+1. Se consider matricea  A  a      2  2  1      ,  unde  a                               este numr real.
+
+                                  a  4 a  3 a 
+
+5p a) Artai c det  A0  15 .
+
+5p b) Determinai numrul real a pentru care rangul matricei Aa nu este egal cu 3.
+
+5p c) Demonstrai c matricea M  A1  A1  A1  A1 are toate elementele numere întregi,
+
+divizibile cu 25.
+
+2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y  3 x3  y3  2020 .
+
+5p a) Artai c x  x  3 2020 , pentru orice numr real x .
+
+5p b) Determinai numerele reale x pentru care  x 1  x  3 2021 .
+
+5p c) Demonstrai c, pentru orice numr real a , exist un unic numr real x pentru care x  x  x  a .
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+      1. Se consider funcia f :  , f  x  x3  6x2  9x  5 .                                                 Test 12
+
+ 5p a) Artai c f  x  3 x 1 x  3 , x  .
+
+ 5p b) Determinai intervalele de monotonie a funciei f .
+
+ 5p c) Demonstrai c funcia f este concav pe , 2 .
+
+      2. Se consider funcia f :  , f  x  2x  3 .
+
+                                                               x2  3x  5
+
+                                1
+
+ 5p a) Artai c  f  x  x2  3x  5 dx  4 .
+
+                                0
+
+Prob scris la matematic M_mate-info
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 1 din 2
+                                                            Ministerul Educaiei i Cercetrii
+                                                      Centrul Naional de Evaluare i Examinare
+
+                             1
+
+5p b) Calculai  f  xdx .
+
+                            4
+
+                            
+
+                              2
+
+5p c) Artai c  cos x f sin x dx  6  2 5 .
+
+                              0
+
+Prob scris la matematic M_mate-info                                                            Test 12
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 2 din 2
+

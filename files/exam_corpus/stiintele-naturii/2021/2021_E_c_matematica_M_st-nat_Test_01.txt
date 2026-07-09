@@ -1,0 +1,113 @@
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                Examenul naional de bacalaureat 2021
+
+                                                  Proba E. c)
+                                           Matematic M_t-nat
+
+                                                                                                                        Testul 1
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                             (30 de puncte)
+
+  5p                                                            2
+    1. Artai c numrul a  3  4 3  2 
+                                                             3 este întreg.
+
+5p 2. Se consider funciile f :    , f  x  2x  3 i g :    , g  x  4x2  2x . Determinai
+
+      abscisele punctelor de intersecie a graficelor funciilor f i g .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x24x2  64  2x .
+
+5p 4. Calculai probabilitatea ca, alegând un numr a din mulimea A  2, 1, 1, 3,4 , acesta s verifice
+
+      inegalitatea a2  2a 1  3 .
+
+5p 5. În reperul cartezian xOy se consider paralelogramul MNPQ cu M 2,3 , N 5, 4 i P 4,0 .
+
+      Determinai ecuaia dreptei MQ .
+5p 6. Triunghiul ABC este înscris într-un cerc de raz 5 . Artai c sin A sin B  sin C  AB  AC  BC .
+
+                                                                                                                   1000
+
+SUBIECTUL al II-lea                                                                                                     (30 de puncte)
+
+    1.  Se  consider  matricea  A      a,  b         b  a      a  2
+                                                        1      b 1  , unde a i b sunt numere reale.
+
+5p a) Artai c det  A1,0  0 .
+
+5p b) Demonstrai c, dac a ,0 i b 0,  , atunci matricea Aa,b este inversabil.
+5p c) Determinai matricea X  M2  pentru care A1,3  X  A2,1 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x y  3xy   x  y  2 .
+
+                                                                                                                           3
+
+5p a) Artai c 1 1   7 .
+
+                                    3
+
+5p  b) Demonstrai c x  y        3      x      1      y    1      1  ,  pentru           orice  numere  reale  x  i  y.
+                                              3           3      3
+
+5p c) Calculai 1 1 1 ... 1 .
+                      23                   2021
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+    1. Se consider funcia  f :,                      f    x  1        1   .
+                                                                    x2 1
+
+    a) Artai c  f 'x         2x            ,  x .
+                           x2 1
+  5p                                   2
+
+5p b) Demonstrai c dreapta de ecuaie y  2021 este paralel cu asimptota spre  la graficul funciei
+
+    f.
+
+5p c) Determinai punctele de inflexiune ale funciei f .
+
+Prob scris la matematic M_t-nat                                                                                         Testul 1
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                        Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia f :    , f  x  ex sin x .
+
+5p  a)  Artai  c  2  f x            ee 1 .
+
+                           dx
+                     sin x
+                  1
+
+                  
+
+5p  b) Calculai   2  f   xdx .
+
+                  
+
+                  0
+
+                     f    x                 ln 2
+                  2            2             e
+5p  c) Artai c          f x         dx            .
+                               
+
+                  
+
+                  6
+
+Prob scris la matematic M_t-nat                                                         Testul 1
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

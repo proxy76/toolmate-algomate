@@ -1,0 +1,107 @@
+                                                    Ministerul Educaiei Naionale
+                                             Centrul Naional de Evaluare i Examinare
+
+                                      Examenul de bacalaureat naional 2017
+                                                        Proba E. c)
+
+                                                  Matematic M_mate-info
+
+                                                          Clasa a XI-a                                                                      Simulare
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                       (30 de puncte)
+
+5p 1. Se consider numrul complex z = 4 - i . Calculai z  z - z - z , unde z este conjugatul lui z .
+5p 2. Determinai numrul real m , tiind c axa Ox este tangent graficului funciei f :    ,
+
+    f ( x) = x2 - (2m +1) x + m2 - m + 2 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3logx 5 + log5 (5x) = 5 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de trei cifre, acesta
+      s fie multiplu de 11.
+
+5p 5. Se consider triunghiul ABC , punctul M mijlocul laturii BC i punctul N mijlocul medianei
+
+    AM . Demonstrai c BN = - 3 AB + 1 AC .
+                                        44
+
+5p  6.  Artai  c,  dac     (sin x + 3cos y)2         + (cos x - 3sin         y)2        = 10  i     x,  y      0,         atunci  x=  y  .
+                                                                                                                   2   ,
+
+SUBIECTUL al II-lea                                                                                                               (30 de puncte)
+
+                                                                 1             11
+
+    1. Se consider determinantul  ( x, y) = x +1 y +1 2 , unde x i y sunt numere reale.
+
+                                                           x2 + x y2 + y 2
+
+5p a) Artai c  (0, 2) = -2 .
+
+5p b) Artai c  ( x, y) = ( x -1)( y -1)( y - x) , pentru orice numere reale x i y .
+
+5p c) Demonstrai c numrul  (m,n) este divizibil cu 2, pentru orice numere întregi m i n .
+
+                                                 a 0 a -1
+                                                                           
+    2. Se consider matricea        A(a    )  =       0     1        0       , unde a este numr real.
+                                                     -     0        a
+                                                  a     1
+
+5p a) Calculai A(0) + A(2) .
+
+5p b) Artai c A(a) A(b) = A(2ab - a - b +1) , pentru orice numere reale a i b .
+
+5p  c) Artai c         1        3         5    ...         2017         =      1        .
+                   A   2    A   2     A   2            A     2             A   2  
+
+SUBIECTUL al III-lea                                                                                                              (30 de puncte)
+
+    1. Se consider funcia          f : (0, +)   ,             f  (  x)  =  3x2 +        3x +1    .
+
+                                                                           x3 ( x       + 1)3
+
+5p  a) Artai c     f  (x)  =  1    -  (x  1       ,  pentru      orice     x (0, +) .
+                              x3
+                                          + 1)3
+
+5p b) Determinai ecuaia asimptotei orizontale spre + la graficul funciei f .
+
+5p c) Calculai lim ( f (1) + f (2) + f (3) + ... + f (n))2n3 .
+                            n+ 
+
+Prob scris la matematic M_mate-info                                                                                       Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                               Ministerul Educaiei Naionale
+                                        Centrul Naional de Evaluare i Examinare
+
+                                                        x3  +  3x2  -                   x  +  a,  x0
+                                                      
+    2. Se consider funcia            f :,  f  (x)  =    e4  x                                           , unde a  este numr real.
+                                                               -1,                                x>0
+                                                       e3x     -1
+
+5p  a) Calculai lim           f (x)  .
+
+                        x -   x3
+
+5p b) Determinai numrul real a pentru care funcia f este continu în punctul x = 0 .
+
+5p c) Demonstrai c, dac a (-6, -3) , atunci ecuaia f ( x) = 0 are cel puin dou soluii reale distincte
+
+    în intervalul (-3, -1) .
+
+Prob scris la matematic M_mate-info                                                                               Simulare pentru clasa a XI-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

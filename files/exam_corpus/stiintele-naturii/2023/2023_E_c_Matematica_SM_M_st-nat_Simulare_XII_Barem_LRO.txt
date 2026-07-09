@@ -1,0 +1,157 @@
+                                                      Ministerul Educaiei
+                                    Centrul Naional de Politici i Evaluare în Educaie
+
+                                    Examenul naional de bacalaureat 2023
+                                                      Proba E. c)
+
+                                               Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                      (30 de puncte)
+
+1. 21 i  i 2  i  2  2i  2i  i2                                                                                                            3p
+
+       211                                                                                                                                2p
+2. f 2a  a  6a 10  a
+                                                                                                                                          3p
+
+      a  2                                                                                                                                2p
+
+3. 2x2  2  4x2 , de unde obinem x2 1  0                                                                                                   2p
+
+      x  1, care nu convine; x  1 , care convine                                                                                          3p
+
+4. Cifra unitilor se poate alege în dou moduri                                                                                            2p
+
+      Pentru fiecare alegere a cifrei unitilor, cifra zecilor se poate alege în 5 moduri i, pentru
+
+      fiecare alegere a cifrei unitilor i a cifrei zecilor, cifra sutelor se poate alege în 4 moduri, 3p
+      deci se pot forma 2  5  4  40 de numere
+
+5. a  a 1                                                                                                                                 3p
+      12
+
+      a  1                                                                                                                                2p
+
+6. AC  12 ; ACD                                                                                                                           3p
+                              6
+
+      AC  cos  , de unde obinem CD  8 3                                                                                                   2p
+      CD          6
+
+SUBIECTUL al II-lea                                                                                                              (30 de puncte)
+
+1.a)                 2 1 1
+
+      det  A1  0 1 0  2 1 2  1  0 1 0  1 1111 1  0  2  0  1  2                                                                            3p
+
+                     1 1 2
+
+       4 0 010 0  3                                                                                                                       2p
+
+b)            1 1 1                               x  2 x  2 x  2
+                                                                                                 
+      A0       0     0   0    ,  A  0    A  x          0           0                       0       ,  pentru  orice  numr  real  x        3p
+               1     1   1                                      x  2                       
+                                                    x     2                             x     2
+
+      x  1                                                                                                                                2p
+
+c)                                                                                                               5 4 4
+                                                                                                                           
+       A11  aA1  bI3  aA1  A1  bA1  I3 i                                                   A1           A  1      0  1  0    ,  de  unde
+                                                                                                                  4  4  5
+
+                5a  2b 4a  b 4a  b   1 0 0                                                                                                3p
+
+      obinem        0          ab            0               0  1  0  
+                  4a  b       4a  b                          0  0  1  
+                                         5a     2b
+
+      a   1 i b  4                                                                                                                        2p
+          3          3
+
+Prob scris la matematic M_t-nat                                                                                                           Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                   Ministerul Educaiei
+                                                 Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) 1 2  1 2  1  2  1  212                                                                            3p
+
+      448                                                                                              2p
+
+b) x  0  x  0  x  0 1 2x0  x , pentru orice numr real x                                                2p
+
+      0  x  0  x  0  x 1 20x  x , pentru orice numr real x , deci e  0 este elementul neutru           3p
+      al legii de compoziie ,,  "
+
+c)                1         2n2   3n  2
+                  n              2n
+      n                                       ,  pentru      orice  numr       natural  nenul  n       2p
+
+      2n2  3n  2  0  2n2  3n  2  0 i, cum n este numr natural nenul, obinem n  2                       3p
+                2n
+
+SUBIECTUL al III-lea                                                                                   (30 de puncte)
+
+1.a)                     2    1      x  2     x    1    ln  x  
+                              x
+      f      x                           x2                                                            3p
+
+         2x  1 2x 1  ln x                        ln x   ,   x 0,                                       2p
+                   x2                            x2
+
+b)     lim        f    x       lim      2x    1    ln  x      lim      2    1      2                   3p
+                                              x                             x  
+      x                       x                              x
+
+      Ecuaia asimptotei orizontale spre  la graficul funciei f este y  2                               2p
+
+c) f ' x  0 , pentru orice x 1,   f este strict descresctoare pe 1,                                    2p
+
+      1  x  y  f  x  f  y , deci ln y  ln x  1  1 , pentru orice x, y 1,  cu x  y                      3p
+
+                                              y x xy
+
+  2.a)5                        dx  5 x dx  x 2 5 
+            f x  x3                                 23                                                 3p
+      
+                                        3
+      3
+
+       25  9  8                                                                                        2p
+         22
+             2
+b)                x2                    2    x2             12     x3  2    '        1             2
+      0                                 0  x3               30     x3  2             3               
+         f     x       x      2  dx                 dx                         dx       ln  x3  2      3p
+                                                                                                   0
+                                                 2
+
+       ln10  ln 2  ln 5                                                                                2p
+             3 33
+    c) g  x  x2 1 ex i G ' x  g  x , pentru orice x 0, , deci G '' x  x2  2x 1 ex 3p
+
+      G'' x   x 12 ex  0 , pentru orice x 0, , deci funcia G este concav                               2p
+
+Prob scris la matematic M_t-nat                                                                        Simulare
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

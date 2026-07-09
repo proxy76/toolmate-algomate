@@ -1,0 +1,99 @@
+                                             Ministerul Educaiei i Cercetrii
+                                     Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026                                                      Varianta 3
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                        (30 de puncte)
+
+5p 1. Artai c (4,9 - 3, 4) : 3 + 2,5 = 3 .
+
+5p 2. Se consider funcia f :    , f ( x) = 2x - 21. Determinai numrul real a pentru care punctul
+
+    A(-3a, a) aparine graficului funciei f .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log7 1+ 2x - x2 = log7 (3 - x) .
+
+5p 4. Determinai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+      acesta s fie multiplu impar de 11 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0,5) , B (2,0) i C (4,2) . Artai c triunghiul
+
+    ADC este isoscel, unde punctul D este mijlocul segmentului BC .
+
+5p  6. Se consider triunghiul       ABC , dreptunghic în      A , cu                    tgB  =  1  i aria egal cu  24 . Artai c   AC  = 4.
+                                                                                                3
+
+SUBIECTUL al II-lea                                                                                                (30 de puncte)
+
+        Se  consider  matricele         =  1    0    i  A(a)  =    2a + 2                    -a      ,  unde     este numr real.
+    1.                              I2                             a-3                       1                a
+                                             0  1                                                  
+
+5p a) Artai c det ( A(1)) = 2 .
+
+5p b) Determinai numrul real x pentru care A(0)  (6I2 - A(2) - A(-2)) = xI2 .
+
+5p c) Determinai matricea X  M2 () pentru care A(1)  X  A(1) = 4I2 .
+
+      2. Se consider polinomul f = X 3 - aX + 2 + a , unde a este numr real.
+
+5p a) Artai c f (1) = 3 , pentru orice numr real a .
+
+5p b) Determinai numrul real a pentru care polinomul f este divizibil cu polinomul g = X + 2 .
+
+5p c) Determinai numrul real a pentru care x13 + x23 + x33 = x1x2 + x1x3 + x2x3 , unde x1 , x2 i x3 sunt
+      rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                               (30 de puncte)
+
+    ( ) 1. Se consider funcia f :    , f ( x) = ex 2x2 - 3x .
+
+5p a) Artai c f '( x) = ex (2x + 3)( x -1) , x  .
+
+5p  b) Artai c    lim     f  (x)- x  =2.
+                          f  (x)+ x
+                  x0
+
+5p c) Determinai numerele reale a pentru care tangenta la graficul funciei f în punctul de abscis
+
+    x = a , situat pe graficul funciei f , are panta egal cu 0 .
+
+    ( ) 2. Se consider funcia f : (-1,+)   , f ( x) = 2x2 + 4x x +1 .
+
+5p  a) Artai c    3   f ( x) dx = 36 .
+
+                       x +1
+
+                  0
+
+5p  b)  Artai  c  8   x2  + 2x  dx  =1.
+                       f
+                          (x)
+
+                  3
+
+Prob scris la matematic M_t-nat                                                                                                   Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+                                      Ministerul Educaiei i Cercetrii
+                              Centrul Naional pentru Curriculum i Evaluare
+
+5p  c)  Se  consider  funcia  g :(0, +)   ,  g(x) =  4   x +1                           .  Determinai aria  suprafeei plane  delimitate
+                                                      f
+                                                         (x)
+
+    de graficul funciei g , axa Ox i dreptele de ecuaii x =1 i x = 4 .
+
+Prob scris la matematic M_t-nat                                                                                              Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

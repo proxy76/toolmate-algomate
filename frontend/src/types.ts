@@ -1,4 +1,17 @@
-export type Profile = "M1" | "M2" | "M3";
+export type Profile =
+  | "mate-info"
+  | "stiintele-naturii"
+  | "tehnologic"
+  | "pedagogic";
+
+// Canonical profile list (hardest → easiest) with display labels. Single source
+// of truth for the selector UIs.
+export const PROFILES: { code: Profile; label: string }[] = [
+  { code: "mate-info", label: "Mate-Info" },
+  { code: "stiintele-naturii", label: "Științele Naturii" },
+  { code: "tehnologic", label: "Tehnologic" },
+  { code: "pedagogic", label: "Pedagogic" },
+];
 
 export interface Exercise {
   id: string;

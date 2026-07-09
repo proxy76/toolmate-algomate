@@ -1,0 +1,90 @@
+                                                    Ministerul Educaiei Naionale
+                                             Centrul Naional de Evaluare i Examinare
+
+                                      Examenul de bacalaureat naional 2017
+                                                        Proba E. c)
+
+                                                  Matematic M_tehnologic
+                                                          Clasa a XII-a
+
+                                                                                                Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                               (30 de puncte)
+
+                 ( ) ( ) 2                        2
+5p 1. Artai c 2 + 3 + 1- 2 3 = 20 .
+
+5p 2. Se consider funcia f :    , f ( x) = x2 - 3x . Calculai f (1)  f (2)  f (3)  f (4) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 8x = 42x+1 .
+5p 4. Dup o scumpire cu 25% , preul unui obiect este 250 de lei. Calculai preul obiectului înainte de
+
+      scumpire.
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,5) , B (1,1) i C (5,5) . Artai c triunghiul
+
+      ABC este isoscel.
+5p 6. Artai c sin 60° + tg 45° = cos30° + ctg45° .
+
+SUBIECTUL al II-lea                                                                       (30 de puncte)
+
+    1. Se consider matricea        A  (  x)  =    x  2
+                                                       , unde x este numr real.
+                                                x x
+
+5p a) Artai c det ( A(3)) = 3 .
+
+5p b) Artai c A(2017 + x) + A(2017 - x) = 2A(2017) , pentru orice numr real x .
+
+5p c) Determinai numerele reale m pentru care det ( A(2) + mA(1)) = 0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y = 2xy + 6x + 6 y +15 .
+
+5p a) Artai c x  y = 2( x + 3)( y + 3) - 3 , pentru orice numere reale x i y .
+
+5p b) Artai c 7  98 = 2017 .
+
+5p c) Determinai numerele reale x , pentru care x  ( x + 2) = 3 .
+
+SUBIECTUL al III-lea                                                                      (30 de puncte)
+
+    1. Se consider funcia       f  : (2,+)   ,       f  (  x)  =  x  +  1  +  x  1  2  .
+                                                                                 -
+
+5p a) Artai c lim f ( x) - f (3) = 0 .
+
+                      x3 x - 3
+
+5p b) Determinai ecuaia asimptotei oblice spre + la graficul funciei f .
+
+5p c) Demonstrai c funcia f este convex pe intervalul (2, +) .
+
+    2. Se consider funciile f : (0, +)   , f ( x) = 1+ ln x i F : (0, +)   , F ( x) = x ln x .
+
+                             e
+
+5p a) Calculai  ( f ( x) - ln x) dx .
+
+                             1
+
+5p b) Artai c F este o primitiv a funciei f .
+
+5p  c)  Artai c  e  f  ( x) F ( x) dx =      e2   .
+
+                                             2
+
+                 1
+
+Prob scris la matematic M_tehnologic                                                      Simulare pentru clasa a XII-a
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                     Pagina 1 din 1
+

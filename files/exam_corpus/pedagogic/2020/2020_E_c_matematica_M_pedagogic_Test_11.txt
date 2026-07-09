@@ -1,0 +1,78 @@
+                                                             Ministerul Educaiei i Cercetrii                                       Test 11
+                                                       Centrul Naional de Evaluare i Examinare                            (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p  1.  Artai  c    2      1  2      17  1.
+                           3      :  9
+
+5p 2. Se consider funcia f :  , f  x  4x  a , unde a este numr real. Artai c, pentru orice
+
+    numr real a , f 2  f 2  16 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x2 3  34x .
+5p 4. Preul unui obiect este 120 de lei. Determinai preul obiectului dup ce se scumpete de dou ori,
+
+      succesiv, cu câte 5% .
+
+5p 5. În reperul cartezian xOy se consider punctele A3,7 i B 3,  7 . Determinai distana de la
+
+      punctul O la punctul C , unde C este mijlocul segmentului AB .
+
+5p 6. Calculai aria triunghiului ABC , tiind c m B  45 , AB  5 i AC  5 .
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie x  y  x  y  2020 .
+
+5p 1. Artai c 2000  20  0 .
+5p 2. Artai c legea de compoziie ,, " este asociativ.
+
+5p 3. Demonstrai c a a  2020  a  1010 a  1010 , pentru orice numr real a .
+
+5p 4. Determinai numrul real x , tiind c 4x  2x  2014 .
+5p 5. Determinai cel mai mare numr natural n pentru care n  n  n .
+
+5p 6. Artai c numrul 2  2 este întreg.
+                                 3 5 3 5
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+    Se  consider  matricele      A       1     3  i  I2      1     0    .                                                                Test 11
+                                         3     3             0     1  
+                                                                      
+
+5p 1. Artai c det A  6 .
+
+                                                                1       1
+                                                                2
+5p  2. Artai c    AB       I2 , unde matricea        B                  2               .
+                                                                              
+                                                             1             1  
+                                                                           6
+                                                             2
+
+5p 3. Artai c A A  4 A  6I2 .
+
+5p 4. Determinai numerele reale x , tiind c det  A  xI2   1 .
+
+5p 5. Determinai numrul real a , tiind c A A A  aA  24I2 .
+
+5p  6. Determinai numerele reale            a  i  b  pentru care        A X                 X A,  unde  X      2  1    .
+                                                                                                               a  b  
+                                                                                                                     
+
+Prob scris la matematic M_pedagogic
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,89 @@
+                                               Ministerul Educaiei, Cercetrii, Tineretului i Sportului                      Model
+                                                       Centrul Naional de Evaluare i Examinare                         (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2013
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+     Filiera teoretic, profilul real, specializarea matematic-informatic
+     Filiera vocaional, profilul militar, specializarea matematic-informatic
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+( ) 5p 1. Artai c numrul n = 5 -1 2 + 2 5 este natural.
+
+5p 2. Determinai valorile reale ale lui m pentru care graficul funciei f :    , f ( x) = x2 + mx + 4
+
+      intersecteaz axa Ox în dou puncte distincte.
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 2 - x2 = log2 x .
+
+5p 4. Calculai probabilitatea ca, alegând la întâmplare una dintre submulimile mulimii A = {1, 2,3, 4,5,6,7} ,
+
+aceasta s aib cel mult un element.
+
+5p 5. Se consider punctele A, B i C astfel încât AB = i + 6 j i BC = 4i + 6 j . Determinai lungimea
+
+segmentului [ AC] .
+
+5p 6. Se consider numerele reale a i b astfel încât a + b =  . Artai c 2cos b = cos a + 3 sin a .
+                                                                             3
+
+SUBIECTUL al II-lea                                                                                                    (30 de puncte)
+
+                                                          A(             )     x 1 2                       3(    )
+                                                                            =               
+1. Se noteaz cu  D(x, y)          determinantul matricei      x,  y              2  x  1                M           .
+                                                                                 1  y  x
+
+5p a) Calculai D(-1, 2) .
+
+5p b) Determinai numrul real q pentru care matricea A(2, q) are rangul egal cu 2.
+
+5p c) Artai c exist cel puin o pereche ( x, y) de numere reale, cu x  y , pentru care D(x, y) = D( y, x) .
+
+      2. Se noteaz cu x1, x2 , x3 rdcinile din  ale polinomului f = X 3 + X - m , unde m este un numr real.
+
+5p a) Determinai m astfel încât restul împririi polinomului f ( X ) la X -1 s fie egal cu 8.
+
+5p b) Artai c numrul x12 + x22 + x32 este întreg, pentru orice m   .                                       a > 0 , astfel încât polinomul
+5p c) În cazul m = 2 determinai patru numere întregi a,b,c, d , cu                                                             (30 de puncte)
+
+       g = aX 3 + bX 2 + cX + d s aib rdcinile 1 , 1 , 1 .
+                                                            x1 x2 x3
+
+SUBIECTUL al III-lea
+      1. Se consider funcia f :   , f (x) = ex - x .
+
+5p a) Calculai f '(0) .
+
+5p b) Artai c, pentru fiecare numr natural n  2 , ecuaia f (x) = n are exact o soluie în intervalul (0,+) .
+
+5p c) Fie xn unica soluie din intervalul (0,+) a ecuaiei f (x) = n , unde n este numr natural, n  2 .
+
+Artai  c   lim   xn      =  +  .
+
+          n+
+
+2. Se consider funcia f :  , f (x) = cos x i se noteaz cu S suprafaa plan delimitat de graficul
+
+funciei f, axa Ox i dreptele de ecuaii  x=0  i            x=  
+                                                                .
+                                                              2
+
+5p a) Calculai aria suprafeei S.
+
+5p b) Calculai volumul corpului obinut prin rotaia suprafeei S în jurul axei Ox.
+
+                     2            2
+5p c) Demonstrai c  f n (kx) dx =  f n (x) dx , pentru orice numere naturale n, k  1.
+
+                         0        0
+
+Prob scris la matematic M_mate-info                                                                                    Model
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+

@@ -1,0 +1,90 @@
+                                              Ministerul Educaiei i Cercetrii
+                                      Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026
+                                                          Proba E. c)
+
+                                                 Matematic M_tehnologic
+                                                                                                                      Varianta 3
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                          (30 de puncte)
+
+5p 1. Determinai termenul a3 al progresiei aritmetice (an )n1 în care a1 = 10 i a2 = 18 .
+5p 2. Se consider funcia f :    , f ( x) = 2x - 2 . Artai c f (4) - f (3) - f (2) = 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 73-x = 74x-2 .
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr,
+
+      acesta s verifice inegalitatea 20 - 2n < 15 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,1) , M (2, 4) i B (a,b) , unde a i b sunt
+
+      numere reale. Determinai numerele reale a i b , tiind c punctul M este mijlocul segmentului
+       AB.
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AB = 15 i msura unghiului B egal cu 30°.
+
+      Artai c BC = 10 3 .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+    1. Se consider matricea     A(    x  )  =    x  x  1  1    ,  unde  x  este numr real.
+                                                    -     2  
+                                                             
+
+5p a) Artai c det ( A(4)) = 5 .
+
+5p b) Artai c 2A(1) + A(4) = 3A(2) .
+
+5p c) Determinai numerele reale x i y pentru care A(-x)  A( x) = A( y) .
+
+     2. Pe mulimea numerelor reale se definete legea de compoziie x  y = (4 - x)(4 - y) + 2 .
+
+5p a) Artai c 0  3 = 6 .
+5p b) Determinai numrul real x pentru care 2  x = 2 .
+
+5p c) Determinai perechile (m,n) de numere întregi pentru care (2m)  (2n +1) = 10 .
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = 3x4 - 4x3 -12x2 -1.
+
+5p a) Artai c f '( x) = 12x( x + 1)( x - 2) , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+      funciei f .
+
+5p c) Demonstrai c 3x4 + 5  4x3 +12x2 , pentru orice x (-,0] .
+
+    2. Se consider funcia f :    , f ( x) = x +1+ xex .
+
+                              4
+
+( ) 5p a) Artai c  f ( x) - xex dx = 12 .
+                              0
+
+                              1
+
+5p b) Artai c ( f ( x) - x -1) dx = 1 .
+
+                              0
+
+5p  c) Se consider funcia g :[0,1]   , g ( x) =                   f '(x)   .    Artai  c    volumul  corpului  obinut  prin
+                                                                  f (x)
+
+    rotaia graficului funciei   g     în jurul axei       Ox      este egal cu   (e + 1) .
+
+                                                                                  e+2
+
+Prob scris la matematic M_tehnologic                                                                           Varianta 3
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                          Pagina 1 din 1
+

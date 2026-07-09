@@ -1,0 +1,110 @@
+                                                      Ministerul Educaiei i Cercetrii                               Test 17
+                                           Centrul Naional de Politici i Evaluare în Educaie              (30 de puncte)
+
+                                         Examenul de bacalaureat naional 2020
+                                                            Proba E. c)
+
+                                                   Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p  1. Artai  c,   dac       z2    z2  0,  unde  z  este numr     complex,    atunci     z2     4    3 .
+                                                                                                z2
+
+5p 2. Se consider funcia f :  , f  x  2x , unde x reprezint partea fracionar a lui x .
+
+    Artai c     f    x    1        f  x , pentru orice numr real  x.
+                          2  
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x1  3x  2x2  2x1 .
+
+  5p 4. Calculai probabilitatea ca, alegând un numr a din mulimea A  3, 4, 5, , 25 ,
+
+    numerele 3 , 4 i a s reprezinte lungimile laturilor unui triunghi dreptunghic.
+
+5p 5. Se consider paralelogramul ABCD i punctele M i N astfel încât AM  1 AC i AN  1 AB .
+                                                                                                    4         3
+
+    Demonstrai c punctele D , M i N sunt coliniare.
+
+5p  6. Artai c,    dac       ABC   este un triunghi oarecare, atunci  cos A   1          AB     AC    .
+                                                                              2          AC     AB  
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+                                           1 2 1                                          x 2y  z  0
+                                                                                         2x  my  z  0 , unde
+    1. Se consider      matricea   Am        2   m  1    i  sistemul  de ecuaii           x  3y  2z  0        m  este
+                                             1   3  2  
+
+    numr real.
+
+5p a) Artai c det  Am  m  9 , pentru orice numr real m .
+
+5p b) Determinai numrul real m pentru care sistemul de ecuaii admite soluii diferite de 0,0,0 .
+
+5p c) Pentru m  9 , se consider  x0, y0, z0  o soluie a sistemului de ecuaii, cu x0 , y0 i z0 numere
+
+    reale astfel încât   x0, y0, z0   0,0,0 . Calculai      x02  y02  z02  .
+                                                            x02  y02  z02
+
+    2. Pe mulimea numerelor întregi se definete legea de compoziie x  y  xy  5x  5y  20 .
+
+5p a) Artai c 2 1  23 .
+
+5p b) Demonstrai c e  4 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Pentru r 0,1,2 , notm cu Ar mulimea numerelor naturale care au restul r la împrirea cu
+
+    3 . Determinai numerele r 0,1,2 pentru care Ar este parte stabil a lui în raport cu legea de
+
+    compoziie ,, ".
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+      1. Se consider funcia f : 1,  , f  x   x 1 ex  e .                                                         Test 17
+
+ 5p a) Artai c f  x  xex  e , x  1,  .
+
+Prob scris la matematic M_mate-info
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 1 din 2
+                                                    Ministerul Educaiei i Cercetrii
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+5p b) Determinai ecuaia tangentei la graficul funciei f , în punctul de abscis x  1 , situat pe graficul
+
+    funciei f .
+
+5p c) Determinai punctul de extrem al funciei f .
+
+    2. Se consider funcia f : 2,                      ,  f  x    ln  x  2                .
+
+                                                                   x2 1
+
+5p  a)  Artai  c  1    f x               .
+                     ln  x  2 dx    4
+                  
+
+                  0
+
+ 5p b) Calculai lim 1 x f t dt .
+                     x0 x 0
+
+5p  c) Artai   c  1   f   x   arctg x    dx       ln  3  .
+                               x2              4
+                  0 
+
+Prob scris la matematic M_mate-info                                                         Test 17
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 2 din 2
+

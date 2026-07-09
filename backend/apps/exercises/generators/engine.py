@@ -75,7 +75,9 @@ def generate_exercises(
     *, profile: str, topics, difficulty: int, count: int, seed: str | None = None
 ) -> dict:
     if profile not in PROFILE_TOPICS:
-        raise GenerationError("Profil invalid. Folosește M1, M2 sau M3.")
+        raise GenerationError(
+            "Profil invalid. Folosește: " + ", ".join(PROFILE_TOPICS) + "."
+        )
     if difficulty not in (1, 2, 3):
         raise GenerationError("Dificultatea trebuie să fie 1, 2 sau 3.")
     if not (1 <= count <= 50):
@@ -203,7 +205,7 @@ def generate_full_simulation(*, profile: str, seed: str | None = None) -> dict:
     # M2/M3: the real mate-info paper's Subiectul I is noticeably more demanding
     # (expand-and-simplify complex numbers, exp/log/irrational equations,
     # combinatorial equations & probability — not bare evaluations).
-    si_diff = 2 if profile == "M1" else 1
+    si_diff = 2 if profile == "mate-info" else 1
     si_items = []
     for idx, choices in enumerate(rules["subiect_I"]):
         rng = _rng(seed, "I", idx)

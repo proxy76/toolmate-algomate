@@ -1,0 +1,165 @@
+                                                           Ministerul Educaiei Naionale
+                                                    Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2013
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+                                              Barem de evaluare i de notare
+
+                                                                                                                      Varianta 4
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                  (30 de puncte)
+
+1.    S3  =  ( a1  + a3    )  3  =  (2  + 8)3       =                                        3p
+                    2
+                                         2
+
+      = 15                                                                                   2p
+
+2. xV = 2                                                                                    2p
+
+      yV = -2                                                                                3p
+
+3. x = 4 - x                                                                                 3p
+
+      Rezult x = 2 , care verific ecuaia                                                     2p
+
+4. Numerele de dou cifre care au produsul cifrelor egal cu 4 sunt 14, 22 i 41  3 cazuri
+
+      favorabile                                                                             2p
+
+      Numrul de numere naturale de dou cifre este 90  90 de cazuri posibile                  1p
+
+      p = nr. cazuri favorabile = 1                                                          2p
+            nr. cazuri posibile 30
+
+5. AB = 3i i AM = ( xM -1)i + ( yM -1) j                                                     2p
+
+      AM     =  1  AB            xM   =2
+                              
+                3              yM =1                                                         3p
+
+6. 4sin  cos  = 2sin  =                                                                      3p
+             12 12                      6
+
+      = 2 1 =1                                                                               2p
+
+             2
+
+SUBIECTUL al II-lea                                                                          (30 de puncte)
+
+1.a)               2 2 0                                        220
+                                    
+      A(  -1)   =    2     0     2         det (  A ( -1) )  =  2  0  2=                     2p
+                     0     2     2                              0  2  2
+
+      = 0 + 0 + 0 - 0 - 8 - 8 = -16                                                          3p
+
+b)                         2 2 1 2 2 2
+                                                             
+      A(0)      A(1)    =     2  1      2        2     2  2     =                            2p
+                              1  2      2        2     2  2  
+
+      10 10 10
+      = 1100            1100 = 5A(1)
+                10                                                                           3p
+                10
+
+c)                            2 2 m+1
+
+      det ( A(m)) = 2 m +1 2 = -(m + 5)(m -1)2                                               3p
+
+                              m+1 2 2
+
+      det ( A(m)) = 0  m = -5 sau m = 1                                                      2p
+
+Prob scris la matematic M_mate-info                                                          Varianta 4
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        1
+                                                            Ministerul Educaiei Naionale                                3p
+                                                     Centrul Naional de Evaluare i Examinare                            2p
+                                                                                                                        2p
+2.a) xy - 2x - 2 y + 6 = x( y - 2) - 2( y - 2) + 2 =                                                                    3p
+      = ( x - 2)( y - 2) + 2 , pentru orice numere reale x i y                                                          3p
+                                                                                                                        2p
+  b) x 2 = (x - 2)(2 - 2) + 2 = 2 , pentru orice numr real x                                              (30 de puncte)
+        2 x = (2 - 2)(x - 2) + 2 = 2  x 2 = 2 x = 2 , pentru orice numr real x                                          2p
+
+ c) 1 2 3 ... 2012 2013 = (1 2) 3 ... 2012 2013 =                                                                       3p
+      = 2 (3 ... 2012 2013) = 2
+                                                                                                                        3p
+SUBIECTUL al III-lea                                                                                                    2p
+                                                                                                                        1p
+1.a)                  (x3    -1) '      (x2   + 1)  - (x3  - 1)(   x2   +1) '
+                                              (x2   + 1)2                                                               2p
+      f   '( x)  =                                                              =
+                                                                                                                        2p
+        3x2                                                                                                             3p
+
+      ( ( ) ) ( ) ( ) =                                                                                                 2p
+                    x2 +1 - 2x                x3 -1    =  x4    + 3x2 + 2x                             x
+                        x2 +1 2                                 x2 +1 2                                                 3p
+                                                                                ,  pentru       orice
+                                                                                                                        2p
+b) lim f (x) - f (0) = f '(0) =                                                                                         2p
+      x0                  x                                                                                             3p
+
+      =0
+
+c) lim x +1 = 1
+     x+ x -1
+
+                               f  (x)                                   x-1      2   x3  -1
+                                                       1                        x-1  x2  +1
+                    x  +1                                       2
+       lim          x  -1                  =   lim        +     -       2                    =
+
+      x+                                      x+             x     1
+
+      = e2
+
+  2.a)       1                                1        1
+                                              0
+      I1  =      xe-x dx       =     - xe- x        +     e-x dx   =
+
+             0                                         0
+
+      = - 1 - e-x 1 = e - 2
+             e               0e
+
+  b)               1                                       1                 1
+                                                           0
+      I n+1  =        x n+1e- x dx         =  - x n+1e- x     +   (n  + 1)      x n e- x dx  =
+
+                   0                                                         0
+
+      =   -  1   +  (  n  +  1)   I  n
+             e
+
+c) Pentru orice n  * i pentru orice x [0 ,1] avem 0 < e-x  1  0  xne-x  xn
+
+               1                     1                             1
+                                                                     n +1
+      0  xne-x dx  xndx                                   0  In
+
+             0                          0
+
+Prob scris la matematic M_mate-info                                                                       Varianta 4
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        2
+

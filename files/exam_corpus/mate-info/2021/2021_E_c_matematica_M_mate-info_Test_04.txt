@@ -1,0 +1,91 @@
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul naional de bacalaureat 2021
+                                                       Proba E. c)
+
+                                                 Matematic M_mate-info                                                       Testul 4
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                        (30 de puncte)
+
+5p 1. Se consider un numr complex z care are proprietatea z2 = 1 - i . Artai c z4 + 2i = 0 .
+
+5p 2. Se consider funcia f :  , f ( x) = x2 - 2x + m , unde m este numr real. Determinai
+    valorile reale ale lui m pentru care f ( x)  1, pentru orice numr real x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log5 ( x + 2) + log5 (2x -1) = 2 .
+
+5p 4. Determinai probabilitatea ca, alegând un numr din mulimea numerelor naturale de trei cifre,
+      acesta s aib suma cifrelor divizibil cu 9 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(2,1) , B(3,2) i C (4,5) . Determinai
+
+      coordonatele punctului D , tiind c AB + AC + AD = 0 .
+
+5p 6. Determinai x (0,1) pentru care 4cos x cos( - x) + 3 = 0 .
+
+SUBIECTUL al II-lea                                                                                                (30 de puncte)
+
+                                           1 0 0                 0 1 0
+                                                                                           
+    1. Se consider matricele         A  =    0  2  0    i  B  =    0  0                 1    .
+
+                                            0 0 3                 0 0 0
+
+5p a) Artai c det A = 6 .
+
+5p b) Artai c A B + B = B  A .
+
+5p c) Determinai numerele reale x i y , tiind c ( x +1) A B + ( y - 2) B  A = B  B  B .
+
+    2. Pe mulimea numerelor naturale nenule se definete legea de compoziie x  y = x y .
+
+5p a) Artai c 2  4 = 4  2 .
+5p b) Artai c legea de compoziie ,,  " nu este comutativ.
+
+5p c) Determinai numerele naturale nenule n pentru care (2  2)  n  64 .
+
+SUBIECTUL al III-lea                                                                                               (30 de puncte)
+
+    ( ) 1. Se consider funcia f :  , f ( x) = 2x + ln x2 + x +1 .
+
+5p  a) Artai c     f  '( x)  =  2x2  +  4x + 3  ,  x    .
+                                 x2  +  x +1
+
+5p b) Calculai lim ( f ( x +1) - f ( x)) .
+                             x+
+
+5p c) Demonstrai c funcia f este bijectiv.
+
+    2. Se consider funcia f :  , f ( x) = 2x -1.
+
+                1
+
+5p a) Artai c  f ( x) dx = 0 .
+
+                0
+
+                             1
+
+5p b) Calculai  ex f ( x) dx .
+
+                0
+
+                                                                                                1
+
+    c) Pentru fiecare numr natural nenul n , se consider numrul In =                               f  n ( x) dx .  Calculai
+ 5p                                                                                                                           lim  In  .
+
+                                                                                                0                            n+
+
+Prob scris la matematic M_mate-info                                                                                                Testul 4
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

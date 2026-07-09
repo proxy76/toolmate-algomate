@@ -1,0 +1,165 @@
+                             Ministerul Educaiei, Cercetrii, Tineretului i Sportului
+                                     Centrul Naional de Evaluare i Examinare
+
+                                Examenul de bacalaureat naional 2013
+
+                                              Proba E. c)
+
+                                         Matematic M_t-nat
+
+                                    Barem de evaluare i de notare
+
+                                                                                                      Model
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+
+pentru lucrare.                                                                       (30 de puncte)
+
+· SUBIECTUL I
+
+1. a2 - a1 = r  r = -1                                                                                2p
+
+a3 = 0                                                                                                2p
+
+Finalizare: produsul este egal cu 0                                                                   1p
+
+2.  = 4 + 4m < 0                                                                                      3p
+m  (-, -1)
+                                                                                                      2p
+
+3. x( x -1) = 12  x = -3 sau x = 4                                                                    3p
+
+x = 4 convine, x = -3 nu convine                                                                      2p
+
+4. p = nr.cazuri favorabile                                                                           1p
+
+    nr.cazuri posibile
+
+Numrul numerelor abc pentru care a  b  c = 3 este egal cu 3  3 cazuri favorabile                      2p
+
+Numrul numerelor naturale de trei cifre este de 900  900 cazuri posibile                              1p
+
+p= 1                                                                                                  1p
+    300
+
+( ) 5. a  b = a  b  cos a,b = 2  3 1                                                                  3p
+                                      2
+
+ab =3                                                                                                 2p
+
+6. B (0,1) i C (3,1)  BC Ox , deci xH = xA = 1 , unde H este ortocentrul triunghiului ABC             2p
+
+BH      AC       mBH   mAC   =  -1    yH -1   -2  =  -1                                               2p
+                                        1     2
+
+yH = 2                                                                                                1p
+
+SUBIECTUL al II-lea                                                                   (30 de puncte)
+
+( ) 1.a) Suma elementelor matricei A este egal cu 1+ (2n +1) + n +1+ 2n2 +1 + n2 +1 =                 3p
+
+= 3n2 + 3n + 5                                                                                        2p
+
+b) det A = n2 - n                                                                                     2p
+
+Finalizare: n   \ {0,1}                                                                               3p
+
+c) A = 1                                                                                              1p
+           2
+
+n2 + n - 6 = 0  n = 2 sau n = -3                                                                      3p
+
+Finalizare: n = 2                                                                                     1p
+
+2.a) 2011 2012 = 2011+ 2012 +1 =                                                                      3p
+= 4024
+                                                                                                      2p
+b) ( x y) z = x + ay + az + 2 pentru orice x, y, z  
+                                                                                                      2p
+
+x ( y z) = x + ay + a2z + a +1 pentru orice x, y, z                                                   2p
+
+( x y) z = x ( y z) pentru orice x, y, z    a = 1                                                     1p
+
+Prob scris la matematic M_t-nat                                                            Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        1
+                                            Ministerul Educaiei, Cercetrii, Tineretului i Sportului
+                                                    Centrul Naional de Evaluare i Examinare
+
+c) 2x = t  t2 - t = 0                                                                                                      2p
+
+      Finalizare: x = 0                                                                                                    3p
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+                                                                                                                          2p
+1.a)  lim      f  (x) - f (2)  =   f  '(2)
+                    x-2                                                                                                   2p
+      x2                                                                                                                  1p
+
+      f ( x) = ( x + ln x) = 1 + 1 , pentru orice x (0, +)                                                                2p
+                                                                                                                          2p
+                                   x                                                                                      1p
+
+     Finalizare
+
+b) y - f (1) = f (1)( x - 1)
+
+      f (1) = 1, f (1) = 2
+
+      Ecuaia tangentei este y = 2x - 1
+
+c)    f  ''( x) = -   1     , pentru  orice       x (0, +)                                                                 2p
+                      x2                                                                                                   2p
+      f "( x) < 0 , pentru orice x  (0, +)
+                                                                                                                           1p
+      Finalizare
+
+  2.a)1                               1     1
+         f1 (  x) dx                  0
+                      =  (x  + 1)e x     -     ex    dx  =                                                                 2p
+
+      0                                     0
+
+      ( ) = (x +1)ex - ex 1 = e                                                                                            3p
+
+                                0
+
+( ) b)                                      (                                  = ex + ( x + 2011)ex = ( x + 2012)ex , x  
+      f2011 derivabil i            f           x  )  =   ( x + 2011)ex                                                     3p
+
+                                      2011
+
+      f           =  f2012                                                                                                 2p
+
+         2011
+
+c) ( x + n) ex  ( x + n) ( x + 1) , pentru orice x [0, 1] i n  *                                                           1p
+
+      1                      1
+       ( x + n)ex dx  ( x + n)( x +1)dx
+                                                                                                                           1p
+
+      0                      0
+
+      1    +      n)(x  +1) dx  =     x3    +  (n    + 1)   x2  +       1  =  9n +  5                                      2p
+                                      3                     2      nx   0       6                                          1p
+      (x
+
+      0
+
+      Finalizare
+
+Prob scris la matematic M_t-nat                                                                                            Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        2
+

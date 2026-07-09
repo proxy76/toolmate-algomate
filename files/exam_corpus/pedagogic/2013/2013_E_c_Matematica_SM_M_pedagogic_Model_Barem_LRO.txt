@@ -1,0 +1,149 @@
+                                               Ministerul Educaiei, Cercetrii, Tineretului i Sportului
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2013
+
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+                                              Barem de evaluare i de notare
+
+                                                                                                                            Model
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                 (30 de puncte)
+
+1. 1 - 1 + 1 = 12 - 2 + 3                                                                   3p
+
+3 18 12 36 36 36
+
+Propoziia este adevrat                                                                      2p
+
+2. x = -1                                                                                   2p
+
+y = 1 soluia sistemului este (-1,1)                                                         3p
+
+3. x2 + 2x - 3 = 0  x1 = 1, x2 = -3                                                         3p
+
+Finalizare: x (-3,1)                                                                        2p
+
+4. 3 - x > 0                                                                                2p
+                                                                                            3p
+    x < 3  D = (-,3)
+
+5. AO = AB + BO                                                                             2p
+
+AB = -CD , BO = 1 BD                                                                        2p
+
+                      2                                                                     1p
+Finalizare
+
+6. Triunghiul este isoscel                                                                  1p
+                                                                                            2p
+   ( ) 5 2 2 = 52 + 52
+
+Din reciproca teoremei lui Pitagora triunghiul este dreptunghic                             2p
+
+SUBIECTUL al II-lea                                                         (30 de puncte)
+                                                                                                 2p
+ ( ) 1. 0 0 = log3 30 + 30 +1 =
+                                                                                                 2p
+        = log3 3 =                                                                               1p
+        =1                                                                                       2p
+                                                                                                 2p
+ ( ) 2. x y = log3 3x + 3y +1 , pentru orice x, y                                                1p
+    ( ) y x = log3 3y + 3x +1 , pentru orice x, y  
+                                                                                                 2p
+       Finalizare                                                                                2p
+                                                                                                 1p
+ ( ) 3. x 0 = x +1 log3 2 + 3x = x +1                                                            2p
+                                                                                                 3p
+        2 + 3x = 3x+1  3x = 1                                                                    2p
+        x=0
+                                                                                                 1p
+  4. 3x > 0, 3y > 0 pentru orice x, y  
+                                                                                               Model
+    ( ) 3x + 3y +1 > 1  log3 3x + 3y +1 > 0  x y > 0 , pentru orice x, y  
+ ( ) 5. Dac e   astfel încât x e = x  log3 3x + 3e + 1 = x
+
+        3e = -1
+
+Prob scris la matematic M_pedagogic
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        1
+                                        Ministerul Educaiei, Cercetrii, Tineretului i Sportului
+                                                Centrul Naional de Evaluare i Examinare
+
+    Finalizare: legea nu admite element neutru                                                                      2p
+( ) 6. x x = log3 2  3x +1
+    ( ) ( x x) x = log3 2  3x +1+ 3x +1 =                                                                           2p
+
+                                                                                                                    2p
+
+    ( ) = log3 2 + 3x+1 , pentru orice x                                                                            1p
+
+SUBIECTUL al III-lea                                                                             (30 de puncte)
+
+1.                   1 1 2
+                                                                                                                    3p
+    m  =  1    A  =    2  -1       1  
+                       1  1        1
+
+    det A = 3                                                                                                       2p
+
+2. det A = -m + 4 + m + 2 - m2 - 2 =                                                                                3p
+
+    = -m2 + 4                                                                                                       2p
+
+3. det (2A) = -16  23  (2 - m)(2 + m) = -16                                                                         2p
+
+    4 - m2 = -2  m2 = 6                                                                                             1p
+
+    m=± 6m= 6                                                                                                       2p
+
+4.             3x + y + 2z = 1
+    m = 3  2x - y + 3z = 2
+                                                                                                                    2p
+
+               x + y + z = -1
+
+    Verificare:      7,-  8,-      4    este  soluie                                                                3p
+                     5    5        5  
+
+5.             2x x+-y y++2 zz  =  1
+                                =  2
+    m  =  1    x + y + z = -1                                                                                       2p
+
+    x = -1, y = -2, z = 2                                                                                           3p
+
+6.             2x + y + 2z =1
+    m = 2  2x - y + 2z = 2
+                                                                                                                    2p
+
+               x + y + z = -1
+
+    Sczând primele 2 ecuaii  y = - 1                                                                                1p
+
+                                                  2
+
+                                                      2x   +  2z    =  3
+                                                                       2
+    Înlocuind  în    prima  i   a  treia  ecuaie                          , imposibil, deci sistemul nu are soluie  2p
+                                                                       1
+                                                        x  +  z  =  -  2
+
+Prob scris la matematic M_pedagogic                                                                                 Model
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        2
+

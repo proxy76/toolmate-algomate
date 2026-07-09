@@ -1,0 +1,70 @@
+                                              Ministerul Educaiei
+                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                         Examenul de bacalaureat naional 2022                                 Varianta 7
+                                                            Proba E. c)                                 (30 de puncte)
+
+                                                  Matematic M_pedagogic
+
+ Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ · Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ · Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+ 5p 1. Artai c log2 16 - log2 8 + log2 1 = 1.
+
+5p 2. Se consider funcia f :    , f ( x) = 5x + 7 . Determinai numrul real m pentru care punctul
+
+A(m,2022) aparine graficului funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 5x - 2 = 3 .
+
+5p 4. Dup dou scumpiri succesive cu 20% preul unui obiect este de 180 lei. Determinai preul
+      iniial al obiectului.
+
+5p 5. În reperul cartezian xOy se consider punctele A(6,7) i B (2,5) . Determinai ecuaia dreptei
+
+AB .
+
+( )( ) 5p                                              1  .
+6. Artai c sin 45 - sin 30        sin 45 + sin 30   =  4
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+Pe mulimea numerelor reale se definete legea de compoziie x y = xy + 5( x + y) + 7 .
+
+5p 1. Artai c (-2) 2 = 3 .
+
+5p 2. Artai c legea de compoziie ,, " este comutativ.
+
+5p 3. Demonstrai c x y = ( x + 5)( y + 5) -18 , pentru orice numere reale x i y .
+
+5p 4. Determinai numerele reale x pentru care x x = 7 .
+
+5p 5. Demonstrai c ((-x) (- y)) + ((-x) y) + ( x (- y)) + ( x y) = 28 , pentru orice numere reale x
+
+i y .
+
+5p 6. Determinai perechile (a,b) de numere întregi pentru care a b = -19 .
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+Se consider matricele  I2     1   0     ,      5    5     i  X (a) = I2                 + aA , unde  a  este numr real.
+                            =  0  1        A =  -4  -4 
+
+5p 1. Artai c det A = 0 .
+5p 2. Artai c A A = A .
+
+5p 3. Artai c X (-1) + X (1) = 2I2 .
+
+5p 4. Demonstrai c X (a)  X (-1) = X (-1) , pentru orice numr real a .
+
+5p 5. Determinai valorile reale ale lui a pentru care matricea X (a) nu este inversabil.
+
+( ( )) 5p 6. Determinai valorile reale ale lui a pentru care det X a2  10 .
+
+Prob scris la matematic M_pedagogic                                                                     Varianta 7
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 1 din 1
+
