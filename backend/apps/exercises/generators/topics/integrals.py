@@ -64,14 +64,19 @@ class IntegralsProblem(ProblemGenerator):
             (6 * x - 6, 0, 4, R),                                        # root at 1
         ])
 
-    def _area(self, f, lo, hi):
-        """Exact area |∫f| split at the sign changes of f inside (lo, hi)."""
+    def _area(self, f, F, lo, hi):
+        """Exact area |∫f| split at the sign changes of f inside (lo, hi).
+
+        Uses the precomputed antiderivative ``F`` (evaluate at endpoints) rather
+        than re-integrating on each segment — the transcendental families make
+        repeated symbolic integration expensive.
+        """
         roots = sorted(
             (r for r in sp.solve(sp.Eq(f, 0), x) if r.is_real and lo < r < hi),
             key=float,
         )
         pts = [lo, *roots, hi]
-        total = sum(sp.Abs(sp.integrate(f, (x, a, b))) for a, b in zip(pts, pts[1:]))
+        total = sum(sp.Abs(F.subs(x, b) - F.subs(x, a)) for a, b in zip(pts, pts[1:]))
         return sp.simplify(total)
 
     def _generate_context(self) -> dict:
@@ -81,9 +86,9 @@ class IntegralsProblem(ProblemGenerator):
         if self.profile == "mate-info" and self.rng.random() < 0.3:
             return self._context_sequence()
         f, lo, hi, dom = self._families()
-        F = sp.simplify(sp.integrate(f, x))
-        value = sp.simplify(sp.integrate(f, (x, lo, hi)))
-        area = self._area(f, lo, hi)
+        F = sp.simplify(sp.integrate(f, x))       # antiderivative computed once
+        value = sp.simplify(F.subs(x, hi) - F.subs(x, lo))   # Leibniz–Newton, no re-integrate
+        area = self._area(f, F, lo, hi)
         return {"f": f, "F": F, "lo": lo, "hi": hi, "dom": dom,
                 "value": value, "area": area}
 
