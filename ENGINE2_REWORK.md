@@ -175,8 +175,15 @@ already-tracked `_legacy` ones).
       unbraced `\sqrt2`) via a normalization in `mathimg._preprocess` → 80/80 PDFs
       across 4 profiles × 20 seeds render. Tests: PROFILES-parametrized + 2 st-nat +
       hardened PDF (4×3 seeds) = **21 green**.
-- [ ] C2 **Rework existing** mate-info / tehnologic / pedagogic exams (task #7):
-      additive value/formulation/problem-type diversity from the fuller corpus.
+- [~] C2 **Rework existing** exams (task #7): additive diversity from the fuller
+      corpus. **Done so far:** measured per-position form/value diversity over 120
+      sims/level → targeted the thinnest spots. Integrals Subiect III p2 (all levels)
+      5→18 families (form ~10→28); mate-info trig pos-6 d2 made the full authentic
+      pool (26/11→85/47); pedagogic pos-1 → arithmetic-dominant numeric identity per
+      corpus (8→20 form). **Remaining thin spots** (for next pass): enrich the
+      `arithmetic` generator (log-identity/conjugate/decimal forms → lifts tehnologic
+      & st-nat pos-1 too), mate-info pos-3 equations (12 form), pos-5 geometry (14),
+      matrices problem cerință variety (~10 form).
 
 ### Phase D — SINGLE-PROBLEM generators  *(priority tier 2)*
 - [ ] D1 Diversify `/generate` single-item + facade generators for all 4 levels

@@ -149,7 +149,10 @@ SIMULATION_RULES: dict[str, dict] = {
     },
     "pedagogic": {
         "subiect_I": [
-            ("progressions", "powers"),              # 1: progressions / powers
+            # 1: the real M_pedagogic opener is a numeric identity "Arătați că
+            # <expr>=<val>" (radical/log/decimal/conjugate), with a progression
+            # term-finding item as the secondary flavour.
+            ("arithmetic", "arithmetic", "progressions", "powers"),
             ("functions",),                          # 2: functions (linear only)
             ("equations",),                          # 3: equation (simple)
             ("combinatorics", "statistics"),         # 4: probability / percentage
