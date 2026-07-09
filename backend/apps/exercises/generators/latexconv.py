@@ -40,10 +40,10 @@ RO_TERMS = {
 def sympy_to_bac_latex(expr, simplify: bool = False) -> str:
     """Convert a sympy object to BAC-style LaTeX wrapped in ``$...$``.
 
-    Uses ``mul_symbol="dot"`` for an explicit ``·`` and avoids the
-    ``\\left/\\right`` blow-up where possible. ``simplify`` is opt-in so that an
-    already-clean computed answer is not re-shaped unexpectedly.
+    Products use juxtaposition (``6x^2``, ``2xe^{2x}``) as in the real BAC papers
+    — no ``\\cdot`` between coefficients and variables. ``simplify`` is opt-in so
+    that an already-clean computed answer is not re-shaped unexpectedly.
     """
     if simplify:
         expr = sp.simplify(expr)
-    return f"${sp.latex(expr, mul_symbol='dot')}$"
+    return f"${sp.latex(expr)}$"

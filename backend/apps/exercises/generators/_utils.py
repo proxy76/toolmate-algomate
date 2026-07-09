@@ -40,8 +40,10 @@ BAC_CONTEXT: Dict[int, str] = {
 
 
 def latex(expr) -> str:
-    """sympy -> compact LaTeX (no \\left/\\right blow-up)."""
-    return sp.latex(expr, mul_symbol="dot")
+    """sympy -> compact LaTeX. Juxtaposition for products (``6x^2``, ``2xe^{2x}``)
+    as in the real BAC papers — no ``\\cdot`` between coefficients and variables
+    (it is non-standard here and widens expressions ~15%, risking PDF overflow)."""
+    return sp.latex(expr)
 
 
 def pick(rng: random.Random, items: Iterable):

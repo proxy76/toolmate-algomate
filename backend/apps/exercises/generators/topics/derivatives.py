@@ -15,7 +15,7 @@ x = sp.Symbol("x", real=True)
 
 def _latex(expr) -> str:
     # Romanian BAC writes the natural log as ``ln`` (sympy emits ``\log``).
-    return sp.latex(expr, mul_symbol="dot").replace(r"\log", r"\ln")
+    return sp.latex(expr).replace(r"\log", r"\ln")
 
 
 class DerivativesGenerator(ExerciseGenerator):

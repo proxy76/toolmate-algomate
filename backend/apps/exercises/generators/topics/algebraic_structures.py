@@ -19,7 +19,7 @@ x, y = sp.symbols("x y", real=True)
 
 
 def _l(expr) -> str:
-    return sp.latex(expr, mul_symbol="dot")
+    return sp.latex(expr)
 
 
 class AlgebraicStructuresProblem(ProblemGenerator):

@@ -50,8 +50,8 @@ COL_TEXT = USABLE_W - COL_POINTS - COL_LABEL
 BODY_FS = 9.5
 MATH_FS = 10.5
 
-INSTITUTION = ["Ministerul Educației și Cercetării",
-               "Centrul Național de Politici și Evaluare în Educație"]
+INSTITUTION = ["PDF Generat de Platforma Algomate",
+               "laborator.algomate.ro"]
 
 PROFILE_LABELS = {
     "mate-info": ("Matematică M_mate-info", "Probă scrisă la matematică M_mate-info",
