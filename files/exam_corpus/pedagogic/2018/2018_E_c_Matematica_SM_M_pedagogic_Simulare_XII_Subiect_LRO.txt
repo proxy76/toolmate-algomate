@@ -1,0 +1,71 @@
+                                               Ministerul Educaiei Naionale
+                                        Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2018                    Simulare
+                                                          Proba E. c)                   (30 de puncte)
+
+                                                 Matematic M_pedagogic
+
+                                                         Clasa a XII-a
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Determinai a 2018-a zecimal a numrului 40 .
+                                                               11
+
+5p 2. Se consider funcia f :    , f ( x) = x2 - 3x + 2 . Determinai valoarea minim a funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x - 2x = 12 .
+5p 4. Dup o majorare cu 10% , urmat de o reducere cu 10% , preul unui televizor este 990 de lei.
+
+      Calculai preul iniial al televizorului.
+
+5p 5. În reperul cartezian xOy se consider punctele A(1, 2) , B (-1,5) , C (-3, 4) i D (a, 4) .
+
+      Determinai numrul real a , tiind c vectorii AD i CB sunt coliniari.
+5p 6. Calculai raza cercului circumscris triunghiului ABC cu AB = 10 , AC = 24 i BC = 26 .
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+Pe mulimea numerelor reale se definete legea de compoziie x  y = xy - 4x - 4 y + 20 .
+
+5p 1. Calculai 2  3 .
+
+5p 2. Demonstrai c x  y = ( x - 4)( y - 4) + 4 , pentru orice numere reale x i y .
+
+5p 3. Demonstrai c legea de compoziie ,,  " este asociativ.
+
+5p 4. Determinai numerele reale x pentru care x  ( x +1) = 6 .
+
+5p 5. Determinai valorile reale x pentru care x  x  8 .
+5p 6. Calculai 20  21  22 ... 22018 .
+
+SUBIECTUL al III-lea                                                                    (30 de puncte)
+
+Se  consider  matricea  A(      a,b  )  =    a   b
+                                             -b    , unde a i b sunt numere reale.
+                                           
+                                                 a
+
+5p 1. Calculai det ( A(1,1)) .
+
+5p 2. Determinai numerele reale x i y , tiind c A( x, y) - A(3,1) = A(1,1) .
+
+5p 3. Artai c 6A(3,1) - A(3,1)  A(3,1) = 10A(1,0) .
+
+5p 4. Determinai numerele reale a i b , tiind c det ( A(a,b)) = 0 .
+
+5p 5. Rezolvai ecuaia matriceal A(1,1)  X = A(1,0) .
+
+5p 6. Determinai perechile de numere naturale (m,n) , tiind c matricea A(m, -n) este inversa matricei
+     A(m, n) .
+
+Prob scris la matematic M_pedagogic                                                     Simulare pentru clasa a XII-a
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

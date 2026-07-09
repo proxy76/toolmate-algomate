@@ -1,0 +1,75 @@
+                                              Ministerul Educaiei i Cercetrii
+                                      Centrul Naional pentru Curriculum i Evaluare
+
+                                      Examenul naional de bacalaureat 2025
+                                                        Proba E. c)
+
+                                               Matematic M_pedagogic
+
+                                                                                                                                   Varianta 9
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+5p  1.  Artai  c  3      3  -  1   +  2:  1   =8.
+                         2     6          2
+
+5p 2. Se consider funciile f :    , f ( x) = 5x - 2 i g :    , g ( x) = 2x + 7 . Determinai
+
+    numrul real m pentru care f (1) + g (1) = 2m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2-x = 22x-6 .
+
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea A = {0,1, 2, 3,...,19} , numrul
+
+      3n + 2 s aparin mulimii A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,0) , B (0,6) , C (5, 4) i D , mijlocul
+
+    segmentului AC . Determinai distana dintre punctele B i D .
+
+5p  6. Se consider triunghiul         ABC , dreptunghic în         A , cu                   AB = 4     i     AC = 8 . Artai c sin C =  5  .
+                                                                                                                                       5
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+       Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = xy + 90 - 9x - 9 y .
+5p 1. Artai c 0  9 = 9 .
+
+5p 2. Artai c x  y = ( x - 9)( y - 9) + 9 , pentru orice numere reale x i y .
+
+5p 3. Artai c e = 10 este elementul neutru al legii de compoziie ,,  ".
+
+5p  4. Determinai simetricul numrului              26  în raport cu legea de compoziie ,,  ".
+                                                   3
+
+5p 5. Calculai 30  31  32  33  34 .
+
+5p 6. Determinai numerele naturale de forma ab pentru care a  b =12 .
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+    Se  consider  matricele    I2     =  1    0    i  M  (a)  =  a                          1       ,  unde     este  numr  real.
+                                                                                            -                a
+                                           0  1                    -3                    2     a  
+
+5p 1. Artai c det (M (1)) = 4 .
+
+5p 2. Artai c 3M (4) - M (2) = 2M (5) .
+
+5p 3. Determinai numerele reale a pentru care det (M (a)) = 0 .
+
+5p 4. Determinai numrul real x pentru care M (3)  M (3) = xM (3) .
+
+5p 5. Determinai matricea X  M2 () pentru care M (1)  X = 2M (-1) .
+
+5p 6. Determinai numerele întregi m pentru care det (M (m) + mI2 )  det (M (-2m)) .
+
+Prob scris la matematic M_pedagogic                                                                                                Varianta 9
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                         Pagina 1 din 1
+

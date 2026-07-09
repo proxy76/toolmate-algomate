@@ -1,0 +1,108 @@
+                               Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                     Centrul Naional de Evaluare i Examinare
+
+                               Examenul de bacalaureat naional 2016
+                                                 Proba E. c)
+
+                                                 Matematic M_mate-info                                                             Varianta 5
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                     (30 de puncte)
+
+5p 1. Determinai numrul real a , tiind c numerele 24, 1020 i a sunt, în aceast ordine, termeni
+      consecutivi ai unei progresii aritmetice.
+
+5p 2. Determinai numrul real m , tiind c parabola asociat funciei f :    , f ( x) = x2 + 4x + m
+
+    este tangent axei Ox .
+
+                                                           1  2                         x-3
+                                                           3
+5p  3.  Rezolvai  în  mulimea  numerelor  reale  ecuaia                                      =  27  .
+
+{ } 5p 4. Calculai probabilitatea ca, alegând un numr din mulimea A = 1, 2, 3, ..., 25 , acesta s
+
+      fie numr raional.
+
+5p 5. În reperul cartezian xOy se consider punctele A(0, 1) , B (-2, -1) i C (2, 3) . Determinai
+
+      ecuaia dreptei care trece prin punctul A i este perpendicular pe dreapta BC .
+
+5p 6. Calculai lungimea razei cercului circumscris unui triunghi ABC , în care m(A) = 45° i
+
+    BC = 2 2 .
+
+SUBIECTUL al II-lea                                                                                                             (30 de puncte)
+
+                                  1       a      a2                                                      x  +  ay  +  a2  z  =  0
+                                                                                                       
+    1. Se consider matricea A(a) = 1 -1 1  i sistemul de ecuaii  x - y + z = 2 , unde a este
+                                  1                                                                    
+                                          1      -a                                                      x  +  y  -  az  =   -4
+
+      numr real.
+
+5p a) Artai c det ( A(0)) = -1 .
+
+5p b) Demonstrai c matricea A(a) este inversabil, pentru orice numr real a , a  -1 i a  1 .
+
+                                                                                                                          3
+
+5p c) Determinai numerele reale a , pentru care sistemul are soluie unic ( x0 , y0, z0 ) , iar x0 = y0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = -xy + 2x + 2 y - 2 .
+
+5p a) Artai c x  y = 2 - ( x - 2)( y - 2) , pentru orice numere reale x i y .
+
+5p b) Determinai numerele reale x , pentru care x  x = 1 .
+
+5p c) Demonstrai c, dac m , n i p sunt numere întregi astfel încât m  n  p = 2 , atunci produsul
+
+    numerelor m , n i p este divizibil cu 2.
+
+SUBIECTUL al III-lea                                                                                                            (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = ex + ln x +1 .
+
+5p a) Artai c f ( x) = ex + 1 , x (0, + ) .
+
+                                      x
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 1 , situat pe graficul
+
+      funciei f .
+
+5p c) Demonstrai c ecuaia f ( x) = 0 are soluie unic în intervalul (0,1) .
+
+Prob scris la matematic M_mate-info                                                                                                Varianta 5
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                   Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                         Centrul Naional de Evaluare i Examinare
+
+     2.                                                                                 In  =  1  xn+1
+        Pentru  fiecare  numr   natural     n,  se  consider  numrul                           0        dx .
+
+                                                                                                  x+3
+
+5p  a)  Artai   c  I0  = 1+ 3ln    3.
+                                   4
+
+5p  b) Demonstrai c      In+1 + 3In      =    1     ,  pentru orice  numr               natural   n.
+                                            n+2
+
+5p  c)  Artai   c   lim  nI  n  =  1  .
+                                   4
+                   n +
+
+Prob scris la matematic M_mate-info                                                                           Varianta 5
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

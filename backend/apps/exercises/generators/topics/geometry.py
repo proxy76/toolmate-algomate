@@ -26,7 +26,7 @@ _PYTHAG = [(3, 4, 5), (6, 8, 10), (5, 12, 13), (8, 15, 17), (9, 12, 15), (7, 24,
 
 class GeometryGenerator(ExerciseGenerator):
     TOPIC_CODE = "geometry"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _generate_params(self) -> dict:
         rng = self.rng

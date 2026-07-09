@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { api, apiErrorMessage } from "../api";
 import { useAuth } from "../auth";
 import type { Profile } from "../types";
+import { PROFILES } from "../types";
 
 export function Register() {
   const { login } = useAuth();
@@ -13,7 +14,7 @@ export function Register() {
     username: "",
     email: "",
     password: "",
-    profile: "M1" as Profile,
+    profile: "mate-info" as Profile,
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -94,9 +95,11 @@ export function Register() {
             onChange={(e) => setForm({ ...form, profile: e.target.value as Profile })}
             className="w-full px-3 py-2 rounded-lg bg-paper text-ink border border-edge focus:border-oxblood transition-colors"
           >
-            <option value="M1">M1 — Mate-Info</option>
-            <option value="M2">M2 — Științele Naturii</option>
-            <option value="M3">M3 — Pedagogic / Tehnologic</option>
+            {PROFILES.map((p) => (
+              <option key={p.code} value={p.code}>
+                {p.label}
+              </option>
+            ))}
           </select>
         </Field>
         <button

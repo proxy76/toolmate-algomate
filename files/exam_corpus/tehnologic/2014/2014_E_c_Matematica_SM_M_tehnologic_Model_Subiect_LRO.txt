@@ -1,0 +1,87 @@
+                                                     Ministerul Educaiei Naionale
+                                              Centrul Naional de Evaluare i Examinare
+
+                                          Examenul de bacalaureat naional 2014
+                                                            Proba E. c)
+
+                                                  Matematic M_tehnologic
+
+                                                                                       Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                            (30 de puncte)
+
+( ) 5p 1. Artai c numrul 3 4 + 3 - 27 este natural.
+
+5p 2. Calculai f (1) + f (2) + ... + f (10) pentru funcia f :    , f (x) = 2x + 3 .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log7 x2 + 8 = log7 (6x) .
+
+5p 4. Dup o scumpire cu 30%, preul unui obiect este 325 de lei. Determinai preul obiectului înainte
+
+      de scumpire.
+
+5p 5. În reperul cartezian xOy se consider punctele P (1,3) i R (3,3) . Determinai coordonatele
+
+    punctului Q , tiind c R este mijlocul segmentului PQ .
+
+5p 6. Artai c sin10° + sin 30° - sin170° = 1 .
+                                                        2
+
+SUBIECTUL al II-lea                                                                    (30 de puncte)
+
+    1. Se consider matricele           A  =     -3  1    i  B  =    0  1
+                                                2   -2              1  0  .
+
+5p a) Calculai det A .
+
+5p  b)  Artai  c  B      A-        AB  =      1   1
+                                              -1  -1 .
+
+5p c) Determinai numerele reale x pentru care det ( A + xB) = 0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = xy - 3(x + y) + 12 .
+
+5p a) Artai c x 3 = 3 x = 3 , pentru orice numr real x .
+5p b) Rezolvai în mulimea numerelor reale ecuaia x x = x .
+
+5p c) Calculai 1 2 ... 2014 .
+
+SUBIECTUL al III-lea                                                                   (30 de puncte)
+
+      1. Se consider funcia f :    , f (x) = ex - x .
+
+5p a) Calculai f '( x) , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 0 , situat pe graficul
+      funciei f .
+
+5p c) Demonstrai c ex  x +1, pentru orice x   .
+
+    2. Se consider funcia f : (0, +)   , f (x) = 3 - 1 .
+
+                                                                   x
+
+5p  a)  Calculai  2  (3  -      f  ( x))dx .
+
+                  
+
+                             1
+
+5p b) Determinai primitiva F : (0, +)   a funciei f pentru care F (1) = 3 .
+
+5p c) Determinai volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+     g :[1, 2]   , g ( x) = xf ( x) .
+
+Prob scris la matematic M_tehnologic                                                   Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+

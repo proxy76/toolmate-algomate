@@ -1,0 +1,152 @@
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                                Examenul naional de bacalaureat 2021
+                                                  Proba E. c)
+
+                                         Matematic M_pedagogic
+
+                                BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                 Testul 11
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                      (30 de puncte)
+
+1. 2r  a3  a1 , de unde obinem r  3                                                              3p
+
+    a4  7                                                                                        2p
+
+2. f 2  0                                                                                        2p
+
+    2a  2  0 , de unde obinem a  1                                                               3p
+
+3. log8 7x  8  2  7x  8  82  7x  8  64                                                           3p
+
+    x  8 , care convine                                                                          2p
+
+4. Mulimea numerelor naturale nenule de o cifr are 9 elemente, deci sunt 9 cazuri posibile 2p
+
+    Numerele naturale n , nenule, de o cifr, pentru care 2n este numr natural de dou cifre sunt  2p
+    5 , 6 , 7 , 8 i 9 , deci sunt 5 cazuri favorabile
+
+    p  nr. cazuri favorabile  5                                                                  1p
+          nr. cazuri posibile 9
+
+5. AB  5 , BC  5 , deci triunghiul ABC este isoscel                                              2p
+
+    AC  50 , de unde obinem AC 2  AB2  BC 2 , deci triunghiul este dreptunghic isoscel           3p
+
+6. Cum triunghiul ADB este dreptunghic, rezult c BD  AB2  AD2  15                                2p
+
+    Cum triunghiul ADC este dreptunghic, rezult c DC  AC2  AD2  6 i, cum 3p
+    BC  BD  DC , obinem BC  21
+
+SUBIECTUL al II-lea                                                                              (30 de puncte)
+
+1.  1 2       1 26                                                                               3p
+              12 1
+
+     9 3                                                                                         2p
+       3
+
+2.  x    y    x y6        yx6                                                                    3p
+               xy 1        yx  1
+
+     y  x , pentru orice numere x i y din mulimea M , deci legea de compoziie ,, " este
+                                                                                                                         2p
+
+    comutativ
+
+3.  x 1       x  1 6                                                                             2p
+                 x 1
+
+    1        6      1,  pentru  orice  x M                                                       3p
+            x 1
+
+4.  3    x    x9    ,   pentru  orice  x M                                                       2p
+              3x 1
+
+    x9           1   2x 18  3x 1,        de unde obinem  x  17 , care                   convine  3p
+    3x 1         2
+
+Prob scris la matematic M_pedagogic                                                              Testul 11
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                                 Ministerul Educaiei
+                                               Centrul Naional de Politici i Evaluare în Educaie
+
+5.    xx           2x  6 , pentru orice              x M                                                                      2p
+                   x2 1
+
+      2x  6        2          x2    x20              i, cum        xM      , obinem       x 0, 2                              3p
+      x2 1
+
+6.  mn 1                   mn6            1          mn  m  n 1  6 ,          unde        m  i  n  sunt   numere    naturale  2p
+                            mn 1
+    m 1n 1  6 i, cum m i n sunt numere naturale cu m  n , obinem perechile 2,7
+                                                                                                                              3p
+    i 3,4
+
+SUBIECTUL al III-lea                                                                                                          (30 de puncte)
+
+1.          A      1         2 1 0  2 2 
+                   2
+    det                      0                                                                                                3p
+
+     0  4  4                                                                                                                  2p
+
+2.  B      6            1     6        B    2        1        2       B    6    3B  2          4   0    
+                        6     0  ,                   2        0                                0   0  
+                                                                                                                              3p
+
+         4    1    0          4B   0                                                                                          2p
+              0    0  
+
+3.  B      2            1     2          B    2    B    2          A      5   2           1     2         4  0    
+                        2     0                                           2   4           2     0         0  4  
+                                                                                                                              3p
+
+              1    0          4I2                                                                                             2p
+         4    0    1  
+
+4.  B    2    x          1         2x       B  2   x       xA      1 x       0
+                        2x         0                                4x       0  , pentru orice numr real x
+                                                                                                                              3p
+
+    det B2x  xA  1 x  0  4x  0  0 , pentru orice numr real x                                                                  2p
+
+5.  B  1           1       1         det    B  1        1  ,  deci      matricea    B1 este inversabil i inversa ei este
+                   1       0  
+                                                                                                                              3p
+         11                0     1
+      B                    1     1 
+
+      X       B    11         A      2    0                                                                                   2p
+                                     1    2
+
+6.  B    m         B    n        1   mn         n             Bm        Bn      mnI2            1    n
+                                    m          mn                                              m     0  , de unde obinem
+                                                                                                                              3p
+    det  Bm  Bn  mnI2   mn , pentru orice numere întregi m i n
+
+    mn  4 i, cum m i n sunt numere întregi cu m  n , obinem 4,1 , 2,2 , 1, 4 i                                                2p
+
+     2, 2
+
+Prob scris la matematic M_pedagogic                                                                                           Testul 11
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

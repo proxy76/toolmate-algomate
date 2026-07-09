@@ -1,0 +1,179 @@
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                 Examenul naional de bacalaureat 2022
+                                                   Proba E. c)
+
+                                          Matematic M_mate-info
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                            Model
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+                                                                                                      3p
+  1. 6  3 32  3  32  32  3  3 
+
+      3   2   deci     numerele  62  3,  3 i 2  3 sunt termeni consecutivi ai unei progresii  2p
+
+           ,
+
+      geometrice
+
+2. Axa Ox este tangent graficului funciei f    0  m2  4  0                                    3p
+
+      m  2 sau m  2                                                                           2p
+
+3. 25  5x  5x  24 , deci 5x  1                                                                3p
+
+      x0                                                                                      2p
+
+4. Mulimea numerelor naturale de dou cifre distincte are 81 de elemente, deci sunt 81 de      2p
+
+      cazuri posibile
+
+      În mulimea numerelor naturale de dou cifre distincte sunt 3  9  27 de numere care au    2p
+
+      cifra zecilor multiplu de 3 , deci sunt 27 de cazuri favorabile
+
+      p  nr. cazuri favorabile  1                                                             1p
+            nr. cazuri posibile 3
+
+  5. MA  2MA  2AB  3MC  0 , deci 3 MA  MC  2AB  0 i, cum MA  MC  2MD ,
+
+      obinem MD   1 AB                                                                        3p
+
+                       3
+
+      Vectorii MD i AB sunt coliniari, deci dreptele MD i AB sunt paralele                    2p
+
+6. Unghiul C are msura egal cu 90 , deci triunghiul ABC este dreptunghic în C                 2p
+
+      sin B  3 i, cum AC  3 , obinem AB  2 3                                                  3p
+          2
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1.a)      101
+
+      det B  0 i 0  1 i  1  0  0  2  i 1 0  0                                                 3p
+
+          2 0 1
+
+       i  2i  i                                                                               2p
+
+b) Cum B  B  I3 , A z1   A z2   aI3  bBcI3  dB  acI3  adB  bcB  bdB  B                        3p
+
+       ac  bd  I3  ad  bc B  A z1z2  , pentru orice z1  a  ib i z2  c  id , cu a , b , c 2p
+
+      i d numere reale
+
+c) A1 i A2  i A3  i A1 i A2  i A3  i  A1 i2  i3 i1 i2  i3  i  2p
+
+       A1 i1 i2  i2  i3  i3  i  A2  5 10  100I3 , deci n  100                                 3p
+
+Prob scris la matematic M_mate-info                                                           Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                          Ministerul Educaiei
+
+                                                     Centrul Naional de Politici i Evaluare în Educaie
+
+    2.a) x  y  log2 2x 2y  2  2y1  4  2                                                                                                           3p
+
+                 log2 2x 2y  2  2 2y  2  2  log2 2x  2 2y  2  2 , pentru orice x, y  M                                                            2p
+
+b) x  e  x pentru orice x  M , unde e este elementul neutru al legii de compoziie, deci
+         2x  2 2e  3  0 pentru orice x  M , de unde obinem e  log2 3 M
+                                                                                                                                                  3p
+
+      Cum log2 3  x  x pentru orice x  M , obinem c e  log2 3 este elementul neutru al                                                            2p
+
+      legii de compoziie ,,  "
+
+  c)                                           3           
+      x     x     x       log2     2x  2                2    ,  pentru    orice   x M
+                                                                                                                                                  3p
+
+                                                                3                                    2  
+                                               2x    2               2                 6  2x 1          
+                                                     23x                          1        23x                                       xM
+         x     x     x      3x     log2                                     log2                              0  ,  pentru  orice        ,  de    2p
+
+                                          
+
+      unde obinem c x  x  x  3x , pentru orice x  M
+
+SUBIECTUL al III-lea                                                                                                                    (30 de puncte)
+
+         1.a) f ' x  x3  3x 1 'ex  x3  3x 1 ex '  3x2  3 ex  x3  3x 1 ex                                                                          3p
+
+           x3  3x2  3x  2 ex  2  x x2  x 1 ex , x                                                                                                 2p
+
+b)                                                                                                                                     2 x33x1
+
+                  f   x  e x       f  xex                        x3  3x        x33x1                                       x33x2     x33x2
+                  f   x  e x                       xlim         x3   3x                   xlim1                                    
+      lim                                                                                                      2  2                               3p
+                                                                                                              3x  2                
+      x                                                                     2                             x3
+
+            lim        2 x33x1                                                                                                                    2p
+
+       e x              x3 3x 2         e2
+
+c)    gx            x3             xx3333xx,,           x ,0
+                                                        x 0,
+                           3x                                                                                                                     2p
+
+      g este continu i, cum pentru orice x ,0 , g ' x  3x2  3  0  g este strict
+
+      descresctoare pe ,0 i pentru orice x 0,  , g ' x  3x2  3  0  g este strict 3p
+      cresctoare pe 0,  , obinem c funcia g are un singur punct de extrem
+
+2.a)  6    f   x                6              x2    6
+               x 1                             2       
+         ln               dx       xdx                                                                                                            3p
+                                                     4
+      4                         4
+
+       18  8  10                                                                                                                                  2p
+
+b) F este o primitiv a lui f , deci F ' x  f  x  x ln  x 1 , de unde obinem c F ' x  0 ,                                                          3p
+
+      pentru orice x 2, , deci F este strict cresctoare pe 2, 
+
+        Cum 2  7  3, obinem c F 7  F 3                                                                                                            2p
+
+c)    5      x dx           5   x  2   1    '           1 dx            x2 1ln  x     1   5    1  5  x    1 x        1      
+                                    2                                                          2
+         f                  3                  ln    x                    2                                 x 1         dx                        3p
+                                                                                          3
+      3                                                                                           3
+
+       12ln 4  4ln 2               1      x2               5       20ln 2  5  54ln 2 1            ,  de   unde      obinem  m        5            2p
+                                   2      2          x       
+
+                                                           3
+
+Prob scris la matematic M_mate-info                                                                                                               Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

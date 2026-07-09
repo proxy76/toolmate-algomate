@@ -1,0 +1,144 @@
+                                       Ministerul Educaiei i Cercetrii
+                               Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026
+
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                            Model
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                    (30 de puncte)
+
+     1. 64  4 2  2 2  2  2  8  4 2  4 2  2 2  2                                                                                             3p
+                                                                                                                                            2p
+           84 4                                                                                                                             2p
+                                                                                                                                            3p
+    2. f a  7a  4 , pentru orice numr real a                                                                                                3p
+                                                                                                                                            2p
+           7a  4  5a , de unde obinem a  2
+     3. 32x  35 , de unde obinem 2  x  5                                                                                                    3p
+
+           x3                                                                                                                               2p
+                                                                                                                                            2p
+     4. 15  x  75 , unde x este preul înainte de ieftinire
+           100
+           x  500 de lei
+
+    5. M 3,3
+
+MA  10 i MB  10 , deci MA  MB                                                                                                  3p
+
+6. sin 60  3 , sin 45  2 , sin 30  1                                                                                           3p
+           2                 2           2
+
+4  sin  602     sin     452    2sin 302    4      3  2                                  2  2    2      1  2    3  1    1    2  2p
+                                                  2                                     2              2          2    2
+
+SUBIECTUL al II-lea                                                                                                            (30 de puncte)
+
+1. 7  8  7  8  4                                                                                                               3p
+        3
+
+54 1                                                                                                                           2p
+
+2. 4  x  4  x  4 , pentru orice numr real x                                                                                    2p
+        3
+
+4  x  4  x , de unde obinem x  4                                                                                               3p
+3
+
+3. x  x2  x2  x 12 , pentru orice numr real x                                                                                  3p
+              3
+
+x2  x 12  0 , de unde obinem x  4 sau x  3                                                                                     2p
+
+4. 2x  2 y  2x  2 y  4 , pentru orice numere reale x i y                                                                       2p
+                        3
+
+x   y  6  x  y  2  2   x   y  6  2x  2 y  4 , deci 2x  2 y  2   x   y  6 ,                                                     3p
+                     3                            3
+
+pentru orice numere reale x i y
+
+5. 2n  n  n  4 , 3n  2n  n  4n 16 , pentru orice numr natural n                                                                2p
+                                         3
+
+4n 16  n , deci 7n  16 i, cum n este numr natural, obinem n  0 , n  1 , n  2                                                   3p
+3
+
+Prob scris la matematic M_pedagogic                                                                                            Model
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                             Ministerul Educaiei i Cercetrii
+                                                     Centrul Naional pentru Curriculum i Evaluare
+
+6. lg x  lg x  2lg x  4 , 3  lg 1  3  lg x  4 , pentru orice x 0,                                                                           2p
+                             3                               x           3
+
+    2lg x  4  3  lg x  4 , deci lg x  1 , de unde obinem x  1 , care convine                                                                3p
+       3                         3                                                                       10
+
+SUBIECTUL al III-lea                                                                                                           (30 de puncte)
+
+1.  det A  1            6        1 2              60         
+             0          2
+                                                                                                                                            3p
+
+     2  0  2                                                                                                                                2p
+
+2.  A      2I2        1         6              2     0         3    6        3B
+                       0        2              0     2         0    0  
+                                                                                                                                            3p
+
+    3B  aB , de unde obinem a  3                                                                                                            2p
+
+3.  A    A        1       6 
+                  0       4 
+                                                                                                                                            3p
+
+    A    A     A          2      0          2     1     0      2I2                                                                          2p
+                          0      2                0     1  
+
+4.  M      x,  y          x      y       6  x     2  y         M    x,  y      A       x     y  6x  2 y 
+                             0              2     x                                       0        4x  , pentru orice numere reale
+                                                                                                                                            3p
+
+    x i y
+
+    x y             6x          2   y          1     2                                    x0    i   y 1                                     2p
+     0                 4x                      0     0  , de unde obinem
+
+5. det M  x, y  2x x  y , det M  y, x  2y  x  y , pentru orice numere reale x i y 2p
+
+    2x x  y  2y  x  y , deci  x  y x  y  0 i, cum x i y sunt numere reale                                                                   3p
+
+    distincte, rezult c x  y  0
+
+6.  M      x,  x      M      x,  x             2x       8x 0            4x          x  2    0   8     x2M    2,  2  ,  pentru  orice  numr
+                                               0        2x  0           2x                  0   4 
+                                                                                                                                            3p
+
+    real x
+
+    x2M 2,2  M 2,2 , de unde obinem x  1 sau x 1                                                                                            2p
+
+Prob scris la matematic M_pedagogic                                                                                                         Model
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

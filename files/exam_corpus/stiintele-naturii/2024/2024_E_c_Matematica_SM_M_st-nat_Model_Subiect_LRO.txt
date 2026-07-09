@@ -1,0 +1,102 @@
+                                                    Ministerul Educaiei
+                                  Centrul Naional de Politici i Evaluare în Educaie
+
+                                  Examenul naional de bacalaureat 2024
+
+                                                          Proba E. c)                                                                Model
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                             (30 de puncte)
+
+5p 1. Artai c 0,5 10  1  0,75  3 .
+5p 2. Se consider funciile f :    , f  x  2x 1 i g :    , g  x  x 1. Artai c
+
+     f m  g m  m , pentru orice numr real m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2  6  5x .
+
+5p 4. Se consider mulimea A  1, 2, 3, 4, 5, 6, 7, 8, 9 . Calculai probabilitatea ca, alegând un numr
+
+      din mulimea A , acesta s fie divizor al lui 30 .
+
+5p 5. În reperul cartezian xOy se consider punctele A1,1 , B 2, 2 i C 4,0 . Artai c triunghiul
+
+    ABC este dreptunghic în B .
+
+5p  6. Se  consider  E  x  3cos2       x  cos x  sin x , unde  x                        este numr  real. Artai  c  E           0  .
+                                               2                                                                        3  
+
+SUBIECTUL al II-lea                                                                                                     (30 de puncte)
+
+    1. Se consider matricea       A  x         x  2x 
+                                               1  x  6 , unde x este numr real.
+
+5p a) Artai c det  A6 12 .
+
+5p b) Determinai numrul real a pentru care A4  A4  aA4 .
+5p c) Determinai perechile m, n de numere naturale nenule, cu m  n , pentru care
+
+    det  Am  An  0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  x  y  xy  .
+
+5p a) Artai c 13  3 .
+
+5p b) Determinai numerele reale x pentru care x  2  x2 .
+
+5p c) Determinai numrul întreg nenul m pentru care 1  m  m .
+                                                                    2m
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+    1. Se consider funcia f : 0,    , f  x  x2  2  3ln x .
+
+                                                                   x
+
+5p  a) Artai c    f  '  x     x2   3x    2  ,  x 0,  .
+                                   x2
+
+5p  b)  Artai  c   lim     f   x  3ln x  1.
+
+                  x             x 1
+
+5p c) Demonstrai c x2  x  2  3ln x , pentru orice x 0, 2 .
+
+                                  x
+
+    2. Se consider funcia f :    , f  x  x3  x 1.
+
+              2
+
+5p a) Artai c  f  x  x3 dx  4 .
+
+                              0
+
+Prob scris la matematic M_t-nat                                                                                                      Model
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+5p  b)  Artai  c  1  f    x2  x  dx    ln 2 .
+                                        3
+                          x 
+
+                  0
+
+5p  c)  Determinai   a ,0 , tiind      c       0  e  x    f  'x   f   x dx  1 a3ea .
+
+                                               
+
+                                               a
+
+Prob scris la matematic M_t-nat                                                         Model
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,170 @@
+                                                     Ministerul Educaiei i Cercetrii
+                                           Centrul Naional de Politici i Evaluare în Educaie
+
+                                              Examenul de bacalaureat naional 2020
+                                                                Proba E. c)
+
+                                                       Matematic M_tehnologic
+
+                                           BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                              Test 13
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                  (30 de puncte)
+
+1. 16  32  18  2  22  4  4 2  3 2  2  4                                                                                       3p
+
+       4  4  4  3 1 2  0                                                                                                      2p
+
+2. f 1  1 a2 , deci 1  a2  2                                                                                                  2p
+
+      a2  1 , deci a  1 sau a  1                                                                                              3p
+
+3. 3x  1  4                                                                                                                   3p
+
+      x 1                                                                                                                     2p
+
+4. Mulimea numerelor naturale de o cifr are 10 elemente, deci sunt 10 cazuri posibile                                         2p
+
+      În mulimea numerelor naturale de o cifr sunt 5 numere impare, deci sunt 5 cazuri                                        2p
+      favorabile
+
+      p  nr. cazuri favorabile  5  1                                                                                          1p
+            nr. cazuri posibile 10 2
+
+5. A este mijlocul segmentului BC , unde C este simetricul lui B fa de A , deci 3  3  xC
+                                                                                                                      2
+                                                                                                                              3p
+      i 1  7  yC
+                   2
+
+      xC  3 , yC  5                                                                                                           2p
+
+6.    sin2 x  1 cos2 x                1  i, cum     x       0,       ,  obinem  sin x        2                                3p
+                                      2                         2                            2
+
+      sin2    x    2sin  x  cos    x     cos2  x    sin  x      cos   x2       2     2     2    0                             2p
+                                                                               2     2     
+                                                                             
+
+SUBIECTUL al II-lea                                                                                          (30 de puncte)
+
+1.a)  det A        23     2233
+
+                   32                                                                                                         2p
+
+       4  9  5                                                                                                                3p
+
+b) A M x  AB  xI2  A B  xA , M x A  B  xI2 A  B  A  xA , pentru orice numr 3p
+
+     real x
+
+      Cum A B  B  A , obinem A M  x  M  x  A , pentru orice numr real x                                                       2p
+
+c)    A    A     13      12     ,     A    M  x       2     x      4         A  A    3  A    M  x    7   3x    0      pentru
+                 12      13                              4              x                               0    7  3x ,
+                                                                2                                                             3p
+
+      orice numr real x
+
+Prob scris la matematic M_tehnologic                                                                                          Test 13
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                   Pagina 1 din 2
+                                                  Ministerul Educaiei i Cercetrii
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+    7  3x              0          I2   7  3x       1,    de  unde obinem        x  2                       2p
+                        3x    
+          0         7         
+    
+
+2.a) 2020 3  1  2020 3  2020  3                                                                            3p
+                           3
+
+     2020  2020  3  3                                                                                      2p
+
+b) 6  x  1  6  x  6  x  3x  6 , 6  x  6  3x  6  6  1 3x  6  6  3x  6  6  9x  24                            3p
+                3                                                                  3
+
+    9x  24  6  x  2                                                                                        2p
+
+c) x  1  1  x  1  x  1  1  x  1  3x2  x  3 , pentru orice numr real nenul x                                3p
+          x3 x x3 x                                          3x
+
+    3x2  x  3  3  3x2 10x  3  0 , de unde obinem x  3 sau x   1 , care convin                              2p
+            3x                                                                                       3
+
+SUBIECTUL al III-lea                                                                                       (30 de puncte)
+
+  1.a) f ' x  x3  3x  3 '  3x2  3                                                                          3p
+
+       3 x2 1  3 x 1 x 1 , x                                                                               2p
+
+b)             f x  x3                       3x  3                                                         2p
+
+       lim                  lim
+    x x  1                        x x  1
+
+                3 3
+                         x
+     lim                1      3                                                                           3p
+
+       x           1
+
+                        x
+
+c) f 0  3 , f '0  3                                                                                        2p
+
+    Ecuaia tangentei este y  f 0  f '0 x  0 , adic y  3x  3                                                3p
+
+       2.a)1
+                                         1  x4  x  ex  x  ex dx  1 x4dx  x5 1
+                                                                                      5 1                  3p
+          f  x  x  ex dx 
+
+    1                                 1                                   1
+
+       1           1       2                                                                               2p
+       5           5       5
+
+     b)e                                    e                x2        e e x2 1
+
+       f x  x4  ex              ln x dx  x ln x dx   ln x   dx                                             3p
+                                                             2              2      x
+    1                                       1                          1
+                                                                          1
+
+       e2       x2    e    e2    e2         1   e2    1                                                    2p
+                        
+       2 41 2 4 4                                 4
+
+  c)a                               x5      x2          a    a5    a2     ea          2a5   5a2  10
+    0  x4  x  ex           dx       5       2     ex    0    5     2          1             10         ea  3p
+
+    2a5  5a2 10  ea  5a2  54  ea  2a5  64 , deci a  2                                                      2p
+             10                             10
+
+Prob scris la matematic M_tehnologic                                                                       Test 13
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                Pagina 2 din 2
+

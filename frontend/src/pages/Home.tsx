@@ -1,9 +1,7 @@
 import { Activity, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 
-// Bare profile codes for now. Correct mapping (labels TBD): M1 = mate-info,
-// M2 = tehnologic, M3 = pedagogic.
-const PROFILES = ["M1", "M2", "M3"];
+import { PROFILES } from "../types";
 
 export function Home() {
   return (
@@ -14,10 +12,10 @@ export function Home() {
           <div className="flex flex-wrap justify-center gap-2 mb-7">
             {PROFILES.map((p) => (
               <span
-                key={p}
+                key={p.code}
                 className="text-xs font-semibold text-oxblood-deep bg-oxblood/10 px-3 py-1 rounded-full"
               >
-                {p}
+                {p.label}
               </span>
             ))}
           </div>
@@ -76,7 +74,7 @@ export function Home() {
             tint="bg-oxblood/10 text-oxblood"
             icon={<Sparkles size={20} strokeWidth={2.25} />}
             title="Personalizare totală"
-            body="Profil (M1/M2/M3), capitole și dificultate la alegere. Fiecare set este unic, dar reproductibil cu un seed."
+            body="Specializare (Mate-Info, Tehnologic, Pedagogic), capitole și dificultate la alegere. Fiecare set este unic, dar reproductibil cu un seed."
           />
           <Value
             tint="bg-verified-tint text-verified-ink"

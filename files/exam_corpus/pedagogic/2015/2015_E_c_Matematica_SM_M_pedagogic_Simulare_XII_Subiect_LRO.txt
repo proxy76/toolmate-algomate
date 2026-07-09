@@ -1,0 +1,77 @@
+                                          Ministerul Educaiei i Cercetrii tiinifice
+                                          Centrul Naional de Evaluare i Examinare
+
+                                   Examenul de bacalaureat naional 2015
+                                                     Proba E. c)
+
+                                            Matematic M_pedagogic
+                                                   Clasa a XII-a
+
+                                                                                                                  Simulare
+
+    Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                       (30 de puncte)
+
+5p  1.  Artai  c             1  2    :    -  11    =  1  .
+                   -3 +   -  2               2        2
+
+5p 2. Determinai coordonatele punctului de intersecie a graficului funciei f :    ,
+
+     f ( x) = - 1 x + 2 cu axa Ox .
+
+                  33
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x2-3x = 4x-2 .
+5p 4. Dup o scumpire cu 10% un obiect cost 594 lei. Calculai preul obiectului înainte de scumpire.
+
+5p 5. În reperul cartezian xOy se consider punctele D (2, 4) , E (-2, -2) i F (6, -2) . Determinai
+
+    coordonatele mijlocului medianei din vârful D al triunghiului DEF .
+
+5p 6. Calculai perimetrul triunghiului ABC dreptunghic în A , tiind c tg B = 3 i AC = 9 .
+                                                                                                    4
+
+SUBIECTUL al II-lea                                                                                               (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = xy - 2x - 2 y + 6 .
+
+5p 1. Calculai 4 2 .
+5p 2. Verificai dac legea de compoziie ,, " este comutativ.
+
+5p 3. Artai c x y = ( x - 2)( y - 2) + 2 , pentru orice numere reale x i y .
+
+5p 4. Artai c 2 x = 2 , pentru orice numr real x .
+5p 5. Rezolvai în mulimea numerelor reale ecuaia x x x = 10 .
+
+5p 6. Determinai perechile de numere întregi (m, n) , tiind c m n = 3 .
+
+SUBIECTUL al III-lea                                                                                              (30 de puncte)
+
+                                 =   A( x)       =  1- x       x                        
+    Se  consider  mulimea     G                                         x                   .
+                                                      -2x   1  +  2x  
+
+                                 1 0
+5p 1. Artai c matricea   aparine mulimii G .
+
+                                 0 1
+
+5p 2. Calculai det ( A(1)) .
+
+( ) 5p                                                                  x2              -  A(2     )  =    0  0
+    3. Rezolvai în mulimea numerelor reale ecuaia                 A                             x              .
+                                                                                                         0 0
+
+5p 4. Determinai valorile reale ale lui x pentru care matricea A( x) este inversabil.
+
+5p 5. Artai c A( x)  A( y) = A( x + y + xy) , pentru orice numere reale x i y .
+
+5p 6. Rezolvai în mulimea numerelor reale ecuaia A( x)  A( x)  A( x)  A( x) = A(0) .
+
+Prob scris la matematic M_pedagogic                                                                               Simulare pentru clasa a XII-a
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

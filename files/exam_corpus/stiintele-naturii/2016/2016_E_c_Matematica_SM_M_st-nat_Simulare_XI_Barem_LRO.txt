@@ -1,0 +1,165 @@
+                                             Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                   Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2016
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                                          Clasa a XI-a
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                        Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+1. z = i (1+ i)2 = 2i2 =                                                                                                                2p
+
+      = -2 , deci partea real a numrului complex z este egal cu -2                                                                      3p
+
+2. - m2 - 4 = -1  m2 - 8 = 0                                                                                                            3p
+            4
+
+      m = -2 2 sau m = 2 2                                                                                                              2p
+
+( )( ) 3. 22x + 3 2x - 4 = 0  2x -1 2x + 4 = 0                                                                                          3p
+
+      Deoarece 2x > 0 , soluia ecuaiei este x = 0                                                                                       2p
+
+4. 5, 15, 25,..., 2005 i 2015 sunt numerele din mulimea M care sunt divizibile cu 5 i nu                                                2p
+
+      sunt divizibile cu 10
+
+      În mulimea M sunt 202 numere care sunt divizibile cu 5 i nu sunt divizibile cu 10                                                 3p
+
+5. Punctul B este mijlocul segmentului MC                                                                                               2p
+
+      ( ) AB = 1 AM + AC  AM = 2AB - AC                                                                                                 3p
+            2
+
+6. 2sin x cos x = sin x  sin x(2cos x -1) = 0                                                                                           2p
+
+      Cum x [0, ] , obinem x = 0 , x =  sau x =                                                                                         3p
+                                                             3
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+1.a)                          1             1            1                                      1     1             1
+                                          2016         2016                                   2015  2016          2016 =
+      A(2016) =  2015                                             det (  A ( 2016) )       =
+                                                                                                                                        2p
+                                                             
+                           20152       20162        20162                                     20152 20162 20162
+
+      =0                                                                                                                                3p
+
+b)                            1              11                  0                      0     1
+
+      det ( A( x)) = 2015 2016 x = 2015 - x 2016 - x x =                                                                                2p
+
+                              20152 20162 x2 20152 - x2 20162 - x2 x2
+
+      =  (  2015  -  x  )  (  2016  -  x  )      1  +  x      1   x  = (2015 -          x)(2016 -   x) ,  pentru  orice  numr  real  x  3p
+                                             2015         2016 +
+
+c) det ( A( x)) = x2 - (2015 + 2016) x + 2015 2016                                                                                      2p
+
+      det ( A( x)) are valoarea minim pentru x = 4031                                                                                   3p
+                                                                         2
+
+Prob scris la matematic M_t-nat                                                                                   Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                      Centrul Naional de Evaluare i Examinare
+
+2.a)                  (  -1)   (    -1)  +  ( -1)  1       (-1)      ( -1)    +  ( -1)  1
+                               (    -1)  +                           ( -1)    +           
+      A    A  =            1                11                 1                 11          =                                                     3p
+
+      =    0     0                                                                                                                                 2p
+           0     0 
+
+b) X (a)  X (b) = ( I2 + aA)( I2 + bA) = I2 + (a + b) A + abA  A =                                                                                 3p
+
+      = I2 + (a + b) A = X (a + b) , pentru orice numere reale a i b                                                                               2p
+
+c) M = X ((-3) + (-2) + (-1) + 0 +1+ 2 + 3 + 4) = X (4)                                                                                            2p
+
+      Cum        X (4)  X (-4) = X (0) = I2 , inversa matricei                                 M   este matricea      X   (  -4)  =    5   4       3p
+                                                                                                                                       -4  -3
+                                                                                                                                     
+
+SUBIECTUL al III-lea                                                                                                                       (30 de puncte)
+
+1.a)             (x)                mx2     + 4x   -  m                    (     + 1)     4x 
+                                            x -1              lxim1                       x -1 
+      lim  f             =  lim                            =            m     x        +           =                                               3p
+
+      x1                    x1                                x>1
+                            x>1
+
+      = + , deci dreapta de ecuaie x = 1 este asimptot vertical la graficul funciei f , pentru
+                                                                                                                           2p
+
+      orice numr real m
+
+b) y = 3 este asimptot orizontal la graficul funciei g  lim g ( x) = 3                                                                             2p
+                                                                                                   x+
+
+      Cum         lim       mx2     +   4x -   m   =m,        obinem          m=3                                                                  3p
+                               x
+                 x +                (x  - 1)
+
+c)                                          -x2 + 4x +1           -
+
+              f  (x) -5                         x -1                 5            -x2 - x + 6                                                      2p
+                                                  x-2
+      lim        x-2           =    lim                                 =  lim   ( x -1)( x - 2)            =
+
+      x 2                           x 2                                    x 2
+
+      = lim -x - 3 = -5                                                                                                                            3p
+        x2 x -1
+
+2.a) f (-1) = - 1                                                                                                                                  2p
+                         2
+
+      f (4) = 2  f (-1)  f (4) = -1                                                                                                                3p
+
+b)    lim     f  (  x)   =     lim    x  +  2a     =    1  +  2a  ,  lim      f  (x)   =  lim (ax     +  log2  x)  =  2a  +1  i   f (2) = 2a +1 ,
+                                      2         
+      x2                       x2                                    x2                   x2                                                       3p
+      x<2                      x<2                                   x>2                  x>2
+
+      deci funcia f este continu în x = 2 , pentru orice numr real a
+
+      Cum, pentru orice numr real a , funcia f este continu pe (-, 2) i pe (2, +) , obinem
+
+                                                                                                                           2p
+      c f este continu pe 
+
+c)    f  (-1)         f  (4)   =         1  +  2a    (  4a    +  2)  =  (4a      - 1) ( 2a  + 1)                                                   2p
+                                     -   2         
+
+      Deoarece              f  este      continu           i     pentru       orice     a       -  1  ,  1     avem   f (-1)  f (4) < 0 , ecuaia
+                                                                                                   2     4  
+                                                                                                                                                   3p
+
+      f ( x) = 0 are cel puin o soluie în intervalul (-1, 4)
+
+Prob scris la matematic M_t-nat                                                                                                      Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

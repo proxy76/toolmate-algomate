@@ -1,0 +1,102 @@
+                                              Ministerul Educaiei
+                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021                                                           Testul 4
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+5p 1. Determinai suma primilor apte termeni ai progresiei aritmetice (an )n1 , tiind c a1 = -5 i raia
+
+      r =8.
+5p 2. Determinai valorile reale nenule ale lui a pentru care ecuaia ax2 - x - a -1 = 0 are dou soluii
+
+      distincte în mulimea numerelor reale.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x - 3 x3 + x2 - 9 = 2x .
+
+5p 4. Calculai 5A32 - 3C53 .
+
+( ) 5p 5. Se consider vectorii a = 2i + m j i b = 5i - m2 +1 j , unde m este numr real. Determinai
+
+      numerele reale m pentru care vectorii a i b sunt coliniari.
+5p 6. Se consider triunghiul ABC cu AB  BC , AC = 6 , BC = 10 i aria egal cu 15 . Determinai
+
+      msura unghiului C .
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+1.  Se  consider matricele      1     -1               1    0                           i  M (a,b) = aI2 + bA , unde        i        sunt numere
+                            A = 1     -1 ,      I2  =                                                                 a           b
+                                                         0  1   
+
+reale.
+
+5p a) Artai c det A = 0 .
+
+5p b) Demonstrai c M (a,b)  M ( x, y) = M (ax,ay + bx) , pentru orice numere reale a , b , x i y .
+
+5p c) Artai c, dac x i y sunt numere reale pentru care matricele B = M ( x, 2y) + M ( y, 2x) i
+
+( ) ( ) C = M x 2,1  M y 2,1 sunt egale, atunci x2 + y2 = 0 .
+
+      2. Pe mulimea numerelor reale se definesc legile de compoziie x  y = xy + 2x + 2y + 2 i
+      x y = x+ y+2.
+
+5p a) Artai c (1 2) (1 3) =1 (2 3) .
+
+5p b) Demonstrai c x  e = e , pentru orice numr real x , unde e este elementul neutru al legii de
+     compoziie ,, ".
+
+5p c) Determinai numrul natural n pentru care n  (-n)  n (-n) .
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+1. Se consider funcia f :          ,  f  (  x)  =    x  -1+      x2 - x                    +  1,  x (-,0) .
+                                                          x ln                                 ,  x 0,+)
+                                                                ( x +1)
+
+5p a) Artai c funcia f este continu pe .
+
+5p b) Demonstrai c funcia f este convex pe (0, +) .
+
+5p c) Artai c, pentru orice numr real a , a  0 , tangenta la graficul funciei f în punctul A(a, f (a))
+
+nu este paralel cu axa Ox .
+
+    2. Se consider funciile f : (0, +)  , f ( x) = 2 x - 1 i g: (0, + )                                      ,  g  (  x  )  =  1  +x   x.
+                                                                                                                                   x2
+                                                                            x
+5p a) Demonstrai c funcia f este o primitiv a funciei g .
+
+Prob scris la matematic M_t-nat                                                                                                        Testul 4
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+                             4
+
+5p b) Calculai  g ( x) dx .
+                             1
+
+        4
+
+5p  c)  Determinai  numrul      real  m,  m(0,1) ,  pentru  care                        1  f  2 ( x) g ( x)dx  =  1  .
+                                                                                                                  3
+                                                                                        
+
+                                                                                        m
+
+Prob scris la matematic M_t-nat                                                                                         Testul 4
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

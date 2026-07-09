@@ -1,0 +1,95 @@
+                                                          Ministerul Educaiei
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2025
+                                                          Proba E. c)
+
+                                                Matematic M_tehnologic
+
+                                                                                                        Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                             (30 de puncte)
+
+   5p 1. Artai c 3  3 2  2  3 2  4  10 .
+
+5p 2. Se consider funcia f :    , f  x  3x  6 . Artai c f 0  f 2  f 4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x 1  3  0 .
+
+5p 4. Preul unui obiect este de 400 de lei. Determinai preul obiectului dup o ieftinire cu 25% .
+
+5p 5. În reperul cartezian xOy se consider punctele A2,3 , B 5,6 i C 6, 2 . Artai c triunghiul
+
+      ABC este isoscel.
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AC  4 i msura unghiului C egal cu 60 .
+
+      Artai c BC  8 .
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+    1. Se consider           matricele  I2      1  0     i  A    x      1  1
+                                                0  1                    2  x  , unde x este numr real.
+
+5p a) Artai c det  A3  1.
+
+5p b) Artai c A2  A6  2A4 .
+
+5p c) Determinai numrul real x pentru care A x  A x  3I2 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x y  x  y  6 .
+
+5p a) Artai c 1 3  4 .
+
+5p b) Determinai numrul real x pentru care x 2  3x .
+
+  5p c) Artai c x2  2 1 6x  0 , pentru orice numr real x .
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+    1. Se consider funcia           f : 1,    ,             f    x    5x  2  .
+                                                                       x 1
+
+5p  a) Artai c            f  'x         3       ,  x 1,  .
+
+                                     x   12
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x  2 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c funcia f este convex.
+
+    2. Se consider funcia f :    , f  x  2x  3 .
+
+5p  a)  Artai  c          1    f   x  3 dx   1.
+
+                          
+
+                          0
+
+                              1
+
+5p b) Artai c  ex f  x dx  3e 1 .
+
+                          0
+
+5p  c)  Determinai           a  0,      pentru     care  2  x  f x    dx     ln  a  .
+                                                               x  3              2
+                                                         
+
+                                                         1
+
+Prob scris la matematic M_tehnologic                                                                    Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic, toate
+
+calificrile profesionale
+
+                                                            Pagina 1 din 1
+

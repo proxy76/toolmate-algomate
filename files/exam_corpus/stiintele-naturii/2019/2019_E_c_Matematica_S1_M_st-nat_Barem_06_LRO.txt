@@ -1,0 +1,149 @@
+                                                              Ministerul Educaiei Naionale
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2019
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                      Varianta 6
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                        (30 de puncte)
+
+1. b3 = b1  q2 =                                                                                                                           3p
+
+      = 1 52 = 25                                                                                                                          2p
+
+2. f ( x) = g ( x)  x2 - x +1 = 4x - 5  x2 - 5x + 6 = 0                                                                                    2p
+
+      x=2, x=3                                                                                                                             3p
+
+3. 2x = 4 - x  2x = 16 - 8x + x2  x2 -10x +16 = 0                                                                                          3p
+
+      x = 2 , care convine, x = 8 , care nu convine                                                                                        2p
+
+4. Mulimea A are 49 de elemente, deci sunt 49 de cazuri posibile                                                                           2p
+
+      În mulimea A sunt 7 numere naturale, deci sunt 7 cazuri favorabile                                                                   2p
+
+      p = nr. cazuri favorabile = 7 = 1                                                                                                    1p
+            nr. cazuri posibile 49 7
+
+5. Punctul M (-3,3) este mijlocul laturii BC                                                                                               2p
+
+      Ecuaia medianei din A este y = 3                                                                                                     3p
+
+6. sin x (3sin x - cos x) + cos x (sin x + 3cos x) = 3sin2 x - sin x cos x + cos x sin x + 3cos2 x =                                       2p
+
+      ( ) = 3 sin2 x + cos2 x = 3 , pentru orice numr real x                                                                               3p
+
+SUBIECTUL al II-lea                                                                                                                (30 de puncte)
+
+1.a)  A  (  -1)   =     -1      4          det (    A ( -1) )  =  -1      4     =  (  -1)    (  -1)  -  (  -4)    4  =
+                        -4      -1                                -4      -1
+                                                                                                                                           3p
+
+      = 1+16 = 17                                                                                                                          2p
+
+b)    A(2019      -     a)  +   A(2019     +  a)    =  2019 -     a        4           +     2019 +     a      4  4038               8
+                                                        -4             2019        a            -4         2019 + a =  -8          4038 =
+                                                                                -                                                          3p
+
+           2019               4        =  2 A ( 2019 )      ,  pentru  orice    numr         real    a                                     2p
+      = 2 -4                2019 
+
+c)       (  x)  A(      )  =    x      4 y             4   xy -16               4x + 4y              2 A ( -8)        -16   8
+      A              y          -4                          =                                     ,               =              
+                                       x      -4       y         -4x   -  4  y     xy  - 16                             -8  -16            3p
+
+      xy = 0 i x + y = 2 , deci x = 0 , y = 2 sau x = 2 , y = 0                                                                            2p
+
+2.a)  x0 =        4x + 40       =   4x     =  x , pentru orice         xG                                                                  2p
+                  4+ x0             4
+
+      0     x  =  40 + 4 x          =  4x   =    x  ,  pentru     orice      x G , deci              0  este elementul neutru al legii de  3p
+                   4 + 0 x             4
+
+      compoziie ,,  "
+
+b)      8x        =  8          x2  -  5x  +  4  =     0                                                                                   3p
+      4 + x2         5
+
+      x = 1 , care convine, x = 4 , care nu convine                                                                                        2p
+
+Prob scris la matematic M_t-nat                                                                                                            Varianta 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                             Ministerul Educaiei Naionale
+                                                      Centrul Naional de Evaluare i Examinare
+
+c)                                                            4  2( x -1) + 4  2( y -1)
+
+      f  (x)       f  (  y)   =  4f (  x)+ 4 f (y)         =        x +1               y +1       =  2( xy + x - y -1+ xy - x + y -1)  =  3p
+                                       f (x) f (y)
+                                 4+                              4  +  4( x -1)( y -1)                 xy + x + y +1+ xy - x - y +1
+                                                                       ( x +1)( y +1)
+
+      =   4( xy -1)        =  2( xy -1)      =  f  ( xy) ,    pentru   orice    x, y (0,+)                                                2p
+          2( xy +1)
+                                xy +1
+
+SUBIECTUL al III-lea                                                                                     (30 de puncte)
+
+1.a)  f   '(  x)   =  -2   +     2   =                                                                                                    3p
+                                 +1
+                              x
+
+      = -2x - 2 + 2 = -2x , x (-1, +)                                                                                                     2p
+                x +1 x +1
+
+b) f (0) = 1 , f '(0) = 0                                                                                                                 2p
+
+      Ecuaia tangentei este y - f (0) = f '(0)( x - 0) , adic y = 1                                                                       3p
+
+c) f '( x)  0 , pentru orice x (-1,0]  f este cresctoare pe (-1,0] i f '( x)  0 , pentru orice
+
+      x [0, +)  f este descresctoare pe [0,+) , deci f ( x)  f (0)  1- 2x + 2ln ( x +1)  1 , 3p
+
+      deci ln ( x +1)  x , pentru orice x (-1, +)
+
+      cos x > -1 , pentru orice x (0, ) , deci ln (1+ cos x)  cos x , pentru orice x (0, )                                                2p
+
+2.a)  1       ( x)exdx           1                      x2             1
+                                                        2     + 3x        =
+          f                   =   (x   +  3) dx    =                                                                                      3p
+                                                                       -1
+      -1                         -1
+
+      =      1  +  3    -     1  -     =  6                                                                                               2p
+             2                2     3
+
+b)    F    este o primitiv a funciei                    f   F(x) =        f  (  x)  =  x+   3  ,  x                                       2p
+                                                                                        ex
+
+      F( x)  0 , pentru orice x [-3, +) , deci funcia F este cresctoare pe intervalul [-3, +)                                             3p
+
+c)            n                       n                                         n
+
+      A    =       f  (x)     dx =  ( x + 3)e-xdx = -( x + 4)e-x                 = -(n + 4)e-n       +4                                   3p
+
+                0                   0                                           0
+
+      -(n + 4)e-n + 4 = 4 - 6e-n , de unde obinem n = 2                                                                                   2p
+
+Prob scris la matematic M_t-nat                                                                                                        Varianta 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

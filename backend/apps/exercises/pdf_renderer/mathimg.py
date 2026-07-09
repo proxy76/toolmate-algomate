@@ -39,10 +39,19 @@ _ENV = re.compile(
 )
 # mathtext lacks manual delimiter sizing (\big, \Big, …) and \displaystyle.
 _BIG = re.compile(r"\\(?:bigg|Bigg|big|Big)[lrm]?\b\s*")
+# matplotlib mathtext is stricter than KaTeX (the frontend): it needs braced
+# roots (``\sqrt{2}`` not ``\sqrt2``) and the full ``\geq``/``\leq`` spellings.
+# Normalise these here so any generator's KaTeX-valid LaTeX also renders in PDF.
+_SQRT = re.compile(r"\\sqrt([\dA-Za-z])")
+_GE = re.compile(r"\\ge(?![A-Za-z])")
+_LE = re.compile(r"\\le(?![A-Za-z])")
 
 
 def _preprocess(latex: str) -> str:
-    return _BIG.sub("", latex.replace(r"\displaystyle", "")).strip()
+    s = _BIG.sub("", latex.replace(r"\displaystyle", ""))
+    s = _SQRT.sub(r"\\sqrt{\1}", s)
+    s = _LE.sub(r"\\leq", _GE.sub(r"\\geq", s))
+    return s.strip()
 
 
 @lru_cache(maxsize=4096)

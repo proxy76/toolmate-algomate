@@ -1,0 +1,173 @@
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2021
+                                                            Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                         Testul 6
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                          (30 de puncte)
+
+1. 3 4  3 16 = 3 43 = 4 =                                                                                            3p
+
+      = 22 = (log3 9)2  3 4 , log3 9 i 3 16 sunt termeni consecutivi ai unei progresii geometrice 2p
+
+2. f (-x) = - f ( x) , pentru orice numr real x                                                                      2p
+
+      g (-x) = ( f (-x))2 = (- f ( x))2 = ( f ( x))2 = g ( x) , pentru orice numr real x , deci funcia
+
+                                                                                                                          3p
+      g este par
+
+( ) ( ) ( )( ) 3. 22x - 2  2 x - 2  2x + 2 2 = 0  2x 2x - 2 - 2 2x - 2 = 0  2x - 2 2x - 2 = 0                        3p
+
+      x = 1 sau x = 1                                                                                                2p
+                       2
+                                                         3(10-k  )
+( ) 4.                        10-k    1   k                         -2k            30-7k           k {0,1,2,...,10}
+      Tk +1 = C1k0  x      x          x2     =  C1k0  x      2                            ,  unde                    3p
+                                                                         = C1k0 x 2
+
+      30 - 7k    =8 k         = 2 , deci  T3  = C120 x8  îl conine pe       x8                                       2p
+         2
+
+( ) 5. AM = 1 AB + AC , deci punctul M este mijlocul segmentului BC                                                  3p
+              2
+
+      BC = -2CM , deci k = -2                                                                                        2p
+
+6. 2sin xcos x + 6cos x - sin x - 3 = 0  2cos x(sin x + 3) - (sin x + 3) = 0  (sin x + 3)(2cos x -1) = 0 2p
+
+      sin x + 3  0 , deci cos x = 1 i, cum x (0, ) , obinem x =                                                      3p
+                                          2                                                  3
+
+SUBIECTUL al II-lea                                                                                                  (30 de puncte)
+
+1.a)            2 0 -1
+
+      det A = 1 -1 0 = 2 +1 + 0 - 4 - 0 - 0 =                                                                        3p
+
+                4 -1 -1
+
+      = 3 - 4 = -1                                                                                                   2p
+
+b)             -1      -1 = -m + m -1 =
+      Cum m -1         m
+                                                                                                                     3p
+
+      = -1  0 , deci matricea M (m) are rangul cel puin egal cu 2 , pentru orice numr real m                         2p
+
+c)                            1                 0 0 1 0 0
+                                                                            10 
+      M  (m)     A  =  I3       m+2          -m -1       0    =       0  1                                           3p
+                                -m - 2          0        1            0  0
+
+      m = -2 , care convine                                                                                          2p
+
+2.a) (2 + i) (2 - i) = 2 + i + 2 - i + (2 + i)(2 - i) =                                                              3p
+
+      = 4 + 4 - i2 = 9                                                                                               2p
+
+Prob scris la matematic M_mate-info                                                                                  Testul 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                           Ministerul Educaiei
+
+                                                     Centrul Naional de Politici i Evaluare în Educaie
+
+b) A = -1+ (a +1)i -1+ (a -1)i + (-1+ (a +1)i)(-1+ (a -1)i) =                                                                                              2p
+
+      ( ) = -2 + 2ai +1- (a -1)i - (a +1)i - a2 -1 = -a2 < 0 , pentru orice numr real nenul a                                                              3p
+
+c) 2z + z2 = -5  z2 + 2z + 5 = 0                                                                                                                           3p
+
+      z = -1 - 2i sau z = -1 + 2i                                                                                                                          2p
+
+SUBIECTUL al III-lea                                                                                                                          (30 de puncte)
+
+1.a)  f  '(  x)    =  ( ln (   x  + 1)  -  ln (   x  +  3))'   =     1     -     1      =                                                                  3p
+                                                                    x +1         +
+                                                                              x      3
+
+      =  x + 3 - ( x +1)          =            2                 ,  x (-1,+)                                                                               2p
+         ( x +1)( x + 3)
+                                        ( x +1)( x + 3)
+
+b)    lim       f  (  x)   =   lim ln      x   +  1  =  -
+                                           x   +  3
+      x -1                     x -1                                                                                                                        3p
+
+                               x>-1
+
+      Dreapta de ecuaie x = -1 este asimptota vertical la graficul funciei f                                                                               2p
+
+( ) c)                                                     x  +1                        x  +1  x              ln 1 +       -2     x
+       lim         x f (x)        =   lim         xln      x  +3       =   lim   ln     x  +3     =    lim                x+3        =                     2p
+
+      x+                             x+                                   x+                          x+
+
+                                               x+3   -2 x
+                                                      x+3
+                           1       -2          -2    
+      =   lim      ln          +  x+3                         =  ln e-2    =  -2                                                                           3p
+
+         x+
+
+( ) ( )   2.a)1                          1                             x3          1
+      0  ex f (x) - 2                          x2 -1       dx  =       3   -  x    0  =                                                                    3p
+                                  dx =
+
+                                          0
+
+      = 1 -1= - 2                                                                                                                                          2p
+         3                 3
+
+( ) ( ) b)                                                                                                                   
+      e  f                   e    ln2 x +1             1 dx = e        ln2 x +1         (ln  x )  dx  =    ln3  x  +  ln  x    e  =                        3p
+                                                                                                             3                 1
+            (ln x) dx =                                 x           1
+
+      1                      1
+
+      = 1 +1= 4                                                                                                                                            2p
+         33
+
+c)       '(     )  =  -  (  x  - 1)2    0,
+
+      f      x                 ex                 pentru       orice       numr       real   x,   deci     f    este descresctoare, de unde                2p
+
+      obinem c f (1)  f ( x)  f (0) , pentru orice x [0,1]
+
+      Pentru       orice       x [0,1] ,          2  f (x) 1 2 xn  xn f (x)  xn ,                               deci     2              In     1    ,  de
+                                                  e                           e                                                               n +1
+                                                                                                                      e(n +1)                              3p
+
+      unde obinem              c      lim      I  n  =0
+
+                                     n+
+
+Prob scris la matematic M_mate-info                                                                                                                        Testul 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

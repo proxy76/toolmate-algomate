@@ -1,0 +1,142 @@
+                                                     Ministerul Educaiei Naionale
+                                              Centrul Naional de Evaluare i Examinare
+
+                                            Examenul de bacalaureat naional 2019
+                                                              Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                       BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                     Varianta 6
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                            (30 de puncte)
+
+( ) 1. 7 7 +1 - 7 = 7  7 + 7 - 7 =                                                                   2p
+
+      =7+0=7                                                                                         3p
+
+2. f (0) = 8                                                                                         3p
+
+      Coordonatele punctului de intersecie cu axa Oy sunt x = 0 i y = 8                              2p
+
+3. x2 + 9 = 52  x2 -16 = 0                                                                           2p
+
+      x = -4 sau x = 4 , care convin                                                                 3p
+
+4. x - 40  x = 300 , unde x este preul obiectului înainte de ieftinire                               3p
+         100
+
+      x = 500 de lei                                                                                 2p
+
+5. M (0, 2) , unde punctul M este mijlocul laturii AB                                                2p
+
+      CM = 4                                                                                         3p
+
+6. sin 60° = 3 , sin 45° = 2                                                                         2p
+                  2                        2
+
+      3  sin 60° - 2  sin 45° = 3  3 - 2  2 = 3 - 2 = 1                                              3p
+      2               2                       2 2 2 2 444
+
+SUBIECTUL al II-lea                                                                    (30 de puncte)
+
+1.a)           6    -10         =  6  (-5)  - 3 (-10)  =
+      det A =       -5
+                                                                                                     3p
+               3
+
+      = -30 + 30 = 0                                                                                 2p
+
+b) A  A = A i M (a)  M (b) = ( I2 + aA)( I2 + bA) = I2 + aA + bA + abA  A =                          2p
+
+      = I2 + aA + bA + abA = I2 + (a + b + ab) A = M (a + b + ab) , pentru orice numere reale a i b  3p
+
+c) ( I2 + A) + ( I2 + 2A) + ... + ( I2 + 2019A) = 2019I2 + (1+ 2 +... + 2019) A =                    3p
+
+      = 2019( I2 +1010A) = 2019M (1010) , de unde obinem a = 1010                                    2p
+
+2.a) f (1) = m 13 + 2 12 - m 1- 2 =                                                                  3p
+
+      = m + 2 - m - 2 = 0 , pentru orice numr real nenul m                                           2p
+
+b) f = 3X 3 + 2X 2 - 3X - 2  f = ( X -1)( X +1)(3X + 2)                                              2p
+
+      x1 = -1,  x2   =-2,          x3  =1                                                            3p
+                         3
+
+c)    x1x2 + x1x3 + x2 x3 = -1,        x1x2 x3 =  2                                                  2p
+                                                  m
+
+      x1x2 + x1x3 + x2 x3 = -4  -m = -4  m = 8                                                       3p
+         x1x2 x3                              2
+
+Prob scris la matematic M_tehnologic                                                                 Varianta 6
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                          Pagina 1 din 2
+                                             Ministerul Educaiei Naionale
+                                      Centrul Naional de Evaluare i Examinare
+
+SUBIECTUL al III-lea                                                           (30 de puncte)
+
+1.a) f ' ( x) = 3x2 - 3 =                                                                3p
+
+( ) = 3 x2 -1 = 3( x -1)( x +1) , x                                                      2p
+
+b) f ''( x) = 6x , x                                                                     2p
+
+f ''( x)  0 , pentru orice x [0, +) , deci funcia f este convex pe [0,+)                 3p
+
+c) f ( x)  0 , pentru orice x (-, -1]  f este cresctoare pe (-,-1] i f ( x)  0 , pentru  2p
+
+orice x [-1,1]  f este descresctoare pe [-1,1]
+
+f ( x)  f (-1) , pentru orice x (-,1] i f (-1) = 7 , deci f ( x)  7 , pentru orice x (-,1] 3p
+
+( )   2.a)1       1                            3x3  + 6x2       1
+                                                3       2  + 7x  0 =
+   f 2 ( x) dx =      3x2 + 6x + 7    dx  =                                              3p
+
+0                 0
+
+= 1+ 3 + 7 - 0 = 11                                                                      2p
+
+  b)1             1                                              1
+-1  x +1   dx  =  -1                x +1 dx = 1  3x2 + 6x + 7 =                          3p
+                                3x2 + 6x + 7 3
+    f (x)                                                       -1
+
+( ) = 1 16 - 4 = 23             3                                                        2p
+
+c) 3x2 + 6x + 7  7 , pentru orice x [0, +)                                               2p
+
+       a                        a                a
+A =  f ( x) dx =  3x2 + 6x + 7 dx   7 dx = a 7 , pentru orice a (0, +)
+                                                                                         3p
+
+       0                        0                0
+
+Prob scris la matematic M_tehnologic                                           Varianta 6
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                    Pagina 2 din 2
+

@@ -1,0 +1,107 @@
+                                                        Ministerul Educaiei
+                                      Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2023                                        Simulare
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                      (30 de puncte)
+
+5p 1. Artai c 21 i  i 2  i  1, unde i2  1 .
+
+5p 2. Se consider funcia f :    , f  x  3x 10 . Determinai numrul real a pentru care punctul
+
+    A2a, a aparine graficului funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x2  2  2x .
+
+5p 4. Determinai câte numere naturale impare, de trei cifre, se pot forma cu elementele mulimii
+
+     A  0,1, 2,3,4 .
+
+5p 5. Determinai numrul real a pentru care vectorii u  ai  a 1 j i v  i  2 j sunt coliniari.
+
+5p  6. Se consider triunghiul    ABC , dreptunghic în                                                               i BC  24 .
+                                                                     A , cu msura unghiului B egal cu
+                                                                                                                 6
+
+    Bisectoarea unghiului C al triunghiului ABC intersecteaz latura AB în punctul D . Determinai
+
+    lungimea segmentului CD .
+
+SUBIECTUL al II-lea                                                                                              (30 de puncte)
+
+                                           1 0 0                             x  1 1 1 
+                                                                                                   
+    1.  Se  consider  matricele  I3          0  1  0    i         A  x           0       x     0  1  ,  unde  x  este numr real.
+                                             0  0  1                             1       1     
+                                                                                            x
+
+5p a) Artai c det  A1  3 .
+
+5p b) Determinai numrul real x pentru care A0  A x  A0 .
+
+5p c) Determinai numerele reale a i b pentru care  A11  aA1  bI3 , unde  A11 este
+
+    inversa matricei A1 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  x  y 1  2xy .
+
+5p a) Artai c 1 2  8 .
+5p b) Artai c e  0 este elementul neutru al legii de compoziie ,,  ".
+
+5p  c)  Determinai  numrul      natural    nenul   n  pentru      care      n         1    0.
+                                                                                      n
+
+SUBIECTUL al III-lea                                                                                             (30 de puncte)
+
+    1. Se consider funcia f : 0,    , f  x  2x 1 ln x .
+
+                                                                     x
+
+5p  a) Artai c  f     '  x      ln x  ,  x 0,  .
+                                x2
+
+5p b) Determinai ecuaia asimptotei orizontale spre  la graficul funciei f .
+
+5p c) Demonstrai c ln y  ln x  1  1 , pentru orice x, y 1,  cu x  y .
+
+                              y x xy
+
+    2. Se consider funcia f :    , f  x  x3  x .
+
+              5
+
+5p a) Artai c  f  x  x3 dx  8 .
+
+                              3
+
+Prob scris la matematic M_t-nat                                                                                     Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                        Pagina 1 din 2
+                                                Ministerul Educaiei
+                              Centrul Naional de Politici i Evaluare în Educaie
+
+5p  b)  Artai c  2  f     x2          ln 5  .
+                                       3
+                        x  x  2 dx
+
+                 0
+
+5p c) Se consider funcia g : 0,   , g  x  f  xex . Artai c orice primitiv G : 0,  
+
+                                                                      x
+
+    a funciei g este concav.
+
+Prob scris la matematic M_t-nat                                                         Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

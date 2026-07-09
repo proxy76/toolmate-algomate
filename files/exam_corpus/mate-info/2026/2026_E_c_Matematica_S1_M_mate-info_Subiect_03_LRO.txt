@@ -1,0 +1,116 @@
+                                                Ministerul Educaiei i Cercetrii
+                                        Centrul Naional pentru Curriculum i Evaluare
+
+                                     Examenul naional de bacalaureat 2026
+
+                                                                  Proba E. c)
+
+                                                       Matematic M_mate-info
+
+                                                                                                                                              Varianta 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                                (30 de puncte)
+
+5p 1. Se consider numrul complex z = 3 - i . Artai c z ( z + 2i) = 10 .
+
+5p 2. Se consider funcia f :    , f ( x) = 3x - 4 . Determinai numrul real a pentru care
+
+    f (a) + f (-2a) = a .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 + 7 = 2 x +1 .
+
+5p 4. Se consider mulimea A = {1, 2, 3, 5, 7} . Determinai câte dintre submulimile mulimii A au exact
+
+    trei elemente i conin numrul 5 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(3,6) , B (4,1) i C (5, a) , unde a este numr
+
+    real. Determinai numrul real a pentru care dreptele OA i BC sunt paralele.
+
+( ) 5p                                                                      x                                                                    
+    6. Se consider expresia  E(x) =                    1+ tg2x         sin  2  +  cos    3x  ,  unde  x       0,  2    .  Artai   c     E     3    =  1  .
+
+SUBIECTUL al II-lea                                                                                                                        (30 de puncte)
+
+                                                       1 a a                                                            x + ay + az = 1
+                                                                                                                       ax + 3y + az =
+    1. Se consider matricea          A  (  a  )  =       a     3    a    i     sistemul         de  ecuaii  liniare     2 y + z = 0           0,   unde      a
+                                                         0     2    1
+
+      este numr real.
+
+5p a) Artai c det ( A(1)) = 2 .
+
+5p b) Artai c, pentru orice numr real a , sistemul de ecuaii are soluie unic.
+
+5p c) Determinai numrul natural nenul a pentru care sistemul de ecuaii are soluia ( x0, y0, z0 ) , cu
+
+    z0 = nx0 , unde n este numr natural.
+
+    2.  Pe mulimea numerelor reale               se definete           legea de compoziie asociativ                       x y  =  2  (  x  -  3)(  y  -  3)  +  3.
+                                                                                                                                  3
+
+5p a) Artai c 0  2 = 5 .
+
+5p  b) Determinai   numerele reale               x     pentru care          x     3x  = 5x .
+                                                                                  2
+
+5p c) Determinai perechile (m,n) de numere naturale pentru care m  m  n = -1.
+
+SUBIECTUL al III-lea                                                                                                                       (30 de puncte)
+
+    1. Se consider funcia    f :,                           f  (x)  =  x3 - 4x        .
+                                                                       x2 + 5
+
+                           ( )( ) x2 -1 x2 + 20
+( ) 5p a) Artai c f '( x) =                                       , x.
+                                     x2 + 5 2
+
+5p b) Artai c dreapta de ecuaie y = x este asimptota oblic spre + la graficul funciei f .
+
+5p c) Determinai mulimea numerelor reale m pentru care ecuaia f ( x) = m are exact trei soluii.
+
+    2. Se consider funcia    f : (1, +)   ,                         f  (x)     =  x2 - 4     .
+                                                                                  x ln x
+
+5p  a) Artai  c  3  f  ( x) x ln xdx       =  7     .
+                                              3
+                 
+
+                 2
+
+Prob scris la matematic M_mate-info                                                                                                                   Varianta 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 1 din 2
+                                             Ministerul Educaiei i Cercetrii
+                                     Centrul Naional pentru Curriculum i Evaluare
+
+5p  b) Artai  c  e2  f (x  )  dx  =  ln    2  .
+
+                     x2 -  4
+
+                 e
+
+5p  c) Artai c   lim       1      )  x  (  t  -  2)  F  (t  )  dt  =  ln 2  ,  unde     F : (1, +)    este primitiva funciei  f
+                                                                       4
+                 x2   F    2(  x     
+
+                                     2
+
+    pentru care F (2) = 0 .
+
+Prob scris la matematic M_mate-info                                                                   Varianta 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,72 @@
+                                          Ministerul Educaiei i Cercetrii
+                                  Centrul Naional pentru Curriculum i Evaluare
+
+                                  Examenul naional de bacalaureat 2026
+                                                    Proba E. c)
+
+                                              Matematic M_pedagogic
+
+                                                                                                                                   Varianta 3
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                 (30 de puncte)
+
+5p  1.  Artai  c  14   1-  1      2  =     3.
+                  5        6   +  3
+
+5p 2. Se consider funcia f :    , f ( x) = 4x -1 i numrul a = f (1) . Calculai f (a) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 103 10x =100 .
+5p 4. Dup dou ieftiniri succesive, cu câte 50% , un obiect cost 200 de lei. Determinai preul
+
+      obiectului înainte de cele dou ieftiniri.
+
+5p 5. În reperul cartezian xOy se consider punctele A(4,0) , B (6, 2) i C , mijlocul segmentului OB .
+
+      Artai c AC = 2 .
+5p 6. Artai c 2sin 45°  sin 30° - 2 cos 60° = 0 .
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+       Pe mulimea numerelor reale se definete legea de compoziie x  y = xy - x - 2 y + 4 .
+5p 1. Artai c 3  3 = 4 .
+
+5p 2. Determinai numrul real x pentru care x  (-2) = x .
+
+5p 3. Determinai numerele reale x pentru care (-x)  x = 2x .
+
+5p 4. Artai c x  y = ( x - 2)( y -1) + 2 , pentru orice numere reale x i y .
+
+5p 5. Determinai numerele reale nenule a pentru care 4  (4  a) = 1 .
+
+                                                                                     a
+
+5p 6. Determinai perechile (n, p) de numere naturale pentru care n  p = p .
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+    Se  consider  matricele   I2  =  1        0     i  A(x)  =    4-x                       x       ,  unde     este  numr  real.
+                                                                   -x                                        x
+                                        0     1                                          1  -  x  
+
+5p 1. Artai c det ( A(2)) = 2 .
+
+5p 2. Determinai numrul real a pentru care 3A(2) - A(4) = 2A(a) .
+
+5p 3. Determinai numerele reale x pentru care det ( A( x)) = x .
+
+5p  4. Artai c matricea    B  =   1  (  I  2  -  A  (  2))  este inversa matricei                      A(2) .
+                                  2
+
+5p 5. Determinai numerele reale x i y pentru care A( x)  A( x) = yI2 .
+
+5p 6. Determinai matricea X  M2 () pentru care X - A(2)  X = A(3) .
+
+Prob scris la matematic M_pedagogic                                                                                                Varianta 3
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                         Pagina 1 din 1
+

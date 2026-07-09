@@ -1,0 +1,89 @@
+                                                         Ministerul Educaiei
+                                       Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021                                                                      Testul 10
+                                                          Proba E. c)                                                                      (30 de puncte)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p  1. Artai c, dac        z1 = 1 - 2i       i     z2   = 1+ 1 i , unde         i2 = -1, atunci          z1 + z2         = z1z2 .
+                                                              2
+5p 2. Se consider funcia f :    , f ( x) = 2x + m , unde m este numr real. Determinai numrul real
+
+    m , astfel încât ( f f )( x) = 2 f ( x -1) , pentru orice numr real x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 5x+1  2x = 50  7x-1.
+
+5p 4. Determinai numrul funciilor f :{0, 2, 4}  {3,5,7,9} cu proprietatea f (2)  8 .
+
+5p 5. În reperul cartezian xOy , se consider punctele A(-2, 4) , B (2,0) i C astfel încât AC = BC .
+
+    Determinai ecuaia dreptei d , care trece prin punctul C i este perpendicular pe dreapta AB .
+
+5p  6.  Determinai    x      0,        pentru         care  sin    2   x  +       cos   x  =  cos    2x  +             sin  x  +  1.
+                                 2                                           3                              3        
+
+SUBIECTUL al II-lea                                                                                                                        (30 de puncte)
+
+    1. Se consider matricele           A  (  x  )  =    4x  0       ,  unde     x  este numr real i                    B    =    -1   1
+                                                        0   9x                                                                   0    1 .
+
+5p a) Artai c det ( A( x)) = 62x , pentru orice numr real x .
+
+5p b) Determinai numrul real x pentru care A( x)  B = B  A( x) .
+
+5p c) Demonstrai c orice matrice X M2 () cu proprietatea c X  X = A(1) are toate elementele
+
+    numere întregi.
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = 2x2 + xy + 2 y2 .
+
+5p a) Artai c 2 1 = 12 .
+5p b) Se consider numerele reale a , b i c astfel încât 2a + 2b + c  0 . tiind c c a = c b ,
+
+      demonstrai c a = b .
+
+5p c) Determinai numerele reale x pentru care x ( x +1) = 5x3 + 2 .
+
+SUBIECTUL al III-lea                                                                                                                       (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = x ln x + a( x +1) , unde a este numr real.
+5p a) Artai c f '( x) = ln x +1 + a , x (0, +) , pentru orice numr real a .
+
+5p b) Pentru a = 1 , determinai intervalele de monotonie a funciei f .
+
+5p c) Demonstrai c, pentru orice numr real a , funcia f este convex.
+
+    2. Se consider funcia f :    , f ( x) = 2x + ex .
+
+5p  a)  Artai  c  0   f  ( x)dx     =  -1    .
+                                         e
+                  
+
+                  -1
+
+           ( ) 1
+
+5p b) Calculai  x f x2 dx .
+
+                  0
+
+5p  c) Pentru  fiecare   numr       natural        nenul    n , se     consider         numrul       In  =  2        xn  (  f  ( x) - 2x) dx . Demonstrai
+
+                                                                                                            
+
+                                                                                                                  0
+
+    c In+1 + (n +1) In = 2n+1e2 , pentru orice numr natural nenul n .
+
+Prob scris la matematic M_t-nat                                                                                                            Testul 10
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

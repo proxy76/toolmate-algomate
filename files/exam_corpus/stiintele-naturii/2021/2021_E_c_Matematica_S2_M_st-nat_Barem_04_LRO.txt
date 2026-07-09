@@ -1,0 +1,163 @@
+                                                              Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+                                                                                                                      Varianta 4
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                    (30 de puncte)
+
+1. 3(4 - i) + 3i (1+ i) = 12 - 3i + 3i + 3i2 =                                                                                          3p
+
+      = 12 - 3 = 9                                                                                                                      2p
+
+2. f (2) = 0                                                                                                                            2p
+
+      f ( f (2)) = f (0) = -4                                                                                                           3p
+
+3. x2 - 2x + 4 = 3  x2 - 2x +1 = 0                                                                                                      3p
+
+      x = 1 , care convine                                                                                                              2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                                                   2p
+     posibile
+
+      În mulimea numerelor naturale de dou cifre sunt 9 numere divizibile cu 10 , deci sunt 9                                           2p
+      cazuri favorabile
+
+      p  =   nr. cazuri favorabile          =   9     =  1                                                                              1p
+              nr. cazuri posibile               90       10
+
+5.    mOA     =2,    mOB    =  a , unde         a  este numr real                                                                       2p
+                               3
+
+      mOA = mOB  a = 6                                                                                                                  3p
+
+6.    E         =  cos      +  cos       +  cos    3     =                                                                              2p
+           4             4            2             4
+
+      =    2  +  0  +    -  2      =  0                                                                                                 3p
+           2                2   
+
+SUBIECTUL al II-lea                                                                                                            (30 de puncte)
+
+1.a)  A(1,1)    =    4      4            det (  A(1,1))     =   4      4
+                     -2                                         -2     -2 =
+                            -2                                                                                                          2p
+                                
+
+      = -8 - (-8) = 0                                                                                                                   3p
+
+b)    det ( A( x, y)) =     x + 3y        4y            = x2 - y2 , pentru orice numere reale               i
+                             -2 y        x -3y
+                                                                                                         x     y                        2p
+
+      A( x, y) este inversabil  det ( A( x, y ))  0  x2 - y2  0 , deci x  y                                                             3p
+
+c)                                       m + 3n            4n  -m + 3n            4n                 n2  - m2      0      
+                                          -2n                                  -m -                      0         -      
+      A ( m,  n)    A(   -m,   n)  =                    m   -  3n        -2n            3n      =              n2     m2    ,  pentru   3p
+                                                                     
+
+      orice numere întregi m i n
+
+         n2  -  m2          0         =     1      0        n2  -    m2  =1    (n  -    m)(n  +  m)  =1  i, cum           i       sunt
+             0              -               0                                                                         m        n
+                       n2      m2                  1                                                                                    2p
+
+      numere întregi, obinem perechile (0,1) sau (0,-1)
+
+Prob scris la matematic M_t-nat                                                                                                        Varianta 4
+Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) 2 0 = 420 - (1- 2 - 0) =                                                                                                       3p
+
+      =1-1+ 2 = 2                                                                                                                   2p
+
+b)           1  =   4x1x   -1+       +   1   =     +  1  +  3  =     +  1  -2  +  5  =                                              2p
+             x                           x            x                 x
+      x                          x              x                 x
+
+      =   x2    +1- 2x        +5=    ( x -1)2      +55,           pentru   orice     x A,  x0                                       3p
+                  x
+                                         x
+
+c) m i n sunt numere naturale impare, deci m  1 i n  1  mn  1, de unde obinem c 4mn                                                 2p
+     este numr natural par
+
+      m i n sunt numere naturale impare, deci m + n -1 este numr natural impar, de unde                                             3p
+
+      obinem c m n = 4mn + m + n -1 este numr natural impar
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+1.a) f '( x) = 3x2 - 3  1 =                                                                                                         3p
+                                 x
+
+          ( ) ( ) 3 x3 -1 3( x -1) x2 + x +1                   , x (0, +)                                                           2p
+      =                    =
+                 x                           x
+
+b) f (1) = 1 , f '(1) = 0                                                                                                           2p
+
+      Ecuaia tangentei este y - f (1) = f '(1)( x -1) , adic y = 1                                                                  3p
+
+c) f ( x) = 0  x = 1; pentru x (0,1] , obinem f '( x)  0 , deci f este descresctoare pe (0,1]                                       3p
+
+      i pentru x [1,+) , obinem f '( x)  0 , deci f este cresctoare pe [1, +)
+
+      f ( x)  f (1) , pentru orice x (0, +) i, cum f (1) = 1, obinem c x3  3ln x +1, pentru                                         2p
+
+      orice x (0, +)
+
+2.a)  2   f  (x  )         2             x2  2
+                                         2     =
+             ex     dx  =     x  dx  =                                                                                              3p
+                                             0
+      0                    0
+
+      =2-0=2                                                                                                                        2p
+
+( ) ( ) ( ) b)1                                                         xex 'dx = xex 1 =
+                                      1                            1                    -1                                          3p
+      
+             f ( x) + ex dx =                xex + ex dx =
+
+      -1                             -1                           -1
+
+      = e + e-1 = e2 + 1                                                                                                            2p
+
+                              e
+
+c) f '( x) = ( x +1)ex , deci f '( x) = 0  x = -1 i, cum f '( x)  0 , pentru orice x (-, -1] i                                      2p
+
+      f '( x)  0 , pentru orice x [-1, +) , obinem c f ( x)  f (-1) , pentru orice numr real x
+
+         (-1) = - 1        ,  deci   -1+a       (  x)          -  1  -1+a      =-1x     -1+ a  =  - 2a  ,  pentru  orice  a (0, +)
+
+      f                 e                    f         dx                  dx                                                       3p
+                                                                  e -1-a             e -1 - a e
+                                     -1-a
+
+Prob scris la matematic M_t-nat                                                                                                     Varianta 4
+Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

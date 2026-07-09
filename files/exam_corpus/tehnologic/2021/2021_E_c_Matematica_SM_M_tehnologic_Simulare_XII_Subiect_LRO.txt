@@ -1,0 +1,91 @@
+                                                               Ministerul Educaiei
+                                             Centrul Naional de Politici i Evaluare în Educaie
+
+                                             Examenul naional de bacalaureat 2021
+                                                               Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                                                                                                        Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+ · Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ · Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                  (30 de puncte)
+
+5p 1. Artai c (1+ 3i)2 - 6i = -8 , unde i2 = -1.
+5p 2. Se consider funciile f :    , f ( x) = x +1 i g :    , g ( x) = 3x - 7 . Determinai
+
+      coordonatele punctului de intersecie a graficelor celor dou funcii.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 - x = 2x .
+
+5p 4. Artai c numrul de submulimi cu dou elemente ale mulimii A = {1,2,3,4,5} este egal cu
+
+      numrul de submulimi cu trei elemente ale mulimii A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1, 2) , B (-1,0) i C (0, a) , unde a este numr
+
+    real. Determinai numrul real a , tiind c dreapta AB conine punctul C .
+
+5p  6.  Se  consider  numrul            real     x      0,         astfel   încât  cos x + sin     =1.  Calculai  sin x .
+                                                            2                                   6
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+    1. Se consider matricele               A  =     2       4         B  =    -2   -6   i  M (x) =    A + xB , unde    x  este numr real.
+                                                    -1      -2  ,             1    3 
+
+5p a) Artai c det A = 0 .
+5p b) Demonstrai c M ( x)  M (1) = x M (1) , pentru orice numr real x .
+
+5p c) Determinai numrul natural n , tiind c M (4) M (3) M (2) M (1) = nM (1) .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y = x + y + x2 y2 .
+
+5p a) Artai c 1 2 = 7 .
+5p b) Demonstrai c e = 0 este elementul neutru al legii de compoziie ,,* ".
+
+5p c) Determinai numerele întregi x pentru care (-2)  x  3 .
+
+SUBIECTUL al III-lea                                                                                                         (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = ex + x4 - 2x + 2 .
+
+5p a) Artai c f '( x) = ex + 4x3 - 2 , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c funcia f este convex.
+
+    2. Se consider funcia f : (0, +)   , f ( x) = x - 1 .
+
+                                                                    x
+
+5p  a)  Artai  c  3   f         ( x) +  1    dx  =  4.
+                                        x  
+                  1 
+
+5p  b)  Artai  c  2   f         ( x) +  1    ln  xdx  =  2  ln  2  -  3  .
+                                        x                             4
+                  1 
+
+ 5p                                                                                                2                      1
+    c) Determinai cel mai mare numr natural nenul n pentru care                                                              .
+                                                                                                    xn+1 f n ( x) dx   2021
+
+                                                                                                   1
+
+Prob scris la matematic M_tehnologic                                                                                            Simulare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                      Pagina 1 din 1
+

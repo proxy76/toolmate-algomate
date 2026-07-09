@@ -1,0 +1,108 @@
+                                                   Ministerul Educaiei i Cercetrii
+                                           Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2025
+                                                          Proba E. c)
+
+                                                 Matematic M_tehnologic
+                                                                                                                      Varianta 9
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                               (30 de puncte)
+
+5p 1. Artai c 5(0,7 - 0,2) + 0,5 = 3 .
+
+5p 2. Se consider funcia f :    , f ( x) = 6x - 2 . Determinai numrul real m pentru care
+
+    f (m) =10 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 16 - 3x = 1 .
+5p 4. Dup o scumpire cu 60% , un obiect cost 320 de lei. Determinai preul obiectului înainte de
+
+      scumpire.
+
+5p 5. În reperul cartezian xOy se consider punctele A(3,0) , B(3,2) i C (a,b) , unde a i b sunt
+
+      numere reale. Determinai numerele reale a i b , tiind c punctul B este mijlocul segmentului AC .
+
+5p 6. Artai c 5cos60° - sin 30° + 4(sin 60°)2 = 5 .
+
+SUBIECTUL al II-lea                                                                                                       (30 de puncte)
+
+    1.  Se consider matricele              I2    1     0   i  A(  x  )  =     2        x     ,  unde  x  este numr real.
+                                               =  0    1                      -x       -2  
+
+5p a) Artai c det ( A(5)) = 21.
+
+5p b) Artai c 2A(-1) + A(5) = 3A(1) .
+
+( ) 5p c) Determinai mulimea numerelor reale x pentru care det A( x)  A(-x) - x2I2  0 .
+
+    2. Se consider polinomul f = X 3 + mX 2 - X - m , unde m este numr real.
+
+5p a) Artai c f (1) = 0 , pentru orice numr real m .
+
+5p b) Pentru m = -3 , artai c 3 este rdcin a polinomului f .
+
+5p c) Determinai numrul real m pentru care ( x1x2 + x1x3 + x2x3 )2 + x1x2x3 ( x1 + x2 + x3 ) = 1 , unde x1,
+
+       x2 i x3 sunt rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                                      (30 de puncte)
+
+     1. Se consider funcia f : (0,+)   , f ( x) = 2x2 -1+ 4 .
+
+                                                                             x
+
+                 ( ) 4 x3 -1
+
+5p a) Artai c f '( x) = x2 , x (0, +) .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 2 , situat pe graficul
+      funciei f .
+
+5p  c) Artai  c  6  2x2         +       4   33 ,  pentru   orice  x        1  ,  4  .
+                                        x                                  4
+
+    2. Se consider funcia f : (0,+)   , f ( x) = x -1+ 2ln x .
+
+                              3
+
+5p a) Artai c  ( f ( x) - 2ln x) dx = 2 .
+
+                              1
+
+5p  b) Artai  c  e  f           ( x) -  x  +1     =1.
+                                              dx
+                                x
+
+                 1
+
+Prob scris la matematic M_tehnologic                                                                                      Varianta 9
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                              Pagina 1 din 2
+                                                          Ministerul Educaiei i Cercetrii
+                                                 Centrul Naional pentru Curriculum i Evaluare
+
+5p c) Determinai numrul real a , tiind c aria suprafeei plane delimitate de graficul funciei
+
+     g : (0, +)   , g ( x) = 3x( f ( x) +1) , axa Ox i dreptele de ecuaii x = 1 i x = 3 este egal cu
+
+       a + 27 ln 3 .
+
+Prob scris la matematic M_tehnologic                  Varianta 9
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                      Pagina 2 din 2
+

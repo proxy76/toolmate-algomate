@@ -1,0 +1,98 @@
+                                                     Ministerul Educaiei Naionale
+                                              Centrul Naional de Evaluare i Examinare
+
+                                         Examenul de bacalaureat naional 2014
+                                                           Proba E. c)
+
+                                                  Matematic M_mate-info
+                                           Simulare pentru elevii clasei a XII-a
+
+    Filiera teoretic, profilul real, specializarea matematic-informatic
+
+    Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                              (30 de puncte)
+
+5p  1. Determinai numerele reale                  a  i      b , tiind c       1+ i   = a + ib  i  i2  = -1.
+                                                                              1- i
+
+5p 2. Determinai coordonatele punctelor de intersecie cu axele de coordonate a graficului funciei
+
+    f :   , f (x) = x2 - 6x + 8 .
+
+                                                                                           x+2
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 9 2 + 3x+1 = 36 .
+5p 4. Calculai probabilitatea ca alegând un numr din mulimea numerelor naturale de dou cifre, acesta
+
+      s nu conin cifra 6.
+
+5p 5. În reperul cartezian xOy se consider punctele A(-1,2) , B (2,3) i C (0, -2) . Determinai ecuaia
+
+    paralelei duse prin C la AB .
+
+( ) 5p             x                                          1+ sin x     =  1 + cos x
+    6. Determinai          0,  2      pentru         care       sin x           cos x      .
+
+SUBIECTUL al II-lea                                                                                                      (30 de puncte)
+
+                                                     a 1 1
+                                                                    
+    1. Se consider matricea          A   (  a  )  =    1      a  1      ,  unde   a  este numr real.
+                                                       1      1  a
+
+5p a) Artai c det ( A(a)) = (a + 2)(a -1)2 , pentru orice numr real a .
+
+5p b) Calculai inversa matricei A(-1) în M3 () .
+5p c) Determinai perechile de numere naturale (a,b) pentru care matricea A(a)  A(b) are suma
+
+      elementelor egal cu 24.
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y = 3xy - 3x - 3y + 4 . Legea
+      ,," este asociativ i are element neutru.
+
+5p a) Artai c x  y = 3( x -1)( y -1) +1 , pentru orice numere reale x i y .
+
+5p  b)  Calculai     1       2            3            ...    2014   .
+                   1007    1007         1007                  1007
+
+5p c) Determinai numerele reale x care sunt egale cu simetricele lor fa de legea ,," .
+
+SUBIECTUL al III-lea                                                                                                     (30 de puncte)
+
+    1. Se consider funcia         f : (1, +)   ,                 f  (x)    =  x2  +2    .
+                                                                               x  -1
+
+5p a) Determinai ecuaia asimptotei oblice la graficul funciei f .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 2 , situat pe graficul
+      funciei f .
+
+                           f  (x  )     x+3
+                    lim              
+5p  c)  Calculai   x+         x                .
+
+     2.                                                       n                                In     1    xn     dx  .
+        Pentru  fiecare  numr     natural nenul                  se consider         numrul               x+   1
+                                                                                                   =
+
+                                                                                                       0
+
+5p a) Calculai I1 .
+
+5p  b)  Artai   c  In+1 + In     =   n  1   1  ,  pentru      orice  numr         natural nenul    n.
+                                        +
+
+5p  c)  Artai   c   lim (n    +  1)I  n  =     1  .
+                                               2
+                   n+
+
+Prob scris la matematic M_mate-info                                                                            Simulare pentru elevii clasei a XII-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

@@ -1,0 +1,80 @@
+                                                       Ministerul Educaiei Naionale
+                                                Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2014                                                        Varianta 5
+                                                 Proba E. c) ­ 2 iulie 2014
+                                                   Matematic M_t-nat
+
+    Filiera teoretic, profilul real, specializarea tiine ale naturii
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                  (30 de puncte)
+
+5p 1. Se consider numrul complex z = 2 + i . Calculai z2 .
+
+5p 2. Determinai numrul real m tiind c punctul M (m,1) aparine graficului funciei f :    ,
+     f (x) = x -3.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log3 ( x - 3) = 2 .
+5p 4. Determinai numrul submulimilor cu numr impar de elemente ale mulimii A = {1, 2, 3, 4} .
+
+5p 5. În dreptunghiul ABCD se noteaz cu M mijlocul laturii AD . Artai c MB + MC = 2 AB .
+5p 6. Se consider triunghiul ABC dreptunghic în A . Artai c sin B  cosC + sin C  cos B = 1.
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+    1. Se consider matricele              A  =    0      2014       i     I2  =      1  0      .
+                                                  1       -1                         0  1   
+
+5p a) Calculai det A .
+5p b) Artai c A + A A = 2014 I2 .
+5p c) Rezolvai în M2 () ecuaia matriceal A  X = 2014 I2 .
+
+      2. Se consider polinomul f = X 3 - 6 X 2 + mX - 6 , unde m este numr real.
+
+5p a) Calculai f (0) .
+
+5p  b) Artai c     1 + 1 + 1 = 1 tiind c                                  x1, x2        i   x3    sunt rdcinile polinomului  f  .
+                  x1x2 x1x3 x2 x3
+
+5p c) Determinai numrul real m tiind c rdcinile polinomului f sunt trei numere întregi
+
+    consecutive.
+
+SUBIECTUL al III-lea                                                                                                         (30 de puncte)
+
+    1. Se consider funcia              f :,                 f  (x)  =    x        .
+                                                                       x2 +1
+
+    a) Artai c    f    (  x  )  =  (1  -x   ) (1 +   x)  ,  x .
+( ) 5p                                  x2
+                                                  2
+
+                                            +1
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x0 = 1 , situat pe graficul
+     funciei f .
+
+5p c) Determinai punctele de extrem ale funciei f .
+
+    2. Se consider funcia              f  : (-1,+)   ,                 f  (x)  =     x  1   +   x  1  2  +  x  1  3  .
+                                                                                        +1         +           +
+
+5p  a)  Artai  c  1    f  ( x) -         1  2  -   1           =    ln 2  .
+                                       x+         x + 3  dx
+                  
+
+                  0
+
+5p b) Artai c orice primitiv a funciei f este concav pe intervalul (-1, +) .
+
+5p c) Artai c suprafaa plan delimitat de graficul funciei f , axa Ox i dreptele de ecuaii x = 0 i
+
+    x = n , are aria mai mare sau egal cu ln 4 , pentru orice numr natural nenul n .
+
+Prob scris la matematic M_t-nat                                                                                                    Varianta 5
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

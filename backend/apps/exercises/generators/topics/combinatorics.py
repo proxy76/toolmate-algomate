@@ -364,12 +364,16 @@ _TIERS = {
 
 class CombinatoricsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "combinatorics"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        if self.profile == "M3":
+        if self.profile == "pedagogic":
             return {1: _TIERS[1]}
-        if self.profile == "M2":
+        if self.profile == "tehnologic":
             # M_tehnologic pos-4: probability over a small explicit set + percentage.
             return {1: _POS4_M2, 2: _POS4_M2}
+        if self.profile == "stiintele-naturii":
+            # M_șt-nat pos-4 blends the digit-condition probability/counting family
+            # with the explicit-small-set / percentage forms.
+            return {1: _POS4_M2 + _TIERS[1], 2: _TIERS[2], 3: _TIERS[3]}
         return _TIERS

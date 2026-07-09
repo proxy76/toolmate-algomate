@@ -1,0 +1,95 @@
+                                                   Ministerul Educaiei i Cercetrii tiinifice
+                                                   Centrul Naional de Evaluare i Examinare
+
+                                          Examenul de bacalaureat naional 2015
+
+                                                                   Proba E. c)
+                                                          Matematic M_tehnologic
+
+                                                                                                        Varianta 8
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul
+tehnic, toate calificrile profesionale
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                             (30 de puncte)
+
+5p  1.  Artai  c     1  +       1     20  =  2  .
+                     2          5     7
+
+5p 2. Determinai numrul real a , tiind c punctul A(a, 0) aparine graficului funciei f :    ,
+
+    f (x) = x - 2 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x + 3 = 4 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea M = {10, 20,30, 40,50,60,70, 80,90} ,
+
+      acesta s fie multiplu de 15.
+
+5p 5. În reperul cartezian xOy se consider punctele A(4, 2) i B (4,6) . Determinai coordonatele
+
+    mijlocului segmentului AB .
+
+5p  6.  Artai  c  sin x         = 12  ,  tiind     c  x       0,       i  cos x  =5.
+                                  13                              2                13
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+                                        1                 2 4             3   i     C  =   11  11 .
+    1. Se consider matricele A =                           , B=            
+
+                                        3                 4 2             1
+
+5p a) Artai c det A = -2 .
+
+5p b) Artai c A + B = 5C .
+
+5p  c) Demonstrai c             AB + BA + 4I2         = 25C , unde        I2  =    1    10 .
+                                                                                   0
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x y = xy + 4x + 4 y +12 .
+
+5p a) Artai c 5 (-4) = -4 .
+5p b) Artai c x y = ( x + 4)( y + 4) - 4 , pentru orice numere reale x i y .
+
+5p c) Rezolvai în mulimea numerelor reale ecuaia x x = x .
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = 2x3 + 3x2 + 5 .
+
+5p a) Artai c f '( x) = 6x( x +1) , x   .
+
+5p  b)  Calculai   lim              f '(x)         .
+                                   ( x) - 2x3
+                  x+            f
+
+5p c) Determinai intervalele de monotonie a funciei f .
+
+    2. Se consider funcia f : R   , f ( x) = 4x3 + 3x2 .
+
+            ( ) 2
+
+5p a) Artai c  f ( x) - 3x2 dx = 15 .
+
+                              1
+
+5p b) Determinai primitiva F a funciei f pentru care F (1) = 2015 .
+
+5p  c) Determinai numrul                 natural      n,  n >1,   tiind   c   n  f  (x  )  dx  =  9  .
+
+                                                                                    x2
+
+                                                                              1
+
+Prob scris la matematic M_tehnologic                                                                    Varianta 8
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                  Pagina 1 din 1
+

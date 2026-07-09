@@ -1,0 +1,94 @@
+                                               Ministerul Educaiei i Cercetrii tiinifice
+                                                Centrul Naional de Evaluare i Examinare
+
+                                           Examenul de bacalaureat naional 2016
+
+                                                             Proba E. c)
+                                                   Matematic M_tehnologic
+
+                                                                                                          Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul
+
+tehnic, toate calificrile profesionale
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                               (30 de puncte)
+
+5p  1.  Artai  c  1 -    1      1 -     1   1  -  1    =  1   .
+                         2              3         4       4
+
+5p 2. Determinai abscisele punctelor de intersecie a graficului funciei f :    , f ( x) = x2 - 3x + 2
+
+      cu axa Ox .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log5 (2x -1) = 2 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea A = {10, 20,30, 40,50,60,70,80,90} ,
+
+      acesta s fie divizor al lui 1000 .
+
+5p 5. În reperul cartezian xOy se consider punctele O (0,0) , A(0,3) i B (4,0) . Calculai perimetrul
+
+    triunghiului AOB .
+
+5p  6.  Artai  c  sin x         =  3,  tiind  c   x       0,       i    cos x  =  4.
+                                   5                          2                   5
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+    1. Se consider matricele            A  =    -1     1      i  I2  =    1    0
+                                                0      0                  0    1  .
+
+5p a) Artai c det A = 0 .
+
+5p  b) Verificai dac            A  ( A + I2 ) = O2 , unde        O2   =    0   0
+                                                                           0   0 .
+
+5p c) Determinai numerele reale m pentru care det B = 0 , unde B = A A + mI2 .
+
+    2. Se consider polinomul f = X 3 + X 2 + 4X + 4 .
+
+5p a) Artai c f (-1) = 0 .
+
+5p b) Determinai câtul i restul împririi polinomului f la polinomul X 2 + 3X + 2 .
+
+5p  c) Demonstrai c                1 + 1 + 1 + 1 + 1 + 1 = - 3 , unde                     x1 ,  x2 i  x3  sunt rdcinile
+                                   x1 x2 x3 x1x2 x2 x3 x3x1 4
+
+    polinomului f .
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+     1. Se consider funcia f :    , f ( x) = x3 -12x .
+
+5p a) Artai c f '( x) = 3( x - 2)( x + 2) , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 2 , situat pe graficul
+
+      funciei f .
+
+5p c) Artai c -16  f ( x)  16 , pentru orice x [-2,2] .
+    2. Se consider funcia f : R   , f ( x) = 5x4 + 3x2 + 1.
+
+            ( ) 1
+
+5p a) Artai c  f ( x) - 3x2 -1 dx = 1.
+
+                              0
+
+5p b) Calculai aria suprafeei plane delimitate de graficul funciei f , axa Ox i dreptele de ecuaii
+      x = 1 i x = 2 .
+
+5p c) Demonstrai c orice primitiv a funciei f este cresctoare pe  .
+
+Prob scris la matematic M_tehnologic                                                                      Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                 Pagina 1 din 1
+

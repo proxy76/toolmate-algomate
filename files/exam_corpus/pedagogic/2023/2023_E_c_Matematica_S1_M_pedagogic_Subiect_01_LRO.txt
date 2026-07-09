@@ -1,0 +1,71 @@
+                                                                    Ministerul Educaiei                                   Varianta 1
+                                                 Centrul Naional de Politici i Evaluare în Educaie                  (30 de puncte)
+
+                                        Examenul naional de bacalaureat 2023
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p 1. Artai c 25 + 64 - 169 = 0 .
+
+5p 2. Se consider funciile f :    , f ( x) = 2x + 2 , i g :    , g ( x) = x2 + 2 . Determinai
+    numerele naturale n pentru care f (n)  g (n) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2 + log3 (2x -1) = log3 27 .
+
+5p 4. Preul unui obiect este de 150 de lei. Determinai preul obiectului dup ce se scumpete de dou
+      ori, succesiv, cu câte 20% .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0, 4) i M (3,6) . Determinai coordonatele
+
+    punctului B , tiind c punctul M este mijlocul segmentului AB .
+
+5p  6. Artai c   3   sin  60° -  1   cos     30°  cos   60°  =  1  .
+                 2               3                              2
+
+SUBIECTUL al II-lea                                                                                                 (30 de puncte)
+       Pe mulimea numerelor reale se definete legea de compoziie x  y = x + y - 4 .
+
+ 5p 1. Artai c 2  (-2) = -4 .
+
+ 5p 2. Artai c legea de compoziie ,, " este asociativ.
+ 5p 3. Artai c 1 2  3  4  5  6 > 0 .
+
+ 5p 4. Determinai numrul real x pentru care x  x  x = ( x +1)  x .
+
+5p 5. Rezolvai în mulimea numerelor reale ecuaia 4x  2x = 2 .
+
+5p  6. Artai  c  x2   1    -2 , pentru orice numr real nenul               x.
+                      x2
+
+SUBIECTUL al III-lea                                                                                                (30 de puncte)
+
+    Se consider matricele      1    0     ,  B  =  1    2    ,  I2    =  1     0          i   O2    =  0    0    .
+                           A = 1    -1                  -1                                                  0  
+                                                     0                     0   1                         0     
+
+5p 1. Artai c det A = -1 .
+
+5p 2. Artai c A  A - B  B = O2 .
+
+5p 3. Determinai numrul real x pentru care det ( A  A - xI2 ) = 0 .
+
+5p  4. Determinai numrul real x pentru care                  -            -2            -2    .
+                                                     A-  B      xI2   =                 -2  
+                                                                           1                
+
+5p 5. Determinai numerele reale a pentru care det (a ( A + B)) = -6 .
+
+5p 6. Rezolvai în M2 () ecuaia A  X = B .
+
+Prob scris la matematic M_pedagogic                                                                                 Varianta 1
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 1 din 1
+

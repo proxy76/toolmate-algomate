@@ -1,0 +1,147 @@
+                                              Ministerul Educaiei Naionale
+                                       Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2018
+                                                         Proba E. c)
+
+                                          Matematic M_pedagogic
+
+                                    BAREM DE EVALUARE I DE NOTARE
+
+                                                                                              Varianta 2
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                   (30 de puncte)
+
+1. 0,1(6) = 15 = 1                                                                            3p
+             90 6
+
+2      1  +  1     =  2    1  =  1                                                            2p
+       6     3             2
+
+2. f (a) = 2a - 2                                                                             2p
+
+2a - 2 = a  a = 2                                                                             3p
+
+3. x2 + 6 = 5x  x2 - 5x + 6 = 0                                                               3p
+
+x = 2 sau x = 3                                                                               2p
+
+4. Dup prima ieftinire cu 10% , preul obiectului este 900 -10%  900 = 810 lei                 3p
+
+Dup a doua ieftinire cu 10% , preul obiectului este 810 -10% 810 = 729 de lei                 2p
+
+5. AB = 10 , AC = 10 , deci triunghiul ABC este isoscel                                       3p
+
+                                 ( ) ( ) ( ) 22   2
+BC = 20 , i cum 20 = 10 + 10 , obinem c triunghiul ABC este dreptunghic 2p
+
+6. sin 30° = 1 , sin 45° = 2 , sin 60° = 3                                                    3p
+                2                   2         2
+
+sin2 30° + sin2 45° + sin2 60° = 1 + 2 + 3 = 6 = 3                                            2p
+                                          44442
+
+SUBIECTUL al II-lea                                                                           (30 de puncte)
+                                                                                                          3p
+ 1. 0  (-2) = 2(0 + (-2)) + 0  (-2) + 2 =
+
+= -4 + 2 = -2                                                                                 2p
+
+2. x  y = xy + 2x + 2 y + 4 - 2 =                                                             2p
+
+= x( y + 2) + 2( y + 2) - 2 = ( x + 2)( y + 2) - 2 , pentru orice numere reale x i y          3p
+
+3. x  (-1) = ( x + 2)(-1+ 2) - 2 = x + 2 - 2 = x                                              2p
+
+(-1)  x = (-1+ 2)( x + 2) - 2 = x + 2 - 2 = x = x  (-1) , pentru orice numr real x , deci e = -1 3p
+
+este elementul neutru al legii de compoziie ,,  "
+
+4. ( x + 3)( x + 3) - 2 = 2  x2 + 6x + 5 = 0                                                  3p
+
+x = -5 sau x = -1                                                                             2p
+
+5. (lg x + 2)(lg (2x) + 2) - 2 = -2  lg x + 2 = 0 sau lg (2x) + 2 = 0                         3p
+
+x = 1 sau x = 1 , care convin                                                                 2p
+   100                   200
+
+6. a  b   (a + 2)(b + 2)                                                                      2p
+
+De exemplu, pentru a + 2 = 2  a = - 4   \  i b + 2 = 3  b = - 1   \  , obinem                 3p
+                                       3      3                                         2  2
+
+a  b = -1, care este numr întreg
+
+Prob scris la matematic M_pedagogic                                                           Varianta 2
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                                 Ministerul Educaiei Naionale
+                                                          Centrul Naional de Evaluare i Examinare
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+1.  A  =      1      1           det  A   =   1     1 =1 2 - 01=
+                          
+           0 2                                02                                                                      3p
+
+    =2-0=2                                                                                                            2p
+
+2.      (     )  =         1     1 1             0     =     a  +  1        a
+    M      a         a            +                                             
+                        0                        1  0                 2a    +  1                                      3p
+                                 2 0
+
+    det (M (a)) = a +1                        a        =  (a    + 1) ( 2a   + 1)  ,  pentru  orice  numr  real  a     2p
+                                            2a +1
+                       0
+
+3.  M   (  -2)      =     -1     -2           det   (  M    (  -2))   =  3
+                                 -3   
+                       0                                                                                              2p
+
+                                       2
+                             -1             
+        -1 (-2)                        3    
+    M                   =                                                                                             3p
+                                         1  
+                              0       -  3
+
+4.  M   (1)      M     (  2)  =    2     13            2 6            9  2 3
+                                                        =                = 3 
+                                  0 3 0 5  0 15  0 5                                                                  3p
+
+    A         +         =   1      3     +    1     0     =     2     3  ,  deci     M  (1)  M  (2) = 3( A A +  I2 )
+        A        I2                                                                                                   2p
+                            0      4 0              1 0
+                                                                      5
+
+5. M (a) - 2aA = I2 - aA = M (-a)  det (M (a) - 2aA) = (1- a)(1- 2a)                                                  2p
+
+    (1- a)(1- 2a) = 1  2a2 - 3a +1 = 1  a(2a - 3) = 0 , ceea ce este imposibil dac a este                             3p
+
+    numr întreg nenul, deci det ( M (a) - 2aA)  1 , pentru orice numr întreg nenul a
+
+6.  1      1            x     =    0               x+    y   =0
+     0     2            y          -4              2y    =   -4
+                                                                                                                      2p
+
+    x=2          i   y = -2 , deci               =  2
+                                              X                                                                       3p
+                                                       -2    
+
+Prob scris la matematic M_pedagogic                                                                                   Varianta 2
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

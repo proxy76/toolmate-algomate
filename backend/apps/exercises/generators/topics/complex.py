@@ -201,9 +201,9 @@ _TIERS_FULL = {
 
 class ComplexNumbersGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "complex"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _tiers(self):
-        if self.profile == "M2":   # algebraic form only
+        if self.profile in ("tehnologic", "stiintele-naturii"):   # algebraic form only
             return {1: _TIERS_FULL[1], 2: _TIERS_FULL[2]}
         return _TIERS_FULL

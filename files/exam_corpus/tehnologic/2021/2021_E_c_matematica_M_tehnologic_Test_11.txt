@@ -1,0 +1,98 @@
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2021
+
+                                                             Proba E. c)
+                                                    Matematic M_tehnologic
+
+                                                                                                                    Testul 11
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                          (30 de puncte)
+
+ 5p 1. Artai c 0,6  0,8 : 0,7  0,25 4 1.
+
+5p 2. Se consider funcia f :    , f  x  2x  5 . Determinai numrul real a pentru care
+
+      f a  f 2  2 f 4 .
+
+  5p 3. Rezolvai în mulimea numerelor reale ecuaia log3 x2  7  2 .
+
+5p 4. Determinai probabilitatea ca, alegând un element n din mulimea A  1,2,3,...20 , numrul 2n
+
+       s fie multiplu de 10 .
+
+5p 5. În reperul cartezian xOy se consider punctele A8,6 i Ba,4 , unde a este numr real.
+
+       Determinai numerele reale a pentru care MA  OB , unde M este mijlocul segmentului OA .
+5p 6. Se consider triunghiul ABC dreptunghic în A , cu AB  12 i BC  13 . Determinai sin B .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+    1. Se consider matricele              A      4  3   i  Bx       2x 1              x
+                                                 1  3                1               x  1 , unde x este numr real.
+
+5p a) Artai c det A  9 .
+5p b) Artai c A  B1  B1  2B0 .
+
+5p c) Determinai numrul real x pentru care B1  B2  B3 ... B9  9B x .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x y  x  y  xy .
+                                                                                                 23
+
+5p a) Artai c 2 6  0 .
+5p b) Determinai numrul real x pentru care x 6  6 .
+
+5p c) Determinai numerele întregi m pentru care m 3m  2m3.
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+       1. Se consider funcia f :    , f  x  x4  2x3  3 .
+
+                                                                2
+
+5p a) Artai c f ' x  2x2  x  3 , x .
+
+5p  b) Calculai    lim          f x    .
+
+                  x             x2ex
+
+5p c) Artai c f  x   21 , pentru orice numr real x .
+
+                                   2
+
+    2. Se consider funcia f :   , f  x  2x 1 .
+
+                              2
+
+5p a) Artai c  f  x dx  6 .
+
+                  0
+
+5p  b)  Calculai  1  f  1       dx  .
+
+                        x
+
+                  0
+
+5p  c)  Determinai   a 0,2             pentru care      a  x2       1            dx    2  .
+                                                                                       3
+                                                                 2  f  x      2
+
+                                                        a
+
+Prob scris la matematic M_tehnologic                                                                                Testul 11
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                           Pagina 1 din 1
+

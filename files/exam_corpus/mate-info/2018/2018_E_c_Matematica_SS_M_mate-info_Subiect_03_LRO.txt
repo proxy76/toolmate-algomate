@@ -1,0 +1,106 @@
+                                                  Ministerul Educaiei Naionale
+                                           Centrul Naional de Evaluare i Examinare
+
+                                      Examenul de bacalaureat naional 2018
+                                                        Proba E. c)
+
+                                               Matematic M_mate-info
+
+                                                                                                                   Varianta 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                         (30 de puncte)
+
+5p 1. Se consider numrul complex z = 1 - 2i . Artai c z2 - 2z + 5 = 0 .
+
+5p 2. Determinai numerele reale a i b , pentru care graficele funciilor f :    , f ( x) = 2x + a i
+
+    g :    , g ( x) = bx + 2 se intersecteaz în punctul M (2,8) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log3 (4x + 5) = 1+ log3 ( x + 3) .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+    acesta s aib cifrele pare.
+
+5p 5. În reperul cartezian xOy se consider punctele A(2, 2) , B (4,1) i C (0,8) . Determinai lungimea
+
+      segmentului CM , tiind c M este simetricul punctului A fa de punctul B .
+
+5p 6. Calculai aria paralelogramului ABCD , tiind c AB = 6 , AC = 10 i m(BAC ) =  .
+
+                                                                                                                6
+
+SUBIECTUL al II-lea                                                                                 (30 de puncte)
+
+                                                 1 1 1                                               x+y+z=2
+                                                                                                    (a + 1) x - y + z = 0 ,
+    1.  Se  consider  matricea     M     (a) =    a  +  1  -1  1     i sistemul         de  ecuaii                           unde
+                                                     1     1   -a                                    x + y - az = 1
+
+      a este numr real.
+
+5p a) Artai c det (M (-1)) = 0 .
+
+5p b) Determinai numerele reale a pentru care det ( M (a)) = 0 .
+
+5p c) Determinai numerele reale a , tiind c sistemul are soluie unic ( x0 , y0, z0 ) i 2x0 + y0z0 = 0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = 1 xy - (x + y) + 20 .
+
+                                                                                                        10
+
+5p a) Demonstrai c x  y = 1 ( x -10)( y -10) +10 , pentru orice numere reale x i y .
+
+                                     10
+
+5p  b) Determinai valorile reale ale lui x pentru care x  x  101 .
+                                                                           10
+
+5p c) Calculai log2 1 log2 2  log2 3... log2 2018 .
+
+SUBIECTUL al III-lea                                                                                (30 de puncte)
+
+    1. Se consider funcia f : (-1,+)   , f ( x) = 2x3 - 3x2 + 6x - 6ln ( x +1) .
+
+5p  a) Artai c   f    '( x)  =  6x3   ,  x (-1, +) .
+                                x +1
+
+5p b) Demonstrai c valoarea minim a funciei f este 0 .
+
+5p c) Calculai lim       f (x)  .
+
+                 x0 x
+
+    ( ) 2. Se consider funcia f :    , f ( x) = x2 + x +1 ex .
+
+5p  a)  Artai c  1    f  ( x)e-x dx   = 11 .
+                                         6
+                 
+
+                 0
+
+Prob scris la matematic M_mate-info                                                                                Varianta 3
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                               Ministerul Educaiei Naionale
+                                        Centrul Naional de Evaluare i Examinare
+
+5p b) Demonstrai c orice primitiv a funciei f are exact dou puncte de inflexiune.
+
+5p  c)  Artai  c  lim  1  t  f  ( x)dx  =1.
+
+                  t0 t 0  
+
+Prob scris la matematic M_mate-info                                                     Varianta 3
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

@@ -19,7 +19,7 @@ def _l(expr) -> str:
 
 class StatisticsGenerator(ExerciseGenerator):
     TOPIC_CODE = "statistics"
-    SUPPORTED_PROFILES = ["M3"]
+    SUPPORTED_PROFILES = ["pedagogic"]
 
     def _generate_params(self) -> dict:
         rng = self.rng

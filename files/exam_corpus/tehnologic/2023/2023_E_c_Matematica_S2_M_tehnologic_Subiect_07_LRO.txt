@@ -1,0 +1,95 @@
+                                                              Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2023
+                                                            Proba E. c)
+
+                                                   Matematic M_tehnologic
+                                                                                                                        Varianta 7
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                             (30 de puncte)
+
+5p 1. Artai c 1,5 + 3 (1- 0,5) = 3.
+
+5p 2. Se consider funcia f :    , f ( x) = 5 - x . Artai c f (0) - f (1) =1.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x - 8 = 1.
+
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea A = {1, 3, 5, 7, 9} , acesta s
+
+      verifice inegalitatea 2n  9 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,0) , B(1,2) i C (4,1) . Artai c triunghiul
+
+      ABC este isoscel.
+5p 6. Se consider triunghiul ABC dreptunghic în A , cu aria egal cu 50 i AC = 5 . Artai c
+
+      lungimea laturii AB este egal cu 20 .
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+    1. Se consider matricea        A(       x  )  =     x      2  1  x    ,  unde   x  este numr real.
+                                                       -x         -     
+
+5p a) Artai c det ( A(1)) = 2 .
+
+5p b) Artai c 3A(2) + A(6) = 4A(3) .
+
+5p c) Determinai numerele reale x pentru care A( x)  A( x) = 2A( x) .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y = xy + 2x - y -1.
+5p a) Artai c 11 = 1.
+5p b) Determinai numrul real x pentru care x  2 = x .
+
+5p c) Artai c (1- x)  x  2 , pentru orice numr real x .
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+    1. Se consider funcia       f  :,                   f  (x)       =  2x   +  2   -1.
+                                                                                ex
+
+                 ( ) 2 ex -1
+
+5p a) Artai c f '( x) = ex , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+    funciei f .
+
+5p c) Determinai numerele reale m i n , tiind c dreapta d de ecuaie y = mx + n este asimptota
+
+    oblic spre + la graficul funciei f .
+
+    2. Se consider funcia f :    , f ( x) = 4x3 + 3x .
+
+                              2
+
+5p a) Artai c  ( f ( x) - 3x) dx = 15 .
+
+                          1
+
+5p  b)  Artai  c          5          1          dx   =  1  ln  2  .
+                                            +3          3
+                             f  ( x) - 4x3
+
+                          2
+
+5p c) Demonstrai c volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+    g :[1,2]   , g ( x) = x3 + f ( x) este egal cu 2 f (3) .
+
+                                    x
+
+Prob scris la matematic M_tehnologic                                                                    Varianta 7
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic, toate
+
+calificrile profesionale
+
+                                                                        Pagina 1 din 1
+

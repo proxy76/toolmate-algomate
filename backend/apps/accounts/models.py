@@ -7,9 +7,14 @@ class User(AbstractUser):
 
     email = models.EmailField(unique=True)
     profile = models.CharField(
-        max_length=4,
-        choices=[("M1", "Mate-Info"), ("M2", "Științele Naturii"), ("M3", "Pedagogic / Tehnologic")],
-        default="M1",
+        max_length=32,
+        choices=[
+            ("mate-info", "Matematică–Informatică"),
+            ("stiintele-naturii", "Științele Naturii"),
+            ("tehnologic", "Tehnologic"),
+            ("pedagogic", "Pedagogic"),
+        ],
+        default="mate-info",
     )
 
     USERNAME_FIELD = "email"

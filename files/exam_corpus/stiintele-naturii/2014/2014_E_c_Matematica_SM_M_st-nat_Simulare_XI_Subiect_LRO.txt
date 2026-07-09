@@ -1,0 +1,81 @@
+                                                 Ministerul Educaiei Naionale
+                                          Centrul Naional de Evaluare i Examinare
+
+                                    Examenul de bacalaureat naional 2014
+                                                      Proba E. c)
+
+                                               Matematic M_t-nat
+                                      Simulare pentru elevii clasei a XI-a
+
+    Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+5p 1. Determinai numrul real x tiind c numerele 4, 36 i x sunt în progresie geometric.
+
+5p 2. Se consider funcia f :    , f ( x) = x + a , unde a este numr real. Determinai numrul real
+
+    a pentru care ( f f )( x) = x pentru orice numr real x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3-x+2 = 3 .
+5p 4. Determinai numrul submulimilor cu cel mult 3 elemente ale mulimii M = {1, 2,3,4}.
+
+5p 5. În reperul cartezian xOy se consider punctul A(2,-3) i dreapta d : 2x + y - 5 = 0 . Determinai
+
+    ecuaia dreptei care trece prin punctul A i este perpendicular pe dreapta d .
+
+5p  6.  Calculai  sin 2x ,  tiind   c  x         0,        i   cos x =  35              .
+                                                     2                   7
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+    1. În reperul cartezian xOy se consider punctele O(0,0), A(0, 2), B(3,5) i C(6,8) .
+
+5p a) Determinai ecuaia dreptei AC .
+
+5p b) Verificai dac punctele A, B i C sunt coliniare.
+
+5p c) Demonstrai c aria triunghiului AOB este egal cu aria triunghiului BOC .
+
+    2. Se consider matricele        A  =    1    2      i   B  =    4   3   .
+                                            3    4                  2   1 
+
+5p a) Calculai 2 A + 2B .
+
+5p b) Artai c ( A - B)  ( B - A) = -8I2 .
+
+                                       a b                                                 A X  =  X B.
+5p  c) Determinai matricea X =                           M     ( )   cu proprietatea c
+                                       1         3          2
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+    1. Se consider funcia        f  : (0, +)   ,            f (x) = ln x .
+                                                                       x+e
+
+5p a) Calculai lim f ( x) .
+                             xe
+
+5p b) Artai c dreapta de ecuaie x = 0 este asimptot vertical la graficul funciei f .
+
+5p c) Determinai ecuaia asimptotei spre + la graficul funciei f .
+
+                                                       (x)      x - 6,         x2
+    2. Se consider funcia        f  :            ,  f       =                        , unde a este numr real.
+                                                                 x2  -  a,
+                                                                               x>2
+
+5p a) Determinai numrul real a tiind c funcia f este continu în punctul x = 2 .
+
+5p b) Pentru a = 8 , rezolvai ecuaia f ( x) = 0 .
+
+5p c) Pentru a = 8 , stabilii semnul funciei f .
+
+Prob scris la matematic M_t-nat                                                                 Simulare pentru elevii clasei a XI-a
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

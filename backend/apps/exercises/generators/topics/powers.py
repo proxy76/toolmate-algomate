@@ -101,7 +101,7 @@ _TIERS = {
 
 class PowersGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "powers"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        return {1: _TIERS[1]} if self.profile == "M3" else _TIERS
+        return {1: _TIERS[1]} if self.profile == "pedagogic" else _TIERS

@@ -1,0 +1,87 @@
+                                                            Ministerul Educaiei i Cercetrii                                       Test 12
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                     (30 de puncte)
+
+5p 1. Determinai termenul a2 al unei progresiei aritmetice an n1 în care a1  2a2  a3  4 .
+
+5p  2. Se consider funcia f :                ,  f  x  x2  x  6 . Artai c numrul                                  f  3   f    1    este natural.
+                                                                                                                             3  
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log5 4  x  3  log5 24  x .
+
+5p 4. Determinai numrul de elemente ale unei mulimi care are exact 45 submulimi cu dou elemente.
+
+5p 5. Se consider vectorii u  ai  3 j i v  i  j . Determinai numrul real a , tiind c vectorii u  v i
+
+      3v sunt coliniari.
+5p 6. Un triunghi dreptunghic are catetele de lungime 6 , respectiv 8 . Determinai raza cercului înscris în
+
+      acest triunghi.
+
+SUBIECTUL al II-lea                                                                                                             (30 de puncte)
+
+    1.  Se consider matricele   I2        1     0       i  A     a        5a                10       ,  unde  a  este numr real.
+                                          0                                2              4        
+                                                1                                               a  
+                                                   
+
+5p a) Artai c det  A0  0 .
+
+5p b) Determinai numrul real a , tiind c Aa  Aa  A0 .
+
+5p c) Determinai matricea X  2   cu proprietatea A1  X  A0 .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  3x  2 y  1 .
+
+5p a) Artai c 5 8  0 .
+5p b) Determinai numrul real x pentru care 2020x  2020x  2 .
+
+5p c) Demonstrai c exist o infinitate de perechi m,n de numere întregi pentru care m  n  0 .
+
+SUBIECTUL al III-lea                                                                                                            (30 de puncte)
+
+     1. Se consider funcia f :  , f  x  ln x  x2 1 .
+
+5p a) Artai c f ' x  1 , x  .
+
+                                   x2 1
+5p b) Demonstrai c, pentru orice numr real nenul a , tangentele la graficul funciei f în punctele
+
+    Aa, f a i B a, f a sunt paralele.
+
+5p c) Calculai lim      f x f x           .
+
+                  x             ln x
+
+    2. Se consider funcia f : 0,   , f  x  x  2ln 2x  1 .
+
+5p  a)  Artai  c  1  f   x  2ln 2x 1 dx                    1  .
+                                                           2
+                  
+
+                  0
+
+                             1
+
+5p b) Calculai  f  x dx .
+
+                  0
+
+5p  c) Dac  F  este o primitiv a funciei             f  , artai c         F                 F    16     .
+                                                                                                 5   
+
+Prob scris la matematic M_t-nat                                                                                                   Test 12
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

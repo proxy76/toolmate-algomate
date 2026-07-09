@@ -1,0 +1,107 @@
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2024                                                        Simulare
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                  (30 de puncte)
+
+5p  1.  Artai  c    3    lg  1       lg  10  1 .
+                             10  
+
+5p 2. Se consider funcia f :    , f  x  x2  ax 1, unde a este numr real. Determinai numerele
+    reale a pentru care  f f 1 1.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x1 8x  32 .
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de dou cifre,
+
+     numrul n 100 s fie natural.
+
+5p 5. În reperul cartezian xOy se consider punctele A1, 4 , B 4,6 i C 4, 2 . Determinai
+
+      coordonatele punctului D , tiind c OD  1 AB  AC .
+                                                        2
+
+5p  6.  Se  consider   expresia      Ex      tg x  4cos x  cos x      ,  unde           x      0,      .  Artai  c  E            0  .
+                                                          2                                        2                      3
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+                                           1 0 0                          1 1 x 
+                                                                                               01 , unde x este numr real.
+    1. Se   consider   matricele     I3      0  1  0    i  A    x          1            0
+                                             0  0  1                       x            0
+
+5p a) Artai c det  A0  1 .
+
+5p b) Artai c det  A x  A x  I3   0 , pentru orice numr real x .
+
+5p  c)  Se  consider   matricea      B  M2,3  ,       B      1     0     1                                       X   M2,3              pentru
+                                                             0     1     0 . Determinai matricea
+
+    care X   A01  B  A0 , unde  A01 este inversa matricei A0 .
+
+    2.  Pe  mulimea    M   0,            se definete  legea de     compoziie                 x y        x2   y2  x     y  .
+                                                                                                            x  y 1
+
+5p a) Artai c 1 2  2 .
+5p b) Artai c e  0 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Determinai perechile m, n de numere naturale pentru care m  n  5 .
+
+SUBIECTUL al III-lea                                                                                                         (30 de puncte)
+
+    1. Se consider funcia f :    , f  x   x  6 x2  4 .
+
+  5p a) Artai c f ' x  2 x2  3x  2 , x   .
+                                      x2  4
+
+5p b) Determinai intervalele de monotonie a funciei f .
+
+5p c) Demonstrai c ecuaia f  x  m are soluie unic, pentru orice numr întreg m .
+
+Prob scris la matematic M_mate-info                                                                                                    Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia        f :,          f  x     x 1  .
+                                                         ex
+
+                              4
+
+5p a) Artai c  ex f  x dx  12 .
+
+                   0
+
+5p  b)  Artai   c  1  f   x dx   2e  3  .
+                                   e
+                   
+
+                   0
+
+   5p                                                                                          1  xn1
+    c) Pentru fiecare numr natural         n,     n  2 , se consider numrul             In        f xn  dx . Demonstrai c
+                                                                                            
+
+                                                                                               0
+
+    ln 2    In    e 1,   pentru  orice  numr   natural  n,  n     2  .
+     n             n
+
+Prob scris la matematic M_mate-info                                                                     Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

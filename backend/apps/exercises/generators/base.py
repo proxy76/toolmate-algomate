@@ -24,7 +24,7 @@ class ExerciseGenerator(ABC):
     """Base class for single-statement exercises (Subiectul I, /generate)."""
 
     TOPIC_CODE: str = ""            # e.g. "derivatives"
-    SUPPORTED_PROFILES: list = []   # e.g. ["M1", "M2"]
+    SUPPORTED_PROFILES: list = []   # e.g. ["mate-info", "tehnologic", "stiintele-naturii"]
     MAX_RETRIES: int = 50           # re-generation attempts if validation fails
 
     def __init__(self, profile: str, difficulty: int, rng: random.Random):

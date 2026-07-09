@@ -1,0 +1,141 @@
+                                                              Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                            Examenul naional de bacalaureat 2021
+                                                              Proba E. c)
+
+                                                     Matematic M_pedagogic
+
+                                         BAREM DE EVALUARE I DE NOTARE
+
+                                                                                               Testul 10
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                    (30 de puncte)
+
+1.  1  :    1    1       1  :  1    1    1    10    2     1                                    3p
+    3       2    5       3     2    5    5    3     15    5
+
+     50  2  3  3                                                                               2p
+            15
+2. f 1  1
+                                                                                               2p
+
+    3  4x  5  4x  8 , de unde obinem x 2,                                                      3p
+
+3. 232x1  25x  32x  1  5x                                                                      3p
+
+    6x  3  5x , de unde obinem x  3                                                            2p
+
+4. 5 25  x  x  27 , unde x este preul blocului de desen                                        3p
+        100
+
+    x  12 lei                                                                                  2p
+
+5.  mOA          1  ,  mOB      a , unde      a   este numr real,  a0                          2p
+                 a               4
+
+    1  a  a2  4  0 i, cum a  0 , obinem a  2                                                   3p
+    a4
+
+6. Cum AC  BC 1, obinem BC 2   BC 12  25 , de unde rezult BC  13 i AC 12                       3p
+
+    PABC  AB  BC  CA  5  13  12  30                                                            2p
+
+SUBIECTUL al II-lea                                                                            (30 de puncte)
+
+1. 1  2  12  22  1  2  2  1  2  2                                                              3p
+
+    1 4 2 24 5                                                                                 2p
+
+2. x  y  x2  y2  xy  2x  2y  y2  x2  yx  2y  2x                                                3p
+
+     y  x , pentru orice numere reale x i y , deci legea de compoziie ,, " este comutativ      2p
+
+3. x  x  x2  x2  x x  2x  2x                                                                   3p
+
+     x2  x2  x2  2x  2x  3x2 , pentru orice numr real x                                        2p
+
+4. x 1  x2  1  x  2x  2  x2  3x 1 , pentru orice numr real x                                   2p
+
+    x2  3x 1  3  x2  3x  4  0 , de unde obinem x  1 sau x  4                                   3p
+
+5. m  m  m2  4m , pentru orice numr natural m                                                  2p
+
+    m2  4m  n2  4n  m  nm  n  4  0 i, cum m i n sunt numere naturale cu m  n ,                 3p
+
+    obinem perechile 0,4 sau 1,3
+
+6. lg x  lg 1  lg x  lg x  3lg2 x , pentru orice numr real x , x  0                            2p
+                 x
+
+    3lg2 x  9lg x , de unde obinem x 1 sau x 1000 , care convin                                3p
+
+Prob scris la matematic M_pedagogic                                                            Testul 10
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                              Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+SUBIECTUL al III-lea                                                                                                        (30 de puncte)
+
+1.  det A  2           6        2 1          6         1  
+             1         1
+                                                                                                                                        3p
+
+     2  6  4                                                                                                                            2p
+
+2.  B        0    12            2  A    B     2     2     6        0  12                4  0    
+             2    6                                 1     1        2  6                 0  4  
+                                                                                                                                        3p
+
+       4    1     0      4  I2                                                                                                          2p
+            0     1  
+
+3.  A    A        2      6         xA       yI2        2x    y      6x                                         x    i    y
+                  1      5 ,                              x        x  y  , pentru orice numere reale
+                                                                                                                                        3p
+
+     2         6         2x        y     6x                                   x 1          i  y  4                                      2p
+     1         5            x           x  y  , de unde obinem
+
+4.  B    A         2a         2a 
+                  4a        12  a  , pentru orice numr real a
+                                                                                                                                        3p
+
+    2a  2a  4  a  12  a  8, pentru orice numr real a , deci suma elementelor                                                            2p
+
+    matricei B  A nu depinde de a
+
+5.  A     B       2    6  2a                det   A       B     2     6  2a    16  4a , pentru orice numr natural                a
+                  3    1  a                                     3     1  a
+                                                                                                                                        2p
+
+    det  A  B  22 4  a este ptratul unui numr natural, de unde rezult c 4  a este ptratul                                               3p
+
+    unui numr natural i, cum a este numr natural, obinem a  0 sau a  3 sau a  4
+
+6.  B             B                                         a2I2              4a  a2            2a2        0   2a2  
+                                                                                2a              4a         2a  a2   
+             aI2            aI2         aB       B     B              aB                                              ,  pentru  orice  3p
+
+    numr real a
+
+    a2  4a  0 , de unde obinem a  0 sau a  4                                                                                            2p
+
+Prob scris la matematic M_pedagogic                                                                                                 Testul 10
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

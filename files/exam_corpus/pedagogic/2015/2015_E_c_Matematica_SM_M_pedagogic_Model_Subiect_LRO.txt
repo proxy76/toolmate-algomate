@@ -1,0 +1,68 @@
+                                                Ministerul Educaiei Naionale
+                                         Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2015                                          Model
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                           (30 de puncte)
+
+5p 1. Artai c 81 - 18 + 50 - 8 = 9 .
+
+5p 2. Determinai numrul real m pentru care f (2) = 0 , unde f :    , f ( x) = x - m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 +1 = 1.
+5p 4. O firm folosete 2000 de lei pentru publicitate, ceea ce reprezint 5% din profitul anual al
+
+      firmei. Determinai profitul anual al firmei.
+
+5p 5. Determinai ecuaia dreptei care trece prin punctul M (1, -1) i este paralel cu dreapta d de
+
+      ecuaie y = x -1.
+
+5p 6. Artai c sin 30 + 3  cos 30 = 2 .
+
+SUBIECTUL al II-lea                                                                                                   (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie x  y = x + y - 2 .
+
+5p 1. Calculai (-2)  2 .
+
+5p 2. Artai c legea de compoziie ,,  " este asociativ.
+5p 3. Verificai dac e = 2 este element neutru al legii de compoziie ,,  ".
+
+5p 4. Determinai numrul real x , tiind c ( x +1)  x = 3 .
+
+5p 5. Rezolvai în mulimea numerelor reale ecuaia 9x  3x = 0 .
+
+5p  6. Artai c    x2    1   0   pentru orice numr real nenul                            x.
+                        x2
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+    Se  consider  matricea  A(  a  )  =    a   1          a  este numr real.
+                                           -1  a  , unde
+
+5p 1. Calculai det ( A(0)) .
+
+5p 2. Artai c 4  A(1) - 3 A(-1) = A(7) .
+
+5p 3. Determinai numerele reale a , tiind c det ( A(a)) =10 .
+
+5p  4.  Artai  c  det ( A(a) -  I2) > 0    pentru  orice numr  real                     a   ,  unde  I2  =    1  0
+                                                                                                              0  1 .
+
+5p 5. Determinai inversa matricei A(2) .
+
+5p 6. Determinai numrul matricelor A(a) , unde a este numr întreg i det ( A(a))  401.
+
+Prob scris la matematic M_pedagogic                                                                                   Model
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

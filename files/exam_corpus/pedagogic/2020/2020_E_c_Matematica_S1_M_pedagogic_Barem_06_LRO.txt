@@ -1,0 +1,129 @@
+                                               Ministerul Educaiei i Cercetrii
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul de bacalaureat naional 2020
+                                                       Proba E. c)
+
+                                               Matematic M_pedagogic
+                                    BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                      Varianta 6
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                           (30 de puncte)
+
+1. a3 = a1 + 2r =                                                                                                     3p
+
+    = 5 + 2  (-2) = 1                                                                                                 2p
+
+2. f (1) = 2  1+ a + 3 = 2                                                                                            3p
+
+    a = -2                                                                                                            2p
+
+3. x = x2 - 2  x2 - x - 2 = 0                                                                                         3p
+
+    x = -1 , care nu convine, x = 2 , care convine                                                                    2p
+
+4. x este preul unui creion, 5x este preul unui pix, 35x este preul unui stilou i 35x = 70                            3p
+
+    x = 2 lei                                                                                                         2p
+
+5. ABCD este paralelogram, deci AB + AD = AC                                                                          2p
+
+    ( ) O este mijlocul segmentului AC , deci OC = 1 AC = 1 AB + AD2                    2                             3p
+
+6. BC2 = AB2 + AC2 i AC = 2AB , deci AB = 5                                                                           3p
+
+    PABC = AB + BC + AC = 5 + 5 + 2 5 = 3 5 + 5                                                                       2p
+
+SUBIECTUL al II-lea                                                                                                   (30 de puncte)
+
+1. 1 2 = 12 -1 2 + 22 =                                                                                               3p
+
+    =1-2+4 = 3                                                                                                        2p
+
+2. x y = x2 - xy + y2 = y2 - yx + x2 =                                                                                3p
+
+    = y x , pentru orice numere reale x i y , deci legea de compoziie ,, " este comutativ                             2p
+
+3. a = (1 3) 2 = (1 - 3 + 9) 2 = 7 2 = 49 -14 + 4 = 39                                                                3p
+
+    b = 1 (3 2) = 1 (9 - 6 + 4) = 1 7 = 1 - 7 + 49 = 43  b - a = 43 - 39 = 4                                          2p
+
+4. x x = x2 - x2 + x2 = x2 , pentru orice numr real x                                                                 3p
+
+    x2 = 4 , deci x = -2 sau x = 2                                                                                    2p
+
+5.                  x2           y2           x2            y2     3y2                             y 2     3y2
+                                                            4       4                              2        4
+    x  y  =  0          -  xy +      =  0         -  xy  +      +       =  0                 x  -       +       =  0  2p
+
+    x - y = 0 i y = 0 , de unde obinem x = y = 0                                                                      3p
+       2
+
+( )( ) 6. 9 - 3 2x + 22x = 7  2x -1 2x - 2 = 0                                                                        3p
+
+    x = 0 sau x = 1                                                                                                   2p
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+1.  A  (5)  =    1  5      det   (  A(5))  =  1   5
+                 0  1                         0     = 11- 50 =
+                                                                                                                      3p
+                                                  1
+
+    =1-0 =1                                                                                                           2p
+
+Prob scris la matematic M_pedagogic                                                                                   Varianta 6
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                         Ministerul Educaiei i Cercetrii
+                                               Centrul Naional de Politici i Evaluare în Educaie
+
+2.  A(1)     +  A(2    )  =    1  1 1             2 2        3
+                                   +               =          
+                              0 1  0 1  0 2                                                                                                 2p
+
+    det ( A(1) + A(2)) = 2                3                                                                                                 3p
+                                            =4
+                                     02
+
+3.  A  (  a)    A  (b  )  =    1  a 1             b 1        b + a
+                                                   =               =
+                             0 1 0 1 0 1                                                                                                    3p
+
+      1         a  +  b     =  A(a + b) , pentru orice numere reale          a          i    b                                              2p
+    =                     
+                   1
+      0
+
+4. A(a)  A(2a) = A(a + 2a) = A(3a) , pentru orice numr real a                                                                               2p
+
+    A(3a) = A(30) , de unde obinem 3a = 30 , deci a = 10                                                                                    3p
+
+5.           xA(   x)         1   0            1  x       1  +  x   x2                  (I2     xA(  x))     (1 +     )2
+                              0   1            0  1          0     1+ x  
+    I2    +            =               +  x            =                     det             +            =        x      ,  pentru  orice  3p
+
+    numr real x
+
+    (1+ x)2 = 25 , deci x = -6 sau x = 4                                                                                                    2p
+
+( ) 6. A(n + n) = A 2n2 , de unde obinem 2n = 2n2                                                                                           3p
+
+    n = 0 sau n = 1, care convin                                                                                                            2p
+
+Prob scris la matematic M_pedagogic                                                                                                         Varianta 6
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

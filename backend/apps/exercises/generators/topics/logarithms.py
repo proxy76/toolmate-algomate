@@ -23,7 +23,7 @@ def _l(expr) -> str:
 
 class LogarithmsGenerator(ExerciseGenerator):
     TOPIC_CODE = "logarithms"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _generate_params(self) -> dict:
         rng = self.rng
@@ -31,7 +31,7 @@ class LogarithmsGenerator(ExerciseGenerator):
         # position 1 — "algebra on numbers"). Log *equations* are the ``equations``
         # topic (position 3), so they are intentionally not produced here — keeping
         # the pos-1 exam slot a genuine identity, as in the real papers.
-        if self.profile == "M3":
+        if self.profile == "pedagogic":
             pool = [self._st_identity, self._st_identity_sub]
         elif self.difficulty == 1:
             pool = [self._st_identity, self._st_identity_sub]

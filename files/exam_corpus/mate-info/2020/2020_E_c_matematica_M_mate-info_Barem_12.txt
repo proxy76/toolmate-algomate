@@ -1,0 +1,162 @@
+                                             Ministerul Educaiei i Cercetrii
+                                   Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul de bacalaureat naional 2020
+                                                       Proba E. c)
+
+                                              Matematic M_mate-info
+
+                                     BAREM DE EVALUARE I DE NOTARE
+                                                                                                                         Test 12
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                             (30 de puncte)
+
+1. N  5  2  5  13 13  5  2  5  13 13                                                                                       3p
+
+       36  62                                                                                                              2p
+
+2. f  f 1  f 1 1  f 1  a 1 a  1  3a  2  1                                                                                  3p
+
+      a  1                                                                                                                 2p
+            3
+
+  3.
+      4x    4    4  42x  4  4x  4  0                      4x  2 2  0                                                       3p
+            4x
+
+      22x  2 , deci x  1                                                                                                   2p
+                             2
+
+4. Cifra sutelor se poate alege în 2 moduri i pentru fiecare alegere a cifrei sutelor, cifra zecilor                       2p
+     se poate alege în 2 moduri
+
+      Pentru fiecare alegere a cifrei sutelor i a cifrei zecilor, cifra unitilor se poate alege într-un                    3p
+      singur mod, deci se pot forma 2 21  4 numere cu proprietatea cerut
+
+5. AB  AC  2AD , unde D este mijlocul segmentului BC                                                                       2p
+
+      G este centrul de greutate al triunghiului ABC , deci AG  2 AD i, cum AM  1 AG ,                                     3p
+                                                                                              3                         2
+
+      obinem 6AM  AB  AC
+
+6.                AB   AC     sin  A  ,  deci   sin  A    1                                                                3p
+                         2                                2
+      ABC
+
+      Cum ABC este ascuitunghic, obinem m A  30                                                                            2p
+
+SUBIECTUL al II-lea                                                                                                     (30 de puncte)
+
+1.a)             3 2 1                                  3 2 1
+
+      A0          2  2       1        det     A0        2     2     1                                                      2p
+                                
+                 4 3 0 
+                                                        43 0
+
+       0  6  8  8  9  0  15                                                                                                3p
+
+b)                      3 2 1
+
+      det  Aa  2 2 1  15a 1 , pentru orice numr real a                                                                     2p
+
+                     a4 a3 a
+
+      Rangul matricei Aa nu este egal cu 3  det  Aa  0 , deci a  1                                                         3p
+
+c)                       3 2 1 3 2 1 10 0 0                                                                     2 0 0 
+
+      A  1  A     1       2     2        1      2  2       1        5  10              5      5B  ,  unde  B      1  2  1  3p
+                                                                                                                
+                         3 2 1 3 2 1 10 0 0                                                                      2 0 0 
+
+      M  52 B  B i, cum matricea B  B are toate elementele numere întregi, obinem c 2p
+      matricea M are toate elementele numere întregi, divizibile cu 25
+
+Prob scris la matematic M_mate-info                                                                                        Test 12
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                   Ministerul Educaiei i Cercetrii
+                         Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) x  x  3 x3  x3  2020                                                                    3p
+
+ 3 x3  x3  2020  3 2020 , pentru orice numr real x                                           2p
+
+b)  x 1  x  3  x 13  x3  2020  3 3x2  3x  2021 , deci 3x2  3x  2021  2021                    3p
+
+3x  x 1  0 , deci x  1 sau x  0                                                              2p
+
+c) 3 3x3  4040  a  3x3  4040  a3  x3  a3  4040                                               3p
+                                                  3
+
+Pentru orice numr real a , ecuaia x3  a3  4040 are o singur soluie real x  3 a3  4040 ,      2p
+                                     3                                                    3
+
+deci exist un unic numr real x pentru care x  x  x  a
+
+SUBIECTUL al III-lea                                                                      (30 de puncte)
+
+1.a) f  x  3x2 12x  9                                                                        3p
+
+   3 x2  4x  3  3 x 1 x  3 , x                                                               2p
+
+b) f ' x  0  x  1 sau x  3                                                                   2p
+
+   f  x  0 , pentru orice x ,1  f este cresctoare pe ,1 , f  x  0 , pentru
+
+orice x 1,3  f este descresctoare pe 1,3 i f  x  0 , pentru orice x 3,   f 3p
+
+este cresctoare pe 3, 
+
+c) f " x  6x 12 , x                                                                          3p
+
+Cum f " x  0 , pentru orice x , 2 , obinem c funcia f este concav pe , 2                     2p
+
+  2.a) 1                     1                      1
+
+ f  x  x2  3x  5 dx  2x  3dx  x2  3x                                                         3p
+
+0                            0                      0
+
+130  4                                                                                       2p
+
+     b) 1
+            1         2x  3          1 x2  3x  5 '                                     1
+
+   f  xdx                       dx                  dx  2 x2  3x  5                          3p
+
+4           4 x2  3x  5              4 x2  3x  5                                       4
+
+2 92 9 0                                                                                     2p
+
+c) Dac F este o primitiv a lui f , atunci  F sin x'  F 'sin x  sin x'  f sin x  cos x , 3p
+
+    pentru orice numr real x
+
+                                     
+
+2                     2
+ cos x f sin xdx   F sin x'dx  F sin x 2  F 1  F 0  2 12  31 5  2 5  6  2 5 2p
+
+0                     0              0
+
+Prob scris la matematic M_mate-info                                                          Test 12
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

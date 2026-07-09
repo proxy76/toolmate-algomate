@@ -35,8 +35,8 @@ UA="Mozilla/5.0 (compatible; bac-downloader/1.0)"
 # Pick a downloader (curl or wget)
 # ----------------------------------------------------------------------
 if command -v curl >/dev/null 2>&1; then
-    fetch_page() { curl -fsSL -A "$UA" "$1"; }
-    fetch_file() { curl -fsSL -A "$UA" -o "$2" "$1"; }
+    fetch_page() { curl -fsSL --retry 4 --retry-delay 3 --retry-connrefused --connect-timeout 30 -A "$UA" "$1"; }
+    fetch_file() { curl -fsSL --retry 4 --retry-delay 3 --retry-connrefused --connect-timeout 30 -A "$UA" -o "$2" "$1"; }
 elif command -v wget >/dev/null 2>&1; then
     fetch_page() { wget -qO- -U "$UA" "$1"; }
     fetch_file() { wget -q -U "$UA" -O "$2" "$1"; }
@@ -86,10 +86,16 @@ for year in $(seq "$START_YEAR" "$END_YEAR"); do
         continue
     fi
 
-    # Extract every absolute PDF URL on the page, de-duplicated.
+    # Extract every PDF href on the page and resolve to an absolute URL.
+    # The year pages link PDFs relatively, e.g. href="2024/2024_..._M_mate-info_Subiect_..LRO.pdf",
+    # so we normalise both absolute and relative forms here.
     mapfile -t urls < <(
         printf '%s\n' "$html" \
-        | grep -oE 'https://www\.pro-matematica\.ro/bacalaureat/[0-9]{4}/[^"'"'"' ]+\.pdf' \
+        | grep -oiE 'href="[^"]+\.pdf"' \
+        | sed -E 's/^href="//I; s/"$//' \
+        | sed -E 's#^\./##; s#^/*##' \
+        | sed -E "s#^([0-9]{4}/)#$BASE_URL/\1#" \
+        | grep -E "^$BASE_URL/[0-9]{4}/" \
         | sort -u
     )
 

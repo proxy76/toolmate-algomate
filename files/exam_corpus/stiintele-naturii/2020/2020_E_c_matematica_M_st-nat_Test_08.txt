@@ -1,0 +1,101 @@
+                                            Ministerul Educaiei i Cercetrii
+                                       Centrul Naional de Evaluare i Examinare
+
+                               Examenul de bacalaureat naional 2020
+                                                 Proba E. c)
+
+                                                    Matematic M_t-nat                                              Test 8
+                                                                                                        (30 de puncte)
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p  1.  Artai  c  log2  63    log2  7      1    3     2.
+                                         log2
+
+5p 2. Determinai mulimea valorilor reale ale lui m pentru care ecuaia x2  mx  m  0 nu are soluii
+      reale.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x2 20  1 .
+                                                                             81
+
+5p 4. Calculai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr, acesta
+
+    s verifice inegalitatea n!  nn 1 .
+
+5p 5. În reperul cartezian xOy se consider punctele A4,0 , B 0,4 i O 0,0 . Determinai
+
+    coordonatele punctului C , tiind c AB OC .
+
+5p 6. Determinai numrul real a , a 1, tiind c a 1 , 2a i 2a 1 sunt lungimile laturilor unui
+      triunghi dreptunghic.
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+                                            1 0 ln a 
+
+    1. Se consider matricea   Aa             0     a      0     ,  unde  a 0, .
+                                             0     0      1   
+
+5p a) Artai c det  Ae  e .
+
+   5p b) Demonstrai c det A a2  det  Aa  Aa , pentru orice a 0, .
+
+5p c) Determinai numerele a, b0, pentru care Aa  Ab  2Aa Ab .                                           asociativ
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie
+
+     x y  3xy  3 2  x  y  6  2 .
+
+5p a) Artai c 2 1  2 .
+
+   5p b) Demonstrai c x y  3 x  2 y  2  2 , pentru orice numere reale x i y .
+
+5p c) Calculai 4 5 6                     2020 .
+                       123               2017
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+                                                           2x  3x  4, x  ,1
+                                                           
+    1. Se consider funcia f :                ,  f  x          x2   x   1,                            .
+                                                                   x2
+                                                                                        x 1,
+
+5p a) Artai c funcia f este continu pe .
+
+5p b) Demonstrai c funcia f este cresctoare pe ,1 .
+
+5p c) Demonstrai c f  x  1, pentru orice numr real x .
+
+    2. Se consider funcia f : 1,                      ,    f  x        2x  4            3  .
+                                                                     x2  4x 
+
+                  1
+
+5p a) Artai c   x 1 x  3 f  xdx  5 .
+
+                  0
+
+Prob scris la matematic M_t-nat                                                                         Test 8
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+     Ministerul Educaiei i Cercetrii
+Centrul Naional de Evaluare i Examinare
+
+                             2             a funciei f este concav.
+
+5p b) Calculai  f  xdx .
+
+                             0
+
+5p c) Demonstrai c orice primitiv F : 1, 
+
+Prob scris la matematic M_t-nat                                                         Test 8
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

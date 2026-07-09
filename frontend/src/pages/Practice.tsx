@@ -6,14 +6,7 @@ import { useAuth } from "../auth";
 import { ProblemCard, type SolutionView } from "../components/ProblemCard";
 import { SolutionPanel } from "../components/SolutionPanel";
 import type { Exercise, Profile, TopicsResponse } from "../types";
-
-// Bare profile codes for now. Correct mapping (labels TBD): M1 = mate-info,
-// M2 = tehnologic, M3 = pedagogic.
-const PROFILES: { code: Profile; label: string }[] = [
-  { code: "M1", label: "M1" },
-  { code: "M2", label: "M2" },
-  { code: "M3", label: "M3" },
-];
+import { PROFILES } from "../types";
 
 const DIFFICULTIES = [
   { value: 1, label: "Ușor" },
@@ -32,7 +25,7 @@ export function Practice() {
   const { user } = useAuth();
   const [topicsData, setTopicsData] = useState<TopicsResponse | null>(null);
 
-  const [profile, setProfile] = useState<Profile>("M1");
+  const [profile, setProfile] = useState<Profile>("mate-info");
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [difficulty, setDifficulty] = useState(2);
   const [count, setCount] = useState(10);

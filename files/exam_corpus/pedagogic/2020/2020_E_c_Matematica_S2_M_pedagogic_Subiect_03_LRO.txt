@@ -1,0 +1,69 @@
+                                        Ministerul Educaiei i Cercetrii
+                              Centrul Naional de Politici i Evaluare în Educaie
+
+                                       Examenul de bacalaureat naional 2020                   Varianta 3
+                                                         Proba E. c)                        (30 de puncte)
+
+                                                Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p  1. Artai c        6-      1      =  2  .
+                96    4       6    
+
+5p 2. Se consider funciile f :    , f ( x) = 3x +1 i g :    , g ( x) = x -1 . Determinai
+    numrul natural n pentru care f (n)  g (n) = 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 32x+5 = 36x-3 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+    acesta s aib cifra zecilor egal cu dublul cifrei unitilor.
+
+5p 5. În reperul cartezian xOy se consider punctele necoliniare A(1,3) , B (3,5) i C (0, a) , unde a
+
+    este numr real. Determinai numrul real a , tiind c triunghiul ABC este dreptunghic în A .
+
+5p 6. Artai c 3  sin 60° + sin 30° - 4sin2 30° = 1.
+
+SUBIECTUL al II-lea                                                                         (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = -xy + 4x + 4 y -12 .
+5p 1. Artai c 2 3 = 2 .
+5p 2. Artai c legea de compoziie ,, " este comutativ.
+
+5p 3. Demonstrai c x y = -( x - 4)( y - 4) + 4 , pentru orice numere reale x i y .
+
+5p 4. Demonstrai c x 4 = 4 , pentru orice numr real x .
+5p 5. Determinai numerele reale x pentru care x x = x .
+
+5p 6. Se consider progresia aritmetic (an )n1 cu a1 = -5 i raia r = 3 . Artai c a1 a2 a3 a4 = 4 .
+
+SUBIECTUL al III-lea                                                                        (30 de puncte)
+
+                              =  1      2         1    0     B(x)                        1  x
+    Se consider matricele  A             ,    I2  =       i                            =      , unde x este numr real.
+                                   -1   1           0  1                               0
+                                                                                            1
+
+5p 1. Artai c det A = 3 .
+
+5p 2. Artai c B (1) + B(3) = 2B (2) .
+
+5p 3. Artai c det ( B ( x)) = 1, pentru orice numr real x .
+
+5p 4. Artai c B ( x)  B ( y) = B( x + y) , pentru orice numere reale x i y .
+
+5p 5. Determinai numrul real x pentru care A  B ( x) = B( x)  A .
+
+( ) ( ) ( ) 5p 6. Determinai perechile de numere naturale (m,n) , pentru care B 2m  B 2n = B 2m+n - 2 .
+
+Prob scris la matematic M_pedagogic                                                         Varianta 3
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                       Pagina 1 din 1
+

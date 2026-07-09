@@ -1,0 +1,85 @@
+                                                              Ministerul Educaiei Naionale                 Simulare
+                                                       Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2017
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+                                                         Clasa a XII-a
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                (30 de puncte)
+
+5p 1. Determinai numrul complex z , tiind c 2z + z = 6 + i , unde z este conjugatul lui z .
+
+5p 2. Se consider funcia f :    , f ( x) = 4x - 5 . Calculai f (1) + f (2) + f (3) +... + f (10) .
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 ( x + 3) = 1+ log2 ( x +1) .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+      acesta s aib cifrele egale.
+
+5p 5. În reperul cartezian xOy se consider punctele A(1,1) i B (5,5) . Determinai ecuaia dreptei care
+    trece prin punctul C (-2,6) i este perpendicular pe dreapta AB .
+
+5p 6. Se consider triunghiul ABC cu AB = 3 2 , m(ACB) = 30° i m(BAC ) = 45° . Determinai
+
+      lungimea laturii BC .
+
+SUBIECTUL al II-lea                                                                                        (30 de puncte)
+
+    1. Se consider matricea       A(     x)  =     1  1  1     ,  unde  x               este  numr  real.
+                                                   2  3  x   
+                                                         x2  
+                                                   4  9
+
+5p a) Calculai A(1) - A(0) .
+
+5p b) Artai c det ( A( x)) = ( x - 2)( x - 3) , pentru orice numr real x .
+
+5p c) Determinai numrul real a pentru care det ( A(a))  det ( A( x)) , pentru orice numr real x .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = 4xy - 4x - 4y + 5 .
+
+5p a) Artai c x y = 4( x -1)( y -1) +1 , pentru orice numere reale x i y .
+
+5p b) Artai c N = 2016 2017 este ptratul unui numr natural.
+5p c) Determinai numerele naturale a i b pentru care a b = 13 .
+
+SUBIECTUL al III-lea                                                                                       (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = x2 ln x .
+
+5p a) Artai c f ( x) = x(2ln x +1) , x (0, +) .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 1 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c 1 + 2e f ( x)  0 , pentru orice numr real x , x (0, +) .
+
+    2. Se consider funcia f :    , f ( x) = ( x -1)ex .
+
+5p  a)  Artai  c  1  f  ( x) e-x  dx  =  -1     .
+                                             2
+                  
+
+                  0
+
+5p b) Determinai numrul real a , tiind c funcia F :    , F ( x) = ( x + a)ex este o primitiv a
+
+    funciei f .
+
+5p  c) Artai c    1                      1      .
+
+                   x3 f ( x)dx  -        20
+
+                  0
+
+Prob scris la matematic M_t-nat                                                                            Simulare pentru clasa a XII-a
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

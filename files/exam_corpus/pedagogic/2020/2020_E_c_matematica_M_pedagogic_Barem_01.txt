@@ -1,0 +1,139 @@
+                                                Ministerul Educaiei i Cercetrii
+                                           Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                            Test 1
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                             (30 de puncte)
+
+  1.
+       2        1             1  1      2       2 1 2 1                                     3p
+                2 1           2     
+
+     22 2 4                                                                                 2p
+
+2. f 1  1 m                                                                                 2p
+
+    1  m  0  m  1 i, cum m este numr natural, obinem m  0 sau m  1                          3p
+
+3. lg x2  lg 2x  8  x2  2x  8  0                                                            3p
+
+    x  2 , care nu convine sau x  4 , care convine                                          2p
+
+4. x  10  x  540 , unde x este preul obiectului înainte de ieftinire                        3p
+          100
+
+    x  600 de lei                                                                           2p
+
+5. Panta unei drepte perpendiculare pe dreapta d este egal cu 1                             2p
+
+    Ecuaia dreptei care trece prin M i este perpendicular pe dreapta d este y  2   x  2 ,
+
+                                                                                                                         3p
+    deci y  x
+
+6. AB  2                                                                                    3p
+
+    PABCD  4  AB  8                                                                         2p
+
+SUBIECTUL al II-lea                                                                     (30 de puncte)
+
+1. 2  2  2  2  2  4  2  2  7                                                                3p
+
+     8  4  0  7  1                                                                          2p
+
+2. x  y  2xy  4 x  y  7  2yx  4 y  x  7                                                     3p
+
+     y  x , pentru orice numere reale x i y , deci legea de compoziie ,,  " este comutativ  2p
+
+3. x  y  2xy  4x  4 y  8 1                                                                  2p
+
+     2x y  2  4 y  2 1  2 x  2 y  2 1, pentru orice numere reale x i y                      3p
+
+4. 2 x 1 2 x  2 1  3  x2  3x  0                                                             3p
+
+    x  0 sau x  3                                                                           2p
+
+   5. 2 22x  2 2x  2 1  1  22x  2  0 sau 2x  2  0                                           3p
+
+    x  1 sau x  1                                                                           2p
+          2
+
+6.  2  x      2      1    2   1     1     2  x    2    1 2x    0                            2p
+                     x                                    x
+
+    x       0,  1       2,                                                                  3p
+                2  
+
+Prob scris la matematic M_pedagogic                                                         Test 1
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                                          Ministerul Educaiei i Cercetrii
+                                                     Centrul Naional de Evaluare i Examinare
+
+SUBIECTUL al III-lea                                                                                                                  (30 de puncte)
+
+1.  det  Aa  2                 a
+                                  220a 
+                          02                                                                                                               3p
+
+     4  0  4 , pentru orice numr real a                                                                                                    2p
+
+2.  A0       A     2020             2    0        2       2020        2      1     0        2     2020     
+                                    0    2        0         2                0     1        0
+                                                                                                    2                                      3p
+                                                                                                         
+
+      2   2      2020          2A      2020                                                                                                2p
+          0        2      
+                          
+
+3.  A    a       Aa            2       a          2    a         4      0    
+                               0       2          0    2         0      4 
+                                                                                                                                           3p
+
+      4   1      0        4I2 ,  pentru       orice       numr     real    a                                                               2p
+          0      1   
+                     
+
+4.  Am         A     n        4     2    n      m      ,  A2            2     2    i    4         2n     m       2  2  2      n    m    2
+                              0           4                             0                                           0  2  
+                                                                              2           0           4                                    3p
+                                                                                        
+
+    Cum m i n sunt numere naturale nenule, obinem m  1 i n  1                                                                              2p
+
+5.  2     a2           2  2      a         2      3           0    0          a2
+     0    2               0      2         0                  0    0  
+                                                  2                                   2a       3    0                                      3p
+                                                       
+
+    a  1 sau a  3                                                                                                                          2p
+
+6.  2     3            x            2y                 2x 3y                 2y                y    2x
+                                                                         
+      0   2            y         2x      y                2y               2x      y                                                       3p
+                                                                                      
+
+    Exist o infinitate de perechi de numere reale  x, 2x care verific relaia dat                                                           2p
+
+Prob scris la matematic M_pedagogic                                                                                                        Test 1
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

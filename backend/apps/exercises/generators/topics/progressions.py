@@ -60,7 +60,7 @@ def _term_from_two_arith(rng):
     (i1, i2), va = sorted(show), None
     v1, v2, vk = term(i1), term(i2), term(ask)
     return make("progressions",
-                rf"Determinați termenul $a_{{{ask}}}$ al progresiei aritmetice $(a_n)_{{n\ge 1}}$, "
+                rf"Determinați termenul $a_{{{ask}}}$ al progresiei aritmetice $(a_n)_{{n\geq 1}}$, "
                 rf"cu ${_sub('a', i1)} = {v1}$ și ${_sub('a', i2)} = {v2}$.",
                 rf"$a_{{{ask}}} = {vk}$",
                 hint_latex=rf"Din ${_sub('a', i1)}$ și ${_sub('a', i2)}$ aflați rația "
@@ -78,7 +78,7 @@ def _term_from_two_geom(rng):
     term = lambda t: b1 * q ** (t - 1)
     vi, vj, vk = term(i), term(j), term(ask)
     return make("progressions",
-                rf"Determinați termenul $b_{{{ask}}}$ al progresiei geometrice $(b_n)_{{n\ge 1}}$, "
+                rf"Determinați termenul $b_{{{ask}}}$ al progresiei geometrice $(b_n)_{{n\geq 1}}$, "
                 rf"cu ${_sub('b', i)} = {vi}$ și ${_sub('b', j)} = {vj}$.",
                 rf"$b_{{{ask}}} = {vk}$",
                 hint_latex=rf"Din ${_sub('b', i)}$ și ${_sub('b', j)}$ aflați rația "
@@ -139,7 +139,7 @@ _TIERS = {
 
 class ProgressionsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "progressions"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
         return _TIERS

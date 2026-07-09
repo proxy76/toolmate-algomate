@@ -1,0 +1,175 @@
+                                                                    Ministerul Educaiei
+                                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2025
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                            Model
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                     (30 de puncte)
+
+1. i  z1  z2  4i  i2  2  4i                                                                                                     3p
+
+       1  2  1                                                                                                                  2p
+
+2. f a  5 , de unde obinem a2  3a  0                                                                                            3p
+
+      a  0 sau a  3                                                                                                             2p
+  3. log6 7x  5  log6 x2  x , deci 7x  5  x2  x , de unde obinem x2  6x  5  0
+                                                                                                                                3p
+
+      x  1 , care nu convine, sau x  5 , care convine                                                                           2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri posibile 2p
+
+      În mulimea numerelor naturale de dou cifre, numerele 27 , 45 , 63 , 81 i 99 sunt multiplii
+
+      impari de 9 , deci sunt 5 cazuri favorabile, de unde obinem p  5  1                                                       3p
+
+                                                                                                        90 18
+
+5. mOB  2                                                                                                                       2p
+
+      mAC     a        i, cum       mOB    mAC , obinem              a6                                                         3p
+                3
+
+6. sin B  3                                                                                                                     3p
+                   5
+
+      AABC             AB      BC    sin  B    1   6 10      3   18                                                             2p
+                                 2             2             5
+
+SUBIECTUL al II-lea                                                                                                             (30 de puncte)
+
+1.a)                0 01
+
+      det A  1 0 0  0  0  0  1  1 1  0  0  0 1 0  0  0  1  0  0  1  0                                                           3p
+
+                    0 1 0
+
+       01 0000 1                                                                                                                2p
+
+b)                      x 0 1                                          x 0 0
+                                                                                         
+      B    x     A         1     x        0    ,  A    B    x     A       0     x     0                                         3p
+                           0     1        x                               0     0     x
+
+            1 0 0
+                             
+         x    0     1     0      xI3 ,    pentru  orice numr         real    x                                                  2p
+              0     0     1
+
+c)                0 1 0                                               0 1 x 
+                               01 ,                                                      01 , pentru orice numr real x
+      A1           0      0             Cx          A1  B  x           x        0                                               3p
+                   1      0                                            1        x
+
+                               0             0 x  y
+                                                                
+      C    x       C    y        x     y       0          0            y     x     A  ,  pentru  orice  numere  reale  x  i  y  2p
+                                    0        x y          0
+
+Prob scris la matematic M_mate-info                                                                                             Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) 1 3  12  3  1 32  1  3                                                                                                           3p
+
+       3  9  4  16                                                                                                                    2p
+
+b) x  2  3x2  6 , pentru orice numr real nenul x                                                                                      3p
+            xx
+
+      3x2  6  9x , de unde obinem x  1 sau x  1 , care convin                                                                         2p
+            x
+c) m  n  m  nmn 1 , pentru orice numere întregi m i n
+                                                                                                                                      2p
+
+      m  nmn 1  1 i, cum m i n sunt numere întregi, cu m  n , obinem perechile 0,1                                                    3p
+
+      i 2,1
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+1.a)                 1  x3  3x2 ln x
+
+      f 'x  x x6                                                                                                                      3p
+
+       x2  3x2 ln x  1  3ln x , x 0,                                                                                                  2p
+                  x6                     x4
+
+b)                                                       1
+
+       lim     f  x            lim     ln x      lim      x   0                                                                       3p
+                                       x3                3x2
+      x                       x                 x
+
+      Dreapta de ecuaie y  0 este asimptota orizontal spre  la graficul funciei f                                                     2p
+
+ c) f ' x  0  x  3 e ; pentru orice x  0, 3 e  , f ' x  0 , deci f este cresctoare pe                                                 2p
+         0, 3 e  i, pentru orice x  3 e,  , f ' x  0 , deci f este descresctoare pe 3 e, 
+
+        lim f  x   , f 3 e  1 i f este continu, deci mulimea numerelor reale m pentru
+      x0                                          3e
+                                                                                                                                      3p
+                            f x  m                                                         1   
+      care ecuaia                            are cel puin o soluie este        ,           3e  
+
+      2.a)4                           4                      x3        4
+      1     f x ex                       x2  1      dx       3     x                                                                  3p
+                              dx 
+                                                                       1
+                                      1
+
+         64       4        1   1         18                                                                                           2p
+         3                 3
+
+       b)
+      2        ex    x2    dx      2   ex       dx    2  ex 1 '            ex 1         2                                             3p
+      1                            1  ex 1            1  ex 1 dx  ln                      
+         f     x 
+                                                                                        1
+
+         ln e2 1  ln e 1  ln e 1                                                                                                      2p
+
+c)    1        x                1        x                       ex  x2  ex ,                           x 0,1 ,
+                                         
+         f     x  1 dx             ex       x2  dx  i,   cum                            pentru   orice                obinem  relaia
+
+      0                         0                                                                                                     3p
+
+      1  f     x     1  dx      1
+
+               x                 xexdx
+
+      0                         0
+
+           1            1                                                               1
+         xexdx  x               e x      'dx  ex  x  1 1  1 2 , deci                    0       x                  2
+                                                                                           f         1  dx    1    e                  2p
+                                                              0e                                x
+      0                 0
+
+Prob scris la matematic M_mate-info                                                                                                   Model
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,162 @@
+                                                     Ministerul Educaiei
+                                   Centrul Naional de Politici i Evaluare în Educaie
+
+                                   Examenul naional de bacalaureat 2021
+                                                     Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                         Testul 7
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                    (30 de puncte)
+
+1. a3 = a1 + 2r  r = 3                                                                                                         2p
+
+      a2021 = a1 + 2020r = 6062                                                                                                3p
+
+2. f ( x) = y  2x - 3 = -x + 3                                                                                                 3p
+
+      Coordonatele punctului de intersecie sunt x = 2 i y = 1                                                                  2p
+
+3.      x+2  = 33      x+2
+
+      32                       =3                                                                                              3p
+
+                       2
+
+      x=4                                                                                                                      2p
+
+4. Mulimea A are 10 elemente, deci sunt 10 cazuri posibile                                                                     2p
+
+      Numerele din mulimea A care sunt divizori ai numrului 48 sunt: 1, 2 , 3 , 4 , 6 i 8 , deci                               2p
+      sunt 6 cazuri favorabile
+
+      p = nr. cazuri favorabile = 6 = 3                                                                                        1p
+            nr. cazuri posibile 10 5
+
+5. u  v = 2(m - 4) + 2m = 4m - 8 , unde m este numr real                                                                       3p
+
+      4m - 8 = 0  m = 2                                                                                                        2p
+
+6. BC2 = AB2 + AC2 - 2  AB  AC  cos A = 36 + 9 + 2  6  3  1 = 63 , deci BC = 3 7                                               3p
+                                                                                             2
+      ( ) PABC = AB + BC + CA = 3 7 + 9 = 3 7 + 3
+                                                                                                                               2p
+
+SUBIECTUL al II-lea                                                                                                            (30 de puncte)
+
+1.a)               -2 1 1                            -2 1 1
+                               -11  det ( A(-1)) =
+      A ( -1)  =    1  -2                            1     -2 1 =                                                              2p
+                    1  -1                            1     -1 -1
+
+      = -4 +1+ (-1) - (-2) - (-1) - 2 = -3                                                                                     3p
+
+b)                     2a 1 1
+
+      det ( A(a)) = 1 2a 1 = -6a2 - a + 2 , pentru orice numr real a                                                           2p
+
+                       1 a -1
+
+      Sistemul    de   ecuaii  admite  soluie  unic    det (  A(a))                       0     a      \  -  2  ,  12          3p
+                                                                                                             3
+
+c) Cum a este numr întreg, obinem c det ( A(a))  0 , deci (1, y0, z0 ) este unica soluie a 2p
+      sistemului de ecuaii
+
+      1=       3a          3a2     + 2a -1 = 0  i, cum  a     este numr întreg , obinem                                a = -1  3p
+          -6a2 - a + 2
+
+2.a) x 0 = x + 5  x  0 + 0 = x , pentru orice numr real x                                                                      2p
+
+      0 x = 0 + 5  0  x + x = x , pentru orice numr real x , deci e = 0 este elementul neutru al legii                         3p
+
+      de compoziie ,, "
+
+Prob scris la matematic M_t-nat                                                                                                Testul 7
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                     Ministerul Educaiei
+                                                   Centrul Naional de Politici i Evaluare în Educaie
+
+b)  x     y  =  5xy     +  x     +  y  +  1  -     1  =  5x    y   +  1    +      y  +   1    -  1   =
+                                          5        5                  5                  5       5
+                                                                                                                                                                3p
+
+    =     y  +  1    (5x      +  1)    -  1  =  5     x  +  1      y  +    1    -  1  ,  pentru      orice  numere        reale    x  i   y                     2p
+                5                         5                 5              5       5
+
+c)  x        -  1    =  -  1     i        -  1        y = - 1 , pentru orice numere reale x i y                                                                 2p
+                5          5                 5              5
+
+    q  =     -  1        - 13          - 14            - 15       -   1    ...    - 20121 = -51                  -  1     ...     -  20121    =  -  1  ,  deci  3p
+                2                                                     6                                             6                               5
+
+    [q] = -1
+
+SUBIECTUL al III-lea                                                                                                                                (30 de puncte)
+
+1.a) f '( x) = ( x +1)' ln x + ( x +1)  (ln x)' =                                                                                                               2p
+
+    = 1 ln x + ( x +1)  1 = 1 + 1 + ln x , x (0, +)                                                                                                             3p
+                                     xx
+b) f '(1) = 2 , f (1) = 0
+                                                                                                                                                                2p
+
+    Ecuaia tangentei este y - f (1) = f '(1)( x -1) , adic y = 2x - 2                                                                                           3p
+
+c)  f  ''( x) =    x -1       ,  x (0, +)                                                                                                                       2p
+                    x2
+
+    f ''( x)  0 , pentru orice x [1, +)  f este convex pe [1, +)                                                                                                3p
+
+2.a) g ( x) = x3 +1, x   , deci G :    , G ( x) = x4 + x + c , unde c                                                                                           3p
+                                                                                              4
+
+    Cum G (0) = 2021 , obinem c = 2021 , deci G :    , G ( x) = x4 + x + 2021                                                                                   2p
+                                                                                                                       4
+
+( )    b)1              1                          1                                                                            1
+    0  f  ( x) dx    =  0  x +1              =     0     x        +     1                =    1  ln     x2 +1    +  arctg  x    0  =                            3p
+                           x2 + 1 dx                   x2 +1          x2 + 1  dx              2
+
+    = 1 ln 2 +                                                                                                                                                  2p
+       2             4
+
+c)    1            xn +1            x2    +1                               x [0,1]                                                            n2,
+    x2 +1          x2 +1            x2    +1
+                                                ,  pentru      orice                        i    pentru  orice      numr       natural    n,              deci
+
+    1    1                 1                  1                                                                                                                 3p
+                           0
+       x2 +     1  dx         f  ( x) dx  1dx ,              pentru        orice numr            natural    n,   n2
+
+    0                                         0
+
+    1    1      1  dx  =   arctg       x  1  =         i    1        =x    1  =1                 1   f  ( x) dx  1,    pentru      orice  numr         natural  2p
+       x2 +                               0     4                          0             4
+    0                                                       1dx                                  
+
+                                                            0                                    0
+
+    n, n2
+
+Prob scris la matematic M_t-nat                                                                                                                                 Testul 7
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

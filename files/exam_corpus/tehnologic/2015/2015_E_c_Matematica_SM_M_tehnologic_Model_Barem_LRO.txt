@@ -1,0 +1,159 @@
+                                                           Ministerul Educaiei Naionale
+                                                    Centrul Naional de Evaluare i Examinare
+
+                                               Examenul de bacalaureat naional 2015
+                                                                 Proba E. c)
+
+                                                       Matematic M_tehnologic
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                            Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul
+tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                           (30 de puncte)
+
+1.    ma = 10 - 2           5+2       5=                                                              3p
+                            2
+
+      = 10 = 5                                                                                        2p
+           2
+
+2. f ( x) = 0  x2 - 4x + 3 = 0                                                                        3p
+
+      x1 = 1 i x2 = 3                                                                                 2p
+
+3.    log5    2x -1      =  0     2x -1     =1                                                        3p
+                3                   3
+
+      x = 2 care verific ecuaia                                                                       2p
+
+4. Sunt 4 numere de o cifr multipli ai lui 3, deci sunt 4 cazuri favorabile                           2p
+
+      Sunt 10 numere de o cifr, deci sunt 10 cazuri posibile                                          1p
+
+      p = nr. cazuri favorabile = 4 = 2                                                               2p
+            nr. cazuri posibile 10 5
+
+5.    M     mijlocul segmentului               AB  xM            = 2+6 =4                             3p
+                                                                     2
+
+      yM = 4                                                                                          2p
+
+6. cos a = 4 , cosb = 5                                                                               2p
+                 5                13
+
+      sin (a + b) = 3  5 + 12  4 = 63                                                                 3p
+                            5 13 13 5 65
+
+SUBIECTUL al II-lea                                                                                   (30 de puncte)
+
+1.a)  det A = 2          -2    =  -2  +  2  =
+               1         -1
+                                                                                                      3p
+
+      =0                                                                                              2p
+
+b)            =     2    -2 
+                    1    -1
+      A    A                                                                                          3p
+
+      p =1                                                                                            2p
+
+c)       +       =       2     b - 2           det  (     +  B)  =  -b2  +                            2p
+                         +      -1 
+      A       B       b     1                          A                    b
+
+      det ( A +     B)   =  0     b   =  0  sau     b  =1        B  =  0    0   sau    B  =    0  1   3p
+                                                                        0   0                  1  0 
+
+2.a) 1 2015 = -1 2015 +1 + 2015 =                                                                     3p
+
+      =1                                                                                              2p
+
+Prob scris la matematic M_tehnologic                                                                  Model
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                       Pagina 1 din 2
+                                                          Ministerul Educaiei Naionale                   3p
+                                                  Centrul Naional de Evaluare i Examinare                2p
+                                                                                                         2p
+b) x y = -x( y -1) + ( y -1) +1 =                                                                        3p
+    = -( x -1)( y -1) +1, pentru orice numere reale x i y                                  (30 de puncte)
+                                                                                                         2p
+c) (3x -1)(5x -1) = 0                                                                                    3p
+
+      x=0                                                                                                2p
+
+SUBIECTUL al III-lea                                                                                     3p
+                                                                                                         2p
+1.a)  lim  f  (  x)  =  lim   3x      =                                                                  1p
+                             x2 +1                                                                       1p
+      x1                x1                                                                               1p
+                                                                                                         3p
+      = 31 = 3
+         12 + 1 2                                                                                        2p
+                 ( ) 3 x2 +1 - 3x  2x
+b)                                                                                                       3p
+                                                                                                         2p
+      f '(x) =           ( ) x2 +1 2      =                                                              3p
+
+         3 - 3x2            - 3( x -1)( x +1)                                                            2p
+         x2 +1 2
+                                  x2 +1 2
+      ( ) ( ) =          =                     ,  x
+
+c) f ( x) = 0  x1 = -1 i x2 = 1
+    f '( x)  0 pentru orice x (-, -1]  f este descresctoare pe (-,-1]
+    f '( x)  0 pentru orice x [-1,1]  f este cresctoare pe [-1,1]
+    f '( x)  0 pentru orice x [1, +)  f este descresctoare pe [1, +)
+
+ 2.a) 1              x6  1   =
+                     6   -1
+        x5dx =
+
+      -1
+
+      = 1 -1 =0
+        66
+
+  b)
+      1              xex    1 - 1 exdx =
+                            00
+       xexdx =
+
+      0
+
+      = e-0-e+1=1
+      ( )  g (x) =
+c)               x5 + x      -x                     2      x5  2=
+                     x3
+                                 =    x2  V    =  x4dx  =  51
+
+                                                  1
+
+      = 31
+         5
+
+Prob scris la matematic M_tehnologic                                                       Model
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                        Pagina 2 din 2
+

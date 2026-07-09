@@ -1,0 +1,168 @@
+                                                         Ministerul Educaiei i Cercetrii
+                                               Centrul Naional de Politici i Evaluare în Educaie
+
+                                                    Examenul de bacalaureat naional 2020
+                                                                      Proba E. c)
+
+                                                               Matematic M_tehnologic
+
+                                                BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                                             Test 14
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                                (30 de puncte)
+
+1.      2     1       1      15        3  8       30  5        3    15         2                                                             3p
+              3       5      16                       15            16
+
+         32      15      2       2     2     0                                                                                               2p
+         15      16
+
+2. f 4  0  4  a  0                                                                                                                           3p
+
+      a4                                                                                                                                     2p
+
+3. 2x  1  25  2x  24                                                                                                                         3p
+
+      x  12 , care convine                                                                                                                   2p
+
+4. Mulimea A are 9 elemente, deci sunt 9 cazuri posibile                                                                                     2p
+
+      Numerele din mulimea A care sunt multipli de 6 sunt 30 , 60 i 90 , deci sunt 3 cazuri                                                  2p
+      favorabile
+
+      p  nr. cazuri favorabile  3  1                                                                                                         1p
+            nr. cazuri posibile 9 3
+
+5. M 5,5                                                                                                                                     3p
+
+      OM  52  52  5 2                                                                                                                        2p
+
+6.    sin2               cos2                    5     2   144                                                      sin x  12
+                                                 13         169                                 2                           13
+              x    1                x     1                           i, cum          x     0,       ,  obinem                               3p
+
+      tg x  sin x  12  13  12                                                                                                                2p
+                 cos x 13 5 5
+
+SUBIECTUL al II-lea                                                                                                                        (30 de puncte)
+
+1.a)            1            1  1 0 1 1 
+      det A 
+                   1 0                                                                                                                       3p
+
+       011                                                                                                                                   2p
+
+b)    B    B      1 1
+
+                      1       0                                                                                                              3p
+                                   
+
+                          1 1  1 1  0 0
+      B    B       A                                                                 O2                                                      2p
+                             1         0         1    0            0     0  
+
+c)    A    B       1       0    ,   B     A     1     0     ,  A      B           1   0         A  B      B    A      A    B        1  0
+                   0       1                          1                           0   1                                             0  1 
+                                                  0                                                                                          2p
+                                                
+
+      1       0          log2      x        0             log2        x     1  ,  de  unde   obinem          x2       i  y  3 , care convin  3p
+              1            0              log3            log3        y     1
+        0                                        y  
+      
+
+2.a) 2020 5  2020  5 1                                                                                                                       3p
+                                       5
+
+Prob scris la matematic M_tehnologic                                                                                                         Test 14
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                            Pagina 1 din 2
+                                                   Ministerul Educaiei i Cercetrii
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+     2020  1  1  2022                                                                                                  2p
+
+b)  x  x    x    x  1           6x    1,     xxx              6x   1  x           6x   1       x  1     7x    2        2p
+                 5              5                             5                   5            5        5
+
+    7x  2  24  7x 10  24 , de unde obinem x  2                                                                         3p
+    5          5
+
+c) 5x  5x1 111 5x  5x 10  25x 10                                                                                       3p
+          5
+
+    5x  5 , de unde obinem x  1                                                                                        2p
+
+SUBIECTUL al III-lea                                                                                                   (30 de puncte)
+
+1.a) f ' x  3x2  3                                                                                                     3p
+
+       3 1 x2  31 x1 x , x                                                                                             2p
+
+b)  lim   f x7       lim              f x f 2                                                                          3p
+
+    x2 x  2 x2 x  2
+
+     f '2  9                                                                                                           2p
+
+c) f ' x  0  x  1 sau x  1                                                                                             2p
+
+    x 1,1  f ' x  0 , deci f este cresctoare pe 1,1 , x 1,   f ' x  0 , deci f
+
+    este descresctoare pe 1,  i, cum f 1  11, obinem f  x  11, pentru orice 3p
+
+    x 1, 
+
+       2.a)
+    1          x2 1             dx    1    x        x2 1     dx  1 xdx  x2           1                                 3p
+                                      1  x2                                    2        
+      f x                                      1                  1
+                                                                                     1
+    1
+
+    11 0                                                                                                               2p
+       22
+
+       b)1                                                              1
+    0  x2 1                        1       x2  1    ex      x     dx    0  xexdx       x    1 e x  1                   3p
+                                                          x2 1                                     0
+               ex f  x dx 
+
+                                   0
+
+     0  1e0  1                                                                                                         2p
+
+    c)
+    a            f    x   dx            a      x         x   1    dx    a   2  x  1  dx    ln     x2 1  a        a2 1  2p
+                                             x2 1       x2                 x2                              ln
+     f x                                                                
+                                                                                                        0
+    0                                   0                               0
+
+      ln a2 1  ln 2a  a2 1  2a , de unde obinem a2  2a  1  0 , deci a  1 , care convine 3p
+
+Prob scris la matematic M_tehnologic                                                                                   Test 14
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                Pagina 2 din 2
+

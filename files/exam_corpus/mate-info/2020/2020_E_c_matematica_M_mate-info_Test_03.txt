@@ -1,0 +1,106 @@
+                                                   Ministerul Educaiei i Cercetrii
+                                             Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020
+
+                                                                 Proba E. c)
+
+                                                 Matematic M_mate-info                                                 Test 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                            (30 de puncte)
+
+5p 1. Se consider numrul complex z  1  i . Artai c 2z  z2  2 .
+
+5p 2. Se consider funcia f :  , f  x  x2  mx  2m , unde m este numr real. Determinai
+     mulimea valorilor reale ale lui m , tiind c f  x  0 pentru orice numr real x .
+
+5p  3. Rezolvai în mulimea numerelor reale ecuaia log5 x 1  log5  x 1  2 .
+
+5p 4. Determinai numrul de elemente ale unei mulimi, tiind c aceasta are exact 32 de submulimi.
+
+5p 5. În reperul cartezian xOy se consider punctele A0,1 B 2,5 i C 6,1 . Determinai
+
+    coordonatele punctului D , tiind c AB  AC  AD .
+
+      5p 6. Determinai x  0,  pentru care sin   x  cos   x  sin x  cos x .22            2
+
+SUBIECTUL al II-lea                                                                                                    (30 de puncte)
+
+                                              1 0 0                             a 0 2a
+                                                                                                      
+    1.  Se  consider  matricele      I3         0     1     0    i     Aa               0  2       0      ,  unde  a   este numr real.
+
+                                               0 0 1                            2  a 0             a 
+
+5p a) Artai c det  A2  8 .
+
+5p b) Demonstrai c Aa Ab  2Aab  a  b  2 , pentru orice numere reale a i b .
+5p c) Determinai perechile de numere întregi p i q pentru care A p Aq  4I3 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y   3 xy  x  y .
+                                                                                                           5
+
+5p  a) Artai c   x       y      3    x    5        y     5       5  ,  pentru  orice       numere  reale     x  i  y.
+                                5         3              3       3
+
+5p b) Artai c 5x  5  5 , pentru orice x 0,  .
+
+                       3 3x 3
+
+5p c) Calculai 1  2  3   2020 .
+                 333                      3
+
+SUBIECTUL al III-lea                                                                                                   (30 de puncte)
+
+      1. Se consider funcia f :  , f  x  4x  ln x2 1 .
+
+                    2 2x2  x  2
+
+5p a) Artai c f ' x  x2 1 , x  .
+5p b) Calculai lim  f  x 1  f  x .
+
+                             x
+
+5p c) Demonstrai c funcia f este bijectiv.
+
+    2. Se consider funcia f : 5,5  , f  x  25  x2 .
+
+                 1                      74 .
+                                        3
+5p  a) Artai  c       f  2  xdx 
+
+                 0
+
+Prob scris la matematic M_mate-info                                                                                                     Test 3
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                  Ministerul Educaiei i Cercetrii
+                             Centrul Naional de Evaluare i Examinare
+
+    3
+
+5p b) Calculai  x f  x dx .
+
+    3
+
+                                                                                            1        1
+
+5p  c) Pentru fiecare  numr  natural nenul  n,  se consider numrul                      In           n       dx  .  Demonstrai  c  irul
+
+                                                                                               0  f     x  
+
+     In n1 este monoton.
+
+Prob scris la matematic M_mate-info                                                                                                Test 3
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

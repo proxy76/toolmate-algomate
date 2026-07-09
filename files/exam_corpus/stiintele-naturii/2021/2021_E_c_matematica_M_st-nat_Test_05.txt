@@ -1,0 +1,106 @@
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                 Examenul naional de bacalaureat 2021
+                                                   Proba E. c)
+
+                                                    Matematic M_t-nat                                  Testul 5
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                            (30 de puncte)
+
+5p  1.  Artai  c  (2  - lg 40)   lg2    1            =1.
+                                      5 - lg2
+                                               2
+
+5p 2. Determinai valorile reale ale lui m pentru care soluia ecuaiei 2x - m2 +1 = 0 este numr real
+
+    strict mai mic decât 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x2+x = 42x .
+
+5p 4. Calculai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr, acesta
+
+    s verifice inegalitatea (n + 1)!- n! n + 2 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(-6,6) i B (0, 2) . Determinai coordonatele
+
+    punctului C , tiind c AO = 2 BC .
+
+5p 6. Determinai numerele reale a , a > -2 , tiind c a2 +1 i a + 2 sunt lungimile ipotenuzei,
+
+    respectiv razei cercului circumscris unui triunghi dreptunghic.
+
+SUBIECTUL al II-lea                                                                                    (30 de puncte)
+
+                                               1     0         a  
+                                               1     0            
+    1. Se consider matricea      A(   a)  =                 1 ,       unde   a (0, +)      .
+
+                                               a     1      1     
+                                                                  
+
+5p a) Artai c det ( A(4)) = 1 .
+
+5p b) Demonstrai c det ( A(a)  A(1) - A(a +1)) > 0 , pentru orice a (0, +) .
+
+( ) ( ) ( ) ( ) 5p c) Artai c matricea B (n) = A 12 + A 22 + A 32 + ... + A n2 este inversabil, pentru orice numr
+
+    natural n , n  2 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x y = 3(xy + 4) - 3(x + y) .
+
+5p a) Artai c 3 2 = 3 .
+
+( )( ) 5p b) Demonstrai c x y = 3 x - 3 y - 3 + 3 , pentru orice numere reale x i y .
+
+                      11                  1
+
+5p c) Calculai 31 3 2 33 ... 3 2021 .
+
+SUBIECTUL al III-lea                                                                                   (30 de puncte)
+
+                                                     (  x)        x - arctg x,             x (-,0)
+                                                                                           x [0, +) .
+    1. Se consider funcia     f :,                f         =         5x                ,
+                                                                      +x
+                                                                  x2      +  4
+
+5p a) Artai c funcia f este continu pe  .
+
+5p b) Demonstrai c funcia f este cresctoare pe (-,0) .
+
+5p c) Demonstrai c f ( x)  1 , pentru orice numr real x .
+
+Prob scris la matematic M_t-nat                                                                        Testul 5
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+2. Se consider funcia           f : (0, +)   ,  f  (  x)  =   x +1                      .
+                                                             x2 + 2x
+
+                              5
+
+5p a) Artai c  x( x + 2) f ( x)dx = 16 .
+
+1
+
+                             3
+
+5p b) Calculai  f ( x)dx .
+
+1
+
+5p c) Demonstrai c orice primitiv F a funciei f este concav.
+
+Prob scris la matematic M_t-nat                                                            Testul 5
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

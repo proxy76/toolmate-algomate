@@ -1,0 +1,94 @@
+                                                           Ministerul Educaiei
+                                         Centrul Naional de Politici i Evaluare în Educaie
+
+                                         Examenul naional de bacalaureat 2021
+                                                           Proba E. c)
+
+                                                 Matematic M_tehnologic
+
+                                                                                                                      Varianta 2
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                 (30 de puncte)
+
+5p  1.  Artai  c                 3:1    =1.
+                  2  2 -         42   
+
+5p 2. Se consider funciile f :    , f ( x) = x + 2 i g :    , g ( x) = x - 4 . Artai c
+
+    f (1) + g (1) = 0 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 24-x = 4 .
+5p 4. Un produs cost 70 de lei. Determinai preul produsului dup o scumpire cu 30% .
+
+5p 5. În reperul cartezian xOy se consider punctele A(-3, 4) , B(-3,0) i C (0, 4) . Calculai perimetrul
+
+      triunghiului ABC .
+5p 6. Se consider triunghiul ABC , în care AC = 2 , BC = 4 i unghiul A are msura egal cu 30° .
+
+    Artai c sin B = 1 .
+                          4
+
+SUBIECTUL al II-lea                                                                         (30 de puncte)
+
+                                              3 -2              4 -3                1 0
+    1. Se consider matricele A =  2 1  , B =  3 1  i I2 =  0 1  .
+
+5p a) Artai c det A = 7 .
+
+5p b) Artai c 2B + I2 = 3A .
+
+5p c) Determinai matricea X  M2 () pentru care A  X - B  X = I2 - X .
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y = 3 - ( x - 3)( y - 3) .
+
+5p a) Artai c 1 3 = 3 .
+5p b) Artai c e = 2 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Determinai mulimea valorilor reale ale lui x pentru care x  ( x + 6)  3 .
+
+SUBIECTUL al III-lea                                                                        (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = 4 + ln x - 5 .
+
+                                                                x
+
+5p  a) Artai c    f  '(      x)  =  x-4  ,   x (0, +) .
+                                     x2
+
+5p b) Determinai intervalele de monotonie a funciei f .
+
+5p c) Artai c nu exist asimptot spre + la graficul funciei f .
+
+    2. Se consider funcia f :    , f ( x) = ex + 3x2 + 3 .
+
+                              2
+
+( ) 5p a) Artai c  f ( x) - ex - 3 dx = 7 .
+                  1
+
+                          1                  dx = 5 .
+
+    b) Artai c  x
+( ) 5p
+                                f (x) - 3x2  2
+
+                  0
+
+5p  c)  Determinai   a (0,1) , tiind c       a  f          1   f  '( x)  dx =  1
+                                                                                 .
+                                                       ( x) -
+                                                                               6
+                                             0
+
+Prob scris la matematic M_tehnologic                                                            Varianta 2
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                         Pagina 1 din 1
+

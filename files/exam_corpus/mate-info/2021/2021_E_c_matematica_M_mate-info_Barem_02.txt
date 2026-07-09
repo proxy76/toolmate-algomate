@@ -1,0 +1,188 @@
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2021
+
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                     BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                        Testul 2
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                         (30 de puncte)
+
+1. n = 1 +12i + 36i2 + 9 -12i + 4i2 =                                                                                          2p
+
+      = 1- 36 + 9 - 4 = -30 , care este numr întreg negativ                                                                    3p
+
+2. f (1) = f (5)  1 + a = 25 + 5a  a = -6                                                                                      2p
+
+      f ( x) = x2 - 6x , de unde obinem f (2) = -8 i f (4) = -8 , deci f (2) = f (4)                                           3p
+
+3. 2x2 - 2 = ( x + 1)2  x2 - 2x - 3 = 0                                                                                        2p
+
+      x = -1, care nu convine; x = 3 , care convine                                                                            3p
+
+4. Exist 900 de numere naturale de trei cifre, deci sunt 900 de cazuri posibile                                                2p
+
+      Dac cifra unitilor este c , 1  c  9 , atunci cifra sutelor poate fi aleas în c moduri, iar
+
+      pentru fiecare alegere a cifrei sutelor exist o singur alegere a cifrei zecilor; în total sunt 2p
+      9 + 8 +... +1 = 45 de cazuri favorabile
+
+      p = nr. cazuri favorabile = 45 = 1                                                                                       1p
+            nr. cazuri posibile 900 20
+
+5. OA = OB = 5                                                                                                                 2p
+
+      mAO     =4   i     mBO      = - 3  AO  BO              i, cum       AOBC         este paralelogram, obinem c  AOBC       3p
+                3                     4
+
+      este ptrat, deci triunghiul ACB este dreptunghic isoscel
+
+6. 2sin2 x = 1  sin x = - 2 sau sin x = 2                                                                                      2p
+                                       2                          2
+
+      Cum x (0, ) , obinem sin x = 2 , deci x =  sau x = 3                                                                     3p
+                                                     2                    4            4
+
+SUBIECTUL al II-lea                                                                                                 (30 de puncte)
+
+1.a)             2 3 4                                  234
+                                  
+      A(  2)  =    1     2     3       det (  A(2))  =  1      2     3=                                                        2p
+                   1     1     2                        1      1     2
+
+      = 8 + 4 + 9 -8 - 6 - 6 =1                                                                                                3p
+
+b)                        3a + 3 5a + 4 7a + 5
+                                                             
+      A(a)    A(1)    =        6         9         12          ,  pentru  orice  numr  real  a                                 2p
+                               +       4+a        6+a
+                            2     a
+
+                          a + 5 a + 8 4a + 8
+                                                        
+      A(1)  A(   a)   =     a  +  5  a+8      4a  +  8    ,  pentru  orice numr        real  a , deci  A(a) A(1) =  A(1) A(a)  3p
+                            a  +  2  a+4      2a  +  5
+
+      implic a = 1 , care convine
+
+Prob scris la matematic M_mate-info                                                                                            Testul 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+c)                           a a +1 a + 2
+
+      det ( A(a)) = 1 2 3 = (a -1)2 , pentru orice numr real a                                                                                   3p
+
+                             11 a
+
+             1        2  0 , matricea A(a) are rangul doi  a = 1                                                                                 2p
+      Cum
+             11
+
+2.a) 3 3 = 3  3 + 3 + 3 =                                                                                                                        2p
+
+      = 3 + 3 + 3 = 3                                                                                                                            3p
+
+b) x 0 = x  0 + x + 0 = x , pentru orice x  6                                                                                                    2p
+
+      0 x = 0  x + 0 + x = x , pentru orice x  6 , deci 0 este elementul neutru al legii de 3p
+      compoziie ,, "
+
+c) 4 4 = 0  4 este simetrizabil în raport cu legea de compoziie ,, " i simetricul lui este 4 2p
+
+      f ( x) = f ( y)  4 x = 4 y  x = y  f este injectiv, de unde obinem c Im f are 6                                                            3p
+
+      elemente, deci Im f = 6 , de unde obinem c f este bijectiv
+
+SUBIECTUL al III-lea                                                                                                                    (30 de puncte)
+
+1.a)  f  '( x)  =  -(x       2      +      2       =
+
+                             - 1)3     (x  + 1)3                                                                                                 3p
+
+       ( ) ( ) ( ) 2 ( x -1)3 - (x +1)3
+
+      =
+
+         ( ) ( x +1)3 ( x -1)3
+                                                   -4 3x2 + 1 -4 3x2 + 1                       , x (-1,1)  (1, + )
+                                             =                           =
+                                                ( x +1)3 ( x -1)3 x2 -1 3                                                                        2p
+
+b) Cum f (0) = 0 , graficul funciei f intersecteaz axa Oy în punctul O(0,0)                                                                      2p
+
+      f '(0) = 4 , deci ecuaia tangentei este y = 4x                                                                                             3p
+
+c)                                                                         1        1      1        1                   1            1     n
+                                                                           12       32     32       52                                     
+      lim (  f  (2) +        f  (4) +...+       f  (2n))n      =   lim          -       +      -           +... +   (2n -1)2  -  (2n +1)2     =  2p
+
+      n+                                                          n+
+
+                                                                                                       -n
+
+                                          n                             -1      -( 2n+1)2        (  2  n+1)2
+                1                                            1                                 
+      =   lim         -          1            =     lim         +     2n +1)2                                 = e0  =1                           3p
+                                 +                         
+         n+               (  2n     1)2            n+              (                           
+
+                                                                                               
+
+( ) ( ) 2.a)
+      2  x2 + 4                       2                           x2 - 2x    2                                                                   3p
+                                                                               =
+                      f ( x) dx =  (2x - 2) dx =
+                                                                             0
+      0                                0
+
+      =4-4=0                                                                                                                                     2p
+
+( )    b)23  (     )         2   3    2x                2   3     1                              2     3 - arctg x 2       3
+       0                        0   x2 +                   0    x2 +                                                         =
+          f     x     dx  =                4  dx   -  2               4  dx  =  ln  x2 + 4                          20                           3p
+
+                                                                                                    0
+
+      = ln16 - ln 4 - arctg 3 = 2ln 2 -                                                                                                          2p
+                                                             3
+
+c)                 F :   ,                           x                                         F '(x) =          (  x)  =  2( x -1)     x
+
+      Funcia                             F ( x) =  f (t )dt           este derivabil i                        f             x2 + 4   ,           2p
+
+                                                     1
+      F '( x)  0 , pentru orice x (-,1]  F este descresctoare pe (-,1] i F '( x)  0 , pentru
+
+      orice x [1, +)  F este cresctoare pe [1,+)  F ( x)  F (1) , pentru orice numr real                                                         3p
+
+                                             x
+      x , de unde obinem c  f (t ) dt  0 , pentru orice numr real x
+
+                                             1
+
+Prob scris la matematic M_mate-info                                                                                                              Testul 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

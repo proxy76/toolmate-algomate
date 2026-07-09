@@ -1,0 +1,92 @@
+                                                                    Ministerul Educaiei
+                                                  Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+                                                          Matematic
+
+                                                                                                                                        Testul 1
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                               (30 de puncte)
+
+5p 1. Calculai raia progresiei aritmetice an n1 în care a3  7 i a7  15 .
+
+5p 2. Se consider funcia f :  , f (x)  3x  5 . Determinai mulimea valorilor reale ale lui x
+
+    pentru care f (x)  2 f (1)  4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 81x  3.
+
+5p 4. Calculai A62 .
+                      P3
+
+5p 5. În reperul cartezian xOy se consider punctele A0,3 , B(0, 5) i C(4, 1) . Artai c
+
+    triunghiul ACB este dreptunghic isoscel.
+
+5p  6. Artai c        tg60o                2.
+                 ctg30o  cos 45o
+
+SUBIECTUL al II-lea                                                                       (30 de puncte)
+
+    1. Se consider matricele       A     2 1            i  I2      1 0          .
+
+                                           3     2                   0     1  
+                                                                              
+
+5p a) Artai c det A  1 .
+
+5p b) Demonstrai c A  A  I2 .
+
+5p c) Determinai matricea X  2   astfel încât AX  I2  2021A.
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y  xy  5x  5y  30 .
+
+5p a) Artai c 5 2021  5 .
+
+5p b) Demonstrai c x y   x  5 y  5  5 , pentru orice numere reale x i y .
+
+5p c) Determinai numerele întregi m i n pentru care m2 n 16 .
+
+SUBIECTUL al III-lea                                                                      (30 de puncte)
+
+      1. Se consider funcia f :  , f  x  x2  8 ex .
+
+5p a) Artai c f '  x   x  2 x  4ex , x  .
+
+5p  b) Calculai lim       f 'x  .
+
+                 x2 x  2
+
+5p c) Demonstrai c x2  8  4e2x , pentru orice numr real x .
+
+    2. Se consider funcia f : \1  , f  x  x 1 .
+
+                                                                 x 1
+
+5p  a)  Artai c  2  f   x x 1 dx           1  .
+                                           2
+                 
+
+                 1
+
+5p  b) Artai c   3  f      xdx  1     ln 9    .
+                                        16
+                 
+
+                 2
+
+5p  c) Determinai   numrul      real  a  1    astfel  încât  a  f  x    f  '  x dx   1
+                                                                                       .
+                                                             
+                                                                                     8
+                                                             1
+
+Prob scris la matematic M_tehnologic                                                      Testul 1
+
+                                                        Pagina 1 din 1
+

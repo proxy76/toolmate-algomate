@@ -1,0 +1,195 @@
+                                              Ministerul Educaiei i Cercetrii
+                                    Centrul Naional de Politici i Evaluare în Educaie
+
+                                      Examenul de bacalaureat naional 2020
+                                                        Proba E. c)
+
+                                                  Matematic M_t-nat
+                                    BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                                       Test 13
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                            (30 de puncte)
+
+1.           1  2i         12  22 
+
+      z                                                                                                                                3p
+             1 2i 12  22
+
+       5 1                                                                                                                             2p
+          5
+
+    2.                                         x         1        x             1       x
+                             x                           2                      2     
+      f x                           2    1                                                                                             3p
+                     2 1 
+                                                            1                      1
+
+                    x    2 1 x  f x , pentru orice numr real x , deci funcia f este par
+
+            2 1 
+                                                                                                                                       2p
+
+3. x  2  x2  x2  x  2  0                                                                                                               3p
+
+      x  1 , care nu convine, sau x  2 , care convine                                                                                  2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                                                  2p
+     posibile
+
+      Numerele naturale de dou cifre care au ambele cifre divizibile cu 3 sunt ab cu a 3,6,9                                           2p
+
+      i b 0,3,6,9, deci sunt 12 cazuri favorabile
+
+      p  nr. cazuri favorabile  12  2                                                                                                  1p
+            nr. cazuri posibile 90 15
+
+5. Perpendiculara din A pe BC este i mediatoarea lui BC , deci coordonatele centrului cercului
+
+      circumscris triunghiului         ABC        sunt soluiile sistemului               y  3x 1                                       3p
+                                                                                        2 y  x  7
+
+      x 1, y 4                                                                                                                         2p
+
+6. cos  x  cos x , sin  x  sin x                                                                                                       2p
+
+      sin x cos x  sin x cos x         1          2 sin  x cos x   1  sin 2x            1    i,  cum  x    0,       ,  obinem  x       3p
+                                                                                                               2                    4
+
+SUBIECTUL al II-lea                                                                                                    (30 de puncte)
+
+1.a)  A  a        1  ln a      11        0    ln  a  
+                  0   1    
+                                                                                                                                       2p
+
+       1 0  1, pentru orice a  0,                                                                                                      3p
+
+b)    A  a      Ab       1   ln  a     ln   b     
+                         0          1          
+                                                                                                                                       3p
+
+        1       ln ab        Aab      ,  pentru      orice  a,  b  0,                                                                  2p
+
+          0       1    
+                       
+
+Prob scris la matematic M_t-nat                                                                                                        Test 13
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 1 din 3
+                                                         Ministerul Educaiei i Cercetrii
+                                               Centrul Naional de Politici i Evaluare în Educaie
+
+  c)                                                 1     ln a3  
+      Aa Aa Aa  A a3                                 0       1      ,  pentru  orice    a 0,                                                       2p
+
+      1       ln a3           1     2020             ln a3      2020       ln  a    2020            a     3  e2020  ,  care    convine             3p
+       0        1             0                                                       3
+                                         1     
+                                               
+
+2.a) x y  1 xy  x  y  3  3  1 x  y  3   y  3  3                                                                                                    2p
+                  3                                     3
+
+           y     3     1  x      1        3      1  x  3 y  3  3 , pentru orice numere reale                           x  i    y                   3p
+                       3
+                                                 3
+
+b) f  x f  y  1  f  x  3 f  y  3  3  1 3x  3  33y  3  3  3                                                                                         2p
+                                 3                                         3
+
+       3xy  3  f  xy  , pentru orice numere reale x i y                                                                                            3p
+
+c)    f    x     3     3     x      3     3    x  ,  pentru   orice    x       ,  deci  xk       f    xk     3  ,  pentru orice      k      , k 1  2p
+              3                 3                                                                         3   
+
+      x1 x2            xn        f      x1     3     f     x2   3       f      xn   3       f       x1   3x2        3          xn    3    
+                                            3                3                   3                                                      
+                                                                                                                    3n
+                                                                                                                                        
+
+              x1     3    x2   3               xn     3  3  x1  3x2             3         xn      3  3n                                            3p
+
+         3                     3n                                                 3n1                        ,  pentru    orice    n        , n2
+
+      i orice numere reale x1, x2 , , xn1 i xn
+
+SUBIECTUL al III-lea                                                                                                                      (30 de puncte)
+
+1.a)  f 'x                1 x 1  x 1                       
+
+               2          x 1  x 12                                                                                                                3p
+
+                          x 1
+
+       1          x    1         2                         1         ,  x 1,                                                                       2p
+        2         x    1                                      x2 1
+                              x   12               x 1
+
+b) f 2  3 , f '2   1                              3                                                                                                2p
+
+      Ecuaia tangentei este y  f 2  f '2 x  2 , adic y   1 x  5                                                                                    3p
+                                                                                                          33
+
+c) lim f  x  lim x  1   , deci dreapta de ecuaie x  1 este asimptot vertical la graficul
+      x 1              x1 x  1
+                                                                                                                                                   2p
+                       x 1
+
+      funciei f
+
+      lim f  x  lim x 1  1 , deci dreapta de ecuaie y  1 este asimptot orizontal spre
+      x                     x x 1
+       la graficul funciei f , de unde obinem c punctul de intersecie a celor dou asimptote 3p
+
+      este 1,1
+
+2.a)  1                      x                    1  x2dx
+                             2                    0
+           f  x                           dx               
+                           x                                                                                                                       2p
+
+      0                             9
+
+       x3 1  1                                                                                                                                     3p
+           30 3
+
+Prob scris la matematic M_t-nat                                                                                                                    Test 13
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 2 din 3
+                         Ministerul Educaiei i Cercetrii
+               Centrul Naional de Politici i Evaluare în Educaie
+
+b) f  x  f x  x2  x  x2  x  2x , pentru orice numr real x                                                                2p
+               x2  9                      x2  9 x2  9
+
+4              4    2x dx  2                  4
+                    x2  9
+  f  x  f xdx                         x2  9  25  3  4                                                                    3p
+
+0              0                              0
+
+    c)
+a f x a         1               x2    ln  x                                     x2  9    a    a2   16    ln  a    a2  9  3p
+               x2       dx      2                                                        4        2               9
+4 x dx  4  x        9
+
+a2 16  10 i, cum a  4 , obinem a  6                                                                                      2p
+   2
+
+Prob scris la matematic M_t-nat                                                                                          Test 13
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                Pagina 3 din 3
+

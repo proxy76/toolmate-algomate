@@ -1,0 +1,95 @@
+                                                         Ministerul Educaiei Naionale
+                                                  Centrul Naional de Evaluare i Examinare
+
+                                             Examenul de bacalaureat naional 2018
+                                                               Proba E. c)
+
+                                                     Matematic M_tehnologic
+
+                                                                                                           Varianta 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                (30 de puncte)
+
+5p  1.  Artai  c        -   1     (1  +  0,5)  =  3  .
+                  1         2                     4
+
+5p 2. Determinai abscisa punctului de intersecie a graficelor funciilor f :    , f ( x) = 3x - 5 i
+
+    g :    , g (x) = 1- 3x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log3 ( x + 5) = log3 9 .
+
+5p 4. Dup o ieftinire cu 30% , preul unui obiect este 700 de lei. Determinai preul obiectului înainte
+
+      de ieftinire.
+
+5p 5. În reperul cartezian xOy se consider punctele A(0,6) i B (8,0) . Determinai lungimea
+
+      medianei din vârful O în triunghiul AOB .
+
+5p 6. Artai c 2  sin 45° - (sin 30° + cos 60°) = 0 .
+
+SUBIECTUL al II-lea                                                                                        (30 de puncte)
+
+                                             =  1        3             1         0        (     )       2  x
+    1. Se consider matricele             A                ,      I2    =            i  B     x     =         , unde x este numr real.
+                                                  -1     2               0       1                    1
+                                                                                                           1
+
+5p a) Artai c det A = 5 .
+
+5p b) Artai c, dac A + B ( x) = 3I2 , atunci A  B ( x) = 5I2 .
+
+5p c) Determinai numerele reale x pentru care det ( B ( x)  B ( x) - I2 ) = 0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = xy - 9( x + y) + 90 .
+
+5p a) Artai c 10 8 = 8 .
+
+5p b) Demonstrai c x y = ( x - 9)( y - 9) + 9 , pentru orice numere reale x i y .
+
+5p c) Determinai numerele naturale n pentru care n n  10 .
+
+SUBIECTUL al III-lea                                                                                       (30 de puncte)
+
+    1. Se consider funcia              f :,                 f  (x)  =  x -1      .
+                                                                       x2 + 3
+
+                        '(  x)     (3    -x  )(x  +  1)        
+( ) 5p                          =        x2
+    a) Artai c       f                       +3   2      ,  x       .
+
+5p b) Determinai ecuaia asimptotei orizontale spre + la graficul funciei f .
+
+5p c) Demonstrai c -1  f ( x) + f ( y)  1 , pentru orice numere reale x i y .
+
+                                                     3
+
+    2. Se consider funcia              f :R,                f  (x)  =  1   +  x  .
+                                                                       ex
+
+5p  a)  Artai  c  1         f   (x) -    1        =  0.
+                                         ex   dx
+                  -1
+
+5p b) Demonstrai c orice primitiv a funciei f este concav pe intervalul (-,0] .
+
+                            1
+
+5p c) Calculai  ex f ( x) dx .
+
+                  0
+
+Prob scris la matematic M_tehnologic                                                                       Varianta 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                    Pagina 1 din 1
+

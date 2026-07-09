@@ -22,7 +22,7 @@ def _l(expr) -> str:
 
 class SequencesGenerator(ExerciseGenerator):
     TOPIC_CODE = "sequences"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _generate_params(self) -> dict:
         rng = self.rng
@@ -32,7 +32,7 @@ class SequencesGenerator(ExerciseGenerator):
         elif d == 2:
             pool = [self._st_geom_series, self._st_limit_rational]
         else:
-            pool = [self._st_cesaro] if self.profile == "M1" else [self._st_geom_series]
+            pool = [self._st_cesaro] if self.profile == "mate-info" else [self._st_geom_series]
         return rng.choice(pool)()
 
     def _compute_answer(self, params):

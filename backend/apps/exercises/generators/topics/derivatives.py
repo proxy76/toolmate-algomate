@@ -20,11 +20,11 @@ def _latex(expr) -> str:
 
 class DerivativesGenerator(ExerciseGenerator):
     TOPIC_CODE = "derivatives"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     # (key, description, builder(params, x)) per profile/difficulty (spec §9.1).
     FUNC_TEMPLATES = {
-        "M1": {
+        "mate-info": {
             1: [
                 ("poly", "polinom",
                  lambda p, x: p["a"] * x ** p["n"] + p["b"] * x ** p["m"] + p["c"]),
@@ -50,7 +50,7 @@ class DerivativesGenerator(ExerciseGenerator):
                  lambda p, x: (p["a"] * x ** 2 + p["b"]) / (x ** 2 + p["c"])),
             ],
         },
-        "M2": {
+        "tehnologic": {
             1: [
                 ("poly", "polinom",
                  lambda p, x: p["a"] * x ** p["n"] + p["b"] * x + p["c"]),
@@ -70,7 +70,7 @@ class DerivativesGenerator(ExerciseGenerator):
                  lambda p, x: x ** 2 / (x ** 2 + p["a"] * x + p["b"])),
             ],
         },
-        "M3": {  # polynomials only — no exp/log (§5.2)
+        "pedagogic": {  # polynomials only — no exp/log (§5.2)
             1: [
                 ("poly2", "polinom grad 2",
                  lambda p, x: p["a"] * x ** 2 + p["b"] * x + p["c"]),
@@ -91,7 +91,9 @@ class DerivativesGenerator(ExerciseGenerator):
     def _generate_params(self) -> dict:
         d = self.difficulty
         rng = self.rng
-        templates = self.FUNC_TEMPLATES[self.profile][d]
+        # șt-nat has no own single-item template set — it shares mate-info's
+        # (poly / exp / log / rational), matching its analytic character.
+        templates = self.FUNC_TEMPLATES.get(self.profile, self.FUNC_TEMPLATES["mate-info"])[d]
         tmpl = templates[rng.randrange(len(templates))]
         if d == 1:
             coeffs = {
@@ -181,15 +183,20 @@ class DerivativesStudyProblem(ProblemGenerator):
     """
 
     TOPIC_CODE = "derivatives"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _generate_context(self) -> dict:
         rng = self.rng
         # M1 (mate-info) uses the harder function-study modes of the real papers:
         # exp/rational with a *bijectivity* proof, and ln with extremum analysis.
         # M2 keeps the cubic/rational study unchanged.
-        if self.profile == "M1":
+        if self.profile == "mate-info":
             mode = rng.choice(["exp_bijective", "ln_extrem", "rational", "cubic"])
+        elif self.profile == "stiintele-naturii":
+            # M_șt-nat Subiect III prob-1 is a real-analysis study of a rational /
+            # ln function (asymptote + monotonicity/extremum) — harder than the
+            # tehnologic poly-dominant study, lighter than mate-info's bijectivity.
+            mode = rng.choice(["rational", "rational", "ln_extrem", "cubic"])
         else:
             # M_tehnologic Subiect III prob-1 is dominated by polynomial function
             # study with a tangent-at-a-point cerință.

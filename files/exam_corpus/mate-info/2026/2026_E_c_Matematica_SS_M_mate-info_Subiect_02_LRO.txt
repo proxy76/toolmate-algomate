@@ -1,0 +1,114 @@
+                                          Ministerul Educaiei i Cercetrii
+                                  Centrul Naional pentru Curriculum i Evaluare
+
+                                         Examenul naional de bacalaureat 2026
+                                                      Proba E. c)
+
+                                                 Matematic M_mate-info                                                           Varianta 2
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                   (30 de puncte)
+
+5p 1. Determinai termenul a2 al progresiei aritmetice (an )n1 , în care a1 = 6 i a3 = 30 .
+5p 2. Se consider funcia f :    , f ( x) = ax2 + 2ax -1 , unde a este numr real. Determinai
+
+    numrul real a pentru care ( f f )(0) = 0 .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 2x2 - 4x + 3 = 2log2 x .
+
+5p 4. Se consider mulimea A = {2, 4,5,6} . Determinai câte numere naturale pare, de trei cifre distincte,
+
+      se pot forma cu cifre din mulimea A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(6, 4) i B (1,3) . Determinai coordonatele
+
+    punctului C pentru care 2BC = OA .
+
+5p  6. Se consider triunghiul     ABC , dreptunghic în          A , cu                    AC = 6      i  tgC  =  1  .  Artai  c  raza  cercului
+                                                                                                                 3
+
+    circumscris triunghiului ABC este egal cu 10 .
+
+SUBIECTUL al II-lea                                                                                                           (30 de puncte)
+
+                                               1- 2a a 0 
+                                                                                        
+    1. Se consider matricea    A  (  a   )  =    2a  1- a        0                        ,  unde  a  este numr real.
+                                                 0     0        - 3a
+                                                             1
+
+5p a) Artai c det ( A(1)) = 4 .
+
+5p b) Artai c A(a)  A(b) = A(a + b - 3ab) , pentru orice numere reale a i b .
+
+5p c) Determinai numrul real a pentru care A(1)  A(a) + A(5) = 2A(4) .
+
+    2. Se consider polinomul f = mX 4 - mX 2 + X + 1 , unde m este numr real nenul.
+
+5p a) Artai c f (-1) = 0 , pentru orice numr real nenul m .
+
+5p b) Determinai numrul real nenul m pentru care restul împririi polinomului f la polinomul
+
+       g = X + 2 este egal cu 11 .
+
+5p c) Determinai numrul real nenul m pentru care x13 + x23 + x33 + x43 = 1 , unde x1 , x2 , x3 i x4 sunt
+      rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                                          (30 de puncte)
+
+    1. Se consider funcia      f : (-1,+)   ,        f  (x)  =  ex  +                   2x +1  .
+                                                                    x                   +1
+
+5p  a) Artai c   f  '(  x)  =  xex +1    ,  x (-1, +) .
+
+                               ( x +1)2
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c funcia f este strict cresctoare.
+
+Prob scris la matematic M_mate-info                                                                                                    Varianta 2
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 1 din 2
+                                                Ministerul Educaiei i Cercetrii
+                                        Centrul Naional pentru Curriculum i Evaluare
+
+    2. Se consider funcia f : (0,+)   , f ( x) = 6 + 1 + ln2 x .
+
+                                                                   xx
+
+5p  a) Artai     c  3    f  (x) -  ln2  x    dx  = 12 + ln 3 .
+                                     x     
+                    
+
+                    1
+
+5p  b) Artai     c  e    f  (x) -6-     1        =  1  .
+                                        x  dx       3
+                    1 
+
+5p c) Determinai numrul real m pentru care aria suprafeei plane delimitate de graficul funciei
+
+    g : (0, +)   , g ( x) = f ( x) - 6 , axa Ox i dreptele de ecuaii x = 1 i x = e este egal cu
+
+                                        x
+
+    m 1  -  2    .
+            e  
+
+Prob scris la matematic M_mate-info                                                     Varianta 2
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 2 din 2
+

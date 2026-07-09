@@ -1,0 +1,158 @@
+                                                             Ministerul Educaiei Naionale
+                                                      Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2017
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                     BAREM DE EVALUARE I DE NOTARE
+                                                                                                                     Varianta 9
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                (30 de puncte)
+
+1. 3z1 + 2z2 = 3(5 + 2i) + 2(3 - 3i) = 15 + 6i + 6 - 6i =                                                                  3p
+
+      = 15 + 6 = 21                                                                                                        2p
+
+2. x +1 = x2 - x + 2  x2 - 2x + 1 = 0                                                                                      2p
+
+      x =1                                                                                                                 3p
+
+3. 3x2 +3 = 31+3x  x2 + 3 = 1 + 3x  x2 - 3x + 2 = 0                                                                        3p
+
+      x = 1 sau x = 2                                                                                                      2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                                      2p
+     posibile
+
+      Mulimea numerelor naturale de dou cifre, care sunt divizibile cu 3 i cu 5 , are 6                                    2p
+      elemente, deci sunt 6 cazuri favorabile
+
+      p = nr. cazuri favorabile = 6 = 1                                                                                    1p
+            nr. cazuri posibile 90 15
+
+5. Ecuaia dreptei AB este y = x + 2                                                                                        2p
+
+      Punctul C aparine dreptei AB  m = -2                                                                                 3p
+
+6. BC2 = AB2 + AC2 - 2 AB  AC  cos A = 16 + 64 - 2  4  8  1 = 48                                                           3p
+                                                                                            2
+
+      BC = 4 3                                                                                                             2p
+
+SUBIECTUL al II-lea                                                                                                        (30 de puncte)
+
+1.a)              0 0 1                                     0 01
+                                 
+      A(  2)  =    0      1     03       det ( A(2))  =  0       1  0=                                                     3p
+                   -2     0                              -2      0  3
+
+      = 0 + 0 + 0 - (-2) - 0 - 0 = 2                                                                                       2p
+
+b)                           2  +    x2  0  -  x2     -  1                                              2 + x2  0  -x2 -1
+                                         1      0                                                         0     1     0=
+      A(x) A(-x) =  0                                            det  (  A  (  x  )  A(  -  x  )  )  =
+                                                                                                                           3p
+                                                          
+                             2  +  2x2   0  -2  x  2  -  1                                              2 + 2x2 0 -2x2 -1
+
+      ( )( ) ( )( ) = x2 + 2 -2x2 -1 - -x2 -1 2x2 + 2 = -x2  0 , pentru orice numr real x                                  2p
+
+c)                           2 - mn      0  mn -1           
+                                0        1    0             
+      A(m)    A(n  )   =                                      =  A ( mn )                                                  3p
+                           2(1- mn) 0 2mn -1
+
+      A(mn) = A(2) , deci mn = 2 i, cum m i n sunt numere naturale, obinem m + n = 3                                       2p
+
+2.a) f (1) = 0  13 + 2 12 + a 1+1 = 0                                                                                      2p
+
+      a = -4                                                                                                               3p
+
+Prob scris la matematic M_mate-info                                                                                        Varianta 9
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                                               Ministerul Educaiei Naionale
+                                                        Centrul Naional de Evaluare i Examinare
+
+b) f = X 3 + 2 X 2 + 2X +1 i câtul este X +1                                                                            3p
+
+      Restul este 0                                                                                                     2p
+
+c) x1x2 x3 = -1 i x1 = x2 = x3  x1 = x2 = x3 = 1                                                                        2p
+
+      Cum f are cel puin o rdcin real, una dintre rdcini este egal cu -1 sau cu 1                                       1p
+
+      Dac x1 = -1, obinem f (-1) = 0 , deci a = 2 , ceea ce convine, deoarece x2 = x3 = 1                               1p
+
+      Dac x1 = 1, obinem f (1) = 0 , deci a = -4 , ceea ce nu convine, deoarece x2  x3                                  1p
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+( ) 1.a) f '( x) = ex '-1'- (ln ( x + 2))' =                                                                            2p
+
+      = ex   - 0 - (x + 2)' = ex               -    1,     x (-2,+)                                                     3p
+                                                  x+2
+                     x+2
+
+b)    f  "(x) = ex      +          1        ,  x (-2,+)
+                                   +2
+                             (  x      )2                                                                               2p
+
+      f "( x)  0 , deci funcia f este convex pe (-2, +)                                                                 3p
+
+c) lim ex -1 = lim ex = +                                                                                               2p
+      x+ x
+                                x+
+
+         lim ln ( x + 2) = lim 1 = 0                                                                                    2p
+      x+ x                         x+ x + 2
+
+       lim      f  (x)    =      lim     e  x-    1  -  ln ( x +  2)    =  +                                            1p
+                                             x                        
+      x+           x            x+                          x
+
+2.a)  e            x2   e
+                          =
+       x dx  =     21                                                                                                   3p
+
+      1
+
+      = e2 - 1 = e2 -1                                                                                                  2p
+         22 2
+
+b) x [1,e]  0  ln x  1 ln x -1  0                                                                                       2p
+
+                       e
+       In+1 - In = x lnn x (ln x -1) dx  0 , deci In+1  In , pentru orice numr natural nenul n
+                                                                                                                        3p
+
+                       1
+
+  c)
+      I n+1  =  e  x lnn+1      x dx  =    x2  ln n +1  x  e  -  n +1e     x lnn  x dx  =                               3p
+                1                          2               1      21
+
+      =  e2  -  n  +   1  I     ,  deci  2In+1       + (n +1) In  =     e2  ,  pentru   orice  numr  natural  nenul  n  2p
+         2         2
+                             n
+
+Prob scris la matematic M_mate-info                                                                                     Varianta 9
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

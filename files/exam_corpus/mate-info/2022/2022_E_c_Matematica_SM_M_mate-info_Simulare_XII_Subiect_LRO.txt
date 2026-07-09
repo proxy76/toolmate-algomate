@@ -1,0 +1,108 @@
+                                              Ministerul Educaiei
+                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2022                                         Simulare
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                           (30 de puncte)
+
+5p 1. Se consider numerele complexe z1 = 1 - 2i i z2 = 2 + i . Artai c ( z1 + i)( z2 -1) = 2 .
+5p 2. Se consider funcia f :    , f ( x) = x2 + 4x + m , unde m este numr real. Determinai
+
+    valorile reale ale lui m pentru care f ( x) > 0 , pentru orice numr real x .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 1 + 2log2 x - 2 = log2 x .
+
+5p 4. Se consider mulimea A , a numerelor naturale de dou cifre. Calculai probabilitatea ca, alegând
+      un numr din mulimea A , acesta s aib exact doi multipli în mulimea A .
+
+5p 5. În reperul cartezian xOy se consider punctele A(-2, - 2) , B (3,1) i M (2, 4) . Determinai
+
+      coordonatele punctului N , tiind c patrulaterul ABMN este paralelogram.
+
+5p 6. Se consider triunghiul ABC , în care sin ( A + B) + cosC = 1. Artai c triunghiul ABC este
+
+dreptunghic.
+
+SUBIECTUL al II-lea                                                                                   (30 de puncte)
+
+                                             1 3 a                                       x + 3y + az = 2
+                                                     -11                                2x + y - z = -1, unde
+1. Se consider matricea     A    (  a  )  =    2  1       i sistemul de ecuaii           ax + 3y + z = 1             a  este
+                                               a  3
+
+      numr real.
+
+5p a) Artai c det ( A(1)) = 0 .
+
+5p b) Artai c B(a)  B(a)  B(a) = a3B(1) , pentru orice numr real a , unde B (a) = A(a) - A(0) .
+
+5p c) Demonstrai c, dac sistemul de ecuaii are o infinitate de soluii, atunci x0 y0 + y0 z0 + z0 x0  0 ,
+
+    pentru orice soluie ( x0, y0 , z0 ) a sistemului de ecuaii, cu x0 , y0 i z0 numere reale.
+
+2.  Pe  mulimea  numerelor  complexe se           definete  legea de compoziie          z1  z2  =  4  z1 + z2  1  .
+                                                                                                       z1z2 +
+
+5p a) Artai c (-1)  2 = 1 .
+
+                                  9
+5p b) Artai c e = 0 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Demonstrai c exist cel puin trei numere complexe distincte i nenule care verific egalitatea
+       zz = z .
+
+SUBIECTUL al III-lea                                                                                  (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = x4 +16 .
+
+                                                                       x
+
+( )( ) 5p a) Artai c f '( x) = x2 - 4 x2 + 4 , x (0,+) .
+                                   x2 x4 +16
+5p b) Determinai ecuaia asimptotei oblice spre + la graficul funciei f .
+
+Prob scris la matematic M_mate-info                                                                                  Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                             Ministerul Educaiei
+                           Centrul Naional de Politici i Evaluare în Educaie
+
+5p  c) Determinai valorile reale ale lui  m  pentru care ecuaia                         f (x)+     f      4    =  m  are exact dou soluii.
+                                                                                                          x  
+
+    2. Se consider funcia  f :,           f  (x)  =  x2                      +  1  .
+                                                      e
+                                                                             x
+
+                              3
+
+5p a) Artai c  ex f ( x)dx = 12 .
+
+    0
+
+5p  b) Artai c orice primitiv  G   a funciei      g :   ,                               g(x) =  f  1    este convex.
+
+                                                                                                   (x)
+
+5p                                                                        1     x3 dx = a - 2 .
+                                                                             ex f (x)           3
+    c) Determinai numrul real a pentru care 
+
+                                                                          0
+
+Prob scris la matematic M_mate-info                                                                                   Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,92 @@
+                                             Ministerul Educaiei i Cercetrii
+                                        Centrul Naional de Evaluare i Examinare
+
+                                Examenul de bacalaureat naional 2020
+                                                  Proba E. c)
+
+                                             Matematic M_tehnologic
+
+                                                                                                                            Test 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                          (30 de puncte)
+
+  5p 1. Artai c 3  3 1  1  5 1.
+                              5 3 14
+
+5p 2. Determinai numerele reale m , tiind c punctul Am,6 aparine graficului funciei f :  ,
+     f x  x2  2 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 14  x  3x  6 .
+5p 4. Calculai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de dou cifre,
+
+    acesta s verifice inegalitatea nn 10n 11  0 .
+
+5p 5. În reperul cartezian xOy se consider punctele A3,1 , B 1, 4 i C 3,7 . Calculai perimetrul
+
+      triunghiului ABC .
+5p 6. Artai c sin 30cos30  2sin 45cos 45  sin 60cos 60  1 .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+1. Se  consider  matricele      I2      1       0      i  A  x        x     3     1      ,  unde  x  este numr real.
+                                                                         1
+                                          0     1                              3    x  
+                                                                                       
+
+5p a) Artai c det  A1  5 .
+
+5p b) Demonstrai c A x  Ax  2A0 , pentru orice numr real x .
+
+5p c) Determinai numerele reale x pentru care A x  A x  10  I2 .
+
+      2) Pe mulimea numerelor reale se definete legea de compoziie x  y  2x  y  3xy .
+
+5p a) Artai c 1 2  2 .
+
+5p b) Rezolvai în mulimea numerelor reale ecuaia x   x 1  1 .
+
+5p c) Dai exemplu de dou numere iraionale a i b pentru care a  b  .
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+1. Se consider funcia f :  , f  x  x5  5x4  5x3 .
+
+5p a) Artai c f ' x  5x2  x  3 x 1 , x  .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x  1 , situat pe graficul
+
+funciei f .
+
+5p c) Demonstrai c 27  f  x  1 , pentru orice x 0,3 .
+
+2. Se consider funcia f :                    ,  f      x    x2      x    2,    x ,0         .
+                                                                     1,  x     0, 
+                                                                ex
+
+                              1
+
+5p a) Artai c  f  xdx  e .
+
+                              0
+
+5p b) Demonstrai c funcia f admite primitive pe .
+
+                             1
+
+5p c) Calculai  x f  xdx .
+
+                            1
+
+Prob scris la matematic M_tehnologic                                                                                  Test 5
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                          Pagina 1 din 1
+

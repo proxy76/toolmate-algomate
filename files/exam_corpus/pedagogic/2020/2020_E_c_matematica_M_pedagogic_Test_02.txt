@@ -1,0 +1,72 @@
+                                                             Ministerul Educaiei i Cercetrii                               Test 2
+                                                       Centrul Naional de Evaluare i Examinare                   (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p                    3  2            6       1.
+    1. Artai c        2  3         27       8
+
+5p 2. Se consider funciile f :  , f  x  2x 1 i g :  , g  x  x  2 . Determinai
+
+    numerele naturale n pentru care f n  g n .
+
+  5p 3. Rezolvai în mulimea numerelor reale ecuaia lg x2  5  lg 4x 1 .
+
+5p 4. Un biciclist parcurge un traseu în trei etape. În prima etap biciclistul parcurge 50% din traseu, în a
+      doua etap 25% din traseu, iar în a treia etap restul de 10 km . Determinai lungimea traseului.
+
+5p 5. În reperul cartezian xOy se consider punctele A6,0 , B 4,4 i C 3,0 . Calculai aria
+
+      triunghiului ABC .
+5p 6. Artai c 3  cos30  sin 30  2sin2 45  1 .
+
+SUBIECTUL al II-lea                                                                                              (30 de puncte)
+
+      Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  2x  2 y  2  2 .
+
+  5p 1. Artai c 2   2  2 .
+   5p 2. Demonstrai c x  y  x  2 y  2  2 , pentru orice numere reale x i y .
+
+5p 3. Verificai dac e  1 2 este elementul neutru al legii de compoziie ,,  ".
+5p 4. Determinai numerele reale a pentru care a  a  2  2 .
+5p 5. Determinai numerele reale x pentru care 4x  2x  2 .
+
+    5p 6. Determinai valorile reale ale lui x pentru care x  2  x  2  2 .
+
+SUBIECTUL al III-lea                                                                                             (30 de puncte)
+
+    Se  consider  matricele  A     2     0    ,  B    2    x    i  C                    x      0   ,  unde    x  este numr real.
+                                         1                                                     1 
+                                     3                  3  0                              0
+
+5p 1. Artai c det A  2 .
+
+5p 2. Determinai numrul real x pentru care B  C  A .
+
+5p 3. Determinai numrul real x pentru care det  B  C   0 .
+
+5p 4. Demonstrai c det  B  C  C  B  3x  x 12 , pentru orice numr real x .
+
+                                                                                               0      1
+                                                                                             
+    5. Pentru x  1 , artai c inversa matricei B este matricea                                         3    
+5p                                                                                                         .
+                                                                                                        2
+                                                                                              1         3  
+
+5p 6. Pentru x  1 , rezolvai în 2   ecuaia B  X  C  A .
+
+Prob scris la matematic M_pedagogic                                                                                               Test 2
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

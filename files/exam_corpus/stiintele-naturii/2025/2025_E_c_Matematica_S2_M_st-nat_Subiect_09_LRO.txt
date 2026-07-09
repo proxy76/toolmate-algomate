@@ -1,0 +1,100 @@
+                                                  Ministerul Educaiei i Cercetrii
+                                          Centrul Naional pentru Curriculum i Evaluare
+
+                                     Examenul naional de bacalaureat 2025
+
+                                                          Proba E. c)                                                                         Varianta 9
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                            (30 de puncte)
+
+5p 1. Determinai termenul a2 al progresiei aritmetice (an )n1, în care a1 = 5 i a3 = 35 .
+
+5p 2. Se consider funcia f :    , f ( x) = 2x + 3 . Determinai numrul real m pentru care
+      f (m) = f (0)  f (1) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 x2 - 4 = 3 3x - 6 .
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr,
+
+      acesta s verifice inegalitatea 3n2 < 100 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(0, 2) , B (2,5) i C , astfel încât B este mijlocul
+
+      segmentului AC . Determinai coordonatele punctului C .
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AB = AC i aria egal cu 18 . Artai c
+
+       BC = 6 2 .
+
+SUBIECTUL al II-lea                                                                                                                    (30 de puncte)
+
+        Se  consider  matricele           =     1        0    i  A(     )  =  1- x      3x        ,  unde     este     numr            real.
+    1.                               I2                              x                                     x
+                                                   0     1                      -x      1+  4x  
+
+5p a) Artai c det ( A(2)) = 3.
+
+5p b) Artai c xA( y) - A( xy) = ( x -1) I2 , pentru orice numere reale x i y .
+5p c) Determinai numerele reale x pentru care A(1)  A( x -1) = xA( x) .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x                                   y     =  1  (  x  +  1)  (  y  +  1)  -  1  .
+                                                                                                              4
+
+5p a) Artai c 1 5 = 2 .
+
+5p b) Artai c e = 3 este elementul neutru al legii de compoziie ,, ".
+
+5p c) Determinai perechile (m, n) de numere naturale, cu m  n , pentru care m n = 3 .
+
+SUBIECTUL al III-lea                                                                                                                   (30 de puncte)
+
+    1. Se consider funcia f : (0,+)   , f ( x) = x2 - 3x -1+ ln x .
+
+5p a) Artai c f '( x) = (2x -1)( x -1) , x (0, +) .
+
+                                         x
+
+5p  b) Artai   c  lim    f  (x) + 3x      =3.
+
+                  x1         ln x
+
+5p  c) Demonstrai c         f (x) +    f  (  y  )     -  21   ,  pentru    orice        x (0,1] i orice    y [1, 2] .
+                                                         4
+
+    2. Se consider funcia f : (0,+)   , f ( x) = x -1 .
+
+                                                                   x
+
+                               4
+
+5p a) Artai c  f ( x) xdx = 4 .
+
+                  2
+
+5p  b)  Artai  c  4   f  ( x)dx  =  8  .
+                                    3
+                  
+
+                  1
+
+Prob scris la matematic M_t-nat                                                                                                                     Varianta 9
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+            Ministerul Educaiei i Cercetrii
+    Centrul Naional pentru Curriculum i Evaluare
+
+5p  c) Artai c volumul corpului obinut prin rotaia graficului funciei                   g :[2,3]   ,  g(x) =  f  2    ,  în
+
+                                                                                                                 (x)
+
+    jurul axei Ox este egal cu  ln (4e) .
+
+Prob scris la matematic M_t-nat                                                                                  Varianta 9
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

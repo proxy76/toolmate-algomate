@@ -1,0 +1,89 @@
+                                                 Ministerul Educaiei Naionale
+                                          Centrul Naional de Evaluare i Examinare
+
+                                     Examenul de bacalaureat naional 2014
+                                                       Proba E. c)
+
+                                              Matematic M_mate-info
+                                       Simulare pentru elevii clasei a XI-a
+
+     Filiera teoretic, profilul real, specializarea matematic-informatic                                              (30 de puncte)
+     Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Calculai z + z , tiind c z = 3 + 4i i z este conjugatul numrului complex z .
+5p 2. Determinai numrul real pozitiv m pentru care dreapta x = 2 este ax de simetrie a graficului
+
+   ( ) funciei f :    , f ( x) = 2x2 - m2 -1 x + 3 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 (2x -1) = 2log2 x .
+
+5p 4. Determinai câte numere naturale abc , cu a, b i c nenule, au suma cifrelor egal cu 5 .
+
+5p 5. Se consider triunghiul ABC i punctul D astfel încât DB + DC = 0 . Determinai numrul real p
+
+   ( ) pentru care AD = p AB + AC .
+
+5p  6. Calculai lungimea    razei cercului circumscris triunghiului                           ABC , tiind  c  AC = 6  i  cos B =  4  .
+                                                                                                                                  5
+
+SUBIECTUL al II-lea                                                                                                   (30 de puncte)
+
+                                                        1            11
+                                                                     y 2 , unde x i y sunt numere reale.
+    1. Se consider determinantul D ( x, y) = x
+
+                                                       x2 +1 y2 +1 5
+
+5p a) Calculai D (1, -1) .
+
+5p b) Artai c D ( x, y) = ( x - 2)( y - 2)( y - x) , pentru orice numere reale x i y .
+
+( ) 5p c) Determinai numerele reale x pentru care D 2x , 4x = 0 .
+
+                                               1 1 x
+                                                          
+    2. Se consider matricea       A  (  x)  =    1  x  1    ,  unde  x     este            numr  real.
+                                                 x  1  1  
+
+5p a) Calculai A(1) - A(-2) .
+
+5p b) Demonstrai c A(n) este inversabil pentru orice numr natural n , n  1 .
+
+5p c) Determinai inversa matricei A(0) .
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+    1.  Se  consider  irul  de    numere       reale  (an )n1 ,  an  =     n+           1  .
+                                                                            n2
+
+5p  a) Artai c   an+1  <1      pentru orice numr natural nenul                          n.
+                  an
+
+5p b) Demonstrai c irul (an )n1 este mrginit.
+
+5p  c) Calculai   lim  (  nan  )  n2+2 .
+
+                 n+
+
+    2. Se consider funcia         f :,              f ( x) = 20,x + a,     x<2                   a  i   b  sunt numere reale.
+                                                                           x = 2 , unde
+                                                               x-b
+                                                               2x +1    ,  x>2
+
+5p a) Determinai ecuaia asimptotei spre + la graficul funciei f .
+
+5p b) Determinai numerele reale a i b pentru care funcia f este continu pe  .
+
+( ) 5p c) Pentru b = 2 , rezolvai în mulimea (2, + ) inecuaia (7  f ( x) -1) 2x -16  0 .
+
+Prob scris la matematic M_mate-info                                                                     Simulare pentru elevii clasei a XI-a
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

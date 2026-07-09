@@ -1,0 +1,154 @@
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+                                          Examenul naional de bacalaureat 2022
+                                                            Proba E. c)
+
+                                                     Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+                                                                                                                      Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                       (30 de puncte)
+
+1. 2 ( 2 -1)(2 + 2) = (2 - 2)(2 + 2) =                                                                            3p
+
+      =4-2=2                                                                                                      2p
+
+2. f ( x) = 0  2x2 - 4x = 0                                                                                       3p
+
+      x = 0 sau x = 2                                                                                             2p
+
+3. 2x-3 = 2-2x  x - 3 = -2x                                                                                       3p
+
+      x =1                                                                                                        2p
+
+4.    Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                          2p
+      posibile
+
+      În mulimea numerelor naturale de dou cifre sunt 9 numere care sunt multipli de 11, deci
+
+      sunt   9     cazuri favorabile, de unde obinem                 p  =  9   =  1                               3p
+                                                                           90     10
+
+5. AC = 5                                                                                                         2p
+
+      BC = 42 + 32 = 5 , deci AC = BC , de unde obinem c triunghiul ABC este isoscel                              3p
+
+6.    tg        =     3  ,  sin     =1,  cos     =   3                                                            3p
+          3                      2            6      2
+
+      E            =     3 +1- 2      3   =1                                                                      2p
+             3                        2
+
+SUBIECTUL al II-lea                                                                                               (30 de puncte)
+
+1.a)       (1)   =    2     -1        det (M     (1))  =  2    -1    =  2  3  -  ( -1)   ( -2 )  =
+                      -2    3                             -2   3
+      M                                                                                                           3p
+
+      =6-2= 4                                                                                                     2p
+
+b)        (  x)       (1)   =    4x + 2       -4x -1      =
+                                 -8x - 2      8x + 3 
+      M            M                                                                                              3p
+
+      =    (4x     +1) +1         -(4x   + 1)     =  M    (4x  + 1)  ,  pentru   orice  numr          real  x     2p
+           -2(     4x +1)        2(4x +  1) +  1
+         
+
+c) M ( x)  M (1)  M (1) = (M ( x)  M (1))  M (1) = M (4x +1)  M (1) = M (16x + 5) , pentru orice 3p
+
+     numr real x
+
+      M (16x + 5) = M ( x + 2) ,          de unde obinem             16x + 5 =          x + 2 , deci  x  =  -  1  2p
+                                                                                                               5
+
+2.a) (-1) 0 = 5 (-1)  0 +10(-1) +10  0 +18 =                                                                      3p
+
+      = -10 + 18 = 8                                                                                              2p
+
+b) x y = 5xy +10x +10y + 20 - 2 = 5x( y + 2) +10( y + 2) - 2 =                                                    3p
+
+      = (5x +10)( y + 2) - 2 = 5( x + 2)( y + 2) - 2 , pentru orice numere reale x i y                            2p
+
+Prob scris la matematic M_t-nat                                                                                   Varianta 3
+Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+                                                                Ministerul Educaiei
+                                              Centrul Naional de Politici i Evaluare în Educaie
+
+c) m m = 5(m + 2)2 - 2 , pentru orice numr întreg m                                                                                             2p
+
+5(m + 2)2 - 2 = m  (m + 2)(5m + 9) = 0 i, cum m este numr întreg, obinem m = -2                                                                 3p
+
+SUBIECTUL al III-lea                                                                                                             (30 de puncte)
+
+( ) 1.a)
+f '(x) =        2x ( x -1) - x2 +1                  +   1        =                                                                              3p
+                                                       x -1
+                      ( x -1)2
+
+=  x2    - 2x -1+         x -1 =        x2 - x - 2         ,  x  (1, +)                                                                         2p
+
+          ( x -1)2                      ( x -1)2
+
+b) f (2) = 5, f '(2) = 0                                                                                                                        2p
+
+Ecuaia tangentei este y - f (2) = f '(2)( x - 2) , adic y = 5                                                                                   3p
+
+c) f '( x) = 0  x = 2 ; pentru x (1,2]  f '( x)  0 , deci f este descresctoare pe (1,2] i                                                       3p
+
+pentru x [2,+)  f '( x)  0 , deci f este cresctoare pe [2,+)
+
+f ( x)  f (2) , pentru orice                        x (1, +) , de unde obinem                    x2 +1  +  ln ( x  -1)     5,    pentru  orice  2p
+                                                                                                 x -1
+
+x (1,+)
+
+2( ) 2.a)f(x)6x2      +1    dx  =    2  (  x  +  4  )  dx  =     x2         2                                                                   3p
+                                                                 2   + 4x     =
+                                     
+                                                                            0
+0                                    0
+
+= 2 + 8 = 10                                                                                                                                    2p
+
+2( ) ( )    b)                             2                        1   2  6x2  +1  '         1                2
+0        (  x)        4                    0     x                  12  0  6x2  +1            12  ln  6x2 +1     =
+      f         -  6x2 +1  dx        =        6x2         1  dx  =                     dx  =                                                    3p
+                                                                                                               0
+                                                       +
+
+=  1     ln  25    =  ln 5                                                                                                                      2p
+   12                  6
+
+( ) ( ) ( )     c)1                                                                                                     1     1
+0  x  +4      e2xdx   =     1   6x2 +1                         1     6x2 +1       e2x     '   =   6x2 +1       e2x      0  -  0  6 xe2 x dx  =
+   f                        0                                                      2      dx                    2   
+      (x)                                         e2xdx =
+                                                                                                                                                3p
+                                                               0
+
+=  7e2 -     1  -  3xe2     x  1  +  3e 2 x      1 = 2e2      -2
+      2                        0       2         0
+
+( ) 2e2 - 2 = m e2 -1 , de unde obinem m = 2                                                                                                    2p
+
+Prob scris la matematic M_t-nat                                                                                                                 Varianta 3
+Barem de evaluare i de notare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

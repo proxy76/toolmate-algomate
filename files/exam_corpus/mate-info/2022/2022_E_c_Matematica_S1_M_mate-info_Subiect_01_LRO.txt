@@ -1,0 +1,109 @@
+                                             Ministerul Educaiei
+                           Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2022                                         Varianta 1
+                                                                                                                (30 de puncte)
+                                                          Proba E. c)
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+( ) 5p 1. Artai c 8 - 6 6 + 6 6 -1 = 2 .
+
+5p 2. Se consider funcia f :    , f ( x) = 3x + m , unde m este numr real. Determinai numrul
+    real m pentru care ( f f )(0) = 4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 22x + 4x = 4 .
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre,
+
+      acesta s aib cifra zecilor divizor al numrului 6 .
+
+5p 5. În reperul cartezian xOy se consider dreapta d de ecuaie y = 3x - 2 i punctul A(a,a) , unde
+
+      a este numr real. Determinai numrul real a , tiind c punctul A aparine dreptei d .
+5p 6. Se consider triunghiul isoscel ABC , cu AB = 10 i cos A = 0 . Artai c aria triunghiului ABC
+
+      este egal cu 50 .
+
+SUBIECTUL al II-lea                                                                                             (30 de puncte)
+
+                                           1     -x        x2    
+                                                                 
+1. Se consider matricea A( x) =  0 1 -2x  , unde x este numr real.
+                                                                 
+                                           0     0         1     
+
+5p a) Artai c det ( A(1)) =1 .
+
+5p b) Artai c A( x)  A( y) = A( x + y) , pentru orice numere reale x i y .
+
+( ) 5p c) Determinai numrul natural n pentru care A(n)  A(n +1)  A(n + 2)  A(n + 3) = A 2n2 .
+
+2.  Pe  mulimea  M    = [0, +)  se    definete          legea    de  compoziie          x  y  =   2x  +   2y .
+                                                                                                 y+2     x+2
+
+5p a) Artai c 1 0 = 1.
+
+5p b) Artai c e = 0 este elementul neutru al legii de compoziie ,,  ".
+
+5p c) Determinai x  M , x nenul, pentru care x  4 = x .
+                                                                x
+
+SUBIECTUL al III-lea                                                                                            (30 de puncte)
+
+1. Se consider funcia      f :,               f  (  x)  =  2  +  ex  x     .
+                                                                     -
+                                                                        x
+
+a) Artai c  f    '( x)  =  ex (1- x)  ,  x .
+
+                            ex - x 2
+( ) 5p
+
+5p b) Determinai intervalele de monotonie a funciei f .
+
+5p c) Demonstrai c, pentru orice m(1,2] , ecuaia f ( x) = m are soluie unic.
+
+Prob scris la matematic M_mate-info                                                                             Varianta 1
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 1 din 2
+                                                         Ministerul Educaiei
+                                       Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia f :    , f ( x) = 3 - x + x2 + 9 .
+
+         ( ) 5         1
+
+5p a) Artai c  f ( x) - x2 + 9 dx = 0 .
+
+5p  b)  Artai    c     4  f      x  x  - 3 dx  =  2.
+
+                             (x) +
+
+                       0
+
+5p  c) Pentru    fiecare numr natural             nenul  n  se consider numrul          In     1  f  xn   dx  .  Demonstrai c
+
+                                                                                            =        (x)
+
+                                                                                               0
+
+     lim  In  =  0  .
+
+    n+
+
+Prob scris la matematic M_mate-info                                                                              Varianta 1
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 2 din 2
+

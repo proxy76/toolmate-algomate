@@ -24,7 +24,7 @@ def _l(expr) -> str:
 
 class PolynomialsProblem(ProblemGenerator):
     TOPIC_CODE = "polynomials"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _generate_context(self) -> dict:
         c0 = self.rng.choice([2, -2, 3, 1, -1])

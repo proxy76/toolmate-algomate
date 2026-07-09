@@ -1,0 +1,69 @@
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul naional de bacalaureat 2021
+                                                       Proba E. c)
+
+                                                          Matematic                                            Testul 2
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+5p 1. Artai c log3 6  log3 2  log3 4  1 .
+
+5p 2 Se consider funcia f :  , f  x  3x  4 . Determinai numrul real m pentru care punctul
+
+    A(m, m) aparine graficului funciei f .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x  2x23 .
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre, acesta
+
+      s aib suma cifrelor egal cu 9.
+
+5p 5. În reperul cartezian xOy se consider punctele A3,5 i B1,3 . Determinai coordonatele
+
+     punctului M , unde M este simetricul punctului A fa de punctul B .
+
+5p 6. Artai c cos120  sin 302  cos2 30  cos2 60 .
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y  xy  4 x  y  20 .
+
+5p 1. Artai c 4  2021  4 .
+5p 2. Artai c legea de compoziie ,,  " este comutativ.
+
+5p 3. Demonstrai c x  y   x  4 y  4  4 , pentru orice numere reale x i y .
+
+5p 4. Determinai numerele reale x pentru care x   x  4  x .
+
+5p 5. Artai c x  y  8 , pentru orice numere reale x i y , cu x  6 i y  6 .
+
+5p 6. Calculai 12  22 32 ... 20212 .
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+                                      2  1 1                0           x      x           3     
+    Se consider matricele  A                  ,  I2              i   M         1                   ,  unde  x  este numr  real.
+                                     3   0               0  1                           x     2  
+                                                               
+
+5p 1. Artai c det A  3 .
+
+5p                                    1 1
+    2. Artai c A  M (6)  4  1 1 .
+
+5p 3 Artai c det M  x   x 1 x  3 , pentru orice numr real x .
+
+5p 4. Determinai numerele întregi a pentru care det  A  M 2  9  a2 .
+
+5p 5. Determinai numrul real x pentru care M  x  M  x  4I2 .
+5p 6. Determinai numrul natural n pentru care M (n)  M n 1  M n  2  3M 2022 .
+
+Prob scris la matematic M_pedagogic                                                                                       Testul 2
+
+                                                     Pagina 1 din 1
+

@@ -152,7 +152,7 @@ def _irr_extraneous(rng):                     # sqrt(ax + b) = x - c   (M1/M2)
         "equations",
         WRAP.format(rf"\sqrt{{{_l(rad)}}} = x - {c}"),
         ans,
-        hint_latex=rf"Condiția de existență: $x \ge {c}$. Ridicați la pătrat și verificați "
+        hint_latex=rf"Condiția de existență: $x \geq {c}$. Ridicați la pătrat și verificați "
                    rf"soluțiile.",
         steps_latex=[rf"${_l(rad)} = (x - {c})^2$", ans.strip("$")],
     )
@@ -214,7 +214,7 @@ _TIERS_M3 = {1: [_exp_simple, _exp_prod, _log_simple, _log_linear, _irr_simple, 
 
 class EquationsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "equations"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        return _TIERS_M3 if self.profile == "M3" else _TIERS
+        return _TIERS_M3 if self.profile == "pedagogic" else _TIERS

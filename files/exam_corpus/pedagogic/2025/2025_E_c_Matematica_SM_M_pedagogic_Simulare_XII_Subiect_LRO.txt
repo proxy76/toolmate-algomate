@@ -1,0 +1,84 @@
+                                               Ministerul Educaiei i Cercetrii
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                     Examenul naional de bacalaureat 2025
+                                                       Proba E. c)
+
+                                              Matematic M_pedagogic
+
+                                                                                                           Simulare
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                (30 de puncte)
+
+  5p 1. Artai c 5 2 5  10  2  5 2  8 .
+
+5p 2. Se consider funciile f :    , f  x  3x 1 i g :    , g  x  x  7 . Determinai abscisa
+
+    punctului de intersecie a graficelor funciilor f i g .
+
+5p  3.  Rezolvai  în  mulimea        numerelor      reale     ecuaia    33x               1     9x .
+                                                                                          33
+
+5p 4. În cadrul unei campanii promoionale toate produsele se vând cu 70% din preul afiat la raft, iar
+
+    produsele electronice sunt ieftinite cu înc 10% din noul pre. Determinai preul de vânzare în cadrul
+
+      campaniei al unui produs electronic cu preul afiat la raft de 900 de lei.
+
+5p 5. În reperul cartezian xOy se consider punctele A1,5 , B5,3 , C 8,4 i D , mijlocul
+
+    segmentului AB . Artai c triunghiul ODC este isoscel.
+
+5p 6. Se consider triunghiul ABC dreptunghic în A , cu AB  4 i sin B  1 . Artai c AC  2 .
+                                                                                               3
+
+SUBIECTUL al II-lea                                                                                        (30 de puncte)
+
+       Pe mulimea numerelor reale se definete legea de compoziie x y  x  y  xy 1 .
+                                                                                                     6
+
+5p 1. Artai c 2 3  5 .
+
+5p 2. Artai c x y  7  1  x  6 y  6 , pentru orice numere reale x i y .
+
+                                    6
+5p 3. Determinai numrul real x pentru care x 4  4 .
+
+5p 4. Determinai perechile m, n de numere întregi, cu m  n , pentru care m n  1 .
+
+                                                                                                          6
+
+5p 5. Determinai numerele reale x pentru care 0 x  x 1 1.
+5p 6. Determinai tripletele a,b,c de numere reale, tiind c numerele a , b i c sunt, în aceast ordine,
+
+      termeni consecutivi ai unei progresii aritmetice cu raia 6 i b c  5 .
+
+SUBIECTUL al III-lea                                                                                       (30 de puncte)
+
+    Se consider matricele        I2        1  0        A        0   1   i    B              x       2x     3x 1
+                                           0  1  ,              0   0                              1  x      1  , unde x este numr real.
+
+5p 1. Artai c det  B1  2 .
+
+5p 2. Artai c B1  B2  B2 11A .
+
+5p 3. Determinai numrul real a pentru care det  B 1  aA  0 .
+
+5p  4.  Artai c   B       x      2B    x      3B    x    ,  pentru  orice  numr                  real  x.
+                                                    3
+
+5p 5. Determinai numrul real x pentru care A   B  x  I2   B  x  A .
+
+5p 6. Artai c, pentru orice numere întregi m i n , numrul N  det  B2m  B 2n 1 este natural,
+
+    multiplu impar de 3 .
+
+Prob scris la matematic M_pedagogic                                                                        Simulare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

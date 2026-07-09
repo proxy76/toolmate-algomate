@@ -1,0 +1,166 @@
+                                                      Ministerul Educaiei Naionale
+                                               Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2013
+
+                                                         Proba E. c)
+
+                                                   Matematic M_mate-info
+
+                                               Barem de evaluare i de notare
+
+                                                                                                   Varianta 6
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                       (30 de puncte)
+
+( ) 1.
+                 2                                                                                       3p
+
+         3 -1 = 4- 2 3
+
+      n = 4                                                                                              2p
+
+2. f ( x) = g ( x)  x +1 = 2x -1                                                                         2p
+
+      x=2 y=3                                                                                            3p
+
+3. 6 - x2 = x  x2 + x - 6 = 0                                                                            3p
+
+      x = -3 sau x = 2                                                                                   2p
+
+4. Numerele abc cu a + b + c = 2 sunt 101, 110 i 200  3 cazuri favorabile                                2p
+
+      Numrul numerelor de 3 cifre este 900  900 de cazuri posibile                                       1p
+
+      p = nr. cazuri favorabile = 1                                                                      2p
+              nr. cazuri posibile 300
+
+5. Mijlocul segmentului AB este punctul M (2, 2)                                                         2p
+
+      mAB     =  yB  -    yA    =  -1  panta   mediatoarei  segmentului    AB  este  egal  cu  1                 2p
+                 xB  -    xA                                                                                     1p
+                                                                                                                 3p
+      Ecuaia mediatoarei segmentului AB este y = x                                                               2p
+                                                                                                  (30 de puncte)
+    6. ABC dreptunghic în A  R = BC
+                                                  2                                                              2p
+
+         R=4
+SUBIECTUL al II-lea
+
+1.a)                       1 0 1 1 1 1
+                                       11  11      11 =
+      A(0)       A(1)   =    1     -1          -1
+                             0     -1          -1
+
+         2 0 2
+                        
+      =    1     1   1                                                                                   3p
+           0     0   0
+
+b)                         1 x1
+
+      det ( A(x)) = 1 -1 1 = -1-1+ x2 + x - x +1 =                                                       3p
+
+                           x -1 1
+
+      = x2 -1                                                                                            2p
+
+( ) c) ( A( x))-1 este inversa lui A( x)  A( x) ( A( x))-1 = I3  det ( A( x))  det ( A( x))-1 = 1        1p
+
+      x   det ( A( x))                                                                                   1p
+
+      ( ) ( A( x))-1 are elementele numere întregi  det ( A( x))-1                                       1p
+
+      det ( A( x)) = ±1  x = 0 care verific cerina                                                       2p
+
+Prob scris la matematic M_mate-info                                                                Varianta 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        1
+                                                  Ministerul Educaiei Naionale
+                                           Centrul Naional de Evaluare i Examinare
+
+2.a) 2 3 = 4  9 + 4 + 9 =                                                                            3p
+
+    =7                                                                                               2p
+
+( ) ( ) ( ) b) x y = x2 y2 +1 + y2 = x2 y2 +1 + y2 +1 -1 =                                           2p
+
+    ( )( ) = x2 +1 y2 +1 -1 , pentru orice x, y                                                      3p
+
+( ) c) x x x = x2 +1 3 -1                                                                            2p
+
+       ( ) x2 +1 3 -1 = x  x = 0 , care verific ecuaia                                               3p
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+1.a) g '(x) = 2x + 2 , pentru orice x                                                                3p
+
+    g '(2) = 6                                                                                       2p
+
+b)         2ex  -  x2 -  2x  -  2          2e x  - 2x  -      2
+                   2x3                           6x2
+    lim                            =  lim                        =                                   2p
+
+    x0                                x0
+
+    = lim ex -1 = 1                                                                                  3p
+        x0 6x 6
+
+c) h :[0, +)   , h( x) = 2 f ( x) - g ( x)  h '( x) = 2ex - 2x - 2 i h ''( x) = 2ex - 2  0 , pentru 2p
+   orice x [0, +)
+                                                                                                     1p
+    h ' cresctoare  h '( x)  h '(0) = 0 , pentru orice x [0, +)
+
+    h cresctoare  h( x)  h(0) = 0 , pentru orice x [0, +)                                            2p
+
+2.a) ( x + 2) f ( x) = x2 + 4x + 5                                                                   1p
+
+    ( ) 1                        x3      2x2           1
+                                 3                     0
+    0
+        x2 + 4x + 5  dx  =            +       +  5x        =                                         2p
+
+    = 22                                                                                             2p
+
+        3
+
+b)              x2                                             1
+    F(x) =      2   + 2x + ln(x + 2)                          x+2
+                                              =  x+2+                  ,  pentru  orice  x  (-2, +)  3p
+
+    F '( x) = f ( x) , pentru orice x  (-2, +)  F este o primitiv a funciei f                        2p
+
+c) 0                         0
+     F (x)  f (x)dx =  F (x)  F(x)dx =
+                                                                                                     2p
+
+    -1                       -1
+
+    =   F 2(x)  0=   F 2 (0)     - F 2 (-1)   =  1     ln  2  2  -  9                                3p
+          2     -1               2               2                  4  
+
+Prob scris la matematic M_mate-info                                                                  Varianta 6
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        2
+

@@ -1,0 +1,100 @@
+                                           Ministerul Educaiei
+                         Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2023                                   Model
+                                                          Proba E. c)                               (30 de puncte)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p 1. Determinai numerele reale a i b pentru care (a + bi)(1+ i) = 4 , unde i2 = -1.
+5p 2. Se consider funcia f :    , f ( x) = mx2 - 2x + m , unde m este numr real nenul.
+
+    Determinai numerele reale m pentru care f (m - x) = f (m + x) , pentru orice numr real x .
+
+( ) 5p 3. Rezolvai în mulimea numerelor reale ecuaia 2log2 (2x) -1 = log2 x2 + x + 2 .
+
+{ } 5p 4. Se consider mulimile A = {1,2,3,4} i F = f f : A  A . Determinai probabilitatea ca, alegând
+
+    un element f din mulimea F , acesta s verifice inegalitatea f (n)  n , pentru orice n  A .
+5p 5. În reperul cartezian xOy se consider punctele A(5,3) i B(-1,5) . Determinai coordonatele
+
+      punctului C , tiind c CA + CB = 2OC .
+5p 6. Se consider triunghiul ABC , cu AB = 8 , msura unghiului C de 30° i punctul O , centrul
+
+      cercului circumscris triunghiului ABC . Determinai distana de la punctul O la latura AB .
+
+SUBIECTUL al II-lea                                                                                 (30 de puncte)
+
+                                     3 a -2                                                         3x + ay - 2z = b
+                                                   -11                                              (2a +1) x + (1 - a) y - z
+1. Se consider matricea  A(  a)  =    2a +1  1- a       i  sistemul                     de  ecuaii  (a + 2) x - 2 y + z = -1   =c  ,
+                                      a+2     -2
+
+unde a , b i c sunt numere reale.
+
+5p a) Artai c det ( A(0)) = 5 .
+
+5p b) Determinai numerele reale a pentru care matricea A(a) este inversabil.
+
+5p c) Determinai numerele reale b i c pentru care sistemul de ecuaii este compatibil, oricare ar fi
+      numrul real a .
+
+      2. Se consider polinomul f = X 4 + aX 3 + aX 2 + 8X - 8 , unde a este numr real.
+
+5p a) Artai c f (-1) = -15, pentru orice numr real a .
+
+5p b) Determinai numrul real a pentru care restul împririi polinomului f la polinomul g = X 2 -1
+      este egal cu 15X .
+
+5p c) Artai c, pentru orice numr real a , polinomul f nu are toate rdcinile numere întregi.
+
+SUBIECTUL al III-lea                                                                                (30 de puncte)
+
+   ( ) 1. Se consider funcia f :    , f ( x) = 1- x - x4 -1 arctgx .
+
+5p a) Artai c f ( x) = -x2 (4xarctgx +1) , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f care este paralel cu axa Ox .
+
+5p c) Demonstrai c tg( f ( x))  f ( x)  f (tgx) , pentru orice x [0,1] .
+
+Prob scris la matematic M_mate-info                                                                                   Model
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 1 din 2
+                                                  Ministerul Educaiei
+                                Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia       f :,         f  (x)  =  x2 + ex  .
+                                                        1+ e-x
+
+                              3
+
+( ) 5p  a) Artai c 1+ e-x f ( x)dx = 8 + e3 .
+                  0
+
+5p  b)  Artai  c  m    f  (x)   dx = m ,  pentru orice  m (0, +) .
+                      x2
+                          + ex
+
+                  -m
+
+ 5p                                                                                        1      x           
+    c) Determinai numrul real nenul       a     pentru care  lim                        eax -  1  0  f
+                                                                                                        (t )dt  = 1.
+                                                             x0
+
+Prob scris la matematic M_mate-info                                                                                   Model
+Filiera teoretic, profilul real, specializarea matematic-informatic
+
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+                                                                        Pagina 2 din 2
+

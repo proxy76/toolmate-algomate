@@ -1,0 +1,107 @@
+                                                Ministerul Educaiei i Cercetrii
+                                        Centrul Naional pentru Curriculum i Evaluare
+
+                                       Examenul naional de bacalaureat 2025
+
+                                                               Proba E. c)
+
+                                                       Matematic M_t-nat
+
+                                                                                                                                Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                  (30 de puncte)
+
+5p 1. Artai c 2  (1,1 + 0,3) -1,8 = 1 .
+
+5p 2. Se consider funcia f :    , f ( x) = 2x + 4 . Determinai numrul real a pentru care
+
+    f (a) = a  f (0) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2 - x = x2 + x -1 .
+
+5p 4. Determinai probabilitatea ca, alegând un numr n din mulimea numerelor naturale de o cifr,
+
+    acesta s verifice inegalitatea n3 > 10 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(1, 4) , B (2,0) i C (8, 2) . Determinai distana
+
+    dintre punctul A i mijlocul segmentului BC .
+
+5p  6. Se  consider  triunghiul        ABC , dreptunghic           în     A , cu        BC  = 10  i    sin B =  2  .  Artai  c  AC     =4.
+                                                                                                                5
+
+SUBIECTUL al II-lea                                                                                                          (30 de puncte)
+
+    1. Se  consider matricele              =  1        0    i  A(  x)  =    2  + 2x             x      ,  unde     este  numr   real.
+                                       I2                                      -x              - 2x             x
+                                                0      1                                    2        
+
+5p a) Artai c det ( A(1)) =1 .
+
+5p b) Artai c A(2)  A(1) + 3A(-2) = 16I2 .
+5p c) Determinai numrul întreg nenul m pentru care matricea B(m) = 1 A(-m) este inversa matricei
+
+                                                                                          m
+
+     A(m) .
+
+    2. Se consider polinomul f = X 3 - 3X 2 - 3X + a , unde a este numr real.
+
+5p a) Pentru a =1, artai c f (-1) = 0 .
+
+5p b) Determinai numrul real a pentru care 3x1 + 3x2 + 3x3 - x1x2 x3 = 3 , unde x1 , x2 i x3 sunt
+      rdcinile polinomului f .
+
+5p c) Pentru a = 9 , determinai rdcinile polinomului f .
+
+SUBIECTUL al III-lea                                                                                                         (30 de puncte)
+
+    1. Se consider funcia           f :,               f  (x)  =  x2 -  8   .
+                                                                   ex
+
+5p  a) Artai c   f   '(  x)  =  (x  +  2)(4   -    x)  ,  x .
+
+                                        ex
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x = 0 , situat pe graficul
+
+    funciei f .
+
+5p c) Demonstrai c - 4e2  f ( x)  e3 , pentru orice x [-3, 4] .
+
+    2. Se consider funcia f : (0, +)   , f ( x) = 6x + 2ln x .
+
+                                                                       x
+
+5p  a) Artai  c  3   f   ( x) -  2  ln  x     dx   = 15 .
+                                    x      
+                 2 
+
+                               e
+
+5p b) Artai c ( f ( x) - 6x)dx = 1 .
+
+                 1
+
+Prob scris la matematic M_t-nat                                                                                                        Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+                                   Ministerul Educaiei i Cercetrii
+                           Centrul Naional pentru Curriculum i Evaluare
+
+                                           e2   f  (x) +                                            
+                                             
+                                                                                           '( x)ln x  dx = af
+( ) 5p                                                                                                         e2  .
+c) Determinai numrul real  a  pentru care  1 x                                          f  
+
+Prob scris la matematic M_t-nat                                                                                       Varianta 3
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

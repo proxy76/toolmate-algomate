@@ -1,0 +1,96 @@
+                                                      Ministerul Educaiei Naionale
+                                               Centrul Naional de Evaluare i Examinare
+
+                                         Examenul de bacalaureat naional 2017
+
+                                                             Proba E. c)
+
+                                                        Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic                                                        Varianta 2
+Filiera vocaional, profilul militar, specializarea matematic-informatic                                            (30 de puncte)
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Se consider numrul complex z = 2 + i . Artai c z + z + zz = 9 , unde z este conjugatul lui z .
+
+5p 2. Determinai numrul real m , tiind c punctul A(1, m) aparine graficului funciei f :    ,
+
+    f (x) = x2 + 2x - 3.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia (1- log2 x)(2 - log2 x) = 0 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre, acesta
+      s aib cifra zecilor strict mai mic decât cifra unitilor.
+
+5p 5. În reperul cartezian xOy se consider punctele A(3,1) , B (3,3) i C (0, 2) . Determinai lungimea
+
+    medianei din C a triunghiului ABC .
+
+( ) ( ) 5p                                                                                                     
+    6. Artai c    1+ tg2 x     cos2 x - 1 + ctg2x            sin 2    x=0,     pentru     orice  x      0,  2   .
+
+SUBIECTUL al II-lea                                                                                                (30 de puncte)
+
+                                                  1      1      2                                       x + y + 2z = 0
+                                                         2                                              x + 2 y + az = 0
+    1.  Se consider matricea       A  (  a  )  =     1   -1     a        i sistemul       de  ecuaii  -2x - y + 3z = 0    ,  unde  a  este
+                                                     -2         3
+
+      numr real.
+
+5p a) Artai c det ( A(9)) = 0 .
+
+5p b) Determinai valorile reale ale lui a pentru care sistemul are soluie unic.
+
+5p c) Demonstrai c, dac sistemul are soluia ( x0 , y0, z0 ) , cu x0 , y0 i z0 numere reale nenule, atunci
+     -x0 + y0 + z0 = 11( x0 + y0 + z0 ) .
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x y = xy + 7x + 7 y + 42 .
+
+5p a) Artai c x y = ( x + 7)( y + 7) - 7 , pentru orice numere reale x i y .
+
+5p b) Determinai numerele reale x , tiind c x x = x .
+
+5p c) Determinai numrul real a , tiind c 2017a (-6) = 1 .
+
+SUBIECTUL al III-lea                                                                                               (30 de puncte)
+
+    1. Se consider funcia      f   : (1,+)   ,           f   (  x  )  =  ln x  .
+                                                                         1- x
+
+5p  a) Artai c    f  '( x)  =  1- x +    x ln     x  ,  x (1,+) .
+
+                                x (1 -   x)2
+
+5p b) Determinai ecuaia asimptotei orizontale spre + la graficul funciei f .
+
+5p c) Demonstrai c x ln x > x -1, pentru orice x (1,+) .
+
+    2. Se consider funcia f :    , f ( x) = ex + 3x2 .
+
+                              1
+
+( ) 5p a) Artai c  f ( x) - 3x2 dx = e -1 .
+                  0
+
+5p  b)  Artai  c  1  x  f  ( x)dx  =  7     .
+
+                                      4
+
+                  0
+
+5p c) Determinai numrul natural nenul n , pentru care suprafaa plan delimitat de graficul funciei
+
+    g :    , g ( x) = f ( x) - ex , axa Ox i dreptele de ecuaii x = 0 i x = n are aria egal cu
+
+    n2 - n +1 .
+
+Prob scris la matematic M_mate-info                                                                                          Varianta 2
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                          Pagina 1 din 1
+

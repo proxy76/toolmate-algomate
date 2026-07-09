@@ -129,7 +129,7 @@ _TIERS = {
 
 class ArithmeticGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "arithmetic"
-    SUPPORTED_PROFILES = ["M2", "M3"]
+    SUPPORTED_PROFILES = ["tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
         return _TIERS

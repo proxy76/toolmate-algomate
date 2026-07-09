@@ -4,14 +4,7 @@ import { useState } from "react";
 import { api, apiErrorMessage } from "../api";
 import { TeX } from "../components/TeX";
 import type { Profile, SimItem, SimProblem, SimSubItem, SimulateResponse } from "../types";
-
-// Bare profile codes for now. Correct mapping (labels TBD): M1 = mate-info,
-// M2 = tehnologic, M3 = pedagogic.
-const PROFILES: { code: Profile; label: string }[] = [
-  { code: "M1", label: "M1" },
-  { code: "M2", label: "M2" },
-  { code: "M3", label: "M3" },
-];
+import { PROFILES } from "../types";
 
 const TOPIC_LABELS: Record<string, string> = {
   matrices: "Matrice",
@@ -22,7 +15,7 @@ const TOPIC_LABELS: Record<string, string> = {
 };
 
 export function Simulate() {
-  const [profile, setProfile] = useState<Profile>("M1");
+  const [profile, setProfile] = useState<Profile>("mate-info");
   const [data, setData] = useState<SimulateResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [pdfLoading, setPdfLoading] = useState(false);

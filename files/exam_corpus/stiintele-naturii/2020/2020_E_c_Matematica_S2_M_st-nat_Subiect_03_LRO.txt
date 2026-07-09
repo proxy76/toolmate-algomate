@@ -1,0 +1,89 @@
+                                                 Ministerul Educaiei i Cercetrii
+                                       Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul de bacalaureat naional 2020                 Varianta 3
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                (30 de puncte)
+
+5p 1. Determinai primul termen al progresiei aritmetice (an )n1 , tiind c a2 = 3 i a3 = 5 .
+
+5p 2. Se consider funcia f :    , f ( x) = x2 -1. Determinai numrul natural n pentru care
+
+    f (n) = 3.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia x2 - 9 = x -1 .
+
+5p 4. Determinai numrul de submulimi cu trei elemente ale mulimii {1, 2,3, 4} .
+
+5p 5. În reperul cartezian xOy se consider punctele M (1,1) , N (3,3) , P (4,3) i Q(1, a) , unde a este
+
+    numr real. Determinai numrul real a , pentru care patrulaterul MNPQ este trapez cu bazele MN
+
+    i PQ .
+
+5p 6. Calculai lungimea ipotenuzei BC a triunghiului dreptunghic ABC , în care AB = 5 i cos B = 1 .
+                                                                                                                             2
+
+SUBIECTUL al II-lea                                                                        (30 de puncte)
+
+                                       a 0
+    1. Se consider matricea A =  0 b  , unde a i b sunt numere reale.
+
+5p a) Artai c det ( A  A) = a2b2 , pentru orice numere reale a i b .
+
+5p b) Se consider matricea X  M2 () astfel încât A  X = X  A . Demonstrai c, dac a i b sunt
+
+                                                                                                 x 0
+      numere reale distincte, atunci exist numerele reale x i t astfel încât X =  0 t  .
+
+5p c) Pentru a = 4 i b = 0 , determinai matricele Y  M2 () pentru care Y Y = A .
+    2. Pe mulimea M = [0,+) se definete legea de compoziie x  y = x y +1 + y x +1 .
+
+5p a) Artai c 3 3 = 12 .
+5p b) Demonstrai c x  0 = 0  x = x , pentru orice x  M .
+
+( ) 5p c) Determinai x  M pentru care x2 + 2x  3 = 7 .
+
+SUBIECTUL al III-lea                                                                       (30 de puncte)
+
+    1. Se consider funcia f : (-1,+)   , f ( x) = x ln ( x +1) .
+
+5p a) Artai c f '( x) = ln ( x +1) + x , x (-1, +) .
+
+                                              x +1
+5p b) Artai c funcia f este convex.
+
+5p c) Se consider funcia g : (-1,0]   , g ( x) = ( x +1)x . Demonstrai c, dac x1, x2 (-1,0] astfel
+    încât x1  x2 , atunci g ( x1 )  g ( x2 ) .
+
+    2. Se consider funcia f :[0,1]   , f ( x) = 1- x3 .
+
+5p  a)  Artai   c  1  f  ( x)dx  =  3  .
+
+                                    4
+
+                   0
+
+5p  b)  Artai   c  1      f  ( x))3 dx =  1   .
+
+                    x2 (                  12
+
+                   0
+
+                          1                      1
+5p c) Demonstrai c  ( f ( x))n+1 dx   ( f ( x))n dx , pentru orice numr natural nenul n .
+
+                          0                      0
+
+Prob scris la matematic M_t-nat                                                              Varianta 3
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 1
+

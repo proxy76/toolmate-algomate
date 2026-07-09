@@ -1,0 +1,108 @@
+                                                                    Ministerul Educaiei                                    Simulare
+                                                 Centrul Naional de Politici i Evaluare în Educaie                  (30 de puncte)
+
+                                        Examenul naional de bacalaureat 2023
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p 1. Se consider numerele complexe z1  1  2i i z2  1  i . Artai c z12  4z2  1.
+
+5p 2. Se consider funciile f :    , f  x  3x 1 i g :    , g  x  x2  x  m , unde m este
+
+      numr real. Determinai numrul real m pentru care graficele funciilor f i g au exact un punct
+
+      comun.
+
+    5p 3. Rezolvai în mulimea numerelor reale ecuaia lg x2  9  2lg x 10 .
+
+5p 4. Se consider mulimea A , a numerelor naturale de cel mult dou cifre. Determinai probabilitatea
+     ca, alegând un numr din mulimea A , acesta s fie divizibil cu 9 .
+
+5p 5. În triunghiul ABC , punctul M este mijlocul laturii AC , iar punctele D i E aparin
+      segmentului AB , astfel încât AD  BE . Artai c MD  ME  CB .
+
+5p 6. Determinai x 0,  pentru care sin 2x  1  cos 2x .
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+                                       a 1 2                                                        ax  y  2z  2
+                                               11                                                    x  ay  z  4
+    1. Se consider matricea  Aa          1  a      i sistemul de ecuaii                              2x  2 y  z  2  , unde  a  este
+                                         2  2
+
+      numr real.
+
+5p a) Artai c det  A0 1.
+
+5p b) Determinai mulimea numerelor reale a pentru care sistemul de ecuaii are soluie unic.
+
+5p c) Pentru a  1 , determinai soluiile  x0, y0, z0  ale sistemului pentru care x0 , y0 i z0 sunt numere
+
+    întregi i x0  y0  z0 .
+
+                                                                                                    xy
+       2. Pe mulimea M  1,1 se definete legea de compoziie x  y                                                     .
+
+                                                                                        1 1 x2 1 y2
+
+5p a) Artai c 1 1  1 .
+                         22
+
+5p b) Artai c x  x  x2 , pentru orice x  M .
+5p c) Determinai perechile a,b de numere din mulimea M pentru care a  b  1 .
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+      1. Se consider funcia f :    , f  x  x 1 ln ex  x2 .
+
+5p  a) Artai c  f  ' x    xx  2   ,  x .
+
+                          ex  x2
+
+5p b) Determinai numerele reale a pentru care tangenta la graficul funciei f în punctul de coordonate
+
+    a, f a este paralel cu axa Ox .
+
+5p c) Determinai imaginea funciei f .
+
+Prob scris la matematic M_mate-info                                                                                         Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                     Ministerul Educaiei
+                                   Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia     f : 3,   ,       f x   x2                                 1  .
+                                                      x                                 3
+
+                              3
+
+5p a) Artai c  f  x x  3dx  12 .
+
+                  0
+
+ 5p               1  f x           2.
+    b)  Artai  c  2
+                     x2 1 dx
+
+5p  c)  Demonstrai   c  1  f  1    dx       .
+                                         2
+                              x
+
+                        0
+
+Prob scris la matematic M_mate-info                                                           Simulare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

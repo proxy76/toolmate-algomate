@@ -1,0 +1,98 @@
+                                                   Ministerul Educaiei Naionale
+
+                                             Centrul Naional de Evaluare i Examinare
+
+                                      Examenul de bacalaureat naional 2013
+
+                                                        Proba E. c)
+
+                                                   Matematic M_mate-info
+
+                                                                                                                     Varianta 9
+
+    Filiera teoretic, profilul real, specializarea matematic-informatic
+
+    Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                    (30 de puncte)
+
+5p 1. Determinai raia progresiei geometrice (bn )n1 cu termeni reali, tiind c b1 = 1 i b4 = 27 .
+
+5p 2. Determinai coordonatele vârfului parabolei asociate funciei f :    , f ( x) = x2 - 6x + 8 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3x+2 = 91-x .
+
+5p 4. Calculai probabilitatea ca, alegând la întâmplare un numr din mulimea numerelor naturale de
+
+    dou cifre, acesta s fie ptrat perfect.
+
+5p 5. Se consider punctele A, B i C astfel încât AB = 4i - 3 j i BC = 2i - 5 j . Determinai lungimea
+
+    vectorului AC .
+
+5p 6. Calculai sinusul unghiului A al triunghiului ABC în care AB = 4, BC = 5 i sin C = 4 .
+                                                                                                                  5
+
+SUBIECTUL al II-lea                                                                                            (30 de puncte)
+
+                                                                                          1 1 1
+                                                                                                          
+    1. Pentru fiecare numr         real  m      se consider matricea     A(       m)   =    m  0     0      .
+                                                                                            m  0     m    
+
+5p a) Calculai det ( A(1)) .
+
+                                                                                      -1 1 0
+                                                                                                   
+5p  b) Determinai numerele reale             m   tiind c      A(m)       A(-m)    =    1    1  1     .
+                                                                                       0    1  0
+
+5p c) Artai c det ( A(1) + A(2) + ... + A(101)) = -512 1013 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ dat de
+    x y = xy - 4x - 4 y + 20 .
+
+5p a) Calculai 3 4 .
+
+5p b) Artai c x y = ( x - 4)( y - 4) + 4 , pentru orice numere reale x i y .
+
+5p c) Rezolvai în mulimea numerelor reale ecuaia x x ... x = 5 .
+
+                                                                        x de 2013 ori
+
+SUBIECTUL al III-lea                                                                                           (30 de puncte)
+
+    1. Se consider funcia          f : (0, +)   ,       f     (x)  =     ex    .
+                                                                         + ex
+                                                                      x
+
+    a) Artai c  f   '( x)  =   (x  - 1) e x  ,  pentru  orice  x (0, +) .
+( ) 5p
+                                x  + ex 2
+
+5p b) Determinai ecuaia asimptotei spre + la graficul funciei f .
+
+5p  c) Demonstrai c        f (x)  e , pentru orice             x (0, +) .
+                                   e +1
+
+                                                                                                       1
+
+     2. Pentru fiecare numr natural n se consider numrul In = xe-nx2 dx .
+
+                                                                                       0
+
+5p a) Calculai I0 .
+
+5p b) Artai c In+1  In , pentru orice numr natural n .
+
+5p  c)  Demonstrai  c      In  =  1      -   1     ,  pentru  orice   numr        natural   nenul  n.
+                                  2n  1      en  
+
+Prob scris la matematic M_mate-info                                                                                  Varianta 9
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+

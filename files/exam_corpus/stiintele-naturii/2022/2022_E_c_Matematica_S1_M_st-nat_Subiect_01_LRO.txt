@@ -1,0 +1,101 @@
+                                                          Ministerul Educaiei
+                                        Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2022
+                                                          Proba E. c)
+
+                                                          Matematic M_t-nat
+
+                                                                                                                                        Varianta 1
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                       (30 de puncte)
+
+5p 1. Determinai termenul a1 al progresiei aritmetice (an )n1 , tiind c a2 = 6 i a3 = 12 .
+5p 2. Se consider funcia f :    , f ( x) = x - 5 . Determinai numrul real a pentru care
+
+    f (a) + f (2a) = 2 .
+
+5p  3.  Rezolvai  în  mulimea       numerelor             reale  ecuaia     5x      1   =  25 .
+                                                                                    5
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de dou cifre, acesta s
+
+    fie multiplu de 16 .
+
+5p 5. În reperul cartezian xOy se consider punctele A(3, 2) i B (1, 4) . Determinai coordonatele
+
+    punctului C , astfel încât punctul A este mijlocul segmentului BC .
+
+5p  6. Se consider expresia         E   (  x  )  =  sin   x  +  sin  3x  -  cos  x  , unde    x  este numr real.      Artai c           E         =  1  .
+                                                                     2           2                                                           3  
+
+SUBIECTUL al II-lea                                                                                                               (30 de puncte)
+
+    1. Se  consider      matricele            =     1        -1   ,      =  1       0      i     (  x)  =       x     3-  x    ,  unde       este  numr
+                                           A                         I2                       B                 -                       x
+                                                      -1     1                0     1                        2     x  x
+
+    real.
+
+5p a) Artai c det A = 0 .
+
+5p b) Artai c B ( x) - B (0) = xA , pentru orice numr real x .
+
+5p c) Artai c matricea C (a) = B (a)  B (1) - B (a +1) este inversabil, pentru orice numr întreg a .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y = (2x -1)(2 y -1) +1.
+
+5p a) Artai c 1 2 = 4 .
+5p b) Determinai numerele reale x pentru care x  x = 2 .
+
+5p  c) Determinai numrul întreg nenul                        m  pentru care      m       1+   1     =1.
+                                                                                              m  
+
+SUBIECTUL al III-lea                                                                                                              (30 de puncte)
+
+    1. Se consider funcia f : (0, +)   , f ( x) = 2x2 +1+ ln x .
+
+5p a) Artai c f ( x) = 4x2 +1 , x (0, +) .
+
+                                    x
+
+5p  b)  Artai  c   lim    f ( x) - ln x          =  2.
+
+                  x+      x2 + x + 4
+
+5p c) Demonstrai c funcia f este bijectiv.
+
+    ( ) 2. Se consider funcia f :    , f ( x) = x ex + 2x2 .
+
+5p  a)  Artai  c  4      f(  x  )   dx  =8.
+                             2
+                      e  x+     x2
+
+                  0
+
+Prob scris la matematic M_t-nat                                                                                                              Varianta 1
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 1 din 2
+                     Ministerul Educaiei
+   Centrul Naional de Politici i Evaluare în Educaie
+
+                              1
+
+( ) 5p b) Artai c  f ( x) - 2x3 dx =1.
+0
+
+                                           21                                                  e4 -  e
+                                                                                                 2
+( )  5p                                            x2
+c) Determinai numrul real  a  pentru care  1x   f                                       dx  =           +  a  .
+
+Prob scris la matematic M_t-nat                                                                                  Varianta 1
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,102 @@
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                 Examenul naional de bacalaureat 2024
+                                                   Proba E. c)
+
+                                                    Matematic M_t-nat                                                       Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                              (30 de puncte)
+
+5p 1. Se consider numerele complexe z1  3  i i z2  1  i . Artai c z1  iz2  2 .
+
+5p 2. Se consider funciile f :    , f  x  5  x i g :    , g  x  x  2 . Determinai numrul
+
+    real a pentru care f a  g a 1 .
+
+  5p 3. Rezolvai în mulimea numerelor reale ecuaia log3 4x  x2  1.
+
+5p 4. Determinai câte numere naturale impare, de dou cifre, cu cifra zecilor numr par, se pot forma cu
+
+    elementele mulimii A  1, 2, 3, 4, 5, 6, 7 .
+5p 5. În reperul cartezian xOy se consider punctele A0,3 , B2,0 i C . tiind c punctul B este
+
+      mijlocul segmentului OC , determinai distana dintre punctele A i C .
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu B   i mediana AM  4 . Artai c aria
+
+                                                                                 6
+
+    triunghiului ABC este egal cu 8 3 .
+
+SUBIECTUL al II-lea                                                                                      (30 de puncte)
+
+    1.  Se consider matricele    I2       1   0      i  A    x         x                x  3x  3
+                                          0   1                     1                      3x  2  , unde x este numr real.
+
+5p a) Artai c det  A0  3 .
+
+5p b) Determinai numrul real m pentru care A2  A0  A5  mI2 .
+
+5p c) Determinai numerele reale x pentru care det  A x  A0  A1 x  3 .
+
+    2. Pe mulimea M  0,  se definete legea de compoziie x y  x  y 1  xy 1 .
+
+5p a) Artai c 1 8  7 .
+
+5p b) Determinai x  M pentru care x 3  x .
+                                                    x
+
+5p c) Determinai numerele naturale nenule n pentru care n n  2 n  4  n2 .
+
+                                                                                                      2
+
+SUBIECTUL al III-lea                                                                                     (30 de puncte)
+
+     1. Se consider funcia f :    , f  x  x3  2x2 ex .
+  5p a) Artai c f ' x  x x2  5x  4 ex , x   .
+
+5p b) Determinai ecuaia tangentei la graficul funciei f în punctul de abscis x  0 , situat pe graficul
+
+    funciei f .
+
+5p  c)  Artai  c     32    x2 x  2             1     ,  pentru    orice                 x 4,0.
+                    ex4                       e x 1
+
+    2. Se consider funcia     f :1,   ,                 f    x      3x2                    x  2  .
+                                                                                              1
+
+5p  a)  Artai  c  2   f   x   x  2      dx    7  .
+                                    1 
+                  1 
+
+Prob scris la matematic M_t-nat                                                                                             Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                   Ministerul Educaiei
+
+   Centrul Naional de Politici i Evaluare în Educaie
+
+             5
+
+5p b) Artai c  3x2  f  x dx  2ln 3 .
+
+1
+
+  5p c) Se consider funcia g : 0,   , g  x  f                                                             4                       '     
+                                                                                        x 1  .  Artai  c       a    bg    x    g     x    dx    4a  ,
+                                                                                                          
+
+                                                                                                          1
+
+pentru orice numere reale a i b .
+
+Prob scris la matematic M_t-nat                                                                                                           Simulare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,160 @@
+                                                                   Ministerul Educaiei
+                                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                         Testul 2
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                              (30 de puncte)
+                                                                                                                                       2p
+  1. Raia progresiei geometrice (bn )n1 este q = -3                                                                                    3p
+       b5 = b1q4 = (-1)(-3)4 = -81 , deci b5 = 81                                                                                      2p
+
+  2. -2x2 + 7x + 9 > 0  (2x - 9)( x +1) < 0
+
+      x       -1,   9                                                                                                    3p
+                    2  
+
+3.    log3    x -1     =  -2       x     -1   =  1                                                                       3p
+              6-x                  6     -x      9
+
+      x = 3 , care convine                                                                                               2p
+           2
+4. n(n -1) - n = 5  n2 - 3n -10 = 0
+           2                                                                                                             3p
+
+      Cum n este numr natural, n  2 , obinem n = 5                                                                       2p
+
+5. Distana de la punctul A la dreapta d este egal cu 0  A d                                                              2p
+
+      -1 = (m -1)  3 - 2m  m = 2                                                                                         3p
+
+6.    cos (      -  2x)   =    -cos 2x      =1-     2 cos2     =1-          2  2   =
+                                                                            3  
+                                                            x        2                                                   3p
+
+      =1- 2 4 = 1                                                                                                        2p
+                    99
+
+SUBIECTUL al II-lea                                                                                                      (30 de puncte)
+
+1.a)                 3 1 -1                                       3 1 -1
+                                   -11
+      A(2)       =    1   -2                     det ( A(2))   =  1  -2        1=                                        2p
+                      2   2                                       2  2         -1
+
+      = 6 - 2 + 2 - 4 + 1- 6 = -3                                                                                        3p
+
+b)                                          8          3 - 2a                  -1 
+                                                                                      
+      B  (a   )  =  A(a   )    A(  a  )  =    5  -  a  a2 + a +1          -2    -  a    ,  pentru  orice  numr  real  a  2p
+                                                                                      
+                                              4  +  a  -a2 - a + 2          -1  +  a  
+
+      Matricea B (a) are dou elemente egale cu 0 dac a = -2 sau a = 1                                                    3p
+
+c)                                                      3x + y - z =1
+      Pentru a = 1 , sistemul devine  x - y + z = 3 i adunând primele dou ecuaii ale sistemului
+                                                       2x + y - z = 2                                                    3p
+
+      obinem 3x + y - z + x - y + z = 4 , deci x = 1
+
+      Adunând a doua i a treia ecuaie din sistem, obinem x - y + z + 2x + y - z = 5  x = 5 , deci                        2p
+                                                                                                              3
+
+      sistemul nu are soluii
+
+Prob scris la matematic M_t-nat                                                                                          Testul 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                         Ministerul Educaiei
+                                                       Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) (-3)  3 = 1  (-3) + 1  3 - (-3)  3 =                                                                                                   3p
+                           2                 2
+
+      =-3+ 3+9=9                                                                                                                            2p
+            22
+
+b) x  y = 1 - xy + 1 x + 1 y - 1 =                                                                                                          2p
+                     4                224
+
+      =  1  -     x     y  -  1       +   1     y  -  1      =  1  -    x    -  1     y  -  1    ,  pentru   orice  numere  reale  x  i  y  3p
+         4                    2           2           2         4               2           2  
+
+c)    1  -     2  x  -     1       4  x  -1  -  1     =   1   2x        =    1  sau   4x-1 =     1                                          3p
+      4                    2                    2         4                  2                   2
+
+      x = -1 sau x = 1                                                                                                                      2p
+                                      2
+
+SUBIECTUL al III-lea                                                                                                                        (30 de puncte)
+
+1.a)     '( x)                           -1         -  3  '        3  (-1) x-2                   3    -5
+                                                       2                                         2 
+      f           =     -1    +    3x        -  4x             =                   -  4       -      x2   =                                 3p
+
+      ( ) = - 3 + 6 = -3x + 6
+                                                          x =3 x 2-                x     , x (0, +)                                         2p
+                                                                     x3
+            x2 x2 x                             x3
+
+b)                   (  x)    =                 -1 +   3    -   4x         =  -1
+                                                       x         x2     
+       lim        f               lim                                                                                                       3p
+
+      x +                        x +
+
+      Dreapta de ecuaie y = -1 este asimptot orizontal spre + la graficul funciei f                                                         2p
+
+( ) ( ()( ) ) c)
+            4x       f   '(   x)   =            4x    3   x     2  -      x              4x 3 x 2 - x               =
+                  x  -                                x3        -               = lim
+      lim                4            lim                 (x       4)                                                                       3p
+                                                                                  x4 x3 x - 2 x + 2
+      x4                              x4
+
+      ( ) = lim -4x  3 x = -6                                                                                                               2p
+        x4 x3 x + 2
+
+( ) 2.a) F( x) = ln x + 2ex - 2x + 2021 ' = 1 + 2ex - 2 =               x                                                                   3p
+
+      = 1 + 2xex - 2x = f ( x) , pentru orice x (0, +) , deci F este o primitiv a funciei f                                                 2p
+                     x
+
+b)    e     (     )                (  x)  e         (e)            (1)
+
+         f     x     dx    =  F              =  F           -   F       =                                                                   3p
+
+      1                                   1
+
+      = 2ee - 4e + 3                                                                                                                        2p
+
+( ) ( ) c)2                       2                                                                       2
+       x f ( x) dx =                                                       (2x - 2)ex - x2 + x              =
+                                      2xex - 2x +1                dx =                                                                      3p
+
+      1                          1                                                                        1
+
+      = 2e2 - 4 + 2 = 2e2 - 2                                                                                                               2p
+
+Prob scris la matematic M_t-nat                                                                                                             Testul 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

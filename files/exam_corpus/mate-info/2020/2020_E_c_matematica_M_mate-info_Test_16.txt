@@ -1,0 +1,105 @@
+                                                     Ministerul Educaiei i Cercetrii                                 Test 16
+                                          Centrul Naional de Politici i Evaluare în Educaie               (30 de puncte)
+
+                                         Examenul de bacalaureat naional 2020
+                                                           Proba E. c)
+
+                                                  Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+  5p 1. Determinai numrul de elemente ale mulimii A  x   5  x  7 .
+
+5p 2. Se consider funciile f :  , f  x  x2  2x  a i g :  , g  x  x2  2bx  1, unde
+
+      a i b sunt numere reale. Determinai numerele reale a i b , tiind c parabolele asociate celor
+      dou funcii au acelai vârf.
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3 1  x  3 1  x  2 .
+5p 4. Artai c nu exist nicio mulime finit care s aib exact 12 submulimi cu 2 elemente.
+
+5p 5. În reperul cartezian xOy se consider punctele A3,4 , B 4,3 i C 5,0 . Artai c punctul
+     H 4,7 este ortocentrul triunghiului ABC .
+
+  5p                                                    
+    6. Calculai cos x , tiind c         x       0,  2     i 2   cos4 x  sin4 x            1.
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+                                           3 2 1                      1 0 0
+
+    1. Se consider matricele         A       6  4       2    ,  I3      0   1            10 i B  I3  A .
+                                             9  6       3               0   0
+
+5p a) Artai c det A  0 .
+
+5p  b)  Artai  c  matricea     I3    1A         este inversa       matricei    B.
+                                       11
+
+5p c) Dai exemplu de trei matrice U , V , T  3   , de rang 1, astfel încât U V  T  B .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x  y  xy  3x  3y  a , unde a
+
+      este numr real.
+
+5p a) Determinai numrul real a pentru care 1 1  0 .
+
+5p b) Determinai numrul real a pentru care legea de compoziie ,,  " admite element neutru.
+
+5p c) Demonstrai c, dac a 12,  , atunci mulimea 3,  este parte stabil a lui în raport cu
+
+    legea de compoziie ,,  ".
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+    1. Se consider funcia f : 0,   0,1 , f  x  x 1  x .
+
+5p  a) Artai c    f    x       1     1              1     ,  x 0,  .
+                               2     x 1             x  
+
+5p  b)  Calculai   lim      3     f  '1      f  '2              f   'n      n
+                            2                                             
+                  n                                                          .
+
+5p c) Demonstrai c funcia f este bijectiv.
+
+Prob scris la matematic M_mate-info                                                                       Test 16
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 1 din 2
+                                      Ministerul Educaiei i Cercetrii
+                            Centrul Naional de Politici i Evaluare în Educaie
+
+    2. Se consider funcia f :               ,  f  x       x2     .
+                                                          4
+                                                       x      1
+
+  5p            1           f  xdx  1 .
+    a) Artai c     x4 1
+                                        3
+
+                0
+
+5p  b) Demonstrai  c  1  f   xdx         .
+
+                                      8
+
+                      0
+
+                                                                                                                        1
+
+5p c) Se consider primitiva F a lui f pentru care F 1  0 . Calculai  F  xdx .
+
+                                                                                         0
+
+Prob scris la matematic M_mate-info                                                                                        Test 16
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                         Pagina 2 din 2
+

@@ -1,0 +1,72 @@
+                                                         Ministerul Educaiei Naionale
+                                                  Centrul Naional de Evaluare i Examinare
+
+                                             Examenul de bacalaureat naional 2014
+                                                               Proba E. c)
+
+                                                      Matematic M_pedagogic
+                                               Simulare pentru elevii clasei a XII-a
+
+    Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+    · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+    · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                               (30 de puncte)
+
+( )( ) 5p 1. Verificai dac 25 -1 25 +1 = 1023 .
+
+5p 2. Se consider funcia f :    , f (x) = 3x + 2 . Determinai coordonatele punctului A care
+      aparine graficului funciei f i care are abscisa egal cu ordonata.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 x3 = 12 - log2 x .
+5p 4. O imprimant are preul de vânzare 186 de lei. Calculai preul imprimantei înainte de aplicarea
+
+      TVA-ului, tiind c TVA-ul este de 24%.
+
+5p 5. În reperul cartezian xOy se consider punctele M (3, 4) , N (2,1) i P (a,b) . Determinai
+
+      numerele reale a i b tiind c punctul N este mijlocul segmentului MP .
+
+5p 6. În reperul cartezian xOy se consider punctele A(2,3) , B (5,3) i C (5,7) . Calculai cos A .
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie x y = ( x - 3)( y - 3) + 3 .
+
+5p 1. Calculai 2014 3 .
+5p 2. Verificai dac legea de compoziie ,, " este asociativ.
+5p 3. Determinai elementul neutru al legii de compoziie ,, " .
+5p 4. Artai c x 3 = 3 x = 3 , pentru orice numr real x .
+
+5p 5. Rezolvai în mulimea numerelor reale ecuaia x ( x +1) = 3 .
+
+5p 6. Determinai numerele întregi a i b pentru care a b = 4 .
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+                                                               x       y                x2     y2     
+    Se   consider     mulimea          M  =      A( x,  y)  =             x,  y ,           +      = 1 .
+                                                                 -  y  x                           
+
+5p 1. Artai c det ( A( x, y)) = 1.
+
+5p 2. Dai un exemplu de matrice care aparine mulimii M .
+
+5p  3. Calculai             1  ,  3    +      1  ,-  3      .
+                      A     2     2       A   2      2  
+
+5p 4. Artai c A(x, y)  A( x, - y) = A(1,0) , pentru orice matrice A(x, y), A( x, - y) M .
+
+5p 5. Determinai numrul matricelor din mulimea M care au toate elementele numere întregi.
+
+5p 6. Se consider numerele reale p i q cu proprietatea c p2 + q2 = 1 . Demonstrai c matricea
+
+     p-2 q+2
+                                  nu   este  element    al  mulimii    M      .
+      -  (  q  +  2)  p  -  2  
+
+Prob scris la matematic M_pedagogic                                                                       Simulare pentru elevii clasei a XII-a
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

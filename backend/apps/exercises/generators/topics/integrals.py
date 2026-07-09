@@ -28,7 +28,7 @@ def _lln(expr) -> str:
 
 class IntegralsProblem(ProblemGenerator):
     TOPIC_CODE = "integrals"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _families(self):
         rng = self.rng
@@ -55,7 +55,7 @@ class IntegralsProblem(ProblemGenerator):
         # M1 (mate-info): the sequence-of-integrals problem (recurrence + limit) is
         # a *signature* form but only ~1/4 of real M1 integral problems — the rest
         # are direct integrals / areas / substitutions. Match that frequency.
-        if self.profile == "M1" and self.rng.random() < 0.3:
+        if self.profile == "mate-info" and self.rng.random() < 0.3:
             return self._context_sequence()
         f, lo, hi, dom = self._families()
         F = sp.simplify(sp.integrate(f, x))

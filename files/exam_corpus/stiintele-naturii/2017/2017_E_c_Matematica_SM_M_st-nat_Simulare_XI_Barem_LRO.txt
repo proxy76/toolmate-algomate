@@ -1,0 +1,183 @@
+                                                             Ministerul Educaiei Naionale
+                                                      Centrul Naional de Evaluare i Examinare
+
+                                              Examenul de bacalaureat naional 2017
+                                                                Proba E. c)
+
+                                                         Matematic M_t-nat
+                                                               Clasa a XI-a
+
+                                           BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                                                            Simulare
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+
+punctajului indicat în barem.
+
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                                          (30 de puncte)
+
+1. ( x + 2) + 2x = 2  7                                                                                                                                            2p
+
+      x=4                                                                                                                                                          3p
+
+2. x1 + x2 = 2(m -1) , x1x2 = 2m2 - 2m  x12 + x22 = -4m + 4                                                                                                        3p
+
+      x1 + x2 = 4  - 2 = 4 , deci m = - 1                                                                                                                          2p
+      x2 x1                      m                                 2
+
+3. 52x = 53-x  2x = 3 - x                                                                                                                                          3p
+
+      x =1                                                                                                                                                         2p
+
+4. Numrul submulimilor cu 2 elemente ale mulimii M este egal cu C120 , deci sunt 45 de 2p
+     cazuri posibile
+
+      Numrul submulimilor cu 2 elemente ale mulimii M , care conin elementul 10, este egal                                                                         2p
+      cu 9, deci sunt 9 cazuri favorabile
+
+      p = nr. cazuri favorabile = 9 = 1                                                                                                                            1p
+            nr. cazuri posibile 45 5
+
+5. mAB = 2 , mBC = a - 3                                                                                                                                           2p
+
+      mAB = mBC  a = 5                                                                                                                                             3p
+
+6.      1  2      cos2                                                                 cos x = - 2 2
+        3                                                2                                          3
+              +         x  =  1  i, cum         x           ,         ,  obinem                                                                                    3p
+
+      tg x = - 1 , deci 2 2 tg x +1 = 0                                                                                                                            2p
+                  22
+
+SUBIECTUL al II-lea                                                                                                                                  (30 de puncte)
+                                                                                                                                                                   3p
+1.a)  A  (3)  =     2   1        det    (  A(3))      =  2      1=
+                           
+                  1 2                                    12
+
+      = 4-1= 3                                                                                                                                                     2p
+
+b)                         x +1         x -1                    2                   2
+                                         2                                          
+      det ( A( x)) =        2                   =     x  +  1         -    x  -  1     =  x                                                                        2p
+                           x -1         x +1             2                    2
+
+                              22
+
+      det ( A( y)) = y i det ( A( xy)) = xy , deci det ( A( x))  det ( A( y)) = det ( A( xy)) , pentru orice
+
+                                                                                                                          3p
+      numere reale x i y
+
+c)                                              n(n   +     3)     n(n -1)       
+                                                                   n(n4+ 3)      
+      A(1)       A(2)            A(n)           n(n4-1)                                     (  A(1)     A(2)             A(n))            n2  (n  +  1)
+              +         +  ...+            =                          4                det           +        +  ...  +           =                      =         3p
+                                                   4                                                                                           2
+
+      =  n    n(  n+   1)  =  n  (1  +  2  +  ...  +  n  )  =   n  (  det  (  A(1))  +  det    (  A(2))  +  ...  +  det  (  A  (  n))  )  ,   pentru        orice
+                  2
+                                                                                                                                                                   2p
+
+      numr natural nenul n
+
+Prob scris la matematic M_t-nat                                                                                                           Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                                        Ministerul Educaiei Naionale
+                                                                 Centrul Naional de Evaluare i Examinare
+
+2.a)  A  -  B   =         1   -1       3     -  0      =
+                          0   -2       8     -  1  
+                                                                                                                                            3p
+
+      =   0 3
+                                                                                                                                            2p
+            -2          7
+
+b)    (  A  +  I2    )     (  B  -  I     )  =     2      3 0          0
+                                                   0                    =
+                                       2                                                                                                    2p
+                                                          9 2          0
+
+          6 0 1 0
+      =                    = 6 
+         18 0  3 0                                                                                                                          3p
+
+c)                  a                     b               a,  b,    c  i  d  numere reale,         X  A= A X c =0     i     3a + 7b = 3d
+      Pentru X =                             , cu
+                              c d                                                                                                           2p
+
+      X  B = B X                 b=0                i     a = d , deci         a       0    =         i obinem  X  Y  = aY  =Y X  , pentru
+                                                                          X  =                 aI
+                                                                                0      a           2                                        3p
+
+      orice Y  M2 ()
+
+SUBIECTUL al III-lea                                                                                                              (30 de puncte)
+
+1.a) lim f ( x) = lim x2 + 7x + 6 = lim ( x + 6) =                                                                                          3p
+      x -1                       x -1 x + 1                         x -1
+
+      =5                                                                                                                                    2p
+
+b) y = x + 2 este asimptot oblic spre + la graficul funciei f  lim f ( x) = 1 i
+                                                                                                                      x+ x
+                                                                                                                                            2p
+         lim ( f ( x) - x) = 2
+      x +
+
+         lim (a -1) x + 6 = 2  a = 3                                                                                                        3p
+      x+ x +1
+
+c)                                                                                 a   +    6   
+                                                                             x 1+  x   1    x2  
+       lim        f  (  x)    =   lim           x2   +    ax +   6  =   lim                        =                                        2p
+                                                     x    +1
+      x +                        x+                                    x +         1+
+
+                                                                                       x
+
+      = + , deci, oricare ar fi numrul real a , funcia f nu admite asimptot orizontal spre + 3p
+
+2.a)  lim      f     (  x  )  =  lim         2mx       =  -m     ,     lim f ( x) = lim (2x + 4 - m) = -m          i  f (-2) = -m , deci
+                                             2-x
+      x-2                        x-2                                x-2            x-2                                                      3p
+      x<-2                       x<-2                               x>-2           x>-2
+
+      funcia f este continu în x = -2 , pentru orice numr real m
+
+      Cum, pentru orice numr real m , funcia f este continu pe (-, - 2) i pe (-2, +) ,
+
+                                                                                                                           2p
+      obinem c f este continu pe  , pentru orice numr real m
+
+b)    Pentru         x (-, -2) ,                    f  (x)    =  0      2x   =  0      x  =  0(-, -2)                                       3p
+                                                                       2- x
+
+      Pentru x [-2, +) , f ( x) = 0  2x + 3 = 0  x = - 3 [-2, +)                                                                            2p
+                                                                                                2
+
+c) lim f ( x) = lim 2mx = -2m                                                                                                               2p
+      x -                        x- 2 - x
+
+      Cum lim ( f ( x) - 2x) = lim (2x + 4 - m - 2x) = 4 - m , obinem m = -4                                                                3p
+               x +                                        x +
+
+Prob scris la matematic M_t-nat                                                                                             Simulare pentru clasa a XI-a
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

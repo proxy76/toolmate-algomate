@@ -1,0 +1,165 @@
+                                                               Ministerul Educaiei Naionale
+                                                        Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2014
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+                                              Barem de evaluare i de notare
+                                                                                                                      Varianta 3
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                       (30 de puncte)
+
+1. z2 = (1 + i)2 = 1 + 2i + i2 =                                                                  2p
+
+      = 2i                                                                                        3p
+
+2.  = 16 - 24 = -8                                                                                3p
+
+       < 0 , deci parabola asociat funciei f nu intersecteaz axa Ox                               2p
+
+3. 2x - 3 = x +1                                                                                  2p
+
+      x = 4 care verific ecuaia                                                                   3p
+
+4. Sunt 45 de numere impare de dou cifre, deci sunt 45 de cazuri favorabile                       2p
+
+      Sunt 90 de numere de dou cifre, deci sunt 90 de cazuri posibile                             1p
+
+      p = nr. cazuri favorabile = 45 = 1                                                          2p
+            nr. cazuri posibile 90 2
+
+5. AM + BN + CP = 1 AB + 1 BC + 1 CA =                                                            2p
+                                       222
+
+      ( ) = 1 AB + BC + CA = 0                                                                    3p
+        2
+
+6.                                cos  a     sin a   -  1
+                                  cos  a     cos a
+      sin a - cos           a  =                           =  tga -1     =                        3p
+      cos a + sin           a             1     sin  a        1+ tga
+                                             +  cos  a
+
+      = 3 -1 = 2- 3                                                                               2p
+        1+ 3
+
+SUBIECTUL al II-lea                                                                               (30 de puncte)
+
+1.a)                           11 1
+
+      det ( A(1)) = 1 1 2 =                                                                       2p
+
+                               121
+
+      = 1+ 2 + 2 -1- 4 -1 = -1                                                                    3p
+
+b)                                11 1
+
+      det ( A(m)) = 1 m 2 = m2 - 2m                                                               3p
+
+                                  12 m
+
+      m2 - 2m = 0  m1 = 0 i m2 = 2                                                                2p
+
+c)                                 3 a+3 a+3                                      1 1 1 
+                                                                                  = 11          
+      ( ) A                                                         
+        (  a  )    A  (  a  )  =    a  +  3  a2 + 5     4a    +  1    ,  A a2           a2  2     3p
+                                    a  +  3  4a +1      a2    +  5                      2   a2
+
+       2 a+2 a+2  2 1 1 
+                                             1                        
+        a  +  2         5           4a -        =    1  5        -5         a  =  -1              2p
+        a  +  2       4a -1           5              1  -5       5
+
+Prob scris la matematic M_mate-info                                                               Varianta 3
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                                                               Ministerul Educaiei Naionale
+                                                        Centrul Naional de Evaluare i Examinare
+
+2.a) 1 3 = 3 1 + 3  3 -1 3 - 6 =                                                                                                3p
+
+      =3                                                                                                                        2p
+
+b) x  y = 3 - xy + 3x + 3y - 9 =                                                                                                2p
+
+      = 3 - x( y - 3) + 3( y - 3) = 3 - ( x - 3)( y - 3) pentru orice numere reale x i y                                        3p
+
+c) 3 - ( x - 3)2014 = x                                                                                                         3p
+
+      x1 = 3 i x2 = 2                                                                                                           2p
+
+SUBIECTUL al III-lea                                                                                                            (30 de puncte)
+
+1.a)                ( ) ( ) ( x - 2) x2 - 4x + 5 - ( x - 2) x2 - 4x + 5 
+
+      ( ) f ( x) =                                                                           =                                  2p
+                                                x2 - 4x + 5 2
+
+      -x2 + 4x - 3                  =   (1- x)( x - 3)              x
+      x2 - 4x + 5 2
+                                        x2 - 4x + 5 2 ,
+      ( ) ( ) =                                                                                                                 3p
+
+b)     lim       f  (  x)  =      lim       x   -2         =  0                                                                 3p
+                                            -   4x +
+      x+                         x+     x2              5
+
+      Dreapta de ecuaie y = 0 este asimptot orizontal spre + la graficul funciei f                                              2p
+
+c) f ( x) = 0  x1 = 1 i x2 = 3                                                                                                  2p
+
+      f '( x)  0 pentru orice x (-,1]  f este descresctoare pe (-,1]                                                            1p
+
+      f '( x)  0 pentru orice x [1,3]  f este cresctoare pe [1,3]                                                               1p
+
+      f '( x)  0 pentru orice x [3, +)  f este descresctoare pe [3, +)                                                          1p
+
+2.a)          e                     x2         e     1  e
+        I1                          2          1     2
+      =          x ln  x dx      =      ln  x     -        x  dx  =                                                             3p
+
+              1                                         1
+
+      = e2 - e2 + 1 = e2 +1                                                                                                     2p
+      2 44 4
+
+b)                         e
+       In+1 - In = x (ln x -1)lnn x dx
+                                                                                                                                2p
+
+                           1
+
+      Pentru orice n   i x [1,e] avem ln x  0 i ln x -1  0  In+1  In                                                            3p
+
+  c)             e                          x2                e     e  x2    1
+      I n +1  =  1  x lnn+1      x dx   =   2   ln n +1    x  1  -  1  2     x  (n  + 1)lnn  x dx  =                            3p
+
+      e2            n +1 e
+      2              2
+       =      -                  x lnn  x dx      2 I n +1    + (n +1) In       = e2  pentru    orice  numr  natural  nenul  n  2p
+
+                              1
+
+Prob scris la matematic M_mate-info                                                                                             Varianta 3
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

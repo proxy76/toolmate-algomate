@@ -1,0 +1,99 @@
+                                                       Ministerul Educaiei
+                                     Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021                                  Testul 10
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                   (30 de puncte)
+
+5p 1. Calculai modulul numrului complex z = (2 + 3i)(2 - 3i) - (9 - 3i) .
+5p 2. Se consider funciile f :   , f ( x) = x - 2 i g :   , g ( x) = 5x + 20 . Calculai ( g f )(2) .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 4x-5 = 1 .
+                                                                          16
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea numerelor naturale de trei cifre, acesta
+
+      s aib produsul cifrelor egal cu 8 .
+5p 5. Se consider paralelogramul ABCD cu AB = 4 , BC = 6 i msura unghiului ABC de 120° .
+
+      Determinai modulul vectorului AM , unde punctul M este mijlocul segmentului BD .
+5p 6. Se consider triunghiul ABC cu AB =12 , AC = 16 i BC = 20 . Artai c r = 2 , unde r este
+
+                                                                                                        R5
+      raza cercului înscris în triunghiul ABC i R este raza cercului circumscris triunghiului ABC .
+
+SUBIECTUL al II-lea                                                                                           (30 de puncte)
+
+                                                   a 1 -2                                                      ax + y - 2z = 2
+                                                                                                               2x + y + 3z = 1 ,
+    1. Se consider matricea          A(a   )   =      2      1  3    i                  sistemul  de  ecuaii
+                                                    2a -     2  1                                             (2a -1) x + 2 y + z = a
+                                                          1
+
+      unde a este numr real.
+
+5p a) Artai c det ( A(4)) = 5 .
+
+5p b) Determinai numrul real a pentru care matricea A(a) nu este inversabil.
+
+5p c) Pentru a = 3 , determinai soluiile ( x0, y0, z0 ) ale sistemului de ecuaii pentru care z02 = x0 + y0 .
+
+    2. Pe mulimea G = (1, +) se definete legea de compoziie asociativ x  y = xlog3 y .
+
+5p a) Artai c 4  3 = 2 .
+5p b) Artai c e = 9 este elementul neutru al legii de compoziie ,," .
+
+5p c) Determinai x  G , tiind c este egal cu simetricul lui în raport cu legea de compoziie ,,  ".
+
+SUBIECTUL al III-lea                                                                                          (30 de puncte)
+
+    ( )( ) 1. Se consider funcia f :    , f ( x) = x2 - 9 x2 - 4 + 3 .
+
+( ) 5p a) Artai c f '( x) = 2x 2x2 -13 , x   .
+
+5p  b) Artai   c  lim  sin ( x - 3)  =     1   .
+                                           30
+                  x3   f (x)-3
+
+5p c) Determinai valorile reale ale lui m pentru care ecuaia f ( x) = m are exact patru soluii reale .
+    2. Se consider funcia f :    , f ( x) = 2x arctg x .
+
+5p  a)  Artai  c  2   f (x)   dx  =  3  .
+
+                     arctg x
+
+                  1
+
+Prob scris la matematic M_mate-info                                                                           Testul 10
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 2
+                          Ministerul Educaiei
+        Centrul Naional de Politici i Evaluare în Educaie
+
+5p  b) Determinai numrul real nenul a     pentru care   3  f  ( x) dx                   =     -  3.
+                                                                                           a
+                                                       
+
+                                                       0
+
+                                       1
+
+5p c) Demonstrai c  x f ( x) dx = 0 .
+    -1
+
+Prob scris la matematic M_mate-info                                                                  Testul 10
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 2 din 2
+

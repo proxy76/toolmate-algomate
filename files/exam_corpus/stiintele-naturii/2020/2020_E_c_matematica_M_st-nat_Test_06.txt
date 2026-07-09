@@ -1,0 +1,103 @@
+                                                            Ministerul Educaiei i Cercetrii                                      Test 6
+                                                       Centrul Naional de Evaluare i Examinare                        (30 de puncte)
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                    Matematic M_t-nat
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Determinai suma primilor cinci termeni ai progresiei aritmetice an n1 , tiind c a1  5 i raia
+
+      r 2.
+5p 2. Determinai mulimea valorilor reale ale lui a pentru care ecuaia x2  ax  a 1  0 are soluii reale
+
+      distincte.
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 3  3 x2  x  2  1 .
+
+5p 4. Calculai 2C43  3A42 .
+
+  5p 5. Se consider vectorii u  i  a j i v  2i  a2 1 j , unde a este numr real. Determinai numrul
+
+      real a pentru care vectorii u i v sunt coliniari.
+5p 6. Se consider triunghiul ascuitunghic ABC cu AB  8 , BC  8 i aria egal cu 16 . Determinai
+
+      msura unghiului B .
+
+SUBIECTUL al II-lea                                                                                                   (30 de puncte)
+
+    1. Se consider matricele   A      0     1    ,  I2    1        0    i                 M  x, y  xI2  yA , unde  x  i  y  sunt numere
+                                      1        
+                                            0                0     1  
+                                                                      
+
+    reale.
+
+5p a) Artai c det A  1 .
+
+5p b) Demonstrai c M  x, y  M a,b  M  xa  yb, xb  ya , pentru orice numere reale a , b , x i y .
+
+5p c) Determinai perechile  x, y de numere reale, tiind c det M  x, y  4 i suma elementelor
+
+    matricei M  x, y  M  x, y este egal cu 8 .
+
+     2. Pe mulimea numerelor reale se definesc legile de compoziie x  y  x  y  1 i x y  xy  x  y  2 .
+
+5p a) Artai c 2 13  2 1 2 3 .
+
+                                                                        1                 xx
+                                                                        9               
+5p  b) Determinai numerele reale    x    pentru care      3x    x                             .
+
+5p c) Determinai numerele reale x i y pentru care  x 1 2 y  1  2 i  x  y  4  10 .
+
+SUBIECTUL al III-lea                                                                                                  (30 de puncte)
+
+    1. Se consider funcia f :            ,  f    x       5x  3,                               x ,1
+                                                        
+                                                          x  2     x                                         .
+
+                                                                                        x2  3, x 1, 
+
+5p a) Artai c funcia f este continu pe .
+
+5p b) Artai c, pentru orice numr real a , a  1 , tangenta la graficul funciei f în punctul Aa, f a
+
+      nu este paralel cu axa Ox .
+
+5p c) Demonstrai c funcia f este convex pe 1,  .
+
+    2. Se consider funciile f : 0,   , f  x  x  x 1 i g : 0,                                                    , gx  x  2x .
+
+5p a) Demonstrai c funcia f este o primitiv a funciei g .                                                                     2x
+
+Prob scris la matematic M_t-nat                                                                                             Test 6
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                                           Ministerul Educaiei i Cercetrii
+                                                     Centrul Naional de Evaluare i Examinare
+
+                             4
+
+5p b) Calculai  g  x dx .
+
+                             1
+
+                                                                                           m
+
+5p c) Determinai numrul real m , m  1, pentru care  f  x  g  xdx  20 .
+
+                                                                                           1
+
+Prob scris la matematic M_t-nat                                                               Test 6
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

@@ -1,0 +1,79 @@
+                                                      Ministerul Educaiei
+                                    Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul de bacalaureat naional 2022                                                                Varianta 3
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                                                         (30 de puncte)
+
+( ) ( ) 5p 1. Artai c 3 +1 2 - 3 -1 2 = 48 .
+
+5p 2. Determinai coordonatele punctului de intersecie a graficelor funciilor f :    , f ( x) = 2x +1
+
+    i g :    , g ( x) = -2x + 5 .
+
+5p  3.  Rezolvai  în  mulimea  numerelor           reale    ecuaia         3x-2  =   1 -2x    .
+                                                                                     3 
+
+5p 4. Determinai câte numere naturale impare de dou cifre se pot forma cu cifrele 1, 2 , 3 , 4 , 5 , 6 , 7
+      i 8.
+
+5p 5. În reperul cartezian xOy se consider punctele A(0, 2) , B (5, 2) i C (6,6) . Determinai distana de
+
+    la punctul B la mijlocul segmentului AC .
+
+5p  6. Se consider triunghiul    ABC          cu   AB = 9 ,        AC      = 12  i    BC  = 15 .   Artai c           sin B + sin C       =  7  .
+                                                                                                                                            5
+
+SUBIECTUL al II-lea                                                                                                                 (30 de puncte)
+
+    Pe  mulimea   numerelor    reale se       definete          legea    de  compoziie        x    y  =  -  1    xy  +  1  (  x  +  y)+  2  .
+                                                                                                            3           3                3
+
+5p 1. Artai c 4  2 = 0 .
+
+5p  2. Demonstrai c   x    y  =  -  1  (  x   -1)(    y  -  1)  +  1,  pentru    orice  numere     reale       x  i     y.
+                                    3
+
+5p 3. Determinai numrul real x pentru care 4  x= x .
+
+5p 4. Artai c e = -2 este elementul neutru al legii de compoziie ,," .
+
+5p 5. Determinai numerele reale x pentru care x  x = -2 .
+
+5p 6. Artai c 1  1  1, pentru orice numr real nenul x .
+                      xx
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+    Se consider matricele     A(    x,  y  )  =    x     y      ,  B  =  1       2    i   I2  =  1       0    ,  unde       x    i  y  sunt numere
+                                                   1     2                                                  
+                                                                           -1    0                 0     1  
+
+    reale.
+
+5p 1. Artai c det B = 2 .
+
+5p 2. Artai c det ( A(2n, 2n +1)) este numr natural impar, pentru orice numr natural nenul n .
+
+5p 3. Artai c A(2x,0) + A(0, 2x) = 2A( x, x) , pentru orice numr real x .
+
+5p 4. Determinai numerele reale x i y , astfel încât A( x, y)  B = B  A( x, y) .
+
+5p 5. Determinai numrul real strict pozitiv x , tiind c suma elementelor matricei A(log3 x, 1) este
+
+      egal cu 5.
+
+5p 6. Determinai numerele reale x i y , tiind c A( x, y)  A( x, y) = 2I2 .
+
+Prob scris la matematic M_pedagogic                                                                                                            Varianta 3
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 1 din 1
+

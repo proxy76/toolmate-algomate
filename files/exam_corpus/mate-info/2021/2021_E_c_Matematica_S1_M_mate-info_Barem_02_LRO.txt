@@ -1,0 +1,181 @@
+                                                             Ministerul Educaiei
+                                           Centrul Naional de Politici i Evaluare în Educaie
+
+                                        Examenul naional de bacalaureat 2021
+                                                          Proba E. c)
+
+                                                 Matematic M_mate-info
+                                     BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                     Varianta 2
+
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în
+limitele punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                    (30 de puncte)
+
+1. (1+ i)2 - 2(1+ i) + 2 = 1+ 2i + i2 - 2 - 2i + 2 =                                                                                    3p
+
+      =1-1= 0                                                                                                                           2p
+
+2. f (1) = 2  1+ a - 5 = 2                                                                                                              3p
+
+      a=6                                                                                                                               2p
+
+( ) 3. log4 x2 +1 = log4 ( x( x +1)) , deci x2 +1 = x2 + x                                                                              3p
+
+      x = 1 , care convine                                                                                                              2p
+
+4. Mulimea numerelor naturale de dou cifre are 90 de elemente, deci sunt 90 de cazuri                                                   2p
+     posibile
+
+      În mulimea numerelor naturale de dou cifre sunt 9 numere divizibile cu 2 i cu 5 , deci                                            2p
+      sunt 9 cazuri favorabile
+
+      p = nr. cazuri favorabile = 9 = 1                                                                                                 1p
+            nr. cazuri posibile 90 10
+
+5. mMN = 1 i, cum dreptele sunt paralele, obinem md = 1                                                                                 3p
+
+      P  d , deci ecuaia dreptei d este y - yP = md ( x - xP ) , adic y = x - 3                                                         2p
+
+6. tg A = BC                                                                                                                            2p
+                AC
+
+      tg B =    AC   =   1   =1                                                                                                         3p
+                BC      BC     tgA
+
+                        AC
+
+SUBIECTUL al II-lea                                                                                                         (30 de puncte)
+
+1.a)            2 0 0                                      200
+                             
+      A(0)   =    0  2    0          det ( A(0))      =    0  2    0=                                                                   2p
+                  0  0    2                                0  0    2
+
+      =8+0+0-0-0-0=8                                                                                                                    3p
+
+b)                       a + 2 0 -a   2 0 0  a 0 -a 
+
+      A(a)   -  2I3  =    0          2        0       -    0  2       0     =    0     0      0     ,  pentru  orice  numr     real  a  3p
+                          3a         0        - 3a         0  0       2          3a    0     -3a  
+                                           2                                                      
+
+                 1 0 -1                                                                       1 0 -1
+                          -03 ,                                                                        -03
+      aB  =  a    0  0            pentru      orice   numr       real    a  ,  deci    B  =    0  0                                     2p
+                  3  0                                                                         3  0
+
+( ) c)                    4  +  2n2     0     -2n2       
+                                                0        
+      A(n) A(-n) =  0 4                                       det  (  A(n)     A(-n))     =  64   1-  n2  ,  unde     n  este  numr
+                                                                                                                                        3p
+                             6n2                    6n2  
+                                        0     4  -       
+
+      natural
+
+      ( ) 64 1- n2 > 0 i, cum n este numr natural, obinem n = 0                                                                         2p
+
+Prob scris la matematic M_mate-info                                                                                                     Varianta 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 1 din 2
+                                                                  Ministerul Educaiei
+                                                Centrul Naional de Politici i Evaluare în Educaie
+
+2.a) 2  0 = 1 (2 + 0 + 2 - 0 ) =                                                                                                              3p
+                2
+
+    = 1 (2 + 2) = 2                                                                                                                           2p
+       2
+
+b) a  b  a - b = b - a                                                                                                                        2p
+
+    a  b = 1 (a + b + a - b ) = 1 (a + b + b - a) = 1  2b = b , pentru orice numere reale a i b                                               3p
+                2                                   2                        2
+
+    astfel încât a  b
+
+( ( )) c) x2 +1  2x i x2 +1  -2x , pentru orice numr real x , deci (2x)  x2 +1  (-2x) =                                                       3p
+
+    ( ) ( ) = x2 +1  (-2x) = (-2x)  x2 +1 = x2 +1, pentru orice numr real x
+
+    x2 +1 = 10 , deci x = -3 sau x = 3                                                                                                        2p
+
+SUBIECTUL al III-lea                                                                                                                (30 de puncte)
+
+1.a) f ( x) = 1- 2x =                                                                                                                         3p
+
+                      2 x2 + 3
+
+    =1- x = x2 + 3 - x , x                                                                                                                    2p
+                x2 + 3                  x2 + 3
+
+b)                                      ( ) ( ) x2 - x2 + 3                                                     -3 = 0
+
+       lim f ( x) = lim x - x2 + 3 = lim                                                     = lim                                            3p
+
+    x +                     x +                                  x+ x + x2 + 3 x+ x + x2 + 3
+
+    Dreapta de ecuaie y = 0 este asimptota orizontal spre + la graficul funciei f                                                             2p
+
+c) f '( x) > 0 , pentru orice numr real x , deci f este strict cresctoare                                                                     2p
+
+    Cum lim f ( x) = - , lim f ( x) = 0 i f este funcie continu, ecuaia f ( x) = a are
+                x -                             x +                                                                                           3p
+
+    soluie  a (-,0)
+
+( ) ( )    2.a)
+    2  x2 + x + 3                           2       x2 + x + 3   x2    x  +  3  dx  =  2  x  dx   =  x2   2                                   3p
+    0                                                                 +x               0             2
+                            f ( x) dx =                                                                     =
+                                                                                                          0
+                                            0
+
+    = 4 =2                                                                                                                                    2p
+       2
+
+( )    b)
+    2  g  (  x  ) dx  =  2    2x       +  1     dx  =  2   x2 + x + 3 '                                                                       3p
+    1                    1  x2 +       x  +            1   x2 + x + 3 dx =
+                                             3
+
+    ( ) = ln x2 + x + 3 2 =ln 9 - ln 5 = ln 9                 5                                                                               2p
+
+                                1
+
+c)               x              1                          x[0,+) , deci                  n  (x)       1  n                    x [0, +)
+                +x              2                                                                      2  
+    0     x2          +            ,  pentru    orice                           0      f                     ,  pentru  orice            i    2p
+
+                         3
+
+    orice numr natural nenul n
+
+     0  In      b  f  n  (  x)  dx        1 n   (b  -  a)  ,  pentru  orice  numr      natural       nenul      n  i,  cum   lim    1 n  =0,
+                                          2                                                                                         2
+             =                                                                                                              n+                3p
+
+                a
+
+    obinem      c      lim         In   =0
+
+                      n+
+
+Prob scris la matematic M_mate-info                                                                                                      Varianta 2
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                       Pagina 2 din 2
+

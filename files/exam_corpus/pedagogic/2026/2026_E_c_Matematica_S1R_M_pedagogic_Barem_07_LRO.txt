@@ -1,0 +1,155 @@
+                                                               Ministerul Educaiei i Cercetrii
+                                                       Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026
+                                                          Proba E. c)
+
+                                                 Matematic M_pedagogic
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                      Varianta 7
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                                                     (30 de puncte)
+
+( ) 1. 6 2 + 3 6 - 36 - 24 = 2 6 + 6  3 6 - 6 - 2 6 =                                                                                                     3p
+
+    = 18 - 6 = 12                                                                                                                                         2p
+
+2. f ( x) = 0 , de unde obinem 4x + 16 = 0                                                                                                                3p
+
+    x = -4                                                                                                                                                2p
+
+3. x2 + 3x -15 = x2 , de unde obinem 3x -15 = 0                                                                                                           3p
+
+    x = 5 , care convine                                                                                                                                  2p
+
+4. Mulimea A are 10 elemente, deci sunt 10 cazuri posibile                                                                                                2p
+
+    În mulimea A sunt 2 numere n pentru care n3 este numr natural de dou cifre, deci sunt
+
+    2  cazuri favorabile, de unde obinem                                      p  =  2     =   1                                                           3p
+                                                                                    10        5
+
+5. M (1, 2)                                                                                                                                               3p
+
+    BM = 4                                                                                                                                                2p
+
+6.  sin 30°     =     1  ,   cos 60°       =     1  ,  sin 60°     =       3                                                                              3p
+                      2                          2                         2
+
+       3 sin 30° + 2cos 60° - sin 60° =                               3    1  +  2     1  -   3     =1                                                    2p
+                                                                           2           2      2
+
+SUBIECTUL al II-lea                                                                                                                             (30 de puncte)
+
+1.  1     4  =  1 4      +8    -1-      4  =                                                                                                              3p
+                 4
+
+    =1+3= 4                                                                                                                                               2p
+
+2.  x 5 =       x     +3,      pentru      orice       numr        real       x                                                                           3p
+                4
+
+    x  + 3 = 6 , de unde                obinem            x = 12                                                                                          2p
+    4
+
+3.  x     y  =     1  (  xy  -  4x   -     4  y  + 16 )   +  4  =                                                                                         2p
+                   4
+
+    =  1  (  x  (  y  -  4)    -  4(    y  -  4))      +  4  =  1  (  x  -  4)(  y    -   4)  +  4  ,  pentru  orice  numere  reale       x  i  y         3p
+       4                                                        4
+
+4.  x( y        + 1)     =  1  (  x  -  4)(   y     - 3) +   4,    (x      -1)      y  =  1   (  x  - 5)( y  - 4) +  4  ,  pentru  orice  numere   reale
+                            4                                                             4
+                                                                                                                                                          2p
+
+    x i y
+
+    ( x - 4)( y - 3) = ( x - 5)( y - 4) , de unde obinem x + y = 8                                                                                        3p
+
+5. x - 4  0 , y - 4  0 , de unde obinem ( x - 4)( y - 4)  0                                                                                               3p
+
+    1  (  x  -  4)( y - 4) +            4     4,    deci     x     y [4,+)                                                                                2p
+    4
+
+Prob scris la matematic M_pedagogic                                                                                                                Varianta 7
+
+Barem de evaluare i de notare
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 1 din 2
+                                                              Ministerul Educaiei i Cercetrii
+                                                      Centrul Naional pentru Curriculum i Evaluare
+
+( ) 6. 4m  (n +1) = 4m -1  n , de unde obinem 4m + n = 8                                                                                             3p
+
+    Cum m i n sunt numere naturale, obinem perechile (0,7) i (1, 4)                                                                                  2p
+
+SUBIECTUL al III-lea                                                                                                                           (30 de puncte)
+
+1.     (  4)    =     6      3          det ( B(4))           =  6    3    =  6  2  -  3  2  =
+                      2                                          2    2
+    B                        2                                                                                                                       3p
+                                
+
+    = 12 - 6 = 6                                                                                                                                     2p
+
+2.  2B    (3)     +      (6)        10         6 8               3 18            9     =
+                                =                     +               =
+                      B                 4      2           2     4         6     6                                                                   3p
+                                                                                    
+
+    =  3     6        3     =  3B    (  4)                                                                                                           2p
+             2        2  
+                         
+
+3.     (  -2)            (5)    =    0      3 7            3 6             9      =   3   2     3     =  3B  (  0)
+                                     2                           =         -6             2     -2  
+    B               B                       -4        2    3          6                                                                              3p
+                                                                    
+
+    aB(0) = 3B(0) , de unde obinem a = 3                                                                                                             2p
+
+4.  2B    (m)       -       =      2m -     5        0           ,  det (2B(m)         -  A)    = (2m   - 5)(2m        - 3)  ,  pentru  orice  numr
+                                      0           2m -     3 
+                         A                                                                                                                           2p
+
+    întreg m
+
+    (2m - 5)(2m - 3) < 0 i, cum m este numr întreg, obinem m = 2                                                                                     3p
+
+5.                                 10       -  n2        0          
+                                            0         10 - n2        ,
+    B  (  n  )    B   (  -n  )  =                                        pentru     orice    numr     natural       n                                3p
+
+    10    -     n  2            0                2p        0
+          0                     -                0
+                         10        n2       =              2  p     i, cum     n    i     p  sunt numere naturale, obinem perechile
+                                                                 
+                                                                                                                                                     2p
+
+    (0,5) i (2,3)
+
+6. Cum matricea B(4) este inversabil, obinem X = ( B(4))-1  (2A)                                                                                     2p
+
+                             1 1
+                                        -      
+          ( 4 ) )-1             3           2                                             2     5
+    (  B                 =       1                 ,  de   unde     obinem        X    =                                                             3p
+                               -3           1                                                2  -6    
+
+Prob scris la matematic M_pedagogic                                                                                                                  Varianta 7
+
+Barem de evaluare i de notare
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+                                                                        Pagina 2 din 2
+

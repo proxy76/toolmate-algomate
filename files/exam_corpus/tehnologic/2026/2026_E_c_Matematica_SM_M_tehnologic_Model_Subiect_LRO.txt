@@ -1,0 +1,92 @@
+                                                         Ministerul Educaiei i Cercetrii
+                                                 Centrul Naional pentru Curriculum i Evaluare
+
+                                        Examenul naional de bacalaureat 2026
+
+                                                          Proba E. c)
+                                                 Matematic M_tehnologic
+
+                                                                                                                            Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I                                                                                          (30 de puncte)
+
+5p  1. Artai c   1              3      3    1      4    .
+                 4                     2    4  
+
+5p 2. Se consider funcia f :    , f  x  4x  9 . Determinai numrul real a pentru care f a  a .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x 1  x .
+
+5p 4. Se consider mulimea A  1, 2,3,4,5,6,7,8 . Determinai probabilitatea ca, alegând un numr n
+     din mulimea A , numrul natural nn  1 s fie multiplu de 10 .
+
+5p 5. În reperul cartezian xOy se consider punctele A6,8 , B 8,4 i M , mijlocul segmentului OA .
+
+      Artai c triunghiul OBM este isoscel.
+5p 6. Se consider triunghiul ABC , dreptunghic în A , cu AC  6 i AC  3AB . Artai c BC  2 10 .
+
+SUBIECTUL al II-lea                                                                                  (30 de puncte)
+
+    1.  Se  consider  matricea              M      a         a 1    4
+                                                              1   a  4  , unde a este numr real.
+
+5p a) Artai c det M 0  0 .
+
+5p b) Artai c M 3  2M 0  3M 1 .
+
+5p c) Determinai numrul real a pentru care M a  M 0  3M 0 .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y  xy  4 x  y .
+
+5p a) Artai c 1 2  14 .
+5p b) Determinai numrul real x pentru care x 3  x .
+5p c) Determinai numrul real x pentru care 2x 4  2x4 .
+
+SUBIECTUL al III-lea                                                                                 (30 de puncte)
+
+    1. Se consider funcia                   f :,               f x  1 .
+
+                                                                        x2  4x  5
+
+    a) Artai c   f 'x                      2 x  2              ,  x .
+
+                                          x2  4x  5
+  5p                                                        2
+
+  5p b) Artai c lim x2 1  f  x  1 .
+                               x
+
+5p c) Demonstrai c 5 f  x  f x  2 , pentru orice x 0,  .
+
+     2. Se consider funcia f :    , f  x  5x2  2x 1.
+
+5p  a) Artai  c  1    f          x  2x dx               8.
+                                                        3
+                 
+
+                 0
+
+5p  b) Artai  c  2    f            1           dx       ln 5   .
+                                                         2
+                                x  5x2
+
+                 0
+5p c) Determinai primitiva G : 0,    a funciei g : 0,    , g  x  f  x  2x , pentru care
+                                                                                                  x
+
+    G 1  5 .
+
+Prob scris la matematic M_tehnologic                                                                 Model
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                  Pagina 1 din 1
+

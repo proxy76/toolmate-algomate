@@ -1,0 +1,148 @@
+                                          Ministerul Educaiei i Cercetrii tiinifice
+                                           Centrul Naional de Evaluare i Examinare
+
+                                      Examenul de bacalaureat naional 2015
+                                                        Proba E. c)
+
+                                      Matematic M_pedagogic
+
+                                      BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                  Varianta 1
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                  (30 de puncte)
+
+1.          1  4           1      33
+            2              16     16
+    2  +          =  2  +      =                                                                  3p
+
+    33 : 33 = 1                                                                                   2p
+    16 16
+
+2. f (2) + f (-2) = (2 + a) + (-2 + a) = 2a                                                       3p
+
+    2a = 4  a = 2                                                                                 2p
+
+3. x2 + 2 = 3x  x2 - 3x + 2 = 0                                                                   3p
+
+    x1 = 1 i x2 = 2                                                                               2p
+
+4. Dup prima scumpire cu 10% , preul obiectului va fi 200 + 10  200 = 220 de lei                  2p
+                                                                                        100
+
+    Dup a doua scumpire cu 10% , preul obiectului va fi 220 + 10  220 = 242 de lei                3p
+                                                                                        100
+
+5. M (0, 4)                                                                                       2p
+
+    OM = 4                                                                                        3p
+
+6.  ABC este dreptunghic în A , deci AABC =      2 2 =                                            3p
+                                                  2
+
+    =1                                                                                            2p
+
+SUBIECTUL al II-lea                                                                          (30 de puncte)
+
+1. 1007 1008 = 1007 +1008 - 2015 =                                                                3p
+
+    = 2015 - 2015 = 0                                                                             2p
+
+2. ( x  y)  z = ( x + y - 2015) + z - 2015 = x + y + z - 4030                                     2p
+
+    x  ( y  z ) = x + ( y + z - 2015) - 2015 = x + y + z - 4030 = ( x  y)  z , pentru orice numere
+
+                                                                                                                         3p
+    reale x , y i z
+
+3. x  2015 = x + 2015 - 2015 = x                                                                  2p
+
+    2015  x = 2015 + x - 2015 = x = x  2015 , pentru orice numr real x , deci e = 2015 este       3p
+    element neutru al legii de compoziie ,,  "
+
+4. x + x - 2015 = 2015                                                                            3p
+
+    x = 2015                                                                                      2p
+
+5. x  ( x + 2015) = x + ( x + 2015) - 2015 = 2x                                                   2p
+
+    ( x +1007)  ( x +1008) = ( x +1007) + ( x +1008) - 2015 = 2x = x  ( x + 2015) , pentru orice  3p
+
+    numr real x
+
+( ) 6. 5x + 52x - 30 = 0  5x 2 + 5x - 30 = 0                                                      2p
+
+    5x = 5  x =1                                                                                  2p
+
+    5x = -6 nu are soluie                                                                         1p
+
+Prob scris la matematic M_pedagogic                                                               Varianta 1
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 2
+                                             Ministerul Educaiei i Cercetrii tiinifice
+                                             Centrul Naional de Evaluare i Examinare
+
+SUBIECTUL al III-lea                                                                              (30 de puncte)
+                                                                                                               3p
+1. det A = 1 -1 = 1 0 - (-1)  3 =                                                                              2p
+                                                                                                               3p
+               30                                                                                              2p
+                                                                                                               3p
+    =0+3=3                                                                                                     2p
+                                                                                                               2p
+2.  a -1     b   +  1  =    4     0                                                                            3p
+                                   
+     0 4  0 4                                                                                                  3p
+
+    a = 5 i b = -1                                                                                             2p
+
+3.  det B =  0b        = 0  4 - b  3 = -3b                                                                     3p
+                                                                                                               2p
+             34
+
+    -3b = 9  b = -3
+
+4.        a -3 b-4                            a + 3b -a 
+    AB =                        , BA =                     
+           3a            3b                   15      -3   
+
+    AB = BA  a = 5 i b = -1
+
+5.             1
+       0          
+    A          3    =    1     0    =  I
+        -1     1         0        
+               3               1          2
+
+          1                                                        1
+    0                                                          0
+          3              1     0                                   3  
+     -1   1      A  =    0     1    =  I2 ,  deci  matricea             este inversa matricei  A
+          3                                                        1
+                                                               -1  3
+                                                             
+
+6.      1      1    ,  det B = 1,      B-1   =  4     -1
+    B=                                                   
+                                                  -3
+        3      4                                      1
+
+    X  =  B-1    A       X  =  1       -4 
+                                          
+                               0 3 
+
+Prob scris la matematic M_pedagogic                                                               Varianta 1
+Barem de evaluare i de notare
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 2 din 2
+

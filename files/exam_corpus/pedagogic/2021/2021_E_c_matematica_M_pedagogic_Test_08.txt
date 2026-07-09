@@ -1,0 +1,72 @@
+                                                   Ministerul Educaiei
+                                 Centrul Naional de Politici i Evaluare în Educaie
+
+                              Examenul naional de bacalaureat 2021
+                                                Proba E. c)
+
+                                         Matematic M_pedagogic
+
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare                                          Testul 8
+· Toate subiectele sunt obligatorii. Se acord zece puncte din oficiu.                                   (30 de puncte)
+· Timpul de lucru efectiv este de trei ore.
+
+SUBIECTUL I
+
+5p  1. Artai c (2,5 - 0,7) : 2 + - 1 =1 , unde x reprezint modulul numrului real x .
+
+                                         10
+
+5p 2. Se consider funcia f :    , f ( x=) 2x - 4 . Determinai numrul real a pentru care
+     f (2a - 4=) f (a) + 4 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 39-x = 93-x .
+5p 4. Dup o ieftinire cu 45% , un produs cost 77 de lei. Determinai preul produsului înainte de
+
+      ieftinire.
+
+5p 5. În reperul cartezian xOy se consider punctele A(1, -1) , B (-5,7) i C (7,7) . Calculai aria
+
+      triunghiului ABC .
+5p 6. Se consider triunghiul ABC cu A=B A=C 6 i BC = 4 . Calculai cos A .
+
+SUBIECTUL al II-lea                                                                                     (30 de puncte)
+
+    Pe mulimea numerelor reale se definete legea de compoziie x  y = 4( x + y) - 2xy .
+5p 1. Artai c (-2)  3 = 16 .
+
+5p 2. Artai c legea de compoziie ,,  " este comutativ.
+
+5p 3. Determinai numerele reale x pentru care (1- x)  x = 8 .
+
+5p 4. Determinai cel mai mic numr natural n pentru care 1 n  2021 .
+5p 5. Determinai numrul întreg a pentru care numrul A = a  2 este întreg.
+5p 6. Se consider numerele reale x , y i z , termeni consecutivi ai unei progresii aritmetice. Artai c,
+
+    pentru orice numr real m , numerele x  m , y  m i z  m sunt termeni consecutivi ai unei progresii
+    aritmetice.
+
+SUBIECTUL al III-lea                                                                                    (30 de puncte)
+
+    Se consider matricele  A  =    1  2    ,  B  =    -1  2     i  I2                   =    1  0    .
+                                   3                  3                                      0     
+                                      8                   -8                                    1  
+
+5p 1. Artai c det A = 2 .
+
+5p 2. Artai c ( A + B)  ( A + B) = 24I2 .
+
+5p 3. Determinai matricea X  2 () pentru care 2( X - A)= 3( X - B) .
+
+5p 4. Determinai numerele reale x pentru care det ( A + xI2 ) = 2 .
+
+5p 5. Artai c, pentru orice numr natural nenul n , numrul =N det ((1+ n) A + (1- n) B) este natural,
+
+      multiplu de 8 .
+
+5p 6. Determinai numrul real x pentru care A  ( A - xI2 ) =B  ( B + xI2 ) .
+
+Prob scris la matematic M_pedagogic                                                                     Testul 8
+Filiera vocaional, profilul pedagogic, specializarea învtor-educatoare
+
+                                                                        Pagina 1 din 1
+

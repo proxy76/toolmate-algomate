@@ -1,0 +1,89 @@
+                                              Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                    Centrul Naional de Evaluare i Examinare
+
+                                              Examenul de bacalaureat naional 2016
+                                                                Proba E. c)
+
+                                                    Matematic M_tehnologic
+
+                                                                                                           Varianta 01
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                       (30 de puncte)
+
+5p  1.  Artai  c  1  -  1       :  0,  25  =  0  .
+                        4
+
+5p 2. Calculai f (-1)  f (1) , unde f :    , f ( x) = x +1 .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x - 3 = 5 .
+5p 4. Un obiect cost 100 de lei. Determinai preul obiectului dup o scumpire cu 20% .
+
+5p 5. În reperul cartezian xOy se consider punctele A(2, 4) i B (5, 4) . Calculai distana de la punctul
+
+      A la punctul B .
+5p 6. Calculai lungimea laturii AB a triunghiului ABC , dreptunghic în A , tiind c AC = 6 i B =  .
+
+                                                                                                                             4
+
+SUBIECTUL al II-lea                                                                               (30 de puncte)
+
+                                                    1 2         x 1 
+    1. Se consider matricele A =                          i  B  =      -1 , unde x i y sunt numere reale.
+                                        1           -2              y
+
+5p a) Artai c det A = -4 .
+
+5p b) Artai c det ( A - 2B) = 0 , pentru orice numere reale x i y .
+
+5p c) Determinai numerele reale x i y , pentru care A  B = B  A .
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie x y = xy + 2x + 2 y + 2 .
+
+5p a) Artai c 1 (-2) = -2 .
+
+5p b) Demonstrai c x y = ( x + 2)( y + 2) - 2 , pentru orice numere reale x i y .
+
+5p c) Determinai numerele reale nenule x , pentru care x 1 = x .
+                                                                           x
+
+SUBIECTUL al III-lea                                                                              (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = x3 + x2 - x +1.
+
+5p a) Artai c f '( x) = 3x2 + 2x -1 , x   .
+
+5p  b)  Artai  c   lim             x f '(x)   = 3.
+                                    f (x)
+                  x+
+
+5p c) Determinai abscisele punctelor situate pe graficul funciei f în care tangenta la graficul funciei
+
+    f este paralel cu dreapta y = 4x +1.
+
+    2. Se consider funcia f : R   , f ( x) = x5 + x3 + 2x .
+
+                              1
+
+( ) 5p a) Artai c  f ( x) - x3 - 2x dx = 0 .
+                              -1
+            ( ) 2
+
+5p b) Artai c  ex f ( x) - x5 - x3 +1 dx = 3e2 +1.
+
+                              0
+
+5p c) Demonstrai c orice primitiv a funciei f este convex pe R .
+
+Prob scris la matematic M_tehnologic                                                                       Varianta 01
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                             Pagina 1 din 1
+

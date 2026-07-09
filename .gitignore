@@ -78,3 +78,8 @@ BAC_M2_Tehnologic_download_kit/BAC_Matematica_M2_Tehnologic/
 *.zip
 BAC_M2_Tehnologic_download_kit/_download.log
 bac-matematica/
+
+# Curated corpus: the per-year raw PDFs are large (~146 MB) and fully reproducible
+# via download_bac_mate.sh, so we track only the extracted .txt + ANALYSIS/README
+# (and the small, already-tracked _legacy/ PDFs). Ignore the per-year source PDFs.
+files/exam_corpus/*/[0-9][0-9][0-9][0-9]/*.pdf

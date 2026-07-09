@@ -1,0 +1,163 @@
+                                                               Ministerul Educaiei
+                                            Centrul Naional de Politici i Evaluare în Educaie
+
+                                           Examenul naional de bacalaureat 2024
+                                                             Proba E. c)
+
+                                                    Matematic M_tehnologic
+
+                                         BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                                            Varianta 9
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord zece puncte din oficiu. Nota final se calculeaz prin împrirea la zece a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                         (30 de puncte)
+
+( ) 1. 2  3 + 2 2 - 3 2 + 3 = 3 2 + 2 2  2 - 3 2 + 3 =                                                                             2p
+
+      =4+3=7                                                                                                                       3p
+
+2. f (m) = 3m - 6 , pentru orice numr real m                                                                                       3p
+
+      3m - 6 = 3 , de unde obinem m = 3                                                                                            2p
+
+3. 4x - 2 = 2 , de unde obinem 4x = 4                                                                                              3p
+
+      x =1                                                                                                                         2p
+
+4. 30  300 = 90 de lei                                                                                                             3p
+      100
+
+      Preul dup ieftinire este 300 - 90 = 210 de lei                                                                               2p
+
+5. 3 = 1+ 5 i 4 = m +1                                                                                                             3p
+            2                         2
+
+      m=7                                                                                                                          2p
+
+6. sin30° = 1 , sin 45° = 2 , cos60° = 1                                                                                           3p
+                    2                         2                   2
+
+      2  (  sin  45°    +  sin   30°)    (sin  45°  -  sin  30°)  =        2  2  -     1  2    =  1  =  cos  60°                   2p
+                                                                     2     2           2          2
+                                                                                             
+
+SUBIECTUL al II-lea                                                                                                 (30 de puncte)
+
+1.a)  A(0)       =  1      0                  (  A(0))      1  0
+                                                            1    =10 -10 =
+                    1                    det            =                                                                          3p
+                           0                                   0
+
+      =0-0=0                                                                                                                       2p
+
+b)    A(3)       +  A(5)      =    1     3 1           5  2          8
+                                          +             =             =
+                                  4 0  6 0 10 0                                                                                    3p
+
+      =     1       4      =  2A(4)                                                                                                2p
+         2              
+            5 0
+
+c)    A(n)       +      =      1         n 1           0  2              n       det ( A(n) + I2 ) = 2 - n(n +1) ,
+                              n +1       0  +  0       1 =  n +1         1 
+                    I2                                                        i                                     pentru  orice  2p
+
+      numr natural n
+
+      n (n + 1)  2 i, cum n este numr natural, obinem n = 0 i n = 1                                                                3p
+
+2.a) f (0) = 03 - 3 02 + m  0 -1 =                                                                                                 3p
+
+      = 0 - 0 + 0 -1 = -1 , pentru orice numr real m                                                                               2p
+
+b) x1 + x2 + x3 = 3                                                                                                                2p
+
+      x1x2 x3 = 1 , de unde obinem x1 + x2 + x3 = 3x1x2 x3 , pentru orice numr real m                                              3p
+
+Prob scris la matematic M_tehnologic                                                                                        Varianta 9
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                     Pagina 1 din 2
+                                                            Ministerul Educaiei
+                                          Centrul Naional de Politici i Evaluare în Educaie
+
+c) f (1) = 13 - 312 + m 1-1 = 1- 3 + m -1 = m - 3 , pentru orice numr real m                     2p
+
+    f (1) = 0 , de unde obinem m = 3                                                             3p
+
+SUBIECTUL al III-lea                                                                             (30 de puncte)
+
+( ) ( ) 1.a)
+                 x ' x2 +1 - x  x2 +1 '
+    ( ) f '(x) =                                        =
+                                x2 +1 2                                                          3p
+
+       x2 +1- 2x2         =        1- x2
+         x2 +1 2                   x2 +1
+    ( ) ( ) =                             2  ,  x                                                2p
+
+b)               (x)                    x2                        x2
+                                       x2 +1
+     lim x    f        =   lim                  =   lim                 1     =                  3p
+                                                                 1      x2  
+    x+                    x+                       x+      x  2      +
+
+    =   lim       1       =1
+
+       x+     1  +  1                                                                            2p
+                    x2
+
+c) f '( x) = 0  x = -1 i x = 1 ; f '( x)  0 , pentru orice x (-,-1]  f este descresctoare        3p
+
+    pe (-,-1] ; f '( x)  0 , pentru orice x [-1,1]  f este cresctoare pe [-1,1]
+
+    f '( x)  0 , pentru orice x [1, +)  f este descresctoare pe [1, +)                           2p
+
+( ) ( ) 2.a)                                                                           1
+                       1        x2 +1 ex                                              x  0
+       1f (x)          0                           1                     =    x3
+                                                                              3
+    0   ex                                              x2    +1
+              dx    =              ex        dx =                    dx            +        =    3p
+
+                                                    0
+
+    = 1 +1-0-0 = 4                                                                               2p
+       3                        3
+
+( ) ( ) b) Funcia F este derivabil i F '( x) = (2x - 2)ex + x2 - 2x + 3 ex = x2 +1 ex            3p
+
+    F '( x) = f ( x) , pentru orice numr real x , deci funcia F este o primitiv a funciei f      2p
+
+( ) c)    2                        2                                 2
+    A =       f ( x)dx =                                             0
+                                       x2 +1    e x dx  =  F  (  x)     =  F  (2)  -  F  (0)  =  3p
+
+          0                        0
+
+    ( ) = 3e2 - 3 = 3 e2 -1                                                                      2p
+
+Prob scris la matematic M_tehnologic                                                             Varianta 9
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                     Pagina 2 din 2
+

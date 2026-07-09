@@ -1,0 +1,152 @@
+                                               Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                     Centrul Naional de Evaluare i Examinare
+
+                                                Examenul de bacalaureat naional 2016
+                                                                  Proba E. c)
+
+                                                        Matematic M_tehnologic
+
+                                            BAREM DE EVALUARE I DE NOTARE
+
+                                                                                                   Varianta 01
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+· Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+· Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+· Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total obinut
+pentru lucrare.
+
+SUBIECTUL I                                                                                        (30 de puncte)
+
+1. 1 : 0, 25 = 1                                                                                   3p
+      4
+
+      1- 1 : 0, 25 = 1-1 = 0                                                                       2p
+           4
+
+2. f (-1) = 0                                                                                      3p
+
+      f (-1)  f (1) = 0                                                                            2p
+
+3. 2x - 3 = 25                                                                                     3p
+
+      x = 14 , care verific ecuaia                                                                 2p
+
+4. 20% din 100 este egal cu 20 100 = 20                                                            3p
+                                                 100
+
+      Preul dup scumpire este 100 + 20 = 120 de lei                                                2p
+
+5. AB = (5 - 2)2 + (4 - 4)2 =                                                                      3p
+
+      =3                                                                                           2p
+
+6. ABC este isoscel  AB = AC =                                                                     3p
+
+      =6                                                                                           2p
+
+SUBIECTUL al II-lea                                                                                (30 de puncte)
+
+1.a)           1       2        = 1 (-2) -1 2        =
+      det A =          -2
+                                                                                                   3p
+               1
+
+      = -2 - 2 = -4                                                                                2p
+
+b)                  1 2   2x 2  1- 2x 0
+      A - 2B =                      -                  =                 
+                 1           -2          2  y    -2       1    -  2  y  0                          2p
+
+      det  (  A  -  2B  )  =    1-  2x      0 = 0 , pentru orice numere reale x i y                3p
+                                1-  2y
+                                            0
+
+c)    A    B  =     x  +  2  y   -1         B    A  =    x  +  1     2x - 2
+                    x  -  2  y   3  ,                    y  -  1     2 y + 2
+                                                                                                   2p
+
+       x + 2y          -1  x +1                2x - 2                         x=1       ,  y=  1   3p
+       x - 2 y         3  =  y -1              2 y + 2  , de unde obinem          2            2
+
+2.a) 1 (-2) = 1 (-2) + 2 1+ 2 (-2) + 2 =                                                           3p
+
+      = -2 + 2 - 4 + 2 = -2                                                                        2p
+
+b) x y = xy + 2x + 2 y + 4 - 2 =                                                                   3p
+
+      = x( y + 2) + 2( y + 2) - 2 = ( x + 2)( y + 2) - 2 , pentru orice numere reale x i y         2p
+
+Prob scris la matematic M_tehnologic                                                               Varianta 01
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                        Pagina 1 din 2
+                                             Ministerul Educaiei Naionale i Cercetrii tiinifice
+                                                   Centrul Naional de Evaluare i Examinare
+
+c)  (  x  +  2)     1  +  2     -  2  =  x      (  x  +  2)    1  +  2    =  x  +  2    (  x  +  2  )    1  +     =  0  3p
+                    x                                          x                                         x     1
+
+    x = -2 sau x = -1                                                                                                   2p
+
+SUBIECTUL al III-lea                                                                                                    (30 de puncte)
+
+( ) ( ) 1.a) f '( x) = x3 '+ x2 '- x '+1' =                                                                             2p
+
+    = 3x2 + 2x -1+ 0 = 3x2 + 2x -1, x                                                                                   3p
+
+b)           x   f  '(x)                 3x3 + 2x2 - x
+                 f  (x)                  x3 + x2 - x +1
+     lim                     =   lim                              =                                                     2p
+
+    x+                          x+
+
+                       3  +  2  -   1
+                             x      x2
+    =     lim                                =3                                                                         3p
+        x+ 1 +         1        1        1
+                       x  -     x2  +    x3
+
+c) f '( x) = 4                                                                                                          2p
+
+    3x2 + 2x - 5 = 0  x = - 5 sau x = 1                                                                                 3p
+                                             3
+
+( ) ( ) 2.a) 1                               1                                                   1
+     f ( x) - x3 - 2x dx =   x5 + x3 + 2x - x3 - 2x dx = x5 dx =
+                                                                                                                        2p
+
+    -1                                       -1                                               -1
+
+    = x6 1 = 1 - 1 = 0                                                                                                  3p
+          6 -1 6 6
+
+( ) b) 2                                              2                                             22
+     ex f ( x) - x5 - x3 +1 dx =  ex (2x +1) dx = ex (2x +1) -  2exdx =
+                                                                                                                        3p
+
+    0                                                 0                                             00
+
+    ( ) = 5e2 -1- 2 e2 -1 = 3e2 +1                                                                                      2p
+
+c) F este o primitiv a funciei f  F( x) = f ( x) , x                                                                    2p
+
+    F( x) = f '( x) = 5x4 + 3x2 + 2  0 , pentru orice numr real x , deci F este convex pe                               3p
+
+Prob scris la matematic M_tehnologic                                                                                    Varianta 01
+
+Barem de evaluare i de notare
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                          Pagina 2 din 2
+

@@ -1,0 +1,170 @@
+                                                    Ministerul Educaiei i Cercetrii
+                                              Centrul Naional de Evaluare i Examinare
+
+                                         Examenul de bacalaureat naional 2020
+                                                           Proba E. c)
+
+                                                    Matematic M_t-nat
+
+                                      BAREM DE EVALUARE I DE NOTARE
+                                                                                                                            Test 8
+
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+ Pentru orice soluie corect, chiar dac este diferit de cea din barem, se acord punctajul corespunztor.
+ Nu se acord fraciuni de punct, dar se pot acorda punctaje intermediare pentru rezolvri pariale, în limitele
+punctajului indicat în barem.
+ Se acord 10 puncte din oficiu. Nota final se calculeaz prin împrirea la 10 a punctajului total acordat
+pentru lucrare.
+
+SUBIECTUL I                                                                                                     (30 de puncte)
+
+1.    log2  63      log2  7       1         log2    63       1                                                  2p
+                                log2                7      log2
+                                      3                          3
+
+        log2  32      1    3    2  log2  3      1   3      2                                                    3p
+                    log2                      log2
+
+2.   m2  4m , deci ecuaia nu are soluii reale  m2  4m  0                                                        3p
+
+      m 4,0                                                                                                     2p
+
+3. 3x2 20  34  x2  16                                                                                           3p
+
+      x  4 sau x  4                                                                                             2p
+
+4. Mulimea numerelor naturale de o cifr are 10 elemente, deci sunt 10 cazuri posibile                           2p
+
+      n! nn 1  n  2 sau n  3 , deci sunt 2 cazuri favorabile                                                    2p
+
+      p  nr. cazuri favorabile  2  1                                                                            1p
+            nr. cazuri posibile 10 5
+
+5. AB  4i  4 j i OC  a i  b j , unde C a,b , deci a i  b j  4i  4 j                                             3p
+
+      a4, b4                                                                                                    2p
+
+6. Cum triunghiul este dreptunghic, 2a 1  a 1 i 2a 1 2a  2a 12  2a2  a 12 , deci
+
+                                                                                                                          2p
+    a2  6a  0
+
+      Cum a este numr real, a 1 , obinem a  6                                                                   3p
+
+SUBIECTUL al II-lea                                                                                             (30 de puncte)
+
+1.a)          1 0 1                                     101
+
+      Ae        0     e    0        det    Ae           0     e  0                                              2p
+                              
+               0 0 1 
+                                                        001
+
+      e00000 e                                                                                                  3p
+
+b)                        1 0 2ln a 
+
+      Aa      Aa           0    a2       0          det  Aa           Aa   a2           ,  pentru  orice  a 0,  3p
+                                              
+
+                           0    0        1    
+                                              
+
+                          1 0 ln a2
+
+         det A a2  0 a2 0  a2  det  Aa  Aa , pentru orice a 0,                                                  2p
+
+                          00 1
+
+Prob scris la matematic M_t-nat                                                                                 Test 8
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 1 din 2
+                                            Ministerul Educaiei i Cercetrii
+                                       Centrul Naional de Evaluare i Examinare
+
+c)                   2 0 lnab                                 1 0 lnab
+
+    Aa  Ab  0 a  b                     0 , Aa Ab  0 ab                                       0          ,  pentru  orice  a,b 0,          3p
+                                                                                                      
+                     0 0               2                      0 0 1 
+
+    2 0 lnab 2 0 2lnab
+    0 a  b                   0                   
+                  0             2ab           0          ab  1   i    a                   b     2  ,  de   unde    obinem  a  1  i  b  1  2p
+
+    0 0           2  0 0                      2 
+
+  2.a) 2 1  3 2 1 3 2 2 1  6  2                                                                                                           2p
+
+    3 2 63 2 6 2  2                                                                                                                       3p
+
+b) x y  3xy  3 2x  3 2 y  6  2                                                                                                            2p
+
+            3x y  2  3 2 y  2  2  3 x  2 y  2  2 , pentru orice numere reale x i y 3p
+
+c) x 2  2 , 2 y  2 , unde x i y sunt numere reale                                                                                         2p
+
+       456                   2020         4      5              7                            2020                  7       2020        2  3p
+       123                   2017         1      2       2      4                            2017             2    4       2017  
+
+SUBIECTUL al III-lea                                                                                                             (30 de puncte)
+
+  1.a)                                           lim  f    x     lim                    x2  x   1          1  i       f 1  1 , deci
+                                                                                            x2
+      lim f  x  lim 2x  3x  4  1 ,               x1              x1
+    x1            x1
+                                                                                                                                          3p
+    x1            x1                             x1              x1
+
+    lim f  x  f 1 , de unde obinem c f este continu în x  1
+
+    x1
+
+    Cum f este continu pe ,1 i pe 1,  , obinem c f este continu pe                                                                        2p
+
+b) x ,1  f  x  2x  3x  4 , deci f ' x  2x ln 2  3x ln 3                                                                                   3p
+
+    f ' x  0 , pentru orice x ,1 , deci funcia f este cresctoare pe ,1                                                                    2p
+
+c) f este cresctoare pe ,1 i continu în x  1 , deci f  x  f 1 i, cum f 1  1 ,                                                             2p
+
+    obinem f  x  1 , pentru orice x ,1
+
+       x 1,           f  'x     x2     ,  deci   f ' x  0 , pentru orice                                x 1, 2 i      f ' x  0 , pentru
+                                 x3
+
+    orice x 2, i, cum f este continu, f 1  1 i lim f  x  1 , obinem f  x  1 , 3p
+                                                                                                   x
+
+    pentru orice x 1, 
+
+  2.a) 1                           1                               1
+
+     x 1 x  3 f  xdx  2x  4dx  x2  4x                                                                                                     3p
+
+    0                              0                               0
+
+    1 40 5                                                                                                                                2p
+
+  b)2             2                                          2
+       f   xdx         2x  4       dx     ln  x2  4x  3                                                                                   2p
+                     x2  4x 
+                                3                            0
+    0             0
+
+     ln15  ln 3  ln 5                                                                                                                     3p
+
+c)                                                           2 x2  4x  5
+
+      F ' x  f  x , x 1, , deci F '' x  x2  4x  3 2 , x 1,                                                                                3p
+
+    F '' x  0 , pentru orice x 1,  , deci orice primitiv F a funciei f este concav                                                        2p
+
+Prob scris la matematic M_t-nat                                                                                                           Test 8
+Barem de evaluare i de notare
+Filiera teoretic, profilul real, specializarea tiine ale naturii
+
+                                                                        Pagina 2 din 2
+

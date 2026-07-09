@@ -1,0 +1,93 @@
+                                                  Ministerul Educaiei i Cercetrii tiinifice
+                                                   Centrul Naional de Evaluare i Examinare
+
+                                              Examenul de bacalaureat naional 2015
+
+                                                                    Proba E. c)
+                                                           Matematic M_tehnologic
+
+                                                                                                          Varianta 3
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul
+tehnic, toate calificrile profesionale
+
+· Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+· Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                               (30 de puncte)
+
+5p 1. Artai c media geometric a numerelor a = 16 i b = 9 este egal cu 12.
+
+5p 2. Determinai numrul real m pentru care f (2) = 0 , unde f :    , f ( x) = x + m .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 32x+1 = 35 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea A = {1, 2, 3, 4, 5, 6, 7, 8, 9} , acesta s
+
+      fie multiplu de 2.
+
+5p 5. În reperul cartezian xOy se consider punctele A(-1,3) i B(5,3) . Determinai coordonatele
+
+    mijlocului segmentului AB .
+
+5p  6. Artai c sin x = 1 , tiind c                      x       0,       i  cos x  =     3.
+                            2                                       2                    2
+
+SUBIECTUL al II-lea                                                                                       (30 de puncte)
+
+    1. Se consider matricele                A  =     1      3   B   =      -4      0  i  C(x)  =   x      1
+                                                             ,                                              , unde x este numr real.
+                                                   2 1  0 4                                        2 3
+
+5p a) Artai c det A = -5 .
+
+5p b) Artai c det ( A + C (-1)) = det B .
+
+5p c) Determinai numrul real x pentru care C ( x)  A - A  C ( x) = B .
+
+    2. Se consider polinomul f = X 3 + 2 X 2 - 6 X + 3 .
+
+5p a) Artai c f (1) = 0 .
+
+5p b) Determinai câtul i restul împririi polinomului f la polinomul X 2 + 3X - 3 .
+
+5p  c) Demonstrai c             x1  +   x2  +  x3  +    1   +  1    +  1   =   0,  unde  x1 ,  x2  i  x3  sunt rdcinile polinomului   f  .
+                                                        x1     x2      x3
+
+SUBIECTUL al III-lea                                                                                      (30 de puncte)
+
+    1. Se consider funcia f :    , f ( x) = x3 - 3x +1 .
+
+5p a) Artai c f '( x) = 3( x -1)( x + 1) , x   .
+
+5p  b) Calculai  lim            f (x) - x3
+
+                                            .
+                 x+ x
+
+5p c) Artai c -1  f ( x)  3, pentru orice x [-1,1] .
+
+    2. Se consider funcia f : (0, +)   , f ( x) = 2x + 1 .
+
+                                                                       x
+
+5p  a)  Artai c  3    f         ( x) -  1     dx  =5.
+                                        x   
+                 
+
+                 2
+
+5p b) Demonstrai c funcia F : (0, +)   , F ( x) = x2 + ln x + 2015 este o primitiv a funciei f .
+
+5p c) Determinai volumul corpului obinut prin rotaia în jurul axei Ox a graficului funciei
+
+     g :[1, 2]   , g ( x) = f ( x) - 2x .
+
+Prob scris la matematic M_tehnologic                                                                      Varianta 3
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                       Pagina 1 din 1
+

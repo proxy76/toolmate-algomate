@@ -1,0 +1,93 @@
+                                                            Ministerul Educaiei Naionale                                 Varianta 3
+                                                     Centrul Naional de Evaluare i Examinare
+
+                                       Examenul de bacalaureat naional 2014
+                                                         Proba E. c)
+
+                                                Matematic M_mate-info
+
+    Filiera teoretic, profilul real, specializarea matematic-informatic
+    Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+     · Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.                                                 (30 de puncte)
+     · Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I
+
+5p 1. Se consider numrul complex z = 1 + i . Calculai z2 .
+
+5p 2. Artai c parabola asociat funciei f :    , f (x) = x2 - 4x + 6 nu intersecteaz axa Ox .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia log2 (2x - 3) = log2 ( x +1) .
+
+5p 4. Calculai probabilitatea ca alegând un numr din mulimea numerelor naturale de dou cifre, acesta
+      s fie impar.
+
+5p 5. În triunghiul ABC punctele M , N i P sunt mijloacele laturilor AB, BC i, respectiv, AC .
+
+    Artai c AM + BN + CP = 0 .
+
+5p 6. tiind c tg a = 3 i a   , artai c sin a - cos a = 2 - 3 .
+                                                         cos a + sin a
+
+SUBIECTUL al II-lea                                                                                                      (30 de puncte)
+
+                                            1 1 1 
+                                                        
+    1. Se consider matricea      A(a  )  =  11  a  2       ,  unde  a  este                numr  real.
+                                                2  a
+
+5p a) Artai c det ( A(1)) = -1.
+
+5p b) Determinai numerele reale m tiind c det ( A(m)) = 0 .
+
+                                                                                                    2 1 1 
+                                                                                                                    
+( ) 5p                                                                                                              
+    c) Determinai numerele reale a astfel încât A(a)  A(a) - A a2                                =     1  5   -5      .
+                                                                                                          -5
+                                                                                                     1        5 
+
+    2. Pe mulimea numerelor reale se definete legea de compoziie asociativ x  y = 3x + 3y - xy - 6 .
+
+5p a) Calculai 1 3 .
+
+5p b) Artai c x  y = 3 - ( x - 3)( y - 3) pentru orice numere reale x i y .
+
+5p c) Determinai numerele reale x pentru care x  x ... x = x .
+
+                                                              x de 2014 ori
+
+SUBIECTUL al III-lea                                                                                                     (30 de puncte)
+
+    1. Se consider funcia  f :,                 f  (x)  =  x2  x  -2                    .
+                                                               -  4x +5
+
+                 f '(x) =  (1- x)( x - 3)
+
+                           x2 - 4x + 5 2
+( ) 5p                                             x .
+    a) Artai c                                  ,
+
+5p b) Determinai ecuaia asimptotei spre + la graficul funciei f .
+5p c) Determinai intervalele de monotonie ale funciei f .
+
+                                                                                                                 e
+
+     2. Pentru fiecare numr natural nenul n se consider numrul In = x lnn x dx .
+
+                                                                                                    1
+
+5p  a)  Artai c  I1  =  e2 +1 .
+                          4
+
+5p b) Artai c In+1  In pentru orice numr natural nenul n .
+
+5p c) Demonstrai c 2In+1 + (n +1) In = e2 pentru orice numr natural nenul n .
+
+Prob scris la matematic M_mate-info                                                                                      Varianta 3
+Filiera teoretic, profilul real, specializarea matematic-informatic
+Filiera vocaional, profilul militar, specializarea matematic-informatic
+
+                                                                        Pagina 1 din 1
+

@@ -83,7 +83,7 @@ _TIERS = {
 
 class LimitsGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "limits"
-    SUPPORTED_PROFILES = ["M1", "M2"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii"]
 
     def _tiers(self):
         return _TIERS

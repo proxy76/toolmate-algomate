@@ -358,7 +358,7 @@ _TIERS_M3 = {1: [_t_value, _t_value_expr]}
 
 class TrigonometryGenerator(TieredExerciseGenerator):
     TOPIC_CODE = "trigonometry"
-    SUPPORTED_PROFILES = ["M1", "M2", "M3"]
+    SUPPORTED_PROFILES = ["mate-info", "tehnologic", "stiintele-naturii", "pedagogic"]
 
     def _tiers(self):
-        return _TIERS_M3 if self.profile == "M3" else _TIERS
+        return _TIERS_M3 if self.profile == "pedagogic" else _TIERS

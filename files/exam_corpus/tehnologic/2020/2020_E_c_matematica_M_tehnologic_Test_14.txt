@@ -1,0 +1,103 @@
+                                                       Ministerul Educaiei i Cercetrii
+                                                  Centrul Naional de Evaluare i Examinare
+
+                                        Examenul de bacalaureat naional 2020
+                                                          Proba E. c)
+
+                                                 Matematic M_tehnologic
+                                                                                                                          Test 14
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale;
+profilul tehnic, toate calificrile profesionale
+ Toate subiectele sunt obligatorii. Se acord 10 puncte din oficiu.
+ Timpul de lucru efectiv este de 3 ore.
+
+SUBIECTUL I                                                                                                                        (30 de puncte)
+
+5p  1.  Artai  c   2            1    1      15     3  8     0  .
+                                3    5      16
+
+5p 2. Determinai numrul real a , tiind c punctul A4, 0 aparine graficului funciei f :  ,
+
+    f x  x a .
+
+5p 3. Rezolvai în mulimea numerelor reale ecuaia 2x  1  5 .
+
+5p 4. Calculai probabilitatea ca, alegând un numr din mulimea M  10, 20,30, 40,50,60,70, 80,90 ,
+
+    acesta s fie multiplu de 6 .
+
+5p 5. În reperul cartezian xOy se consider punctele A3,5 i B 7,5 . Determinai lungimea
+
+    segmentului OM , unde punctul M este mijlocul segmentului AB .
+
+5p  6. Pentru  x     0,            astfel încât       cos x  5 , artai c                 tg x  12 .
+                         2                                    13                                 5
+
+SUBIECTUL al II-lea                                                                                                                (30 de puncte)
+
+    1. Se consider matricele                A      1     1    ,     B       0    1       i  O2        0   0    .
+                                                   1     0                  1                         0   0  
+                                                                                 1                           
+                                                                                      
+
+5p a) Artai c det A  1.
+
+5p b) Artai c B  B  A  O2 .
+
+5p  c) Determinai    x, y  0,  , pentru care                           A    B    B    A       A    B        log2  x  0          .
+                                                                                                              0
+                                                                                                                     log3  y  
+                                                                                                                              
+
+      2. Pe mulimea numerelor reale se definete legea de compoziie x  y  x  y 1 .
+                                                                                                  5
+
+5p a) Artai c 2020 5  2022 .
+
+5p b) Determinai numrul real x pentru care  x  x  x  24 .
+
+                                                                           5
+5p c) Determinai numrul real x pentru care 5x 5x1  11 .
+
+SUBIECTUL al III-lea                                                                                                               (30 de puncte)
+
+    1. Se consider funcia f :  , f  x  x3  3x  9 .
+
+5p a) Artai c f ' x  31 x1 x , x  .
+
+5p  b) Artai c lim              f x7         9 .
+
+                  x2 x  2
+
+5p c) Demonstrai c f  x  11, pentru orice x 1,  .
+
+    2. Se consider funcia f :                         ,  f  x            x
+                                                                       x2 1 .
+
+                              1
+
+  5p a) Artai c  f  x  x2 1 dx  0 .
+
+                  1
+
+                             1
+
+  5p b) Calculai  x2 1 ex f  x dx .
+
+                  0
+
+                                                                        a
+
+5p c) Determinai a 0, pentru care   f  x  f xdx  ln 2a .
+
+                                                                 0
+
+Prob scris la matematic M_tehnologic                                                                                               Test 14
+
+Filiera tehnologic: profilul servicii, toate calificrile profesionale; profilul resurse, toate calificrile profesionale; profilul tehnic,
+
+toate calificrile profesionale
+
+                                                                       Pagina 1 din 1
+
