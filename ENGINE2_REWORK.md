@@ -195,8 +195,16 @@ already-tracked `_legacy` ones).
       bugs found en route (`\ge`,`\le`,`\sqrt2`,`\tfrac`).
 
 ### Phase D — SINGLE-PROBLEM generators  *(priority tier 2)*
-- [ ] D1 Diversify `/generate` single-item + facade generators for all 4 levels
-      (task #6).
+- [~] D1 Diversify `/generate` single-item + facade generators for all 4 levels
+      (task #6). Measured every (topic × difficulty) for form diversity; the thin
+      shared topics (≤9 forms) were enriched (all also lift the exam pos-1 pools):
+      **progressions** 9/9/6→11/13/10 (+geom sum, find-n, 3-consec-AP, a1-from-Sn,
+      geom-ratio; new tier-3); **powers** 9/9/6→12/14/10 (+mult-equal-powers, radical
+      product, rationalize, 3-term radical sum; new tier-3); **logarithms** 7→11
+      (+log_b(A^k), 3-term sum/diff); **limits** 18/18/5→22/22/11 (+rational-at-point,
+      ln(1+cx)/x). Remaining thin: `polynomials` facade (~4–6, bounded by the problem
+      structure). Antrenament practice of matrices/integrals/algebraic uses the same
+      (already-diverse) problem pools via facades.
 
 ---
 
