@@ -46,7 +46,7 @@ class AlgebraicStructuresProblem(ProblemGenerator):
         the isomorphism cerință M1 leans on.
         """
         rng = self.rng
-        c = rng.choice([1, 2, 3, -1])
+        c = rng.choice([1, 2, 3, 4, 5, -1, -2])
         fams = [
             (lambda u, v, c=c: (u - c) * (v - c) + c, c + 1, c, "mult"),
             (lambda u, v, c=c: u + v - c, c, c, "add"),
@@ -60,15 +60,15 @@ class AlgebraicStructuresProblem(ProblemGenerator):
         f, e, c, kind = self._law_family()
         rng = self.rng
         # y0 distinct from the neutral to avoid a degenerate equation in cerinte.
-        y_choices = [v for v in [0, 1, 2, 3] if v != e] or [e + 1]
+        y_choices = [v for v in [-1, 0, 1, 2, 3, 4] if v != e] or [e + 1]
         ctx = {
             "f": f,
             "e": e,
             "c": c,
             "kind": kind,
-            "x0": rng.choice([0, 1, 2, 3]),
+            "x0": rng.choice([0, 1, 2, 3, 4]),
             "y0": rng.choice(y_choices),
-            "target": rng.choice([e + 1, e + 2, e - 2]),
+            "target": rng.choice([e + 1, e + 2, e - 2, e + 3, e - 1]),
         }
         ctx["plan"] = self._pick_plan()   # decide a/b/c once (label consistency)
         return ctx
