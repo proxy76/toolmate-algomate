@@ -122,8 +122,76 @@ def _a_viete(rng):
                 hint_latex=r"Relațiile lui Viète: $x_1 + x_2 = S$, $x_1 x_2 = P$.")
 
 
+# --- logarithmic identity (base 2 / 3 / 10) ----------------------------------
+def _a_log_identity(rng):
+    # ± log_b(b^e) terms summing to a small integer — e.g. log_2 16 − log_2 8 = 1.
+    b = rng.choice([2, 3, 10])
+    k = rng.choice([2, 3])
+    parts, total, expr = [], 0, sp.Integer(0)
+    for i in range(k):
+        e = rng.randint(1, 3)
+        A = b ** e
+        sign = 1 if i == 0 else pick(rng, [1, 1, -1])
+        parts.append((rf"\log_{{{b}}} {A}" if i == 0
+                      else rf"{'+' if sign > 0 else '-'} \log_{{{b}}} {A}"))
+        total += sign * e
+        expr += sign * sp.log(A, b)
+    if not (1 <= total <= 6):
+        raise ValueError("not clean")
+    if rng.random() < 0.4:                       # a log_b 1 = 0 term, as in the papers
+        parts.append(rf"+ \log_{{{b}}} 1")
+        expr += sp.log(1, b)
+    if sp.simplify(expr - total) != 0:
+        raise ValueError("unverified")
+    return _show(" ".join(parts), sp.Integer(total))
+
+
+# --- radical sum with a radical answer (√18 + √8 = 5√2) -----------------------
+def _a_radical_sum(rng):
+    m = rng.choice([2, 3, 5])
+    a, b = rng.randint(1, 4), rng.randint(1, 4)
+    c = rng.randint(1, a + b - 1) if (a + b > 1 and rng.random() < 0.5) else 0
+    k = a + b - c
+    if k <= 0:
+        raise ValueError("degenerate")
+    terms = rf"\sqrt{{{m * a * a}}} + \sqrt{{{m * b * b}}}"
+    expr = sp.sqrt(m * a * a) + sp.sqrt(m * b * b)
+    if c:
+        terms += rf" - \sqrt{{{m * c * c}}}"
+        expr -= sp.sqrt(m * c * c)
+    ans = rf"{k if k != 1 else ''}\sqrt{{{m}}}"
+    if sp.simplify(expr - k * sp.sqrt(m)) != 0:
+        raise ValueError("unverified")
+    return make("arithmetic", rf"Arătați că ${terms} = {ans}$.", rf"${ans}$",
+                hint_latex=r"Scoateți factorii de sub radical: $\sqrt{a^2 m} = a\sqrt{m}$.")
+
+
+# --- sum of conjugate squares (integer) --------------------------------------
+def _a_sqrt_squares(rng):
+    # (a + √m)² + (a − √m)² = 2a² + 2m — the double-product cancels.
+    m = rng.choice([2, 3, 5, 6, 7])
+    a = rng.randint(1, 5)
+    val = 2 * a * a + 2 * m
+    expr = (a + sp.sqrt(m)) ** 2 + (a - sp.sqrt(m)) ** 2
+    assert sp.simplify(expr - val) == 0
+    return _show(rf"\left({a} + \sqrt{{{m}}}\right)^2 + \left({a} - \sqrt{{{m}}}\right)^2",
+                 sp.Integer(val))
+
+
+# --- power law numeric identity (2³·2² : 2⁴ = 2) -----------------------------
+def _a_power(rng):
+    a = rng.choice([2, 3])
+    m, n, k = rng.randint(1, 3), rng.randint(1, 3), rng.randint(0, 2)
+    e = m + n - k
+    if not (0 <= e <= 4):
+        raise ValueError("not clean")
+    ktex = rf" : {a}^{{{k}}}" if k else ""
+    return _show(rf"{a}^{{{m}}} \cdot {a}^{{{n}}}{ktex}", sp.Integer(a ** e))
+
+
 _TIERS = {
-    1: [_a_frac_sum, _a_frac_mixed, _a_frac_div, _a_radical, _a_radical_conj, _a_viete],
+    1: [_a_frac_sum, _a_frac_mixed, _a_frac_div, _a_radical, _a_radical_conj, _a_viete,
+        _a_log_identity, _a_radical_sum, _a_sqrt_squares, _a_power],
 }
 
 

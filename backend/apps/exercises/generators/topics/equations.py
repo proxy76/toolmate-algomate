@@ -203,10 +203,54 @@ def _log_sum(rng):                            # log_b(x+p) + log_b(x+q) = log_b(
     )
 
 
+def _exp_linexp(rng):                         # base^{ax+p} = base^{bx+q}  (equal bases)
+    base = rng.choice([2, 3, 5])
+    a, b = rng.sample([1, 2, 3], 2)
+    x0 = rng.choice([-2, -1, 1, 2, 3])
+    p = rng.randint(-3, 3)
+    q = (a - b) * x0 + p
+    e1, e2 = a * X + p, b * X + q
+    if sp.solve(sp.Eq(e1, e2), X) != [x0]:
+        raise ValueError("unverified")
+    return make(
+        "equations",
+        WRAP.format(rf"{base}^{{{_l(e1)}}} = {base}^{{{_l(e2)}}}"),
+        rf"$x = {x0}$",
+        hint_latex=rf"Baze egale $\Rightarrow$ exponenți egali: ${_l(e1)} = {_l(e2)}$.",
+        steps_latex=[rf"${_l(e1)} = {_l(e2)} \Rightarrow x = {x0}$"],
+    )
+
+
+def _log_quadratic_eq(rng):                   # log_b(x²+px+q) = log_b(mx+n)  (quad = linear)
+    b = rng.choice([2, 3, 10])
+    r1, r2 = sorted(rng.sample([-3, -2, -1, 1, 2, 3, 4], 2))
+    m, n = rng.randint(1, 3), rng.randint(1, 4)
+    Q = X ** 2 + (-(r1 + r2) + m) * X + (r1 * r2 + n)
+    L = m * X + n
+    sols = sorted((s for s in (r1, r2) if L.subs(X, s) > 0 and Q.subs(X, s) > 0), key=float)
+    if not sols:
+        raise ValueError("empty domain")
+    if sorted(sp.solve(sp.Eq(Q, L), X)) != sorted([r1, r2]):
+        raise ValueError("unverified")
+    sol = ",\\ ".join(_l(s) for s in sols)
+    return make(
+        "equations",
+        WRAP.format(rf"\log_{{{b}}}\left({_l(Q)}\right) = \log_{{{b}}}\left({_l(L)}\right)"),
+        rf"$x \in \{{{sol}\}}$",
+        hint_latex=r"Logaritmi egali în aceeași bază $\Rightarrow$ argumente egale "
+                   r"(cu condițiile de existență).",
+        steps_latex=[rf"${_l(Q)} = {_l(L)}$", rf"$x \in \{{{sol}\}}$"],
+    )
+
+
+_D1 = [_exp_simple, _exp_prod, _log_simple, _irr_simple, _abs_eq, _exp_linexp]
+_D2 = [_exp_quadratic, _log_linear, _log_sum, _irr_extraneous, _log_quadratic_eq]
 _TIERS = {
-    1: [_exp_simple, _exp_prod, _log_simple, _irr_simple, _abs_eq],
-    2: [_exp_quadratic, _log_linear, _log_sum, _irr_extraneous],
-    3: [_exp_quadratic, _log_linear, _log_sum, _irr_extraneous],
+    1: _D1,
+    # mate-info Subiectul I pos-3 runs at d2; the real papers mix simple and moderate
+    # equations, so d2 draws the full pool (d1 forms + the harder d2-specific ones).
+    2: _D1 + _D2,
+    3: _D2,
 }
 # M3: single-step only, base ∈ {2,3,10} (info-on-sub1 §3 restriction).
 _TIERS_M3 = {1: [_exp_simple, _exp_prod, _log_simple, _log_linear, _irr_simple, _abs_eq]}
