@@ -348,9 +348,13 @@ _TIER1 = [
 ]
 _TIERS = {
     1: _TIER1,
-    2: [_t_pyth_ratio, _t_simple_equation, _t_trig_from_ratio, _t_sin_double,
-        _t_trig_quadratic],
-    3: [_t_double_angle, _t_trig_quadratic, _t_prove_identity],
+    # d2 (used by mate-info Subiectul I pos-6) keeps the full authentic pos-6 pool
+    # — right-triangle ratio/perimeter/area, values, complementary identities — and
+    # adds the harder ratio/double-angle/quadratic forms on top, so it is rich *and*
+    # a notch harder rather than a thin handful.
+    2: _TIER1 + [_t_trig_from_ratio, _t_sin_double, _t_trig_quadratic],
+    3: [_t_double_angle, _t_trig_quadratic, _t_prove_identity, _t_trig_from_ratio,
+        _t_sin_double, _t_area_angle],
 }
 # M3: remarkable values only (spec §5.2), but with a bit more variety than before.
 _TIERS_M3 = {1: [_t_value, _t_value_expr]}

@@ -43,6 +43,7 @@ _BIG = re.compile(r"\\(?:bigg|Bigg|big|Big)[lrm]?\b\s*")
 # roots (``\sqrt{2}`` not ``\sqrt2``) and the full ``\geq``/``\leq`` spellings.
 # Normalise these here so any generator's KaTeX-valid LaTeX also renders in PDF.
 _SQRT = re.compile(r"\\sqrt([\dA-Za-z])")
+_TFRAC = re.compile(r"\\tfrac\b")   # mathtext has \frac/\dfrac but not \tfrac
 _GE = re.compile(r"\\ge(?![A-Za-z])")
 _LE = re.compile(r"\\le(?![A-Za-z])")
 
@@ -50,6 +51,7 @@ _LE = re.compile(r"\\le(?![A-Za-z])")
 def _preprocess(latex: str) -> str:
     s = _BIG.sub("", latex.replace(r"\displaystyle", ""))
     s = _SQRT.sub(r"\\sqrt{\1}", s)
+    s = _TFRAC.sub(r"\\frac", s)
     s = _LE.sub(r"\\leq", _GE.sub(r"\\geq", s))
     return s.strip()
 

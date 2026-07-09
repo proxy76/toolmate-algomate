@@ -33,12 +33,35 @@ class IntegralsProblem(ProblemGenerator):
     def _families(self):
         rng = self.rng
         k = rng.choice([1, 2, 3])
+        R = r"f:\mathbb{R}\to\mathbb{R}"
+        pos = r"f:(0,\infty)\to\mathbb{R}"
+        gt = lambda a: rf"f:({a},\infty)\to\mathbb{{R}}"
+        # A wide pool of genuine integrals with clean primitives and clean definite
+        # values (int / simple fraction / e / ln): polynomials of several degrees,
+        # exponentials, reciprocal-linear (ln), and sign-changing ones for the area
+        # cerință. All are re-verified in _validate_context.
         return rng.choice([
-            (sp.log(x), 1, sp.E, r"f:(0,\infty)\to\mathbb{R}"),          # ∫=1
-            (x * sp.exp(x), 0, 1, r"f:\mathbb{R}\to\mathbb{R}"),          # ∫=1
-            (2 * x - 2, 0, 3, r"f:\mathbb{R}\to\mathbb{R}"),              # sign-changing
-            (sp.Integer(1) / (x + 1), 0, k, r"f:(-1,\infty)\to\mathbb{R}"),  # ∫=ln(k+1)
-            (3 * x ** 2 + 1, 0, 2, r"f:\mathbb{R}\to\mathbb{R}"),         # ∫=10
+            # --- logarithmic / exponential ---
+            (sp.log(x), 1, sp.E, pos),                                   # ∫=1
+            (x * sp.exp(x), 0, 1, R),                                    # ∫=1
+            (sp.exp(x), 0, 1, R),                                        # ∫=e−1
+            (2 * sp.exp(x), 0, 1, R),                                    # ∫=2e−2
+            (sp.exp(2 * x), 0, sp.Rational(1, 2), R),                    # ∫=(e−1)/2
+            (sp.Integer(1) / x, 1, sp.E, pos),                           # ∫=1
+            (sp.Integer(1) / (x + 1), 0, k, gt("-1")),                   # ∫=ln(k+1)
+            (sp.Integer(1) / (2 * x + 1), 0, 1, gt(r"-\frac{1}{2}")),    # ∫=ln(3)/2
+            # --- polynomials (varied degree / bounds) ---
+            (3 * x ** 2 + 1, 0, 2, R),                                   # ∫=10
+            (2 * x + 1, 0, 2, R),                                        # ∫=6
+            (3 * x ** 2 - 1, 0, 2, R),                                   # ∫=6
+            (4 * x ** 3, 0, 1, R),                                       # ∫=1
+            (x ** 3, 0, 2, R),                                           # ∫=4
+            (x ** 2 + x, 0, 2, R),                                       # ∫=14/3
+            (3 * x ** 2, 1, 2, R),                                       # ∫=7
+            # --- sign-changing (interesting area) ---
+            (2 * x - 2, 0, 3, R),                                        # roots at 1
+            (x ** 2 - 4, 0, 3, R),                                       # root at 2
+            (6 * x - 6, 0, 4, R),                                        # root at 1
         ])
 
     def _area(self, f, lo, hi):
@@ -82,7 +105,7 @@ class IntegralsProblem(ProblemGenerator):
             return (rf"Se consideră șirul $(I_n)_{{n \geq 1}}$, definit prin "
                     rf"$I_n = \displaystyle\int_0^1 \dfrac{{x^n}}{{{ctx['denom_tex']}}}\,dx$, "
                     rf"unde $n$ este număr natural nenul.")
-        return rf"Se consideră funcția ${ctx['dom']}$, $f(x) = {_l(ctx['f'])}$."
+        return rf"Se consideră funcția ${ctx['dom']}$, $f(x) = {_lln(ctx['f'])}$."
 
     def _build_sub_item(self, ctx, label, difficulty) -> dict:
         if ctx.get("kind") == "sequence":
@@ -141,26 +164,26 @@ class IntegralsProblem(ProblemGenerator):
     def _a(self, ctx):
         F = ctx["F"]
         assert sp.simplify(sp.diff(F, x) - ctx["f"]) == 0
-        return {"question_latex": rf"Arătați că funcția $F(x) = {_l(F)}$ este o primitivă a "
+        return {"question_latex": rf"Arătați că funcția $F(x) = {_lln(F)}$ este o primitivă a "
                                   rf"funcției $f$.",
-                "answer_latex": rf"$F'(x) = {_l(sp.simplify(sp.diff(F, x)))} = f(x)$",
+                "answer_latex": rf"$F'(x) = {_lln(sp.simplify(sp.diff(F, x)))} = f(x)$",
                 "hint_latex": r"O primitivă verifică $F'(x) = f(x)$."}
 
     def _b(self, ctx):
         lo, hi, val = ctx["lo"], ctx["hi"], ctx["value"]
         assert sp.simplify(sp.integrate(ctx["f"], (x, lo, hi)) - val) == 0
         return {"question_latex": rf"Arătați că $\displaystyle\int_{{{_l(lo)}}}^{{{_l(hi)}}} "
-                                  rf"f(x)\,dx = {_l(val)}$.",
-                "answer_latex": rf"$\displaystyle\int_{{{_l(lo)}}}^{{{_l(hi)}}} f(x)\,dx = {_l(val)}$",
+                                  rf"f(x)\,dx = {_lln(val)}$.",
+                "answer_latex": rf"$\displaystyle\int_{{{_l(lo)}}}^{{{_l(hi)}}} f(x)\,dx = {_lln(val)}$",
                 "hint_latex": r"Folosiți formula Leibniz–Newton: "
                               r"$\int_a^b f = F(b) - F(a)$.",
                 "steps_latex": [rf"$\int_{{{_l(lo)}}}^{{{_l(hi)}}} f(x)\,dx = "
-                                rf"F({_l(hi)}) - F({_l(lo)}) = {_l(val)}$"]}
+                                rf"F({_l(hi)}) - F({_l(lo)}) = {_lln(val)}$"]}
 
     def _c(self, ctx):
         lo, hi, area = ctx["lo"], ctx["hi"], ctx["area"]
         return {"question_latex": rf"Calculați aria suprafeței plane delimitate de graficul "
                                   rf"funcției $f$, axa $Ox$ și dreptele $x = {_l(lo)}$ și "
                                   rf"$x = {_l(hi)}$.",
-                "answer_latex": rf"$\mathcal{{A}} = {_l(area)}$",
+                "answer_latex": rf"$\mathcal{{A}} = {_lln(area)}$",
                 "hint_latex": r"Aria este $\int_{a}^{b} |f(x)|\,dx$; atenție la semnul lui $f$."}
