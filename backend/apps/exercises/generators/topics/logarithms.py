@@ -32,11 +32,13 @@ class LogarithmsGenerator(ExerciseGenerator):
         # topic (position 3), so they are intentionally not produced here — keeping
         # the pos-1 exam slot a genuine identity, as in the real papers.
         if self.profile == "pedagogic":
-            pool = [self._st_identity, self._st_identity_sub]
+            pool = [self._st_identity, self._st_identity_sub,
+                    self._st_power_arg, self._st_sum_diff]
         elif self.difficulty == 1:
-            pool = [self._st_identity, self._st_identity_sub]
+            pool = [self._st_identity, self._st_identity_sub, self._st_power_arg]
         else:
-            pool = [self._st_identity, self._st_identity_sub, self._st_inequality]
+            pool = [self._st_identity, self._st_identity_sub, self._st_inequality,
+                    self._st_power_arg, self._st_sum_diff]
         return rng.choice(pool)()
 
     def _compute_answer(self, params):
@@ -107,6 +109,46 @@ class LogarithmsGenerator(ExerciseGenerator):
             "hint": r"Folosiți $\log_b m - \log_b n = \log_b\dfrac{m}{n}$.",
             "steps": [rf"${self._lg(b, m)} - {self._lg(b, n)} = "
                       rf"{self._lg(b, sp.Rational(m, n))} = {q}$"],
+            "ok": True,
+        }
+
+    def _st_power_arg(self):
+        # log_b(A^k) = k·e, with A = b^e  (e.g. log_2(4^3) = 6, lg(100^2) = 4).
+        rng = self.rng
+        b = rng.choice([2, 3, 10])
+        e, k = rng.randint(1, 2), rng.randint(2, 3)
+        A, val = b ** e, k * e
+        assert sp.simplify(sp.log(A ** k, b) - val) == 0
+        return {
+            "question": rf"Arătați că ${self._lg(b, rf'{A}^{{{k}}}')} = {val}$.",
+            "answer_latex": rf"${val}$",
+            "answer": sp.Integer(val),
+            "hint": r"Folosiți $\log_b(A^k) = k\log_b A$.",
+            "steps": [rf"${self._lg(b, rf'{A}^{{{k}}}')} = {k}\cdot {self._lg(b, A)} = {val}$"],
+            "ok": True,
+        }
+
+    def _st_sum_diff(self):
+        # log_b m + log_b n − log_b p = q, with m·n/p = b^q (e.g. lg 20 + lg 5 − lg 10 = 1).
+        rng = self.rng
+        b = rng.choice([2, 3, 10])
+        q = rng.randint(1, 2)
+        p = rng.choice([2, 3, 4, 5])
+        target = p * b ** q                          # = m·n
+        divs = [d for d in range(2, target) if target % d == 0 and target // d >= 2]
+        if not divs:
+            raise ValueError("no factor pair")
+        m = rng.choice(divs)
+        n = target // m
+        if sp.simplify(sp.log(m, b) + sp.log(n, b) - sp.log(p, b) - q) != 0:
+            raise ValueError("unverified")
+        return {
+            "question": rf"Arătați că ${self._lg(b, m)} + {self._lg(b, n)} - "
+                        rf"{self._lg(b, p)} = {q}$.",
+            "answer_latex": rf"${q}$",
+            "answer": sp.Integer(q),
+            "hint": r"$\log_b m + \log_b n - \log_b p = \log_b\dfrac{mn}{p}$.",
+            "steps": [rf"$= {self._lg(b, sp.Rational(m * n, p))} = {q}$"],
             "ok": True,
         }
 
