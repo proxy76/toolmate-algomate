@@ -121,8 +121,22 @@ server {
     root /srv/algomate/frontend/dist;
     index index.html;
 
+    # Cap request bodies at the edge (defense-in-depth; Django also caps at 1 MB).
+    client_max_body_size 2m;
+
     location /api/  { proxy_pass http://127.0.0.1:8000; proxy_set_header Host $host; proxy_set_header X-Forwarded-Proto $scheme; }
-    location /admin/ { proxy_pass http://127.0.0.1:8000; proxy_set_header Host $host; proxy_set_header X-Forwarded-Proto $scheme; }
+
+    # Django admin: restrict to trusted IPs so it isn't brute-forceable from the
+    # open internet. Replace with your office/VPN address(es), or drop this block
+    # entirely if you only administer via the React dashboard + API.
+    location /admin/ {
+        allow 203.0.113.0/24;   # <-- your admin network
+        deny all;
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
     location /static/ { proxy_pass http://127.0.0.1:8000; }
 
     location / { try_files $uri /index.html; }   # SPA fallback

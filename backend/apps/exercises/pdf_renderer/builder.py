@@ -236,8 +236,10 @@ def _build_story(data, styles, imgdir, cache):
     key = _profile_key(data)
     math_label, _exam_label, default_filiera = PROFILE_LABELS[key]
     year = data.get("year", 2025)
-    session = data.get("session", "Simulare")
-    filiera = data.get("filiera", default_filiera)
+    # session/filiera are caller-supplied and rendered as ReportLab Paragraph
+    # markup (a mini-HTML), so escape them to neutralise stray/injected tags.
+    session = escape(str(data.get("session", "Simulare")))
+    filiera = escape(str(data.get("filiera", default_filiera)))
 
     story = [
         Paragraph(f"Examenul național de bacalaureat {year}", styles["title"]),
