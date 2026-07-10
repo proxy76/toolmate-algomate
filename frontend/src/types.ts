@@ -102,6 +102,9 @@ export interface AdminUser {
   last_login: string | null;
   is_active: boolean;
   is_staff: boolean;
+  generated_tests: number;
+  generated_problems: number;
+  downloaded_pdfs: number;
 }
 
 export interface AdminBlogPost {

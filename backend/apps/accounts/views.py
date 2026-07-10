@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from rest_framework import generics, permissions, status
+from rest_framework import filters, generics, permissions, status
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
@@ -44,8 +44,13 @@ class MeView(generics.RetrieveAPIView):
 
 
 class AdminUserListView(generics.ListAPIView):
-    """All registered accounts — admin only (staff)."""
+    """All registered accounts with usage stats — admin only (staff).
+
+    Supports ``?search=`` to find a student by username or email.
+    """
 
     serializer_class = AdminUserSerializer
     permission_classes = [permissions.IsAdminUser]
     queryset = User.objects.all().order_by("-date_joined")
+    filter_backends = [filters.SearchFilter]
+    search_fields = ["username", "email"]

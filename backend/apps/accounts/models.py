@@ -17,6 +17,11 @@ class User(AbstractUser):
         default="mate-info",
     )
 
+    # --- usage stats (incremented server-side; see apps.exercises.views) -------
+    generated_tests = models.PositiveIntegerField(default=0)      # full simulations
+    generated_problems = models.PositiveIntegerField(default=0)   # individual exercises
+    downloaded_pdfs = models.PositiveIntegerField(default=0)
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 

@@ -1,3 +1,5 @@
+from django.contrib.auth import get_user_model
+from django.db.models import F
 from django.http import HttpResponse
 from rest_framework import generics, permissions, status
 from rest_framework.response import Response
@@ -12,6 +14,18 @@ from .serializers import (
     GenerateRequestSerializer,
     SimulateRequestSerializer,
 )
+
+User = get_user_model()
+
+
+def _bump(request, **increments):
+    """Atomically increment usage counters for the signed-in user (no-op for
+    anonymous callers, so anonymous generations simply aren't attributed)."""
+    user = getattr(request, "user", None)
+    if user and user.is_authenticated:
+        User.objects.filter(pk=user.pk).update(
+            **{field: F(field) + amount for field, amount in increments.items()}
+        )
 
 
 class TopicsView(APIView):
@@ -43,6 +57,7 @@ class GenerateView(APIView):
             result = engine.generate_exercises(**data)
         except engine.GenerationError as exc:
             return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
+        _bump(request, generated_problems=len(result.get("items", [])))
         return Response(result)
 
 
@@ -60,6 +75,7 @@ class SimulateView(APIView):
             )
         except engine.GenerationError as exc:
             return Response({"detail": str(exc)}, status=status.HTTP_400_BAD_REQUEST)
+        _bump(request, generated_tests=1)
         return Response(result)
 
 
@@ -82,6 +98,7 @@ class ExportPDFView(APIView):
                 {"detail": "Nu am putut genera PDF-ul. Încearcă din nou."},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR,
             )
+        _bump(request, downloaded_pdfs=1)
         response = HttpResponse(pdf_bytes, content_type="application/pdf")
         session = str(data.get("session", "subiect")).replace(" ", "_")
         response["Content-Disposition"] = (

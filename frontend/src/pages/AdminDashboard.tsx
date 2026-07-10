@@ -1,5 +1,5 @@
-import { FileText, Loader2, PlusCircle, ShieldCheck, Users } from "lucide-react";
-import { useEffect, useState } from "react";
+import { FileText, Loader2, PlusCircle, Search, ShieldCheck, Users } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
@@ -43,9 +43,9 @@ export function AdminDashboard() {
         </div>
       </header>
 
-      <div className="grid lg:grid-cols-2 gap-6 items-start">
-        <NewPostCard />
+      <div className="space-y-6">
         <UsersCard />
+        <NewPostCard />
       </div>
     </div>
   );
@@ -190,6 +190,7 @@ function UsersCard() {
   const [users, setUsers] = useState<AdminUser[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     api
@@ -198,6 +199,14 @@ function UsersCard() {
       .catch((err) => setError(apiErrorMessage(err)))
       .finally(() => setLoading(false));
   }, []);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return users;
+    return users.filter(
+      (u) => u.username.toLowerCase().includes(q) || u.email.toLowerCase().includes(q),
+    );
+  }, [users, query]);
 
   return (
     <section className="bg-paper border border-edge rounded-2xl shadow-sm">
@@ -208,10 +217,29 @@ function UsersCard() {
         </div>
         {!loading && (
           <span className="text-xs font-semibold text-ink-muted bg-sunken border border-edge px-2.5 py-0.5 rounded-full">
-            {users.length}
+            {query.trim() ? `${filtered.length} / ${users.length}` : users.length}
           </span>
         )}
       </div>
+
+      {!loading && !error && (
+        <div className="px-5 md:px-6 pt-3">
+          <div className="relative">
+            <Search
+              size={16}
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint pointer-events-none"
+            />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Caută un elev după nume sau email…"
+              aria-label="Caută un elev"
+              className="w-full pl-9 pr-3 py-2 rounded-lg bg-paper text-ink border border-edge placeholder:text-ink-faint focus:border-oxblood transition-colors text-sm"
+            />
+          </div>
+        </div>
+      )}
 
       <div className="p-2 md:p-3">
         {error && (
@@ -230,11 +258,14 @@ function UsersCard() {
                 <tr className="text-left text-xs uppercase tracking-wide text-ink-faint">
                   <th className="px-3 py-2 font-semibold">Utilizator</th>
                   <th className="px-3 py-2 font-semibold">Profil</th>
+                  <th className="px-3 py-2 font-semibold text-right" title="Teste generate (simulări)">Teste</th>
+                  <th className="px-3 py-2 font-semibold text-right" title="Probleme generate">Probleme</th>
+                  <th className="px-3 py-2 font-semibold text-right" title="PDF-uri descărcate">PDF-uri</th>
                   <th className="px-3 py-2 font-semibold">Înregistrat</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-edge">
-                {users.map((u) => (
+                {filtered.map((u) => (
                   <tr key={u.id} className="hover:bg-sunken/50 transition-colors">
                     <td className="px-3 py-2.5">
                       <div className="font-semibold text-ink-strong flex items-center gap-1.5">
@@ -246,11 +277,21 @@ function UsersCard() {
                       <div className="text-ink-muted text-xs">{u.email}</div>
                     </td>
                     <td className="px-3 py-2.5 text-ink">{u.profile}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums text-ink">{u.generated_tests}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums text-ink">{u.generated_problems}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums text-ink">{u.downloaded_pdfs}</td>
                     <td className="px-3 py-2.5 text-ink-muted whitespace-nowrap">{fmt(u.date_joined)}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
+            {filtered.length === 0 && (
+              <p className="px-3 py-8 text-center text-ink-muted text-sm">
+                {query.trim()
+                  ? `Niciun elev pentru „${query.trim()}”.`
+                  : "Niciun cont înregistrat încă."}
+              </p>
+            )}
           </div>
         )}
       </div>
