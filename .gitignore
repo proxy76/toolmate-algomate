@@ -83,3 +83,4 @@ bac-matematica/
 # via download_bac_mate.sh, so we track only the extracted .txt + ANALYSIS/README
 # (and the small, already-tracked _legacy/ PDFs). Ignore the per-year source PDFs.
 files/exam_corpus/*/[0-9][0-9][0-9][0-9]/*.pdf
+_pdf_samples/
