@@ -118,7 +118,7 @@ def _vconcat(images, align="left", gap=4):
 def _grid_image(rows: list[list[str]], fontsize: float) -> Image.Image:
     cells = [[_img(c, fontsize) for c in row] for row in rows]
     ncol = max((len(r) for r in cells), default=0)
-    pad = max(int(5 * PX_PER_PT / 2), 4)
+    pad = max(int(3 * PX_PER_PT / 2), 3)
     col_w = [0] * ncol
     row_h = [max((c.height for c in r), default=0) for r in cells]
     for r in cells:

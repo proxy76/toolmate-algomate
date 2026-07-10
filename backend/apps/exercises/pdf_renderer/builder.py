@@ -135,7 +135,7 @@ def _body_para(text, styles, imgdir, cache):
     # A tall inline image (a 3×3 matrix, a big fraction/integral) is centered on the
     # line but reportlab does not grow the line box to fit it, so it overlaps the
     # neighbouring line. Expand the paragraph leading to contain the tallest image.
-    need = max_h + 3
+    need = max_h + 1
     if need > style.leading:
         style = ParagraphStyle(f"{style.name}_tall{int(need)}", parent=style, leading=need)
     return Paragraph(markup, style)
