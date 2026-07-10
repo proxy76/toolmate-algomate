@@ -59,7 +59,11 @@ def _preprocess(latex: str) -> str:
 @lru_cache(maxsize=4096)
 def _raw(expr: str, fontsize: float) -> tuple[bytes, float]:
     buf = io.BytesIO()
-    depth = math_to_image(f"${expr}$", buf, prop=FontProperties(size=fontsize),
+    # matplotlib mathtext sizes the canvas to the *advance* width, which clips the
+    # right overhang of a trailing italic glyph (a bare ``$f$`` loses most of the
+    # letter). A trailing thin space ``\,`` keeps the last glyph off the edge so
+    # its ink is fully rendered.
+    depth = math_to_image(f"${expr}\\,$", buf, prop=FontProperties(size=fontsize),
                           dpi=DPI, format="png", color="black")
     return buf.getvalue(), float(depth)
 
