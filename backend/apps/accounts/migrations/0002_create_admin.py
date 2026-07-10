@@ -11,7 +11,7 @@ from django.db import migrations
 
 ADMIN_USERNAME = "admin"
 ADMIN_EMAIL = "admin@algomate.ro"
-DEFAULT_PASSWORD = "admin12345678"
+DEFAULT_PASSWORD = "admin#hjfbdk2k&g%fbl#fhly@fvcjy676teggjju97h-4gf"
 
 
 def create_admin(apps, schema_editor):
