@@ -79,8 +79,19 @@ BAC_M2_Tehnologic_download_kit/BAC_Matematica_M2_Tehnologic/
 BAC_M2_Tehnologic_download_kit/_download.log
 bac-matematica/
 
-# Curated corpus: the per-year raw PDFs are large (~146 MB) and fully reproducible
-# via download_bac_mate.sh, so we track only the extracted .txt + ANALYSIS/README
-# (and the small, already-tracked _legacy/ PDFs). Ignore the per-year source PDFs.
-files/exam_corpus/*/[0-9][0-9][0-9][0-9]/*.pdf
+# Curated corpus + dev scaffolding: NOT shipped on the production branch.
+# The exam corpus (~188 MB) is only training/design reference, never read at
+# runtime; it lives on main and is reproducible via download_bac_mate.sh.
+files/
 _pdf_samples/
+BAC_M2_Tehnologic_download_kit/
+download_bac_mate.sh
+
+# Planning / design docs kept on main, not on production
+GENERATOR_REWORK.md
+ENGINE2_REWORK.md
+generator.md
+generate_pdf.md
+info-on-sub1.md
+prompt.md
+DESIGN.md
