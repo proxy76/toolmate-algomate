@@ -99,8 +99,10 @@ def _styles():
 _SEG = re.compile(r"(\$.+?\$)", re.DOTALL)
 
 
-def _mixed_markup(text: str, imgdir: str, cache: dict) -> str:
+def _mixed_markup(text: str, imgdir: str, cache: dict) -> tuple[str, float]:
+    """Return (paragraph markup, tallest inline-image height in pt)."""
     out = []
+    max_h = 0.0
     for seg in _SEG.split(text or ""):
         if len(seg) >= 2 and seg.startswith("$") and seg.endswith("$"):
             latex = seg[1:-1]
@@ -118,16 +120,25 @@ def _mixed_markup(text: str, imgdir: str, cache: dict) -> str:
             if w > COL_TEXT:
                 h = h * COL_TEXT / w
                 w = COL_TEXT
+            max_h = max(max_h, h)
             out.append(
                 f'<img src="{path}" width="{w:.2f}" height="{h:.2f}" valign="{valign}"/>'
             )
         elif seg:
             out.append(escape(seg))
-    return "".join(out)
+    return "".join(out), max_h
 
 
 def _body_para(text, styles, imgdir, cache):
-    return Paragraph(_mixed_markup(text, imgdir, cache), styles["body"])
+    markup, max_h = _mixed_markup(text, imgdir, cache)
+    style = styles["body"]
+    # A tall inline image (a 3×3 matrix, a big fraction/integral) is centered on the
+    # line but reportlab does not grow the line box to fit it, so it overlaps the
+    # neighbouring line. Expand the paragraph leading to contain the tallest image.
+    need = max_h + 3
+    if need > style.leading:
+        style = ParagraphStyle(f"{style.name}_tall{int(need)}", parent=style, leading=need)
+    return Paragraph(markup, style)
 
 
 _NOPAD = TableStyle([

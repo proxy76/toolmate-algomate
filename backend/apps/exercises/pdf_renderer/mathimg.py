@@ -187,8 +187,11 @@ def fragment_render(latex: str, fontsize: float):
     s = _preprocess(latex)
     if not _ENV.search(s):
         img = _img(s, fontsize)
-        _raw_bytes, depth_px = _raw(s, fontsize) if s else (b"", 0.0)
-        depth_pt = depth_px * 72.0 / DPI
+        # math_to_image parses at 72 dpi, so its returned depth is already in
+        # points (the descent below the baseline). Using it directly aligns the
+        # math baseline with the text baseline; the earlier `* 72/DPI` shrank it
+        # ~2.8×, so expressions floated above the line.
+        _raw_bytes, depth_pt = _raw(s, fontsize) if s else (b"", 0.0)
         is_env = False
     else:
         pieces = []
