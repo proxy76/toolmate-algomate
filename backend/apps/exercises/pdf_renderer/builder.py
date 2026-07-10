@@ -34,6 +34,11 @@ from .mathimg import fragment_render
 
 SERIF, BOLD, ITALIC = FAMILY, f"{FAMILY}-Bold", f"{FAMILY}-Italic"
 
+# DoS guard: /export-pdf/ accepts caller-supplied item/problem lists. A real BAC
+# set has <=9 items and <=3 problems per subiect; cap generously so a malicious
+# payload can't force an unbounded number of (expensive) math renders.
+_MAX_ITEMS = 80
+
 PAGE_W, PAGE_H = A4
 ML = MR = 20 * mm
 MT = 22 * mm
@@ -253,7 +258,7 @@ def _build_story(data, styles, imgdir, cache):
 
     # SUBIECTUL I
     section("SUBIECTUL I (30 de puncte)")
-    for item in data["subiect_I"]["items"]:
+    for item in data["subiect_I"]["items"][:_MAX_ITEMS]:
         story.append(_points_row("5p", f"{item['number']}.", item["question_latex"],
                                   styles, imgdir, cache))
         story.append(Spacer(1, 3))
@@ -271,17 +276,17 @@ def _build_story(data, styles, imgdir, cache):
             if prob.get("statement_latex"):
                 story.append(_statement_row("", prob["statement_latex"], styles, imgdir, cache))
                 story.append(Spacer(1, 4))
-            for i, sub in enumerate(prob["sub_items"], start=1):
+            for i, sub in enumerate(prob["sub_items"][:_MAX_ITEMS], start=1):
                 story.append(_points_row("5p", f"{i}.", sub["question_latex"],
                                          styles, imgdir, cache))
                 story.append(Spacer(1, 3))
         else:
-            for prob in subiect["problems"]:
+            for prob in subiect["problems"][:_MAX_ITEMS]:
                 if prob.get("statement_latex"):
                     story.append(_statement_row(f"{prob['number']}.", prob["statement_latex"],
                                                 styles, imgdir, cache))
                     story.append(Spacer(1, 2))
-                for sub in prob["sub_items"]:
+                for sub in prob["sub_items"][:_MAX_ITEMS]:
                     story.append(_points_row("5p", f"{sub['label']})", sub["question_latex"],
                                              styles, imgdir, cache))
                     story.append(Spacer(1, 3))

@@ -31,6 +31,15 @@ plt.rcParams.update({"mathtext.fontset": "stix"})
 DPI = 200
 PX_PER_PT = DPI / 72.0
 
+# --- DoS guards --------------------------------------------------------------
+# /export-pdf/ renders caller-supplied LaTeX, so a single request must not be
+# able to trigger unbounded matplotlib work or a giant PIL allocation (a matrix
+# body's row/col counts flow straight into image dimensions). Real BAC content
+# is far below these caps (fragments < 500 chars; matrices <= 4x4), so
+# legitimate rendering is unaffected.
+_MAX_FRAGMENT_CHARS = 4000
+_MAX_GRID = 32
+
 _ENV = re.compile(
     r"\\left\(\\begin\{matrix\}(?P<m>.*?)\\end\{matrix\}\\right\)"
     r"|\\begin\{pmatrix\}(?P<p>.*?)\\end\{pmatrix\}"
@@ -81,8 +90,8 @@ def _img(expr: str, fontsize: float) -> Image.Image:
 
 
 def _parse_rows(body: str) -> list[list[str]]:
-    rows = [r for r in re.split(r"\\\\", body) if r.strip() != ""]
-    return [[c.strip() for c in r.split("&")] for r in rows]
+    rows = [r for r in re.split(r"\\\\", body) if r.strip() != ""][:_MAX_GRID]
+    return [[c.strip() for c in r.split("&")][:_MAX_GRID] for r in rows]
 
 
 def _hconcat(images, gap=2):
@@ -170,7 +179,7 @@ def _with_brace(stack: Image.Image) -> Image.Image:
 
 def _env_image(match: re.Match, fontsize: float) -> Image.Image:
     if match.group("c") is not None:
-        rows = [r.strip() for r in re.split(r"\\\\", match.group("c")) if r.strip()]
+        rows = [r.strip() for r in re.split(r"\\\\", match.group("c")) if r.strip()][:_MAX_GRID]
         return _with_brace(_vconcat([_img(r, fontsize) for r in rows], align="left"))
     body = match.group("m") if match.group("m") is not None else match.group("p")
     return _with_parens(_grid_image(_parse_rows(body), fontsize))
@@ -184,6 +193,8 @@ def fragment_render(latex: str, fontsize: float):
     how far the content sits below the text baseline (for inline ``valign``);
     ``is_env`` marks composed matrix/cases fragments (center them on the line).
     """
+    if len(latex) > _MAX_FRAGMENT_CHARS:
+        latex = latex[:_MAX_FRAGMENT_CHARS]
     s = _preprocess(latex)
     if not _ENV.search(s):
         img = _img(s, fontsize)

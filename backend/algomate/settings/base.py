@@ -69,6 +69,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "algomate.wsgi.application"
 
+# --- Request limits (DoS hardening) -------------------------------------
+# Cap request bodies: the largest legitimate payload is a full simulation sent
+# to /export-pdf/ (~tens of KB). 1 MB leaves generous headroom while blocking
+# oversized payloads aimed at the math renderer.
+DATA_UPLOAD_MAX_MEMORY_SIZE = 1 * 1024 * 1024
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000
+
 # --- Database -----------------------------------------------------------
 
 DATABASES = {
