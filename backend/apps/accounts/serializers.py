@@ -1,3 +1,5 @@
+from uuid import uuid4
+
 from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
@@ -8,7 +10,21 @@ User = get_user_model()
 
 class EmailOrUsernameTokenObtainPairSerializer(TokenObtainPairSerializer):
     """Login accepts either the email (default) or the username as identifier —
-    so the ``admin`` account can sign in with its username, not just its email."""
+    so the ``admin`` account can sign in with its username, not just its email.
+
+    Also enforces one active session per account: each login rotates the user's
+    ``active_session_id`` and embeds it in the tokens as the ``sid`` claim, so any
+    previously issued token is invalidated on the next request (newest login wins;
+    see :class:`apps.accounts.authentication.SingleSessionJWTAuthentication`)."""
+
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+        sid = uuid4().hex
+        user.active_session_id = sid
+        user.save(update_fields=["active_session_id"])
+        token["sid"] = sid  # copied onto the derived access token by SimpleJWT
+        return token
 
     def validate(self, attrs):
         identifier = attrs.get(self.username_field)

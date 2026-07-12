@@ -70,16 +70,36 @@ async function refreshAccess(): Promise<string | null> {
   return refreshPromise;
 }
 
+/** Clear the session and bounce to login. `superseded` = the account was taken
+ *  over by a newer login on another device; `expired` = tokens no longer valid. */
+function forceLogout(reason: "superseded" | "expired") {
+  tokenStore.clear();
+  if (typeof window !== "undefined") {
+    const path = window.location.pathname;
+    if (path !== "/login" && path !== "/register") {
+      window.location.assign(`/login?ended=${reason}`);
+    }
+  }
+}
+
 client.interceptors.response.use(
   (r) => r,
   async (error: AxiosError) => {
     const config = error.config as AxiosRequestConfig & { _retried?: boolean };
-    if (error.response?.status === 401 && !config?._retried && !(config as any)._skipAuthRefresh) {
-      const newAccess = await refreshAccess();
-      if (newAccess && config) {
-        config._retried = true;
-        config.headers = { ...(config.headers || {}), Authorization: `Bearer ${newAccess}` };
-        return client.request(config);
+    if (error.response?.status === 401 && config && !(config as any)._skipAuthRefresh) {
+      if (!config._retried) {
+        const newAccess = await refreshAccess();
+        if (newAccess) {
+          config._retried = true;
+          config.headers = { ...(config.headers || {}), Authorization: `Bearer ${newAccess}` };
+          return client.request(config);
+        }
+        // refresh failed → the session is genuinely over
+        forceLogout("expired");
+      } else {
+        // token refreshed fine but the request is still unauthorized → the
+        // server rejected our session id: a newer login took over the account
+        forceLogout("superseded");
       }
     }
     return Promise.reject(error);

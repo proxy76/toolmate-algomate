@@ -1,13 +1,20 @@
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 
 import { apiErrorMessage } from "../api";
 import { useAuth } from "../auth";
 
+const ENDED_MESSAGES: Record<string, string> = {
+  superseded: "Ai fost deconectat pentru că acest cont a fost accesat pe alt dispozitiv.",
+  expired: "Sesiunea ta a expirat. Conectează-te din nou.",
+};
+
 export function Login() {
   const { login } = useAuth();
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+  const endedNote = ENDED_MESSAGES[params.get("ended") ?? ""];
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -33,6 +40,12 @@ export function Login() {
         <h1 className="text-3xl font-extrabold tracking-tight text-ink-strong">Autentificare</h1>
         <p className="mt-2 text-ink-muted">Intră în cont pentru a-ți regăsi sesiunile salvate.</p>
       </header>
+
+      {endedNote && !error && (
+        <div className="mb-5 px-4 py-3 rounded-xl bg-oxblood/10 border border-oxblood/20 text-oxblood-deep text-sm">
+          {endedNote}
+        </div>
+      )}
 
       {error && (
         <div

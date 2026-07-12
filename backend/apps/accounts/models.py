@@ -22,6 +22,10 @@ class User(AbstractUser):
     generated_problems = models.PositiveIntegerField(default=0)   # individual exercises
     downloaded_pdfs = models.PositiveIntegerField(default=0)
 
+    # Single active session: each login rotates this id and stamps it into the
+    # JWTs; a token whose "sid" no longer matches is rejected (newest login wins).
+    active_session_id = models.CharField(max_length=32, blank=True, default="")
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 
