@@ -89,6 +89,18 @@ DATABASES = {
     ),
 }
 
+# --- Cache --------------------------------------------------------------
+# Database-backed so throttle counters (e.g. the visitor 1/day generation
+# limit) are shared across all gunicorn workers, not per-process. The
+# "algomate_cache" table is created by the core app's migration.
+
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "algomate_cache",
+    }
+}
+
 # --- Auth ---------------------------------------------------------------
 
 AUTH_PASSWORD_VALIDATORS = [
