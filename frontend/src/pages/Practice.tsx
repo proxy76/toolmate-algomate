@@ -348,10 +348,14 @@ export function Practice() {
       className="lg:flex lg:h-[calc(100dvh-65px)] lg:overflow-hidden"
     >
       <div className="lg:flex-1 lg:min-w-0 lg:overflow-y-auto">
-        <div className="max-w-4xl mx-auto px-6 py-10">
-          {intro}
-          {formCard}
-          <section>
+        <div className="py-10">
+          {/* Keep the form at the same width as the empty state so it doesn't
+              jump wider when a set is generated; only the results grid widens. */}
+          <div className="max-w-3xl mx-auto px-6">
+            {intro}
+            {formCard}
+          </div>
+          <section className="max-w-4xl mx-auto px-6">
             <div className="flex items-center justify-between gap-3 mb-5 flex-wrap">
               <h2 className="text-xl font-bold text-ink-strong">
                 {items.length} {items.length === 1 ? "exercițiu generat" : "exerciții generate"}
