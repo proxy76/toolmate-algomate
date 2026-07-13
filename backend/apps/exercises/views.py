@@ -2,7 +2,9 @@ from django.contrib.auth import get_user_model
 from django.db.models import F
 from django.http import HttpResponse
 from rest_framework import generics, permissions, status
+from rest_framework.exceptions import Throttled
 from rest_framework.response import Response
+from rest_framework.throttling import ScopedRateThrottle
 from rest_framework.views import APIView
 
 from .generators import engine
@@ -13,6 +15,17 @@ from .serializers import (
     ExerciseSessionSerializer,
     GenerateRequestSerializer,
     SimulateRequestSerializer,
+)
+from .throttles import AnonGenerateThrottle
+
+# Shown when a visitor hits a members-only action. Verified accounts bypass these.
+_VISITOR_GENERATE_LIMIT = (
+    "Ca vizitator poți genera un singur set de exerciții. Creează un cont și "
+    "confirmă-ți adresa de email pentru acces nelimitat."
+)
+_MEMBERS_ONLY_SIMULATION = (
+    "Simulările BAC sunt disponibile doar pentru conturi cu emailul confirmat. "
+    "Creează un cont și confirmă-ți adresa pentru a genera simulări."
 )
 
 User = get_user_model()
@@ -47,6 +60,14 @@ class TopicsView(APIView):
 class GenerateView(APIView):
     permission_classes = [permissions.AllowAny]
     throttle_scope = "generate"
+    # Anonymous callers get one set per day (AnonGenerateThrottle); everyone is
+    # also bounded by the shared "generate" scope. Verified users skip the former.
+    throttle_classes = [AnonGenerateThrottle, ScopedRateThrottle]
+
+    def throttled(self, request, wait):
+        if request.user and request.user.is_authenticated:
+            raise Throttled(wait=wait, detail="Prea multe cereri. Încearcă din nou în puțin timp.")
+        raise Throttled(wait=wait, detail=_VISITOR_GENERATE_LIMIT)
 
     def post(self, request):
         ser = GenerateRequestSerializer(data=request.data)
@@ -66,6 +87,10 @@ class SimulateView(APIView):
     throttle_scope = "generate"
 
     def post(self, request):
+        if not request.user.is_authenticated:
+            return Response(
+                {"detail": _MEMBERS_ONLY_SIMULATION}, status=status.HTTP_403_FORBIDDEN
+            )
         ser = SimulateRequestSerializer(data=request.data)
         ser.is_valid(raise_exception=True)
         data = ser.validated_data

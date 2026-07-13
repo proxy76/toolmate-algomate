@@ -1,7 +1,9 @@
-import { CheckCircle, Download, Lightbulb, ListOrdered, Loader2, Play } from "lucide-react";
+import { CheckCircle, Download, Lightbulb, ListOrdered, Loader2, Lock, Play } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
+import { useAuth } from "../auth";
 import { TeX } from "../components/TeX";
 import type { Profile, SimItem, SimProblem, SimSubItem, SimulateResponse } from "../types";
 import { PROFILES } from "../types";
@@ -15,6 +17,7 @@ const TOPIC_LABELS: Record<string, string> = {
 };
 
 export function Simulate() {
+  const { user } = useAuth();
   const [profile, setProfile] = useState<Profile>("mate-info");
   const [data, setData] = useState<SimulateResponse | null>(null);
   const [loading, setLoading] = useState(false);
@@ -66,6 +69,19 @@ export function Simulate() {
           probleme cu punctele a, b, c). Fiecare cerință are 5 puncte; 10 puncte din oficiu.
         </p>
       </header>
+
+      {!user && (
+        <div className="mb-6 flex items-start gap-3 px-4 py-3.5 rounded-xl bg-oxblood/[0.07] border border-oxblood/20">
+          <Lock size={18} className="text-oxblood mt-0.5 shrink-0" />
+          <p className="text-sm text-ink leading-relaxed">
+            Simulările BAC complete sunt disponibile pentru conturile cu emailul confirmat.{" "}
+            <Link to="/register" className="font-semibold text-oxblood hover:underline">
+              Creează un cont gratuit
+            </Link>{" "}
+            pentru acces nelimitat la simulări și exerciții.
+          </p>
+        </div>
+      )}
 
       <form
         onSubmit={onRun}

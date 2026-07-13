@@ -1,5 +1,6 @@
 import { GripVertical, Loader2, Save, Sparkles } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
 import { useAuth } from "../auth";
@@ -288,6 +289,14 @@ export function Practice() {
             className="mt-6 px-4 py-3 rounded-xl bg-danger-tint border border-danger-edge text-danger-ink text-sm"
           >
             {error}
+            {!user && (
+              <Link
+                to="/register"
+                className="mt-2 block font-semibold text-oxblood hover:underline"
+              >
+                Creează un cont gratuit →
+              </Link>
+            )}
           </div>
         )}
 

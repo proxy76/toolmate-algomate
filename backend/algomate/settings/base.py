@@ -131,9 +131,10 @@ REST_FRAMEWORK = {
     "DEFAULT_THROTTLE_RATES": {
         "anon": "60/min",
         "user": "240/min",
-        "auth": "20/min",       # login/register attempts
-        "generate": "30/min",   # exercise generation per IP
-        "contact": "5/min",     # contact form
+        "auth": "20/min",           # login/register attempts
+        "generate": "30/min",       # exercise generation per IP
+        "anon_generate": "1/day",   # visitors: one free problem set, then sign up
+        "contact": "5/min",         # contact form
     },
     "DEFAULT_RENDERER_CLASSES": (
         "rest_framework.renderers.JSONRenderer",
