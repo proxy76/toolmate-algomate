@@ -3,6 +3,7 @@ from uuid import uuid4
 from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
+from rest_framework_simplejwt.exceptions import AuthenticationFailed
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 User = get_user_model()
@@ -32,7 +33,13 @@ class EmailOrUsernameTokenObtainPairSerializer(TokenObtainPairSerializer):
             match = User.objects.filter(username__iexact=identifier).first()
             if match:
                 attrs[self.username_field] = match.email
-        return super().validate(attrs)
+        data = super().validate(attrs)
+        if not self.user.is_email_verified:
+            raise AuthenticationFailed(
+                detail="Confirmă-ți adresa de email înainte de a te conecta.",
+                code="email_not_verified",
+            )
+        return data
 
 
 class RegisterSerializer(serializers.ModelSerializer):
@@ -75,3 +82,11 @@ class AdminUserSerializer(serializers.ModelSerializer):
             "generated_tests", "generated_problems", "downloaded_pdfs",
         )
         read_only_fields = fields
+
+
+class VerifyEmailSerializer(serializers.Serializer):
+    token = serializers.CharField(max_length=512)
+
+
+class ResendVerificationSerializer(serializers.Serializer):
+    email = serializers.EmailField()

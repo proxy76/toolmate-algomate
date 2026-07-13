@@ -12,6 +12,7 @@ import { Login } from "./pages/Login";
 import { Practice } from "./pages/Practice";
 import { Register } from "./pages/Register";
 import { Simulate } from "./pages/Simulate";
+import { Verify } from "./pages/Verify";
 
 function PrivateRoute({ children }: { children: JSX.Element }) {
   const { user, loading } = useAuth();
@@ -41,6 +42,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/verify" element={<Verify />} />
           <Route
             path="/dashboard"
             element={

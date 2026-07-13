@@ -2,7 +2,7 @@ import { Loader2 } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 
-import { apiErrorMessage } from "../api";
+import { api, apiErrorCode, apiErrorMessage } from "../api";
 import { useAuth } from "../auth";
 
 const ENDED_MESSAGES: Record<string, string> = {
@@ -19,18 +19,36 @@ export function Login() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [unverified, setUnverified] = useState(false);
+  const [resend, setResend] = useState<{ loading: boolean; note: string | null }>({
+    loading: false,
+    note: null,
+  });
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError(null);
+    setUnverified(false);
+    setResend({ loading: false, note: null });
     try {
       await login(email, password);
       navigate("/dashboard");
     } catch (err) {
       setError(apiErrorMessage(err));
+      if (apiErrorCode(err) === "email_not_verified") setUnverified(true);
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function onResend() {
+    setResend({ loading: true, note: null });
+    try {
+      const res = await api.resendVerification(email);
+      setResend({ loading: false, note: res.detail });
+    } catch (err) {
+      setResend({ loading: false, note: apiErrorMessage(err) });
     }
   }
 
@@ -53,6 +71,23 @@ export function Login() {
           className="mb-5 px-4 py-3 rounded-xl bg-danger-tint border border-danger-edge text-danger-ink text-sm"
         >
           {error}
+          {unverified && (
+            <div className="mt-3">
+              {resend.note ? (
+                <p className="text-ink-muted">{resend.note}</p>
+              ) : (
+                <button
+                  type="button"
+                  onClick={onResend}
+                  disabled={resend.loading || !email}
+                  className="inline-flex items-center gap-2 font-semibold text-oxblood hover:underline disabled:opacity-50"
+                >
+                  {resend.loading && <Loader2 size={14} className="animate-spin" />}
+                  Retrimite emailul de confirmare
+                </button>
+              )}
+            </div>
+          )}
         </div>
       )}
 

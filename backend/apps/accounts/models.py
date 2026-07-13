@@ -26,6 +26,9 @@ class User(AbstractUser):
     # JWTs; a token whose "sid" no longer matches is rejected (newest login wins).
     active_session_id = models.CharField(max_length=32, blank=True, default="")
 
+    # Email confirmation: new signups must click a link before they can log in.
+    is_email_verified = models.BooleanField(default=False)
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 

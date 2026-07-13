@@ -1,15 +1,12 @@
-import { Loader2 } from "lucide-react";
+import { Loader2, MailCheck } from "lucide-react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
-import { useAuth } from "../auth";
 import type { Profile } from "../types";
 import { PROFILES } from "../types";
 
 export function Register() {
-  const { login } = useAuth();
-  const navigate = useNavigate();
   const [form, setForm] = useState({
     username: "",
     email: "",
@@ -18,20 +15,39 @@ export function Register() {
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [done, setDone] = useState<string | null>(null);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError(null);
     try {
-      await api.register(form);
-      await login(form.email, form.password);
-      navigate("/dashboard");
+      const res = await api.register(form);
+      setDone(res.detail);
     } catch (err) {
       setError(apiErrorMessage(err));
     } finally {
       setLoading(false);
     }
+  }
+
+  if (done) {
+    return (
+      <div className="max-w-md mx-auto px-6 py-14 md:py-20 text-center">
+        <MailCheck size={40} className="mx-auto text-oxblood" strokeWidth={1.75} />
+        <h1 className="mt-5 text-2xl font-extrabold tracking-tight text-ink-strong">
+          Verifică-ți emailul
+        </h1>
+        <p className="mt-3 text-ink-muted">{done}</p>
+        <p className="mt-2 text-sm text-ink-faint">
+          Am trimis linkul la <span className="font-semibold text-ink">{form.email}</span>. Verifică
+          și folderul Spam dacă nu-l găsești.
+        </p>
+        <Link to="/login" className="mt-6 inline-block text-oxblood font-semibold hover:underline">
+          Mergi la autentificare
+        </Link>
+      </div>
+    );
   }
 
   return (

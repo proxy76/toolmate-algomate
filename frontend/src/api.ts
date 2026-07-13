@@ -111,7 +111,13 @@ client.interceptors.response.use(
 export const api = {
   // auth
   register: (data: { email: string; username: string; password: string; profile: Profile }) =>
-    client.post<User>("/auth/register/", data).then((r) => r.data),
+    client.post<{ detail: string }>("/auth/register/", data).then((r) => r.data),
+
+  verifyEmail: (token: string) =>
+    client.post<{ detail: string }>("/auth/verify-email/", { token }).then((r) => r.data),
+
+  resendVerification: (email: string) =>
+    client.post<{ detail: string }>("/auth/resend-verification/", { email }).then((r) => r.data),
 
   // `email` accepts the email OR the username (the backend resolves either).
   login: (data: { email: string; password: string }) =>
@@ -170,6 +176,14 @@ export const api = {
   contact: (data: { name: string; email: string; subject: string; body: string }) =>
     client.post("/contact/", data).then((r) => r.data),
 };
+
+/** Machine-readable error code from the API body (e.g. "email_not_verified"). */
+export function apiErrorCode(err: unknown): string | undefined {
+  if (axios.isAxiosError(err)) {
+    return (err.response?.data as any)?.code;
+  }
+  return undefined;
+}
 
 export function apiErrorMessage(err: unknown): string {
   if (axios.isAxiosError(err)) {
