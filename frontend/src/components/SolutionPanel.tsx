@@ -3,12 +3,14 @@ import { useEffect } from "react";
 
 import type { Exercise } from "../types";
 import type { SolutionView } from "./ProblemCard";
+import { SolutionBody } from "./SolutionBody";
 import { TeX } from "./TeX";
 
 /**
- * The solution pane. On desktop it's a full-height right column — a second
- * tiled window beside the worksheet. On mobile it slides up as a full-screen
- * modal. One pane serves the whole set; nothing reflows when it opens.
+ * The desktop solution pane — a full-height right column tiled beside the
+ * worksheet. On mobile (< lg) it is not rendered at all; the solution unfolds
+ * inline inside the ProblemCard instead (see ProblemCard), which avoids a
+ * fixed-overlay modal and its scroll-bleed problems on phones.
  */
 export function SolutionPanel({
   exercise,
@@ -35,10 +37,9 @@ export function SolutionPanel({
 
   return (
     <aside
-      className={`${open ? "flex" : "hidden"} lg:flex flex-col bg-paper
-        fixed inset-0 z-50 lg:static lg:z-auto lg:inset-auto
+      className="hidden lg:flex flex-col bg-paper
         lg:h-full lg:w-[var(--pane-w,28rem)] lg:shrink-0
-        border-edge lg:border-l overflow-hidden`}
+        border-edge lg:border-l overflow-hidden"
       aria-label="Soluție"
     >
       {exercise ? (
@@ -97,29 +98,8 @@ export function SolutionPanel({
               />
             </div>
 
-            <div className="mt-4">
-              {view === "hint" && (
-                <div className="p-4 bg-ochre/10 border border-ochre/30 rounded-xl text-ink animate-fadeIn">
-                  <TeX source={exercise.hint_latex} />
-                </div>
-              )}
-              {view === "answer" && (
-                <div className="p-4 bg-verified-tint border border-verified-edge rounded-xl text-verified-ink font-medium text-lg animate-fadeIn">
-                  <TeX source={exercise.answer_latex} />
-                </div>
-              )}
-              {view === "steps" &&
-                (exercise.steps_latex?.length ? (
-                  <ol className="p-4 bg-sunken border border-edge rounded-xl text-ink text-sm space-y-2 animate-fadeIn list-decimal list-inside marker:text-ink-faint marker:font-semibold">
-                    {exercise.steps_latex.map((step, i) => (
-                      <li key={i} className="pl-1">
-                        <TeX source={step} />
-                      </li>
-                    ))}
-                  </ol>
-                ) : (
-                  <p className="text-sm text-ink-muted">Această problemă nu are pașii rezolvării.</p>
-                ))}
+            <div className="mt-4" key={view}>
+              <SolutionBody exercise={exercise} view={view} />
             </div>
           </div>
         </>

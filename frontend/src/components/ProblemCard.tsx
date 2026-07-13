@@ -1,6 +1,7 @@
 import { CheckCircle, Lightbulb, ListOrdered } from "lucide-react";
 
 import type { Exercise } from "../types";
+import { SolutionBody } from "./SolutionBody";
 import { TeX } from "./TeX";
 
 export type SolutionView = "hint" | "answer" | "steps";
@@ -83,6 +84,14 @@ export function ProblemCard({
           />
         )}
       </div>
+
+      {/* Phone (< lg): the solution unfolds inline right here, beneath the
+          triggers. Desktop uses the side SolutionPanel instead. */}
+      {activeView && (
+        <div key={activeView} className="lg:hidden mt-3">
+          <SolutionBody exercise={exercise} view={activeView} />
+        </div>
+      )}
     </div>
   );
 }

@@ -378,7 +378,7 @@ export function Practice() {
                 {savedMsg}
               </div>
             )}
-            <div className="grid gap-6 grid-cols-[repeat(auto-fill,minmax(17rem,1fr))]">
+            <div className="grid gap-6 grid-cols-1 lg:grid-cols-[repeat(auto-fill,minmax(17rem,1fr))]">
               {items.map((ex) => (
                 <ProblemCard
                   key={ex.id}
