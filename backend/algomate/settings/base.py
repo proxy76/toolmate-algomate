@@ -155,3 +155,18 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = config("CORS_ALLOWED_ORIGINS", default="", cast=Csv())
 CORS_ALLOW_CREDENTIALS = False
+
+# --- Email --------------------------------------------------------------
+# Transactional email (signup confirmation, etc.). Production sends via SMTP
+# (Resend); development.py overrides this to print emails to the console.
+EMAIL_BACKEND = config("EMAIL_BACKEND", default="django.core.mail.backends.smtp.EmailBackend")
+EMAIL_HOST = config("EMAIL_HOST", default="")
+EMAIL_PORT = config("EMAIL_PORT", default=587, cast=int)
+EMAIL_HOST_USER = config("EMAIL_HOST_USER", default="")
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="")
+EMAIL_USE_TLS = config("EMAIL_USE_TLS", default=True, cast=bool)
+EMAIL_TIMEOUT = config("EMAIL_TIMEOUT", default=10, cast=int)
+DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL", default="Algomate <noreply@algomate.ro>")
+
+# Base URL used to build links inside emails (e.g. the verification link).
+FRONTEND_BASE_URL = config("FRONTEND_BASE_URL", default="https://laborator.algomate.ro")
