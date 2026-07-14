@@ -175,4 +175,9 @@ git pull origin production
 # backend: pip install -r requirements.txt && python manage.py migrate && collectstatic
 # frontend: npm ci && npm run build
 sudo systemctl restart algomate
+
+# Smoke-check the live site (shell + referenced JS bundle + API). Exits
+# non-zero if the deploy is inconsistent (e.g. index.html points at a bundle
+# that resolves to HTML), so a bad deploy is caught immediately.
+sh scripts/postdeploy-check.sh https://laborator.algomate.ro
 ```
