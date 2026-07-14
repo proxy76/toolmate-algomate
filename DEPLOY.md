@@ -139,12 +139,34 @@ server {
 
     location /static/ { proxy_pass http://127.0.0.1:8000; }
 
-    location / { try_files $uri /index.html; }   # SPA fallback
+    # Content-hashed build assets: safe to cache forever. A genuinely missing
+    # asset must 404 — never fall back to index.html, or the browser receives
+    # HTML for a .js request and the app fails to boot after a redeploy.
+    location /assets/ {
+        try_files $uri =404;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+
+    # SPA shell: always revalidate so a redeploy is picked up immediately and a
+    # stale index.html never points at deleted asset hashes.
+    location / {
+        try_files $uri /index.html;
+        add_header Cache-Control "no-cache";
+    }
 }
 ```
 
 Then add TLS (e.g. `certbot --nginx`). Production settings force HTTPS redirect,
 HSTS, and secure cookies, and honour `X-Forwarded-Proto` from nginx.
+
+> **SPA caching matters.** The app shell (`index.html`) must be served with
+> `Cache-Control: no-cache` so browsers always fetch the current build; the
+> content-hashed `/assets/*` are immutable and cached hard. Without this, a
+> browser holding a stale `index.html` requests asset hashes that a later deploy
+> deleted, the fallback returns `index.html` (HTML) for those `.js`/`.css`
+> requests, and the page hangs on load. If a CDN (e.g. Cloudflare) sits in front,
+> purge its cache after a deploy, or set its Browser Cache TTL to "Respect
+> Existing Headers".
 
 ## 6. Updating
 
