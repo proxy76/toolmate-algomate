@@ -87,6 +87,12 @@ _pdf_samples/
 BAC_M2_Tehnologic_download_kit/
 download_bac_mate.sh
 
+# Source PDFs for the arhivă (~360 MB): the collages the problems are cut out of.
+# Inputs to scripts/extract_arhiva.py, never read at runtime — what ships is the
+# extracted SVGs under frontend/public/arhiva/. Same bargain as files/ above.
+bac-merged-pdfs/
+separate-problems-mate-info-and-tehnologic/
+
 # Planning / design docs kept on main, not on production
 GENERATOR_REWORK.md
 ENGINE2_REWORK.md

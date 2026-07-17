@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { AuthProvider, useAuth } from "./auth";
 import { Layout } from "./components/Layout";
 import { AdminDashboard } from "./pages/AdminDashboard";
+import { Arhiva } from "./pages/Arhiva";
 import { BlogIndex } from "./pages/Blog";
 import { BlogPostPage } from "./pages/BlogPost";
 import { Contact } from "./pages/Contact";
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/practice" element={<Practice />} />
           <Route path="/simulate" element={<Simulate />} />
+          <Route path="/arhiva" element={<Arhiva />} />
           <Route path="/blog" element={<BlogIndex />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/contact" element={<Contact />} />

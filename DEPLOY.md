@@ -139,6 +139,23 @@ server {
 
     location /static/ { proxy_pass http://127.0.0.1:8000; }
 
+    # nginx gzips nothing but text/html by default. The arhivă's PNGs are already
+    # compressed and gain nothing here, but its manifests are JSON — a set is ~18 kB
+    # of it — and the app's own CSS/JS compress ~4:1.
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1024;
+    gzip_types application/json text/css application/javascript image/svg+xml;
+
+    # Past exam problems (~32 MB of PNG): filenames are stable and the content is
+    # fixed once cut, so cache them properly — a set is ~116 requests and students
+    # scroll through several. A missing file must 404 rather than fall back to the
+    # SPA shell: an <img> handed index.html just fails to decode, silently.
+    location /arhiva/ {
+        try_files $uri =404;
+        add_header Cache-Control "public, max-age=604800";
+    }
+
     # Content-hashed build assets: safe to cache forever. A genuinely missing
     # asset must 404 — never fall back to index.html, or the browser receives
     # HTML for a .js request and the app fails to boot after a redeploy.

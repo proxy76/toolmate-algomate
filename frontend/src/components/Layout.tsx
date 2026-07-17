@@ -8,6 +8,7 @@ const navItems = [
   { to: "/", label: "Acasă" },
   { to: "/practice", label: "Antrenament" },
   { to: "/simulate", label: "Simulare BAC" },
+  { to: "/arhiva", label: "Arhivă" },
   { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact" },
 ];

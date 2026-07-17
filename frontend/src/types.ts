@@ -130,3 +130,49 @@ export interface BlogPostSummary {
 export interface BlogPost extends BlogPostSummary {
   body_md: string;
 }
+
+/* ── Arhivă ───────────────────────────────────────────────────────────────
+   Past BAC problems, cut out of the exam papers and grouped by the position
+   they occupied. Built by `scripts/extract_arhiva.py` into static files under
+   `public/arhiva/`, so the archive is served by nginx and never touches the API.  */
+
+/** How many exercises each subject holds — the shape of a real paper. */
+export const SUBJECTS: { num: number; label: string; exercises: number }[] = [
+  { num: 1, label: "SUBIECTUL I", exercises: 6 },
+  { num: 2, label: "al II-lea", exercises: 2 },
+  { num: 3, label: "al III-lea", exercises: 2 },
+];
+
+export interface ArchiveProblem {
+  id: string;
+  year: number;
+  /** The paper this came from: `Varianta 3`, `Model`, `Simulare`, … */
+  session: string;
+  src: string;
+  /** width/height of the artwork, so the list can hold its space before load. */
+  ratio: number;
+}
+
+export interface ArchiveSet {
+  specialization: Profile;
+  subject: number;
+  exercise: number;
+  count: number;
+  /** Frame width in points — one scale for the whole set. See `MIN_LEGIBLE_PX_PER_PT`. */
+  width: number;
+  problems: ArchiveProblem[];
+}
+
+export interface ArchiveIndex {
+  total: number;
+  sets: Record<
+    string,
+    {
+      specialization: Profile;
+      subject: number;
+      exercise: number;
+      count: number;
+      years: number[];
+    }
+  >;
+}
