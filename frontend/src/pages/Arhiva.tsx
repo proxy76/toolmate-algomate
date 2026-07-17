@@ -1,19 +1,11 @@
 import { Link, useSearchParams } from "react-router-dom";
 import { useEffect, useMemo, useState } from "react";
 
+import { ArchiveArtwork } from "../components/ArchiveArtwork";
 import { PROFILES, SUBJECTS } from "../types";
 import type { ArchiveIndex, ArchiveProblem, ArchiveSet, Profile } from "../types";
 
 const ARCHIVE_YEARS = "2013–2026";
-
-/**
- * The floor for how small the exam's own typesetting may be drawn, in CSS px per
- * point of artwork. A problem is ~500pt wide, so fitting one to a 390px phone would
- * render its 11pt maths at about 8px — present, but not readable. Below this the card
- * scrolls sideways instead, the same bargain `.katex-display` already makes with
- * wide equations elsewhere on the site.
- */
-const MIN_LEGIBLE_PX_PER_PT = 1.15;
 
 const setKey = (p: Profile, subject: number, exercise: number) =>
   `${p}-${subject}-${exercise}`;
@@ -454,8 +446,6 @@ function Timeline({ problems, width }: { problems: ArchiveProblem[]; width: numb
 }
 
 function Card({ problem, width }: { problem: ArchiveProblem; width: number }) {
-  const [failed, setFailed] = useState(false);
-
   return (
     <figure className="bg-paper border border-edge rounded-xl overflow-hidden">
       <figcaption className="px-4 pt-3 text-xs text-ink-muted">
@@ -465,29 +455,8 @@ function Card({ problem, width }: { problem: ArchiveProblem; width: number }) {
         </span>
         {problem.session}
       </figcaption>
-      <div className="px-4 pb-4 pt-2 overflow-x-auto">
-        {failed ? (
-          <p className="py-6 text-center text-sm text-ink-muted">
-            Problema nu a putut fi încărcată.
-          </p>
-        ) : (
-          <img
-            src={problem.src}
-            alt={`Problemă de BAC, ${problem.session} ${problem.year}`}
-            loading="lazy"
-            decoding="async"
-            onError={() => setFailed(true)}
-            style={{
-              // Fill the column where there's room; below that hold a legible size
-              // and let the card scroll rather than shrink the maths away.
-              width: `max(100%, ${Math.round(width * MIN_LEGIBLE_PX_PER_PT)}px)`,
-              // The artwork's own ratio holds the space, so the list never jumps as
-              // images stream in.
-              aspectRatio: String(problem.ratio),
-            }}
-            className="h-auto block max-w-none"
-          />
-        )}
+      <div className="px-4 pb-4 pt-2">
+        <ArchiveArtwork problem={problem} width={width} />
       </div>
     </figure>
   );

@@ -143,6 +143,18 @@ export const SUBJECTS: { num: number; label: string; exercises: number }[] = [
   { num: 3, label: "al III-lea", exercises: 2 },
 ];
 
+/**
+ * One chunk of a printed line, with its own tight box: `[x0, x1, top, height]` in
+ * points. Chunks are split only where the artwork can be cut without severing a
+ * glyph — measured off the image by `scripts/arhiva_wrap_points.py`, which refuses
+ * any gap running through a fraction, matrix, or braced system, so those stay whole
+ * inside a single segment.
+ */
+export type ArchiveSegment = [x0: number, x1: number, top: number, height: number];
+
+/** A printed line of a problem, left to right. */
+export type ArchiveLine = ArchiveSegment[];
+
 export interface ArchiveProblem {
   id: string;
   year: number;
@@ -151,6 +163,10 @@ export interface ArchiveProblem {
   src: string;
   /** width/height of the artwork, so the list can hold its space before load. */
   ratio: number;
+  /** Left edge of the ink. Shared by every line, so the `5p` gutter stays aligned. */
+  x0: number;
+  /** Empty when the artwork couldn't be read; the card then just shows the image. */
+  lines: ArchiveLine[];
 }
 
 export interface ArchiveSet {
