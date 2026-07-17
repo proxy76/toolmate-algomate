@@ -1,11 +1,12 @@
-import { ChevronDown } from "lucide-react";
+import { CheckCheck, ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
 import { useAuth } from "../auth";
 import { ExerciseCard } from "../components/ExerciseCard";
-import type { Exercise } from "../types";
+import { roCount } from "../ro";
+import type { ArchiveIndex, Exercise } from "../types";
 
 interface SessionRow {
   id: number;
@@ -25,6 +26,8 @@ export function Dashboard() {
   const [labels, setLabels] = useState<Record<string, string>>({});
   const [openId, setOpenId] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [archiveDone, setArchiveDone] = useState<number | null>(null);
+  const [archiveTotal, setArchiveTotal] = useState<number | null>(null);
 
   useEffect(() => {
     api
@@ -34,6 +37,19 @@ export function Dashboard() {
     api
       .topics()
       .then((t) => setLabels(t.labels))
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    api
+      .archiveProgress()
+      .then((p) => setArchiveDone(p.count))
+      .catch(() => {});
+    // The archive's own manifest knows how many problems there are; the API doesn't,
+    // and shouldn't have to.
+    fetch("/arhiva/index.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((idx: ArchiveIndex) => setArchiveTotal(idx.total))
       .catch(() => {});
   }, []);
 
@@ -47,6 +63,8 @@ export function Dashboard() {
           Salut, {user?.username || user?.email}! Deschide un set salvat ca să-i revezi exercițiile.
         </p>
       </header>
+
+      <ArchiveProgressCard done={archiveDone} total={archiveTotal} />
 
       {error && (
         <div
@@ -125,5 +143,50 @@ export function Dashboard() {
         </ul>
       )}
     </div>
+  );
+}
+
+/**
+ * How far through the archive you are. Deliberately a count and not a percentage:
+ * nobody is going to work all 2,350, so a bar creeping along at 1% would read as
+ * failure. The number going up is the whole reward.
+ */
+function ArchiveProgressCard({
+  done,
+  total,
+}: {
+  done: number | null;
+  total: number | null;
+}) {
+  // Don't flash a zero before the count lands — an empty state that turns out to be
+  // wrong is worse than a beat of nothing.
+  if (done === null) return null;
+
+  return (
+    <Link
+      to="/arhiva"
+      className="mb-6 flex items-center gap-4 rounded-2xl border border-edge bg-paper px-5 py-4 shadow-sm hover:border-oxblood/40 transition-colors"
+    >
+      <span
+        aria-hidden
+        className="grid place-items-center w-10 h-10 shrink-0 rounded-xl bg-oxblood-tint text-oxblood-deep"
+      >
+        <CheckCheck size={20} />
+      </span>
+      <div className="min-w-0">
+        <div className="font-bold text-ink-strong">
+          {/* With a total, the noun agrees with the total, not the tally:
+              "1 din 2350 de probleme rezolvate". */}
+          {total
+            ? `${done} din ${roCount(total, "problemă rezolvată", "probleme rezolvate")}`
+            : roCount(done, "problemă rezolvată", "probleme rezolvate")}
+        </div>
+        <div className="text-sm text-ink-muted mt-0.5">
+          {done === 0
+            ? "Deschide arhiva și bifează prima problemă pe care o rezolvi."
+            : "Continuă de unde ai rămas în arhiva de BAC."}
+        </div>
+      </div>
+    </Link>
   );
 }

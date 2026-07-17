@@ -9,8 +9,9 @@ from rest_framework.views import APIView
 
 from .generators import engine
 from .generators.registry import PROFILES
-from .models import ExerciseSession
+from .models import ArchiveCompletion, ExerciseSession
 from .serializers import (
+    ArchiveProgressSerializer,
     ExamPDFSerializer,
     ExerciseSessionSerializer,
     GenerateRequestSerializer,
@@ -141,3 +142,43 @@ class SessionListCreateView(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(user=self.request.user)
+
+
+class ArchiveProgressView(APIView):
+    """Which past BAC problems this user has ticked off, and the ticking itself.
+
+    GET returns the whole set (~2,350 problems is the ceiling, and a realistic user is
+    far below it), because /arhiva paginates by exam slot and would otherwise ask again
+    on every slider move.
+    """
+
+    permission_classes = [permissions.IsAuthenticated]
+
+    def _ids(self, request):
+        return list(
+            ArchiveCompletion.objects.filter(user=request.user).values_list(
+                "problem_id", flat=True
+            )
+        )
+
+    def get(self, request):
+        done = self._ids(request)
+        return Response({"count": len(done), "done": done})
+
+    def post(self, request):
+        ser = ArchiveProgressSerializer(data=request.data)
+        ser.is_valid(raise_exception=True)
+        problem_id = ser.validated_data["problem_id"]
+
+        if ser.validated_data["done"]:
+            # Idempotent: re-ticking is a no-op, not a 400. The client may retry.
+            ArchiveCompletion.objects.get_or_create(
+                user=request.user, problem_id=problem_id
+            )
+        else:
+            ArchiveCompletion.objects.filter(
+                user=request.user, problem_id=problem_id
+            ).delete()
+
+        done = self._ids(request)
+        return Response({"count": len(done), "done": done})

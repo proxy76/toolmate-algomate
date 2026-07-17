@@ -1,6 +1,7 @@
 from django.urls import path
 
 from .views import (
+    ArchiveProgressView,
     ExportPDFView,
     GenerateView,
     SessionListCreateView,
@@ -14,4 +15,5 @@ urlpatterns = [
     path("simulate/", SimulateView.as_view(), name="simulate"),
     path("export-pdf/", ExportPDFView.as_view(), name="export-pdf"),
     path("sessions/", SessionListCreateView.as_view(), name="sessions"),
+    path("arhiva/progress/", ArchiveProgressView.as_view(), name="arhiva-progress"),
 ]

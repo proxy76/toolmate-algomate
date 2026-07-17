@@ -3,6 +3,7 @@ import axios, { AxiosError, AxiosRequestConfig } from "axios";
 import type {
   AdminBlogPost,
   AdminUser,
+  ArchiveProgress,
   BlogPost,
   BlogPostSummary,
   GenerateResponse,
@@ -157,6 +158,15 @@ export const api = {
   }) => client.post("/exercises/sessions/", data).then((r) => r.data),
 
   listSessions: () => client.get("/exercises/sessions/").then((r) => r.data),
+
+  // arhivă progress (members only — the archive's files are public, the ticks aren't)
+  archiveProgress: () =>
+    client.get<ArchiveProgress>("/exercises/arhiva/progress/").then((r) => r.data),
+
+  setArchiveProgress: (problem_id: string, done: boolean) =>
+    client
+      .post<ArchiveProgress>("/exercises/arhiva/progress/", { problem_id, done })
+      .then((r) => r.data),
 
   // blog
   blogList: () => client.get<BlogPostSummary[]>("/blog/posts/").then((r) => r.data),

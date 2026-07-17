@@ -1,77 +1,20 @@
-import { useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useLayoutEffect, useRef, useState } from "react";
 
-import type { ArchiveProblem, ArchiveSegment } from "../types";
+import type { ArchiveProblem } from "../types";
 
 /**
  * The floor for how small the exam's own typesetting may be drawn, in CSS px per
  * point of artwork. A problem is ~500pt wide, so fitting one to a 390px phone would
- * render its 11pt maths at about 8px — present, but not readable.
- *
- * It doubles as the wrap budget (`available ÷ this`), so raising it buys larger type
- * at the cost of more rows. At 1.35 an 11pt formula lands at ~15px, the size of the
- * prose around it.
+ * render its 11pt maths at about 8px — present, but not readable. Where the column is
+ * narrower than that, the card scrolls sideways rather than shrink the maths away.
  */
-export const MIN_LEGIBLE_PX_PER_PT = 1.35;
+export const MIN_LEGIBLE_PX_PER_PT = 1.15;
 
-/** Past this the maths just looks oversized on a narrow screen. */
-const MAX_PX_PER_PT = 1.7;
+/** Nothing to drag until the artwork overruns its column by a noticeable amount. */
+const OVERFLOW_EPSILON = 2;
 
-/** Indent on a carried-over row, in points — the signal that a line continued. */
-const CONTINUATION_INDENT_PT = 10;
+type Metrics = { left: number; view: number; total: number };
 
-/** Vertical rhythm when wrapped, in points: within one line, and between lines. */
-const ROW_GAP_PT = 2;
-const LINE_GAP_PT = 5;
-
-type Row = { x0: number; x1: number; top: number; height: number; carried: boolean };
-
-/**
- * Pack a line's segments into rows that fit the budget — the same greedy rule a text
- * engine uses, over chunks the extractor proved are separated by whitespace. A row
- * takes the union of its segments' boxes, so it is only as tall as what it holds.
- *
- * The first row starts at the problem's shared left edge to keep the `5p` gutter
- * aligned; carried rows start at their own ink and are indented instead.
- */
-function packLine(
-  segs: ArchiveSegment[],
-  left: number,
-  budget: number,
-  indent: number,
-): Row[] {
-  const rows: Row[] = [];
-  let cur: ArchiveSegment[] = [];
-  let start = left;
-
-  const flush = (carried: boolean) => {
-    if (!cur.length) return;
-    const top = Math.min(...cur.map((s) => s[2]));
-    const bottom = Math.max(...cur.map((s) => s[2] + s[3]));
-    rows.push({ x0: start, x1: cur[cur.length - 1][1], top, height: bottom - top, carried });
-  };
-
-  for (const seg of segs) {
-    const room = rows.length ? budget - indent : budget;
-    if (cur.length && seg[1] - start > room) {
-      flush(rows.length > 0);
-      cur = [];
-      start = seg[0]; // a carried row begins at its own ink, not the gutter
-    }
-    cur.push(seg);
-  }
-  flush(rows.length > 0);
-  return rows;
-}
-
-/**
- * A problem, wrapped to fit rather than scrolled.
- *
- * A picture cannot reflow: on a phone a ~500pt-wide problem either shrinks below
- * reading size or runs off the side. So where it doesn't fit, the artwork is cut at
- * pre-measured whitespace and the pieces are stacked — each row a CSS window onto the
- * same PNG, so this costs no extra asset and no extra request. Where it does fit, the
- * plain image is used untouched.
- */
 export function ArchiveArtwork({
   problem,
   width,
@@ -79,46 +22,31 @@ export function ArchiveArtwork({
   problem: ArchiveProblem;
   width: number;
 }) {
-  const box = useRef<HTMLDivElement>(null);
-  const [avail, setAvail] = useState(0);
+  const scroller = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
+  const [m, setM] = useState<Metrics>({ left: 0, view: 0, total: 0 });
 
-  useLayoutEffect(() => {
-    const el = box.current;
+  const measure = useCallback(() => {
+    const el = scroller.current;
     if (!el) return;
-    const ro = new ResizeObserver(([entry]) => setAvail(entry.contentRect.width));
-    ro.observe(el);
-    return () => ro.disconnect();
+    setM({ left: el.scrollLeft, view: el.clientWidth, total: el.scrollWidth });
   }, []);
 
-  const height = width / problem.ratio;
+  useLayoutEffect(() => {
+    const el = scroller.current;
+    if (!el) return;
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [measure]);
 
-  const layout = useMemo(() => {
-    const lines = problem.lines ?? [];
-    if (!avail || !lines.length) return null;
+  const overflow = Math.max(0, m.total - m.view);
+  const scrollable = overflow > OVERFLOW_EPSILON;
+  const atStart = m.left <= 1;
+  const atEnd = m.left >= overflow - 1;
 
-    const right = Math.max(...lines.map((segs) => segs[segs.length - 1][1]));
-    const content = right - problem.x0;
-    if (content <= 0) return null;
-    // Room to show it whole and still read it? Then don't touch it.
-    if (avail / content >= MIN_LEGIBLE_PX_PER_PT) return null;
-
-    const budget = avail / MIN_LEGIBLE_PX_PER_PT;
-    const rows: Array<Row & { firstOfLine: boolean }> = [];
-    let widest = 0;
-    for (const segs of lines) {
-      const packed = packLine(segs, problem.x0, budget, CONTINUATION_INDENT_PT);
-      packed.forEach((r, i) => {
-        widest = Math.max(widest, r.x1 - r.x0 + (r.carried ? CONTINUATION_INDENT_PT : 0));
-        rows.push({ ...r, firstOfLine: i === 0 });
-      });
-    }
-    if (!rows.length) return null;
-    // Every row now fits inside the budget, so grow the type back up until the widest
-    // one fills the column — wrapping bought room; spend it on legibility.
-    const scale = Math.min(MAX_PX_PER_PT, Math.max(MIN_LEGIBLE_PX_PER_PT, avail / widest));
-    return { rows, scale };
-  }, [problem, avail]);
+  const alt = `Problemă de BAC, ${problem.session} ${problem.year}`;
 
   if (failed) {
     return (
@@ -128,43 +56,126 @@ export function ArchiveArtwork({
     );
   }
 
-  const alt = `Problemă de BAC, ${problem.session} ${problem.year}`;
+  return (
+    <div>
+      <div className="relative">
+        <div
+          ref={scroller}
+          onScroll={measure}
+          // Focusable so the arrow keys can drive it too — the drag bar below is
+          // pointer affordance, not the only way across.
+          tabIndex={scrollable ? 0 : -1}
+          role={scrollable ? "region" : undefined}
+          aria-label={scrollable ? `${alt} (derulează lateral)` : undefined}
+          className="overflow-x-auto scrollbar-none rounded"
+        >
+          <img
+            src={problem.src}
+            alt={alt}
+            loading="lazy"
+            decoding="async"
+            onLoad={measure}
+            onError={() => setFailed(true)}
+            style={{
+              // Fill the column where there's room; below that hold a legible size
+              // and let the card scroll rather than shrink the maths away.
+              width: `max(100%, ${Math.round(width * MIN_LEGIBLE_PX_PER_PT)}px)`,
+              // The artwork's own ratio holds the space, so the list never jumps as
+              // images stream in.
+              aspectRatio: String(problem.ratio),
+            }}
+            className="h-auto block max-w-none"
+          />
+        </div>
+
+        {/* Edge fades: the line visibly keeps going. Each one is only drawn while
+            there is travel left on its side, so the maths it softens is always maths
+            you can scroll to — nothing is hidden where it can't be reached. */}
+        {scrollable && !atStart && (
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-paper to-transparent"
+          />
+        )}
+        {scrollable && !atEnd && (
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-paper to-transparent"
+          />
+        )}
+      </div>
+
+      {scrollable && <DragBar scroller={scroller} m={m} overflow={overflow} />}
+    </div>
+  );
+}
+
+/**
+ * The scrollbar the platform won't reliably draw. A touch overlay scrollbar fades out
+ * a second after it appears, so a problem that runs off the card looks like a problem
+ * that is simply cut off. This one is always there while there's anything to reach,
+ * and it's a handle in its own right: drag it, or drop the thumb anywhere on the track.
+ */
+function DragBar({
+  scroller,
+  m,
+  overflow,
+}: {
+  scroller: React.RefObject<HTMLDivElement>;
+  m: Metrics;
+  overflow: number;
+}) {
+  const track = useRef<HTMLDivElement>(null);
+  const [dragging, setDragging] = useState(false);
+
+  const progress = overflow > 0 ? Math.min(1, Math.max(0, m.left / overflow)) : 0;
+  // The thumb is the share of the problem you can currently see, so its size says how
+  // much is left — with a floor, since a very wide problem would otherwise leave a
+  // sliver too small to grab.
+  const thumbPct = Math.max(18, Math.min(100, (m.view / (m.total || 1)) * 100));
+
+  // Map a point on the track to a scroll offset. The thumb has width, so only
+  // `100 - thumbPct` of the track is actually travel — anchor to the thumb's centre.
+  const scrollTo = useCallback(
+    (clientX: number) => {
+      const el = scroller.current;
+      const rect = track.current?.getBoundingClientRect();
+      if (!el || !rect || rect.width <= 0) return;
+      const half = (thumbPct / 100) * rect.width * 0.5;
+      const travel = rect.width - half * 2;
+      const at = (clientX - rect.left - half) / (travel || 1);
+      el.scrollLeft = Math.min(1, Math.max(0, at)) * overflow;
+    },
+    [scroller, overflow, thumbPct],
+  );
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    e.preventDefault();
+    e.currentTarget.setPointerCapture(e.pointerId);
+    setDragging(true);
+    scrollTo(e.clientX);
+  };
 
   return (
-    <div ref={box}>
-      {layout ? (
-        <div role="img" aria-label={alt}>
-          {layout.rows.map((r, i) => (
-            <div
-              key={i}
-              aria-hidden
-              style={{
-                width: (r.x1 - r.x0) * layout.scale,
-                height: r.height * layout.scale,
-                marginTop:
-                  i === 0 ? 0 : (r.firstOfLine ? LINE_GAP_PT : ROW_GAP_PT) * layout.scale,
-                marginLeft: r.carried ? CONTINUATION_INDENT_PT * layout.scale : 0,
-                backgroundImage: `url(${problem.src})`,
-                backgroundSize: `${width * layout.scale}px ${height * layout.scale}px`,
-                backgroundPosition: `${-r.x0 * layout.scale}px ${-r.top * layout.scale}px`,
-                backgroundRepeat: "no-repeat",
-              }}
-            />
-          ))}
-        </div>
-      ) : (
-        <img
-          src={problem.src}
-          alt={alt}
-          loading="lazy"
-          decoding="async"
-          onError={() => setFailed(true)}
-          // The artwork's own ratio holds the space, so the list never jumps as
-          // images stream in.
-          style={{ aspectRatio: String(problem.ratio) }}
-          className="w-full h-auto block"
-        />
-      )}
+    <div
+      ref={track}
+      onPointerDown={onPointerDown}
+      onPointerMove={(e) => dragging && scrollTo(e.clientX)}
+      onPointerUp={() => setDragging(false)}
+      onPointerCancel={() => setDragging(false)}
+      aria-hidden
+      className="relative mt-2.5 h-4 cursor-grab touch-none select-none active:cursor-grabbing"
+    >
+      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-1.5 rounded-full bg-sunken border border-edge" />
+      <div
+        className={`absolute top-1/2 -translate-y-1/2 h-1.5 rounded-full transition-colors ${
+          dragging ? "bg-oxblood" : "bg-oxblood/60"
+        }`}
+        style={{
+          width: `${thumbPct}%`,
+          left: `${progress * (100 - thumbPct)}%`,
+        }}
+      />
     </div>
   );
 }

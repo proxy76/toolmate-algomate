@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from .generators.registry import PROFILES
-from .models import ExerciseSession
+from .models import ArchiveCompletion, ExerciseSession
 
 PROFILE_CHOICES = PROFILES
 
@@ -41,3 +41,13 @@ class ExerciseSessionSerializer(serializers.ModelSerializer):
         model = ExerciseSession
         fields = ("id", "profile", "topics", "difficulty", "seed", "items", "created_at")
         read_only_fields = ("id", "created_at")
+
+
+class ArchiveProgressSerializer(serializers.Serializer):
+    """One tick in the archive. `done=false` unticks it, so the client can send the
+    state it wants rather than track which verb applies."""
+
+    problem_id = serializers.CharField(
+        max_length=ArchiveCompletion._meta.get_field("problem_id").max_length
+    )
+    done = serializers.BooleanField()

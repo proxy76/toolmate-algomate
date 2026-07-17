@@ -1,7 +1,11 @@
+import { Check } from "lucide-react";
 import { Link, useSearchParams } from "react-router-dom";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
+import { api } from "../api";
+import { useAuth } from "../auth";
 import { ArchiveArtwork } from "../components/ArchiveArtwork";
+import { roCount } from "../ro";
 import { PROFILES, SUBJECTS } from "../types";
 import type { ArchiveIndex, ArchiveProblem, ArchiveSet, Profile } from "../types";
 
@@ -71,6 +75,7 @@ function Empty({ label }: { label: string }) {
 
 export function Arhiva() {
   const [params, setParams] = useSearchParams();
+  const { user } = useAuth();
 
   // The URL is shareable, so treat it as untrusted: a hand-edited `?ex=99` should
   // land on a real slot rather than a failed fetch.
@@ -92,6 +97,8 @@ export function Arhiva() {
   const [loading, setLoading] = useState(true);
   // "Couldn't load" and "not in the archive yet" are different things to be told.
   const [failed, setFailed] = useState(false);
+  // Ticked-off problems, across the whole archive — fetched once, not per slot.
+  const [done, setDone] = useState<Set<string>>(new Set());
 
   const patch = (next: Record<string, string>) => {
     const p = new URLSearchParams(params);
@@ -105,6 +112,43 @@ export function Arhiva() {
       .then(setIndex)
       .catch(() => setFailed(true));
   }, []);
+
+  useEffect(() => {
+    if (!user) {
+      setDone(new Set());
+      return;
+    }
+    let live = true;
+    api
+      .archiveProgress()
+      .then((p) => live && setDone(new Set(p.done)))
+      // Progress is an accompaniment to the archive, not a precondition for reading
+      // it. If it doesn't load, the problems still do.
+      .catch(() => {});
+    return () => {
+      live = false;
+    };
+  }, [user]);
+
+  const toggleDone = useCallback(
+    (id: string) => {
+      const next = !done.has(id);
+      // Optimistic: a tick should feel instant. On failure, put it back.
+      setDone((prev) => {
+        const s = new Set(prev);
+        next ? s.add(id) : s.delete(id);
+        return s;
+      });
+      api.setArchiveProgress(id, next).catch(() => {
+        setDone((prev) => {
+          const s = new Set(prev);
+          next ? s.delete(id) : s.add(id);
+          return s;
+        });
+      });
+    },
+    [done],
+  );
 
   const key = setKey(profile, subject, exercise);
   const available = !!index?.sets[key];
@@ -149,6 +193,13 @@ export function Arhiva() {
     [set],
   );
 
+  // Ticks in the slot on screen, so the count answers "how far am I through this
+  // exercise" rather than restating the archive-wide total shown on the dashboard.
+  const doneHere = useMemo(
+    () => problems.reduce((n, p) => n + (done.has(p.id) ? 1 : 0), 0),
+    [problems, done],
+  );
+
   const pick = (patchArgs: Record<string, string>) => {
     // A year that doesn't exist in the next set would filter the list to nothing.
     patch({ ...patchArgs, an: "" });
@@ -184,10 +235,18 @@ export function Arhiva() {
           {available ? (
             <>
               <span className="font-semibold text-ink-strong">
-                {problems.length}
+                {roCount(problems.length, "problemă", "probleme")}
               </span>{" "}
-              {problems.length === 1 ? "problemă" : "probleme"} · Subiectul{" "}
-              {subjectMeta.num === 1 ? "I" : subjectMeta.label}, exercițiul {exercise}
+              · Subiectul {subjectMeta.num === 1 ? "I" : subjectMeta.label}, exercițiul{" "}
+              {exercise}
+              {user && doneHere > 0 && (
+                <>
+                  {" · "}
+                  <span className="font-semibold text-oxblood">
+                    {roCount(doneHere, "rezolvată", "rezolvate")}
+                  </span>
+                </>
+              )}
             </>
           ) : (
             "—"
@@ -220,7 +279,12 @@ export function Arhiva() {
       ) : !available ? (
         <Empty label={PROFILES.find((p) => p.code === profile)?.label ?? ""} />
       ) : (
-        <Timeline problems={problems} width={set?.width ?? 500} />
+        <Timeline
+          problems={problems}
+          width={set?.width ?? 500}
+          done={done}
+          onToggle={user ? toggleDone : undefined}
+        />
       )}
     </div>
   );
@@ -400,7 +464,18 @@ function Slider({
  * is one slot seen across fourteen years, and reading it that way is the whole point —
  * the same question, asked again every June.
  */
-function Timeline({ problems, width }: { problems: ArchiveProblem[]; width: number }) {
+function Timeline({
+  problems,
+  width,
+  done,
+  onToggle,
+}: {
+  problems: ArchiveProblem[];
+  width: number;
+  done: Set<string>;
+  /** Absent for visitors — the archive reads fine signed-out, it just doesn't tick. */
+  onToggle?: (id: string) => void;
+}) {
   if (!problems.length) {
     return (
       <p className="py-16 text-center text-sm text-ink-muted">
@@ -436,7 +511,12 @@ function Timeline({ problems, width }: { problems: ArchiveProblem[]; width: numb
                   className="hidden md:block absolute -left-[1.65rem] top-[1.4rem] w-[7px] h-[7px] rounded-full bg-oxblood ring-4 ring-sunken"
                 />
               )}
-              <Card problem={p} width={width} />
+              <Card
+                problem={p}
+                width={width}
+                done={done.has(p.id)}
+                onToggle={onToggle}
+              />
             </li>
           );
         })}
@@ -445,15 +525,53 @@ function Timeline({ problems, width }: { problems: ArchiveProblem[]; width: numb
   );
 }
 
-function Card({ problem, width }: { problem: ArchiveProblem; width: number }) {
+function Card({
+  problem,
+  width,
+  done,
+  onToggle,
+}: {
+  problem: ArchiveProblem;
+  width: number;
+  done: boolean;
+  onToggle?: (id: string) => void;
+}) {
   return (
-    <figure className="bg-paper border border-edge rounded-xl overflow-hidden">
-      <figcaption className="px-4 pt-3 text-xs text-ink-muted">
-        {/* The spine carries the year on desktop; without it, every card says so. */}
-        <span className="md:hidden font-bold tabular-nums text-ink-strong">
-          {problem.year} ·{" "}
+    <figure
+      className={`bg-paper border rounded-xl overflow-hidden transition-colors ${
+        done ? "border-oxblood/35" : "border-edge"
+      }`}
+    >
+      <figcaption className="flex items-center justify-between gap-3 px-4 pt-3 text-xs text-ink-muted">
+        <span>
+          {/* The spine carries the year on desktop; without it, every card says so. */}
+          <span className="md:hidden font-bold tabular-nums text-ink-strong">
+            {problem.year} ·{" "}
+          </span>
+          {problem.session}
         </span>
-        {problem.session}
+        {onToggle && (
+          <button
+            type="button"
+            onClick={() => onToggle(problem.id)}
+            aria-pressed={done}
+            className={`shrink-0 inline-flex items-center gap-1.5 pl-1.5 pr-2.5 py-1 rounded-full border text-xs font-semibold transition-colors ${
+              done
+                ? "border-oxblood/30 bg-oxblood-tint text-oxblood-deep"
+                : "border-edge bg-paper text-ink-muted hover:border-oxblood/40 hover:text-ink"
+            }`}
+          >
+            <span
+              aria-hidden
+              className={`grid place-items-center w-4 h-4 rounded-full border transition-colors ${
+                done ? "border-oxblood bg-oxblood text-paper" : "border-edge"
+              }`}
+            >
+              {done && <Check className="w-2.5 h-2.5" strokeWidth={3.5} />}
+            </span>
+            {done ? "Rezolvată" : "Marchează"}
+          </button>
+        )}
       </figcaption>
       <div className="px-4 pb-4 pt-2">
         <ArchiveArtwork problem={problem} width={width} />

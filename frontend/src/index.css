@@ -24,6 +24,19 @@ body {
   padding-block: 0.25rem;
 }
 
+/* For scrollers that draw their own handle. The native bar would otherwise sit under
+   ours on desktop, and on touch it fades out a second after it appears — which is the
+   whole reason we draw one. */
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* A single, consistent keyboard-focus treatment across the app (WCAG 2.1 AA). */
 @layer base {
   :focus-visible {
