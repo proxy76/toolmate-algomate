@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
+import { Seo, SITE } from "../seo";
 import type { BlogPost } from "../types";
 
 export function BlogPostPage() {
@@ -42,6 +43,22 @@ export function BlogPostPage() {
 
   return (
     <article className="max-w-3xl mx-auto px-6 py-10 md:py-14">
+      <Seo
+        title={post.title}
+        description={post.excerpt || undefined}
+        path={`/blog/${post.slug}`}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: post.title,
+          description: post.excerpt || undefined,
+          datePublished: post.published_at || undefined,
+          inLanguage: "ro-RO",
+          author: { "@type": "Organization", name: SITE.name },
+          publisher: { "@type": "Organization", name: SITE.name },
+          mainEntityOfPage: `${SITE.url}/blog/${post.slug}`,
+        }}
+      />
       <Link
         to="/blog"
         className="inline-flex items-center gap-1.5 text-sm text-ink-muted font-medium hover:text-oxblood transition-colors"

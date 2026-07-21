@@ -9,11 +9,15 @@ import { BlogPostPage } from "./pages/BlogPost";
 import { Contact } from "./pages/Contact";
 import { Dashboard } from "./pages/Dashboard";
 import { Home } from "./pages/Home";
+import { Confidentialitate } from "./pages/legal/Confidentialitate";
+import { Cookies } from "./pages/legal/Cookies";
+import { Termeni } from "./pages/legal/Termeni";
 import { Login } from "./pages/Login";
 import { Practice } from "./pages/Practice";
 import { Register } from "./pages/Register";
 import { Simulate } from "./pages/Simulate";
 import { Verify } from "./pages/Verify";
+import { SeoManager } from "./seo";
 
 function PrivateRoute({ children }: { children: JSX.Element }) {
   const { user, loading } = useAuth();
@@ -34,6 +38,7 @@ export default function App() {
   return (
     <AuthProvider>
       <Layout>
+        <SeoManager />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/practice" element={<Practice />} />
@@ -42,6 +47,9 @@ export default function App() {
           <Route path="/blog" element={<BlogIndex />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/termeni" element={<Termeni />} />
+          <Route path="/confidentialitate" element={<Confidentialitate />} />
+          <Route path="/cookies" element={<Cookies />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/verify" element={<Verify />} />

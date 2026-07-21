@@ -13,16 +13,21 @@ export function Register() {
     password: "",
     profile: "mate-info" as Profile,
   });
+  const [accepted, setAccepted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState<string | null>(null);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
+    if (!accepted) {
+      setError("Trebuie să accepți Termenii și Condițiile pentru a crea un cont.");
+      return;
+    }
     setLoading(true);
     setError(null);
     try {
-      const res = await api.register(form);
+      const res = await api.register({ ...form, terms_accepted: accepted });
       setDone(res.detail);
     } catch (err) {
       setError(apiErrorMessage(err));
@@ -118,9 +123,37 @@ export function Register() {
             ))}
           </select>
         </Field>
+        <label className="flex items-start gap-2.5 text-sm text-ink-muted cursor-pointer">
+          <input
+            type="checkbox"
+            checked={accepted}
+            onChange={(e) => setAccepted(e.target.checked)}
+            required
+            className="mt-0.5 h-4 w-4 shrink-0 accent-oxblood cursor-pointer"
+          />
+          <span>
+            Sunt de acord cu{" "}
+            <Link
+              to="/termeni"
+              target="_blank"
+              className="text-oxblood font-semibold hover:underline"
+            >
+              Termenii și Condițiile
+            </Link>{" "}
+            și am citit{" "}
+            <Link
+              to="/confidentialitate"
+              target="_blank"
+              className="text-oxblood font-semibold hover:underline"
+            >
+              Politica de Confidențialitate
+            </Link>
+            .
+          </span>
+        </label>
         <button
           type="submit"
-          disabled={loading}
+          disabled={loading || !accepted}
           className="inline-flex w-full items-center justify-center gap-2 py-3 rounded-xl bg-oxblood text-paper font-bold hover:bg-oxblood-deep transition active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading && <Loader2 size={18} className="animate-spin" />}

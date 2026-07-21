@@ -1,5 +1,6 @@
 import { Loader2, Send } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { api, apiErrorMessage } from "../api";
 
@@ -87,6 +88,13 @@ export function Contact() {
           {loading ? <Loader2 size={18} className="animate-spin" /> : <Send size={18} />}
           {loading ? "Se trimite…" : "Trimite"}
         </button>
+        <p className="text-xs text-ink-faint">
+          Datele trimise prin acest formular sunt folosite doar pentru a-ți răspunde. Vezi{" "}
+          <Link to="/confidentialitate" className="text-oxblood hover:underline">
+            Politica de Confidențialitate
+          </Link>
+          .
+        </p>
       </form>
     </div>
   );

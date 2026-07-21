@@ -111,8 +111,13 @@ client.interceptors.response.use(
 
 export const api = {
   // auth
-  register: (data: { email: string; username: string; password: string; profile: Profile }) =>
-    client.post<{ detail: string }>("/auth/register/", data).then((r) => r.data),
+  register: (data: {
+    email: string;
+    username: string;
+    password: string;
+    profile: Profile;
+    terms_accepted: boolean;
+  }) => client.post<{ detail: string }>("/auth/register/", data).then((r) => r.data),
 
   verifyEmail: (token: string) =>
     client.post<{ detail: string }>("/auth/verify-email/", { token }).then((r) => r.data),

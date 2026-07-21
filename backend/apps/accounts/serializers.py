@@ -2,6 +2,7 @@ from uuid import uuid4
 
 from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password
+from django.utils import timezone
 from rest_framework import serializers
 from rest_framework_simplejwt.exceptions import AuthenticationFailed
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
@@ -44,10 +45,13 @@ class EmailOrUsernameTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, required=True)
+    # Consent to the Terms & Privacy Policy. Required and must be True — the
+    # timestamp is what we store as proof of consent (GDPR accountability).
+    terms_accepted = serializers.BooleanField(write_only=True, required=True)
 
     class Meta:
         model = User
-        fields = ("id", "email", "username", "password", "profile")
+        fields = ("id", "email", "username", "password", "profile", "terms_accepted")
         extra_kwargs = {
             "username": {"required": True, "min_length": 3, "max_length": 50},
         }
@@ -56,9 +60,17 @@ class RegisterSerializer(serializers.ModelSerializer):
         validate_password(value)
         return value
 
+    def validate_terms_accepted(self, value: bool) -> bool:
+        if not value:
+            raise serializers.ValidationError(
+                "Trebuie să accepți Termenii și Condițiile pentru a crea un cont."
+            )
+        return value
+
     def create(self, validated_data: dict) -> User:
         password = validated_data.pop("password")
-        user = User(**validated_data)
+        validated_data.pop("terms_accepted", None)
+        user = User(**validated_data, terms_accepted_at=timezone.now())
         user.set_password(password)
         user.save()
         return user
@@ -80,6 +92,7 @@ class AdminUserSerializer(serializers.ModelSerializer):
             "id", "email", "username", "profile",
             "date_joined", "last_login", "is_active", "is_staff",
             "generated_tests", "generated_problems", "downloaded_pdfs",
+            "terms_accepted_at",
         )
         read_only_fields = fields
 

@@ -29,6 +29,10 @@ class User(AbstractUser):
     # Email confirmation: new signups must click a link before they can log in.
     is_email_verified = models.BooleanField(default=False)
 
+    # GDPR accountability: when the user accepted the Terms & Privacy Policy at
+    # signup. Null for accounts created before this was recorded.
+    terms_accepted_at = models.DateTimeField(null=True, blank=True)
+
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = ["username"]
 

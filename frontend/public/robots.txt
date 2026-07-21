@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# App / auth pages — no indexing value
+Disallow: /login
+Disallow: /register
+Disallow: /verify
+Disallow: /dashboard
+Disallow: /admin
+
+Sitemap: https://laborator.algomate.ro/sitemap.xml

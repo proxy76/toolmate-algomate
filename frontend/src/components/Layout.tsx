@@ -216,6 +216,19 @@ export function Layout({ children }: { children: ReactNode }) {
           <p className="text-sm text-ink-muted">
             © {new Date().getFullYear()} Algomate. Platformă educațională de matematică pentru BAC.
           </p>
+          <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-sm text-ink-muted">
+            <Link to="/termeni" className="hover:text-oxblood transition-colors">
+              Termeni și Condiții
+            </Link>
+            <span className="text-edge" aria-hidden>·</span>
+            <Link to="/confidentialitate" className="hover:text-oxblood transition-colors">
+              Confidențialitate
+            </Link>
+            <span className="text-edge" aria-hidden>·</span>
+            <Link to="/cookies" className="hover:text-oxblood transition-colors">
+              Cookies
+            </Link>
+          </nav>
         </div>
       </footer>
       )}
